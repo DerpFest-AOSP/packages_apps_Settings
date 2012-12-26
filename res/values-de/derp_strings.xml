@@ -467,4 +467,11 @@
     <string name="auto_brightness_one_shot_title">Nur anwenden, wenn der Bildschirm eingeschaltet ist</string>
     <string name="auto_brightness_one_shot_summary">Die Anpassung erfolgt einmalig</string>
 
+    <plurals name="show_dev_countdown_cm">
+        <item quantity="one">Sie sind <xliff:g id="step_count">%1$d</xliff:g> Schritt vom Aktivieren der Entwicklereinstellungen entfernt.</item>
+        <item quantity="other">Sie sind <xliff:g id="step_count">%1$d</xliff:g> Schritte vom Aktivieren der Entwicklereinstellungen entfernt.</item>
+    </plurals>
+    <string name="show_dev_on_cm">Sie haben die Entwicklereinstellungen aktiviert!</string>
+    <string name="show_dev_already_cm">Nicht nötig, Sie haben die Entwicklereinstellungen bereits aktiviert.</string>
+
 </resources>
