@@ -227,4 +227,9 @@
     <string name="short_label">Kurz</string>
     <string name="long_label">Lang</string>
 
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Größe des Musters auswählen</string>
+    <string name="lockpattern_settings_enable_error_path_title">Sperrmuster-Fehler anzeigen</string>
+    <string name="lockpattern_settings_enable_dots_title">Sperrmuster-Punkte anzeigen</string>
+
 </resources>
