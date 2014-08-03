@@ -66,6 +66,10 @@
     <string name="package_version">App-Version</string>
     <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
 
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Zufällige Anordnung</string>
+    <string name="unlock_scramble_pin_layout_summary">Bei jedem Entsperrversuch die Ziffernanordnung zufällig neu wählen</string>
+
     <!-- Touchscreen gesture settings -->
     <string name="touchscreen_gesture_settings_title">Bildschirmgesten</string>
     <string name="touchscreen_gesture_settings_summary">Führe durch verschiedene Bildschirmgesten einige schnelle Aktionen aus</string>
