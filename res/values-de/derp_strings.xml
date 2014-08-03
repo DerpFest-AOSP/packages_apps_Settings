@@ -51,6 +51,10 @@
     <!-- In-call feedback -->
     <string name="incall_feeedback_vibrate_title">Vibrieren, um den Anrufstatus anzuzeigen</string>
 
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Zufällige Anordnung</string>
+    <string name="unlock_scramble_pin_layout_summary">Bei jedem Entsperrversuch die Ziffernanordnung zufällig neu wählen</string>
+
     <!-- Touchscreen gesture settings -->
     <string name="touchscreen_gesture_settings_title">Bildschirmgesten</string>
     <string name="touchscreen_gesture_settings_summary">Führe durch verschiedene Bildschirmgesten einige schnelle Aktionen aus</string>
