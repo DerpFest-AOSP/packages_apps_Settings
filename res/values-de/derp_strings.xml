@@ -49,6 +49,10 @@
     <string name="keyboard_no_navigation_title">IME-Schaltflächenbereich ausblenden</string>
     <string name="keyboard_no_navigation_summary">IME-Schaltflächenbereich unter der Tastatur ausblenden</string>
 
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Zufällige Anordnung</string>
+    <string name="unlock_scramble_pin_layout_summary">Bei jedem Entsperrversuch die Ziffernanordnung zufällig neu wählen</string>
+
     <!-- Touchscreen gesture settings -->
     <string name="touchscreen_gesture_settings_title">Bildschirmgesten</string>
     <string name="touchscreen_gesture_settings_summary">Führe durch verschiedene Bildschirmgesten einige schnelle Aktionen aus</string>
