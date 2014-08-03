@@ -60,6 +60,10 @@
     <string name="incall_vibrate_call_wait_title">Vibriere beim Anklopfen</string>
     <string name="incall_vibrate_disconnect_title">Vibriere beim Beenden des Anrufs</string>
 
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Zufällige Anordnung</string>
+    <string name="unlock_scramble_pin_layout_summary">Bei jedem Entsperrversuch die Ziffernanordnung zufällig neu wählen</string>
+
     <!-- Touchscreen gesture settings -->
     <string name="touchscreen_gesture_settings_title">Bildschirmgesten</string>
     <string name="touchscreen_gesture_settings_summary">Führe durch verschiedene Bildschirmgesten einige schnelle Aktionen aus</string>
