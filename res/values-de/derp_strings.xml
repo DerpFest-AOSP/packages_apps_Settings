@@ -262,4 +262,9 @@
     <string name="tethering_allow_vpn_upstreams_title">Clients erlauben VPN zu verwenden</string>
     <string name="tethering_allow_vpn_upstreams_summary">Erlaubt Hotspot-Clients die VPN-Verbindungen dieses Gerätes für die Upstream-Konnektivität zu verwenden</string>
 
+    <!-- Changelog -->
+    <string name="changelog_title">Änderungshistorie</string>
+    <string name="changelog_summary">Seit dem letzten Update</string>
+    <string name="changelog_error">Changelog kann nicht geladen werden</string>
+
 </resources>
