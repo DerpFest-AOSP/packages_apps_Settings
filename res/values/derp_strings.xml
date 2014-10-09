@@ -782,4 +782,9 @@
     <string name="lid_behavior_none">None</string>
     <string name="lid_behavior_lock">Lock/Unlock</string>
     <string name="lid_behavior_sleep">Sleep/Wake</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">Since the last update</string>
+    <string name="changelog_error">Unable to load changelog</string>
 </resources>

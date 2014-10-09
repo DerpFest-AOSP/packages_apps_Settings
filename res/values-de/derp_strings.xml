@@ -719,4 +719,9 @@
     <string name="lid_behavior_none">Nichts tun</string>
     <string name="lid_behavior_lock">Sperren/Entsperren</string>
     <string name="lid_behavior_sleep">Schlafen/Aufwecken</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Änderungshistorie</string>
+    <string name="changelog_summary">Seit dem letzten Update</string>
+    <string name="changelog_error">Changelog kann nicht geladen werden</string>
 </resources>
