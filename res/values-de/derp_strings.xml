@@ -699,4 +699,9 @@
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Helligkeitssteuerung</string>
     <string name="status_bar_toggle_brightness_summary">Helligkeit durch Wischen über die Statusleiste anpassen</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Änderungshistorie</string>
+    <string name="changelog_summary">Seit dem letzten Update</string>
+    <string name="changelog_error">Changelog kann nicht geladen werden</string>
 </resources>
