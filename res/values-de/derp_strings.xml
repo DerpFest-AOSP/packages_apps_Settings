@@ -224,4 +224,9 @@
     <string name="volume_panel_haptics_summary">Haptisches Feedback bei Lautstärkeregelung mithilfe des Schiebereglers</string>
     <string name="brightness_slider_haptics_title">Helligkeitsregelung</string>
     <string name="brightness_slider_haptics_summary">Haptisches Feedback bei Helligkeitsregelung mithilfe des Schiebereglers</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Änderungshistorie</string>
+    <string name="changelog_summary">Seit dem letzten Update</string>
+    <string name="changelog_error">Changelog kann nicht geladen werden</string>
 </resources>
