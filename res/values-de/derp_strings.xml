@@ -636,4 +636,9 @@
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Kein Zertifikat angegeben. Ihre Verbindung wird nicht privat sein.</string>
 
+    <!-- Changelog -->
+    <string name="changelog_title">Änderungshistorie</string>
+    <string name="changelog_summary">Seit dem letzten Update</string>
+    <string name="changelog_error">Changelog kann nicht geladen werden</string>
+
 </resources>
