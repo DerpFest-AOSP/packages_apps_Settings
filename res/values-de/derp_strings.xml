@@ -83,4 +83,8 @@
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">Touchscreen als Maus verwenden</string>
     <string name="touchscreen_hovering_summary">Erlaubt es, den über dem Touchscreen schwebenden Finger im Browser, Remote Desktop usw. als Mauszeiger zu verwenden.</string>
+
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Beim Einstecken aufwecken</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Beim Anschließen oder Trennen einer Stromquelle den Bildschirm einschalten</string>
 </resources>
