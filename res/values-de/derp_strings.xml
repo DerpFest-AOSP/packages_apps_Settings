@@ -508,4 +508,8 @@
     <string name="data_usage_daily">Täglich</string>
     <string name="data_usage_monthly">Monatlich</string>
 
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Beim Einstecken aufwecken</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Beim Anschließen oder Trennen einer Stromquelle den Bildschirm einschalten</string>
+
 </resources>

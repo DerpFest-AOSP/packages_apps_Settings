@@ -532,4 +532,8 @@
     <string name="data_usage_daily">Daily</string>
     <string name="data_usage_monthly">Monthly</string>
 
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+
 </resources>
