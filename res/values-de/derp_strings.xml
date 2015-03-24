@@ -410,4 +410,16 @@
     <string name="app_notification_sound_timeout_value_15_minutes">10 Minuten</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 Minuten</string>
 
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_title">Lautstärkestufen</string>
+    <string name="volume_steps_summary">Legen Sie eine benutzerdefinierte Anzahl von Lautstärkestufen fest</string>
+    <string name="volume_steps_alarm_title">Lautstärkestufen: Wecker</string>
+    <string name="volume_steps_dtmf_title">Lautstärkestufen: DTMF</string>
+    <string name="volume_steps_music_title">Lautstärkestufen: Musik</string>
+    <string name="volume_steps_notification_title">Lautstärkestufen: Benachrichtigung</string>
+    <string name="volume_steps_ring_title">Lautstärkestufen: Klingelton</string>
+    <string name="volume_steps_system_title">Lautstärkestufen: System</string>
+    <string name="volume_steps_voice_call_title">Lautstärkestufen: Sprachanruf</string>
+    <string name="volume_steps_reset">Zurücksetzen</string>
+
 </resources>
