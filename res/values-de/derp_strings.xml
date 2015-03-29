@@ -456,4 +456,7 @@
     <string name="back_gesture_haptic_title">Haptisches Feedback</string>
     <string name="back_gesture_haptic_summary">Aktiviert den haptischen Tick-Effekt bei der Zurück-Geste</string>
 
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Ton bei Screenshot</string>
+
 </resources>
