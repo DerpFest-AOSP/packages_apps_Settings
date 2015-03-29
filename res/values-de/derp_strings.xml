@@ -665,4 +665,7 @@
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Eine schwebende Schaltfläche zum Drehen einblenden</string>
 
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Ton bei Screenshot</string>
+
 </resources>
