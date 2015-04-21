@@ -74,6 +74,10 @@
     <string name="auto_brightness_one_shot_title">Einmalige automatische Helligkeitseinstellung</string>
     <string name="auto_brightness_one_shot_summary">Helligkeitsanpassung erfolgt nur beim Einschalten des Bildschirms</string>
 
+    <!-- Heads-up -->
+    <string name="heads_up_notifications_enabled_title">Pop-up</string>
+    <string name="heads_up_notifications_enabled_summary">Wichtige Benachrichtigungen in einem kleinen, schwebenden Fenster anzeigen</string>
+
     <!-- High touch polling rate -->
     <string name="high_touch_polling_rate_title">Hohe Touchscreen-Abtastrate</string>
     <string name="high_touch_polling_rate_summary">Touchscreen-Abtastrate erhöhen</string>
