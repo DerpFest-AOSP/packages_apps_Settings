@@ -15,4 +15,14 @@
     <!-- DerpFest maintainer -->
     <string name="maintainer">Entwickler</string>
 
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Bildschirmausrichtung</string>
+    <string name="display_rotation_enabled">Automatische Bildschirmausrichtung aktiviert</string>
+    <string name="display_rotation_disabled">Automatische Bildschirmausrichtung deaktiviert</string>
+    <string name="display_rotation_unit">Grad</string>
+    <string name="display_rotation_category_title">Bildschirmausrichtung bei</string>
+    <string name="display_rotation_0_title">0 Grad</string>
+    <string name="display_rotation_90_title">90 Grad</string>
+    <string name="display_rotation_180_title">180 Grad</string>
+    <string name="display_rotation_270_title">270 Grad</string>
 </resources>
