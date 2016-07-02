@@ -121,4 +121,7 @@
     <string name="lockscreen_tweaks_category_title">What to do?</string>
     <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
 
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
 </resources>
