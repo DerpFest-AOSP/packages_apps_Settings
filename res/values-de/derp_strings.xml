@@ -480,4 +480,8 @@
     <!-- Custom Wi-Fi bar icons -->
     <string name="custom_wifi_bar_title">WLAN-Symbol</string>
 
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
+    <string name="unlock_quick_unlock_control_summary">Die Sperre wird automatisch aufgehoben, wenn PIN/Passwort richtig eingegeben wurde</string>
+
 </resources>
