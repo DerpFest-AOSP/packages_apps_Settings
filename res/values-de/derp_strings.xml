@@ -399,4 +399,15 @@
     <string name="volume_key_cursor_control_on">Lauter-/Leiser-Taste bewegt den Cursor nach links/rechts</string>
     <string name="volume_key_cursor_control_on_reverse">Lauter-/Leiser-Taste bewegt den Cursor nach rechts/links</string>
 
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Minimale Zeit zwischen Benachrichtigungstönen</string>
+    <string name="app_notification_sound_timeout_summary_template">Töne und Vibrationen nur alle <xliff:g id="duration">%1$s</xliff:g> zulassen</string>
+    <string name="app_notification_sound_timeout_value_none">Keine Beschränkung</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 Sekunden</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 Sekunden</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 Minute</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 Minuten</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 Minuten</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 Minuten</string>
+
 </resources>
