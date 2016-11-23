@@ -86,4 +86,8 @@
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s heute</string>
 
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Wiedergabesteuerung</string>
+    <string name="volume_button_music_control_summary">Wenn der Bildschirm ausgeschaltet ist, werden durch langes Drücken der Lautstärketasten Musiktitel übersprungen</string>
+
 </resources>
