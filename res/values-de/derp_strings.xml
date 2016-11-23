@@ -258,4 +258,8 @@
     <string name="incall_vibrate_call_wait_title">Vibriere beim Anklopfen</string>
     <string name="incall_vibrate_disconnect_title">Vibriere beim Beenden des Anrufs</string>
 
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Wiedergabesteuerung</string>
+    <string name="volume_button_music_control_summary">Wenn der Bildschirm ausgeschaltet ist, werden durch langes Drücken der Lautstärketasten Musiktitel übersprungen</string>
+
 </resources>
