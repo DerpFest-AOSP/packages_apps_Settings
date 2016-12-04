@@ -111,4 +111,12 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Wischen zum Screenshot</string>
     <string name="three_finger_gesture_summary">Wischen Sie mit drei Fingern, um einen Screenshot aufzunehmen</string>
+
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_mobile">Mobile Daten</string>
+    <string name="data_usage_app_restrict_mobile_summary">Mobildatennutzung erlauben</string>
+    <string name="data_usage_app_restrict_vpn">VPN-Daten</string>
+    <string name="data_usage_app_restrict_vpn_summary">VPN-Datennutzung erlauben</string>
+    <string name="data_usage_app_restrict_wifi">WLAN-Daten</string>
+    <string name="data_usage_app_restrict_wifi_summary">WLAN-Datenzugriff erlauben</string>
 </resources>
