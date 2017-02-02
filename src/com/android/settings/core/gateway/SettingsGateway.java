@@ -40,6 +40,7 @@ import com.android.settings.accounts.ManagedProfileSettings;
 import com.android.settings.applications.AppDashboardFragment;
 import com.android.settings.applications.ProcessStatsSummary;
 import com.android.settings.applications.ProcessStatsUi;
+import com.android.settings.applications.RunningServices;
 import com.android.settings.applications.UsageAccessDetails;
 import com.android.settings.applications.appinfo.AlarmsAndRemindersDetails;
 import com.android.settings.applications.appinfo.AppInfoDashboardFragment;
@@ -354,7 +355,8 @@ public class SettingsGateway {
             TurnScreenOnDetails.class.getName(),
             DerpSpace.class.getName(),
             WifiTetherClientManager.class.getName(),
-            SecurityHubDashboard.class.getName()
+            SecurityHubDashboard.class.getName(),
+            RunningServices.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -398,5 +400,6 @@ public class SettingsGateway {
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
             Settings.DerpSpaceSettingsActivity.class.getName(),
+            Settings.DevRunningServicesActivity.class.getName(),
     };
 }
