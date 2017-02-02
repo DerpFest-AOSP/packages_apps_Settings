@@ -790,4 +790,7 @@
     <string name="double_tap_title">Doppelt Tippen</string>
     <string name="doze_double_tap_title">Doppelt tippen, um einen schnellen Blick auf das Smartphone-Display zu werfen</string>
     <string name="doze_double_tap_summary">Benachrichtigungen durch doppeltes Tippen anzeigen</string>
+
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Hintergrundprozesse</string>
 </resources>

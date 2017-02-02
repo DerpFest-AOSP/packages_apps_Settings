@@ -40,6 +40,7 @@ import com.android.settings.accounts.ManagedProfileSettings;
 import com.android.settings.applications.AppDashboardFragment;
 import com.android.settings.applications.ProcessStatsSummary;
 import com.android.settings.applications.ProcessStatsUi;
+import com.android.settings.applications.RunningServices;
 import com.android.settings.applications.UsageAccessDetails;
 import com.android.settings.applications.appcompat.UserAspectRatioDetails;
 import com.android.settings.applications.appinfo.AlarmsAndRemindersDetails;
@@ -377,6 +378,7 @@ public class SettingsGateway {
             UserAspectRatioDetails.class.getName(),
             ScreenTimeoutSettings.class.getName(),
             DerpSpace.class.getName(),
+            RunningServices.class.getName(),
             WifiTetherClientManager.class.getName()
     };
 
@@ -425,5 +427,6 @@ public class SettingsGateway {
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
             Settings.DerpSpaceSettingsActivity.class.getName(),
+            Settings.DevRunningServicesActivity.class.getName(),
     };
 }

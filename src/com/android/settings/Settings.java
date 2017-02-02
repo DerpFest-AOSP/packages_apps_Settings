@@ -483,4 +483,6 @@ public class Settings extends SettingsActivity {
 
     // DerpSpace
     public static class DerpSpaceSettingsActivity extends SettingsActivity {}
+
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }
