@@ -761,4 +761,7 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Inaktivitätsdisplay beim Laden</string>
     <string name="doze_on_charge_summary">Zeit und Informationen werden ausschließlich beim Laden angezeigt</string>
+
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Hintergrundprozesse</string>
 </resources>
