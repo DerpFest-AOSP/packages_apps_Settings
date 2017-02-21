@@ -379,4 +379,8 @@
     <string name="app_volume">App-Lautstärke</string>
     <string name="app_volume_title">Lautstärkeregelung per App</string>
     <string name="app_volume_summary">Ermöglicht die Einstellung unterschiedlicher Lautstärken für jede App.\nHINWEIS: Dadurch wird der Multi-Audio-Fokus aktiviert</string>
+
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Taschen-Erkennung</string>
+    <string name="pocket_judge_summary">Verhindert Bildschirm- und Tasteneingaben, wenn sich das Gerät in einer Tasche befindet</string>
 </resources>
