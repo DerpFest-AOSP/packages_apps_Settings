@@ -783,4 +783,8 @@
     <string name="always_on_display_schedule_sunrise">Sonnenaufgang</string>
     <string name="always_on_display_schedule_mixed_sunset">Schaltet sich von Sonnenuntergang bis zu einer bestimmten Uhrzeit ein</string>
     <string name="always_on_display_schedule_mixed_sunrise">Schaltet sich ab einer bestimmten Uhrzeit bis zum Sonnenaufgang ein</string>
+
+    <!-- Pocket mode -->
+    <string name="pocket_judge_title">Taschenerkennung</string>
+    <string name="pocket_judge_summary">Bildschirm- und Tasteneingaben blockieren, wenn das Gerät in der Tasche steckt</string>
 </resources>
