@@ -45,6 +45,14 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.MainlineModuleVersionPreferenceController"/>
 
+    <!-- DerpFest Version -->
+    <Preference
+        android:key="derp_version"
+        android:title="@string/derp_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.DerpFestVersionPreferenceController"/>
+
     <!-- Baseband -->
     <Preference
         android:key="base_band"
