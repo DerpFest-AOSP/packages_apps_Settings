@@ -56,4 +56,8 @@
 
     <!-- In-call feedback -->
     <string name="incall_feeedback_vibrate_title">Vibrate to indicate call status</string>
+
+    <!-- Touchscreen gesture settings -->
+    <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
+    <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
 </resources>
