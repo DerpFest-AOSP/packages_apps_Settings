@@ -54,4 +54,8 @@
     <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
     <string name="keyboard_no_navigation_title">Hide keyboard navigation bar</string>
     <string name="keyboard_no_navigation_summary">Hide the navigation bar under screen keyboard</string>
+
+    <!-- Touchscreen gesture settings -->
+    <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
+    <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
 </resources>
