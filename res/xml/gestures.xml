@@ -97,4 +97,13 @@
             android:targetPackage="com.android.touch.gestures"
             android:targetClass="com.android.touch.gestures.TouchscreenGestureSettings" />
     </org.derpfest.support.preferences.RemotePreference>
+
+    <org.derpfest.support.preferences.RemotePreference
+            android:key="device_touchscreen_gesture_settings"
+            android:title="@string/touchscreen_gesture_settings_title"
+            android:summary="@string/touchscreen_gesture_settings_summary"
+            settings:replacesKey="touchscreen_gesture_settings"
+            settings:requiresAction="org.lineageos.settings.device.GESTURE_SETTINGS">
+        <intent android:action="org.lineageos.settings.device.GESTURE_SETTINGS" />
+    </org.derpfest.support.preferences.RemotePreference>
 </PreferenceScreen>
