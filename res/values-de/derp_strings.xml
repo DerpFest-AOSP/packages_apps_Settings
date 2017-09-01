@@ -166,4 +166,8 @@
     <string name="double_tap_sleep_gesture_title">Doppeltippen für Standby</string>
     <string name="double_tap_sleep_gesture_summary">Statusleiste zweimal antippen, um das Gerät in den Standby-Modus zu versetzen</string>
 
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">Was tun</string>
+    <string name="double_tap_sleep_lockscreen_title">Sperrbildschirm doppeltippen für Ruhemodus</string>
+
 </resources>
