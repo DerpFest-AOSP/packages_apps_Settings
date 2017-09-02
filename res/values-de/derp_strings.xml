@@ -497,4 +497,14 @@
     <string name="wakelock_blocker_reload">Neu laden</string>
     <string name="wakelock_blocker_warning_title">Mit Vorsicht fortfahren</string>
     <string name="wakelock_blocker_warning">Das Blockieren von Wakelocks kann zu Instabilität, Abstürzen oder Datenverlust führen.</string>
+
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker">Alarm-Blocker</string>
+    <string name="alarm_blocker_title">Aktivieren</string> 
+    <string name="alarm_blocker_summary">Alarme bei ausgeschaltetem Bildschirm blockieren</string>
+    <string name="alarm_blocker_save">Save</string>
+    <string name="alarm_list_header">Verfügbare Alarme</string>
+    <string name="alarm_blocker_reload">Neu laden</string>
+    <string name="alarm_blocker_warning_title">Mit Vorsicht fortfahren</string>
+    <string name="alarm_blocker_warning">Das Blockieren von Alarmen kann zu Instabilität, Abstürzen oder Datenverlust führen.</string>
 </resources>
