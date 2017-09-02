@@ -148,6 +148,12 @@
             android:fragment="com.android.settings.development.qstile.DevelopmentTileConfigFragment" />
 
         <Preference
+            android:key="alarm_blocker"
+            android:title="@string/alarm_blocker"
+            android:summary="@string/alarm_blocker_summary"
+            android:fragment="com.android.settings.development.AlarmBlocker" />
+
+        <Preference
             android:key="wakelock_blocker"
             android:title="@string/wakelock_blocker_title"
             android:summary="@string/wakelock_blocker_summary"
