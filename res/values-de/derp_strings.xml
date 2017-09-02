@@ -794,4 +794,13 @@
     <string name="usb_default_config_title">USB-Konfiguration</string>
     <string name="usb_default_config_summary">Standardverhalten bei Verbindung mit einem Gerät über USB</string>
 
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Wakelock Blocker</string>
+    <string name="wakelock_blocker_summary">Blockiert systemeigene Wakelocks</string>
+    <string name="wakelock_blocker_save">Speichern</string>
+    <string name="wakelock_list_header">Verfügbare Wakelocks</string>
+    <string name="wakelock_blocker_reload">Aktualisieren</string>
+    <string name="wakelock_blocker_warning_title">Fortfahren auf eigene Gefahr</string>
+    <string name="wakelock_blocker_warning">Blockieren von Wakelocks kann zu Instabilität, Abstürzen oder Datenverlust führen</string>
+
 </resources>
