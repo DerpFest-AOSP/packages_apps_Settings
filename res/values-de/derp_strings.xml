@@ -29,4 +29,7 @@
     <string name="lockpattern_settings_enable_error_path_title">Sperrmuster-Fehler anzeigen</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Sperrmuster-Punkte anzeigen</string>
+
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">Vibrieren, um den Anrufstatus anzuzeigen</string>
 </resources>
