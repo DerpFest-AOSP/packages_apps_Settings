@@ -177,6 +177,14 @@
             android:title="@string/tap_to_wake"
             android:summary="@string/tap_to_wake_summary"/>
 
+        <!-- Double tap to sleep -->
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_gesture"
+            android:title="@string/status_bar_double_tap_to_sleep_lockscreen_title"
+            android:summary="@string/status_bar_double_tap_to_sleep_lockscreen_summary"
+            android:defaultValue="@*android:bool/config_dt2sGestureEnabledByDefault"
+            settings:requiresConfig="@*android:bool/config_dt2sGestureAvailable" />
+
         <ListPreference
             android:key="theme"
             android:title="@string/device_theme"
