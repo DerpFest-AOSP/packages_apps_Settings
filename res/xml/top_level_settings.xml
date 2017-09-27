@@ -191,7 +191,7 @@
         android:key="top_level_system"
         android:order="10"
         android:title="@string/header_category_system"
-        android:summary="@string/system_dashboard_summary"
+        android:summary="@string/system_dashboard_custom_summary"
         settings:highlightableMenuKey="@string/menu_key_system"/>
 
     <com.android.settings.widget.HomepagePreference
