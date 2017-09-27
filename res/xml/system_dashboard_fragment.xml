@@ -94,6 +94,17 @@
         android:fragment="com.android.settings.datetime.DateTimeSettings"
         settings:controller="com.android.settings.datetime.DateTimePreferenceController"/>
 
+    <Preference
+        android:key="update_settings"
+        android:title="@string/update_settings_title"
+        android:summary="@string/update_settings_summary"
+        android:icon="@drawable/ic_system_update"
+        android:order="-230">
+        <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="@string/update_package"
+                android:targetClass="@string/update_activity" />
+    </Preference>
+
     <!-- System updates -->
     <Preference
         android:key="additional_system_update_settings"
