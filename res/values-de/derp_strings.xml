@@ -18,6 +18,13 @@
     <!-- DerpFest maintainer -->
     <string name="maintainer">Entwickler</string>
 
+    <!-- DerpFest Updater -->
+    <string name="update_settings_title">DerpFest-Updater</string>
+    <string name="update_settings_summary">Auf neue DerpFest-Updates überprüfen</string>
+
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <string name="system_dashboard_custom_summary">Sprachen, Gesten, Updater, Zeit und Sicherung</string>
+
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tippen, um Informationen anzuzeigen</string>
 
