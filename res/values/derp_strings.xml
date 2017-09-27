@@ -24,6 +24,15 @@
     <string name="maintainer_name" translatable="false">Unknown</string>
     <string name="maintainer_telegram" translatable="false">https://t.me/DerpFest5T</string>
 
+    <!-- DerpFest Updater -->
+    <string name="update_settings_title">DerpFest Updater</string>
+    <string name="update_settings_summary">Check for the latest version of DerpFest</string>
+    <string name="update_package" translatable="false">org.lineageos.updater</string>
+    <string name="update_activity" translatable="false">org.lineageos.updater.UpdatesActivity</string>
+
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <string name="system_dashboard_custom_summary">Languages, gestures, updater, time, backup</string>
+
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Always on when charging</string>
     <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
