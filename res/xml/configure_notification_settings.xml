@@ -163,9 +163,18 @@
             android:title="@string/notification_pulse_title"
             settings:controller="com.android.settings.notification.PulseNotificationPreferenceController"/>
 
+        <!-- Notification light, on devices that support it -->
+        <Preference
+            android:key="notification_lights"
+            android:order="24"
+            android:title="@string/notification_light_title"
+            android:summary="@string/notification_light_summary"
+            android:fragment="com.android.settings.derp.notificationlight.NotificationLightSettings"
+            settings:controller="com.android.settings.derp.notificationlight.NotificationLightPreferenceController" />
+
         <com.android.settingslib.PrimarySwitchPreference
             android:key="notification_assistant"
-            android:order="24"
+            android:order="25"
             android:title="@string/notification_assistant_title"
             android:summary="@string/notification_assistant_summary"
             settings:controller="com.android.settings.notification.NotificationAssistantPreferenceController"/>
@@ -173,7 +182,7 @@
         <!-- Heads up -->
         <org.derpfest.support.preferences.GlobalSettingSwitchPreference
             android:key="heads_up_notifications_enabled"
-            android:order="25"
+            android:order="26"
             android:title="@string/heads_up_notifications_enabled_title"
             android:summary="@string/heads_up_notifications_enabled_summary"
             android:defaultValue="true" />
