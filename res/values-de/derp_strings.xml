@@ -227,6 +227,7 @@
 
     <!-- Battery light settings -->
     <string name="battery_light_title">Akku-LED</string>
+    <string name="battery_light_summary">Anpassen des Verhaltens der Akkuladeleuchte</string>
     <string name="battery_light_enable_title">Akkulicht aktivieren</string>
     <string name="battery_low_pulse_title">Bei schwachem Akku pulsieren</string>
     <string name="battery_light_full_charge_disabled_title">Ausschalten, wenn vollständig geladen</string>
@@ -237,6 +238,7 @@
 
     <!-- Lights settings screen, notification light settings -->
     <string name="notification_light_title">Benachrichtigungs-LED</string>
+    <string name="notification_light_summary">Anpassen des Verhaltens der Benachrichtigungs-LED</string>
     <string name="notification_light_enable_title">Benachrichtigungslicht aktivieren</string>
     <string name="notification_light_general_title">Allgemein</string>
     <string name="notification_light_advanced_title">Erweitert</string>
