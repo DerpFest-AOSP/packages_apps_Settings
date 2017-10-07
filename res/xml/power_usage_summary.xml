@@ -51,12 +51,13 @@
         settings:keywords="@string/keywords_battery_saver"
         settings:controller="com.android.settings.fuelgauge.BatterySaverController" />
 
+    <!-- Battery light -->
     <Preference
-        android:fragment="com.android.settings.fuelgauge.SmartBatterySettings"
-        android:key="smart_battery_manager"
-        android:title="@string/smart_battery_manager_title"
-        settings:controller="com.android.settings.fuelgauge.batterytip.BatteryManagerPreferenceController"
-        settings:keywords="@string/keywords_battery_adaptive_preferences" />
+        android:key="battery_lights"
+        android:title="@string/battery_light_title"
+        android:summary="@string/battery_light_summary"
+        android:fragment="com.android.settings.derp.notificationlight.BatteryLightSettings"
+        settings:controller="com.android.settings.derp.notificationlight.BatteryLightPreferenceController" />
 
     <SwitchPreferenceCompat
         android:key="battery_percentage"
