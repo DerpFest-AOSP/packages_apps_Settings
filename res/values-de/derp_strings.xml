@@ -398,4 +398,9 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Inaktivitätsdisplay beim Laden</string>
     <string name="doze_on_charge_summary">Zeit und Informationen werden ausschließlich beim Laden angezeigt</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Ansteigende Klingeltonlautstärke</string>
+    <string name="increasing_ring_min_volume_title">Anfangslautstärke</string>
+    <string name="increasing_ring_ramp_up_time_title">Anstiegszeit</string>
 </resources>
