@@ -394,4 +394,9 @@
     <!-- Others settings -->
     <string name="others_settings_title">Weitere Einstellungen</string>
     <string name="additional_buttons_title">Weitere Tasten</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Ansteigende Klingeltonlautstärke</string>
+    <string name="increasing_ring_min_volume_title">Anfangslautstärke</string>
+    <string name="increasing_ring_ramp_up_time_title">Anstiegszeit</string>
 </resources>
