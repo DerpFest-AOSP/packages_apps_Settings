@@ -891,4 +891,8 @@
 
     <!-- Skip biometric manual confirmation -->
     <string name="skip_biometric_auth_confirmation_title">Manuelle Bestätigung überspringen</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_sounds_custom_title">Ton beim Aufladen</string>
+    <string name="charging_vibro_title">Vibration beim Aufladen</string>
 </resources>
