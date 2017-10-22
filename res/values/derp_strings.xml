@@ -907,4 +907,8 @@
 
     <!-- Advanced sound settings -->
     <string name="sound_settings_advanced_title">Additional settings</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_sounds_custom_title">Charging sound</string>
+    <string name="charging_vibro_title">Charging vibration</string>
 </resources>

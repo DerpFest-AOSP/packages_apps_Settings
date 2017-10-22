@@ -862,4 +862,8 @@
 
     <!-- Advanced sound settings -->
     <string name="sound_settings_advanced_title">Erweiterte Einstellungen</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_sounds_custom_title">Ton beim Laden</string>
+    <string name="charging_vibro_title">Vibration beim Laden</string>
 </resources>

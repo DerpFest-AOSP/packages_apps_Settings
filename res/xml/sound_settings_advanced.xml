@@ -37,8 +37,14 @@
     <!-- Charging sounds -->
     <SwitchPreferenceCompat
         android:key="charging_sounds"
-        android:title="@string/charging_sounds_title"
+        android:title="@string/charging_sounds_custom_title"
         android:order="-40"/>
+
+    <!-- Charging vibro -->
+    <SwitchPreferenceCompat
+        android:key="charging_vibro"
+        android:title="@string/charging_vibro_title"
+        android:order="-37"/>
 
     <!-- Docking sounds -->
     <SwitchPreferenceCompat
