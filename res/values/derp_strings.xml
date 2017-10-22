@@ -756,4 +756,8 @@
     <!-- Hardware info -->
     <string name="soc_model">SoC Model</string>
     <string name="total_ram">Total RAM</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_sounds_custom_title">Charging sound</string>
+    <string name="charging_vibro_title">Charging vibration</string>
 </resources>
