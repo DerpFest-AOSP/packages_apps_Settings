@@ -19,4 +19,7 @@
     <!-- Whether to show refresh rate switch in display settings -->
     <bool name="config_show_refresh_rate_switch">false</bool>
 
+    <!-- Device specific doze package -->
+    <string name="config_customDozePackage" translatable="false"></string>
+
 </resources>
