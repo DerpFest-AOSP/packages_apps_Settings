@@ -277,4 +277,8 @@
     <string name="arcane_idle_manager_title">Idle-Manager</string>
     <string name="arcane_idle_manager_summary">Stoppt alle nicht wesentlichen Hintergrundprozesse, wenn das Gerät inaktiv ist</string>
 
+     <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Lautstärketaste zum Aufwecken</string>
+    <string name="volume_rocker_wake_summary">Drücken der Lautstärketaste beendet den Ruhezustand</string>
+
 </resources>

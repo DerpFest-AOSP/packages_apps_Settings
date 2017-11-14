@@ -306,4 +306,8 @@
     <string name="arcane_idle_manager_title">Idle Manager</string>
     <string name="arcane_idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
 
+     <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Volume wake</string>
+    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+
 </resources>

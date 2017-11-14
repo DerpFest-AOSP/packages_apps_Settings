@@ -93,9 +93,17 @@
         android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
         settings:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
 
+    <com.derp.support.preferences.SystemSettingSwitchPreference
+        android:key="volume_rocker_wake"
+        android:title="@string/volume_rocker_wake_title"
+        android:summary="@string/volume_rocker_wake_summary"
+        android:defaultValue="false"
+        android:disableDependentsState="true" />
+
     <Preference
         android:key="volume_button_music_control_sumary"
         android:title="@string/volume_button_music_control_title"
+        android:dependency="volume_rocker_wake"
         android:fragment="com.android.settings.gestures.VolumeButtonMusicControlGestureSettings"
         settings:controller="com.android.settings.gestures.VolumeButtonMusicControlPreferenceController" />
 
