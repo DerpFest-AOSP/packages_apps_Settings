@@ -262,4 +262,8 @@
     <string name="volume_button_music_control_title">Wiedergabesteuerung</string>
     <string name="volume_button_music_control_summary">Wenn der Bildschirm ausgeschaltet ist, werden durch langes Drücken der Lautstärketasten Musiktitel übersprungen</string>
 
+     <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Lautstärketaste zum Aufwecken</string>
+    <string name="volume_rocker_wake_summary">Drücken der Lautstärketaste beendet den Ruhezustand</string>
+
 </resources>
