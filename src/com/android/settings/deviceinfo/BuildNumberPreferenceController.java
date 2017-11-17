@@ -50,6 +50,8 @@ import com.android.settingslib.development.DevelopmentSettingsEnabler;
 import com.android.settingslib.utils.StringUtil;
 import com.google.android.setupcompat.util.WizardManagerHelper;
 
+import java.util.Random;
+
 public class BuildNumberPreferenceController extends BasePreferenceController implements
         LifecycleObserver, OnStart {
 
@@ -66,6 +68,29 @@ public class BuildNumberPreferenceController extends BasePreferenceController im
     private boolean mDebuggingFeaturesDisallowedBySystem;
     private int mDevHitCountdown;
     private boolean mProcessingLastDevHit;
+
+    public final static java.lang.String[] insults = {
+            "Hahaha, n00b!",
+            "What are you doing??",
+            "n00b alert!",
+            "What is this...? Amateur hour!?",
+            "This is not Windows",
+            "Please step away from the device!",
+            "error code: 1D10T",
+            "Go outside",
+            "¯\\_(ツ)_/¯",
+            "Pro tip: Stop doing this!",
+            "Y u no speak computer???",
+            "Why are you so stupid?!",
+            "Perhaps this Android thing is not for you...",
+            "Don't you have anything better to do?!",
+            "This is why nobody likes you...",
+            "Are you even trying?!",
+            "Looks like you're derping... BUT THATS OUR BUSINESS!!!",
+            "This won't make you look cooler to your friends",
+            "Go back to your stock ROM",
+            "You look like a person who plays PUBG on his phone",
+    };
 
     public BuildNumberPreferenceController(Context context, String key) {
         super(context, key);
@@ -198,7 +223,9 @@ public class BuildNumberPreferenceController extends BasePreferenceController im
             if (mDevHitToast != null) {
                 mDevHitToast.cancel();
             }
-            mDevHitToast = Toast.makeText(mContext, R.string.show_dev_already,
+            Random randomInsult = new Random();
+            final int toasts = randomInsult.nextInt(insults.length);
+            mDevHitToast = Toast.makeText(mContext, insults[toasts],
                     Toast.LENGTH_LONG);
             mDevHitToast.show();
             mMetricsFeatureProvider.action(
