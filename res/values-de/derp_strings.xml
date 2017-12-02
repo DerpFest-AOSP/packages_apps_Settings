@@ -61,6 +61,10 @@
     <string name="high_touch_sensitivity_title">Hohe Touch-Empfindlichkeit</string>
     <string name="high_touch_sensitivity_summary">Touch-Empfindlichkeit erhöhen, um den Touchscreen auch mit Handschuhen bedienen zu können</string>
 
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Unbeabsichtigtes Aufwecken verhindern</string>
+    <string name="proximity_wake_summary">Vor dem Aufwecken des Gerätes Näherungssensor überprüfen</string>
+
     <!-- Touchscreen gesture settings -->
     <string name="touchscreen_gesture_settings_title">Bildschirmgesten</string>
     <string name="touchscreen_gesture_settings_summary">Führe durch verschiedene Bildschirmgesten einige schnelle Aktionen aus</string>
