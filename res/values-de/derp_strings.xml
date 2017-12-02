@@ -93,4 +93,8 @@
     <string name="preferred_refresh_rate_title">Bevorzugte Aktualisierungsrate</string>
     <string name="preferred_refresh_rate_info">Die bevorzugte Aktualisierungsrate wird als Standardaktualisierungsrate für Benutzerinteraktionen verwendet, solange sie innerhalb der minimalen und maximalen Aktualisierungsrate liegt.</string>
 
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Unbeabsichtigtes Aufwecken verhindern</string>
+    <string name="proximity_wake_summary">Vor dem Aufwecken des Gerätes Näherungssensor überprüfen</string>
+
 </resources>
