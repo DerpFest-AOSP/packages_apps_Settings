@@ -63,4 +63,8 @@
     <string name="platform_revision">Plattform</string>
     <string name="total_ram">RAM insgesamt</string>
 
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Unbeabsichtigtes Aufwecken verhindern</string>
+    <string name="proximity_wake_summary">Vor dem Aufwecken des Gerätes Näherungssensor überprüfen</string>
+
 </resources>
