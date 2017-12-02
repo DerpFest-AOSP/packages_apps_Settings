@@ -177,6 +177,15 @@
             android:title="@string/tap_to_wake"
             android:summary="@string/tap_to_wake_summary"/>
 
+        <!-- Prevent accidental wake-up -->
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="proximity_on_wake"
+            android:title="@string/proximity_wake_title"
+            android:summary="@string/proximity_wake_summary"
+            android:defaultValue="@*android:bool/config_proximityCheckOnWakeEnabledByDefault"
+            settings:requiresConfig="@*android:bool/config_proximityCheckOnWake" />
+
+        <!-- Double tap to sleep -->
         <org.derpfest.support.preferences.SystemSettingSwitchPreference
             android:key="double_tap_sleep_gesture"
             android:title="@string/status_bar_double_tap_to_sleep_title"
