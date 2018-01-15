@@ -84,4 +84,7 @@
     <string name="pattern_custom">Benutzerdefiniert</string>
     <string name="custom_vibration_pattern_title">Benutzerdefiniertes Muster</string>
 
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Lautstärke für Klingel- &amp; Benachrichtigungston verknüpfen</string>
+
 </resources>
