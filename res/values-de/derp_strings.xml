@@ -18,4 +18,6 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tippen, um Informationen anzuzeigen</string>
 
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Klingelton- und Benachrichtigungslautstärke verknüpfen</string>
 </resources>
