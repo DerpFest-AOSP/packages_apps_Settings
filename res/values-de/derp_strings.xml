@@ -215,4 +215,7 @@
     <string name="tethering_allow_vpn_upstreams_title">Clients erlauben VPN zu verwenden</string>
     <string name="tethering_allow_vpn_upstreams_summary">Erlaubt Hotspot-Clients die VPN-Verbindungen dieses Gerätes für die Upstream-Konnektivität zu verwenden</string>
 
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Klingelton- und Benachrichtigungslautstärke verknüpfen</string>
+
 </resources>
