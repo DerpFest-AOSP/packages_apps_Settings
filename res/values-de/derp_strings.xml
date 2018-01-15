@@ -33,4 +33,7 @@
     <string name="increasing_ring_min_volume_title">Anfangslautstärke</string>
     <string name="increasing_ring_ramp_up_time_title">Anstiegszeit</string>
 
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Klingelton- und Benachrichtigungslautstärke verknüpfen</string>
+
 </resources>
