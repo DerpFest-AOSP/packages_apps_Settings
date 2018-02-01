@@ -105,4 +105,7 @@
     <string name="lockscreen_tweaks_category_title">Was tun?</string>
     <string name="double_tap_sleep_lockscreen_title">Sperrbildschirm doppeltippen für Ruhemodus</string>
 
+    <!-- Notification log -->
+    <string name="notification_log_summary">Verlaufsprotokoll für Benachrichtigungen anzeigen</string>
+
 </resources>
