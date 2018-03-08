@@ -102,4 +102,9 @@
     <string name="battery_light_medium_color">Mittlerer Akkustand</string>
     <string name="battery_light_full_color">Fast voller Akkustand</string>
     <string name="battery_light_reallyfull_color">Voller Akkustand</string>
+
+    <!-- Proximity wake -->
+    <string name="lockscreen_tweaks_category_title">Was ist zu tun?</string>
+    <string name="proximity_wake_title">Versehentliches Aufwecken verhindern</string>
+    <string name="proximity_wake_summary">Überprüft den Näherungssensor, bevor der Bildschirm aufgeweckt wird</string>
 </resources>

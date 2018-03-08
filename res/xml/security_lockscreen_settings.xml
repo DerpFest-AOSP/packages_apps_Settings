@@ -54,9 +54,22 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="lockscreen_tweaks_category"
+        android:title="@string/lockscreen_tweaks_category_title"
+        android:order="1000">
+
+        <com.derp.support.preference.SystemSettingSwitchPreference
+            android:key="proximity_on_wake"
+            android:title="@string/proximity_wake_title"
+            android:summary="@string/proximity_wake_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="ambient_display_category_when_to_show"
         android:title="@string/ambient_display_category_triggers"
-        android:order="1000">
+        android:order="1001">
 
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="ambient_display_always_on"
@@ -103,7 +116,7 @@
     <PreferenceCategory
         android:key="security_setting_lock_screen_notif_work_header"
         android:title="@string/profile_section_header"
-        android:order="1001"
+        android:order="1002"
         settings:searchable="false">
 
         <com.android.settings.RestrictedListPreference

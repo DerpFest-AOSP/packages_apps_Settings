@@ -114,4 +114,9 @@
     <string name="battery_light_medium_color">Medium battery</string>
     <string name="battery_light_full_color">Almost full battery</string>
     <string name="battery_light_reallyfull_color">Full battery (100)</string>
+
+    <!-- Proximity wake -->
+    <string name="lockscreen_tweaks_category_title">What to do?</string>
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
 </resources>
