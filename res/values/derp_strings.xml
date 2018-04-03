@@ -12,4 +12,8 @@
     <!-- Platform version -->
     <string name="platform_version">Platform version</string>
 
+    <!-- DerpFest maintainer -->
+    <string name="maintainer">Maintainer</string>
+    <string name="maintainer_name" translatable="false">Unknown</string>
+
 </resources>
