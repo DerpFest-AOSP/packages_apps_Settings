@@ -12,6 +12,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- DerpFest maintainer -->
+    <string name="maintainer">Entwickler</string>
+
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Suche den Fingerabdrucksensor auf der <xliff:g id="sensor_location">%1$s</xliff:g> deines Tablets.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Suche den Fingerabdrucksensor auf der <xliff:g id="sensor_location">%1$s</xliff:g> deines Geräts.</string>
