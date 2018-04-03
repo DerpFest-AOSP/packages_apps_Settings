@@ -12,4 +12,7 @@
     <!-- Platform version -->
     <string name="platform_version">Plattform-Version</string>
 
+    <!-- DerpFest maintainer -->
+    <string name="maintainer">Entwickler</string>
+
 </resources>
