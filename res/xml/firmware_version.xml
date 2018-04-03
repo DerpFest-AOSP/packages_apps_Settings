@@ -45,6 +45,13 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.DerpFestVersionPreferenceController"/>
 
+    <!-- DerpFest maintainer -->
+    <Preference
+        android:key="maintainer"
+        android:title="@string/maintainer"
+        android:summary="@string/maintainer_name"
+        settings:enableCopying="true" />
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"
