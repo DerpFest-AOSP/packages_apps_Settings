@@ -67,4 +67,7 @@
     <string name="short_label">Kurz</string>
     <string name="long_label">Lang</string>
 
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Gespeicherte Kopfhörer</string>
+
 </resources>

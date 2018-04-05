@@ -79,4 +79,7 @@
     <string name="short_label">Short</string>
     <string name="long_label">Long</string>
 
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+
 </resources>
