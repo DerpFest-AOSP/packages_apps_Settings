@@ -267,4 +267,7 @@
     <string name="changelog_summary">Seit dem letzten Update</string>
     <string name="changelog_error">Changelog kann nicht geladen werden</string>
 
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Gespeicherte Kopfhörer</string>
+
 </resources>
