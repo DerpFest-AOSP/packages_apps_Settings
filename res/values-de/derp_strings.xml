@@ -482,4 +482,9 @@
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">Bluetooth schaltet sich nach <xliff:g id="timeout_description">%1$s</xliff:g> aus, wenn keine Geräte verbunden sind</string>
     <string name="bluetooth_timeout_summary2">Bluetooth nicht automatisch ausschalten</string>
+
+    <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
+    <string name="assisted_gps">Unterstütztes GPS verwenden</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">Satellitenhilfsdaten aus dem Internet herunterladen, die den Startvorgang von GPS erheblich verbessern können. Für Notrufe ist das unterstützte GPS immer erlaubt.</string>
 </resources>
