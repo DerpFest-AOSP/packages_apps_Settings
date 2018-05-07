@@ -838,4 +838,7 @@
     <!-- Fingerprint lockout -->
     <string name="fingerprint_lockout_title">Fingerabdrucksperre deaktivieren</string>
     <string name="fingerprint_lockout_summary">Deaktiviert das 30-Sekunden-Timeout sowie die dauerhafte Sperrung nach mehreren fehlgeschlagenen Fingerabdruck-Entsperrversuchen</string>
+
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">Lädt Satellitenunterstützungsdaten aus dem Internet herunter, die die GPS-Startleistung erheblich verbessern können</string>
 </resources>
