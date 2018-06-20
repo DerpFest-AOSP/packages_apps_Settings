@@ -59,4 +59,8 @@
     <!-- Refresh rate category name in Display Settings [CHAR LIMIT=none] -->
     <string name="category_name_refresh_rate">Aktualisierungsrate</string>
 
+    <!-- Hardware info -->
+    <string name="platform_revision">Plattform</string>
+    <string name="total_ram">RAM insgesamt</string>
+
 </resources>
