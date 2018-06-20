@@ -632,4 +632,8 @@
     <string name="prevent_ringing_option_cycle">Geste zum Durchlaufen der Klingeltonmodi</string>
     <string name="prevent_ringing_option_cycle_summary">Ein (Modi durchlaufen)</string>
     <string name="prevent_ringing_option_normal">Standardverhalten</string>
+
+    <!-- Hardware info -->
+    <string name="platform_revision">Plattform</string>
+    <string name="total_ram">RAM insgesamt</string>
 </resources>
