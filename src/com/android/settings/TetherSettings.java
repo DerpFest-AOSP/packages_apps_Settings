@@ -153,7 +153,7 @@ public class TetherSettings extends RestrictedSettingsFragment
 
         final Activity activity = getActivity();
         BluetoothAdapter adapter = BluetoothAdapter.getDefaultAdapter();
-        if (adapter != null) {
+        if (adapter != null && adapter.getState() == BluetoothAdapter.STATE_ON) {
             adapter.getProfileProxy(activity.getApplicationContext(), mProfileServiceListener,
                     BluetoothProfile.PAN);
         }
@@ -278,6 +278,13 @@ public class TetherSettings extends RestrictedSettingsFragment
                         case BluetoothAdapter.STATE_ON:
                             startTethering(TETHERING_BLUETOOTH);
                             mBluetoothEnableForTether = false;
+                            if (mBluetoothPan.get() == null) {
+                                BluetoothAdapter adapter = BluetoothAdapter.getDefaultAdapter();
+                                if (adapter != null) {
+                                    adapter.getProfileProxy(getActivity().getApplicationContext(),
+                                            mProfileServiceListener, BluetoothProfile.PAN);
+                                }
+                            }
                             break;
 
                         case BluetoothAdapter.STATE_OFF:
@@ -534,7 +541,11 @@ public class TetherSettings extends RestrictedSettingsFragment
             mBluetoothPan.set((BluetoothPan) proxy);
         }
         public void onServiceDisconnected(int profile) {
-            mBluetoothPan.set(null);
+            BluetoothAdapter adapter = BluetoothAdapter.getDefaultAdapter();
+            BluetoothProfile currentProfile = mBluetoothPan.getAndSet(null);
+            if (currentProfile != null && adapter != null) {
+                adapter.closeProfileProxy(BluetoothProfile.PAN, currentProfile);
+            }
         }
     };
 
