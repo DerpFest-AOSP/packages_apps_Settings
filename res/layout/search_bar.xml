@@ -23,6 +23,11 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:layout_scrollFlags="scroll|enterAlways">
+    <ImageView
+        android:src="@drawable/cardview_search_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
     <Toolbar
         android:id="@+id/search_action_bar"
         android:layout_width="match_parent"
