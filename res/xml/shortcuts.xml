@@ -36,4 +36,13 @@
         android:shortcutShortLabel="@string/power_usage_summary_title" >
         <intent android:action="android.intent.action.POWER_USAGE_SUMMARY" />
     </shortcut>
+    <shortcut
+        android:shortcutId="manifest-shortcut-a-derp"
+        android:icon="@drawable/ic_settings_derp"
+        android:shortcutShortLabel="@string/derp_settings_title" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.settings"
+            android:targetClass="com.android.settings.Settings$DerpQuestSettingsActivity" />
+    </shortcut>
 </shortcuts>

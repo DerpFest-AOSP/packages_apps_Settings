@@ -36,4 +36,8 @@
     <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
 
+    <!-- DerpQuest Settings strings -->
+    <string name="derp_settings_title">DerpQuest</string>
+    <string name="derp_settings_summary">Where the derped stuff is placed</string>
+
 </resources>

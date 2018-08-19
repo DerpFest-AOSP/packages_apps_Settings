@@ -27,7 +27,15 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java"],
+    srcs: ["src/**/*.java",
+           "DerpQuest/**/*.java",
+    ],
+
+    resource_dirs: ["res",
+                    "DerpQuest/res"
+    ],
+
+    aaptflags: ["--extra-packages com.derpquest.settings"],
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",

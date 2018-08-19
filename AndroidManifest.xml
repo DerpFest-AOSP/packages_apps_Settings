@@ -3426,6 +3426,31 @@
             </intent-filter>/>
         </receiver>
 
+        <!-- DerpQuest -->
+        <activity android:name=".Settings$DerpQuestSettingsActivity"
+            android:label="@string/derp_settings_title"
+            android:icon="@drawable/ic_homepage_derp"
+            android:taskAffinity="">
+            <intent-filter android:priority="1">
+                <action android:name="com.derpquest.settings.DerpQuestSettings" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.homepage" />
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.derpquest.settings.DerpQuestSettings" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/derp_settings_summary"/>
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
