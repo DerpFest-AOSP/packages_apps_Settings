@@ -236,4 +236,9 @@
     <string name="doze_on_charge_title">AOD beim Laden</string>
     <string name="doze_on_charge_summary">Während des Ladevorgangs wird der Ruhebildschirm ständig angezeigt</string>
 
+    <!-- Custom light color -->
+    <string name="custom_light_title">LED-Farbe</string>
+    <string name="custom_light_on_time_title">Leuchtdauer während des LED-Impulses (ms)</string>
+    <string name="custom_light_off_time_title">Intervall zwischen zwei LED-Impulsen (ms)</string>
+
 </resources>

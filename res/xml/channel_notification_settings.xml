@@ -88,17 +88,10 @@
         android:icon="@drawable/ic_notification_vis_override"
         android:title="@string/app_notification_visibility_override_title"/>
 
-    <!-- Lights -->
-    <com.android.settingslib.RestrictedSwitchPreference
-        android:key="lights"
-        android:order="14"
-        android:icon="@drawable/ic_lightbulb_outline_24"
-        android:title="@string/notification_show_lights_title" />
-
     <!-- Show badge -->
     <com.android.settingslib.RestrictedSwitchPreference
         android:key="badge"
-        android:order="15"
+        android:order="14"
         android:title="@string/notification_channel_badge_title"
         android:icon="@drawable/ic_notification_dot"
         settings:restrictedSwitchSummary="@string/enabled_by_admin"/>
@@ -111,9 +104,46 @@
         android:title="@string/app_notification_override_dnd_title"
         android:summary="@string/app_notification_override_dnd_summary" />
 
+        <!-- Lights -->
+        <com.android.settingslib.RestrictedSwitchPreference
+            android:key="lights"
+            android:order="18"
+            android:title="@string/notification_show_lights_title"
+            settings:useAdditionalSummary="true"/>
+
+        <!-- Custom led color -->
+        <com.derp.support.colorpicker.ColorPickerPreference
+            android:key="custom_light"
+            android:dependency="lights"
+            android:order="19"
+            android:title="@string/custom_light_title"
+            settings:defaultColorValue="0xFFFFFFFF" />
+
+        <com.derp.support.preferences.CustomSeekBarPreference
+            android:key="custom_light_on_time"
+            android:dependency="lights"
+            android:title="@string/custom_light_on_time_title"
+            settings:defaultText="@string/value_equals_default"
+            android:order="21"
+            settings:min="0"
+            android:max="10000"
+            settings:interval="100"
+            settings:units="" />
+
+        <com.derp.support.preferences.CustomSeekBarPreference
+            android:key="custom_light_off_time"
+            android:dependency="lights"
+            android:title="@string/custom_light_off_time_title"
+            settings:defaultText="@string/value_equals_default"
+            android:order="22"
+            settings:min="0"
+            android:max="10000"
+            settings:interval="100"
+            settings:units="" />
+
     <Preference
         android:key="app_link"
-        android:order="18"
+        android:order="23"
         android:title="@string/app_settings_link"
         android:icon="@drawable/ic_settings_24dp"
         settings:allowDividerAbove="true"/>
