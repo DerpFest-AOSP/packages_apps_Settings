@@ -240,5 +240,9 @@ public class Settings extends SettingsActivity {
      */
     public static class MediaControlsSettingsActivity extends SettingsActivity {}
 
+    /**
+     * DerpFest custom activities
+     */
     public static class DerpQuestSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class OmniJawsSettingsActivity extends SettingsActivity { /* empty */ }
 }
