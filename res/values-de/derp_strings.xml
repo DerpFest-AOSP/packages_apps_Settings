@@ -613,4 +613,9 @@
     <string name="navbar_gesture_handle_category">Gesten-Navigationsgriff</string>
     <string name="back_gesture_arrow_message">Animation der Zurück-Geste</string>
     <string name="back_gesture_arrow_summary">Einen animierten Pfeil für die Zurück-Geste anzeigen</string>
+
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Ein-/Aus-Menü auf dem Sperrbildschirm deaktivieren</string>
+    <string name="power_menu_hide_on_secure_summary">Diese Option deaktiviert das Ein-/Aus-Menü bei einer sicheren Displaysperre</string>
+
 </resources>
