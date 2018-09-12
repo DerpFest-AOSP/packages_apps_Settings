@@ -388,4 +388,9 @@
     <!-- Game Space -->
     <string name="game_space_title">Game Space</string>
     <string name="game_space_summary">Verbessere Dein Spielerlebnis</string>
+
+    <!-- Power menu on lockscreen -->
+    <string name="lockscreen_power_menu_disabled_title">Ein-/Aus-Menü auf dem Sperrbildschirm deaktivieren</string>
+    <string name="lockscreen_power_menu_disabled_summary">Diese Option deaktiviert das Ein-/Aus-Menü bei einer sicheren Displaysperre</string>
+
 </resources>
