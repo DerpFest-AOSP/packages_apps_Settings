@@ -582,4 +582,9 @@
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Helligkeitssteuerung</string>
     <string name="status_bar_toggle_brightness_summary">Helligkeit durch Wischen über die Statusleiste anpassen</string>
+
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Ein-/Aus-Menü auf dem Sperrbildschirm deaktivieren</string>
+    <string name="power_menu_hide_on_secure_summary">Diese Option deaktiviert das Ein-/Aus-Menü bei einer sicheren Displaysperre</string>
+
 </resources>

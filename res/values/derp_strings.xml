@@ -604,4 +604,9 @@
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Brightness control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Disable power menu on lock screen</string>
+    <string name="power_menu_hide_on_secure_summary">Hide the power menu while on a secure lock screen</string>
+
 </resources>
