@@ -312,4 +312,8 @@
     <string name="adaptive_playback_timeout_10_min_summary">Ein (10 Minuten)</string>
     <string name="adaptive_playback_explainer">Die adaptive Wiedergabe hält das Medium automatisch an, wenn die Lautstärke stummgeschaltet ist, und wird automatisch fortgesetzt, wenn die Lautstärke innerhalb der eingestellten Zeit wiederhergestellt wird.</string>
 
+    <!-- Power menu on lockscreen -->
+    <string name="lockscreen_power_menu_disabled_title">Power-Menü auf dem Sperrbildschirm deaktivieren</string>
+    <string name="lockscreen_power_menu_disabled_summary">Diese Option deaktiviert das Power-Menü nur bei einer sicheren Displaysperre</string>
+
 </resources>
