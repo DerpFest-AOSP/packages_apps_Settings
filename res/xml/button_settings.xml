@@ -100,6 +100,12 @@
             android:summary="@string/power_menu_summary"
             android:fragment="com.android.settings.derp.buttons.PowerMenuActions" />
 
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_enable_power_menu"
+            android:title="@string/lockscreen_enable_power_menu_title"
+            android:summary="@string/lockscreen_enable_power_menu_summary"
+            android:defaultValue="true" />
+
         <SwitchPreferenceCompat
             android:key="power_end_call"
             android:title="@string/power_end_call_title"

@@ -569,4 +569,8 @@
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">Bluetooth schaltet sich nach <xliff:g id="timeout_description">%1$s</xliff:g> aus, wenn keine Geräte verbunden sind</string>
     <string name="bluetooth_timeout_summary2">Bluetooth nicht automatisch ausschalten</string>
+
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Ein-/Aus-Menü auf dem Sperrbildschirm</string>
+    <string name="lockscreen_enable_power_menu_summary">Zugriff auf Ein-/Aus-Menü vom gesperrten Sperrbildschirm aus erlauben</string>
 </resources>
