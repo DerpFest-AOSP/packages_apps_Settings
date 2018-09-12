@@ -103,6 +103,12 @@
         android:key="power_key"
         android:title="@string/hardware_keys_power_key_title" >
 
+        <org.derpfest.support.preferences.SecureSettingSwitchPreference
+            android:key="power_menu_hide_on_secure"
+            android:title="@string/power_menu_hide_on_secure_title"
+            android:summary="@string/power_menu_hide_on_secure_summary"
+            android:defaultValue="false" />
+
         <Preference
             android:key="power_menu"
             android:title="@string/power_menu_title"
