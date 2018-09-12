@@ -37,7 +37,7 @@ public class BatteryHeaderPreferenceController extends BasePreferenceController
         implements PreferenceControllerMixin, BatteryPreferenceController {
     private static final String TAG = "BatteryHeaderPreferenceController";
 
-    @VisibleForTesting static final String KEY_BATTERY_HEADER = "battery_header";
+    @VisibleForTesting public static final String KEY_BATTERY_HEADER = "battery_header";
     private static final int BATTERY_MAX_LEVEL = 100;
 
     @VisibleForTesting BatteryStatusFeatureProvider mBatteryStatusFeatureProvider;
