@@ -313,4 +313,8 @@
     <!-- Option to hide gesture navigation handle -->
     <string name="navbar_gesture_handle_category">Gesture handle</string>
 
+    <!-- Volume swap buttons -->
+    <string name="swap_volume_buttons_title">Swap volume rocker orientation</string>
+    <string name="swap_volume_buttons_summary">Adjust the rocker orientation based on current rotation</string>
+
 </resources>

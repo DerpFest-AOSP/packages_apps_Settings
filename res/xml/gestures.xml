@@ -94,6 +94,12 @@
         settings:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
 
     <com.derp.support.preferences.SystemSettingSwitchPreference
+        android:key="swap_volume_buttons"
+        android:title="@string/swap_volume_buttons_title"
+        android:summary="@string/swap_volume_buttons_summary"
+        android:defaultValue="false" />
+
+    <com.derp.support.preferences.SystemSettingSwitchPreference
         android:key="volume_rocker_wake"
         android:title="@string/volume_rocker_wake_title"
         android:summary="@string/volume_rocker_wake_summary"
