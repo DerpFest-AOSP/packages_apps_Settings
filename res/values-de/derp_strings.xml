@@ -253,4 +253,8 @@
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Clients erlauben VPN zu verwenden</string>
     <string name="tethering_allow_vpn_upstreams_summary">Erlaubt Hotspot-Clients die VPN-Verbindungen dieses Gerätes für die Upstream-Konnektivität zu verwenden</string>
+
+    <!-- Fingerprint unlock keystore -->  
+    <string name="fp_unlock_keystore_title">Fingerabdruck entsperren</string>  
+    <string name="fp_unlock_keystore_summary">Entsperren Sie das Gerät mit einem Fingerabdruck nach dem Neustart ohne PIN / Passwort / Muster\nHinweis: auf eigenes Risiko!</string>
 </resources>
