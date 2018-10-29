@@ -127,4 +127,11 @@
     <!-- Dismiss notifications with back FP swipe -->
     <string name="fp_swipe_to_dismiss_notifications_title">Benachrichtigungen schließen durch nach links oder rechts wischen über den Fingerabdrucksensor</string>
     <string name="fp_swipe_to_dismiss_notifications_summary">Wische über den Fingerabdrucksensor auf der Geräterückseite nach links oder rechts, um Benachrichtigungen zu schließen.</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Aktivieren Sie die Taschenlampe</string>
+    <string name="double_tap_power_flashlight_title">Taschenlampe mit ausgeschaltetem Bildschirm</string>
+    <string name="torch_power_button_gesture_none">Deaktiviert</string>
+    <string name="torch_power_button_gesture_dt">Doppeltes Antippen der Ein/Aus-Taste, um die Taschenlampe umzuschalten</string>
+    <string name="torch_power_button_gesture_lp">Langes Drücken der Ein/Aus-Taste, um die Taschenlampe umzuschalten</string>
 </resources>
