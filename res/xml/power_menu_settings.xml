@@ -37,6 +37,12 @@
         android:summary="@string/global_actions_advanced_reboot_summary"
         android:defaultValue="false" />
 
+    <Preference
+        android:key="torch_long_press_power_gesture_desc"
+        android:title="@string/torch_long_press_power_gesture_title"
+        android:fragment="com.android.settings.gestures.PowerButtonTorchSettings"
+        settings:controller="com.android.settings.gestures.PowerButtonTorchGesturePreferenceController" />
+
     <SwitchPreference
         android:key="gesture_power_menu_long_press_for_assist"
         android:title="@string/power_menu_long_press_for_assist"
