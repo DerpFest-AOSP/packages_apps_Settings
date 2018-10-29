@@ -323,4 +323,8 @@
     <string name="lockscreen_power_menu_disabled_title">Power-Menü auf dem Sperrbildschirm deaktivieren</string>
     <string name="lockscreen_power_menu_disabled_summary">Diese Option deaktiviert das Power-Menü nur bei einer sicheren Displaysperre</string>
 
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Schneller Taschenlampenzugriff</string>
+    <string name="power_button_torch_summary">Wenn der Bildschirm ausgeschaltet ist, wird die Taschenlampe durch langes Drücken der Ein-/Aus-Taste aktiviert</string>
+
 </resources>
