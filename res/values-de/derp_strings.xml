@@ -525,4 +525,8 @@
     <string name="less_boring_heads_up_title">Weniger unwichtige</string>
     <string name="less_boring_heads_up_summary">Popup-Benachrichtigungen nur für Wecker-, Telefon- und Nachrichten-App anzeigen</string>
 
+    <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">\"App beenden\" für Benachrichtigungen</string>
+    <string name="notification_guts_kill_app_button_summary">Zeigt eine Taste zum Beenden der App, wenn deren Benachrichtigung lange gedrückt wird</string>
+
 </resources>
