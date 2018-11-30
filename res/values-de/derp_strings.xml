@@ -447,4 +447,12 @@
     <string name="doze_double_tap_title">Tippen Sie zweimal, um das Telefon aufzuwecken</string>
     <string name="doze_double_tap_summary">Impulsbenachrichtigungen durch zweimaliges Tippen</string>
 
+    <!-- Settings dashboard icon style -->
+    <string name="theming_settings_dashboard_icons_title">Dashboard-Symbole für Einstellungen</string>
+    <string name="theming_settings_dashboard_icons_default">Standardhintergrund / Transparenter Vordergrund</string>
+    <string name="theming_settings_dashboard_icons_white">Standardhintergrund / Weißer Vordergrund</string>
+    <string name="theming_settings_dashboard_icons_accent">Akzent-Hintergrund / Transparenter Vordergrund</string>
+    <string name="theming_settings_dashboard_icons_plain">Transparenter Hintergrund / Einfacher Vordergrund</string>
+    <string name="theming_settings_dashboard_icons_plain_accent">Transparenter Hintergrund / Akzent-Vordergrund</string>
+
 </resources>
