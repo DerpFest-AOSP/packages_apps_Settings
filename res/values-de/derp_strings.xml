@@ -507,4 +507,12 @@
     <string name="alarm_blocker_warning_title">Fortfahren auf eigene Gefahr</string>
     <string name="alarm_blocker_warning">Das Blockieren von Alarmen kann Instabilität, Abstürze und Datenverlust verursachen.</string>
 
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">Batterieladezustandswarnung aktivieren</string>
+    <string name="notification_battery_charge_level_title">Batterieladungswarnung</string>
+    <string name="notification_battery_charge_level_summary">Einen Ton abspielen, wenn der Akku beim Laden einen Ladestand erreicht</string>
+    <string name="notification_battery_charge_level_seek_bar">Batterieladezustand</string>
+    <string name="notification_battery_charge_level_ringtone">Klingelton</string>
+    <string name="notification_battery_charge_level_silent">Stumm</string>
+
 </resources>
