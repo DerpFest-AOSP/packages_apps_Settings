@@ -44,13 +44,18 @@
         android:title="@string/advanced_battery_preference_title"
         settings:keywords="@string/keywords_battery_usage" />
 
-
     <org.derpfest.support.preferences.SystemSettingSwitchPreference
         android:key="battery_24_hrs_stats"
         android:title="@string/daily_battery_usage_chart"
         android:summary="@string/daily_battery_usage_chart_summary"
         android:defaultValue="false"
         settings:searchable="false" />
+
+    <Preference
+        android:fragment="com.android.settings.fuelgauge.BatteryChargeSoundSettings"
+        android:key="battery_charge_sound"
+        android:title="@string/notification_battery_charge_level_title"
+        android:summary="@string/notification_battery_charge_level_summary" />
 
     <Preference
         android:fragment="com.android.settings.fuelgauge.batterysaver.BatterySaverSettings"
