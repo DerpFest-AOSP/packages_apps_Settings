@@ -139,8 +139,8 @@ public class RingVolumePreferenceController extends VolumeSeekBarPreferenceContr
                 mMuteIcon = R.drawable.ic_volume_ringer_vibrate;
                 mPreference.showIcon(R.drawable.ic_volume_ringer_vibrate);
             } else if (mRingerMode == AudioManager.RINGER_MODE_SILENT) {
-                mMuteIcon = R.drawable.ic_notifications_off_24dp;
-                mPreference.showIcon(R.drawable.ic_notifications_off_24dp);
+                mMuteIcon = R.drawable.ic_audio_ring_off_24dp;
+                mPreference.showIcon(R.drawable.ic_audio_ring_off_24dp);
             } else {
                 mPreference.showIcon(R.drawable.ic_audio_ring);
             }
