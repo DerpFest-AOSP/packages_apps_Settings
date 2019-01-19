@@ -70,4 +70,8 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Gespeicherte Kopfhörer</string>
 
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Akkutemperatur</string>
+    <string name="battery_temp_summary">Tippen Sie hier, um die Skala zu wechseln</string>
+
 </resources>
