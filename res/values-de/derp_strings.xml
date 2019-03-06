@@ -626,4 +626,9 @@
     <string name="wifi_do_not_validate_eap_server">Nicht validieren</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Kein Zertifikat angegeben. Ihre Verbindung wird nicht privat sein.</string>
+
+    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone1_title">Klingelton - SIM 1</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone2_title">Klingelton - SIM 2</string>
 </resources>
