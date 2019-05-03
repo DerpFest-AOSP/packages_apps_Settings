@@ -166,6 +166,8 @@ import com.derpquest.settings.DerpQuestSettings;
 import com.derpquest.settings.external.OmniJawsSettings;
 import com.derpquest.settings.fragments.system_misc.GamingMode;
 
+import com.android.settings.livedisplay.LiveDisplaySettings;
+
 public class SettingsGateway {
 
     /**
@@ -319,6 +321,7 @@ public class SettingsGateway {
             DerpQuestSettings.class.getName(),
             OmniJawsSettings.class.getName(),
             GamingMode.class.getName(),
+            LiveDisplaySettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
