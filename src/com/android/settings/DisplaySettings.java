@@ -40,6 +40,7 @@ import com.android.settings.display.BrightnessLevelPreferenceController;
 import com.android.settings.display.CameraGesturePreferenceController;
 import com.android.settings.display.EnableBlursPreferenceController;
 import com.android.settings.display.LiftToWakePreferenceController;
+import com.android.settings.display.LiveDisplayPreferenceController;
 import com.android.settings.display.PocketJudgePreferenceController;
 import com.android.settings.display.ShowOperatorNamePreferenceController;
 import com.android.settings.display.TapToWakePreferenceController;
@@ -151,6 +152,7 @@ public class DisplaySettings extends DashboardFragment
         controllers.add(new BrightnessLevelPreferenceController(context, lifecycle));
         controllers.add(new EnableBlursPreferenceController(context,
                 BlurUtils.supportsBlursOnWindows()));
+        controllers.add(new LiveDisplayPreferenceController(context));
         return controllers;
     }
 
