@@ -442,4 +442,9 @@
     <string name="adj_intensity_title">Leuchtdichte</string>
     <string name="adj_contrast_title">Kontrast</string>
 
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Doppeltippen</string> 
+    <string name="doze_double_tap_title">Tippen Sie zweimal, um das Telefon aufzuwecken</string>
+    <string name="doze_double_tap_summary">Impulsbenachrichtigungen durch zweimaliges Tippen</string>
+
 </resources>
