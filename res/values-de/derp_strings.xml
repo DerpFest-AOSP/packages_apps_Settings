@@ -19,6 +19,10 @@
     <string name="doze_on_charge_title">Inaktivitätsdisplay beim Laden</string>
     <string name="doze_on_charge_summary">Zeit und Informationen werden ausschließlich beim Laden angezeigt</string>
 
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Clients erlauben VPN zu verwenden</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Erlaubt Hotspot-Clients die VPN-Verbindungen dieses Gerätes für die Upstream-Konnektivität zu verwenden</string>
+
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Ansteigende Klingeltonlautstärke</string>
     <string name="increasing_ring_min_volume_title">Anfangslautstärke</string>
