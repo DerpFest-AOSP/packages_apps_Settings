@@ -258,4 +258,8 @@
     <string name="game_space_title">Game Space</string>
     <string name="game_space_summary">Verbessern Sie Ihr Spielerlebnis</string>
 
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Clients erlauben VPN zu verwenden</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Erlaubt Hotspot-Clients die VPN-Verbindungen dieses Gerätes für die Upstream-Konnektivität zu verwenden</string>
+
 </resources>
