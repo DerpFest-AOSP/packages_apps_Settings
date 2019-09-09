@@ -21,6 +21,12 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- DerpFest logo -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="derp_logo"
+        android:layout="@layout/derp_logo"
+        android:selectable="false"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
