@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2023 DerpFest
+     SPDX-License-Identifier: Apache-2.0
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+ <ImageView
+        android:layout_width="625dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_derp_logo"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+</LinearLayout>
