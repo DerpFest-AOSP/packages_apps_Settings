@@ -97,4 +97,8 @@
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Bildschirmfoto-Ton</string>
 
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Statusleiste doppeltippen für Ruhemodus</string>
+    <string name="double_tap_sleep_gesture_summary">Die Statusleiste zweimal antippen, um das Gerät in den Ruhemodus zu versetzen</string>
+
 </resources>
