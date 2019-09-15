@@ -468,4 +468,7 @@
     <string name="face_unlock_method_default">Когда экран включен</string>
     <string name="face_unlock_method_swipe">По свайпу вверх</string>
 
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Температура батареи</string>
+
 </resources>
