@@ -235,4 +235,7 @@
     <!-- Summary for the top level wallpapers settings [CHAR LIMIT=NONE]-->
     <string name="wallpaper_dashboard_custom_summary">Colors, themed icons, app grid</string>
 
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Battery temperature</string>
+
 </resources>
