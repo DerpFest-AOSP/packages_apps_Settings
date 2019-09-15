@@ -108,6 +108,11 @@
         android:title="@string/sleep_mode_title"
         android:fragment="com.android.settings.fuelgauge.sleepmode.SleepMode" />
 
+    <com.android.settings.fuelgauge.batteryusage.PowerGaugePreference
+        android:key="battery_temperature"
+        android:title="@string/battery_temperature"
+        android:selectable="false" />
+
     <com.android.settingslib.widget.FooterPreference
         android:key="power_usage_footer"
         android:title="@string/battery_footer_summary"
