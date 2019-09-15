@@ -813,4 +813,7 @@
     <string name="alarm_blocker_warning_title">Fortfahren auf eigene Gefahr</string>
     <string name="alarm_blocker_warning">Das Blockieren von Alarmen kann Instabilität, Abstürze und Datenverlust verursachen.</string>
 
+    <!-- Battery temperature -->
+    <string name="battery_temp">Akkutemperatur</string>
+
 </resources>
