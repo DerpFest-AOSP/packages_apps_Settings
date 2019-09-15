@@ -459,4 +459,6 @@
     <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
     <string name="volume_steps_reset">Reset</string>
 
+    <string name="battery_temp">Battery temperature</string>
+
 </resources>

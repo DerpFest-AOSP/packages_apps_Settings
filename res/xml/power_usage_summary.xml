@@ -65,6 +65,11 @@
         android:summary="@string/arcane_idle_manager_summary"
         android:defaultValue="false" />
 
+    <com.android.settings.fuelgauge.PowerGaugePreference
+        android:key="battery_temp"
+        android:title="@string/battery_temp"
+        android:selectable="false" />
+
     <com.android.settingslib.widget.FooterPreference
         android:key="power_usage_footer"
         android:title="@string/battery_footer_summary"

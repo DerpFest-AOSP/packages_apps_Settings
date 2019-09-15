@@ -422,4 +422,6 @@
     <string name="volume_steps_voice_call_title">Lautstärkestufen: Sprachanruf</string>
     <string name="volume_steps_reset">Zurücksetzen</string>
 
+    <string name="battery_temp">Akkutemperatur</string>
+
 </resources>
