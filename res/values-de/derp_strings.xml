@@ -466,4 +466,11 @@
     <string name="display_rotation_90_title">90 Grad</string>
     <string name="display_rotation_180_title">180 Grad</string>
     <string name="display_rotation_270_title">270 Grad</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux-Status</string>
+    <string name="selinux_status_disabled">Deaktiviert</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+
 </resources>
