@@ -34,4 +34,10 @@
     <string name="derp_settings_title">DerpQuest</string>
     <string name="derp_settings_summary">Wo das kaputte Zeug steckt</string>
 
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux-Status</string>
+    <string name="selinux_status_disabled">Deaktiviert</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+
 </resources>
