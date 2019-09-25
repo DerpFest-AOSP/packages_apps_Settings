@@ -72,4 +72,10 @@
     <string name="monet_engine_color_source_home">Hintergrundbild des Startbildschirms</string>
     <string name="monet_engine_color_source_lock">Hintergrundbild des Sperrbildschirms</string>
     <string name="monet_engine_color_source_preset">Voreinstellung</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux-Status</string>
+    <string name="selinux_status_disabled">Deaktiviert</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
 </resources>
