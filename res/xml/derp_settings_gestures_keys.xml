@@ -141,6 +141,15 @@
             android:summary="@string/swap_volume_buttons_summary"
             android:defaultValue="false" />
 
+        <com.derp.support.preferences.SystemSettingListPreference
+            android:key="volume_key_cursor_control"
+            android:summary="%s"
+            android:title="@string/volume_key_cursor_control_title"
+            android:dialogTitle="@string/volume_key_cursor_control_title"
+            android:entries="@array/volume_key_cursor_control_entries"
+            android:entryValues="@array/volume_key_cursor_control_values"
+            android:defaultValue="0" />
+
         <com.derp.support.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_power_menu_disabled"
             android:title="@string/lockscreen_power_menu_disabled_title"
