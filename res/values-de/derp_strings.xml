@@ -157,4 +157,8 @@
     <!-- Allow to suppress notifications sound/vibration if screen is ON -->
     <string name="notification_sound_vib_screen_on_title">Benachrichtigungston bei bei eingeschaltetem Bildschirm</string>
     <string name="notification_sound_vib_screen_on_summary">Töne und Vibrationen für Benachrichtigungen abspielen, wenn der Bildschirm eingeschaltet ist</string>
+
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Tippen um Infos zu zeigen</string>
+
 </resources>
