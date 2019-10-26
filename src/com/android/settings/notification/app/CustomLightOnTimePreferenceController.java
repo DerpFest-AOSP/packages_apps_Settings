@@ -96,10 +96,6 @@ public class CustomLightOnTimePreferenceController extends NotificationPreferenc
     private void showLedPreview() {
         if (mChannel.shouldShowLights()) {
 			mLedColorTemp = CustomLightsPreferenceController.getLedColorTemp();
-            if (mLedColorTemp == 0xFFFFFFFF) {
-                // i've no idea why atm but this is needed
-                mLedColorTemp = 0xffffff;
-            }
             mNm.forcePulseLedLight(
                     mLedColorTemp, mChannel.getLightOnTime(), mChannel.getLightOffTime());
         }

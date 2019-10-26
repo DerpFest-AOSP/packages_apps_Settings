@@ -115,19 +115,19 @@ public class ChannelNotificationSettings extends NotificationSettings {
     @Override
     public void onDestroy() {
         super.onDestroy();
-        mNm.forcePulseLedLight(-1, -1, -1);
+        mNm.forcePulseLedLight(0, -1, -1);
     }
 
     @Override
     public void onStop() {
         super.onStop();
-        mNm.forcePulseLedLight(-1, -1, -1);
+        mNm.forcePulseLedLight(0, -1, -1);
     }
 
     @Override
     public void onPause() {
         super.onPause();
-        mNm.forcePulseLedLight(-1, -1, -1);
+        mNm.forcePulseLedLight(0, -1, -1);
     }
 
     @Override
