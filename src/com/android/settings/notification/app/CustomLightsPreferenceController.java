@@ -60,8 +60,13 @@ public class CustomLightsPreferenceController extends NotificationPreferenceCont
         if (mChannel == null) {
             return false;
         }
-        return checkCanBeVisible(NotificationManager.IMPORTANCE_DEFAULT)
-                && canPulseLight();
+        if (mContext.getResources()
+                .getBoolean(com.android.internal.R.bool.config_multicolorled)) {
+            return checkCanBeVisible(NotificationManager.IMPORTANCE_DEFAULT)
+                    && canPulseLight();
+	} else {
+	    return false;
+	}
     }
 
     public void updateState(Preference preference) {

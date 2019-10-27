@@ -102,9 +102,18 @@ public class CustomLightOffTimePreferenceController extends NotificationPreferen
 
     private void showLedPreview() {
         if (mChannel.shouldShowLights()) {
-			mLedColorTemp = CustomLightsPreferenceController.getLedColorTemp();
+		mLedColorTemp = CustomLightsPreferenceController.getLedColorTemp();
+            if (mContext.getResources()
+                .getBoolean(com.android.internal.R.bool.config_multicolorled)) {
+                    mNm.forcePulseLedLight(
+                            mLedColorTemp, mChannel.getLightOnTime(), mChannel.getLightOffTime());
+	    } else {
+                    mNm.forcePulseLedLight(
+                            0xFFFFFFFF, mChannel.getLightOnTime(), mChannel.getLightOffTime());
+	    }
+        } else {
             mNm.forcePulseLedLight(
-                    mLedColorTemp, mChannel.getLightOnTime(), mChannel.getLightOffTime());
+                    0, 0, 0);
         }
     }
 
