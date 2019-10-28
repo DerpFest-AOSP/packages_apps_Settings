@@ -39,6 +39,8 @@ public class CustomLightOnTimePreferenceController extends NotificationPreferenc
     private int mLedColor = 0;
     private int mLedColorTemp = 0;
 
+    public static int mLightOnTimeTemp = 0;
+
     public CustomLightOnTimePreferenceController(Context context, NotificationBackend backend) {
         super(context, backend);
     }
@@ -46,6 +48,10 @@ public class CustomLightOnTimePreferenceController extends NotificationPreferenc
     @Override
     public String getPreferenceKey() {
         return KEY_LIGHTS_ON_TIME;
+    }
+
+    public static int getLightOnTimeTemp() {
+        return mLightOnTimeTemp;
     }
 
     @Override
@@ -80,6 +86,7 @@ public class CustomLightOnTimePreferenceController extends NotificationPreferenc
             mChannel.setLightOnTime(val);
             saveChannel();
             showLedPreview();
+	    mLightOnTimeTemp = val;
         }
         return true;
     }

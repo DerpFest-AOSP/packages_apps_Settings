@@ -39,6 +39,8 @@ public class CustomLightOffTimePreferenceController extends NotificationPreferen
     private int mLedColor = 0;
     private int mLedColorTemp = 0;
 
+    public static int mLightOffTimeTemp = 0;
+
     public CustomLightOffTimePreferenceController(Context context, NotificationBackend backend) {
         super(context, backend);
     }
@@ -46,6 +48,10 @@ public class CustomLightOffTimePreferenceController extends NotificationPreferen
     @Override
     public String getPreferenceKey() {
         return KEY_LIGHTS_OFF_TIME;
+    }
+
+    public static int getLightOffTimeTemp() {
+        return mLightOffTimeTemp;
     }
 
     @Override
@@ -80,6 +86,7 @@ public class CustomLightOffTimePreferenceController extends NotificationPreferen
             mChannel.setLightOffTime(val);
             saveChannel();
             showLedPreview();
+	    mLightOffTimeTemp = val;
         }
         return true;
     }

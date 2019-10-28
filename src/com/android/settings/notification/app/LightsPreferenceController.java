@@ -30,6 +30,12 @@ import com.android.settingslib.RestrictedSwitchPreference;
 public class LightsPreferenceController extends NotificationPreferenceController
         implements PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
 
+    boolean blink_light = false;
+
+    private int mLedColorTemp = 0;
+    private int mLightOnTimeTemp = 0;
+    private int mLightOffTimeTemp = 0;
+
     private static final String KEY_LIGHTS = "lights";
 
     public LightsPreferenceController(Context context, NotificationBackend backend) {
@@ -71,6 +77,8 @@ public class LightsPreferenceController extends NotificationPreferenceController
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (mChannel != null) {
             final boolean lights = (Boolean) newValue;
+	    blink_light = lights;
+            showLedPreview();
             mChannel.enableLights(lights);
             saveChannel();
         }
@@ -84,6 +92,25 @@ public class LightsPreferenceController extends NotificationPreferenceController
         }
         return Settings.System.getInt(mContext.getContentResolver(),
                 Settings.System.NOTIFICATION_LIGHT_PULSE, 0) == 1;
+    }
+
+    private void showLedPreview() {
+        if (blink_light == true) {
+		mLedColorTemp = CustomLightsPreferenceController.getLedColorTemp();
+		mLightOnTimeTemp = CustomLightOnTimePreferenceController.getLightOnTimeTemp();
+		mLightOffTimeTemp = CustomLightOffTimePreferenceController.getLightOffTimeTemp();
+            if (mContext.getResources()
+                .getBoolean(com.android.internal.R.bool.config_multicolorled)) {
+                    mNm.forcePulseLedLight(
+                            mLedColorTemp, mLightOnTimeTemp, mLightOffTimeTemp);
+	    } else {
+                    mNm.forcePulseLedLight(
+                            0xFFFFFFFF, mLightOnTimeTemp, mLightOffTimeTemp);
+	    }
+        } else {
+            mNm.forcePulseLedLight(
+                    0, 0, 0);
+        }
     }
 
 }
