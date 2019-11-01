@@ -138,4 +138,9 @@
     <string name="doubletap_lockscreen_screen_title">Bildschirm ausschalten</string>
     <string name="doubletap_lockscreen_title">Doppeltipp zum Ausschalten auf Sperrbildschirm</string>
     <string name="doubletap_lockscreen_summary">Tippen Sie zweimal auf leere Bereiche des Sperrbildschirms, um den Bildschirm auszuschalten</string>
+
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Überspringen von Songtiteln</string>
+    <string name="volume_skiptrack_title">Lautstärkeregler zum Überspringen von Titel</string>
+    <string name="volume_skiptrack_summary">Lange auf die Lautstärkewippe drücken, um zum nächsten Songtitel zu springen. Das geht auch ferngesteuert über Fernseher oder PC mit z.B. mit Spotify (App muss auf dem Telefon ausgeführt werden und die Benachrichtigung anzeigen).</string>
 </resources>

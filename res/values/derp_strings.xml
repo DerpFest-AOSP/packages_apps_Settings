@@ -150,4 +150,9 @@
     <string name="doubletap_lockscreen_screen_title">Switch screen off</string>
     <string name="doubletap_lockscreen_title">Double tap to sleep on lockscreen</string>
     <string name="doubletap_lockscreen_summary">Double tap on lockscreen empty areas to switch the screen off</string>
+
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Skip music tracks</string>
+    <string name="volume_skiptrack_title">Volume rocker skip tracks</string>
+    <string name="volume_skiptrack_summary">Long press the volume rocker to skip tracks when playing music, even remotely on tv or PC with e.g. Spotify (app must run on the phone and show the notification).</string>
 </resources>
