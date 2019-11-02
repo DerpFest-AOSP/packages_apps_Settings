@@ -147,4 +147,7 @@
     <string name="pulse_on_new_tracks_title">Ambient Music Ticker anzeigen</string>
     <string name="pulse_on_new_tracks_summary">Ambient Display anzeigen, wenn ein neuer Songtitel abgespielt wird. Die Titelinformationen doppelt antippen, um zum nächsten Titel zu springen.</string>
     <string name="pulse_on_new_tracks_soli_summary">Ambient Display anzeigen, wenn ein neuer Songtitel abgespielt wird.</string>
+
+    <string name="ambient_wake_gestures_title">Ambient-Weckgesten</string>
+    <string name="ambient_wake_gestures_summary">Ambient Display anstelle des normalem Sperrbildschirms bei Weckgesten anzeigen</string>
 </resources>
