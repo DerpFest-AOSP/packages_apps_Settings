@@ -571,4 +571,8 @@
     <string name="navigation_bar_ime_space_title">IME-Schaltflächenbereich ausblenden</string>
     <string name="navigation_bar_ime_space_summary">IME-Schaltflächenbereich unter der Tastatur ausblenden</string>
 
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Ambient Musik-Ticker</string>
+    <string name="pulse_on_new_tracks_summary">Bei Titelwechsel den Ambient-Modus anzeigen</string>
+
 </resources>
