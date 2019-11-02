@@ -143,4 +143,8 @@
     <string name="volume_skiptrack_screen_title">Überspringen von Songtiteln</string>
     <string name="volume_skiptrack_title">Lautstärkeregler zum Überspringen von Titel</string>
     <string name="volume_skiptrack_summary">Lange auf die Lautstärkewippe drücken, um zum nächsten Songtitel zu springen. Das geht auch ferngesteuert über Fernseher oder PC mit z.B. mit Spotify (App muss auf dem Telefon ausgeführt werden und die Benachrichtigung anzeigen).</string>
+
+    <string name="pulse_on_new_tracks_title">Ambient Music Ticker anzeigen</string>
+    <string name="pulse_on_new_tracks_summary">Ambient Display anzeigen, wenn ein neuer Songtitel abgespielt wird. Die Titelinformationen doppelt antippen, um zum nächsten Titel zu springen.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Ambient Display anzeigen, wenn ein neuer Songtitel abgespielt wird.</string>
 </resources>
