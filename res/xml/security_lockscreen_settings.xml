@@ -95,6 +95,12 @@
             settings:controller="com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController"
             settings:userRestriction="no_ambient_display" />
 
+        <SwitchPreference
+            android:key="pulse_on_new_tracks"
+            android:title="@string/pulse_on_new_tracks_title"
+            android:summary="@string/pulse_on_new_tracks_summary"
+            settings:controller="com.android.settings.display.PulseOnNewTracksPreferenceController" />
+
         <org.derpfest.support.preferences.RemotePreference
             android:key="doze_device_settings"
             android:title="@string/ambient_display_screen_title"
