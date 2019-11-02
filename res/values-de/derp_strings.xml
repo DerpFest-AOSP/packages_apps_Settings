@@ -774,4 +774,8 @@
     <!-- Advanced sound settings -->
     <string name="sound_settings_advanced_title">Erweiterte Einstellungen</string>
 
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Ambient Musik-Ticker</string>
+    <string name="pulse_on_new_tracks_summary">Bei Titelwechsel den Ambient-Modus anzeigen</string>
+
 </resources>
