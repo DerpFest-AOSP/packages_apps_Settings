@@ -652,4 +652,8 @@
     <!-- Wake up from fod -->
     <string name="wake_on_fod_pressed_title">Aufwachen bei gedrücktem Fingerabdruck</string>
     <string name="wake_on_fod_pressed_summary">Zum Sperrbildschirm springen, wenn FOD in der Always on Display gedrückt wird</string>
+
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Musikticker</string>
+    <string name="pulse_on_new_tracks_summary">Bei Titelwechsel Musikticker im Ambient-Modus anzeigen</string>
 </resources>
