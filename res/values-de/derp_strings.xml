@@ -4,6 +4,9 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Root-Debugging</string>
+    <string name="adb_enable_summary_root">Android-Debugging als Root erlauben</string>
 
     <!-- DerpFest version -->
     <string name="derp_version">DerpFest-Version</string>
