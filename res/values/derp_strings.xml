@@ -701,4 +701,8 @@
     <!-- Wake up from fod -->
     <string name="wake_on_fod_pressed_title">Wake up from FOD</string>
     <string name="wake_on_fod_pressed_summary">Jump to lockscreen when FOD is pressed in ambient display</string>
+
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Music ticker</string>
+    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
 </resources>
