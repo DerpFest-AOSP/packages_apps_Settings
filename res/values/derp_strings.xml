@@ -146,4 +146,8 @@
     <string name="torch_power_button_gesture_none">Disabled</string>
     <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
     <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+
+    <string name="doubletap_lockscreen_screen_title">Switch screen off</string>
+    <string name="doubletap_lockscreen_title">Double tap to sleep on lockscreen</string>
+    <string name="doubletap_lockscreen_summary">Double tap on lockscreen empty areas to switch the screen off</string>
 </resources>

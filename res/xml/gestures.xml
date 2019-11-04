@@ -98,4 +98,10 @@
         android:title="@string/power_menu_setting_name"
         android:fragment="com.android.settings.gestures.PowerMenuSettings"
         settings:controller="com.android.settings.gestures.PowerMenuPreferenceController" />
+
+    <Preference
+        android:key="gesture_doubletap_lockscreen_summary"
+        android:title="@string/doubletap_lockscreen_screen_title"
+        android:fragment="com.android.settings.gestures.DoubleTapLockscreenSettings"
+        settings:controller="com.android.settings.gestures.DoubleTapLockscreenPreferenceController" />
 </PreferenceScreen>

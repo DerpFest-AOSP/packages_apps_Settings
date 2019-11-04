@@ -134,4 +134,8 @@
     <string name="torch_power_button_gesture_none">Deaktiviert</string>
     <string name="torch_power_button_gesture_dt">Doppeltes Antippen der Ein/Aus-Taste, um die Taschenlampe umzuschalten</string>
     <string name="torch_power_button_gesture_lp">Langes Drücken der Ein/Aus-Taste, um die Taschenlampe umzuschalten</string>
+
+    <string name="doubletap_lockscreen_screen_title">Bildschirm ausschalten</string>
+    <string name="doubletap_lockscreen_title">Doppeltipp zum Ausschalten auf Sperrbildschirm</string>
+    <string name="doubletap_lockscreen_summary">Tippen Sie zweimal auf leere Bereiche des Sperrbildschirms, um den Bildschirm auszuschalten</string>
 </resources>
