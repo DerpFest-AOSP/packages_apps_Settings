@@ -21,6 +21,10 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+   <PreferenceScreen
+       android:layout="@layout/derp_logo_layout"
+       android:key="derp_logo" />
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
