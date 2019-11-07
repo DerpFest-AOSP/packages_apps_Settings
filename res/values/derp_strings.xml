@@ -107,4 +107,8 @@
     <!-- Text shown for the description of the lockdown option -->
     <string name="lockdown_settings_summary">Display Power button option that turns off Smart Lock, Face Unlock, Fingerprint Unlock, and notifications on the lock screen</string>
 
+    <!-- Swipe to screenshot -->
+    <string name="swipe_to_screenshot_title">Swipe to screenshot</string>
+    <string name="swipe_to_screenshot_summary">Swipe 3 fingers down the screen to take a screenshot</string>
+
 </resources>
