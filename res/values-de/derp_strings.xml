@@ -39,4 +39,8 @@
     <string name="navbar_category">Navigationsleiste</string>
     <string name="hide_navbar_gesture_bar_title">Gestenleiste ausblenden</string>
     <string name="hide_navbar_gesture_bar_summary">Blendet die Gestenleiste am unteren Bildschirmrand aus</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Wischen für Bildschirmfoto</string>
+    <string name="three_finger_gesture_summary">Mit drei Fingern wischen, um ein Bildschirmfoto aufzunehmen</string>
 </resources>
