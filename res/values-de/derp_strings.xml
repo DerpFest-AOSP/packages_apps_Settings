@@ -106,4 +106,8 @@
     <!-- Text shown for the description of the lockdown option -->
     <string name="lockdown_settings_summary">Option für Ein/Aus-Taste des Displays, durch die Smart Lock, das biometrische Entsperren und Benachrichtigungen auf dem Sperrbildschirm deaktiviert werden</string>
 
+    <!-- Swipe to screenshot -->
+    <string name="swipe_to_screenshot_title">Wischen für Bildschirmfoto</string>
+    <string name="swipe_to_screenshot_summary">Mit drei Fingern wischen, um ein Bildschirmfoto aufzunehmen</string>
+
 </resources>
