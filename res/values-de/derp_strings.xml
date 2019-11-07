@@ -101,4 +101,8 @@
     <string name="global_actions_advanced_reboot_title">Erweiterten Neustart aktivieren</string>
     <string name="global_actions_advanced_reboot_summary">Optionen für Recovery und Bootloader im Ein-/Aus-Menü anzeigen</string>
 
+    <!-- Swipe to screenshot -->
+    <string name="swipe_to_screenshot_title">Wischen für Bildschirmfoto</string>
+    <string name="swipe_to_screenshot_summary">Mit drei Fingern wischen, um ein Bildschirmfoto aufzunehmen</string>
+
 </resources>
