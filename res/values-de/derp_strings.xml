@@ -478,4 +478,8 @@
     <string name="trust_restrict_usb_always">USB-Verbindungen ablehnen</string>
     <string name="trust_restrict_usb_keyguard">USB-Verbindungen zulassen, wenn entsperrt</string>
     <string name="trust_restrict_usb_disabled">USB-Verbindungen immer zulassen</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Wischen für Bildschirmfoto</string>
+    <string name="three_finger_gesture_summary">Mit drei Fingern wischen, um ein Bildschirmfoto aufzunehmen</string>
 </resources>
