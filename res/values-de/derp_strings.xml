@@ -383,4 +383,8 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Taschen-Erkennung</string>
     <string name="pocket_judge_summary">Verhindert Bildschirm- und Tasteneingaben, wenn sich das Gerät in einer Tasche befindet</string>
+
+    <!-- Swipe to screenshot -->
+    <string name="swipe_to_screenshot_title">Wischen für Bildschirmfoto</string>
+    <string name="swipe_to_screenshot_summary">Mit drei Fingern wischen, um ein Bildschirmfoto aufzunehmen</string>
 </resources>
