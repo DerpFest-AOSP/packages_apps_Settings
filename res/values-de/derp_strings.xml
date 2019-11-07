@@ -107,4 +107,8 @@
     <string name="lockscreen_tweaks_category_title">Was ist zu tun?</string>
     <string name="proximity_wake_title">Versehentliches Aufwecken verhindern</string>
     <string name="proximity_wake_summary">Überprüft den Näherungssensor, bevor der Bildschirm aufgeweckt wird</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Wischen zum Screenshot</string>
+    <string name="three_finger_gesture_summary">Wischen Sie mit drei Fingern, um einen Screenshot aufzunehmen</string>
 </resources>
