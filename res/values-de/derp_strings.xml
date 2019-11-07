@@ -422,4 +422,8 @@
     <!-- Quick Settings quick pulldown -->
     <string name="quick_settings_quick_pull_down_title">Schnelleinstellungen schnell herunterziehen</string>
     <string name="quick_settings_quick_pull_down_summary">Die Statusleiste von der rechten Seite nach unten ziehen, um die Schnelleinstellungen anzuzeigen</string>
+
+    <!-- Swipe to screenshot -->
+    <string name="swipe_to_screenshot_title">Wischen für Bildschirmfoto</string>
+    <string name="swipe_to_screenshot_summary">Mit drei Fingern wischen, um ein Bildschirmfoto aufzunehmen</string>
 </resources>
