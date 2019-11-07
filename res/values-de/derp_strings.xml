@@ -67,4 +67,8 @@
     <string name="proximity_wake_title">Unbeabsichtigtes Aufwecken verhindern</string>
     <string name="proximity_wake_summary">Vor dem Aufwecken des Gerätes Näherungssensor überprüfen</string>
 
+     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Erweiterten Neustart aktivieren</string>
+    <string name="global_actions_advanced_reboot_summary">Optionen für Recovery und Bootloader im Power-Menü anzeigen</string>
+
 </resources>
