@@ -187,6 +187,11 @@
             android:title="@string/show_operator_name_title"
             android:summary="@string/show_operator_name_summary"/>
 
+        <ListPreference
+            android:key="display_cutout_emulation"
+            android:title="@string/display_cutout_emulation"
+            settings:keywords="@string/display_cutout_emulation_keywords" />
+
         <Preference
             android:key="screensaver"
             android:title="@string/screensaver_settings_title"
