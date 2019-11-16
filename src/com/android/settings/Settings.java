@@ -246,4 +246,5 @@ public class Settings extends SettingsActivity {
      */
     public static class DerpQuestSettingsActivity extends SettingsActivity { /* empty */ }
     public static class OmniJawsSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class GamingModeActivity extends SettingsActivity {}
 }

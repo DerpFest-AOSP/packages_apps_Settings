@@ -164,6 +164,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.derpquest.settings.DerpQuestSettings;
 import com.derpquest.settings.external.OmniJawsSettings;
+import com.derpquest.settings.fragments.system_misc.GamingMode;
 
 public class SettingsGateway {
 
@@ -317,6 +318,7 @@ public class SettingsGateway {
             MediaControlsSettings.class.getName(),
             DerpQuestSettings.class.getName(),
             OmniJawsSettings.class.getName(),
+            GamingMode.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -358,5 +360,6 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.DerpQuestSettingsActivity.class.getName(),
             Settings.OmniJawsSettingsActivity.class.getName(),
+            Settings.GamingModeActivity.class.getName(),
     };
 }
