@@ -92,4 +92,14 @@
     <string name="custom_light_on_time_title">Leuchtdauer während des LED-Impulses (ms)</string>
     <string name="custom_light_off_time_title">Intervall zwischen zwei LED-Impulsen (ms)"</string>
     <string name="value_equals_default">def</string>
+
+	    <!-- Battery light -->
+    <string name="battery_light_settings">LED für Akkustand</string>
+    <string name="battery_light_allow_on_dnd_title">LED-Anzeige im Modus \"Nicht stören\"</string>
+    <string name="battery_light_low_blinking_title">Blinkende LED-Anzeige bei niedrigem Akkustand</string>
+    <string name="battery_light_cat">LED-Anzeige beim Aufladen</string>
+    <string name="battery_light_low_color">Niedriger Akkustand</string>
+    <string name="battery_light_medium_color">Mittlerer Akkustand</string>
+    <string name="battery_light_full_color">Fast voller Akkustand</string>
+    <string name="battery_light_reallyfull_color">Voller Akkustand</string>
 </resources>
