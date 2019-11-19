@@ -119,4 +119,8 @@
     <string name="data_usage_app_restrict_vpn_summary">VPN-Datennutzung erlauben</string>
     <string name="data_usage_app_restrict_wifi">WLAN-Daten</string>
     <string name="data_usage_app_restrict_wifi_summary">WLAN-Datenzugriff erlauben</string>
+
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">AOD beim Laden</string>
+    <string name="doze_on_charge_summary">Zeigen Sie beim Laden den AOD-Bildschirm an</string>
 </resources>
