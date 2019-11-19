@@ -150,6 +150,11 @@
             <intent android:action="org.lineageos.settings.device.DOZE_SETTINGS" />
         </org.derpfest.support.preferences.RemotePreference>
 
+        <SwitchPreferenceCompat
+            android:key="doze_on_charge"
+            android:title="@string/doze_on_charge_title"
+            android:summary="@string/doze_on_charge_summary" />
+
     </PreferenceCategory>
 
     <!-- Work profile settings are at the bottom with high order value to avoid users thinking that

@@ -251,4 +251,8 @@
     <string name="keyguard_show_battery_summary">Während des Ladevorgangs einen Akkustandbalken auf dem Ambient Display anzeigen</string>
     <string name="keyguard_show_battery_always_title">Akkustandbalken immer anzeigen</string>
     <string name="keyguard_show_battery_always_summary">Akkustandbalken immer auf dem Ambient Display anzeigen</string>
+
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Inaktivitätsdisplay beim Laden</string>
+    <string name="doze_on_charge_summary">Zeit und Informationen werden ausschließlich beim Laden angezeigt</string>
 </resources>
