@@ -116,6 +116,11 @@
             <intent android:action="org.lineageos.settings.device.DOZE_SETTINGS" />
         </org.derpfest.support.preferences.RemotePreference>
 
+        <SwitchPreferenceCompat
+            android:key="doze_on_charge"
+            android:title="@string/doze_on_charge_title"
+            android:summary="@string/doze_on_charge_summary" />
+
         <Preference
             android:key="ambient_display_tap"
             android:title="@string/ambient_display_tap_screen_title"
