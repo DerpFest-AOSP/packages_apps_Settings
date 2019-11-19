@@ -394,4 +394,8 @@
     <!-- Others settings -->
     <string name="others_settings_title">Weitere Einstellungen</string>
     <string name="additional_buttons_title">Weitere Tasten</string>
+
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Inaktivitätsdisplay beim Laden</string>
+    <string name="doze_on_charge_summary">Zeit und Informationen werden ausschließlich beim Laden angezeigt</string>
 </resources>
