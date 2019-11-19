@@ -232,4 +232,8 @@
     <string name="lockpattern_settings_enable_error_path_title">Sperrmuster-Fehler anzeigen</string>
     <string name="lockpattern_settings_enable_dots_title">Sperrmuster-Punkte anzeigen</string>
 
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">AOD beim Laden</string>
+    <string name="doze_on_charge_summary">Während des Ladevorgangs wird der Ruhebildschirm ständig angezeigt</string>
+
 </resources>
