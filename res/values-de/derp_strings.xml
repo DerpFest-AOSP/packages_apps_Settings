@@ -243,4 +243,8 @@
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Animation der Zurück-Geste</string>
     <string name="back_gesture_arrow_summary">Einen animierten Pfeil für die Zurück-Geste anzeigen</string>
+
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Inaktivitätsdisplay beim Laden</string>
+    <string name="doze_on_charge_summary">Zeit und Informationen werden ausschließlich beim Laden angezeigt</string>
 </resources>
