@@ -188,10 +188,17 @@
             android:summary="@string/notification_assistant_summary"
             settings:controller="com.android.settings.notification.NotificationAssistantPreferenceController"/>
 
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="notification_sound_vib_screen_on"
+            android:order="26"
+            android:title="@string/notification_sound_vib_screen_on_title"
+            android:summary="@string/notification_sound_vib_screen_on_summary"
+            android:defaultValue="true" />
+
         <!-- Heads up -->
         <org.derpfest.support.preferences.GlobalSettingSwitchPreference
             android:key="heads_up_notifications_enabled"
-            android:order="26"
+            android:order="27"
             android:title="@string/heads_up_title"
             android:summary="@string/heads_up_summary"
             android:defaultValue="false" />
@@ -199,7 +206,7 @@
         <org.derpfest.support.preferences.SystemSettingSwitchPreference
             android:key="less_boring_heads_up"
             android:dependency="heads_up_notifications_enabled"
-            android:order="27"
+            android:order="28"
             android:title="@string/less_boring_heads_up_title"
             android:summary="@string/less_boring_heads_up_summary"
             android:defaultValue="false" />
