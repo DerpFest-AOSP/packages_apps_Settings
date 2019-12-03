@@ -104,6 +104,12 @@
         android:key="configure_notifications_advanced"
         android:order="15">
 
+        <com.derp.support.preference.SystemSettingSwitchPreference
+            android:key="notification_sound_vib_screen_on"
+            android:title="@string/notification_sound_vib_screen_on_title"
+            android:summary="@string/notification_sound_vib_screen_on_summary"
+            android:defaultValue="true" />
+
         <SwitchPreference
             android:key="silent_icons"
             android:title="@string/silent_notifications_status_bar"
