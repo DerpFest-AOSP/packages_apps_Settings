@@ -248,4 +248,8 @@
     <string name="navbar_invert_layout_title">Layout der Navigationsleiste umkehren</string>
     <string name="navbar_invert_info">Vertauscht die Schaltflächen \"Zurück\" und \"App-Übersicht\" in der Navigationsleiste</string>
 
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">Laute Benachrichtigungen</string>
+    <string name="notification_sound_vib_screen_on_summary">Ton und Vibration bei Benachrichtigungen abspielen, wenn Bildschirm an ist</string>
+
 </resources>
