@@ -199,5 +199,13 @@
             android:summary="@string/heads_up_summary"
             android:defaultValue="false" />
 
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="less_boring_heads_up"
+            android:dependency="heads_up_notifications_enabled"
+            android:order="27"
+            android:title="@string/less_boring_heads_up_title"
+            android:summary="@string/less_boring_heads_up_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 </PreferenceScreen>

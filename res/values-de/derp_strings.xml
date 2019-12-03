@@ -464,4 +464,8 @@
 
     <!-- Text shown for the title of the restart systemui option -->
     <string name="power_menu_restart_systemui_title">System-UI-Neustart</string>
+
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Weniger unwichtige</string>
+    <string name="less_boring_heads_up_summary">Popup-Benachrichtigungen nur für Anrufe, Nachrichten, Alarme, Erinnerungen und wichtige Gespräche anzeigen</string>
 </resources>
