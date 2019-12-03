@@ -111,6 +111,7 @@
     <PreferenceCategory
         android:key="advanced_section_header"
         android:title="@string/advanced_section_header">
+
         <com.android.settingslib.RestrictedPreference
             android:key="zen_mode_notifications"
             android:order="17"

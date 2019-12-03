@@ -167,6 +167,13 @@
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
         settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController"/>
 
+    <org.derpfest.support.preferences.SystemSettingSwitchPreference
+        android:key="notification_sound_vib_screen_on"
+        android:order="-75"
+        android:title="@string/notification_sound_vib_screen_on_title"
+        android:summary="@string/notification_sound_vib_screen_on_summary"
+        android:defaultValue="true" />
+
     <!-- Default notification ringtone -->
     <com.android.settings.DefaultRingtonePreference
         android:key="notification_ringtone"
