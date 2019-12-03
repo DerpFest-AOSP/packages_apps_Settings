@@ -499,4 +499,8 @@
     <string name="prevent_ringing_option_cycle">Geste zum Durchlaufen der Klingeltonmodi</string>
     <string name="prevent_ringing_option_cycle_summary">Ein (Modi durchlaufen)</string>
 
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">Laute Benachrichtigungen</string>
+    <string name="notification_sound_vib_screen_on_summary">Ton und Vibration bei Benachrichtigungen abspielen, wenn Bildschirm an ist</string>
+
 </resources>
