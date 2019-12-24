@@ -107,6 +107,9 @@
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.READ_DREAM_STATE" />
     <uses-permission android:name="android.permission.READ_DREAM_SUPPRESSION" />
+    
+    <uses-permission android:name="com.google.android.settings.routines.ROUTINES_ACTIONS"/>
+    <permission android:name="com.google.android.settings.routines.ROUTINES_ACTIONS" android:protectionLevel="normal|signature|system"/>
 
     <!-- Face Unlock -->
     <uses-permission android:name="com.android.settings.FACE_UNLOCK"/>
@@ -2094,6 +2097,13 @@
             <intent-filter>
                 <action android:name="android.bluetooth.device.action.CONNECTION_ACCESS_REQUEST" />
                 <action android:name="android.bluetooth.device.action.CONNECTION_ACCESS_CANCEL" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.google.android.settings.routines.RoutinesActionBroadcastReceiver"
+                  android:permission="com.google.android.settings.routines.ROUTINES_ACTIONS" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.settings.routines.RoutinesActionBroadcastReceiver.RINGER_MODE_SILENCE_ACTION"/>
             </intent-filter>
         </receiver>
 
