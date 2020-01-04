@@ -86,4 +86,15 @@
         android:title="@string/gesture_prevent_ringing_screen_title"
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
         settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController" />
+
+    <org.derpfest.support.preferences.RemotePreference
+            android:key="touchscreen_gesture_settings"
+            android:title="@string/touchscreen_gesture_settings_title"
+            android:summary="@string/touchscreen_gesture_settings_summary"
+            settings:requiresFeature="lineagehardware:FEATURE_TOUCHSCREEN_GESTURES">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.touch.gestures"
+            android:targetClass="com.android.touch.gestures.TouchscreenGestureSettings" />
+    </org.derpfest.support.preferences.RemotePreference>
 </PreferenceScreen>
