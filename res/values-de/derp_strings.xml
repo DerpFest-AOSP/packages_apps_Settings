@@ -424,4 +424,8 @@
 
     <string name="battery_temp">Akkutemperatur</string>
 
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Animation der Zurück-Geste</string>
+    <string name="back_gesture_arrow_summary">Einen animierten Pfeil für die Zurück-Geste anzeigen</string>
+
 </resources>
