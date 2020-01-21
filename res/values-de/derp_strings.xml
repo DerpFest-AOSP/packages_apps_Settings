@@ -175,4 +175,8 @@
     <!-- Night Display API strings -->
     <string name="unknown_night_light_time">Unbekannt - Zum Aktualisieren drücken</string>
     <string name="night_display_location_text">\n\nDer Zeitplan von Sonnenuntergang bis Sonnenaufgang erfordert aktivierte Ortungsdienste, um die richtigen Zeiten für Ihren Ort zu erhalten.</string>
+
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Animation der Zurück-Geste</string>
+    <string name="back_gesture_arrow_summary">Zeigen Sie einen animierten Pfeil für die Zurück-Geste an.</string>
 </resources>

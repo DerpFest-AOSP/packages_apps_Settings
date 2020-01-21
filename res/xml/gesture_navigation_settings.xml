@@ -43,7 +43,13 @@
             android:selectable="true"
             settings:textStart="@string/low_label"
             settings:textEnd="@string/high_label"/>
-
+=
+        <com.android.settingslib.widget.FooterPreference
+            android:key="gesture_navigation_settings_footer"
+            android:title="@string/back_sensitivity_dialog_message"
+            android:selectable="false"
+            settings:searchable="false"
+            settings:allowDividerAbove="true"/>
     </PreferenceCategory>
 
     <com.android.settings.widget.LabeledSeekBarPreference
@@ -60,11 +66,10 @@
         android:summary="@string/back_gesture_haptic_summary"
         android:defaultValue="false" />
 
-    <com.android.settingslib.widget.FooterPreference
-        android:key="gesture_navigation_settings_footer"
-        android:title="@string/back_sensitivity_dialog_message"
-        android:selectable="false"
-        settings:searchable="false"
-        settings:allowDividerAbove="true"/>
+    <com.derp.support.preference.SecureSettingSwitchPreference 
+        android:key="show_back_arrow_gesture"
+        android:title="@string/back_gesture_arrow_message"
+        android:summary="@string/back_gesture_arrow_summary"
+        android:defaultValue="true" />
 </PreferenceScreen>
 
