@@ -36,4 +36,18 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Klingelton- und Benachrichtigungslautstärke verknüpfen</string>
 
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">Vibration &amp; Haptik</string>
+    <string name="summary_vibration_preferences">Ändern Sie Vibrationsintensität, Muster und mehr</string>
+    <string name="keywords_vibration_preferences">Vibrationsmuster, Vibrationsintensität, Anrufe, Intensität, Haptik, Klopfen, Vibrationsstärke</string>
+    <string name="ringtone_vibration_pattern">Klingelton-Vibrationsmuster</string>
+    <string name="vibration_intensity_ringer">Klingelton-Vibrationsstärke</string>
+    <string name="vibration_intensity_notification">Vibrationsintensität der Benachrichtigungen</string>
+    <string name="haptic_feedback_intensity">Intensität der haptischen Rückmeldung</string>
+    <string name="vibration_intensity_disabled">Deaktiviert</string>
+    <string name="vibration_intensity_light">Leicht</string>
+    <string name="vibration_intensity_medium">Mittel</string>
+    <string name="vibration_intensity_strong">Stark</string>
+    <string name="vibration_intensity_custom">Benutzerdefiniert</string>
+
 </resources>
