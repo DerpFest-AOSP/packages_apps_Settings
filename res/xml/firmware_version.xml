@@ -50,7 +50,11 @@
         android:key="maintainer"
         android:title="@string/maintainer"
         android:summary="@string/maintainer_name"
-        settings:enableCopying="true" />
+        settings:enableCopying="true" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/maintainer_telegram"/>
+    </Preference>
 
     <!-- Security patch -->
     <Preference
