@@ -47,6 +47,9 @@ public class VibrationIntensityDialog extends InstrumentedDialogFragment {
     private Preference mPreference;
     private boolean mIsRinger;
     private boolean mIsNotification;
+    private int mDefaultRingVibration;
+    private int mDefaultNotificationVibration;
+    private int mDefaultHapticFeedback;
 
     public void setParameters(Context context, String preferenceKey, Preference preference) {
         mContext = context;
@@ -73,19 +76,28 @@ public class VibrationIntensityDialog extends InstrumentedDialogFragment {
         final TextView textView = view.findViewById(R.id.vibration_intensity_text);
         final SeekBar seekBar = view.findViewById(R.id.vibration_intensity_seekbar);
 
+        mDefaultRingVibration = mContext.getResources().getInteger(
+                com.android.internal.R.integer.config_defaultRingVibrationIntensity);
+        mDefaultNotificationVibration = mContext.getResources().getInteger(
+                com.android.internal.R.integer.config_defaultNotificationVibrationIntensity);
+        mDefaultHapticFeedback = mContext.getResources().getInteger(
+                com.android.internal.R.integer.config_defaultHapticFeedbackIntensity);
+
         if (mIsRinger) {
             seekBar.setMin(1);
             seekBar.setMax(3);
             mProgress = Settings.System.getInt(contentResolver,
                     RING_VIBRATION_INTENSITY,
-                    2);
+                    mDefaultRingVibration);
             seekBar.setProgress(mProgress);
             setText(textView, mPreference, mProgress);
             dialogTitle = R.string.vibration_intensity_ringer;
         } else if (mIsNotification) {
             seekBar.setMin(0);
             seekBar.setMax(3);
-            mProgress = Settings.System.getInt(contentResolver, NOTIFICATION_VIBRATION_INTENSITY, 2);
+            mProgress = Settings.System.getInt(contentResolver,
+                    NOTIFICATION_VIBRATION_INTENSITY,
+                    mDefaultNotificationVibration);
             seekBar.setProgress(mProgress);
             setText(textView, mPreference, mProgress);
             dialogTitle = R.string.vibration_intensity_notification;
@@ -97,7 +109,7 @@ public class VibrationIntensityDialog extends InstrumentedDialogFragment {
                     0) == 0;
             mProgress = isHapticFeedbackEnabled ? 0 : Settings.System.getInt(contentResolver,
                     HAPTIC_FEEDBACK_INTENSITY,
-                    2);
+                    mDefaultHapticFeedback);
             seekBar.setProgress(mProgress);
             setText(textView, mPreference, mProgress);
             dialogTitle = R.string.haptic_feedback_intensity;
