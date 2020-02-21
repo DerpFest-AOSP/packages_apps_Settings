@@ -17,7 +17,7 @@
 
     <!-- DerpFest maintainer -->
     <string name="maintainer">Maintainer</string>
-    <string name="maintainer_name">Your local GitHub Retard</string>
+    <string name="maintainer_name" translatable="false">Your local GitHub Retard</string>
 
     <!-- DerpFest Updater -->
     <string name="update_settings_title">DerpFest Updater</string>
