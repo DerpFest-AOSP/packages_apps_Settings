@@ -168,4 +168,8 @@
     <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
          is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
     <string name="mobile_data_settings_summary_unavailable">Keine SIM-Karte verfügbar</string>
+
+    <!-- Night Display API strings -->
+    <string name="unknown_night_light_time">Unbekannt - Zum Aktualisieren drücken</string>
+    <string name="night_display_location_text">\n\nDer Zeitplan von Sonnenuntergang bis Sonnenaufgang erfordert aktivierte Ortungsdienste, um die richtigen Zeiten für Ihren Ort zu erhalten.</string>
 </resources>
