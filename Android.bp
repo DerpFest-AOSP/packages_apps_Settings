@@ -69,7 +69,7 @@ android_library {
 
     libs: [
         "telephony-common",
-        "telephony-ext", 
+        "telephony-ext",
         "ims-common",
         "app-compat-annotations",
     ],
