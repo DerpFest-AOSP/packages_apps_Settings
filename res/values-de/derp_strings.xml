@@ -882,4 +882,43 @@
     <string name="status_bar_quick_qs_pulldown_off">Aus</string>
     <string name="status_bar_quick_qs_pulldown_left">Links</string>
     <string name="status_bar_quick_qs_pulldown_right">Rechts</string>
+
+    <!-- Custom actions -->
+    <string name="action_nothing">Keine Aktion</string>
+    <string name="action_search">Assistant öffnen</string>
+    <string name="action_voice_search">Sprachsuche starten</string>
+    <string name="action_launch_camera">Kamera öffnen</string>
+    <string name="action_flashlight">Taschenlampe ein/aus</string>
+    <string name="action_clear_notifications">Benachrichtigungen löschen</string>
+    <string name="action_volume_panel">Lautstärkeregelung öffnen</string>
+    <string name="action_screen_off">Ruhezustand</string>
+    <string name="action_notifications">Benachrichtigungen</string>
+    <string name="action_screenshot">Screenshot</string>
+    <string name="action_screenrecord">Bildschirmaufnahme</string>
+    <string name="action_qs_panel">Schnelleinstellungen</string>
+    <string name="action_app_action">Anwendung</string>
+    <string name="action_splitscreen_action">Geteilter Bildschirm</string>
+    <string name="action_lastapp_action">Letzte App</string>
+    <string name="action_medianext_action">Zum nächsten Track</string>
+    <string name="action_mediaplay_action">Track abspielen/pausieren</string>
+    <string name="action_ringer_modes">Ruftonmodus</string>
+    <string name="kill_app">Vordergrund-App beenden</string>
+    <string name="show_powermenu">Ein-/Aus-Menü anzeigen</string>
+    <string name="partial_screenshot">Screenshot eines Bildschirmausschnitts</string>
+
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">Benutzerdefinierte Gesten</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Gesten anpassen und benutzerdefinierte Aktionen festlegen</string>
+    <string name="long_back_swipe_timeout_title">Timeout für lange Wischgeste</string>
+    <string name="left_swipe_actions_title">Lange Wischgeste von links</string>
+    <string name="left_swipe_app_action_title">App wählen für lange Wischgeste von links</string>
+    <string name="right_swipe_actions_title">Lange Wischgeste von rechts</string>
+    <string name="right_swipe_app_action_title">App wählen für lange Wischgeste von rechts</string>
+    <string name="left_vertical_swipe_actions_title">Vertikale Wischgeste von links</string>
+    <string name="left_vertical_swipe_app_action_title">App wählen für vertikale Wischgeste von links</string>
+    <string name="right_vertical_swipe_actions_title">Vertikale Wischgeste von rechts</string>
+    <string name="right_vertical_swipe_app_action_title">App wählen für vertikale Wischgeste von rechts</string>
+    <string name="gesture_nav_tweaks_footer_info">Um eine bestimmte App-Aktivität für die Aktion auszuwählen, drücke lange auf eine App in der Apps-Auswahl.\n\nWenn der Launcher angezeigt wird, wische ganz unten auf dem Bildschirmrand, um die Aktion auszulösen.</string>
+    <string name="back_swipe_extended_title">Erweiterte Wischgeste</string>
+    <string name="back_swipe_extended_summary">Aktion auslösen bei langem Wischen (mehr als die Hälfte des Bildschirms) oder einem L-Wischen (lange vertikal)</string>
 </resources>
