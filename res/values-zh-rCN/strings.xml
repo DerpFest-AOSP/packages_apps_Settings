@@ -3113,6 +3113,8 @@
     <string name="contact_discovery_opt_in_dialog_message_no_carrier_defined" msgid="1914894516552445911">"系统会定期将您的联系人电话号码发送给您的运营商。<xliff:g id="EMPTY_LINE">
 
 </xliff:g>此信息可用于识别您的联系人能否使用特定功能，例如视频通话或某些消息传递功能。"</string>
+    <!-- Enabled 5G Mode title.  [CHAR LIMIT=50] -->
+    <string name="enabled_5g_mode_title">启用5G</string>
     <string name="preferred_network_type_title" msgid="812509938714590857">"首选网络类型"</string>
     <string name="preferred_network_type_summary" msgid="8786291927331323061">"LTE（推荐）"</string>
     <string name="mms_message_title" msgid="6624505196063391964">"彩信"</string>

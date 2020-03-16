@@ -218,6 +218,7 @@ public class MobileNetworkSettings extends AbstractMobileNetworkSettings {
 
         final VideoCallingPreferenceController videoCallingPreferenceController =
                 use(VideoCallingPreferenceController.class).init(mSubId);
+        use(Enabled5GPreferenceController.class).init(mSubId);
         use(CallingPreferenceCategoryController.class).setChildren(
                 Arrays.asList(wifiCallingPreferenceController, videoCallingPreferenceController));
         use(Enhanced4gLtePreferenceController.class).init(mSubId)

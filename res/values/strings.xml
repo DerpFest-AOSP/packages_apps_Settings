@@ -7352,6 +7352,8 @@
          the carrier to determine if your contacts support enhanced features, such as video calling
          and RCS messaging. [CHAR LIMIT=NONE]-->
     <string name="contact_discovery_opt_in_dialog_message_no_carrier_defined">Your contacts\u2019 phone numbers will be periodically sent to your carrier.<xliff:g id="empty_line" example="  ">\n\n</xliff:g>This info identifies whether your contacts can use certain features, like video calls or some messaging features.</string>
+    <!-- Enabled 5G Mode title.  [CHAR LIMIT=50] -->
+    <string name="enabled_5g_mode_title">Enable 5G</string>
     <!-- Preferred network type title.  [CHAR LIMIT=50] -->
     <string name="preferred_network_type_title">Preferred network type</string>
     <!-- Preferred network type summary.  [CHAR LIMIT=100] -->
