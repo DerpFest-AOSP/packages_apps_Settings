@@ -25,7 +25,8 @@
     <com.android.settingslib.widget.LayoutPreference
         android:key="derp_logo"
         android:layout="@layout/derp_logo"
-        android:selectable="false"/>
+        android:clickable="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.DerpFestLogoPreferenceController"/>
 
     <!-- Android version -->
     <Preference
