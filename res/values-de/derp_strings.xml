@@ -593,4 +593,23 @@
 
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Eine schwebende Schaltfläche zum Drehen einblenden</string>
+
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Adaptive Wiedergabe</string>
+    <string name="adaptive_playback_enabled">Adaptive Wiedergabe verwenden</string>
+    <string name="adaptive_playback_disabled_summary">Aus</string>
+    <string name="adaptive_playback_intro_text">Die adaptive Wiedergabe hält das Medium automatisch an, wenn die Lautstärke stummgeschaltet ist, und wird automatisch fortgesetzt, wenn die Lautstärke innerhalb der eingestellten Zeit wiederhergestellt wird.</string>
+    <string name="adaptive_playback_timeout_title">Verwenden Sie ein Timeout von</string>
+    <string name="adaptive_playback_timeout_none">Kein Timeout</string>
+    <string name="adaptive_playback_timeout_none_summary">Ein (kein Timeout)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 Sekunden</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Ein (30 Sekunden)</string>
+    <string name="adaptive_playback_timeout_1_min">1 Minute</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Ein (1 Minute)</string>
+    <string name="adaptive_playback_timeout_2_min">2 Minuten</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Ein (2 Minuten)</string>
+    <string name="adaptive_playback_timeout_5_min">5 Minuten</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Ein (5 Minuten)</string>
+    <string name="adaptive_playback_timeout_10_min">10 Minuten</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Ein (10 Minuten)</string>
 </resources>
