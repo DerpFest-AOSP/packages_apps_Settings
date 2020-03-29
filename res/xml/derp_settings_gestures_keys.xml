@@ -91,6 +91,12 @@
             settings:searchable="false" />
 
         <Preference
+            android:key="gesture_adaptive_playback_summary"
+            android:title="@string/adaptive_playback_screen_title"
+            android:fragment="com.android.settings.gestures.AdaptivePlaybackGestureSettings"
+            settings:controller="com.android.settings.gestures.AdaptivePlaybackParentPreferenceController" />
+
+        <Preference
             android:key="three_finger_gesture_summary"
             android:title="@string/three_finger_gesture"
             android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
