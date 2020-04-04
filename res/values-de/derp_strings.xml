@@ -34,6 +34,9 @@
     <string name="derp_settings_title">DerpQuest</string>
     <string name="derp_settings_summary">Wo das kaputte Zeug steckt</string>
 
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <string name="system_dashboard_custom_summary">Sprachen, Zeit, Sicherung</string>
+
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux-Status</string>
     <string name="selinux_status_disabled">Deaktiviert</string>
