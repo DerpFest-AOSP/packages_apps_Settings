@@ -95,7 +95,8 @@
     <string name="value_equals_default">def</string>
 
 	    <!-- Battery light -->
-    <string name="battery_light_settings">LED für Akkustand</string>
+    <string name="battery_light_title">Schalten Sie das Licht beim Laden ein</string>
+    <string name="battery_light_settings_pref_title">LED für Akkustand</string>
     <string name="battery_light_allow_on_dnd_title">LED-Anzeige im Modus \"Nicht stören\"</string>
     <string name="battery_light_low_blinking_title">Blinkende LED-Anzeige bei niedrigem Akkustand</string>
     <string name="battery_light_cat">LED-Anzeige beim Aufladen</string>
