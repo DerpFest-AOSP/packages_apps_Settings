@@ -164,4 +164,8 @@
     <!-- Clock style -->
     <string name="clock_style_title">Stil der Uhranzeige</string>
     <string name="clock_style_summary">Layout für die Uhr auf dem Sperrbildschirm anpassen</string>
+
+    <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
+         is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
+    <string name="mobile_data_settings_summary_unavailable">Keine SIM-Karte verfügbar</string>
 </resources>
