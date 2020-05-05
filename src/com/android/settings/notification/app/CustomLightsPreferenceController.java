@@ -94,7 +94,7 @@ public class CustomLightsPreferenceController extends NotificationPreferenceCont
 
     boolean isMultiColorLed() {
         return mContext.getResources()
-                .getBoolean(com.android.internal.R.bool.config_intrusiveNotificationLed);
+                .getBoolean(com.android.internal.R.bool.config_multiColorBatteryLed);
     }
 
     private void showLedPreview() {

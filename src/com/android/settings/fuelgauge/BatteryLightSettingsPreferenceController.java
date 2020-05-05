@@ -42,7 +42,8 @@ public class BatteryLightSettingsPreferenceController extends BasePreferenceCont
 
     @Override
     public int getAvailabilityStatus() {
-        return mContext.getResources()
-                .getBoolean(com.android.internal.R.bool.config_intrusiveBatteryLed) ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        boolean hasLED = mContext.getResources().getBoolean(com.android.internal.R.bool.config_intrusiveBatteryLed) ||
+                mContext.getResources().getBoolean(com.android.internal.R.bool.config_multiColorBatteryLed);
+        return hasLED ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 }

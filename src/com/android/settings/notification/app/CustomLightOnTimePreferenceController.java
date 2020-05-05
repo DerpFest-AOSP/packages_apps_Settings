@@ -105,5 +105,4 @@ public class CustomLightOnTimePreferenceController extends NotificationPreferenc
                     mLedColor, mChannel.getLightOnTime(), mChannel.getLightOffTime());
         }
     }
-
 }
