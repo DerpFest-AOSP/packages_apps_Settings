@@ -22,6 +22,7 @@ import android.content.Context;
 import android.provider.Settings;
 import androidx.preference.Preference;
 
+import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settings.notification.NotificationBackend;
 
@@ -38,6 +39,7 @@ public class CustomLightsPreferenceController extends NotificationPreferenceCont
     private static final String KEY_CUSTOM_LIGHT = "custom_light";
 
     private int mLedColor = 0;
+    private ColorPickerPreference mCustomLight;
 
     public CustomLightsPreferenceController(Context context, NotificationBackend backend) {
         super(context, backend);
@@ -62,13 +64,13 @@ public class CustomLightsPreferenceController extends NotificationPreferenceCont
 
     public void updateState(Preference preference) {
         if (mChannel != null) {
-             //light color pref
-            ColorPickerPreference mCustomLight = (ColorPickerPreference) preference;
+            mCustomLight = (ColorPickerPreference) preference;
             int defaultLightColor = mContext.getResources().getColor(com.android.internal.R.color.config_defaultNotificationColor);
             mCustomLight.setDefaultValue(defaultLightColor);
             mLedColor = (mChannel.getLightColor() != 0 ? mChannel.getLightColor() : defaultLightColor);
             mCustomLight.setAlphaSliderEnabled(false);
             mCustomLight.setNewPreviewColor(mLedColor);
+            updateSummary();
         }
     }
 
@@ -79,6 +81,7 @@ public class CustomLightsPreferenceController extends NotificationPreferenceCont
             mChannel.setLightColor(mLedColor);
             saveChannel();
             showLedPreview();
+            updateSummary();
         }
         return true;
     }
@@ -108,4 +111,12 @@ public class CustomLightsPreferenceController extends NotificationPreferenceCont
         }
     }
 
+    private void updateSummary() {
+        String lightColorHex = String.format("#%06x", (0xFFFFFF & mLedColor));
+        if (lightColorHex.equals("#ffffff")) {
+            mCustomLight.setSummary(R.string.color_default);
+        } else {
+            mCustomLight.setSummary(lightColorHex);
+        }
+    }
 }
