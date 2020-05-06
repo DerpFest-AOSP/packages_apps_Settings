@@ -293,4 +293,24 @@
     <string name="adaptive_playback_timeout_10_min">10 Minuten</string>
     <string name="adaptive_playback_timeout_10_min_summary">Ein (10 Minuten)</string>
     <string name="adaptive_playback_explainer">Die adaptive Wiedergabe hält das Medium automatisch an, wenn die Lautstärke stummgeschaltet ist, und wird automatisch fortgesetzt, wenn die Lautstärke innerhalb der eingestellten Zeit wiederhergestellt wird.</string>
+
+    <!-- App Lock -->
+    <string name="applock_title">App locker</string>
+    <string name="applock_locked">Gesperrt</string>
+    <string name="applock_unlocked">Entsperrt</string>
+    <string name="applock_locked_apps">Gesperrte Apps</string>
+    <string name="applock_unlocked_apps">Freigeschaltete Apps</string>
+    <string name="applock_show_only_on_wake">Nur einmal authentifizieren</string>
+    <string name="applock_show_only_on_wake_on_summary">Nach der Authentifizierung bleibt eine App entsperrt, bis sich der Bildschirm ausschaltet</string>
+    <string name="applock_show_only_on_wake_off_summary">Nach der Authentifizierung bleibt eine App nach dem Beenden 15 Sekunden lang entsperrt</string>
+    <string name="applock_notification_info">Sie können den Benachrichtigungsinhalt pro App ein- / ausblenden, indem Sie auf das Benachrichtigungssymbol klicken, das in den Einstellungen für gesperrte Apps angezeigt wird</string>
+    <string name="applock_show_notif">Benachrichtigungsinhalt anzeigen</string>
+    <string name="applock_hide_notif">Benachrichtigungsinhalt ausblenden</string>
+    <string name="applock_setup">App locker einrichten</string>
+    <string name="applock_overlay_summary">Diese Funktion ist nicht verfügbar, da diese App gesperrt ist</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 app gesperrt</item>
+        <item quantity="other">%d apps gesperrt</item>
+    </plurals>
+    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
 </resources>
