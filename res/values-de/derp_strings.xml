@@ -37,4 +37,9 @@
     <string name="lockpattern_settings_enable_error_path_title">Sperrmuster-Fehler anzeigen</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Sperrmuster-Punkte anzeigen</string>
+
+    <!-- Navigation bar hint -->
+    <string name="navbar_category">Navigationsleiste</string>
+    <string name="hide_navbar_gesture_bar_title">Gestenleiste ausblenden</string>
+    <string name="hide_navbar_gesture_bar_summary">Blendet die Gestenleiste am unteren Bildschirmrand aus</string>
 </resources>
