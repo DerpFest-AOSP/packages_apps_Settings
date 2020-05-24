@@ -26,4 +26,9 @@
     <string name="display_rotation_90_title">90 Grad</string>
     <string name="display_rotation_180_title">180 Grad</string>
     <string name="display_rotation_270_title">270 Grad</string>
+
+    <!-- Navigation bar hint -->
+    <string name="navbar_category">Navigationsleiste</string>
+    <string name="hide_navbar_gesture_bar_title">Gestenleiste ausblenden</string>
+    <string name="hide_navbar_gesture_bar_summary">Blendet die Gestenleiste am unteren Bildschirmrand aus</string>
 </resources>
