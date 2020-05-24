@@ -62,5 +62,14 @@
         android:title="@string/back_sensitivity_dialog_message"
         android:selectable="false"
         settings:searchable="false"/>
-</PreferenceScreen>
 
+    <PreferenceCategory
+        android:title="@string/navbar_category">
+
+        <org.derpfest.support.preferences.SecureSettingSwitchPreference
+            android:key="navigation_bar_hint"
+            android:title="@string/hide_navbar_gesture_bar_title"
+            android:summary="@string/hide_navbar_gesture_bar_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>
