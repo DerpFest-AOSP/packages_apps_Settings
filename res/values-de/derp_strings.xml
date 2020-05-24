@@ -34,4 +34,9 @@
     <string name="trust_restrict_usb_always">USB-Verbindungen ablehnen</string>
     <string name="trust_restrict_usb_keyguard">USB-Verbindungen zulassen, wenn entsperrt</string>
     <string name="trust_restrict_usb_disabled">USB-Verbindungen immer zulassen</string>
+
+    <!-- Navigation bar hint -->
+    <string name="navbar_category">Navigationsleiste</string>
+    <string name="hide_navbar_gesture_bar_title">Gestenleiste ausblenden</string>
+    <string name="hide_navbar_gesture_bar_summary">Blendet die Gestenleiste am unteren Bildschirmrand aus</string>
 </resources>
