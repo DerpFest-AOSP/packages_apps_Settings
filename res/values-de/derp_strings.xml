@@ -372,4 +372,8 @@
     <string name="volume_steps_system_title">Lautstärkeschritte: System</string>
     <string name="volume_steps_voice_call_title">Volume steps: Sprachanruf</string>
     <string name="volume_steps_reset">Zurücksetzen</string>
+
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Reines Schwarz</string>
+    <string name="berry_black_theme_summary">Rein schwarzer Hintergrund für dunkles Design</string>
 </resources>
