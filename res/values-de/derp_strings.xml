@@ -579,4 +579,8 @@
     <string name="flashlight_on_call_ignore_dnd_summary">Ob im Nicht-Stören-Modus geblinkt werden soll</string>
     <string name="flashlight_on_call_rate_title">Blinkfrequenz</string>
     <string name="flashlight_on_call_rate_summary">Blinkrate der Taschenlampe bei Anruf</string>
+
+    <!-- Black theme for dark mode -->
+    <string name="black_bg_title">Reines Schwarz</string>
+    <string name="black_bg_summary">Rein schwarzer Hintergrund für dunkles Design</string>
 </resources>

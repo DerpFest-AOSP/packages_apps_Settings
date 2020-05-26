@@ -601,4 +601,8 @@
     <string name="flashlight_on_call_ignore_dnd_summary">Whether to flash when in Do Not Disturb mode</string>
     <string name="flashlight_on_call_rate_title">Rate</string>
     <string name="flashlight_on_call_rate_summary">Flashlight on call blink rate</string>
+
+    <!-- Black theme for dark mode -->
+    <string name="black_bg_title">Pure black</string>
+    <string name="black_bg_summary">Pure black background for dark theme</string>
 </resources>
