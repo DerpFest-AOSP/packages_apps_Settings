@@ -604,4 +604,8 @@
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Helligkeitssteuerung</string>
     <string name="status_bar_toggle_brightness_summary">Helligkeit durch Wischen über die Statusleiste anpassen</string>
+
+    <!-- Black theme for dark mode -->
+    <string name="black_bg_title">Reines Schwarz</string>
+    <string name="black_bg_summary">Rein schwarzer Hintergrund für dunkles Design</string>
 </resources>
