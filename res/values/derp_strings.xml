@@ -133,6 +133,8 @@
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
 
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
     <string name="data_usage_app_restrict_mobile">Mobile data</string>
     <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
     <string name="data_usage_app_restrict_vpn">VPN data</string>
