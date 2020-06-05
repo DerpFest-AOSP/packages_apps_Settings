@@ -560,4 +560,7 @@
     <string name="app_volume">App-Lautstärke</string>
     <string name="app_volume_title">Lautstärkeregelung per App</string>
     <string name="app_volume_summary">Ermöglicht die Einstellung unterschiedlicher Lautstärken für jede App.\nHINWEIS: Dadurch wird der Multi-Audio-Fokus aktiviert</string>
+
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Klingelton-Vibrationsmuster</string>
 </resources>
