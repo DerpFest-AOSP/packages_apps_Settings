@@ -41,6 +41,23 @@
             app:keywords="@string/keywords_ramping_ringer_vibration"
             app:controller="com.android.settings.accessibility.VibrationRampingRingerTogglePreferenceController"/>
 
+        <!-- Ringtone vibration pattern -->
+        <ListPreference
+            android:key="vibration_pattern"
+            android:title="@string/vibration_pattern_title"
+            android:entries="@array/vibration_pattern_entries"
+            android:entryValues="@array/vibration_pattern_values"
+            android:dependency="ring_vibration_preference_screen"
+            app:controller="com.android.settings.notification.VibrationPatternPreferenceController" />
+
+        <Preference
+            android:key="custom_vibration_pattern"
+            android:title="@string/custom_vibration_pattern_title"
+            android:summary="@string/custom_vibration_pattern_summary"
+            android:fragment="com.android.settings.sound.CustomVibrationPreferenceFragment"
+            android:dependency="ring_vibration_preference_screen"
+            android:visibility="gone"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory
