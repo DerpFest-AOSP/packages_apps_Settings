@@ -3,7 +3,7 @@
      Copyright (C) 2024 DerpFest
      SPDX-License-Identifier: Apache-2.0
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Per-app notification settings: Timeout period in which the app notifications are muted. These are shown in a list dialog. -->
     <string-array name="app_notification_sound_timeout_entries" translatable="false">
@@ -363,4 +363,21 @@
         <!-- Do not translate. -->
         <item>28800000</item>
     </string-array>
+
+    <!-- Vibration patterns -->
+    <string-array name="vibration_pattern_entries">
+        <item>@string/pattern_dzzz_dzzz</item>
+        <item>@string/pattern_dzzz_da</item>
+        <item>@string/pattern_mm_mm_mm</item>
+        <item>@string/pattern_da_da_dzzz</item>
+        <item>@string/pattern_da_dzzz_da</item>
+    </string-array>
+    <string-array name="vibration_pattern_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
 </resources>
