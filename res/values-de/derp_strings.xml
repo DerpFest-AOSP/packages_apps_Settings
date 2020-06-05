@@ -539,4 +539,15 @@
     <string name="fast_charging_title">Schnelles Laden</string>
     <string name="fast_charging_summary">Deaktivieren, um die vom Gerät beim Laden erzeugte Wärme zu reduzieren oder die Lebensdauer des Akkus zu verlängern</string>
 
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Klingelton-Vibrationsmuster</string>
+    <string name="pattern_dzzz_dzzz">tsss-tsss</string>
+    <string name="pattern_dzzz_da">tsss-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-tsss</string>
+    <string name="pattern_da_dzzz_da">da-tsss-da</string>
+    <string name="pattern_custom">Benutzerdefiniert</string>
+    <string name="custom_vibration_pattern_title">Benutzerdefinierte Vibration</string>
+    <string name="custom_vibration_pattern_summary">Benutzerdefiniertes Vibrationsmuster festlegen</string>
+
 </resources>
