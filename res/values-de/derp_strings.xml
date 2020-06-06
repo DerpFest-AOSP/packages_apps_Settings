@@ -578,6 +578,11 @@
     <string name="enable_blurs_on_windows_title">Weichzeichnen aktivieren</string>
     <string name="enable_blurs_on_windows_summary">Aktiviert einen Weichzeichnen-Effekt in einigen Elementen der Benutzeroberfläche</string>
 
+    <!-- Units -->
+    <string name="unit_milliseconds">Millisekunden</string>
+
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Klingelton-Vibrationsmuster</string>
+    <string name="pattern_custom">Benutzerdefiniert</string>
+    <string name="custom_vibration_pattern_title">Benutzerdefiniertes Vibrationsmuster</string>
 </resources>

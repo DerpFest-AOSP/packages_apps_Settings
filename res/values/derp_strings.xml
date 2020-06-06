@@ -611,6 +611,11 @@
     <string name="enable_blurs_on_windows_title">Enable blurs</string>
     <string name="enable_blurs_on_windows_summary">Enables blur effect in some UI elements</string>
 
+    <!-- Units -->
+    <string name="unit_milliseconds">milliseconds</string>
+    <string name="unit_pixels">dp</string>
+    <string name="unit_hz">hz</string>
+
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Ringtone vibration pattern</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
@@ -618,4 +623,6 @@
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Custom</string>
+    <string name="custom_vibration_pattern_title">Custom pattern</string>
 </resources>
