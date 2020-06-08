@@ -255,4 +255,9 @@
     <string name="default_icon_shape">Circle (default)</string>
     <string name="default_font">Google Sans (default)</string>
     <string name="default_icon_pack">AOSP (default)</string>
+
+    <string name="ambient_music_location">Show ambient music ticker</string>
+    <string name="ambient_music_disabled">Disabled</string>
+    <string name="ambient_music_bottom">At the bottom (default)</string>
+    <string name="ambient_music_center">Centered (under the cLock)</string>
 </resources>

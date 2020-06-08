@@ -244,4 +244,9 @@
     <string name="default_icon_shape">Circle (Standard)</string>
     <string name="default_font">Google Sans (Standard)</string>
     <string name="default_icon_pack">AOSP (Standard)</string>
+
+    <string name="ambient_music_location">Ambient Music Ticker anzeigen</string>
+    <string name="ambient_music_disabled">Aus</string>
+    <string name="ambient_music_bottom">Unten (Standard)</string>
+    <string name="ambient_music_center">Zentriert (unter der Uhr)</string>
 </resources>
