@@ -256,4 +256,55 @@
         <!-- Do not translate. -->
         <item>28800000</item>
     </string-array>
+
+    <!-- Random summary -->
+    <string-array name="derpspace_summaries">
+        <item>Warning: Insanely cool stuff ahead!</item>
+        <item>Some interesting tagline. Blah blah blah...</item>
+        <item>Get ready to be blown to the world of imagination</item>
+        <item>DerpNess Ahead</item>
+        <item>DerpSpace. It is a good thing to enter in</item>
+        <item>The Space of Derped stuff</item>
+        <item>Its features lickin\' good</item>
+        <item>Look out! Behind you!</item>
+        <item>All things being equal, you are bound to lose.</item>
+        <item>What I need is a MATURE RELATIONSHIP with a FLOPPY DISK</item>
+        <item>Never let your schooling interfere with your education</item>
+        <item>Your life would be very empty if you had nothing to regret</item>
+        <item>Fame may be fleeting but obscurity is forever</item>
+        <item>This entry will self-destruct in five minutes</item>
+        <item>Things are not always what they seem</item>
+        <item>Some assembly required</item>
+        <item>He who laughs last didn\'t get the joke</item>
+        <item>If everything is coming your way then you\'re in the wrong lane</item>
+        <item>Where there\'s a will, there\'s an Inheritance Tax</item>
+        <item>This is an unauthorized cybernetic announcement</item>
+        <item>No stopping or standing</item>
+        <item>If I am elected, I will hand out free waffles on Tempelhofer Feld!</item>
+        <item>When all other means of communication fail, try words</item>
+        <item>Never eat anything bigger than your head</item>
+        <item>Excessive login or logout messages are a sure sign of senility</item>
+        <item>May the Fest be with you</item>
+        <item>Haters gonna hate</item>
+        <item>Customize till you want it</item>
+        <item>Think less, customize more</item>
+        <item>FBI: Feature Base Isolation</item>
+        <item>This is what awesome looks like</item>
+        <item>With great features comes great responsibility</item>
+        <item>Your friendly neighbor Derped Owl</item>
+        <item>Don\'t dream it. Do it</item>
+        <item>Proudly brought to you without donations</item>
+        <item>Devolution not found</item>
+        <item>Derps happen and sometimes they happen to you</item>
+        <item>Swangin in the rain...</item>
+        <item>#YoureDerpedNow!</item>
+        <item>Lots O\' Options!</item>
+        <item>Where the cool kids hang out...</item>
+        <item>(Throws phone at David)</item>
+        <item>It\'s exactly what it sounds like...</item>
+        <item>Cool stuff inside</item>
+        <item>Free Candy!!</item>
+        <item>&#8593; &#8593; &#8595; &#8595; &#8592; &#8594; &#8592; &#8594; B A</item> 
+    </string-array>
+
 </resources>

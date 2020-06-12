@@ -62,7 +62,6 @@
     <com.android.settings.widget.HomepagePreference
         android:key="top_level_derpspace"
         android:title="@string/derpspace_title"
-        android:summary="@string/build_tweaks_summary_title"
         android:icon="@drawable/ic_settings_derpspace"
         android:order="-130"
         android:fragment="org.derpfest.derpspace.DerpSpace"
