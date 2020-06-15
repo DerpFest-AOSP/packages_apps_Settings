@@ -120,6 +120,9 @@
     <uses-permission android:name="android.permission.START_VIEW_APP_FEATURES" />
     <uses-permission android:name="android.permission.CUSTOMIZE_SYSTEM_UI" />
 
+    <!-- LineageHardware -->
+    <uses-permission android:name="lineageos.permission.HARDWARE_ABSTRACTION_ACCESS" />
+
     <application
             android:name=".SettingsApplication"
             android:label="@string/settings_label"
