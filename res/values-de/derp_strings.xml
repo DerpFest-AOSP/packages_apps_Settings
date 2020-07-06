@@ -503,4 +503,9 @@
     <string name="alarm_blocker_warning">Das Blockieren von Alarmen kann zu Instabilität, Abstürzen oder Datenverlust führen.</string>
     <string name="alarm_blocker_display_text">Um Alarme anzuzeigen und zu blockieren, aktivieren Sie den Alarmblocker.</string>
 
+    <!-- Data usage -->
+    <string name="data_usage_period">Datennutzungszeitraum</string>
+    <string name="data_usage_daily">Täglich</string>
+    <string name="data_usage_monthly">Monatlich</string>
+
 </resources>

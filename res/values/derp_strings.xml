@@ -526,4 +526,9 @@
     <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
     <string name="alarm_blocker_display_text">To see and block alarms, turn on alarm blocker.</string>
 
+    <!-- Data usage -->
+    <string name="data_usage_period">Data usage period</string>
+    <string name="data_usage_daily">Daily</string>
+    <string name="data_usage_monthly">Monthly</string>
+
 </resources>

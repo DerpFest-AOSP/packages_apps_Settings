@@ -24,6 +24,7 @@ import android.net.INetworkPolicyManager;
 import android.net.NetworkPolicyManager;
 import android.net.NetworkTemplate;
 import android.os.ServiceManager;
+import android.provider.Settings;
 import android.telephony.SubscriptionInfo;
 import android.telephony.SubscriptionManager;
 import android.telephony.SubscriptionPlan;
@@ -214,8 +215,12 @@ public class DataUsageSummaryPreferenceController extends TelephonyBasePreferenc
         mHistoricalUsageLevel = ThreadUtils.postOnBackgroundThread(() ->
                 mDataUsageController.getHistoricalUsageLevel(mDefaultTemplate));
 
+        boolean showDailyDataUsage = Settings.System.getInt(mContext.getContentResolver(),
+                Settings.System.DATA_USAGE_PERIOD, 1) == 0;
+
         final DataUsageController.DataUsageInfo info =
-                mDataUsageController.getDataUsageInfo(mDefaultTemplate);
+                showDailyDataUsage ? mDataUsageController.getDailyDataUsageInfo(mDefaultTemplate)
+                        : mDataUsageController.getDataUsageInfo(mDefaultTemplate);
 
         long usageLevel = info.usageLevel;
 
