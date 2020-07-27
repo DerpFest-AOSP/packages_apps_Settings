@@ -271,4 +271,8 @@
     <string name="navbar_radius">Radius der Gesten-Navigationsleiste</string>
     <string name="small_label">1 dp</string>
     <string name="big_label">4 dp</string>
+
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Durch die Klingelmodi wechseln</string>
+    <string name="prevent_ringing_option_cycle_summary">Ein (Modi durchlaufen)</string>
 </resources>
