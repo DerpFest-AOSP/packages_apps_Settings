@@ -668,4 +668,8 @@
 
     <!-- Volume dialog timeout -->
     <string name="volume_dialog_timeout_title">Anzeigedauer des Lautstärkereglers</string>
+
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Geste zum Durchlaufen der Klingeltonmodi</string>
+    <string name="prevent_ringing_option_cycle_summary">Ein (Modi durchlaufen)</string>
 </resources>
