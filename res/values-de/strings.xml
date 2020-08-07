@@ -4964,6 +4964,8 @@
     <string name="media_controls_resume_description" msgid="7702723104730495227">"Mediaplayer für längere Zeit anzeigen, um die Wiedergabe einfach fortsetzen zu können"</string>
     <string name="media_controls_hide_player" msgid="2751439192580884015">"Player ausblenden"</string>
     <string name="media_controls_show_player" msgid="8504571042365814021">"Player anzeigen"</string>
+    <!-- Subtitle for section of media control settings that shows which apps are allowed [CHAR LIMIT=50] -->
+    <string name="media_controls_apps_title">Erlaubte Apps</string>
     <string name="media_controls_no_players" msgid="3493023121892175946">"Es sind keine Player verfügbar."</string>
     <string name="keywords_media_controls" msgid="8345490568291778638">"Medien"</string>
     <string name="connected_device_see_all_summary" msgid="2056010318537268108">"Bluetooth wird aktiviert"</string>
