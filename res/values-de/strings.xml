@@ -4389,6 +4389,7 @@
     <string name="theme_customization_accent_color_title">Akzentfarbe</string>
     <string name="theme_customization_font_title">Schriftstil</string>
     <string name="theme_customization_icon_shape_title">Symbolform</string>
+    <string name="theme_customization_icon_pack_title">Symbolpaket</string>
     <string name="theme_customization_device_default" msgid="7641813022590999286">"Gemäß Standard fürs Gerät"</string>
     <string name="display_cutout_emulation" msgid="1421648375408281244">"Display-Aussparung"</string>
     <string name="display_cutout_emulation_keywords" msgid="4506580703807358127">"display aussparung, notch"</string>
