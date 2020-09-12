@@ -4385,6 +4385,10 @@
     <string name="notification_log_details_none" msgid="1090852853755089991">"Keine"</string>
     <string name="notification_log_details_ranking_null" msgid="6607596177723101524">"Das Rangobjekt fehlt."</string>
     <string name="notification_log_details_ranking_none" msgid="2484105338466675261">"Dieser Schlüssel ist in dem Rangobjekt nicht enthalten."</string>
+    <string name="theme_customization_category">UI Stil</string>
+    <string name="theme_customization_accent_color_title">Akzentfarbe</string>
+    <string name="theme_customization_font_title">Schriftstil</string>
+    <string name="theme_customization_icon_shape_title">Symbolform</string>
     <string name="theme_customization_device_default" msgid="7641813022590999286">"Gemäß Standard fürs Gerät"</string>
     <string name="display_cutout_emulation" msgid="1421648375408281244">"Display-Aussparung"</string>
     <string name="display_cutout_emulation_keywords" msgid="4506580703807358127">"display aussparung, notch"</string>
