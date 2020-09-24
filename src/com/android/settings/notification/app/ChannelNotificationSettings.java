@@ -48,13 +48,6 @@ public class ChannelNotificationSettings extends NotificationSettings {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         final PreferenceScreen screen = getPreferenceScreen();
-        Bundle args = getArguments();
-        // If linking to this screen from an external app, expand settings
-        if (screen != null && args != null) {
-            if (!args.getBoolean(ARG_FROM_SETTINGS, false)) {
-                screen.setInitialExpandedChildrenCount(Integer.MAX_VALUE);
-            }
-        }
     }
 
     @Override

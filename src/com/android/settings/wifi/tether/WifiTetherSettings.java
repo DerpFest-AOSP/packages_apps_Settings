@@ -54,8 +54,6 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
     private static final String TAG = "WifiTetherSettings";
     private static final IntentFilter TETHER_STATE_CHANGE_FILTER;
     private static final String KEY_WIFI_TETHER_SCREEN = "wifi_tether_settings_screen";
-    private static final int EXPANDED_CHILD_COUNT_WITH_SECURITY_NON = 3;
-    private static final int EXPANDED_CHILD_COUNT_DEFAULT = 4;
 
     @VisibleForTesting
     static final String KEY_WIFI_TETHER_NETWORK_NAME = "wifi_tether_network_name";
@@ -203,10 +201,6 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
             mSwitchBarController.stopTether();
         }
         mWifiManager.setSoftApConfiguration(config);
-
-        if (context instanceof WifiTetherSecurityPreferenceController) {
-            reConfigInitialExpandedChildCount();
-        }
     }
 
     private SoftApConfiguration buildNewConfig() {
@@ -289,26 +283,5 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
                 }
             }
         }
-    }
-
-    private void reConfigInitialExpandedChildCount() {
-        final PreferenceGroup screen = getPreferenceScreen();
-        if (mSecurityPreferenceController.getSecurityType()
-                == SoftApConfiguration.SECURITY_TYPE_OPEN) {
-            screen.setInitialExpandedChildrenCount(EXPANDED_CHILD_COUNT_WITH_SECURITY_NON);
-            return;
-        }
-        screen.setInitialExpandedChildrenCount(EXPANDED_CHILD_COUNT_DEFAULT);
-    }
-
-    @Override
-    public int getInitialExpandedChildCount() {
-        if (mSecurityPreferenceController == null) {
-            return EXPANDED_CHILD_COUNT_DEFAULT;
-        }
-
-        return (mSecurityPreferenceController.getSecurityType()
-                == SoftApConfiguration.SECURITY_TYPE_OPEN)
-            ? EXPANDED_CHILD_COUNT_WITH_SECURITY_NON : EXPANDED_CHILD_COUNT_DEFAULT;
     }
 }

@@ -128,8 +128,6 @@ public class ConfigureNotificationSettings extends DashboardFragment implements
             if (!TextUtils.isEmpty(highlightKey)) {
                 final PreferenceCategory advancedCategory =
                         screen.findPreference(KEY_ADVANCED_CATEGORY);
-                // Has highlight row - expand everything
-                advancedCategory.setInitialExpandedChildrenCount(Integer.MAX_VALUE);
                 scrollToPreference(advancedCategory);
             }
         }

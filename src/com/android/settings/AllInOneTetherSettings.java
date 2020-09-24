@@ -97,12 +97,6 @@ public class AllInOneTetherSettings extends RestrictedDashboardFragment
     public static final String BLUETOOTH_TETHER_KEY = "enable_bluetooth_tethering" + DEDUP_POSTFIX;
     public static final String ETHERNET_TETHER_KEY = "enable_ethernet_tethering" + DEDUP_POSTFIX;
 
-    @VisibleForTesting
-    static final int EXPANDED_CHILD_COUNT_DEFAULT = 4;
-    @VisibleForTesting
-    static final int EXPANDED_CHILD_COUNT_WITH_SECURITY_NON = 3;
-    @VisibleForTesting
-    static final int EXPANDED_CHILD_COUNT_MAX = Integer.MAX_VALUE;
     private static final String TAG = "AllInOneTetherSettings";
 
     private boolean mUnavailable;
@@ -128,8 +122,6 @@ public class AllInOneTetherSettings extends RestrictedDashboardFragment
             state -> {
                 mShouldShowWifiConfig = TetherEnabler.isTethering(state, TETHERING_WIFI)
                         || state == TetherEnabler.TETHERING_OFF;
-                getPreferenceScreen().setInitialExpandedChildrenCount(
-                        getInitialExpandedChildCount());
                 mWifiTetherGroup.setVisible(mShouldShowWifiConfig);
             };
 
@@ -385,22 +377,6 @@ public class AllInOneTetherSettings extends RestrictedDashboardFragment
         mSecurityPreferenceController.updateDisplay();
         mPasswordPreferenceController.updateDisplay();
         mApBandPreferenceController.updateDisplay();
-    }
-
-    @Override
-    public int getInitialExpandedChildCount() {
-        if (mHasShownAdvance || !mShouldShowWifiConfig) {
-            mHasShownAdvance = true;
-            return EXPANDED_CHILD_COUNT_MAX;
-        }
-
-        if (mSecurityPreferenceController == null) {
-            return EXPANDED_CHILD_COUNT_DEFAULT;
-        }
-
-        return (mSecurityPreferenceController.getSecurityType()
-                == SoftApConfiguration.SECURITY_TYPE_OPEN)
-                ? EXPANDED_CHILD_COUNT_WITH_SECURITY_NON : EXPANDED_CHILD_COUNT_DEFAULT;
     }
 
     @Override

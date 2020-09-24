@@ -47,13 +47,6 @@ public class SystemDashboardFragment extends DashboardFragment {
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-
-        final PreferenceScreen screen = getPreferenceScreen();
-        // We do not want to display an advanced button if only one setting is hidden
-        if (getVisiblePreferenceCount(screen) == screen.getInitialExpandedChildrenCount() + 1) {
-            screen.setInitialExpandedChildrenCount(Integer.MAX_VALUE);
-        }
-
         showRestrictionDialog();
     }
 

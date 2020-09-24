@@ -39,7 +39,6 @@ public class MultiNetworkHeaderController extends BasePreferenceController imple
     private SubscriptionsPreferenceController mSubscriptionsController;
     private PreferenceCategory mPreferenceCategory;
     private PreferenceScreen mPreferenceScreen;
-    private int mOriginalExpandedChildrenCount;
 
     public MultiNetworkHeaderController(Context context, String key) {
         super(context, key);
@@ -68,7 +67,6 @@ public class MultiNetworkHeaderController extends BasePreferenceController imple
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
         mPreferenceScreen = screen;
-        mOriginalExpandedChildrenCount = mPreferenceScreen.getInitialExpandedChildrenCount();
         mPreferenceCategory = screen.findPreference(mPreferenceKey);
         mPreferenceCategory.setVisible(isAvailable());
         mWifiController.displayPreference(screen);
@@ -87,17 +85,6 @@ public class MultiNetworkHeaderController extends BasePreferenceController imple
     @Override
     public void onChildrenUpdated() {
         final boolean available = isAvailable();
-        // TODO(b/129893781) we need a better way to express where the advanced collapsing starts
-        // for preference groups that have items dynamically added/removed in the top expanded
-        // section.
-        if (mOriginalExpandedChildrenCount != Integer.MAX_VALUE) {
-            if (available) {
-                mPreferenceScreen.setInitialExpandedChildrenCount(
-                        mOriginalExpandedChildrenCount + mPreferenceCategory.getPreferenceCount());
-            } else {
-                mPreferenceScreen.setInitialExpandedChildrenCount(mOriginalExpandedChildrenCount);
-            }
-        }
         mPreferenceCategory.setVisible(available);
     }
 }
