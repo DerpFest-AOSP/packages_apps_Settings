@@ -161,4 +161,7 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tippen um Infos zu zeigen</string>
 
+    <!-- Clock style -->
+    <string name="clock_style_title">Stil der Uhranzeige</string>
+    <string name="clock_style_summary">Layout für die Uhr auf dem Sperrbildschirm anpassen</string>
 </resources>
