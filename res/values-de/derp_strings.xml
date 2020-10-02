@@ -324,4 +324,23 @@
     <string name="switch_md2">Material Design 2</string>
     <string name="switch_retro">Retro</string>
     <string name="switch_oos">OxygenOS 11</string>
+
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Bluetooth-Zeitüberschreitung</string>
+
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Bluetooth wird ausgeschaltet nach <xliff:g id="timeout_description">%1$s</xliff:g> wenn keine Geräte angeschlossen sind</string>
+    <string name="bluetooth_timeout_summary2">Schalten Sie Bluetooth nicht automatisch aus</string>
+    <string name="bluetooth_timeout_summary_never">Nie</string>
+    <string name="bluetooth_timeout_summary_15secs">15 Sekunden</string>
+    <string name="bluetooth_timeout_summary_30secs">30 Sekunden</string>
+    <string name="bluetooth_timeout_summary_1min">1 Minute</string>
+    <string name="bluetooth_timeout_summary_2mins">2 Minuten</string>
+    <string name="bluetooth_timeout_summary_5mins">5 Minuten</string>
+    <string name="bluetooth_timeout_summary_10mins">10 Minuten</string>
+    <string name="bluetooth_timeout_summary_30mins">30 Minuten</string>
+    <string name="bluetooth_timeout_summary_1hour">1 Stunde</string>
+    <string name="bluetooth_timeout_summary_2hours">2 Stunden</string>
+    <string name="bluetooth_timeout_summary_4hours">4 Stunden</string>
+    <string name="bluetooth_timeout_summary_8hours">8 Stunden</string>
 </resources>
