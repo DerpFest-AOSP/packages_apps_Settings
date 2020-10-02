@@ -355,4 +355,20 @@
     <string name="auto_reboot_summary">Das Gerät wird automatisch neu gestartet, wenn es nicht innerhalb der letzten <xliff:g id="timeout_description">%1$s</xliff:g> entsperrt wurde.</string>
     <string name="auto_reboot_title">Automatischer Neustart</string>
 
+    <string name="bluetooth_timeout_summary2">Bluetooth nicht automatisch ausschalten</string>
+    <string name="bluetooth_timeout_summary">Bluetooth schaltet sich nach <xliff:g id="timeout_description">%1$s</xliff:g> aus, wenn keine Geräte verbunden sind</string>
+    <string name="bluetooth_timeout">Bluetooth-Zeitabschaltung</string>
+    <string name="bluetooth_timeout_summary_8hours">8 Stunden</string>
+    <string name="bluetooth_timeout_summary_4hours">4 Stunden</string>
+    <string name="bluetooth_timeout_summary_2hours">2 Stunden</string>
+    <string name="bluetooth_timeout_summary_1hour">1 Stunde</string>
+    <string name="bluetooth_timeout_summary_30mins">30 Minuten</string>
+    <string name="bluetooth_timeout_summary_10mins">10 Minuten</string>
+    <string name="bluetooth_timeout_summary_5mins">5 Minuten</string>
+    <string name="bluetooth_timeout_summary_2mins">2 Minuten</string>
+    <string name="bluetooth_timeout_summary_1min">1 Minute</string>
+    <string name="bluetooth_timeout_summary_30secs">30 Sekunden</string>
+    <string name="bluetooth_timeout_summary_15secs">15 Sekunden</string>
+    <string name="bluetooth_timeout_summary_never">Nie</string>
+
 </resources>
