@@ -330,4 +330,8 @@
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Verwenden Sie eine schwebende Schaltfläche zum Drehen</string>
 
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Vollbild Apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Zwinge die Applikationen die Einkerbung zu ignorieren</string>
+
 </resources>
