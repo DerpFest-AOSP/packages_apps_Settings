@@ -552,4 +552,8 @@
     <string name="adaptive_playback_timeout_10_min">10 Minuten</string>
     <string name="adaptive_playback_timeout_10_min_summary">Ein (10 Minuten)</string>
 
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Vollbild-Apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Zwingen Sie Apps, den Notch zu ignorieren</string>
+
 </resources>
