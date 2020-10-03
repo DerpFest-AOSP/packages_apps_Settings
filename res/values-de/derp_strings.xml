@@ -677,4 +677,10 @@
     <!-- Hardware info -->
     <string name="soc_model">SoC-Modell</string>
     <string name="total_ram">RAM insgesamt</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Vollbild-Apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Apps dazu zwingen, die Display-Aussparung zu ignorieren</string>
+    <string name="display_cutout_force_fullscreen_search">Suche</string>
+    <string name="display_cutout_force_fullscreen_search_apps">Apps suchen</string>
 </resources>
