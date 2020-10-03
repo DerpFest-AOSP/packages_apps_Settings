@@ -372,4 +372,10 @@
     <!-- Enforce DNS for VPN -->
     <string name="vpn_enforce_dns_title">Disable for VPN</string>
     <string name="vpn_enforce_dns_summary">Disable the private DNS when connected to a VPN. It will restore upon disconnecting.</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="display_cutout_force_fullscreen_search">Search</string>
+    <string name="display_cutout_force_fullscreen_search_apps">Search apps</string>
 </resources>
