@@ -328,4 +328,10 @@
     <string name="volume_dialog_force_show_settings_title">Mediensteuerung</string>
     <string name="volume_dialog_force_show_settings_summary">Erzwingen der Anzeige der Mediensteuerung im Lautstärke-Dialog</string>
 
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Vollbild-Apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Zwingen Sie Apps, den Notch zu ignorieren</string>
+    <string name="display_cutout_force_fullscreen_no_apps">Keine apps</string>
+    <string name="display_cutout_force_fullscreen_restart_app">Bitte die Anwendung neu starten, um die Änderungen zu übernehmen.</string>
+
 </resources>
