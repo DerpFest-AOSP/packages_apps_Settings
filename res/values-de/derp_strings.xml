@@ -62,4 +62,9 @@
     <string name="back_gesture_haptic_title">Haptisches Feedback</string>
     <string name="back_gesture_haptic_summary">Aktivieren Sie den haptischen Tick-Effekt bei der Rückengeste</string>
 
+    <!-- Navbar length -->
+    <string name="navbar_length">Länge der Gestenleiste</string>
+    <string name="short_label">Kurz</string>
+    <string name="long_label">Lang</string>
+
 </resources>
