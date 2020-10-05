@@ -661,4 +661,8 @@
     <string name="navbar_gesture_handle_category">Gesture handle</string>
     <string name="back_gesture_arrow_title">Back gesture animation</string>
     <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
+
+    <!-- Haptic feedback -->
+    <string name="back_gesture_haptic_title">Haptic feedback</string>
+    <string name="back_gesture_haptic_summary">Vibrate when performing a back gesture</string>
 </resources>
