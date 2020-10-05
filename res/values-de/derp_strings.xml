@@ -580,4 +580,8 @@
     <string name="navbar_gesture_handle_category">Gesten-Navigationsgriff</string>
     <string name="back_gesture_arrow_title">Animation der Zurück-Geste</string>
     <string name="back_gesture_arrow_summary">Einen animierten Pfeil für die Zurück-Geste anzeigen</string>
+
+    <!-- Back gesture haptic -->
+    <string name="back_gesture_haptic_title">Haptisches Feedback bei Zurück-Geste</string>
+    <string name="back_gesture_haptic_summary">Bei Zurück-Geste vibrieren</string>
 </resources>
