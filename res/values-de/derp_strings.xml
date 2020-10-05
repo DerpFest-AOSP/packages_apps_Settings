@@ -639,4 +639,9 @@
     <string name="back_options_dialog_title">Options</string>
     <string name="back_height_title">Erkennungsbereich</string>
     <string name="back_height_message">Wo die Zurück-Geste überall erkannt werden soll</string>
+
+    <!-- Back gesture haptic -->
+    <string name="navbar_gesture_handle_category">Gesten-Navigationsgriff</string>
+    <string name="back_gesture_haptic_title">Haptisches Feedback bei Zurück-Geste</string>
+    <string name="back_gesture_haptic_summary">Bei Zurück-Geste vibrieren</string>
 </resources>
