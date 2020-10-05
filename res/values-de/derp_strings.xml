@@ -859,4 +859,7 @@
     <!-- Text shown for the title of the restart systemui option -->
     <string name="power_menu_restart_systemui_title">System-UI-Neustart</string>
 
+    <!-- Back gesture haptic -->
+    <string name="back_gesture_haptic_title">Haptisches Feedback bei Zurück-Geste</string>
+    <string name="back_gesture_haptic_summary">Bei Zurück-Geste vibrieren</string>
 </resources>
