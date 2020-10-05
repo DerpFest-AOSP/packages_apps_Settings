@@ -58,4 +58,8 @@
     <string name="face_redo_confirm_btn">Wiederholen</string>
     <string name="face_redo_warning_msg">Möchten Sie den vorhandenen Gesichts-Scan entfernen und einen neuen erstellen?</string>
 
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Haptisches Feedback</string>
+    <string name="back_gesture_haptic_summary">Aktivieren Sie den haptischen Tick-Effekt bei der Rückengeste</string>
+
 </resources>
