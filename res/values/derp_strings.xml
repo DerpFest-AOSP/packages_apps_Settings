@@ -172,4 +172,9 @@
     <string name="back_options_dialog_title">Options</string>
     <string name="back_height_title">Back height</string>
     <string name="back_height_message">Amount of screen height used as a touchable region for back gesture</string>
+
+    <!-- Haptic feedback -->
+    <string name="navbar_gesture_handle_category">Gesture handle</string>
+    <string name="back_gesture_haptic_title">Haptic feedback</string>
+    <string name="back_gesture_haptic_summary">Vibrate when performing a back gesture</string>
 </resources>
