@@ -452,4 +452,8 @@
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Eine schwebende Schaltfläche zum Drehen einblenden</string>
 
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Haptisches Feedback</string>
+    <string name="back_gesture_haptic_summary">Aktiviert den haptischen Tick-Effekt bei der Zurück-Geste</string>
+
 </resources>
