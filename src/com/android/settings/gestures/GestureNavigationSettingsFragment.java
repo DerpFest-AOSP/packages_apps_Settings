@@ -152,7 +152,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
         float initScale = 0;
         if (settingsKey != "") {
             initScale = Settings.Secure.getFloat(
-                  getContext().getContentResolver(), settingsKey, 1.0f);
+                  getContext().getContentResolver(), settingsKey, settingsKey == GESTURE_BAR_LENGTH_KEY ? 0.0f : 1.0f);
         }
 
         // Find the closest value to initScale
