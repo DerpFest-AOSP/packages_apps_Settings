@@ -270,4 +270,7 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Gespeicherte Kopfhörer</string>
 
+    <!-- Volume panel on left switch -->
+    <string name="volume_panel_on_left_title">Lautstärkeregler auf der linken Seite anzeigen</string>
+
 </resources>

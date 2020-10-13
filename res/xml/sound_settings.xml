@@ -96,6 +96,14 @@
         android:defaultValue="true"
         android:order="-138" />
 
+    <!-- Volume panel to left -->
+    <com.derp.support.preferences.SecureSettingSwitchPreference
+        android:key="volume_panel_on_left"
+        android:title="@string/volume_panel_on_left_title"
+        android:defaultValue="@*android:bool/config_audioPanelOnLeftSide"
+        android:order="-137"
+        settings:controller="com.android.settings.sound.VolumePanelOnLeftPreferenceController"/>
+
     <!-- Increasing ring -->
     <com.derp.support.preferences.SystemSettingSwitchPreference
         android:key="increasing_ring"
