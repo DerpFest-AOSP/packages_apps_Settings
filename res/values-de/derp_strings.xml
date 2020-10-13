@@ -235,4 +235,9 @@
     <!-- Summary for list to control apps that ignore battery saving restrictions -->
     <string name="high_power_apps_summary">Verfügbarkeit der Batterieoptimierung</string>
 
+    <!-- Volume dialog -->
+    <string name="volume_dialog_category">Lautstärke-Dialog</string>
+    <string name="volume_panel_on_left_title">Nach links verschieben</string>
+    <string name="volume_panel_on_left_summary">Lautstärke-Dialog auf der linken Seite anzeigen</string>
+
 </resources>
