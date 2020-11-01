@@ -699,4 +699,7 @@
     <string name="add_sensor_block_package_title">Add apps for Sensor block</string>
     <string name="add_sensor_block_package_summary">Significant motion, accelerometer, linear acceleration sensors will be blocked for these apps</string>
     <string name="profile_choose_app">Choose app</string>
+
+    <!-- Volume dialog timeout -->
+    <string name="volume_dialog_timeout_title">Volume panel timeout</string>
 </resources>

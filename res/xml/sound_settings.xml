@@ -157,6 +157,15 @@
         settings:controller="com.android.settings.sound.MediaControlsParentPreferenceController"
         settings:keywords="@string/keywords_media_controls"/>
 
+    <org.derpfest.support.preferences.SecureSettingSeekBarPreference
+        android:key="volume_dialog_dismiss_timeout"
+        android:title="@string/volume_dialog_timeout_title"
+        android:defaultValue="3000"
+        android:max="10000"
+        settings:min="1000"
+        settings:interval="500"
+        settings:units="@string/unit_milliseconds" />
+
     <!-- Also vibration -->
     <Preference
         android:fragment="com.android.settings.accessibility.VibrationSettings"
