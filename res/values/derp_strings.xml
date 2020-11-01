@@ -56,4 +56,9 @@
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
 
+    <!-- Volume dialog timeout -->
+    <string name="unit_seconds">Second(s)</string>
+    <string name="volume_dialog_timeout_title">Volume panel timeout</string>
+    <string name="volume_dialog_timeout_summary">The time it takes for volume panel to fade</string>
+
 </resources>
