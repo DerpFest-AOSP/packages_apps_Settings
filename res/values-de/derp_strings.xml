@@ -622,4 +622,9 @@
     <string name="profile_choose_app">App auswählen</string>
     <string name="dialog_delete_message">Ausgewähltes Element entfernen?</string>
     <string name="dialog_delete_title">Entfernen</string>
+
+    <!-- Volume dialog timeout -->
+    <string name="unit_seconds">Sekunde(n)</string>
+    <string name="volume_dialog_timeout_title">Anzeigedauer des Lautstärkereglers</string>
+    <string name="volume_dialog_timeout_summary">Die Zeit, die benötigt wird, bis der Lautstärkeregler ausgeblendet wird</string>
 </resources>
