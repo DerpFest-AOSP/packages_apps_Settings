@@ -16,6 +16,7 @@
 
 package com.android.settings.security;
 
+import android.app.admin.DevicePolicyManager;
 import android.content.Context;
 import android.hardware.fingerprint.FingerprintManager;
 import android.provider.Settings;
@@ -31,6 +32,7 @@ public class FPUnlockKeystorePreferenceController extends AbstractPreferenceCont
 
     private static final String PREF_FP_UNLOCK_KEYSTORE = "fp_unlock_keystore";
 
+    private DevicePolicyManager mDevicePolicyManager;
     private FingerprintManager mFingerprintManager;
 
     public FPUnlockKeystorePreferenceController(Context context) {
@@ -51,8 +53,14 @@ public class FPUnlockKeystorePreferenceController extends AbstractPreferenceCont
 
    @Override
     public boolean isAvailable() {
+        int mEncryptionStatus;
+        mDevicePolicyManager = (DevicePolicyManager) mContext.getSystemService(Context.DEVICE_POLICY_SERVICE);
+        mEncryptionStatus = mDevicePolicyManager.getStorageEncryptionStatus();
         mFingerprintManager = (FingerprintManager) mContext.getSystemService(Context.FINGERPRINT_SERVICE);
-        return (mFingerprintManager.isHardwareDetected());
+
+        return (mFingerprintManager.isHardwareDetected()
+            && mEncryptionStatus != DevicePolicyManager.ENCRYPTION_STATUS_ACTIVE
+            && mEncryptionStatus != DevicePolicyManager.ENCRYPTION_STATUS_ACTIVE_PER_USER);
     }
 
     @Override
