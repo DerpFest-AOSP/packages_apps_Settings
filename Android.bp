@@ -112,6 +112,7 @@ android_library {
         "kotlinx-coroutines-core",
         "kotlinx-coroutines-android",
         "SystemUISharedLib",
+        "VendorSupport-preference",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
