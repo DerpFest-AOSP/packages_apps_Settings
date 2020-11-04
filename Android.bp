@@ -115,6 +115,7 @@ android_library {
 
         // DerpFest dependencies
         "SystemUISharedLib",
+        "VendorSupport-preference",
     ],
 
     plugins: [
