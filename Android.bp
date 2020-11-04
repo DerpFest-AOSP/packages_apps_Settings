@@ -116,6 +116,7 @@ android_library {
         "androidx.room_room-runtime",
         "SystemUIUnfoldLib",
         "vendor.lineage.fastcharge-V1.0-java",
+        "VendorSupport-preference",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
