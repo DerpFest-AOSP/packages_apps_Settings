@@ -112,6 +112,7 @@ android_library {
         "kotlinx-coroutines-core",
         "kotlinx-coroutines-android",
         "vendor.lineage.fastcharge-V1.0-java",
+        "VendorSupport-preference",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
