@@ -33,4 +33,10 @@
     <PreferenceCategory
         android:key="gesture_adaptive_playback_category"
         android:title="@string/adaptive_playback_timeout_title" />
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="footer_preference"
+        android:title="@string/adaptive_playback_explainer"
+        android:selectable="false" />
+
 </PreferenceScreen>
