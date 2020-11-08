@@ -32,7 +32,9 @@
         <item name="preferenceCategoryTitleTextColor">?android:attr/textColorSecondary</item>
     </style>
 
-    <style name="SettingsCategoryPreference" parent="Preference.Category.Material" />
+    <style name="SettingsCategoryPreference" parent="Preference.Category.Material">
+        <item name="android:layout">@layout/category_preference_layout</item>
+    </style>
 
     <style name="PreferenceTheme.SetupWizard">
         <item name="preferenceFragmentCompatStyle">@style/SetupWizardPreferenceFragmentStyle</item>
