@@ -664,4 +664,11 @@
     <!-- Summary for the accessibility preference to adjust the display size, font size, bold text, and high contrast text features. [CHAR LIMIT=NONE] -->
     <string name="accessibility_text_reading_options_summary">Customize display size, font &amp; text</string>
 
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Full</string>
+    <string name="back_height_high_label">Bottom</string>
+    <string name="back_options_dialog_title">Options</string>
+    <string name="back_height_title">Back gesture height</string>
+    <string name="back_height_summary">Amount of screen height used as touchable region for back gesture.</string>
+
 </resources>
