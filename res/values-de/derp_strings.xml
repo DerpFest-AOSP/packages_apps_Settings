@@ -418,4 +418,8 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Taschen-Erkennung</string>
     <string name="pocket_judge_summary">Verhindert Bildschirm- und Tasteneingaben, wenn sich das Gerät in einer Tasche befindet</string>
+
+    <!-- Quick Settings quick pulldown -->
+    <string name="quick_settings_quick_pull_down_title">Schnelleinstellungen schnell herunterziehen</string>
+    <string name="quick_settings_quick_pull_down_summary">Die Statusleiste von der rechten Seite nach unten ziehen, um die Schnelleinstellungen anzuzeigen</string>
 </resources>
