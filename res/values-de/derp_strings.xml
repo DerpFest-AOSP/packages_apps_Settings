@@ -158,4 +158,8 @@
     <string name="gesture_power_button_category_title">Ein-/Aus-Taste</string>
     <string name="gesture_volume_buttons_category_title">Lautstärke-Tasten</string>
 
+    <!-- Quick Settings quick pulldown -->
+    <string name="quick_settings_quick_pull_down_title">Schnelleinstellungen schnell herunterziehen</string>
+    <string name="quick_settings_quick_pull_down_summary">Die Statusleiste von der rechten Seite nach unten ziehen, um die Schnelleinstellungen anzuzeigen</string>
+
 </resources>
