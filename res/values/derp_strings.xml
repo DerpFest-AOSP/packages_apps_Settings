@@ -162,4 +162,8 @@
     <string name="gesture_power_button_category_title">Power button</string>
     <string name="gesture_volume_buttons_category_title">Volume buttons</string>
 
+    <!-- Quick Settings quick pulldown -->
+    <string name="quick_settings_quick_pull_down_title">Quick QS pulldown</string>
+    <string name="quick_settings_quick_pull_down_summary">Pull down statusbar from right side to expand quick settings</string>
+
 </resources>
