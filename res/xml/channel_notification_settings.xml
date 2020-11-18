@@ -88,13 +88,6 @@
         android:icon="@drawable/ic_notification_vis_override"
         android:title="@string/app_notification_visibility_override_title"/>
 
-    <!-- Lights -->
-    <com.android.settingslib.RestrictedSwitchPreference
-        android:key="lights"
-        android:order="14"
-        android:icon="@drawable/ic_lightbulb_outline_24"
-        android:title="@string/notification_show_lights_title" />
-
     <!-- Show badge -->
     <com.android.settingslib.RestrictedSwitchPreference
         android:key="badge"
@@ -110,6 +103,44 @@
         android:icon="@drawable/ic_do_not_disturb_on_24dp"
         android:title="@string/app_notification_override_dnd_title"
         android:summary="@string/app_notification_override_dnd_summary" />
+
+        <!-- Lights -->
+        <com.android.settingslib.RestrictedSwitchPreference
+            android:key="lights"
+            android:order="18"
+            android:icon="@drawable/ic_lightbulb_outline_24"
+            android:title="@string/notification_show_lights_title" />
+
+        <!-- Custom led color -->
+        <org.derpfest.support.colorpicker.ColorPickerSystemPreference
+            android:key="custom_light"
+            android:dependency="lights"
+            android:order="19"
+            android:title="@string/custom_light_title"
+            isledPicker="true"
+            android:defaultValue="0xFFFFFFFF" />
+
+        <org.derpfest.support.preferences.CustomSeekBarPreference
+            android:key="custom_light_on_time"
+            android:dependency="lights"
+            android:title="@string/custom_light_on_time_title"
+            android:order="20"
+            allowEditText="true"
+            android:min="0"
+            android:max="10000"
+            settings:interval="100"
+            settings:units="" />
+
+        <org.derpfest.support.preferences.CustomSeekBarPreference
+            android:key="custom_light_off_time"
+            android:dependency="lights"
+            android:title="@string/custom_light_off_time_title"
+            android:order="21"
+            allowEditText="true"
+            android:min="0"
+            android:max="10000"
+            settings:interval="100"
+            settings:units="" />
 
     <Preference
         android:key="app_link"
