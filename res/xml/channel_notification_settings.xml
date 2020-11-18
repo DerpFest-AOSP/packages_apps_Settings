@@ -92,13 +92,6 @@
             android:order="13"
             android:title="@string/app_notification_visibility_override_title"/>
 
-        <!-- Lights -->
-        <com.android.settingslib.RestrictedSwitchPreference
-            android:key="lights"
-            android:order="14"
-            android:title="@string/notification_show_lights_title"
-            settings:useAdditionalSummary="true"/>
-
         <!-- Show badge -->
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="badge"
@@ -115,9 +108,47 @@
             android:summary="@string/app_notification_override_dnd_summary"
             settings:useAdditionalSummary="true"/>
 
+        <!-- Lights -->
+        <com.android.settingslib.RestrictedSwitchPreference
+            android:key="lights"
+            android:order="18"
+            android:title="@string/notification_show_lights_title"
+            settings:useAdditionalSummary="true"/>
+
+        <!-- Custom led color -->
+        <com.derp.support.colorpicker.ColorPickerSystemPreference
+            android:key="custom_light"
+            android:dependency="lights"
+            android:order="19"
+            android:title="@string/custom_light_title"
+            isledPicker="true"
+            android:defaultValue="0xFFFFFFFF" />
+
+        <com.derp.support.preference.CustomSeekBarPreference
+            android:key="custom_light_on_time"
+            android:dependency="lights"
+            android:title="@string/custom_light_on_time_title"
+            android:order="20"
+            allowEditText="true"
+            android:min="0"
+            android:max="10000"
+            settings:interval="100"
+            settings:units="" />
+
+        <com.derp.support.preference.CustomSeekBarPreference
+            android:key="custom_light_off_time"
+            android:dependency="lights"
+            android:title="@string/custom_light_off_time_title"
+            android:order="21"
+            allowEditText="true"
+            android:min="0"
+            android:max="10000"
+            settings:interval="100"
+            settings:units="" />
+
         <Preference
             android:key="app_link"
-            android:order="18"
+            android:order="22"
             android:title="@string/app_settings_link"
             settings:allowDividerAbove="true"/>
     </PreferenceCategory>

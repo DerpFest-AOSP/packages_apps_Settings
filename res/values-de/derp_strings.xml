@@ -87,4 +87,9 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Lautstärke für Klingel- &amp; Benachrichtigungston verknüpfen</string>
 
+    <!-- Custom light color -->
+    <string name="custom_light_title">LED Farbe</string>
+    <string name="custom_light_on_time_title">Leuchtdauer während des LED-Impulses (ms)</string>
+    <string name="custom_light_off_time_title">Intervall zwischen zwei LED-Impulsen (ms)"</string>
+    <string name="value_equals_default">def</string>
 </resources>
