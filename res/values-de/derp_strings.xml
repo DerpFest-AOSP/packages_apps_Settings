@@ -181,4 +181,9 @@
     <string name="wake_when_plugged_or_unplugged_title">Beim Einstecken aufwecken</string>
     <string name="wake_when_plugged_or_unplugged_summary">Beim Anschließen oder Trennen einer Stromquelle den Bildschirm einschalten</string>
 
+    <!-- Custom light color -->
+    <string name="custom_light_title">LED Farbe</string>
+    <string name="custom_light_on_time_title">Leuchtdauer während des LED-Impulses (ms)</string>
+    <string name="custom_light_off_time_title">Intervall zwischen zwei LED-Impulsen (ms)"</string>
+
 </resources>
