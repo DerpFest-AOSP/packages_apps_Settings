@@ -82,4 +82,7 @@
     <!-- USB configuration -->
     <string name="usb_default_config_title">USB-Konfiguration</string>
     <string name="usb_default_config_summary">Standardverhalten bei Verbindung mit einem Gerät über USB</string>
+
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio-Info</string>
 </resources>
