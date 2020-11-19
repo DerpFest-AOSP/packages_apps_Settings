@@ -188,6 +188,7 @@
 
     <!-- Battery light -->
     <string name="battery_light_settings_pref_title">LED für Akkustand</string>
+    <string name="battery_light_settings_pref_summary">Anpassen des Verhaltens der Akkuladeleuchte</string>
     <string name="battery_light_allow_on_dnd_title">LED-Anzeige im Modus \"Nicht stören\"</string>
     <string name="battery_light_low_blinking_title">Blinkende LED-Anzeige bei niedrigem Akkustand</string>
     <string name="battery_light_cat">LED-Anzeige beim Aufladen</string>
