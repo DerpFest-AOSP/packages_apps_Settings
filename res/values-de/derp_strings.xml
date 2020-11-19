@@ -487,4 +487,7 @@
 
     <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
     <string name="category_name_refresh_rate_controls">Aktualisierungsrate</string>
+
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio-Info</string>
 </resources>
