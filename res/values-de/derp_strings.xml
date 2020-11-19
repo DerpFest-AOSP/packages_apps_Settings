@@ -251,4 +251,7 @@
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Kein Zertifikat angegeben. Ihre Verbindung wird nicht privat sein.</string>
 
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio-Info</string>
+
 </resources>
