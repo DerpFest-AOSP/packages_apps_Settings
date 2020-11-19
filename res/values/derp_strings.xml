@@ -508,4 +508,7 @@
     <string name="short_label">Short</string>
     <string name="long_label">Long</string>
 
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
+
 </resources>

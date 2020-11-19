@@ -486,4 +486,7 @@
     <string name="short_label">Kurz</string>
     <string name="long_label">Lang</string>
 
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio-Info</string>
+
 </resources>
