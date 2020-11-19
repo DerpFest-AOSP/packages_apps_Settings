@@ -208,4 +208,7 @@
     <string name="app_notification_sound_timeout_value_15_minutes">10 Minuten</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 Minuten</string>
 
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio-Info</string>
+
 </resources>
