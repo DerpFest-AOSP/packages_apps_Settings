@@ -25,4 +25,14 @@
     <string name="custom_light_on_time_title">"Lampeggio: tempo accensione (ms)"</string>
     <string name="custom_light_off_time_title">"Lampeggio: tempo spegnimento (ms)"</string>
     <string name="value_equals_default">def</string>
+
+    <!-- Battery light -->
+    <string name="battery_light_settings_pref_title">Led batteria</string>
+    <string name="battery_light_allow_on_dnd_title">Led batteria in modalità Non Disturbare</string>
+    <string name="battery_light_low_blinking_title">Led lampeggiante per carica bassa</string>
+    <string name="battery_light_cat">Led batteria durante ricarica</string>
+    <string name="battery_light_low_color">Carica bassa</string>
+    <string name="battery_light_medium_color">Carica media</string>
+    <string name="battery_light_full_color">Quasi carico</string>
+    <string name="battery_light_reallyfull_color">Completamente carico (100)</string>
 </resources>
