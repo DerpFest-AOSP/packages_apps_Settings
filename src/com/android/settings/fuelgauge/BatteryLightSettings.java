@@ -14,11 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.settings.system;
+package com.android.settings.fuelgauge;
 
 import android.app.settings.SettingsEnums;
 import android.content.Context;
-import android.hardware.display.AmbientDisplayConfiguration;
 import android.provider.SearchIndexableResource;
 
 import com.android.internal.logging.nano.MetricsProto;
@@ -34,8 +33,6 @@ import java.util.List;
 public class BatteryLightSettings extends DashboardFragment {
 
     private static final String TAG = "BatteryLightSettings";
-
-    private AmbientDisplayConfiguration mAmbientDisplayConfig;
 
     @Override
     public int getMetricsCategory() {

@@ -45,14 +45,6 @@
         settings:controller="com.android.settings.datetime.DateTimePreferenceController"/>
 
     <Preference
-        android:key="battery_light_settings"
-        android:title="@string/battery_light_settings_pref_title"
-        android:icon="@drawable/ic_settings_battery"
-        android:order="-200"
-        android:fragment="com.android.settings.system.BatteryLightSettings"
-        settings:controller="com.android.settings.system.BatteryLightSettingsPreferenceController"/>
-
-    <Preference
         android:key="reset_dashboard"
         android:title="@string/reset_dashboard_title"
         android:summary="@string/reset_dashboard_summary"
