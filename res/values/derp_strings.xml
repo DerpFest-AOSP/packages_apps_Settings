@@ -554,4 +554,7 @@
     <!-- Less boring heads up -->
     <string name="less_boring_heads_up_title">Less boring</string>
     <string name="less_boring_heads_up_summary">Show heads up only for calls, messages, alarms, reminders and priority conversations</string>
+
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
 </resources>

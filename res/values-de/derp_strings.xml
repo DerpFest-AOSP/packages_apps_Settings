@@ -521,4 +521,7 @@
     <!-- Less boring heads up -->
     <string name="less_boring_heads_up_title">Weniger unwichtige</string>
     <string name="less_boring_heads_up_summary">Popup-Benachrichtigungen nur für Anrufe, Nachrichten, Alarme, Erinnerungen und wichtige Gespräche anzeigen</string>
+
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio-Info</string>
 </resources>
