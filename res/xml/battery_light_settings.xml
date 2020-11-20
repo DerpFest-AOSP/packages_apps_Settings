@@ -17,7 +17,8 @@
  */
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-        android:title="@string/battery_light_settings_pref_title">
+        android:title="@string/battery_light_settings_pref_title"
+        xmlns:settings="http://schemas.android.com/apk/res-auto">
 
     <com.derp.support.preference.SystemSettingSwitchPreference
         android:key="battery_light_allow_on_dnd"
@@ -35,6 +36,7 @@
          <com.derp.support.colorpicker.ColorPickerSystemPreference
             android:key="battery_light_low_color"
             android:title="@string/battery_light_low_color"
+            settings:controller="com.android.settings.fuelgauge.BatteryLightColorPreferenceController"
             ledPreview="true"
             isledPicker="true"
             android:defaultValue="0xFFFF0000" />
@@ -42,6 +44,7 @@
          <com.derp.support.colorpicker.ColorPickerSystemPreference
             android:key="battery_light_medium_color"
             android:title="@string/battery_light_medium_color"
+            settings:controller="com.android.settings.fuelgauge.BatteryLightColorPreferenceController"
             ledPreview="true"
             isledPicker="true"
             android:defaultValue="0xFFFFFF00" />
@@ -49,6 +52,7 @@
          <com.derp.support.colorpicker.ColorPickerSystemPreference
             android:key="battery_light_full_color"
             android:title="@string/battery_light_full_color"
+            settings:controller="com.android.settings.fuelgauge.BatteryLightColorPreferenceController"
             ledPreview="true"
             isledPicker="true"
             android:defaultValue="0xFF00FF00" />
@@ -56,6 +60,7 @@
          <com.derp.support.colorpicker.ColorPickerSystemPreference
             android:key="battery_light_reallyfull_color"
             android:title="@string/battery_light_reallyfull_color"
+            settings:controller="com.android.settings.fuelgauge.BatteryLightColorPreferenceController"
             ledPreview="true"
             isledPicker="true"
             android:defaultValue="0xFF00FF00" />
