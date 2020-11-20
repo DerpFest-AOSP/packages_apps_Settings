@@ -29,13 +29,13 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BatteryLightSettingsPreferenceController extends BasePreferenceController {
+public class BatteryLightColorPreferenceController extends BasePreferenceController {
     private List<AbstractPreferenceController> mGestureControllers;
 
-    private static final String KEY_SETTINGS = "battery_light_settings";
+    private static final String KEY_SETTINGS = "battery_light_cat";
     private Context mContext;
 
-    public BatteryLightSettingsPreferenceController(Context context) {
+    public BatteryLightColorPreferenceController(Context context) {
         super(context, KEY_SETTINGS);
         mContext = context;
     }
@@ -43,6 +43,6 @@ public class BatteryLightSettingsPreferenceController extends BasePreferenceCont
     @Override
     public int getAvailabilityStatus() {
         return mContext.getResources()
-                .getBoolean(com.android.internal.R.bool.config_intrusiveBatteryLed) ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+                .getBoolean(com.android.internal.R.bool.config_multiColorBatteryLed) ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 }
