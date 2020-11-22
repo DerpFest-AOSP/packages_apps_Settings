@@ -379,4 +379,7 @@
     <string name="dialog_delete_message">Ausgewähltes Element entfernen?</string>
     <string name="dialog_delete_title">Entfernen</string>
 
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Minimale Bildwiederholfrequenz</string>
+
 </resources>
