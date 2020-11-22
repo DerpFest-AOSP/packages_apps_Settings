@@ -86,4 +86,11 @@
     <string name="adj_intensity_title">Leuchtdichte</string>
     <string name="adj_contrast_title">Kontrast</string>
 
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Aktualisierungsrate</string>
+    <string name="min_refresh_rate_title">Minimale Aktualisierungsrate</string>
+    <string name="max_refresh_rate_title">Maximale Aktualisierungsrate</string>
+    <string name="preferred_refresh_rate_title">Bevorzugte Aktualisierungsrate</string>
+    <string name="preferred_refresh_rate_info">Die bevorzugte Aktualisierungsrate wird als Standardaktualisierungsrate für Benutzerinteraktionen verwendet, solange sie innerhalb der minimalen und maximalen Aktualisierungsrate liegt.</string>
+
 </resources>
