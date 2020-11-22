@@ -50,4 +50,7 @@
     <string name="vibration_intensity_strong">Stark</string>
     <string name="vibration_intensity_custom">Benutzerdefiniert</string>
 
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Minimale Aktualisierungsrate</string>
+
 </resources>
