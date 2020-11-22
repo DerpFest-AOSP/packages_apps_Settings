@@ -230,4 +230,7 @@
     <string name="gesture_nav_tweaks_footer_info">Um eine bestimmte App-Aktivität für die Aktion auszuwählen, drücke lange auf eine App in der Apps-Auswahl.\n\nWenn der Launcher angezeigt wird, wische ganz unten auf dem Bildschirmrand, um die Aktion auszulösen.</string>
     <string name="back_swipe_extended_title">Erweiterte Wischgeste</string>
     <string name="back_swipe_extended_summary">Aktion auslösen bei langem Wischen (mehr als die Hälfte des Bildschirms) oder einem L-Wischen (lange vertikal)</string>
+
+    <string name="show_gestures_navbar_switch_title">Pille anzeigen</string>	
+    <string name="show_gestures_navbar_switch_summary">Gesten-Navigationsleiste anzeigen</string>
 </resources>
