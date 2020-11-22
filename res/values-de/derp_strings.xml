@@ -54,4 +54,11 @@
     <!-- Touchscreen gesture settings -->
     <string name="touchscreen_gesture_settings_title">Bildschirmgesten</string>
     <string name="touchscreen_gesture_settings_summary">Führe durch verschiedene Bildschirmgesten einige schnelle Aktionen aus</string>
+
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Aktualisierungsrate</string>
+    <string name="min_refresh_rate_title">Minimale Aktualisierungsrate</string>
+    <string name="max_refresh_rate_title">Maximale Aktualisierungsrate</string>
+    <string name="preferred_refresh_rate_title">Bevorzugte Aktualisierungsrate</string>
+    <string name="preferred_refresh_rate_info">Die bevorzugte Aktualisierungsrate wird als Standardaktualisierungsrate für Benutzerinteraktionen verwendet, solange sie innerhalb der minimalen und maximalen Aktualisierungsrate liegt.</string>
 </resources>
