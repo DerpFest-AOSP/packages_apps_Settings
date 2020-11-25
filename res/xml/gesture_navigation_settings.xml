@@ -51,7 +51,8 @@
         android:max="3"
         android:selectable="true"
         settings:textStart="@string/smallest_tick_label"
-        settings:textEnd="@string/greatest_tick_label"/>
+        settings:textEnd="@string/greatest_tick_label"
+        settings:allowDividerAbove="true"/>
 
     <com.derp.support.preference.SecureSettingSwitchPreference
         android:key="navigation_bar_hint"
