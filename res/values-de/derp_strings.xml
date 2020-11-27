@@ -5,6 +5,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Advanced keyboard settings -->
+    <string name="keyboard_extras_title">Extras</string>
+    <string name="advanced_keyboard_settings_title">Erweiterte Einstellungen</string>
+
     <!-- DerpFest version -->
     <string name="derp_version">DerpFest-Version</string>
     <string name="derp_version_default">Unbekannt</string>
