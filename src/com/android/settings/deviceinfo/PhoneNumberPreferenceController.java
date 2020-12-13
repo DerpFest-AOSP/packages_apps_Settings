@@ -62,7 +62,7 @@ public class PhoneNumberPreferenceController extends BasePreferenceController {
 
     @Override
     public CharSequence getSummary() {
-        if (mContext.getResources().getBoolean(R.bool.configShowDeviceSensitiveInfo) && mTapped) {
+        if (mTapped) {
             return getFirstPhoneNumber();
         }
         return mContext.getString(R.string.device_info_protected_single_press);
@@ -142,7 +142,7 @@ public class PhoneNumberPreferenceController extends BasePreferenceController {
             return mContext.getText(R.string.device_info_default);
         }
 
-        if (mContext.getResources().getBoolean(R.bool.configShowDeviceSensitiveInfo) || mTapped) {
+        if (mTapped) {
             return getFormattedPhoneNumber(subscriptionInfo);
         }
         return mContext.getString(R.string.device_info_protected_single_press);
