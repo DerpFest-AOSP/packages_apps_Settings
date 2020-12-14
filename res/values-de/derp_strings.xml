@@ -435,7 +435,7 @@
     <string name="powerusage_provider_google_dialog_message">Die Einstellungs-App wird zwangsweise geschlossen, wenn die Implementierung für Batteriestatistiken gewechselt wird</string>
 
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Statistik zurücksetzen</string>
-    <string name="battery_stats_message">Die Historie zum letzten Ladevorgang wird zurückgesetzt</string>
+    <string name="battery_stats_reset">Nutzungsdaten löschen?</string>
+    <string name="battery_stats_message">Daten zur Akkunutzung gehen verloren\n(Dies hat kein Effekt auf die Pixel Statistiken)</string>
 
 </resources>
