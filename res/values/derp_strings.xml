@@ -37,8 +37,9 @@
     <string name="app_play_store">Google Play</string>
 
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">Clear usage data?</string>
+    <string name="battery_stats_message">Battery usage data will be lost</string>
+    <string name="battery_stats_clear">@string/proxy_clear_text</string>
 
     <!-- DerpQuest Settings strings -->
     <string name="derp_settings_title">DerpQuest</string>
