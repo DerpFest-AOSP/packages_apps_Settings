@@ -787,4 +787,50 @@
     <!-- Pocket mode -->
     <string name="pocket_judge_title">Taschenerkennung</string>
     <string name="pocket_judge_summary">Bildschirm- und Tasteneingaben blockieren, wenn das Gerät in der Tasche steckt</string>
+
+    <!-- Pulse music visualizer -->
+    <string name="pulse_help_policy_notice_title">Über Pulse</string>
+    <string name="pulse_help_policy_notice_summary">Pulse ist eine brillante Audiovisualisierung, wenn Musik auf dem Gerät abgespielt wird</string>
+    <string name="pulse_cat_title">Audiovisualisierung</string>
+    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_settings_summary">Audiovisualisierung für Navigationsleiste, Sperrbildschirm und Ambient Screen</string>
+    <string name="show_navbar_pulse_title">Pulse für Navigationsleiste</string>
+    <string name="show_navbar_pulse_summary">Visualisiert Audio in der Navigationsleiste</string>
+    <string name="show_lockscreen_pulse_title">Pulse auf Sperrbildschirm</string>
+    <string name="show_lockscreen_pulse_summary">Visualisiert Audio auf dem Sperrbildschirm</string>
+    <string name="show_ambient_pulse_title">Pulse für Ambient Screen</string>
+    <string name="show_ambient_pulse_summary">Visualisiert Audio auf dem Ambient Screen (Umgebungspuls)</string>
+    <string name="pulse_render_mode_title">Darstellungsmodus</string>
+    <string name="pulse_render_mode_fading_bars">Verblassende Blöcke</string>
+    <string name="pulse_render_mode_solid_lines">Durchgehende Balken</string>
+    <string name="pulse_legacy_mode_advanced_category">Einstellungen für verblassende Blöcke</string>
+    <string name="pulse_custom_fudge_factor">Empfindlichkeit</string>
+    <string name="pulse_lavalamp_speed_title">Geschwindigkeit des Lavalampeneffekts</string>
+    <string name="pulse_solid_units_count">Anzahl durchgezogener Balken</string>
+    <string name="pulse_solid_units_opacity">Deckkraft durchgezogener Balken</string>
+    <string name="pulse_solid_dimen_category">Einstellungen für durchgezogene Balken</string>
+    <string name="pulse_color_mode_title">Farbe</string>
+    <string name="pulse_color_accent">Akzentfarbe</string>
+    <string name="pulse_color_custom">Benutzerdefiniert</string>
+    <string name="pulse_color_lava_lamp">Lavalampe</string>
+    <string name="pulse_color_auto">Albumcover</string>
+    <string name="pulse_color_user_title">Farbe auswählen</string>
+    <string name="pulse_smoothing_enabled_title">Glättung aktivieren</string>
+    <string name="pulse_smoothing_enabled_summary">Alle Balken werden flüssiger animiert</string>
+    <string name="pulse_custom_dimen">Balkenbreite</string>
+    <string name="pulse_custom_div">Balkenabstand</string>
+    <string name="pulse_filled_block_size">Blockgröße</string>
+    <string name="pulse_empty_block_size">Blockabstand</string>
+    <string name="pulse_solid_units_rounded_title">Abgerundete Ecken</string>
+    <string name="pulse_solid_units_rounded_summary">Durchgezogene Linien mit abgerundeter Spitze</string>
+
+    <!-- Pulse Gravity and mirror options -->
+    <string name="pulse_custom_gravity_title">Gravitation</string>
+    <string name="pulse_custom_gravity_bottom">Unten</string>
+    <string name="pulse_custom_gravity_top">Oben</string>
+    <string name="pulse_custom_gravity_center">Mittig</string>
+    <string name="visualizer_center_mirrored_title">Mittig gespiegelt</string>
+    <string name="visualizer_center_mirrored_summary">Den mittig gespiegelten Modus aktivieren</string>
+    <string name="pulse_vertical_mirror_title">Vertikal gespiegelt</string>
+    <string name="pulse_vertical_mirror_summary">Erzeugt einen weiteren Pulse, der vertikal gedreht ist</string>
 </resources>
