@@ -98,38 +98,50 @@ public final class PrimaryCardAndSubsidyLockUtils {
         return Settings.Secure.getInt(context.getContentResolver(), SUBSIDY_STATUS, -1);
     }
 
+    private static IExtTelephony getIExtTelephony() {
+        try {
+            IExtTelephony ex = IExtTelephony.Stub.asInterface(ServiceManager.getService("qti.radio.extphone"));
+            return ex;
+        } catch (NoClassDefFoundError ex) {
+            return null;
+        }
+    }
+
     private static boolean isVendorPropertyEnabled(String propertyName) {
         boolean propVal = false;
-        IExtTelephony extTelephony = IExtTelephony.Stub
-                .asInterface(ServiceManager.getService("qti.radio.extphone"));
-        try {
-            propVal = extTelephony.getPropertyValueBool(propertyName, false);
-        } catch (RemoteException | NullPointerException ex) {
-            Log.e(TAG, "isVendorPropertyEnabled: " + propertyName + ", Exception: ", ex);
+        IExtTelephony extTelephony = getIExtTelephony();
+        if (extTelephony != null) {
+            try {
+                propVal = extTelephony.getPropertyValueBool(propertyName, false);
+            } catch (RemoteException | NullPointerException ex) {
+                Log.e(TAG, "isVendorPropertyEnabled: " + propertyName + ", Exception: ", ex);
+            }
         }
         return propVal;
     }
 
     private static int getVendorPropertyInt(String propertyName) {
         int propVal = -1;
-        IExtTelephony extTelephony = IExtTelephony.Stub
-                .asInterface(ServiceManager.getService("qti.radio.extphone"));
-        try {
-            propVal = extTelephony.getPropertyValueInt(propertyName, -1);
-        } catch (RemoteException | NullPointerException ex) {
-            Log.e(TAG, "getVendorPropertyInt: " + propertyName + ", Exception: ", ex);
+        IExtTelephony extTelephony = getIExtTelephony();
+        if (extTelephony != null) {
+            try {
+                propVal = extTelephony.getPropertyValueInt(propertyName, -1);
+            } catch (RemoteException | NullPointerException ex) {
+                Log.e(TAG, "getVendorPropertyInt: " + propertyName + ", Exception: ", ex);
+            }
         }
         return propVal;
     }
 
     public static int getUiccCardProvisioningStatus(int phoneId) {
         int provStatus = CARD_NOT_PROVISIONED;
-        IExtTelephony extTelephony = IExtTelephony.Stub
-                .asInterface(ServiceManager.getService("qti.radio.extphone"));
-        try {
-            provStatus = extTelephony.getCurrentUiccCardProvisioningStatus(phoneId);
-        } catch (RemoteException | NullPointerException ex) {
-            Log.e(TAG, "getUiccCardProvisioningStatus: " + phoneId + ", Exception: ", ex);
+        IExtTelephony extTelephony = getIExtTelephony();
+        if (extTelephony != null) {
+            try {
+                provStatus = extTelephony.getCurrentUiccCardProvisioningStatus(phoneId);
+            } catch (RemoteException | NullPointerException ex) {
+                Log.e(TAG, "getUiccCardProvisioningStatus: " + phoneId + ", Exception: ", ex);
+            }
         }
         return provStatus;
     }

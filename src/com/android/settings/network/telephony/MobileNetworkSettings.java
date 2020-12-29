@@ -100,17 +100,27 @@ public class MobileNetworkSettings extends AbstractMobileNetworkSettings {
         }
     };
 
+    private IExtTelephony getIExtTelephony() {
+        try {
+            IExtTelephony ex = IExtTelephony.Stub.asInterface(ServiceManager.getService("qti.radio.extphone"));
+            return ex;
+        } catch (NoClassDefFoundError ex) {
+            return null;
+        }
+    }
+
     private void setScreenState() {
         int simState = mTelephonyManager.getSimState();
         boolean screenState = simState != TelephonyManager.SIM_STATE_ABSENT;
         if (screenState) {
             int provStatus = CARD_NOT_PROVISIONED;
-            IExtTelephony extTelephony = IExtTelephony.Stub
-                    .asInterface(ServiceManager.getService("qti.radio.extphone"));
-            try {
-                provStatus = extTelephony.getCurrentUiccCardProvisioningStatus(mPhoneId);
-            } catch (RemoteException | NullPointerException ex) {
-                Log.e(LOG_TAG, "getUiccCardProvisioningStatus: " + mPhoneId + ", Exception: ", ex);
+            IExtTelephony extTelephony = getIExtTelephony();
+            if (extTelephony != null) {
+                try {
+                    provStatus = extTelephony.getCurrentUiccCardProvisioningStatus(mPhoneId);
+                } catch (RemoteException | NullPointerException ex) {
+                    Log.e(LOG_TAG, "getUiccCardProvisioningStatus: " + mPhoneId + ", Exception: ", ex);
+                }
             }
             screenState = provStatus != CARD_NOT_PROVISIONED;
             Log.d(LOG_TAG, "Provisioning Status: " + provStatus + ", screenState: " + screenState);
