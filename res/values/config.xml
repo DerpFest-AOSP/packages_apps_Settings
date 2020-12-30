@@ -465,4 +465,7 @@
 
     <!-- Whether the given language capitalizes nouns -->
     <bool name="language_capitalizes_nouns">false</bool>
+
+    <!-- Whether to show the Preference for Touch Sensitivity -->
+    <bool name="config_show_touch_sensitivity">false</bool>
 </resources>
