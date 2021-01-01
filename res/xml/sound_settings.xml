@@ -126,7 +126,7 @@
             android:key="custom_vibration_pattern1"
             android:order="-123"
             android:max="1000"
-            settings:min="0"
+            android:min="0"
             settings:interval="100"
             settings:units="ms"
             android:dependency="vibrate_for_calls"/>
@@ -136,7 +136,7 @@
             android:key="custom_vibration_pattern2"
             android:order="-122"
             android:max="1000"
-            settings:min="0"
+            android:min="0"
             settings:interval="100"
             settings:units="ms"
             android:dependency="vibrate_for_calls"/>
@@ -146,7 +146,7 @@
             android:key="custom_vibration_pattern3"
             android:order="-121"
             android:max="1000"
-            settings:min="0"
+            android:min="0"
             settings:interval="100"
             settings:units="ms"
             android:dependency="vibrate_for_calls"/>
