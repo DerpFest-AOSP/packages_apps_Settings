@@ -113,7 +113,7 @@ public class MobileNetworkSettings extends AbstractMobileNetworkSettings {
         int simState = mTelephonyManager.getSimState();
         boolean screenState = simState != TelephonyManager.SIM_STATE_ABSENT;
         if (screenState) {
-            int provStatus = CARD_NOT_PROVISIONED;
+            int provStatus = CARD_PROVISIONED;
             IExtTelephony extTelephony = getIExtTelephony();
             if (extTelephony != null) {
                 try {
