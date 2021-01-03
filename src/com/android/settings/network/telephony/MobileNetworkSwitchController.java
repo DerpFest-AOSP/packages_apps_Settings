@@ -24,6 +24,7 @@ import android.content.Context;
 import android.content.BroadcastReceiver;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.os.ServiceManager;
 import android.sysprop.TelephonyProperties;
 import android.telephony.SubscriptionInfo;
 import android.telephony.SubscriptionManager;
@@ -41,6 +42,8 @@ import com.android.settings.network.SubscriptionUtil;
 import com.android.settings.network.SubscriptionsChangeListener;
 import com.android.settings.widget.SwitchBar;
 import com.android.settingslib.widget.LayoutPreference;
+
+import org.codeaurora.internal.IExtTelephony;
 
 /** This controls a switch to allow enabling/disabling a mobile network */
 public class MobileNetworkSwitchController extends BasePreferenceController implements
@@ -116,8 +119,22 @@ public class MobileNetworkSwitchController extends BasePreferenceController impl
         update();
     }
 
+    private IExtTelephony getIExtTelephony() {
+        try {
+            IExtTelephony ex = IExtTelephony.Stub.asInterface(ServiceManager.getService("qti.radio.extphone"));
+            return ex;
+        } catch (NoClassDefFoundError ex) {
+            return null;
+        }
+    }
+
     private void update() {
         if (mSwitchBar == null) {
+            return;
+        }
+
+        if (getIExtTelephony() == null) {
+            mSwitchBar.hide();
             return;
         }
 
