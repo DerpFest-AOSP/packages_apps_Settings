@@ -187,7 +187,7 @@
     <string name="smallest_tick_label">Aus</string>
     <string name="greatest_tick_label">Halber Bildschirm</string>
     <string name="gesture_back_deadzone_label">DeadZone für Zurück-Geste</string>
-    <string name="back_sensitivity_dialog_message_cust">\nÜber die erste und zweite Suchleiste kann die Empfindlichkeit für das Zurückwischen konfiguriert werden. Mithilfe der letzten Suchleiste wird die DeadZone für den oberen Abschnitt des Bildschirms festgelegt, in der die Wischgeste nicht ausgelöst werden soll, um Konflikte mit In-App-Gesten zu vermeiden.</string>
+    <string name="back_sensitivity_dialog_message_cust">Über die erste und zweite Suchleiste kann die Empfindlichkeit für das Zurückwischen konfiguriert werden. Mithilfe der letzten Suchleiste wird die DeadZone für den oberen Abschnitt des Bildschirms festgelegt, in der die Wischgeste nicht ausgelöst werden soll, um Konflikte mit In-App-Gesten zu vermeiden.</string>
 
     <!-- Custom actions -->
     <string name="action_nothing">Keine Aktion</string>
