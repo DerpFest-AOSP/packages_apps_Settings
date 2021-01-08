@@ -199,4 +199,5 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Wechseln zwischen den Modi</string>
     <string name="prevent_ringing_option_cycle_summary">Ein (Wechseln zwischen den Modi)</string>
+    <string name="prevent_ringing_option_normal">Standardverhalten</string>
 </resources>
