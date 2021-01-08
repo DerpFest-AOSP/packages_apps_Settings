@@ -5400,7 +5400,7 @@
     <string name="battery_suggestion_title" product="default" msgid="4811554469047272537">"Akkulaufzeit des Smartphones verbessern"</string>
     <string name="battery_suggestion_summary" msgid="8186720080540016197"></string>
     <string name="gesture_prevent_ringing_screen_title" msgid="8293094715267769349">"Klingeln verhindern"</string>
-    <string name="gesture_prevent_ringing_title" msgid="5978577898997523581">"Drücken der „Ein/Aus“- + „Lauter“-Taste ersetzt Klingeln durch"</string>
+    <string name="gesture_prevent_ringing_title" msgid="5978577898997523581">"Drücken der „Ein/Aus“- + „Lauter“-Taste zum Wechseln zwischen"</string>
     <string name="gesture_prevent_ringing_sound_title" msgid="4529077822282099235">"Klingeln per Tastendruck verhindern"</string>
     <string name="prevent_ringing_option_vibrate" msgid="5456962289649581737">"Vibrieren"</string>
     <string name="prevent_ringing_option_mute" msgid="7446121133560945051">"Stummschalten"</string>
