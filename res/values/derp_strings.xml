@@ -788,4 +788,8 @@
     <string name="custom_timeout_summary_10mins">10 minutes</string>
     <string name="custom_timeout_summary_30mins">30 minutes</string>
     <string name="custom_timeout_summary_1hour">1 hour</string>
+
+    <!-- Developer Options -->
+    <string name="cleartext_network_policy_title">Restrict cleartext network traffic</string>
+    <string name="cleartext_network_policy_summary">Blocks all non-TLS network traffic. Requires Private DNS configuration. Note: Without explicit exemptions, apps that use cleartext traffic may not work</string>
 </resources>
