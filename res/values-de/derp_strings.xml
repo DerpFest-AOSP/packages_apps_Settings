@@ -313,4 +313,9 @@
     <string name="visualizer_center_mirrored_summary">Den mittig gespiegelten Modus aktivieren</string>
     <string name="pulse_vertical_mirror_title">Vertikal gespiegelt</string>
     <string name="pulse_vertical_mirror_summary">Erzeugt einen weiteren Pulse, der vertikal gedreht ist</string>
+
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Doppelt Tippen</string>
+    <string name="doze_double_tap_title">Doppelt tippen, um einen schnellen Blick auf das Smartphone-Display zu werfen</string>
+    <string name="doze_double_tap_summary">Benachrichtigungen durch doppeltes Tippen anzeigen</string>
 </resources>
