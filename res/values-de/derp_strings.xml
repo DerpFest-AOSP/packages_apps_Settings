@@ -241,4 +241,9 @@
     <string name="custom_light_on_time_title">Leuchtdauer während des LED-Impulses (ms)</string>
     <string name="custom_light_off_time_title">Intervall zwischen zwei LED-Impulsen (ms)</string>
 
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Doppeltippen</string>
+    <string name="doze_double_tap_title">Doppeltippen, um das Telefon zu überprüfen</string>
+    <string name="doze_double_tap_summary">Pulsbenachrichtigungen durch Doppeltippen</string>
+
 </resources>
