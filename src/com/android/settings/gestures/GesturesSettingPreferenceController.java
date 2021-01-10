@@ -81,6 +81,7 @@ public class GesturesSettingPreferenceController extends BasePreferenceControlle
         controllers.add(new OneHandedPreferenceCategoryController(context, FAKE_PREF_KEY));
         controllers.add(new SystemNavigationPreferenceController(context, FAKE_PREF_KEY));
         controllers.add(new SwipeToScreenshotPreferenceController(context, FAKE_PREF_KEY));
+        controllers.add(new DoubleTapAmbientPreferenceController(context, FAKE_PREF_KEY));
         return controllers;
     }
 }
