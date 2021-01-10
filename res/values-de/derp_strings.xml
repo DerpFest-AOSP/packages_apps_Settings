@@ -320,4 +320,9 @@
     </string>
     <string name="island_notification_now_playing_title">Aktuelle Wiedergabe</string>
     <string name="island_notification_now_playing_summary">Aktuell gespieltes Lied im Dynamic-Island-Stil anzeigen</string>
+
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Doppelt Tippen</string>
+    <string name="doze_double_tap_title">Doppelt tippen, um einen schnellen Blick auf das Smartphone-Display zu werfen</string>
+    <string name="doze_double_tap_summary">Benachrichtigungen durch doppeltes Tippen anzeigen</string>
 </resources>
