@@ -67,6 +67,7 @@ android_library {
         "VendorSupport-preference",
         "faceunlock_framework",
         "telephony-ext",
+        "vendor.lineage.fastcharge-V1.0-java",
     ],
 
     libs: [
