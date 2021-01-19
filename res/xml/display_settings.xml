@@ -151,7 +151,8 @@
         <Preference
             android:key="clock_style"
             android:title="@string/clock_style_title"
-            android:summary="@string/clock_style_summary">
+            android:summary="@string/clock_style_summary"
+            android:icon="@drawable/ic_clock">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:targetPackage="com.android.wallpaper"
@@ -160,16 +161,20 @@
 
         <ListPreference
             android:key="android.theme.customization.accent_color"
-            android:title="@string/theme_customization_accent_color_title"/>
+            android:title="@string/theme_customization_accent_color_title"
+            android:icon="@drawable/ic_accent"/>
         <ListPreference
             android:key="android.theme.customization.font"
-            android:title="@string/theme_customization_font_title"/>
+            android:title="@string/theme_customization_font_title"
+            android:icon="@drawable/ic_font"/>
        <ListPreference
             android:key="android.theme.customization.adaptive_icon_shape"
-            android:title="@string/theme_customization_icon_shape_title"/>
+            android:title="@string/theme_customization_icon_shape_title"
+            android:icon="@drawable/ic_icon_shape"/>
        <ListPreference
             android:key="android.theme.customization.icon_pack"
-            android:title="@string/theme_customization_icon_pack_title"/>
+            android:title="@string/theme_customization_icon_pack_title"
+            android:icon="@drawable/ic_icon_pack"/>
     </PreferenceCategory>
 
     <Preference
