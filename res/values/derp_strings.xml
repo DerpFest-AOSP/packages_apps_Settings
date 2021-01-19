@@ -250,4 +250,9 @@
 
     <string name="show_gestures_navbar_switch_title">Show pill</string>
     <string name="show_gestures_navbar_switch_summary">Show gestures navbar</string>
+
+    <string name="default_accent_color">iOS Blue (default)</string>
+    <string name="default_icon_shape">Circle (default)</string>
+    <string name="default_font">Google Sans (default)</string>
+    <string name="default_icon_pack">AOSP (default)</string>
 </resources>

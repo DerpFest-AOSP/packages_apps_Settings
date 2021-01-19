@@ -239,4 +239,9 @@
 
     <string name="show_gestures_navbar_switch_title">Pille anzeigen</string>	
     <string name="show_gestures_navbar_switch_summary">Gesten-Navigationsleiste anzeigen</string>
+
+    <string name="default_accent_color">iOS-Blau (Standard)</string>
+    <string name="default_icon_shape">Circle (Standard)</string>
+    <string name="default_font">Google Sans (Standard)</string>
+    <string name="default_icon_pack">AOSP (Standard)</string>
 </resources>
