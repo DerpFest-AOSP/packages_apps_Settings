@@ -455,4 +455,9 @@
     <string name="theming_settings_dashboard_icons_plain">Transparenter Hintergrund / Einfacher Vordergrund</string>
     <string name="theming_settings_dashboard_icons_plain_accent">Transparenter Hintergrund / Akzent-Vordergrund</string>
 
+    <!-- Checkbox label that restricts network internet access of a specific application. [CHAR LIMIT=40] -->
+    <string name="data_usage_app_restrict_background_all">Hintergrund-Netzwerkzugriff</string>
+    <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_app_restrict_background_all_summary">Aktivieren Sie die Netzwerknutzung im Hintergrund</string>
+
 </resources>
