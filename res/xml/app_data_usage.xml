@@ -43,6 +43,13 @@
             android:summary="@string/data_usage_app_restrict_all_summary" />
 
         <com.android.settingslib.RestrictedSwitchPreference
+            android:key="restrict_background"
+            android:title="@string/data_usage_app_restrict_background_all"
+            android:summary="@string/data_usage_app_restrict_background_all_summary"
+            settings:useAdditionalSummary="true"
+            settings:restrictedSwitchSummary="@string/disabled_by_admin" />
+
+        <com.android.settingslib.RestrictedSwitchPreference
             android:key="restrict_wifi"
             android:title="@string/data_usage_app_restrict_wifi"
             android:summary="@string/data_usage_app_restrict_wifi_summary" />
@@ -52,14 +59,6 @@
             android:title="@string/data_usage_app_restrict_mobile"
             android:summary="@string/data_usage_app_restrict_mobile_summary"
             settings:isPreferenceVisible="@bool/config_show_sim_info" />
-
-        <com.android.settingslib.RestrictedSwitchPreference
-            android:key="restrict_background"
-            android:title="@string/data_usage_app_restrict_background"
-            android:summary="@string/data_usage_app_restrict_background_summary"
-            settings:isPreferenceVisible="@bool/config_show_sim_info"
-            settings:useAdditionalSummary="true"
-            settings:restrictedSwitchSummary="@string/disabled_by_admin" />
 
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="restrict_vpn"
