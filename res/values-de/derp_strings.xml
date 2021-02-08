@@ -49,4 +49,13 @@
     <string name="lockpattern_settings_enable_error_path_title">Sperrmuster-Fehler anzeigen</string>
     <string name="lockpattern_settings_enable_dots_title">Sperrmuster-Punkte anzeigen</string>
 
+    <!-- Face Unlock -->
+    <string name="security_settings_face_settings_footer_custom">Mit Face Unlock können Sie Ihr Gerät entsperren, indem Sie es ansehen.\n\nBitte beachten Sie:\nDurch das Ansehen des Geräts könnten Sie es auch entsperren, wenn Sie dies nicht möchten.\n\nIhr Gerät kann von einer anderen Person entsperrt werden, wenn es auf Ihr Gesicht gehalten wird und Sie die Augen geöffnet haben.\n\nIhr Gerät kann von jemandem entsperrt werden, der Ihnen sehr ähnlich sieht, etwa Ihr Kind oder ein eineiiger Zwilling.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">Daten, die durch Face Unlock aufgezeichnet wurden, werden dauerhaft und sicher gelöscht. Nach dem Entfernen benötigen Sie Ihre PIN, Ihr Muster oder Ihr Passwort, um Ihr Telefon zu entsperren.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Den vorhandenen Gesichts-Scan entfernen und neu erstellen</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Gesichts-Scan wiederholen</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Bildschirmsperre, Fingerabdruck, Face Unlock</string>
+    <string name="face_redo_confirm_btn">Wiederholen</string>
+    <string name="face_redo_warning_msg">Möchten Sie den vorhandenen Gesichts-Scan entfernen und einen neuen erstellen?</string>
+
 </resources>
