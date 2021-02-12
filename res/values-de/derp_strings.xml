@@ -313,4 +313,14 @@
         <item quantity="other">%d apps gesperrt</item>
     </plurals>
     <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+
+    <!-- Switch styles -->
+    <string name="switch_style_title">Switch-Stil</string>
+    <string name="switch_oneplus">OnePlus</string>
+    <string name="switch_aosp">AOSP</string>
+    <string name="switch_narrow">Eng</string>
+    <string name="switch_contained">Eingeschlossen</string>
+    <string name="switch_telegram">Telegram</string>
+    <string name="switch_md2">Material Design 2</string>
+    <string name="switch_retro">Retro</string>
 </resources>

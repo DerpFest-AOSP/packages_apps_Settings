@@ -159,6 +159,15 @@
                 android:targetClass="com.android.customization.picker.LockClockPickerActivity" />
         </Preference>
 
+        <com.derp.support.preference.SystemSettingListPreference
+            android:key="switch_style"
+            android:title="@string/switch_style_title"
+            android:dialogTitle="@string/switch_style_title"
+            android:entries="@array/switch_style_entries"
+            android:entryValues="@array/switch_style_values"
+            android:summary="%s"
+            android:defaultValue="0" />
+
         <ListPreference
             android:key="android.theme.customization.accent_color"
             android:title="@string/theme_customization_accent_color_title"
