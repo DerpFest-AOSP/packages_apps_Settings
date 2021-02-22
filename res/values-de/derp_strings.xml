@@ -585,4 +585,5 @@
     <string name="vibration_pattern_title">Klingelton-Vibrationsmuster</string>
     <string name="pattern_custom">Benutzerdefiniert</string>
     <string name="custom_vibration_pattern_title">Benutzerdefiniertes Vibrationsmuster</string>
+    <string name="custom_vibration_pattern_summary">Ein benutzerdefiniertes Vibrationsmuster festlegen</string>
 </resources>
