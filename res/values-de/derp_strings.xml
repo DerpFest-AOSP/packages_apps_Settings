@@ -894,4 +894,12 @@
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Animation der Zurück-Geste</string>
     <string name="back_gesture_arrow_summary">Einen animierten Pfeil für die Zurück-Geste anzeigen</string>
+
+
+    <!-- Network preferences screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">WLAN automatisch ausschalten</string>
+
+    <!-- Network preferences screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">WLAN schaltet sich nach <xliff:g id="timeout_description">%1$s</xliff:g> aus, wenn kein Netzwerk verbunden ist</string>
+    <string name="wifi_timeout_summary2">Deaktiviert</string>
 </resources>

@@ -962,4 +962,11 @@
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Back gesture animation</string>
     <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
+
+    <!-- Network preferences screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+
+    <!-- Network preferences screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
+    <string name="wifi_timeout_summary2">Disabled</string>
 </resources>
