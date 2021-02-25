@@ -89,4 +89,30 @@
     <!-- Long press to copy wifi password -->
     <string name="copied_to_clipboard">In die Zwischenablage kopiert</string>
     <string name="longpress_to_clipboard">Gedrückthalten zum Kopieren</string>
+
+    <!-- Timeout entries -->
+    <string name="timeout_summary_never">Nie</string>
+    <string name="timeout_summary_15secs">15 Sekunden</string>
+    <string name="timeout_summary_30secs">30 Sekunden</string>
+    <string name="timeout_summary_1min">1 Minute</string>
+    <string name="timeout_summary_2mins">2 Minuten</string>
+    <string name="timeout_summary_5mins">5 Minuten</string>
+    <string name="timeout_summary_10mins">10 Minuten</string>
+    <string name="timeout_summary_30mins">30 Minuten</string>
+    <string name="timeout_summary_1hour">1 Stunde</string>
+    <string name="timeout_summary_2hours">2 Stunden</string>
+    <string name="timeout_summary_4hours">4 Stunden</string>
+    <string name="timeout_summary_8hours">8 Stunden</string>
+    <string name="timeout_summary_12hours">12 Stunden</string>
+    <string name="timeout_summary_24hours">24 Stunden</string>
+    <string name="timeout_summary_36hours">36 Stunden</string>
+    <string name="timeout_summary_48hours">48 Stunden</string>
+    <string name="timeout_summary_72hours">72 Stunden</string>
+
+    <!-- Network preferences screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">WLAN automatisch ausschalten</string>
+
+    <!-- Network preferences screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">WLAN schaltet sich nach <xliff:g id="timeout_description">%1$s</xliff:g> aus, wenn kein Netzwerk verbunden ist</string>
+    <string name="wifi_timeout_summary2">Deaktiviert</string>
 </resources>
