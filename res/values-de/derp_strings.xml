@@ -252,4 +252,10 @@
     <string name="notification_sound_vib_screen_on_title">Laute Benachrichtigungen</string>
     <string name="notification_sound_vib_screen_on_summary">Ton und Vibration bei Benachrichtigungen abspielen, wenn Bildschirm an ist</string>
 
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Vibrationseinstellungen während eines Anrufs</string>
+    <string name="incall_vibrate_connect_title">Vibriere beim Verbinden</string>
+    <string name="incall_vibrate_call_wait_title">Vibriere beim Anklopfen</string>
+    <string name="incall_vibrate_disconnect_title">Vibriere beim Beenden des Anrufs</string>
+
 </resources>
