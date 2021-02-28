@@ -35,4 +35,11 @@
 
     <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
     <string name="ring_volume_unlinked_option_title">Klingeltonlautstärke</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Vibrationseinstellungen während eines Anrufs</string>
+    <string name="incall_vibrate_connect_title">Vibriere beim Verbinden</string>
+    <string name="incall_vibrate_call_wait_title">Vibriere beim Anklopfen</string>
+    <string name="incall_vibrate_disconnect_title">Vibriere beim Beenden des Anrufs</string>
+
 </resources>
