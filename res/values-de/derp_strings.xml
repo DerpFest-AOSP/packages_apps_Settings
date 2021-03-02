@@ -613,4 +613,9 @@
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">Maximale Kapazität</string>
     <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] --> 
+    <string name="duration_less_than_one_minute">Weniger als eine Minute</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s heute</string>
 </resources>
