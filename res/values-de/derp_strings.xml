@@ -131,4 +131,9 @@
     <string name="pattern_custom">Benutzerdefiniert</string>
     <string name="custom_vibration_pattern_title">Benutzerdefiniertes Vibrationsmuster</string>
     <string name="custom_vibration_pattern_summary">Ein benutzerdefiniertes Vibrationsmuster festlegen</string>
+
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] --> 
+    <string name="duration_less_than_one_minute">Weniger als eine Minute</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s heute</string>
 </resources>
