@@ -3650,7 +3650,7 @@
     <string name="touch_sounds_title" msgid="2200734041857425078">"Töne bei Berührung"</string>
     <string name="vibrate_icon_title" msgid="1281100105045362530">"Im Vibrationsmodus immer Symbol anzeigen"</string>
     <string name="vibrate_on_touch_title" msgid="9105544449810547716">"Vibration bei Berührung"</string>
-    <string name="vibrate_on_touch_summary" msgid="664831333409399440">"Haptisches Feedback beim Tippen, bei der Tastaturnutzung und mehr"</string>
+    <string name="vibrate_on_touch_summary" msgid="664831333409399440">"Haptisches Feedback für Gesten, bei der Tastaturnutzung und mehr"</string>
     <string name="dock_audio_media_title" msgid="6474579339356398330">"Dock-Lautsprecherwiedergabe"</string>
     <string name="dock_audio_media_disabled" msgid="8499927008999532341">"Alle Audioquellen"</string>
     <string name="dock_audio_media_enabled" msgid="4039126523653131281">"Nur Medien-Audio"</string>
