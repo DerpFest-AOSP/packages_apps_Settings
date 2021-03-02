@@ -3325,7 +3325,7 @@
     <string name="docking_sounds_title" msgid="5341616179210436159">"Docking sounds"</string>
     <string name="touch_sounds_title" msgid="2200734041857425078">"Touch sounds"</string>
     <string name="vibrate_on_touch_title" msgid="9105544449810547716">"Touch vibration"</string>
-    <string name="vibrate_on_touch_summary" msgid="664831333409399440">"Haptic feedback for tap, keyboard and more"</string>
+    <string name="vibrate_on_touch_summary" msgid="664831333409399440">"Haptic feedback for gestures, keyboard and more"</string>
     <string name="dock_audio_media_title" msgid="6474579339356398330">"Dock speaker plays"</string>
     <string name="dock_audio_media_disabled" msgid="8499927008999532341">"All audio"</string>
     <string name="dock_audio_media_enabled" msgid="4039126523653131281">"Media audio only"</string>
