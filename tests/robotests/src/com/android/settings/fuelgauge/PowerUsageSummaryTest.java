@@ -107,10 +107,6 @@ public class PowerUsageSummaryTest {
     private BatterySipper mCellBatterySipper;
     @Mock
     private LayoutPreference mBatteryLayoutPref;
-    @Mock
-    private TextView mBatteryPercentText;
-    @Mock
-    private TextView mSummary1;
     @Mock(answer = Answers.RETURNS_DEEP_STUBS)
     private BatteryStatsHelper mBatteryHelper;
     @Mock
@@ -138,7 +134,6 @@ public class PowerUsageSummaryTest {
     private Context mRealContext;
     private TestFragment mFragment;
     private FakeFeatureFactory mFeatureFactory;
-    private BatteryMeterView mBatteryMeterView;
     private PowerGaugePreference mScreenUsagePref;
     private PowerGaugePreference mLastFullChargePref;
     private Intent mIntent;
@@ -153,8 +148,6 @@ public class PowerUsageSummaryTest {
         mLastFullChargePref = new PowerGaugePreference(mRealContext);
         mFragment = spy(new TestFragment(mRealContext));
         mFragment.initFeatureProvider();
-        mBatteryMeterView = new BatteryMeterView(mRealContext);
-        mBatteryMeterView.mDrawable = new BatteryMeterView.BatteryMeterDrawable(mRealContext, 0);
         doNothing().when(mFragment).restartBatteryStatsLoader(anyInt());
         doReturn(mock(LoaderManager.class)).when(mFragment).getLoaderManager();
         doReturn(MENU_ADVANCED_BATTERY).when(mAdvancedPageMenu).getItemId();
@@ -173,10 +166,6 @@ public class PowerUsageSummaryTest {
         mCellBatterySipper.drainType = BatterySipper.DrainType.CELL;
         mCellBatterySipper.totalPowerMah = POWER_MAH;
 
-        when(mBatteryLayoutPref.findViewById(R.id.summary1)).thenReturn(mSummary1);
-        when(mBatteryLayoutPref.findViewById(R.id.battery_percent)).thenReturn(mBatteryPercentText);
-        when(mBatteryLayoutPref.findViewById(R.id.battery_header_icon))
-                .thenReturn(mBatteryMeterView);
         mFragment.setBatteryLayoutPreference(mBatteryLayoutPref);
 
         mScreenBatterySipper.drainType = BatterySipper.DrainType.SCREEN;
@@ -282,15 +271,9 @@ public class PowerUsageSummaryTest {
         mFragment.restartBatteryInfoLoader();
         ArgumentCaptor<View.OnLongClickListener> listener = ArgumentCaptor.forClass(
                 View.OnLongClickListener.class);
-        verify(mSummary1).setOnLongClickListener(listener.capture());
-
-        // Calling the listener should disable it.
-        listener.getValue().onLongClick(mSummary1);
-        verify(mSummary1).setOnLongClickListener(null);
 
         // Restarting the loader should reset the listener.
         mFragment.restartBatteryInfoLoader();
-        verify(mSummary1, times(2)).setOnLongClickListener(any(View.OnLongClickListener.class));
     }
 
     @Test

@@ -21,40 +21,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:orientation="horizontal"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/progress_card_horizontal_padding"
+    android:paddingEnd="@dimen/progress_card_horizontal_padding"
     style="@style/EntityHeader">
-
-    <LinearLayout
-        android:id="@+id/battery_info_layout"
-        android:layout_width="170dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginEnd="8dp"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/battery_percent"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:textAppearance="@style/TextAppearance.EntityHeaderTitle"
-            android:textSize="36sp" />
-
-        <TextView
-            android:id="@+id/summary1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:minLines="3"
-            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"/>
-            android:textColor="?android:attr/textColorPrimary"/>
-
-    </LinearLayout>
-
-    <com.android.settings.fuelgauge.BatteryMeterView
-        android:id="@+id/battery_header_icon"
+    
+    <com.android.settings.widget.ProgressCard
+        android:id="@+id/battery_info_card"
+        android:layout_gravity="center_horizontal"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/battery_meter_height"
-        android:layout_gravity="center"/>
-
+        android:layout_height="wrap_content" />
 </LinearLayout>

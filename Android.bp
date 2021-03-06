@@ -28,6 +28,7 @@ android_library {
     ],
 
     srcs: ["src/**/*.java",
+           "src/**/*.kt",
            "DerpQuest/**/*.java",
     ],
 

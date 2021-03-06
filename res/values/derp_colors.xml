@@ -25,4 +25,7 @@
     <!-- Device -->
     <color name="homepage_icon_device_color">#0086FA</color>
 
+    <!-- ProgressCard -->
+    <color name="progress_card_progress_color">#14000000</color>
+
 </resources>
