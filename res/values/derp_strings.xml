@@ -641,7 +641,11 @@
     <string name="power_menu_hide_on_secure_summary">Hide the power menu while on a secure lock screen</string>
 
     <!-- Sensor block per-package -->
-    <string name="sensor_block_title">Sensor block per-package</string>
-    <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery</string>
+    <string name="sensor_block_title">Block sensors</string>
+    <string name="sensor_block_summary">Selectively block apps from accessing certain battery draining sensors</string>
+    <string name="sensor_block_app_picker_title">Block sensors for these apps</string>
+    <string name="add_sensor_block_package_title">Add apps for Sensor block</string>
+    <string name="add_sensor_block_package_summary">Significant motion, accelerometer, linear acceleration sensors will be blocked for these apps</string>
+    <string name="profile_choose_app">Choose app</string>
 
 </resources>
