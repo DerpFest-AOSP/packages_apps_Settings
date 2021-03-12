@@ -444,4 +444,8 @@
     <string name="fingerprint_enroll_find_sensor_message_rear">Suchen Sie den Fingerabdrucksensor auf der Rückseite Ihres Telefons.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Suchen Sie den Fingerabdrucksensor an der Seite des Telefons.</string>
 
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Sensorblockierung für Apps</string>
+    <string name="sensor_block_summary">Blockiert den Zugriff auf bestimmte Sensoren für einige Apps, um Strom zu sparen.</string>
+
 </resources>
