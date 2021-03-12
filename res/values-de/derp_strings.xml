@@ -667,4 +667,8 @@
     <string name="adaptive_playback_timeout_5_min_summary">Ein (5 Minuten)</string>
     <string name="adaptive_playback_timeout_10_min">10 Minuten</string>
     <string name="adaptive_playback_timeout_10_min_summary">Ein (10 Minuten)</string>
+
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Sensorblockierung für Apps</string>
+    <string name="sensor_block_summary">Blockiert den Zugriff auf bestimmte Sensoren für einige Apps, um Strom zu sparen.</string>
 </resources>
