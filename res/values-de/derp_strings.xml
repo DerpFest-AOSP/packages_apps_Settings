@@ -669,6 +669,12 @@
     <string name="adaptive_playback_timeout_10_min_summary">Ein (10 Minuten)</string>
 
     <!-- Sensor block per-package -->
-    <string name="sensor_block_title">Sensorblockierung für Apps</string>
-    <string name="sensor_block_summary">Blockiert den Zugriff auf bestimmte Sensoren für einige Apps, um Strom zu sparen.</string>
+    <string name="sensor_block_title">Sensoren blockieren</string>
+    <string name="sensor_block_summary">Zugriff auf einige Bewegungssensoren für stromintensive Apps blockieren</string>
+    <string name="sensor_block_app_picker_title">Sensoren für diese Apps blockieren</string>
+    <string name="add_sensor_block_package_title">Fügen Sie Apps für den Sensorblock hinzu</string>
+    <string name="add_sensor_block_package_summary">Signifikante Bewegungs-, Beschleunigungsmesser- und Linearbeschleunigungssensoren werden für diese Apps blockiert</string>
+    <string name="profile_choose_app">App auswählen</string>
+    <string name="dialog_delete_message">Ausgewähltes Element entfernen?</string>
+    <string name="dialog_delete_title">Entfernen</string>
 </resources>
