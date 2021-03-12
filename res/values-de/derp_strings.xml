@@ -185,4 +185,8 @@
     <string name="ambient_gesture_title">Gesten</string>
     <string name="ambient_swipe_title">Wischen zum Wecken</string>
     <string name="ambient_swipe_summary">Ermöglicht das Aufwecken des Geräts durch Wischen nach oben oder unten, wenn das Gerät schläft</string>
+
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Sensorblockierung für Apps</string>
+    <string name="sensor_block_summary">Blockiert den Zugriff auf bestimmte Sensoren für einige Apps, um Strom zu sparen.</string>
 </resources>

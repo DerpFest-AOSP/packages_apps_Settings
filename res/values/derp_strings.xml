@@ -205,4 +205,8 @@
     <string name="ambient_gesture_title">Gestures</string>
     <string name="ambient_swipe_title">Swipe to wake</string>
     <string name="ambient_swipe_summary">Allow waking the device by swiping up or down when the device is dozing</string>
+
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Sensor block per-package</string>
+    <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery</string>
 </resources>
