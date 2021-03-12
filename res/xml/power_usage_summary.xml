@@ -72,11 +72,11 @@
         settings:controller="com.android.settings.fuelgauge.batterytip.BatteryManagerPreferenceController"
         settings:keywords="@string/keywords_battery_adaptive_preferences" />
 
-    <com.derp.support.preferences.SystemSettingSwitchPreference
-        android:key="sensor_block"
+    <Preference
+        android:key="sensor_block_settings"
         android:title="@string/sensor_block_title"
         android:summary="@string/sensor_block_summary"
-        android:defaultValue="false" />
+        android:fragment="com.android.settings.applications.sensors.SensorBlock"/>
 
     <com.derp.support.preferences.SystemSettingSwitchPreference
         android:key="arcane_idle_manager"
