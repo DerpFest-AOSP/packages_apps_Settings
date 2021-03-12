@@ -691,4 +691,8 @@
     <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
     <string name="adaptive_playback_timeout_10_min">10 minutes</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Sensor block per-package</string>
+    <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery</string>
 </resources>

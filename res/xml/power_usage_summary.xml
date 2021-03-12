@@ -86,6 +86,12 @@
         <intent android:action="android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS" />
     </Preference>
 
+    <org.derpfest.support.preferences.SystemSettingSwitchPreference
+        android:key="sensor_block"
+        android:title="@string/sensor_block_title"
+        android:summary="@string/sensor_block_summary"
+        android:defaultValue="false" />
+
     <com.android.settingslib.widget.FooterPreference
         android:key="power_usage_footer"
         android:title="@string/battery_footer_summary"
