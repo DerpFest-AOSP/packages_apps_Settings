@@ -618,4 +618,8 @@
     <string name="power_menu_hide_on_secure_title">Ein-/Aus-Menü auf dem Sperrbildschirm deaktivieren</string>
     <string name="power_menu_hide_on_secure_summary">Diese Option deaktiviert das Ein-/Aus-Menü bei einer sicheren Displaysperre</string>
 
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Sensorblockierung für Apps</string>
+    <string name="sensor_block_summary">Blockiert den Zugriff auf bestimmte Sensoren für einige Apps, um Strom zu sparen.</string>
+
 </resources>

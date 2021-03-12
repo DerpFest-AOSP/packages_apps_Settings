@@ -640,4 +640,8 @@
     <string name="power_menu_hide_on_secure_title">Disable power menu on lock screen</string>
     <string name="power_menu_hide_on_secure_summary">Hide the power menu while on a secure lock screen</string>
 
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Sensor block per-package</string>
+    <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery</string>
+
 </resources>
