@@ -78,6 +78,12 @@
         <intent android:action="android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS" />
     </Preference>
 
+    <org.derpfest.support.preferences.SystemSettingSwitchPreference
+        android:key="sensor_block"
+        android:title="@string/sensor_block_title"
+        android:summary="@string/sensor_block_summary"
+        android:defaultValue="false" />
+
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="battery_temperature"
         android:title="@string/battery_temperature"
