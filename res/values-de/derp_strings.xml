@@ -61,4 +61,6 @@
     <string name="max_refresh_rate_title">Maximale Aktualisierungsrate</string>
     <string name="preferred_refresh_rate_title">Bevorzugte Aktualisierungsrate</string>
     <string name="preferred_refresh_rate_info">Die bevorzugte Aktualisierungsrate wird als Standardaktualisierungsrate für Benutzerinteraktionen verwendet, solange sie innerhalb der minimalen und maximalen Aktualisierungsrate liegt.</string>
+    <string name="battery_saver_refresh_rate_title">Aktualisierungsrate reduzieren</string>
+    <string name="battery_saver_refresh_rate_summary">Eine Bildschirmaktualisierungsrate von 60 Hz verwenden, um Energie zu sparen, wenn der Energiesparmodus aktiviert ist</string>
 </resources>
