@@ -387,6 +387,8 @@
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Minimale Bildwiederholfrequenz</string>
     <string name="max_refresh_rate_title">Maximale Bildwiederholfrequenz</string>
+    <string name="battery_saver_refresh_rate_title">Bildwiederholfrequenz reduzieren</string>
+    <string name="battery_saver_refresh_rate_summary">Verwenden Sie eine Bildwiederholfrequenz von 60 Hz, um Strom zu sparen, wenn der Batteriesparmodus aktiviert ist</string>
 
     <!-- LiveDisplay -->
     <string name="live_display_summary">Optimiert Ihren Bildschirm basierend auf der Tageszeit und den Umgebungsbedingungen, um die Lesbarkeit zu verbessern und die Ermüdung der Augen zu mildern</string>
