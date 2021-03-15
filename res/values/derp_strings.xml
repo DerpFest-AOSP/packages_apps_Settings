@@ -395,8 +395,9 @@
     <string name="dialog_delete_message">Remove selected item?</string>
     <string name="dialog_delete_title">Delete</string>
 
-    <!-- Min refresh rate -->
+    <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Minimum refresh rate</string>
+    <string name="max_refresh_rate_title">Maximum refresh rate</string>
 
     <!-- LiveDisplay -->
     <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>

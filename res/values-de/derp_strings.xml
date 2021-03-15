@@ -384,8 +384,9 @@
     <string name="dialog_delete_message">Ausgewähltes Element entfernen?</string>
     <string name="dialog_delete_title">Entfernen</string>
 
-    <!-- Min refresh rate -->
+    <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Minimale Bildwiederholfrequenz</string>
+    <string name="max_refresh_rate_title">Maximale Bildwiederholfrequenz</string>
 
     <!-- LiveDisplay -->
     <string name="live_display_summary">Optimiert Ihren Bildschirm basierend auf der Tageszeit und den Umgebungsbedingungen, um die Lesbarkeit zu verbessern und die Ermüdung der Augen zu mildern</string>
