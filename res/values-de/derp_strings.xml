@@ -781,4 +781,8 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">Smart 5G</string>
     <string name="smart_5g_summary">Automatisch zwischen 5G und 4G wechseln, um den Batterieverbrauch zu reduzieren</string>
+
+    <!-- Battery saver refresh rate -->
+    <string name="battery_saver_refresh_rate_title">Aktualisierungsrate reduzieren</string>
+    <string name="battery_saver_refresh_rate_summary">Eine Bildschirmaktualisierungsrate von 60 Hz verwenden, um Strom zu sparen, wenn der Batteriesparmodus aktiviert ist</string>
 </resources>
