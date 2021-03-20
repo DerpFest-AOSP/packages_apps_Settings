@@ -22,7 +22,7 @@
     <PreferenceCategory
         android:title="@string/sensor_block_app_picker_title"
         android:key="sensor_block_applications">
-        <Preference
+        <com.derp.support.preference.AppListPreference
             android:key="add_sensor_block_packages"
             android:icon="@drawable/ic_menu_add_activated_tint"
             android:title="@string/add_sensor_block_package_title" />
