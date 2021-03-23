@@ -18,6 +18,7 @@ package com.android.settings.sound;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
+import android.provider.DeviceConfig;
 import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.ArrayMap;
@@ -46,6 +47,11 @@ public class VibrateForCallsPreferenceFragment extends RadioButtonPickerFragment
     @VisibleForTesting
     static final String KEY_RAMPING_RINGER = "ramping_ringer";
 
+    static final String RAMPING_RINGER_ENABLED = "ramping_ringer_enabled";
+
+    private static final boolean mRampingEnabled = DeviceConfig.getBoolean(
+                        DeviceConfig.NAMESPACE_TELEPHONY, RAMPING_RINGER_ENABLED, false);
+
     private static final int ON = 1;
     private static final int OFF = 0;
 
@@ -68,9 +74,11 @@ public class VibrateForCallsPreferenceFragment extends RadioButtonPickerFragment
         mCandidates.put(KEY_ALWAYS_VIBRATE,
                 new VibrateForCallsCandidateInfo(
                         KEY_ALWAYS_VIBRATE, R.string.vibrate_when_ringing_option_always_vibrate));
-        mCandidates.put(KEY_RAMPING_RINGER,
-                new VibrateForCallsCandidateInfo(
-                        KEY_RAMPING_RINGER, R.string.vibrate_when_ringing_option_ramping_ringer));
+        if (mRampingEnabled) {
+            mCandidates.put(KEY_RAMPING_RINGER,
+                    new VibrateForCallsCandidateInfo(
+                            KEY_RAMPING_RINGER, R.string.vibrate_when_ringing_option_ramping_ringer));
+        }
     }
 
     private void updateSettings(VibrateForCallsCandidateInfo candidate) {
@@ -98,7 +106,7 @@ public class VibrateForCallsPreferenceFragment extends RadioButtonPickerFragment
         final List<VibrateForCallsCandidateInfo> candidates = new ArrayList<>();
         candidates.add(mCandidates.get(KEY_NEVER_VIBRATE));
         candidates.add(mCandidates.get(KEY_ALWAYS_VIBRATE));
-        candidates.add(mCandidates.get(KEY_RAMPING_RINGER));
+        if (mRampingEnabled) candidates.add(mCandidates.get(KEY_RAMPING_RINGER));
         return candidates;
     }
 
