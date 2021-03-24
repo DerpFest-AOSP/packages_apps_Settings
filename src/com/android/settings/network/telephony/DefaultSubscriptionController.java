@@ -47,8 +47,6 @@ import com.android.settings.network.SubscriptionsChangeListener;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.codeaurora.internal.IExtTelephony;
-
 /**
  * This implements common controller functionality for a Preference letting the user see/change
  * what mobile network subscription is used by default for some service controlled by the
@@ -108,14 +106,14 @@ public abstract class DefaultSubscriptionController extends TelephonyBasePrefere
 
     @Override
     public int getAvailabilityStatus(int subId) {
-        boolean visible = false;
+        final List<SubscriptionInfo> subs = SubscriptionUtil.getActiveSubscriptions(mManager);
         if (mSelectableSubs != null && mSelectableSubs.size() > 1) {
-            visible = true;
+            return AVAILABLE;
+        } else if (subs.size() > 1) {
+            return AVAILABLE;
         } else {
             return CONDITIONALLY_UNAVAILABLE;
         }
-
-        return visible ? AVAILABLE : CONDITIONALLY_UNAVAILABLE;
     }
 
     @OnLifecycleEvent(ON_RESUME)
@@ -184,7 +182,9 @@ public abstract class DefaultSubscriptionController extends TelephonyBasePrefere
         final int serviceDefaultSubId = getDefaultSubscriptionId();
         boolean subIsAvailable = false;
 
-        for (SubscriptionInfo sub : mSelectableSubs) {
+        final List<SubscriptionInfo> subs = SubscriptionUtil.getActiveSubscriptions(mManager);
+
+        for (SubscriptionInfo sub : (mSelectableSubs != null && mSelectableSubs.size() > 1 ? mSelectableSubs : subs)) {
             if (sub.isOpportunistic()) {
                 continue;
             }
