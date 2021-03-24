@@ -65,11 +65,11 @@ android_library {
         "android.hardware.dumpstate-V1.1-java",
         "VendorSupport-preference",
         "faceunlock_framework",
+        "telephony-ext",
     ],
 
     libs: [
         "telephony-common",
-        "telephony-ext",
         "ims-common",
         "app-compat-annotations",
     ],
