@@ -569,7 +569,7 @@ public class MobileNetworkUtils {
             int iconType, boolean cutOut) {
         final SignalDrawable signalDrawable = new SignalDrawable(context);
         signalDrawable.setLevel(
-                SignalDrawable.getState(level, numLevels, cutOut));
+                SignalDrawable.getState(level, numLevels, false /* isRoaming */));
 
         // Make the network type drawable
         final Drawable networkDrawable =
