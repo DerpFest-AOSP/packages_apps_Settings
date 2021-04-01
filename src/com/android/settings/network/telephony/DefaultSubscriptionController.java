@@ -158,10 +158,6 @@ public abstract class DefaultSubscriptionController extends TelephonyBasePrefere
         }
 
         updateSubStatus();
-        if (mSelectableSubs.isEmpty()) {
-            Log.d(TAG, "updateEntries: mSelectable subs is empty");
-            return;
-        }
 
         if (!isAvailable()) {
             mPreference.setVisible(false);
@@ -184,7 +180,7 @@ public abstract class DefaultSubscriptionController extends TelephonyBasePrefere
 
         final List<SubscriptionInfo> subs = SubscriptionUtil.getActiveSubscriptions(mManager);
 
-        for (SubscriptionInfo sub : (mSelectableSubs != null && mSelectableSubs.size() > 1 ? mSelectableSubs : subs)) {
+        for (SubscriptionInfo sub : (mSelectableSubs.size() > 1 ? mSelectableSubs : subs)) {
             if (sub.isOpportunistic()) {
                 continue;
             }
