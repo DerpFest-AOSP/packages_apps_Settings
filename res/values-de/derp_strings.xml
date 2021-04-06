@@ -927,4 +927,7 @@
     <string name="lid_behavior_none">Nichts tun</string>
     <string name="lid_behavior_lock">Sperren/Entsperren</string>
     <string name="lid_behavior_sleep">Schlafen/Aufwecken</string>
+
+    <!-- About phone screen, setting option name  [CHAR LIMIT=40] -->
+    <string name="bootloader_version">Bootloader-Version</string>
 </resources>
