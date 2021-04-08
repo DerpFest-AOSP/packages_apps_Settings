@@ -301,9 +301,14 @@
     <string name="applock_unlocked">Entsperrt</string>
     <string name="applock_locked_apps">Gesperrte Apps</string>
     <string name="applock_unlocked_apps">Freigeschaltete Apps</string>
-    <string name="applock_show_only_on_wake">Nur einmal authentifizieren</string>
-    <string name="applock_show_only_on_wake_on_summary">Nach der Authentifizierung bleibt eine App entsperrt, bis sich der Bildschirm ausschaltet</string>
-    <string name="applock_show_only_on_wake_off_summary">Nach der Authentifizierung bleibt eine App nach dem Beenden 15 Sekunden lang entsperrt</string>
+    <string name="applock_lock_after_title">App sperren nach</string>
+    <string name="applock_lock_after_instantly">Sofort</string>
+    <string name="applock_lock_after_15_seconds">15 Sekunden</string>
+    <string name="applock_lock_after_screen_off">Bildschirm aus</string>
+    <string name="applock_lock_after_summary">Die App wird nach dem ausgewählten Timeout gesperrt</string>
+    <string name="applock_lock_after_instantly_summary">Die App wird sofort gesperrt, wenn sie geschlossen wird</string>
+    <string name="applock_lock_after_15_seconds_summary">Die App wird 15 Sekunden nach dem Schließen gesperrt</string>
+    <string name="applock_lock_after_screen_off_summary">Die App wird gesperrt, wenn der Bildschirm ausgeschaltet wird</string>
     <string name="applock_notification_info">Sie können den Benachrichtigungsinhalt pro App ein- / ausblenden, indem Sie auf das Benachrichtigungssymbol klicken, das in den Einstellungen für gesperrte Apps angezeigt wird</string>
     <string name="applock_show_notif">Benachrichtigungsinhalt anzeigen</string>
     <string name="applock_hide_notif">Benachrichtigungsinhalt ausblenden</string>
