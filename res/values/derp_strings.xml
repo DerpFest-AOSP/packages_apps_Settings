@@ -310,4 +310,7 @@
     <string name="volume_rocker_wake_title">Volume wake</string>
     <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
 
+    <!-- Option to hide gesture navigation handle -->
+    <string name="navbar_gesture_handle_category">Gesture handle</string>
+
 </resources>

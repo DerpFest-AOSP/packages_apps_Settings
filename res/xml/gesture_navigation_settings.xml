@@ -73,6 +73,11 @@
             settings:textEnd="@string/back_height_high_label"/>
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="navbar_gesture_handle_category"
+        android:persistent="false"
+        android:title="@string/navbar_gesture_handle_category">
+
     <com.derp.support.preferences.SystemSettingSwitchPreference
         android:key="back_gesture_haptic"
         android:title="@string/back_gesture_haptic_title"
@@ -100,6 +105,8 @@
         android:selectable="true"
         settings:textStart="@string/short_label"
         settings:textEnd="@string/long_label"/>
+
+    </PreferenceCategory>
 
     <Preference
         android:key="gesture_nav_custom_options"
