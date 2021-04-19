@@ -762,4 +762,8 @@
     <!-- Developer Options -->
     <string name="cleartext_network_policy_title">Klartext-Netzwerkverkehr einschränken</string>
     <string name="cleartext_network_policy_summary">Blockiert den gesamten Nicht-TLS-Netzwerkverkehr. Erfordert eine private DNS-Konfiguration. Hinweis: Ohne ausdrückliche Ausnahmen funktionieren Apps, die Klartextverkehr verwenden, möglicherweise nicht</string>
+
+    <!-- Access QS on lockscreen -->
+    <string name="show_qs_on_secure_keyguard_title">Schnelleinstellungen</string>
+    <string name="show_qs_on_secure_keyguard_summary">Umschalten der Schnelleinstellungen auf dem sicheren Sperrbildschirm zulassen</string>
 </resources>

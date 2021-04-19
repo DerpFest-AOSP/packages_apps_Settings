@@ -795,4 +795,8 @@
 
     <!-- Auto pin confirm -->
     <string name="lock_screen_auto_pin_confirm_summary_custom">Unlock automatically if you input a correct PIN. This is slightly less secure than tapping Enter to confirm.</string>
+
+    <!-- Access QS on lockscreen -->
+    <string name="show_qs_on_secure_keyguard_title">Quick settings</string>
+    <string name="show_qs_on_secure_keyguard_summary">Allow toggling quick settings on secure lockscreen</string>
 </resources>
