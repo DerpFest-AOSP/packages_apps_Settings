@@ -40,7 +40,7 @@
     <string name="density_category">Density options</string>
 
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google Play</string>
+    <string name="app_play_store" translatable="false">Google Play</string>
 
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Clear usage data?</string>
@@ -213,7 +213,7 @@
     <string name="action_voice_search">Voice search</string>
     <string name="action_launch_camera">Camera</string>
     <string name="action_flashlight">Flashlight</string>
-    <string name="action_volume_panel">Volume panel</string>  
+    <string name="action_volume_panel">Volume panel</string>
     <string name="action_screen_off">Screen off</string>
     <string name="action_screenshot">Screenshot</string>
     <string name="action_app_action">Application</string>
@@ -264,8 +264,8 @@
     <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
 
-    <!-- Fingerprint unlock keystore -->  
-    <string name="fp_unlock_keystore_title">Fingerprint unlock</string>  
+    <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
     <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
 
     <!-- Notification sound timeout -->
@@ -454,7 +454,7 @@
     <string name="adj_contrast_title">Contrast</string>
 
     <!-- Doze on double tap -->
-    <string name="double_tap_title">Double tap</string> 
+    <string name="double_tap_title">Double tap</string>
     <string name="doze_double_tap_title">Double tap to check phone</string>
     <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
 
