@@ -21,10 +21,10 @@
     android:key="double_tap_power_flashlight_screen"
     android:title="@string/double_tap_power_flashlight_screen_title">
 
-    <!--<com.android.settings.widget.VideoPreference
-        android:key="gesture_prevent_ringing_video"
-        app:animation="@raw/gesture_prevent_ringing"
-    app:preview="@drawable/gesture_prevent_ringing" />-->
+    <com.android.settings.widget.VideoPreference
+        android:key="gesture_power_button_torch_video"
+        app:animation="@raw/power_button_torch"
+        app:preview="@drawable/power_button_torch" />
 
     <ListPreference
         android:key="double_tap_power_flashlight"

@@ -58,9 +58,6 @@ public class DoubleTapPowerFlashlightPreferenceController extends BasePreference
     @Override
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
-        /*if (isAvailable()) {
-            mVideoPreference = (VideoPreference) screen.findPreference(getVideoPrefKey());
-        }*/
     }
 
     @Override
@@ -105,16 +102,10 @@ public class DoubleTapPowerFlashlightPreferenceController extends BasePreference
 
     @Override
     public void onPause() {
-        /*if (mVideoPreference != null) {
-            mVideoPreference.onViewInvisible();
-        }*/
     }
 
     @Override
     public void onResume() {
-        /*if (mVideoPreference != null) {
-            mVideoPreference.onViewVisible();
-        }*/
     }
 
     @Override
