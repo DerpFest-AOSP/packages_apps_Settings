@@ -474,4 +474,10 @@
     <string name="show_dev_on_cm">Sie haben die Entwicklereinstellungen aktiviert!</string>
     <string name="show_dev_already_cm">Nicht nötig, Sie haben die Entwicklereinstellungen bereits aktiviert.</string>
 
+    <!-- Custom Signal bar icons -->
+    <string name="custom_signal_bar_title">Signal-Symbole</string>
+
+    <!-- Custom Wi-Fi bar icons -->
+    <string name="custom_wifi_bar_title">WLAN-Symbol</string>
+
 </resources>

@@ -215,6 +215,16 @@
             android:key="android.theme.customization.icon_pack"
             android:title="@string/theme_customization_icon_pack_title"
             android:icon="@drawable/ic_icon_pack"/>
+
+        <ListPreference
+            android:key="android.theme.customization.wifi_icon"
+            android:title="@string/custom_wifi_bar_title"
+            android:icon="@drawable/ic_wifi"/>
+
+        <ListPreference
+            android:key="android.theme.customization.signal_icon"
+            android:title="@string/custom_signal_bar_title"
+            android:icon="@drawable/ic_cell"/>
     </PreferenceCategory>
 
     <Preference
