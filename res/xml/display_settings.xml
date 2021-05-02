@@ -176,6 +176,7 @@
         <com.derp.support.preference.SystemSettingListPreference
             android:key="switch_style"
             android:title="@string/switch_style_title"
+            android:icon="@drawable/ic_switch"
             android:dialogTitle="@string/switch_style_title"
             android:entries="@array/switch_style_entries"
             android:entryValues="@array/switch_style_values"
