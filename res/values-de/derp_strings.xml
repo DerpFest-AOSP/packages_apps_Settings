@@ -543,7 +543,8 @@
     <string name="search_bar_style_title">Android 12-Suchleiste verwenden</string>
     <string name="search_bar_style_summary">Schalten Sie um, um die Suchleiste im Android 12-Stil in der Einstellungs-App zu verwenden. Die Einstellungs-App muss manuell neu gestartet werden, damit die Änderung wirksam wird.</string>
 
-    <!-- Clipboard toast toggle -->
-    <string name="show_clipboard_toast">Benachrichtigungen zum Zugriff auf die Zwischenablage anzeigen</string>
-    <string name="show_clipboard_toast_summary">Toast anzeigen, wenn eine App versucht, auf die Zwischenablage zuzugreifen</string>
+    <!-- Clipboard toast info -->
+    <string name="clipboard_toast_info_title">Benachrichtigungen zum Zugriff auf die Zwischenablage</string>
+    <string name="clipboard_toast_info_show_important">Nur wichtige Benachrichtigungen anzeigen</string>
+    <string name="clipboard_toast_info_show_all">Alle Zugriffswarnungen anzeigen</string>
 </resources>
