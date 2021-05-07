@@ -156,6 +156,7 @@
         <com.android.settings.display.darkmode.DarkModePreference
             android:key="dark_ui_mode"
             android:title="@string/dark_ui_mode"
+            android:icon="@drawable/ic_dark_mode"
             android:fragment="com.android.settings.display.darkmode.DarkModeSettingsFragment"
             android:widgetLayout="@null"
             settings:widgetLayout="@null"
@@ -186,6 +187,7 @@
        <com.derp.support.preference.SystemSettingListPreference 
             android:key="theming_settings_dashboard_icons" 
             android:title="@string/theming_settings_dashboard_icons_title" 
+            android:icon="@drawable/ic_dashboard"
             android:entries="@array/theming_settings_dashboard_icons_entries" 
             android:entryValues="@array/theming_settings_dashboard_icons_values"
             android:defaultValue="0" />
