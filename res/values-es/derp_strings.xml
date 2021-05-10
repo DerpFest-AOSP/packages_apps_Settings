@@ -15,10 +15,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- DerpFest maintainer -->
-    <string name="maintainer">Mantenedor</string>
-    <string name="maintainer_name">Tu GitHub local Retrasado</string>
-
     <!-- DerpFest Updater -->
     <string name="update_settings_title">Actualizador de DerpFest</string>
     <string name="update_settings_summary">Busque la última versión de la ROM</string>
