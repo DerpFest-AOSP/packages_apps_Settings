@@ -337,4 +337,8 @@
     <string name="search_apps">Apps suchen</string>
     <string name="application_icon">Anwendungssymbol</string>
 
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">One-Shot-Auto-Helligkeit</string>
+    <string name="auto_brightness_one_shot_summary">Die Helligkeitsanpassung erfolgt nur in dem Moment, in dem der Bildschirm eingeschaltet wird</string>
+
 </resources>
