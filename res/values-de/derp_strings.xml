@@ -334,4 +334,7 @@
     <string name="display_cutout_force_fullscreen_no_apps">Keine apps</string>
     <string name="display_cutout_force_fullscreen_restart_app">Bitte die Anwendung neu starten, um die Änderungen zu übernehmen.</string>
 
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Einmalige automatische Helligkeitseinstellung</string>
+    <string name="auto_brightness_one_shot_summary">Helligkeitsanpassung erfolgt nur beim Einschalten des Bildschirms</string>
 </resources>
