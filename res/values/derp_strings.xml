@@ -483,4 +483,7 @@
     <string name="display_cutout_force_fullscreen_restart_app">Please restart the application to apply the changes</string>
     <string name="cutout_force_fullscreen_no_apps">No apps</string>
 
+    <!-- One shot automatic Brightness -->
+    <string name="auto_brightness_one_shot_title">Only apply when screen is turned on</string>
+    <string name="auto_brightness_one_shot_summary">Adjustment will occur one time</string>
 </resources>

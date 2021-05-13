@@ -463,4 +463,8 @@
     <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
     <string name="data_usage_app_restrict_background_all_summary">Aktivieren Sie die Netzwerknutzung im Hintergrund</string>
 
+    <!-- One shot automatic Brightness -->
+    <string name="auto_brightness_one_shot_title">Nur anwenden, wenn der Bildschirm eingeschaltet ist</string>
+    <string name="auto_brightness_one_shot_summary">Die Anpassung erfolgt einmalig</string>
+
 </resources>
