@@ -230,8 +230,7 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements
 
         mReadingMode = findPreference(KEY_LIVE_DISPLAY_READING_ENHANCEMENT);
         if (liveDisplayPrefs != null && mReadingMode != null &&
-                (!mHardware.isSupported(LineageHardwareManager.FEATURE_READING_ENHANCEMENT) ||
-                    isWellbeingEnabled(getActivity()))) {
+                !mHardware.isSupported(LineageHardwareManager.FEATURE_READING_ENHANCEMENT)) {
             liveDisplayPrefs.removePreference(mReadingMode);
             mReadingMode = null;
         } else {
@@ -479,8 +478,7 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements
             if (!config.hasFeature(FEATURE_PICTURE_ADJUSTMENT)) {
                 result.add(KEY_PICTURE_ADJUSTMENT);
             }
-            if (!config.hasFeature(FEATURE_READING_ENHANCEMENT) ||
-                    isWellbeingEnabled(context)) {
+            if (!config.hasFeature(FEATURE_READING_ENHANCEMENT)) {
                 result.add(KEY_LIVE_DISPLAY_READING_ENHANCEMENT);
             }
             if (ColorDisplayManager.isNightDisplayAvailable(context)) {
