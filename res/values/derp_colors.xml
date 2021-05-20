@@ -22,4 +22,7 @@
     <!-- Wellbeing -->
     <color name="homepage_icon_wellbeing_color">#5bc561</color>
 
+    <!-- Device -->
+    <color name="homepage_icon_device_color">#0086FA</color>
+
 </resources>
