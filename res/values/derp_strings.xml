@@ -333,7 +333,7 @@
 
     <!-- Switch Styles -->
     <string name="switch_style_title">Switch Style</string>
-    <string name="switch_oneplus">OnePlus</string>
+    <string name="switch_oneplus">OnePlus (default)</string>
     <string name="switch_aosp">AOSP</string>
     <string name="switch_narrow">Narrow</string>
     <string name="switch_contained">Contained</string>
@@ -341,6 +341,7 @@
     <string name="switch_md2">Material Design 2</string>
     <string name="switch_retro">Retro</string>
     <string name="switch_oos">OxygenOS 11</string>
+    <string name="switch_fluid">Fluid</string>
 
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
     <string name="bluetooth_timeout">Bluetooth timeout</string>
