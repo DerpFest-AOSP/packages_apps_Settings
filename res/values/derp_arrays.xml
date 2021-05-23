@@ -154,7 +154,6 @@
     <!-- Switch Styles -->
     <string-array name="switch_style_entries" translatable="false">
         <item>@string/switch_oneplus</item>
-        <item>@string/switch_aosp</item>
         <item>@string/switch_narrow</item>
         <item>@string/switch_contained</item>
         <item>@string/switch_telegram</item>
@@ -173,7 +172,6 @@
         <item>5</item>
         <item>6</item>
         <item>7</item>
-        <item>8</item>
     </string-array>
 
     <!-- Bluetooth settings.  The delay in inactivity before bluetooth is turned off. These are shown in a list dialog. -->

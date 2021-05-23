@@ -334,7 +334,6 @@
     <!-- Switch Styles -->
     <string name="switch_style_title">Switch Style</string>
     <string name="switch_oneplus">OnePlus (default)</string>
-    <string name="switch_aosp">AOSP</string>
     <string name="switch_narrow">Narrow</string>
     <string name="switch_contained">Contained</string>
     <string name="switch_telegram">Telegram</string>
