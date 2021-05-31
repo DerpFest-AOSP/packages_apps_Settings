@@ -69,6 +69,12 @@
         android:summary="@string/sensor_block_summary"
         android:fragment="com.android.settings.applications.sensors.SensorBlock"/>
 
+    <Preference
+        android:fragment="com.derpquest.settings.fragments.system_misc.BatteryTweaks"
+        android:key="battery_tweaks"
+        android:summary="@string/battery_tweaks_summary"
+        android:title="@string/battery_tweaks_title" />
+
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="last_full_charge"
         android:title="@string/battery_last_full_charge"

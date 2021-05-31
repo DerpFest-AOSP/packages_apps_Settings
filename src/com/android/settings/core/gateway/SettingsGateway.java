@@ -164,6 +164,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.derpquest.settings.DerpQuestSettings;
 import com.derpquest.settings.external.OmniJawsSettings;
+import com.derpquest.settings.fragments.system_misc.SleepMode;
 
 import com.android.settings.livedisplay.LiveDisplaySettings;
 
@@ -320,6 +321,7 @@ public class SettingsGateway {
             DerpQuestSettings.class.getName(),
             OmniJawsSettings.class.getName(),
             LiveDisplaySettings.class.getName(),
+            SleepMode.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -361,5 +363,6 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.DerpQuestSettingsActivity.class.getName(),
             Settings.OmniJawsSettingsActivity.class.getName(),
+            Settings.SleepModeActivity.class.getName(),
     };
 }
