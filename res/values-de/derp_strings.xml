@@ -489,22 +489,18 @@
     <string name="face_unlock_method_default">Wenn der Bildschirm eingeschaltet ist</string>
     <string name="face_unlock_method_swipe">Beim Wischen auf dem Sperrbildschirm</string>
 
-    <!-- Wakelock blocker -->
+    <!-- Alarm and Wakelock blocker -->
+    <string name="blocker_action_reload">Neu laden</string>
+    <string name="blocker_action_save">Speichern</string>
+    <string name="blocker_action_save_toast">Einstellungen erfolgreich gespeichert</string>
+    <string name="blocker_warning_title">Warnung</string>
     <string name="wakelock_blocker_title">Wakelock-Blocker</string>
-    <string name="wakelock_blocker_summary">System-Wakelocks blockieren</string>
-    <string name="wakelock_blocker_save">Speichern</string>
-    <string name="wakelock_list_header">Verfügbare Wakelocks</string>
-    <string name="wakelock_blocker_reload">Neu laden</string>
-    <string name="wakelock_blocker_warning_title">Mit Vorsicht fortfahren</string>
+    <string name="wakelock_blocker_summary">System-Wakelocks blockieren, um Batterie zu sparen</string>
     <string name="wakelock_blocker_warning">Das Blockieren von Wakelocks kann zu Instabilität, Abstürzen oder Datenverlust führen.</string>
-
-    <!-- Alarm blocker -->
-    <string name="alarm_blocker">Alarm-Blocker</string>
-    <string name="alarm_blocker_title">Aktivieren</string> 
-    <string name="alarm_blocker_summary">Alarme bei ausgeschaltetem Bildschirm blockieren</string>
-    <string name="alarm_blocker_save">Save</string>
-    <string name="alarm_list_header">Verfügbare Alarme</string>
-    <string name="alarm_blocker_reload">Neu laden</string>
-    <string name="alarm_blocker_warning_title">Mit Vorsicht fortfahren</string>
+    <string name="wakelock_blocker_display_text">Aktivieren Sie den Wakelock-Blocker, um Wakelocks anzuzeigen und zu blockieren.</string>
+    <string name="alarm_blocker_title">Alarm-Blocker</string>
+    <string name="alarm_blocker_summary">Blockieren Sie Alarme, während der Bildschirm ausgeschaltet ist, um Batterie zu sparen</string>
     <string name="alarm_blocker_warning">Das Blockieren von Alarmen kann zu Instabilität, Abstürzen oder Datenverlust führen.</string>
+    <string name="alarm_blocker_display_text">Um Alarme anzuzeigen und zu blockieren, aktivieren Sie den Alarmblocker.</string>
+
 </resources>
