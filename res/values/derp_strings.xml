@@ -41,6 +41,9 @@
     <string name="trust_restrict_usb_keyguard">Allow USB connections when unlocked</string>
     <string name="trust_restrict_usb_disabled">Always allow USB connections</string>
 
+    <!-- Max refresh rate -->
+    <string name="max_refresh_rate_title">Peak refresh rate</string>
+
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
