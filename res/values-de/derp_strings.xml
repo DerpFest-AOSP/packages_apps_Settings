@@ -39,6 +39,9 @@
     <string name="trust_restrict_usb_keyguard">USB-Verbindungen zulassen, wenn entsperrt</string>
     <string name="trust_restrict_usb_disabled">USB-Verbindungen immer zulassen</string>
 
+    <!-- Max refresh rate -->
+    <string name="max_refresh_rate_title">Maximale Aktualisierungsrate</string>
+
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Suchen Sie den Fingerabdrucksensor auf der Vorderseite Ihres Tablets.</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">Suchen Sie den Fingerabdrucksensor auf der Vorderseite Ihres Geräts.</string>
