@@ -954,4 +954,8 @@
     <!-- Squiggle animation -->
     <string name="show_squiggle_animation_title">Schnörkelanimation anzeigen</string>
     <string name="show_squiggle_animation_summary">Schnörkelanimation im Mediaplayer anzeigen. Damit diese Einstellung sichtbar wird, muss entweder der Track gewechselt, die Wiedergabe angehalten oder der Fortschrittsbalken verschoben werden.</string>
+
+    <!-- App data usage Datura Firewall link -->
+    <string name="data_usage_app_datura_firewall">Datura Firewall</string>
+    <string name="data_usage_app_datura_firewall_summary">Firewall-Einstellungen wurden in die neue Firewall-App verschoben. Zum Öffnen antippen.</string>
 </resources>

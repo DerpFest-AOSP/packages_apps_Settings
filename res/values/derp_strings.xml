@@ -1005,4 +1005,8 @@
     <!-- Squiggle animation -->
     <string name="show_squiggle_animation_title">Show squiggle animation</string>
     <string name="show_squiggle_animation_summary">Show squiggle animation in media player. You must either change the track, pause playback, or move the progress bar for this setting to take effect.</string>
+
+    <!-- App data usage Datura Firewall link -->
+    <string name="data_usage_app_datura_firewall">Datura Firewall</string>
+    <string name="data_usage_app_datura_firewall_summary">Firewall settings have been moved to the new Firewall app. Tap to open.</string>
 </resources>
