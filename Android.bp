@@ -111,6 +111,7 @@ android_library {
         "kotlinx_coroutines",
         "SystemUISharedLib",
         "faceunlock_framework",
+        "glide",
         "androidx.navigation_navigation-common-ktx",
         "androidx.navigation_navigation-fragment-ktx",
         "androidx.navigation_navigation-runtime-ktx",
@@ -169,4 +170,9 @@ filegroup {
 filegroup {
     name: "Settings_manifest",
     srcs: ["AndroidManifest.xml"],
+}
+
+android_library_import {
+    name: "glide",
+    aars: ["libs/glide-4.9.0.aar"],
 }
