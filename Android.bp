@@ -90,6 +90,7 @@ android_library {
         "SettingsLibActivityEmbedding",
         "VendorSupport-preference",
         "vendor.lineage.touch-V1.0-java",
+        "glide",
         "androidx.navigation_navigation-common-ktx",
         "androidx.navigation_navigation-fragment-ktx",
         "androidx.navigation_navigation-runtime-ktx",
@@ -150,4 +151,9 @@ filegroup {
 filegroup {
     name: "Settings_manifest",
     srcs: ["AndroidManifest.xml"],
+}
+
+android_library_import {
+    name: "glide",
+    aars: ["libs/glide-4.9.0.aar"],
 }
