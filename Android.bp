@@ -116,6 +116,7 @@ android_library {
         // DerpFest dependencies
         "SystemUISharedLib",
         "VendorSupport-preference",
+        "glide",
     ],
 
     plugins: [
@@ -180,4 +181,9 @@ android_library_import {
 filegroup {
     name: "Settings_proguard_flags",
     srcs: ["proguard.flags"],
+}
+
+android_library_import {
+    name: "glide",
+    aars: ["libs/glide-4.16.0.aar"],
 }
