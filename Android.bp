@@ -115,6 +115,7 @@ android_library {
         "kotlinx-coroutines-android",
         "vendor.lineage.fastcharge-V1.0-java",
         "VendorSupport-preference",
+        "glide",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
@@ -170,4 +171,9 @@ android_library_import {
 filegroup {
     name: "Settings_proguard_flags",
     srcs: ["proguard.flags"],
+}
+
+android_library_import {
+    name: "glide",
+    aars: ["libs/glide-4.16.0.aar"],
 }
