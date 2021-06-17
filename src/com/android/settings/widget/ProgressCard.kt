@@ -17,11 +17,12 @@ import com.android.settingslib.Utils
 
 
 class ProgressCard(context: Context?, attrs: AttributeSet?): LinearLayout(context, attrs) {
+
+    private var ANIMATION_DURATION = 2000
+
     init {
         LayoutInflater.from(context).inflate(R.layout.progress_card, this, true)
     }
-    private var ANIMATION_DURATION = 2500
-
 
     fun setTitle(attr: String?) {
         val title = findViewById<TextView>(R.id.title)
