@@ -772,4 +772,9 @@
     <string name="miscellaneous_settings">Verschiedenes</string>
     <string name="other_settings">Weitere Optionen</string>
     <string name="quick_settings">Schnelleinstellungen</string>
+
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Gesichtsentsperrung auf dem Sperrbildschirm zulassen</string>
+    <string name="face_unlock_method_default">Wenn der Bildschirm eingeschaltet ist</string>
+    <string name="face_unlock_method_swipe">Beim Wischen auf dem Sperrbildschirm</string>
 </resources>
