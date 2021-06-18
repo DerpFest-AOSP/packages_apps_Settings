@@ -309,7 +309,7 @@
     <string name="applock_lock_after_instantly_summary">Die App wird sofort gesperrt, wenn sie geschlossen wird</string>
     <string name="applock_lock_after_15_seconds_summary">Die App wird 15 Sekunden nach dem Schließen gesperrt</string>
     <string name="applock_lock_after_screen_off_summary">Die App wird gesperrt, wenn der Bildschirm ausgeschaltet wird</string>
-    <string name="applock_notification_info">Sie können den Benachrichtigungsinhalt pro App ein- / ausblenden, indem Sie auf das Benachrichtigungssymbol klicken, das in den Einstellungen für gesperrte Apps angezeigt wird</string>
+    <string name="applock_notification_info">Die Sichtbarkeit des Benachrichtigungsinhalts kann geändert werden, wenn Sie neben das Schlosssymbol klicken.</string>
     <string name="applock_show_notif">Benachrichtigungsinhalt anzeigen</string>
     <string name="applock_hide_notif">Benachrichtigungsinhalt ausblenden</string>
     <string name="applock_setup">App locker einrichten</string>
