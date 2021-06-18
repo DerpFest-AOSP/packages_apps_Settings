@@ -484,4 +484,9 @@
     <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
     <string name="unlock_quick_unlock_control_summary">Die Sperre wird automatisch aufgehoben, wenn PIN/Passwort richtig eingegeben wurde</string>
 
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Gesichtsentsperrung zulassen, wenn...</string>
+    <string name="face_unlock_method_default">Wenn der Bildschirm eingeschaltet ist</string>
+    <string name="face_unlock_method_swipe">Beim Wischen auf dem Sperrbildschirm</string>
+
 </resources>
