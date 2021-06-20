@@ -19,7 +19,6 @@ package com.android.settings.fuelgauge;
 import android.annotation.Nullable;
 import android.content.Context;
 import android.graphics.ColorFilter;
-import android.provider.Settings;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
@@ -27,23 +26,17 @@ import androidx.annotation.VisibleForTesting;
 
 import com.android.settings.R;
 import com.android.settings.Utils;
-import com.android.settingslib.graph.CircleBatteryDrawable;
-import com.android.settingslib.graph.FullCircleBatteryDrawable;
 import com.android.settingslib.graph.ThemedBatteryDrawable;
 
 public class BatteryMeterView extends ImageView {
     @VisibleForTesting
-    BatteryMeterDrawable mThemedDrawable;
+    BatteryMeterDrawable mDrawable;
     @VisibleForTesting
     ColorFilter mErrorColorFilter;
     @VisibleForTesting
     ColorFilter mAccentColorFilter;
     @VisibleForTesting
     ColorFilter mForegroundColorFilter;
-
-    CircleBatteryDrawable mCircleDrawable;
-    FullCircleBatteryDrawable mFullCircleDrawable;
-    private int mIconStyle = 0;
 
     public BatteryMeterView(Context context) {
         this(context, null, 0);
@@ -63,87 +56,47 @@ public class BatteryMeterView extends ImageView {
                 context.getColor(R.color.battery_icon_color_error));
         mForegroundColorFilter = Utils.getAlphaInvariantColorFilterForColor(
                 Utils.getColorAttrDefaultColor(context, android.R.attr.colorForeground));
-        mThemedDrawable = new BatteryMeterDrawable(context, frameColor);
-        mCircleDrawable = new CircleBatteryDrawable(context, frameColor);
-        mFullCircleDrawable = new FullCircleBatteryDrawable(context, frameColor);
-    }
-
-    public void setDrawableStyle() {
-        int style = Settings.System.getInt(mContext.getContentResolver(),
-                Settings.System.STATUS_BAR_BATTERY_STYLE, 0);
-        switch (style) {
-            case 1:
-            case 2:
-                mCircleDrawable.setMeterStyle(style);
-                mCircleDrawable.setColorFilter(mAccentColorFilter);
-                setImageDrawable(mCircleDrawable);
-                break;
-            case 3:
-                mFullCircleDrawable.setColorFilter(mAccentColorFilter);
-                setImageDrawable(mFullCircleDrawable);
-                break;
-            default:
-                mThemedDrawable.setColorFilter(mAccentColorFilter);
-                setImageDrawable(mThemedDrawable);
-        }
-        if (mIconStyle != style) {
-            mIconStyle = style;
-            postInvalidate();
-        }
+        mDrawable = new BatteryMeterDrawable(context, frameColor);
+        mDrawable.setColorFilter(mAccentColorFilter);
+        setImageDrawable(mDrawable);
     }
 
     public void setBatteryLevel(int level) {
-        mCircleDrawable.setBatteryLevel(level);
-        mFullCircleDrawable.setBatteryLevel(level);
-        mThemedDrawable.setBatteryLevel(level);
+        mDrawable.setBatteryLevel(level);
         updateColorFilter();
     }
 
-    public int getBatteryLevel() {
-        return mThemedDrawable.getBatteryLevel();
-    }
-
     public void setPowerSave(boolean powerSave) {
-        mCircleDrawable.setPowerSaveEnabled(powerSave);
-        mFullCircleDrawable.setPowerSaveEnabled(powerSave);
-        mThemedDrawable.setPowerSaveEnabled(powerSave);
+        mDrawable.setPowerSaveEnabled(powerSave);
         updateColorFilter();
     }
 
     public boolean getPowerSave() {
-        return mThemedDrawable.getPowerSaveEnabled();
+        return mDrawable.getPowerSaveEnabled();
+    }
+
+    public int getBatteryLevel() {
+        return mDrawable.getBatteryLevel();
     }
 
     public void setCharging(boolean charging) {
-        mCircleDrawable.setCharging(charging);
-        mFullCircleDrawable.setCharging(charging);
-        mThemedDrawable.setCharging(charging);
+        mDrawable.setCharging(charging);
         postInvalidate();
     }
 
     public boolean getCharging() {
-        return mThemedDrawable.getCharging();
-    }
-
-    private int getCriticalLevel() {
-        return mThemedDrawable.getCriticalLevel();
+        return mDrawable.getCharging();
     }
 
     private void updateColorFilter() {
-        final boolean powerSaveEnabled = getPowerSave();
-        final int level = getBatteryLevel();
+        final boolean powerSaveEnabled = mDrawable.getPowerSaveEnabled();
+        final int level = mDrawable.getBatteryLevel();
         if (powerSaveEnabled) {
-            mCircleDrawable.setColorFilter(mForegroundColorFilter);
-            mFullCircleDrawable.setColorFilter(mForegroundColorFilter);
-            mThemedDrawable.setColorFilter(mForegroundColorFilter);
-        } else if (level < getCriticalLevel()) {
-            mCircleDrawable.setColorFilter(mErrorColorFilter);
-            mFullCircleDrawable.setColorFilter(mErrorColorFilter);
-            mThemedDrawable.setColorFilter(mErrorColorFilter);
+            mDrawable.setColorFilter(mForegroundColorFilter);
+        } else if (level < mDrawable.getCriticalLevel()) {
+            mDrawable.setColorFilter(mErrorColorFilter);
         } else {
-            mCircleDrawable.setColorFilter(mAccentColorFilter);
-            mFullCircleDrawable.setColorFilter(mAccentColorFilter);
-            mThemedDrawable.setColorFilter(mAccentColorFilter);
+            mDrawable.setColorFilter(mAccentColorFilter);
         }
     }
 
@@ -161,68 +114,6 @@ public class BatteryMeterView extends ImageView {
         }
 
         public BatteryMeterDrawable(Context context, int frameColor, int width, int height) {
-            super(context, frameColor);
-
-            mIntrinsicWidth = width;
-            mIntrinsicHeight = height;
-        }
-
-        @Override
-        public int getIntrinsicWidth() {
-            return mIntrinsicWidth;
-        }
-
-        @Override
-        public int getIntrinsicHeight() {
-            return mIntrinsicHeight;
-        }
-    }
-
-    public static class CircleBatteryMeterDrawable extends CircleBatteryDrawable {
-        private final int mIntrinsicWidth;
-        private final int mIntrinsicHeight;
-
-        public CircleBatteryMeterDrawable(Context context, int frameColor) {
-            super(context, frameColor);
-
-            mIntrinsicWidth = context.getResources()
-                    .getDimensionPixelSize(R.dimen.battery_meter_width);
-            mIntrinsicHeight = context.getResources()
-                    .getDimensionPixelSize(R.dimen.battery_meter_height);
-        }
-
-        public CircleBatteryMeterDrawable(Context context, int frameColor, int width, int height) {
-            super(context, frameColor);
-
-            mIntrinsicWidth = width;
-            mIntrinsicHeight = height;
-        }
-
-        @Override
-        public int getIntrinsicWidth() {
-            return mIntrinsicWidth;
-        }
-
-        @Override
-        public int getIntrinsicHeight() {
-            return mIntrinsicHeight;
-        }
-    }
-
-    public static class FullCircleBatteryMeterDrawable extends FullCircleBatteryDrawable {
-        private final int mIntrinsicWidth;
-        private final int mIntrinsicHeight;
-
-        public FullCircleBatteryMeterDrawable(Context context, int frameColor) {
-            super(context, frameColor);
-
-            mIntrinsicWidth = context.getResources()
-                    .getDimensionPixelSize(R.dimen.battery_meter_width);
-            mIntrinsicHeight = context.getResources()
-                    .getDimensionPixelSize(R.dimen.battery_meter_height);
-        }
-
-        public FullCircleBatteryMeterDrawable(Context context, int frameColor, int width, int height) {
             super(context, frameColor);
 
             mIntrinsicWidth = width;
