@@ -161,6 +161,7 @@
         <item>@string/switch_retro</item>
         <item>@string/switch_oos</item>
         <item>@string/switch_fluid</item>
+        <item>@string/switch_android_s</item>
     </string-array>
 
     <string-array name="switch_style_values" translatable="false">
@@ -172,6 +173,7 @@
         <item>5</item>
         <item>6</item>
         <item>7</item>
+        <item>8</item>
     </string-array>
 
     <!-- Bluetooth settings.  The delay in inactivity before bluetooth is turned off. These are shown in a list dialog. -->
