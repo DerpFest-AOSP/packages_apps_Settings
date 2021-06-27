@@ -568,4 +568,9 @@
     <!-- Edge Music Gestures -->
     <string name="edge_music_title">Edge Music Gesture</string>
     <string name="edge_music_summary">Enable music control on dead edge area (set edge deadzone to anything other than off)</string>
+
+    <!-- SearchBar Style -->
+    <string name="search_bar_style_title">Use Android 12 Search Bar</string>
+    <string name="search_bar_style_summary">Toggle to use Android 12 style searchbar in Settings app. Settings app needs to be manually restarted for the change to take effect.</string>
+
 </resources>
