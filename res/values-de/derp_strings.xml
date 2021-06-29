@@ -446,4 +446,8 @@
     <string name="security_settings_biometric_preference_title_custom">Entsperrung per Fingerabdruck</string>
     <!-- Title shown for work menu item that launches biometric settings. [CHAR LIMIT=66] -->
     <string name="security_settings_work_biometric_preference_title_custom">Fingerabdruckentsperrung für die Arbeit</string>
+
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">USB-Konfiguration</string>
+    <string name="usb_default_config_summary">Standardverhalten bei Verbindung mit einem Gerät über USB</string>
 </resources>

@@ -470,4 +470,8 @@
     <string name="security_settings_biometric_preference_title_custom">Biometric Unlock</string>
     <!-- Title shown for work menu item that launches biometric settings. [CHAR LIMIT=66] -->
     <string name="security_settings_work_biometric_preference_title_custom">Biometric Unlock for work</string>
+
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">USB configuration</string>
+    <string name="usb_default_config_summary">Choose the default behavior when connected to a device via USB</string>
 </resources>
