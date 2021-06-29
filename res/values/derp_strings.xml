@@ -752,4 +752,9 @@
     <!-- Mic + Camera indicator -->
     <string name="mic_camera_indicator_settings_title">Status bar mic and camera indicator</string>
     <string name="mic_camera_indicator_settings_description">Show indicator when an any app uses mic or camera</string>
+
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">USB configuration</string>
+    <string name="usb_default_config_summary">Choose the default behavior when connected to a device via USB</string>
+
 </resources>
