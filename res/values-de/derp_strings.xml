@@ -725,4 +725,9 @@
     <!-- Mic + Camera indicator -->
     <string name="mic_camera_indicator_settings_title">Mikrofon- und Kameraanzeige in der Statusleiste</string>
     <string name="mic_camera_indicator_settings_description">In der Statusleiste anzeigen, wenn eine App auf Mikrofon oder Kamera zugreift</string>
+
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">USB-Konfiguration</string>
+    <string name="usb_default_config_summary">Standardverhalten bei Verbindung mit einem Gerät über USB</string>
+
 </resources>
