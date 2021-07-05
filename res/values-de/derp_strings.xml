@@ -88,6 +88,10 @@
     <string name="package_version">App-Version</string>
     <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
 
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Hohe Touchscreen-Abtastrate</string>
+    <string name="high_touch_polling_rate_summary">Touchscreen-Abtastrate erhöhen</string>
+
     <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">Hohe Touch-Empfindlichkeit</string>
     <string name="high_touch_sensitivity_summary">Touch-Empfindlichkeit erhöhen, um den Touchscreen auch mit Handschuhen bedienen zu können</string>
