@@ -589,4 +589,8 @@
     <string name="touchscreen_hovering_title">Touchscreen als Maus verwenden</string>
     <string name="touchscreen_hovering_summary">Erlaubt es, den über dem Touchscreen schwebenden Finger im Browser, Remote Desktop usw. als Mauszeiger zu verwenden.</string>
 
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Hohe Touchscreen-Abtastrate</string>
+    <string name="high_touch_polling_rate_summary">Touchscreen-Abtastrate erhöhen</string>
+
 </resources>
