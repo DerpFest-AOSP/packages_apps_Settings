@@ -73,6 +73,10 @@
     <!-- In-call feedback -->
     <string name="incall_feeedback_vibrate_title">Vibrieren, um den Anrufstatus anzuzeigen</string>
 
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">Hohe Touchscreen-Abtastrate</string>
+    <string name="high_touch_polling_rate_summary">Touchscreen-Abtastrate erhöhen</string>
+
     <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">Hohe Touch-Empfindlichkeit</string>
     <string name="high_touch_sensitivity_summary">Touch-Empfindlichkeit erhöhen, um den Touchscreen auch mit Handschuhen bedienen zu können</string>
