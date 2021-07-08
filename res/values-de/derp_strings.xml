@@ -771,4 +771,10 @@
     <string name="miscellaneous_settings">Verschiedenes</string>
     <string name="other_settings">Weitere Optionen</string>
     <string name="quick_settings">Schnelleinstellungen</string>
+
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_red">Stärke des Rottons</string>
+    <string name="color_mode_balance_green">Stärke des Grüntons</string>
+    <string name="color_mode_balance_blue">Stärke des Blautons</string>
+    <string name="keywords_color_balance">Farbe, Farbbalance, Farbkorrektur, Rot, Grün, Blau, LiveDisplay</string>
 </resources>
