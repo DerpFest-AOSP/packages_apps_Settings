@@ -739,4 +739,10 @@
     <string name="category_name_qs_footer">Fußzeile</string>
     <string name="qs_footer_datausage_title">Datennutzung</string>
     <string name="qs_footer_datausage_summary">In der Fußzeile der Schnelleinstellungen die Datennutzung anzeigen</string>
+
+    <!-- VPN app management screen, global VPN -->
+    <string name="global_vpn_title">Globales VPN</string>
+    <string name="global_vpn_summary">Gesamten Datenverkehr auf dem Gerät durch dieses VPN leiten, einschließlich des Arbeitsprofils und anderer Benutzer.</string>
+    <string name="global_vpn_summary_on">Gesamten Datenverkehr auf dem Gerät durch dieses VPN leiten, einschließlich des Arbeitsprofils und anderer Benutzer. Hinweis: Wenn diese Option aktiviert ist, kannst du kein separates VPN in einem Arbeitsprofil oder für andere Benutzer verwenden</string>
+    <string name="global_vpn_summary_any_vpn_active">Du musst zuerst alle aktiven VPN-Verbindungen deaktivieren, um dies zu aktivieren</string>
 </resources>
