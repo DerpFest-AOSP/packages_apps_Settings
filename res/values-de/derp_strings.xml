@@ -572,4 +572,10 @@
     <string name="device_reboot_timeout_title">Automatischer Neustart</string>
     <string name="device_reboot_timeout_summary">Das Gerät wird automatisch neu gestartet, wenn es nicht innerhalb der letzten <xliff:g id="timeout_description">%1$s</xliff:g> entsperrt wurde</string>
     <string name="device_reboot_timeout_summary2">Das Gerät wird nicht automatisch neu gestartet</string>
+
+    <!-- VPN app management screen, global VPN -->
+    <string name="global_vpn_title">Globales VPN</string>
+    <string name="global_vpn_summary">Gesamten Datenverkehr auf dem Gerät durch dieses VPN leiten, einschließlich des Arbeitsprofils und anderer Benutzer.</string>
+    <string name="global_vpn_summary_on">Gesamten Datenverkehr auf dem Gerät durch dieses VPN leiten, einschließlich des Arbeitsprofils und anderer Benutzer. Hinweis: Wenn diese Option aktiviert ist, kannst du kein separates VPN in einem Arbeitsprofil oder für andere Benutzer verwenden</string>
+    <string name="global_vpn_summary_any_vpn_active">Du musst zuerst alle aktiven VPN-Verbindungen deaktivieren, um dies zu aktivieren</string>
 </resources>
