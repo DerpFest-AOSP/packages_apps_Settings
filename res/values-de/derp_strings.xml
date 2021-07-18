@@ -374,9 +374,11 @@
     <string name="dialog_delete_title">Entfernen</string>
 
     <!-- Refresh rate -->
+    <string name="refresh_rate_title">Bildwiederholfrequenz</string>
     <string name="min_refresh_rate_title">Minimale Bildwiederholfrequenz</string>
     <string name="max_refresh_rate_title">Maximale Bildwiederholfrequenz</string>
     <string name="preferred_refresh_rate_title">Bevorzugte Bildwiederholfrequenz</string>
+    <string name="preferred_refresh_rate_info">Die bevorzugte Bildwiederholfrequenz wird als Standardbildwiederholfrequenz für Benutzerinteraktionen verwendet, solange sie nicht unter der minimalen Bildwiederholfrequenz und nicht über der maximalen Bildwiederholfrequenz liegt.</string>
     <string name="battery_saver_refresh_rate_title">Bildwiederholfrequenz reduzieren</string>
     <string name="battery_saver_refresh_rate_summary">Verwenden Sie die maximale Bildwiederholfrequenz von 60 Hz, um Strom zu sparen, wenn der Batteriesparmodus aktiviert ist</string>
 
