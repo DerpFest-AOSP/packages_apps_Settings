@@ -66,7 +66,7 @@ public class VibrationPatternPreferenceController extends AbstractPreferenceCont
         0, // No delay before starting
         500, // How long to vibrate
         200, // Delay
-        70, // How long to vibrate
+        20, // How long to vibrate
         720, // How long to wait before vibrating again
     };
 
@@ -82,9 +82,11 @@ public class VibrationPatternPreferenceController extends AbstractPreferenceCont
 
     private static final long[] DA_DA_DZZZ_VIBRATION_PATTERN = {
         0, // No delay before starting
-        70, // How long to vibrate
+        30, // How long to vibrate
         80, // Delay
-        70, // How long to vibrate
+        30, // How long to vibrate
+        80, // Delay
+        50,  // How long to vibrate
         180, // Delay
         600,  // How long to vibrate
         1050, // How long to wait before vibrating again
@@ -96,8 +98,20 @@ public class VibrationPatternPreferenceController extends AbstractPreferenceCont
         200, // Delay
         600, // How long to vibrate
         150, // Delay
-        60,  // How long to vibrate
+        20,  // How long to vibrate
         1050, // How long to wait before vibrating again
+    };
+
+    private static final int[] NINE_ELEMENTS_VIBRATION_AMPLITUDE = {
+        0, // No delay before starting
+        255, // Vibrate full amplitude
+        0, // No amplitude while waiting
+        255,
+        0,
+        255,
+        0,
+        255,
+        0,
     };
 
     private static final int[] SEVEN_ELEMENTS_VIBRATION_AMPLITUDE = {
@@ -184,7 +198,7 @@ public class VibrationPatternPreferenceController extends AbstractPreferenceCont
                 break;
             case 3:
                 effect = vibrationEffectProxy.createWaveform(DA_DA_DZZZ_VIBRATION_PATTERN,
-                        SEVEN_ELEMENTS_VIBRATION_AMPLITUDE, -1);
+                        NINE_ELEMENTS_VIBRATION_AMPLITUDE, -1);
                 break;
             case 4:
                 effect = vibrationEffectProxy.createWaveform(DA_DZZZ_DA_VIBRATION_PATTERN,
