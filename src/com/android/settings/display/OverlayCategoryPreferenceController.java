@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.development;
+package com.android.settings.display;
 
 import static android.os.UserHandle.USER_SYSTEM;
 
@@ -35,8 +35,8 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
+import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settings.core.PreferenceControllerMixin;
-import com.android.settingslib.development.DeveloperOptionsPreferenceController;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -48,7 +48,7 @@ import java.util.List;
  * The chosen overlay is enabled exclusively within its category. A default option is also
  * exposed that disables all overlays in the given category.
  */
-public class OverlayCategoryPreferenceController extends DeveloperOptionsPreferenceController
+public class OverlayCategoryPreferenceController extends AbstractPreferenceController
         implements Preference.OnPreferenceChangeListener, PreferenceControllerMixin {
     private static final String TAG = "OverlayCategoryPC";
     @VisibleForTesting
@@ -82,17 +82,8 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
     private String getDefaultLabel(String category) {
         String label = mContext.getString(R.string.overlay_option_device_default);
         switch (category) {
-            case "android.theme.customization.accent_color":
-                label = mContext.getString(R.string.default_accent_color);
-                break;
             case "android.theme.customization.font":
                 label = mContext.getString(R.string.default_font);
-                break;
-            case "android.theme.customization.adaptive_icon_shape":
-                label = mContext.getString(R.string.default_icon_shape);
-                break;
-            case "android.theme.customization.icon_pack":
-                label = mContext.getString(R.string.default_icon_pack);
                 break;
          }
          return label;

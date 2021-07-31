@@ -37,6 +37,15 @@
         <intent android:action="com.android.intent.action.SHOW_BRIGHTNESS_DIALOG" />
     </com.android.settingslib.RestrictedPreference>
 
+    <com.android.settings.display.darkmode.DarkModePreference
+        android:key="dark_ui_mode"
+        android:title="@string/dark_ui_mode"
+        android:fragment="com.android.settings.display.darkmode.DarkModeSettingsFragment"
+        android:widgetLayout="@null"
+        settings:widgetLayout="@null"
+        settings:controller="com.android.settings.display.DarkUIPreferenceController"
+        settings:keywords="@string/keywords_dark_ui_mode"/>
+
     <com.android.settings.display.NightDisplayPreference
         android:key="night_display"
         android:title="@string/night_display_title"
@@ -155,78 +164,6 @@
         android:key="theme"
         android:title="@string/device_theme"
         android:summary="@string/summary_placeholder" />
-
-    <PreferenceCategory
-        android:key="theme_customization_category"
-        android:title="@string/theme_customization_category"
-        android:order="1200"> <!-- Incremented by 100 from last order (i.e. 1100) -->
-
-        <com.android.settings.display.darkmode.DarkModePreference
-            android:key="dark_ui_mode"
-            android:title="@string/dark_ui_mode"
-            android:icon="@drawable/ic_dark_mode"
-            android:fragment="com.android.settings.display.darkmode.DarkModeSettingsFragment"
-            android:widgetLayout="@null"
-            settings:widgetLayout="@null"
-            settings:controller="com.android.settings.display.DarkUIPreferenceController"
-            settings:keywords="@string/keywords_dark_ui_mode"/>
-
-        <Preference
-            android:key="clock_style"
-            android:title="@string/clock_style_title"
-            android:summary="@string/clock_style_summary"
-            android:icon="@drawable/ic_clock">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:targetPackage="com.android.wallpaper"
-                android:targetClass="com.android.customization.picker.LockClockPickerActivity" />
-        </Preference>
-
-        <com.derp.support.preference.SystemSettingListPreference
-            android:key="switch_style"
-            android:title="@string/switch_style_title"
-            android:icon="@drawable/ic_switch"
-            android:dialogTitle="@string/switch_style_title"
-            android:entries="@array/switch_style_entries"
-            android:entryValues="@array/switch_style_values"
-            android:summary="%s"
-            android:defaultValue="0" />
-
-       <com.derp.support.preference.SystemSettingListPreference 
-            android:key="theming_settings_dashboard_icons" 
-            android:title="@string/theming_settings_dashboard_icons_title" 
-            android:icon="@drawable/ic_dashboard"
-            android:entries="@array/theming_settings_dashboard_icons_entries" 
-            android:entryValues="@array/theming_settings_dashboard_icons_values"
-            android:defaultValue="0" />
-
-        <ListPreference
-            android:key="android.theme.customization.accent_color"
-            android:title="@string/theme_customization_accent_color_title"
-            android:icon="@drawable/ic_accent"/>
-        <ListPreference
-            android:key="android.theme.customization.font"
-            android:title="@string/theme_customization_font_title"
-            android:icon="@drawable/ic_font"/>
-       <ListPreference
-            android:key="android.theme.customization.adaptive_icon_shape"
-            android:title="@string/theme_customization_icon_shape_title"
-            android:icon="@drawable/ic_icon_shape"/>
-       <ListPreference
-            android:key="android.theme.customization.icon_pack"
-            android:title="@string/theme_customization_icon_pack_title"
-            android:icon="@drawable/ic_icon_pack"/>
-
-        <ListPreference
-            android:key="android.theme.customization.wifi_icon"
-            android:title="@string/custom_wifi_bar_title"
-            android:icon="@drawable/ic_wifi"/>
-
-        <ListPreference
-            android:key="android.theme.customization.signal_icon"
-            android:title="@string/custom_signal_bar_title"
-            android:icon="@drawable/ic_cell"/>
-    </PreferenceCategory>
 
     <Preference
         android:key="vr_display_pref"
