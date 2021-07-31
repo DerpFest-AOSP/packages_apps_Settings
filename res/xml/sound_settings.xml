@@ -126,16 +126,47 @@
         android:title="@string/vibration_pattern_title"
         android:order="-125"
         android:entries="@array/vibration_pattern_entries"
-        android:entryValues="@array/vibration_pattern_values"/>
+        android:entryValues="@array/vibration_pattern_values"
+        android:dependency="vibrate_for_calls"/>
 
-    <!-- Custom ringtone vibration pattern preference -->
-    <Preference
+    <!-- Custom ringtone vibration pattern category -->
+    <PreferenceCategory
         android:key="custom_vibration_pattern"
         android:title="@string/custom_vibration_pattern_title"
-        android:summary="@string/custom_vibration_pattern_summary"
         android:order="-124"
-        android:fragment="com.android.settings.sound.CustomVibrationPreferenceFragment"
-        android:visibility="gone"/>
+        android:visibility="gone">
+
+        <!-- Custom ringtone vibration pattern 1 -->
+        <com.derp.support.preference.CustomSeekBarPreference
+            android:key="custom_vibration_pattern1"
+            android:order="-123"
+            android:max="1000"
+            android:min="0"
+            settings:interval="100"
+            settings:units="ms"
+            android:dependency="vibrate_for_calls"/>
+
+        <!-- Custom ringtone vibration pattern 2 -->
+        <com.derp.support.preference.CustomSeekBarPreference
+            android:key="custom_vibration_pattern2"
+            android:order="-122"
+            android:max="1000"
+            android:min="0"
+            settings:interval="100"
+            settings:units="ms"
+            android:dependency="vibrate_for_calls"/>
+
+        <!-- Custom ringtone vibration pattern 3 -->
+        <com.derp.support.preference.CustomSeekBarPreference
+            android:key="custom_vibration_pattern3"
+            android:order="-121"
+            android:max="1000"
+            android:min="0"
+            settings:interval="100"
+            settings:units="ms"
+            android:dependency="vibrate_for_calls"/>
+
+    </PreferenceCategory>
 
     <!-- Interruptions -->
     <com.android.settingslib.RestrictedPreference
