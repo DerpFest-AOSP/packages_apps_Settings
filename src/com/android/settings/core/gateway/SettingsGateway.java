@@ -164,7 +164,6 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.derpquest.settings.DerpQuestSettings;
 import com.derpquest.settings.external.OmniJawsSettings;
-import com.derpquest.settings.fragments.system_misc.GamingMode;
 
 import com.android.settings.livedisplay.LiveDisplaySettings;
 
@@ -320,7 +319,6 @@ public class SettingsGateway {
             MediaControlsSettings.class.getName(),
             DerpQuestSettings.class.getName(),
             OmniJawsSettings.class.getName(),
-            GamingMode.class.getName(),
             LiveDisplaySettings.class.getName(),
     };
 
@@ -363,6 +361,5 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.DerpQuestSettingsActivity.class.getName(),
             Settings.OmniJawsSettingsActivity.class.getName(),
-            Settings.GamingModeActivity.class.getName(),
     };
 }
