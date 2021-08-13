@@ -481,4 +481,9 @@
     <!-- Notification log -->
     <string name="notification_log_summary">Verlaufsprotokoll für Benachrichtigungen anzeigen</string>
 
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Länge der Gestenleiste</string>
+    <string name="short_label">Kurz</string>
+    <string name="long_label">Lang</string>
+
 </resources>
