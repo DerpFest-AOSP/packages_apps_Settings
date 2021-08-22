@@ -12,14 +12,15 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- DerpFest Version -->
+    <string name="derp_version">DerpFest-Build</string>
+
     <!-- DerpFest maintainer -->
     <string name="maintainer">Entwickler</string>
 
     <!-- DerpFest Updater -->
-    <string name="update_settings_title">DerpFest Updater</string>
+    <string name="update_settings_title">DerpFest-Updater</string>
     <string name="update_settings_summary">Prüfen Sie auf die neueste DerpFest-Version</string>
-    <string name="update_package" translatable="false">org.lineageos.updater</string>
-    <string name="update_activity" translatable="false">org.lineageos.updater.UpdatesActivity</string>
 
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Suche den Fingerabdrucksensor auf der <xliff:g id="sensor_location">%1$s</xliff:g> deines Tablets.</string>
@@ -89,7 +90,7 @@
     <string name="volume_link_notification_title">Lautstärke für Klingel- &amp; Benachrichtigungston verknüpfen</string>
 
     <!-- Custom light color -->
-    <string name="custom_light_title">LED Farbe</string>
+    <string name="custom_light_title">LED-Farbe</string>
     <string name="custom_light_on_time_title">Leuchtdauer während des LED-Impulses (ms)</string>
     <string name="custom_light_off_time_title">Intervall zwischen zwei LED-Impulsen (ms)"</string>
     <string name="value_equals_default">def</string>
@@ -283,7 +284,7 @@
     <string name="adaptive_playback_explainer">Die adaptive Wiedergabe hält das Medium automatisch an, wenn die Lautstärke stummgeschaltet ist, und wird automatisch fortgesetzt, wenn die Lautstärke innerhalb der eingestellten Zeit wiederhergestellt wird.</string>
 
     <!-- App Lock -->
-    <string name="applock_title">App locker</string>
+    <string name="applock_title">App-Locker</string>
     <string name="applock_locked">Gesperrt</string>
     <string name="applock_unlocked">Entsperrt</string>
     <string name="applock_locked_apps">Gesperrte Apps</string>
@@ -338,10 +339,10 @@
     <string name="bluetooth_timeout_summary_8hours">8 Stunden</string>
 
     <!--  screen, setting option name to change wifi timeout -->
-    <string name="wifi_timeout">Schalten Sie Wi-Fi automatisch aus</string>
+    <string name="wifi_timeout">Schalten Sie WLAN automatisch aus</string>
 
     <!--  screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">Wi-Fi wird ausgeschaltet nach <xliff:g id="timeout_description">%1$s</xliff:g> wenn keine Geräte angeschlossen sind</string>
+    <string name="wifi_timeout_summary">WLAN wird ausgeschaltet nach <xliff:g id="timeout_description">%1$s</xliff:g> wenn keine Geräte angeschlossen sind</string>
     <string name="wifi_timeout_summary2">Deaktiviert</string>
     <string name="wifi_timeout_summary_never">Nie</string>
     <string name="wifi_timeout_summary_15secs">15 Sekunden</string>
@@ -508,6 +509,31 @@
 
     <string name="wifi_tether_client_list_title">Liste der Clients</string>
     <string name="wifi_tether_client_list_summary">Mit dem Hotspot verbundene Clients verwalten</string>
+
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">Haptisches Feedback bei Anrufen</string>
+    <string name="incall_feeedback_summary">Vibrieren, um den Anrufstatus anzuzeigen</string>
+
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">Vibration &amp; haptisches Feedback</string>
+    <string name="summary_vibration_preferences">Konfiguriere Intensitäten, Muster und mehr</string>
+    <string name="keywords_vibration_preferences">Vibrationsmuster, -intensität und -stärke, Anruf, haptisches Feedback und Tippen</string>
+    <string name="ringtone_vibration_pattern">Vibrationsmuster für Klingelton</string>
+    <string name="vibration_intensity_ringer">Vibrationsintensität für Klingelton</string>
+    <string name="vibration_intensity_notification">Vibrationsintensität bei Benachrichtigungen</string>
+    <string name="vibration_intensity_disabled">Deaktiviert</string>
+    <string name="vibration_intensity_light">Gering</string>
+    <string name="vibration_intensity_medium">Mittel</string>
+    <string name="vibration_intensity_strong">Hoch</string>
+    <string name="vibration_intensity_custom">Benutzerdefiniert</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Benutzerdefiniert</string>
+    <string name="custom_vibration_pattern_title">Legen Sie ein benutzerdefiniertes Vibrationsmuster fest</string>
+    <string name="haptic_feedback_intensity">Intensität des haptischen Feedbacks</string>
 
     <!-- Edge Music Gestures -->
     <string name="edge_music_title">Edge-Musikgeste</string>
