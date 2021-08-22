@@ -85,6 +85,12 @@ public class OverlayCategoryPreferenceController extends AbstractPreferenceContr
             case "android.theme.customization.font":
                 label = mContext.getString(R.string.default_font);
                 break;
+            case "android.theme.customization.signal_icon":
+                label = mContext.getString(R.string.default_signal_icon);
+                break;
+            case "android.theme.customization.wifi_icon":
+                label = mContext.getString(R.string.default_wifi_icon);
+                break;
          }
          return label;
     }

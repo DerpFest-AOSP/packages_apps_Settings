@@ -241,6 +241,8 @@
     <string name="show_gestures_navbar_switch_summary">Show gestures navbar</string>
 
     <string name="default_font">Google Sans (default)</string>
+    <string name="default_signal_icon">AOSP (default)</string>
+    <string name="default_wifi_icon">AOSP (default)</string>
 
     <string name="ambient_music_location">Show ambient music ticker</string>
     <string name="ambient_music_disabled">Disabled</string>

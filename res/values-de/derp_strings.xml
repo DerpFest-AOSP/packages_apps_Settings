@@ -231,6 +231,8 @@
     <string name="show_gestures_navbar_switch_summary">Gesten-Navigationsleiste anzeigen</string>
 
     <string name="default_font">Google Sans (Standard)</string>
+    <string name="default_signal_icon">AOSP (Standard)</string>
+    <string name="default_wifi_icon">AOSP (Standard)</string>
 
     <string name="ambient_music_location">Ambient Music Ticker anzeigen</string>
     <string name="ambient_music_disabled">Aus</string>
