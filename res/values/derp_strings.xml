@@ -237,8 +237,8 @@
     <string name="back_swipe_extended_title">Extended swipe action</string>
     <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
 
-    <string name="show_gestures_navbar_switch_title">Show pill</string>
-    <string name="show_gestures_navbar_switch_summary">Show gestures navbar</string>
+    <string name="show_gestures_navbar_switch_title">Navbar pill</string>
+    <string name="show_gestures_navbar_switch_summary">Show gestural navigation hint bar</string>
 
     <string name="default_font">Google Sans (default)</string>
     <string name="default_signal_icon">AOSP (default)</string>
