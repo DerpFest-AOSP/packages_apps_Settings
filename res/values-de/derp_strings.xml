@@ -457,8 +457,8 @@
     <string name="data_usage_app_restrict_background_all_summary">Aktivieren Sie die Netzwerknutzung im Hintergrund</string>
 
     <!-- One shot automatic Brightness -->
-    <string name="auto_brightness_one_shot_title">Nur anwenden, wenn der Bildschirm eingeschaltet ist</string>
-    <string name="auto_brightness_one_shot_summary">Die Anpassung erfolgt einmalig</string>
+    <string name="auto_brightness_one_shot_title">One-Shot-Auto-Helligkeit</string>
+    <string name="auto_brightness_one_shot_summary">Die Helligkeitsanpassung erfolgt nur einmal, wenn der Bildschirm eingeschaltet ist</string>
 
     <plurals name="show_dev_countdown_cm">
         <item quantity="one">Sie sind <xliff:g id="step_count">%1$d</xliff:g> Schritt vom Aktivieren der Entwicklereinstellungen entfernt.</item>

@@ -477,8 +477,8 @@
     <string name="cutout_force_fullscreen_no_apps">No apps</string>
 
     <!-- One shot automatic Brightness -->
-    <string name="auto_brightness_one_shot_title">Only apply when screen is turned on</string>
-    <string name="auto_brightness_one_shot_summary">Adjustment will occur one time</string>
+    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
+    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur once when the screen is turned on</string>
 
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <plurals name="show_dev_countdown_cm">
