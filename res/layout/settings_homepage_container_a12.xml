@@ -33,9 +33,7 @@
             android:id="@+id/homepage_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="42dp"
-            android:orientation="vertical"
-            android:background="@color/homepage_container_bg">
+            android:orientation="vertical">
 
             <FrameLayout
                 android:id="@+id/contextual_cards_content"
@@ -48,13 +46,13 @@
                 android:id="@+id/main_content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:animateLayoutChanges="true"
-                android:background="?android:attr/windowBackground"/>
+                android:animateLayoutChanges="true"/>
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 
     <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar_layout_a12"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:touchscreenBlocksFocus="false"
