@@ -552,4 +552,8 @@
 
     <!-- Configure notifications: Title for advanced notification settings pane -->
     <string name="advanced_notifications_title">Erweiterte Benachrichtigungseinstellungen</string>
+
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">IME-Tastenfeld</string>
+    <string name="navigation_bar_ime_space_summary">IME-Tastenfeld unter der Tastatur anzeigen</string>
 </resources>

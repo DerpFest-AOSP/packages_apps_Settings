@@ -582,4 +582,8 @@
 
     <!-- Configure notifications: Title for advanced notification settings pane -->
     <string name="advanced_notifications_title">Advanced notification settings</string>
+
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">IME button space</string>
+    <string name="navigation_bar_ime_space_summary">Show IME button space below keyboard</string>
 </resources>
