@@ -776,4 +776,11 @@
     <string name="app_volume">App-Lautstärke</string>
     <string name="app_volume_title">Lautstärkeregelung per App</string>
     <string name="app_volume_summary">Ermöglicht die Einstellung unterschiedlicher Lautstärken für jede App.\nHINWEIS: Dadurch wird der Multi-Audio-Fokus aktiviert</string>
+
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Zeitplan für Inaktivitätsdisplay</string>
+    <string name="always_on_display_schedule_sunset">Sonnenuntergang</string>
+    <string name="always_on_display_schedule_sunrise">Sonnenaufgang</string>
+    <string name="always_on_display_schedule_mixed_sunset">Schaltet sich von Sonnenuntergang bis zu einer bestimmten Uhrzeit ein</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Schaltet sich ab einer bestimmten Uhrzeit bis zum Sonnenaufgang ein</string>
 </resources>
