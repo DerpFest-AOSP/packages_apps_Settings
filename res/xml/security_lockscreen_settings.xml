@@ -96,6 +96,12 @@
             settings:controller="com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController"
             settings:userRestriction="no_ambient_display" />
 
+        <Preference
+            android:key="always_on_display_schedule"
+            android:title="@string/always_on_display_schedule_title"
+            android:fragment="com.android.settings.display.AODSchedule"
+            settings:controller="com.android.settings.display.AODSchedulePreferenceController" />
+
         <org.derpfest.support.preferences.SystemSettingSwitchPreference
             android:key="doze_on_charge"
             android:defaultValue="false"
