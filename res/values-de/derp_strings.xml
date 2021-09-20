@@ -255,4 +255,11 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Inaktivitätsdisplay beim Laden</string>
     <string name="doze_on_charge_summary">Zeit und Informationen werden ausschließlich beim Laden angezeigt</string>
+
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Zeitplan für Inaktivitätsdisplay</string>
+    <string name="always_on_display_schedule_sunset">Sonnenuntergang</string>
+    <string name="always_on_display_schedule_sunrise">Sonnenaufgang</string>
+    <string name="always_on_display_schedule_mixed_sunset">Schaltet sich von Sonnenuntergang bis zu einer bestimmten Uhrzeit ein</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Schaltet sich ab einer bestimmten Uhrzeit bis zum Sonnenaufgang ein</string>
 </resources>
