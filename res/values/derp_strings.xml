@@ -842,4 +842,7 @@
     <!-- Battery temperature -->
     <string name="battery_temperature">Battery temperature</string>
 
+    <string name="hide">Hide</string>
+    <string name="unhide">Unhide</string>
+
 </resources>

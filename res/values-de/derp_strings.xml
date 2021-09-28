@@ -817,4 +817,7 @@
     <!-- Battery temperature -->
     <string name="battery_temp">Akkutemperatur</string>
 
+    <string name="hide">Ausblenden</string>
+    <string name="unhide">Einblenden</string>
+
 </resources>
