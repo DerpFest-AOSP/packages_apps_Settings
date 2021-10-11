@@ -429,8 +429,8 @@
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_title_2" msgid="2580899232734177771">"运作方式"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_2" msgid="5909924864816776516">"指纹解锁功能会为您创建一个具有唯一性的指纹模型，用于验证您的身份。为了在设置过程中创建指纹模型，您需要截取指纹不同部位的图像。"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_2" msgid="3493356605815124807">"指纹解锁功能会为您的孩子创建一个具有唯一性的指纹模型，用于验证其身份。为了在设置过程中创建指纹模型，孩子需要截取指纹不同部位的图像。"</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3" msgid="4729142136478078228">"在您使用 Pixel Imprint 时，系统会使用图像来更新您的指纹模型。系统绝不会存储您用来创建指纹模型的图像，只会将指纹模型安全地存储在您的手机上，并且绝不会外泄。整个处理过程都是在您的手机上安全进行。"</string>
-    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3" msgid="5908959250804145997">"在您的孩子使用 Pixel Imprint 时，系统会使用图像来更新其指纹模型。系统绝不会存储孩子用来创建指纹模型的图像，只会将指纹模型安全地存储在手机上，并且绝不会外泄。整个处理过程都是在手机上安全进行。"</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_3" msgid="4729142136478078228">"在您使用 Fingerprint Unlock 时，系统会使用图像来更新您的指纹模型。系统绝不会存储您用来创建指纹模型的图像，只会将指纹模型安全地存储在您的手机上，并且绝不会外泄。整个处理过程都是在您的手机上安全进行。"</string>
+    <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_3" msgid="5908959250804145997">"在您的孩子使用 Fingerprint Unlock 时，系统会使用图像来更新其指纹模型。系统绝不会存储孩子用来创建指纹模型的图像，只会将指纹模型安全地存储在手机上，并且绝不会外泄。整个处理过程都是在手机上安全进行。"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_4" msgid="3948305045484131665">"您可以随时在“设置”部分删除您的指纹图片和模型或关闭指纹解锁功能。指纹图片和模型会存储在手机上，直到您将其删除为止。"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_consent_4" msgid="4983770600405797515">"您和您的孩子可以随时在“设置”部分删除其指纹图片和模型或关闭指纹解锁功能。指纹图片和模型会存储在手机上，直到被删除为止。"</string>
     <string name="security_settings_fingerprint_v2_enroll_introduction_footer_message_5" msgid="2018885671994058605">"您的手机有可能会意外解锁，例如有人让手机触碰到您的手指时。"</string>
