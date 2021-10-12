@@ -24,7 +24,7 @@
         android:fragment="com.android.settings.network.NetworkDashboardFragment"
         android:icon="@drawable/ic_settings_wireless"
         android:key="top_level_network"
-        android:order="-150"
+        android:order="-160"
         android:title="@string/network_dashboard_title"
         android:summary="@string/summary_placeholder"
         settings:highlightableMenuKey="@string/menu_key_network"
@@ -44,7 +44,7 @@
         android:fragment="com.android.settings.connecteddevice.ConnectedDeviceDashboardFragment"
         android:icon="@drawable/ic_devices_other"
         android:key="top_level_connected_devices"
-        android:order="-140"
+        android:order="-150"
         android:title="@string/connected_devices_dashboard_title"
         android:summary="@string/connected_devices_dashboard_default_summary"
         settings:highlightableMenuKey="@string/menu_key_connected_devices"
@@ -54,10 +54,20 @@
         android:fragment="com.android.settings.applications.AppDashboardFragment"
         android:icon="@drawable/ic_apps"
         android:key="top_level_apps"
-        android:order="-130"
+        android:order="-140"
         android:title="@string/apps_dashboard_title"
         android:summary="@string/app_and_notification_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_apps"/>
+
+    <com.android.settings.widget.HomepagePreference
+        android:key="top_level_derpspace"
+        android:title="@string/derpspace_title"
+        android:summary="@string/build_tweaks_summary_title"
+        android:icon="@drawable/ic_settings_derpspace"
+        android:order="-130"
+        android:fragment="org.derpfest.derpspace.DerpSpace"
+        settings:controller="org.derpfest.derpspace.TopLevelDerpSpaceEntryPreferenceController"
+        settings:highlightableMenuKey="@string/menu_key_derp" />
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.notification.ConfigureNotificationSettings"

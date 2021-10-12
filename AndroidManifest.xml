@@ -5048,5 +5048,25 @@
             tools:node="remove" />
 
         <!-- This is the longest AndroidManifest.xml ever. -->
+
+        <!-- DerpSpace -->
+        <activity android:name=".Settings$DerpSpaceSettingsActivity"
+                  android:label="@string/derpspace_title"
+                  android:icon="@drawable/ic_homepage_derpspace"
+                  android:exported="true"
+                  android:parentActivityName="com.android.settings">
+            <intent-filter>
+                <action android:name="com.android.settings.action.SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="org.derpfest.derpspace.DerpSpace"/>
+            <meta-data android:name="com.android.settings.summary"
+                       android:resource="@string/build_tweaks_summary_title"/>
+            <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
+                android:value="@string/menu_key_derp"/>
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                       android:value="true" />
+        </activity>
     </application>
 </manifest>
