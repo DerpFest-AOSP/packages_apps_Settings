@@ -327,4 +327,7 @@ public class Settings extends SettingsActivity {
 
     // LiveDisplay
     public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
+
+    // DerpSpace
+    public static class DerpSpaceSettingsActivity extends SettingsActivity {}
 }
