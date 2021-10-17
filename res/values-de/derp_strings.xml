@@ -56,4 +56,7 @@
     <!-- Max refresh rate -->
     <string name="max_refresh_rate_title">Maximale Aktualisierungsrate</string>
 
+    <!-- Refresh rate category name in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_refresh_rate">Aktualisierungsrate</string>
+
 </resources>
