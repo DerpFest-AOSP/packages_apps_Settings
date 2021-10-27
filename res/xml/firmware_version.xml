@@ -95,7 +95,7 @@
         android:key="selinux_status"
         android:title="@string/selinux_status"
         android:summary="@string/summary_placeholder"
-        settings:enableCopying="false"
+        settings:enableCopying="true"
         android:selectable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SelinuxStatusPreferenceController"/>
 
