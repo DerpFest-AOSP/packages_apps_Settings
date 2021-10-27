@@ -5217,6 +5217,18 @@
             android:name="androidx.startup.InitializationProvider"
             android:authorities="${applicationId}.androidx-startup"
             tools:node="remove" />
+ 
+        <!-- Changelog Activity -->
+        <activity android:name=".derp.ChangelogActivity"
+            android:label="@string/changelog_title"
+            android:parentActivityName="com.android.settings"
+            android:theme="@style/Theme.SubSettingsBase"
+            android:exported="true">
+            <intent-filter android:priority="70">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.DEFAULT" />
+            </intent-filter>
+        </activity>
 
         <activity
             android:name="com.android.settings.network.WepNetworkDialogActivity"
