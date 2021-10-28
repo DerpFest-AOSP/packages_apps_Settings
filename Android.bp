@@ -60,8 +60,7 @@ android_library {
         "DerpSpace/src/**/*.java",
     ],
 
-    aaptflags: ["--extra-packages org.derpfest.derpspace",
-                "--extra-packages github.com.st235.lib_expandablebottombar",],
+    aaptflags: ["--extra-packages org.derpfest.derpspace",],
 
     resource_dirs: [
         "res",
@@ -117,7 +116,6 @@ android_library {
         "VendorSupport-preference",
         "vendor.lineage.fastcharge-V1.0-java",
         "vendor.lineage.trust-V1.0-java",
-        "expandable-bottombar",
         "androidx.navigation_navigation-common-ktx",
         "androidx.navigation_navigation-fragment-ktx",
         "androidx.navigation_navigation-runtime-ktx",
@@ -184,10 +182,4 @@ filegroup {
 filegroup {
     name: "Settings_manifest",
     srcs: ["AndroidManifest.xml"],
-}
-
-android_library_import {
-    name: "expandable-bottombar",
-    aars: ["libs/lib-expandablebottombar-release.aar"],
-    sdk_version: "current",
 }
