@@ -59,8 +59,7 @@ android_library {
         "DerpSpace/src/**/*.java",
     ],
 
-    aaptflags: ["--extra-packages org.derpfest.derpspace",
-                "--extra-packages github.com.st235.lib_expandablebottombar",],
+    aaptflags: ["--extra-packages org.derpfest.derpspace",],
 
     resource_dirs: [
         "res",
@@ -112,7 +111,6 @@ android_library {
         "kotlinx_coroutines",
         "SystemUISharedLib",
         "faceunlock_framework",
-        "expandable-bottombar",
         "androidx.navigation_navigation-common-ktx",
         "androidx.navigation_navigation-fragment-ktx",
         "androidx.navigation_navigation-runtime-ktx",
@@ -171,10 +169,4 @@ filegroup {
 filegroup {
     name: "Settings_manifest",
     srcs: ["AndroidManifest.xml"],
-}
-
-android_library_import {
-    name: "expandable-bottombar",
-    aars: ["libs/lib-expandablebottombar-release.aar"],
-    sdk_version: "current",
 }
