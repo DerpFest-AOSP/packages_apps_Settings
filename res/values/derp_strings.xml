@@ -8,4 +8,7 @@
     <!-- DerpFest version -->
     <string name="derp_version">DerpFest version</string>
     <string name="derp_version_default">Unknown</string>
+
+    <!-- Platform version -->
+    <string name="platform_version">Platform version</string>
 </resources>
