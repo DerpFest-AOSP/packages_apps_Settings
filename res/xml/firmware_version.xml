@@ -24,7 +24,7 @@
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
-        android:title="@string/firmware_version"
+        android:title="@string/platform_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:searchable="false"
