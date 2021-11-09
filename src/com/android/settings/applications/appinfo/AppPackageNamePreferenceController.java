@@ -18,6 +18,8 @@ package com.android.settings.applications.appinfo;
 
 import android.content.Context;
 
+import com.android.settings.R;
+
 public class AppPackageNamePreferenceController extends AppInfoPreferenceControllerBase {
 
     public AppPackageNamePreferenceController(Context context, String key) {
@@ -26,6 +28,6 @@ public class AppPackageNamePreferenceController extends AppInfoPreferenceControl
 
     @Override
     public CharSequence getSummary() {
-        return mParent.getPackageInfo().packageName;
+        return mContext.getString(R.string.package_text, mParent.getPackageInfo().packageName);
     }
 }
