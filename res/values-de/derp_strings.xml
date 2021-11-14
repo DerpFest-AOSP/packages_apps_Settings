@@ -298,4 +298,8 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Schnelles Laden</string>
     <string name="fast_charging_summary">Deaktivieren, um die vom Gerät beim Laden erzeugte Wärme zu reduzieren oder die Lebensdauer des Akkus zu verlängern</string>
+
+    <!-- Screen off FOD -->
+    <string name="screen_off_fod_title">Fingerabdrucksensor lange drücken, um das Gerät zu entsperren</string>
+    <string name="screen_off_fod_summary">Um Ihren Bildschirm aufzuwecken und zu entsperren, lange auf Ihren Fingerabdrucksensor unter dem Bildschirm drücken.</string>
 </resources>
