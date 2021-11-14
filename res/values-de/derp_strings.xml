@@ -441,4 +441,8 @@
     <string name="back_options_dialog_title">Einstellungen</string>
     <string name="back_height_message">Höhe des Bildschirms, der als berührbare Region für die Zurück-Geste verwendet wird.</string>
 
+    <!-- Screen off FOD -->
+    <string name="screen_off_fod_title">Fingerabdrucksensor lange drücken, um das Gerät zu entsperren</string>
+    <string name="screen_off_fod_summary">Um Ihren Bildschirm aufzuwecken und zu entsperren, lange auf Ihren Fingerabdrucksensor unter dem Bildschirm drücken.</string>
+
 </resources>
