@@ -79,6 +79,12 @@
         android:summary="@string/back_gesture_haptic_summary"
         android:defaultValue="true" />
 
+    <com.derp.support.preferences.SystemSettingSwitchPreference
+        android:key="fullscreen_gestures"
+        android:title="@string/fullscreen_gestures_title"
+        android:summary="@string/fullscreen_gestures_summary"
+        android:defaultValue="false" />
+
     <com.android.settings.widget.LabeledSeekBarPreference
         android:key="gesture_navbar_length_preference"
         android:title="@string/gesture_navbar_length_title"
@@ -87,11 +93,13 @@
         settings:textStart="@string/short_label"
         settings:textEnd="@string/long_label"/>
 
-    <com.derp.support.preferences.SystemSettingSwitchPreference
-        android:key="fullscreen_gestures"
-        android:title="@string/fullscreen_gestures_title"
-        android:summary="@string/fullscreen_gestures_summary"
-        android:defaultValue="false" />
+    <com.android.settings.widget.LabeledSeekBarPreference
+        android:key="gesture_navbar_radius_preference"
+        android:title="@string/gesture_navbar_radius_title"
+        android:max="3"
+        android:selectable="true"
+        settings:textStart="@string/short_label"
+        settings:textEnd="@string/long_label"/>
 
     <Preference
         android:key="gesture_nav_custom_options"

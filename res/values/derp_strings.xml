@@ -245,6 +245,8 @@
 
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Pill length</string>
+    <string name="gesture_navbar_radius_title">Pill radius</string>
+    <string name="medium_label">Medium</string>
     <string name="short_label">Short</string>
     <string name="long_label">Long</string>
 

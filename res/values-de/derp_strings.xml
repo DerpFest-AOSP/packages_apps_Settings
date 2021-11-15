@@ -224,6 +224,8 @@
     <string name="fullscreen_gestures_summary">Gestengriff und Tastaturbereich ausblenden</string>
 
     <string name="gesture_navbar_length_title">Länge der Navbar-Pille</string>
+    <string name="gesture_navbar_radius_title">Radius der Navbar-Pille</string>
+    <string name="medium_label">Mittel</string>
     <string name="short_label">Kurz</string>
     <string name="long_label">Lang</string>
 
