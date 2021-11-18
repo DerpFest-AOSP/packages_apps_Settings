@@ -69,6 +69,12 @@
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">Netzwerkzugriff erlauben</string>
     <string name="data_usage_app_restrict_all_summary">Netzwerknutzung aktivieren</string>
+    <string name="data_usage_app_restrict_mobile">Mobile Daten</string>
+    <string name="data_usage_app_restrict_mobile_summary">Nutzung mobiler Daten erlauben</string>
+    <string name="data_usage_app_restrict_vpn">VPN-Daten</string>
+    <string name="data_usage_app_restrict_vpn_summary">VPN-Datennutzung erlauben</string>
+    <string name="data_usage_app_restrict_wifi">WLAN-Daten</string>
+    <string name="data_usage_app_restrict_wifi_summary">WLAN-Datenzugriff erlauben</string>
 
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Zufällige Anordnung</string>
