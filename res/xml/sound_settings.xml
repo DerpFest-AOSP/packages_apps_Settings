@@ -159,7 +159,7 @@
         android:summary="@string/volume_dialog_timeout_summary"
         android:order="-95"
         android:max="7"
-        settings:min="1"
+        android:min="1"
         settings:defaultValue="3"
         settings:units="@string/unit_seconds" />
 
