@@ -15,4 +15,7 @@
     <!-- DerpFest maintainer -->
     <string name="maintainer">Entwickler</string>
 
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Inaktivitätsdisplay beim Laden</string>
+    <string name="doze_on_charge_summary">Zeit und Informationen werden ausschließlich beim Laden angezeigt</string>
 </resources>
