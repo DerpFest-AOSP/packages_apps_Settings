@@ -266,4 +266,8 @@
     <string name="volume_rocker_wake_title">Lautstärketaste zum Aufwecken</string>
     <string name="volume_rocker_wake_summary">Drücken der Lautstärketaste beendet den Ruhezustand</string>
 
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Zeit und Informationen beim Laden</string>
+    <string name="doze_on_charge_summary">Zeit und Informationen werden ausschließlich beim Laden angezeigt</string>
+
 </resources>
