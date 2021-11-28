@@ -101,4 +101,9 @@
     <string name="global_actions_advanced_reboot_title">Erweiterten Neustart aktivieren</string>
     <string name="global_actions_advanced_reboot_summary">Optionen für Recovery und Bootloader im Ein-/Aus-Menü anzeigen</string>
 
+    <!-- Text shown for the title of the lockdown option -->
+    <string name="lockdown_settings_title">Option zum Sperren anzeigen</string>
+    <!-- Text shown for the description of the lockdown option -->
+    <string name="lockdown_settings_summary">Option für Ein/Aus-Taste des Displays, durch die Smart Lock, das biometrische Entsperren und Benachrichtigungen auf dem Sperrbildschirm deaktiviert werden</string>
+
 </resources>
