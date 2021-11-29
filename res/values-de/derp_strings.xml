@@ -162,11 +162,11 @@
     <string name="quick_settings_quick_pull_down_title">Schnelleinstellungen schnell herunterziehen</string>
     <string name="quick_settings_quick_pull_down_summary">Die Statusleiste von der rechten Seite nach unten ziehen, um die Schnelleinstellungen anzuzeigen</string>
 
-    <!-- Double Tap to Sleep Statusbar -->
-    <string name="double_tap_sleep_gesture_title">Doppeltippen für Standby</string>
-    <string name="double_tap_sleep_gesture_summary">Statusleiste zweimal antippen, um das Gerät in den Standby-Modus zu versetzen</string>
-
-    <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_derp">Doppeltippen Sie auf den Bildschirm, um das Gerät zu wecken oder es zu sperren</string>
+    <!-- Double Tap to wake/sleep -->
+    <string name="double_tap_gesture_category">Doppeltippen zum Wecken oder Sperren</string>
+    <string name="double_tap_gesture_title">Doppeltippgeste aktivieren</string>
+    <string name="double_tap_gesture_summary">Doppeltippen Sie auf den Bildschirm, um das Gerät aufzuwecken oder in den Ruhezustand zu versetzen</string>
+    <string name="disable_in_landscape_title">Im Querformat deaktivieren</string>
+    <string name="disable_in_landscape_summary">Verhinderung von Tippfehlern im Querformat</string>
 
 </resources>

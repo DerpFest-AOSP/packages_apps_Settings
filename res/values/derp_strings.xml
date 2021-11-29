@@ -166,11 +166,11 @@
     <string name="quick_settings_quick_pull_down_title">Quick QS pulldown</string>
     <string name="quick_settings_quick_pull_down_summary">Pull down statusbar from right side to expand quick settings</string>
 
-    <!-- Double Tap to Sleep Statusbar -->
-    <string name="double_tap_sleep_gesture_title">Tap to sleep</string>
-    <string name="double_tap_sleep_gesture_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
-
-    <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_derp">Double-tap anywhere on the screen to wake or sleep device</string>
+    <!-- Double Tap to wake/sleep -->
+    <string name="double_tap_gesture_category">Tap to wake / sleep</string>
+    <string name="double_tap_gesture_title">Enable tap gesture</string>
+    <string name="double_tap_gesture_summary">Double-tap on the screen to wake or sleep device</string>
+    <string name="disable_in_landscape_title">Disable in landscape</string>
+    <string name="disable_in_landscape_summary">Prevent mistouch while in landscape mode</string>
 
 </resources>
