@@ -174,11 +174,6 @@
             android:key="lift_to_wake"
             android:title="@string/lift_to_wake_title"/>
 
-        <SwitchPreference
-            android:key="tap_to_wake"
-            android:title="@string/tap_to_wake"
-            android:summary="@string/tap_to_wake_summary_derp"/>
-
         <org.derpfest.support.preferences.SystemSettingSwitchPreference
             android:key="proximity_on_wake"
             android:title="@string/proximity_wake_title"
@@ -201,5 +196,21 @@
             android:key="vr_display_pref"
             android:title="@string/display_vr_pref_title"
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/double_tap_gesture_category">
+
+        <org.derpfest.support.preferences.SwitchPreference
+            android:key="tap_to_wake"
+            android:summary="@string/double_tap_gesture_summary"
+            android:title="@string/double_tap_gesture_title" />
+
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="double_tap_no_landscape"
+            android:summary="@string/disable_in_landscape_summary"
+            android:title="@string/disable_in_landscape_title"
+            android:dependency="tap_to_wake" />
+
     </PreferenceCategory>
 </PreferenceScreen>

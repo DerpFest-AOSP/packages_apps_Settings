@@ -73,12 +73,6 @@
         android:key="gesture_screen_category"
         android:title="@string/gesture_screen_category_title">
 
-        <org.derpfest.support.preferences.SystemSettingSwitchPreference
-            android:key="double_tap_sleep_gesture"
-            android:title="@string/double_tap_sleep_gesture_title"
-            android:summary="@string/double_tap_sleep_gesture_summary"
-            android:defaultValue="false" />
-
         <Preference
             android:key="gesture_double_twist_input_summary"
             android:title="@string/double_twist_for_camera_mode_title"
