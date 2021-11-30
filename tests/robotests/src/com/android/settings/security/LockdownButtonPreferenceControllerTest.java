@@ -72,17 +72,17 @@ public class LockdownButtonPreferenceControllerTest {
     @Test
     public void onPreferenceChange_settingIsUpdated() {
         boolean state = Settings.Secure.getInt(mContext.getContentResolver(),
-                Settings.Secure.LOCKDOWN_IN_POWER_MENU, 0) != 0;
+                Settings.Secure.LOCKDOWN_IN_POWER_MENU, 1) != 0;
         assertThat(mController.onPreferenceChange(mPreference, !state)).isTrue();
         boolean newState = Settings.Secure.getInt(mContext.getContentResolver(),
-                Settings.Secure.LOCKDOWN_IN_POWER_MENU, 0) != 0;
+                Settings.Secure.LOCKDOWN_IN_POWER_MENU, 1) != 0;
         assertThat(newState).isEqualTo(!state);
     }
 
     @Test
     public void onSettingChange_preferenceIsUpdated() {
         boolean state = Settings.Secure.getInt(mContext.getContentResolver(),
-                Settings.Secure.LOCKDOWN_IN_POWER_MENU, 0) != 0;
+                Settings.Secure.LOCKDOWN_IN_POWER_MENU, 1) != 0;
         mController.updateState(mPreference);
         assertThat(mPreference.isChecked()).isEqualTo(state);
         Settings.Secure.putInt(mContext.getContentResolver(),

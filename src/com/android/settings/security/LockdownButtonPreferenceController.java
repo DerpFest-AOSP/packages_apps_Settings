@@ -45,7 +45,7 @@ public class LockdownButtonPreferenceController extends TogglePreferenceControll
     @Override
     public boolean isChecked() {
         return Settings.Secure.getInt(mContext.getContentResolver(),
-                Settings.Secure.LOCKDOWN_IN_POWER_MENU, 0) != 0;
+                Settings.Secure.LOCKDOWN_IN_POWER_MENU, 1) != 0;
     }
 
     @Override
