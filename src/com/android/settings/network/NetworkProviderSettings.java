@@ -268,11 +268,11 @@ public class NetworkProviderSettings extends RestrictedSettingsFragment
         if (activity == null) {
             return;
         }
+        mWifiManager = activity.getSystemService(WifiManager.class);
 
         setPinnedHeaderView(R.layout.progress_header);
         setProgressBarVisible(false);
 
-        mWifiManager = activity.getSystemService(WifiManager.class);
         if (mWifiManager != null) {
             setLoading(true, false);
             mIsViewLoading = true;
