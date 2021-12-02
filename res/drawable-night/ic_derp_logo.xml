@@ -15,13 +15,13 @@
                 android:endY="100.029"
                 android:tileMode="clamp">
                 <item
-                    android:color="@android:color/system_accent1_700"
+                    android:color="@android:color/system_accent1_500"
                     android:offset="0" />
                 <item
-                    android:color="@android:color/system_accent1_500"
+                    android:color="@android:color/system_accent1_300"
                     android:offset="0.5" />
                 <item
-                    android:color="@android:color/system_accent3_400"
+                    android:color="@android:color/system_accent3_200"
                     android:offset="1" />
             </gradient>
         </aapt:attr>
