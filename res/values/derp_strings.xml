@@ -200,4 +200,9 @@
     <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
     <string name="adaptive_playback_timeout_10_min">10 minutes</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+
+    <!-- Ambient Display Swipe Gesture -->
+    <string name="ambient_gesture_title">Gestures</string>
+    <string name="ambient_swipe_title">Swipe to wake</string>
+    <string name="ambient_swipe_summary">Allow waking the device by swiping up or down when the device is dozing</string>
 </resources>
