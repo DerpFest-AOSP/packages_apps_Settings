@@ -683,4 +683,9 @@
     <string name="display_cutout_force_fullscreen_summary">Apps dazu zwingen, die Display-Aussparung zu ignorieren</string>
     <string name="display_cutout_force_fullscreen_search">Suche</string>
     <string name="display_cutout_force_fullscreen_search_apps">Apps suchen</string>
+
+    <!-- Ambient Display Swipe Gesture -->
+    <string name="ambient_gesture_title">Gesten</string>
+    <string name="ambient_swipe_title">Wischen zum Wecken</string>
+    <string name="ambient_swipe_summary">Ermöglicht das Aufwecken des Geräts durch Wischen nach oben oder unten, wenn das Gerät schläft</string>
 </resources>

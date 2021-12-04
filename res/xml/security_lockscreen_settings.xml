@@ -143,12 +143,24 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="@string/ambient_gesture_title"
+        android:order="1001">
+
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="doze_ambient_swipe"
+            android:title="@string/ambient_swipe_title"
+            android:summary="@string/ambient_swipe_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
     <!-- Work profile settings are at the bottom with high order value to avoid users thinking that
          any of the above settings (including dynamic) are specific to the work profile. -->
     <PreferenceCategory
         android:key="security_setting_lock_screen_notif_work_header"
         android:title="@string/profile_section_header"
-        android:order="1001"
+        android:order="1002"
         settings:searchable="false">
 
         <com.android.settings.RestrictedListPreference
