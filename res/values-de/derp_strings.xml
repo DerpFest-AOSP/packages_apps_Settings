@@ -862,4 +862,26 @@
     <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">Haptisches Feedback bei Zurück-Geste</string>
     <string name="back_gesture_haptic_summary">Bei Zurück-Geste vibrieren</string>
+
+    <!-- Units -->
+    <string name="default_string">Standard</string>
+
+    <!-- Pulse notifications lightning -->
+    <string name="ambient_light_category">Kantenbeleuchtung</string>
+    <string name="pulse_ambient_light_title">Umgebungskantenbeleuchtung</string>
+    <string name="pulse_ambient_light_summary">Helle Umgebungskanten für pulsierende Benachrichtigungen</string>
+    <string name="ambient_notification_light_enabled_title">Auf AOD anzeigen</string>
+    <string name="ambient_notification_light_enabled_summary">Zeigen Sie weiterhin Randblitze auf AOD</string>
+    <string name="ambient_notification_light_hide_aod_title">AOD-Inhalte ausblenden</string>
+    <string name="ambient_notification_light_hide_aod_summary">Blenden Sie AOD-Inhalte aus, wenn Kanten beleuchtet sind</string>
+    <string name="ambient_notification_light_duration_title">Dauer</string>
+    <string name="ambient_notification_light_duration_summary">Dauer, bis jede Animation abgeschlossen ist</string>
+    <string name="ambient_notification_light_repeats_title">Wiederholungen</string>
+    <string name="ambient_notification_light_repeats_summary">Wie oft die Animation\n0 für unendlich anzeigen soll</string>
+    <string name="ambient_notification_color_mode_title">Farbmodus</string>
+    <string name="ambient_notification_color_mode_accent">Akzentfarbe</string>
+    <string name="ambient_notification_color_mode_wall">Vorherrschende Farbe des Hintergrundbilds</string>
+    <string name="ambient_notification_color_mode_notification">Farbe des Benachrichtigungssymbols</string>
+    <string name="ambient_notification_color_mode_custom">@string/ambient_notification_light_color_title</string>
+    <string name="ambient_notification_light_color_title">Benutzerdefinierte Farben</string>
 </resources>
