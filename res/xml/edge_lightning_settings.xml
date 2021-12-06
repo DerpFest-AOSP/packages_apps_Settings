@@ -19,7 +19,8 @@
         android:key="ambient_notification_light_enabled"
         android:title="@string/ambient_notification_light_enabled_title"
         android:summary="@string/ambient_notification_light_enabled_summary"
-        android:defaultValue="false" />
+        android:defaultValue="false"
+        android:persistent="false" />
 
     <org.derpfest.support.preferences.SystemSettingSwitchPreference
         android:key="ambient_notification_light_hide_aod"
