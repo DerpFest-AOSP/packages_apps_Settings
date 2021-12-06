@@ -61,7 +61,6 @@ public class EdgeLightningSettings extends SettingsPreferenceFragment implements
         boolean aodEnabled = Settings.Secure.getIntForUser(resolver,
                     Settings.Secure.DOZE_ALWAYS_ON, 0, UserHandle.USER_CURRENT) == 1;
         if (!aodEnabled) {
-            mAmbientPref.setChecked(false);
             mAmbientPref.setEnabled(false);
             mAmbientPref.setSummary(R.string.aod_disabled);
         }
