@@ -350,4 +350,19 @@
         <!-- Do not translate. -->
         <item>259200000</item>
     </string-array>
+
+    <!-- Edge lightning color mode -->
+    <string-array name="ambient_notification_color_mode_entries" translatable="false">
+        <item>@string/ambient_notification_color_mode_accent</item>
+        <item>@string/ambient_notification_color_mode_wall</item>
+        <item>@string/ambient_notification_color_mode_notification</item>
+        <item>@string/ambient_notification_color_mode_custom</item>
+    </string-array>
+
+    <string-array name="ambient_notification_color_mode_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
 </resources>
