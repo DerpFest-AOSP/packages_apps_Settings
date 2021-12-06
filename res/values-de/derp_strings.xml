@@ -802,4 +802,8 @@
     <string name="flashlight_on_call_no_ringer">Wenn der Klingelton stumm ist</string>
     <string name="flashlight_on_call_silent">Bei völliger Stille (kein Klingelton oder Vibration)</string>
     <string name="flashlight_on_call_always">Immer</string>
+    <string name="flashlight_on_call_ignore_dnd_title">DND ignorieren</string>
+    <string name="flashlight_on_call_ignore_dnd_summary">Ob im Nicht-Stören-Modus geblinkt werden soll</string>
+    <string name="flashlight_on_call_rate_title">Blinkfrequenz</string>
+    <string name="flashlight_on_call_rate_summary">Blinkrate der Taschenlampe bei Anruf</string>
 </resources>
