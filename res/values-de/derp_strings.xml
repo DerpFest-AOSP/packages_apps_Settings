@@ -870,6 +870,7 @@
     <string name="ambient_light_category">Kantenbeleuchtung</string>
     <string name="pulse_ambient_light_title">Umgebungskantenbeleuchtung</string>
     <string name="pulse_ambient_light_summary">Helle Umgebungskanten für pulsierende Benachrichtigungen</string>
+    <string name="pulse_ambient_light_enable">Kantenblitz anzeigen</string>
     <string name="ambient_notification_light_enabled_title">Auf AOD anzeigen</string>
     <string name="aod_disabled">AOD ist deaktiviert</string>
     <string name="ambient_notification_light_enabled_summary">Zeigen Sie weiterhin Randblitze auf AOD</string>
