@@ -15,12 +15,16 @@
     android:title="@string/pulse_ambient_light_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <com.android.settings.preference.SystemSettingMainSwitchPreference
+        android:defaultValue="false"
+        android:key="pulse_ambient_light"
+        android:title="@string/pulse_ambient_light_enable" />
+
     <org.derpfest.support.preferences.SystemSettingSwitchPreference
         android:key="ambient_notification_light_enabled"
         android:title="@string/ambient_notification_light_enabled_title"
         android:summary="@string/ambient_notification_light_enabled_summary"
-        android:defaultValue="false"
-        android:persistent="false" />
+        android:defaultValue="false" />
 
     <org.derpfest.support.preferences.SystemSettingSwitchPreference
         android:key="ambient_notification_light_hide_aod"
