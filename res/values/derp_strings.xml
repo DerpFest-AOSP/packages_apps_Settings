@@ -916,6 +916,7 @@
     <string name="pulse_ambient_light_title">Ambient edge lightning</string>
     <string name="pulse_ambient_light_summary">Light ambient edges for pulsing notifications</string>
     <string name="ambient_notification_light_enabled_title">Show on AOD</string>
+    <string name="aod_disabled">AOD is disabled</string>
     <string name="ambient_notification_light_enabled_summary">Keep showing edge lightning on AOD</string>
     <string name="ambient_notification_light_hide_aod_title">Hide AOD content</string>
     <string name="ambient_notification_light_hide_aod_summary">Hide AOD content when edges are lighted</string>

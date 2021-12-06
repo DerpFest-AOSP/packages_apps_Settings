@@ -38,11 +38,13 @@ import org.derpfest.support.preferences.SystemSettingSwitchPreference;
 public class EdgeLightningSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
+    private static String KEY_AMBIENT = "ambient_notification_light_enabled";
     private static String KEY_DURATION = "ambient_notification_light_duration";
     private static String KEY_REPEATS = "ambient_notification_light_repeats";
     private static String KEY_COLOR_MODE = "ambient_notification_color_mode";
     private static String KEY_COLOR = "ambient_notification_light_color";
 
+    private SystemSettingSwitchPreference mAmbientPref;
     private CustomSeekBarPreference mDurationPref;
     private CustomSeekBarPreference mRepeatsPref;
     private SystemSettingListPreference mColorModePref;
@@ -54,6 +56,15 @@ public class EdgeLightningSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.edge_lightning_settings);
         final ContentResolver resolver = getContentResolver();
         final int accentColor = getAccentColor();
+
+        mAmbientPref = (SystemSettingSwitchPreference) findPreference(KEY_AMBIENT);
+        boolean aodEnabled = Settings.Secure.getIntForUser(resolver,
+                    Settings.Secure.DOZE_ALWAYS_ON, 0, UserHandle.USER_CURRENT) == 1;
+        if (!aodEnabled) {
+            mAmbientPref.setChecked(false);
+            mAmbientPref.setEnabled(false);
+            mAmbientPref.setSummary(R.string.aod_disabled);
+        }
 
         mDurationPref = (CustomSeekBarPreference) findPreference(KEY_DURATION);
         int value = Settings.System.getIntForUser(resolver,
