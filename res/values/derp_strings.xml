@@ -173,4 +173,9 @@
     <string name="disable_in_landscape_title">Disable in landscape</string>
     <string name="disable_in_landscape_summary">Prevent mistouch while in landscape mode</string>
 
+    <!-- Fullscreen gestures -->
+    <string name="navbar_category">Navigation bar</string>
+    <string name="fullscreen_gestures_title">Fullscreen gestures</string>
+    <string name="fullscreen_gestures_summary">Hide navbar pill and keyboard space</string>
+
 </resources>
