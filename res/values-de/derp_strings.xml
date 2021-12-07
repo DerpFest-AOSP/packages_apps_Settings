@@ -169,4 +169,9 @@
     <string name="disable_in_landscape_title">Im Querformat deaktivieren</string>
     <string name="disable_in_landscape_summary">Verhinderung von Tippfehlern im Querformat</string>
 
+    <!-- Fullscreen gestures -->
+    <string name="navbar_category">Navigationsleiste</string>
+    <string name="fullscreen_gestures_title">Gesten im Vollbildmodus</string>
+    <string name="fullscreen_gestures_summary">Blendet die Navigationsleistenpille und den Tastaturbereich aus</string>
+
 </resources>
