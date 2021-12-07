@@ -647,4 +647,8 @@
     <string name="ambient_gesture_title">Gesten</string>
     <string name="ambient_swipe_title">Wischen zum Wecken</string>
     <string name="ambient_swipe_summary">Ermöglicht das Aufwecken des Geräts durch Wischen nach oben oder unten, wenn das Gerät schläft</string>
+
+    <!-- Wake up from fod -->
+    <string name="wake_on_fod_pressed_title">Aufwachen bei gedrücktem Fingerabdruck</string>
+    <string name="wake_on_fod_pressed_summary">Zum Sperrbildschirm springen, wenn FOD in der Always on Display gedrückt wird</string>
 </resources>
