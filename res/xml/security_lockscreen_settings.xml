@@ -154,6 +154,12 @@
             android:summary="@string/ambient_swipe_summary"
             android:defaultValue="true" />
 
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="wake_on_fod_pressed"
+            android:title="@string/wake_on_fod_pressed_title"
+            android:summary="@string/wake_on_fod_pressed_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <!-- Work profile settings are at the bottom with high order value to avoid users thinking that
