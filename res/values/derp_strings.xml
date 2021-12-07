@@ -696,4 +696,8 @@
     <string name="ambient_gesture_title">Gestures</string>
     <string name="ambient_swipe_title">Swipe to wake</string>
     <string name="ambient_swipe_summary">Allow waking the device by swiping up or down when the device is dozing</string>
+
+    <!-- Wake up from fod -->
+    <string name="wake_on_fod_pressed_title">Wake up from FOD</string>
+    <string name="wake_on_fod_pressed_summary">Jump to lockscreen when FOD is pressed in ambient display</string>
 </resources>
