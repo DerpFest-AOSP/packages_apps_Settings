@@ -171,12 +171,10 @@
 
     <!-- Fullscreen gestures -->
     <string name="navbar_category">Navigationsleiste</string>
-    <string name="fullscreen_gestures_title">Gesten im Vollbildmodus</string>
-    <string name="fullscreen_gestures_summary">Blendet die Navigationsleistenpille und den Tastaturbereich aus</string>
 
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Pillenlänge</string>
-    <string name="short_label">Kurz</string>
+    <string name="hide_label">Versteckt</string>
     <string name="long_label">Lang</string>
 
 </resources>
