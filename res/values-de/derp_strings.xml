@@ -254,4 +254,8 @@
     <!-- Radio Info -->
     <string name="radio_info_title">Radio-Info</string>
 
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Verbessern Sie Ihr Spielerlebnis</string>
+
 </resources>

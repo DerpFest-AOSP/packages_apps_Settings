@@ -282,4 +282,8 @@
     <!-- Radio Info -->
     <string name="radio_info_title">Radio info</string>
 
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
+
 </resources>
