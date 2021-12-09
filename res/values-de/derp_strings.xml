@@ -941,4 +941,9 @@
 
     <!-- Notification log -->
     <string name="notification_log_summary">Verlaufsprotokoll für Benachrichtigungen anzeigen</string>
+
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">Nicht validieren</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Kein Zertifikat angegeben. Ihre Verbindung wird nicht privat sein.</string>
 </resources>
