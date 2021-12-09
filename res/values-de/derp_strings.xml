@@ -246,4 +246,7 @@
     <string name="doze_double_tap_title">Doppeltippen, um das Telefon zu überprüfen</string>
     <string name="doze_double_tap_summary">Pulsbenachrichtigungen durch Doppeltippen</string>
 
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Kein Zertifikat angegeben. Ihre Verbindung wird nicht privat sein.</string>
+
 </resources>
