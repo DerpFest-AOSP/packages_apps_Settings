@@ -71,6 +71,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
     private IOverlayManager mOverlayManager;
 
     private LabeledSeekBarPreference mGestureNavbarLengthPreference;
+    private LabeledSeekBarPreference mGestureBarRadiusPreference;
 
     public GestureNavigationSettingsFragment() {
         super();
@@ -263,14 +264,18 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
     }
 
     private void initGestureBarRadiusPreference() {
-        final LabeledSeekBarPreference pref = getPreferenceScreen().
-            findPreference(GESTURE_NAVBAR_RADIUS_KEY);
-        pref.setContinuousUpdates(true);
-        pref.setProgress(Settings.System.getInt(getContext().getContentResolver(),
-            Settings.System.GESTURE_NAVBAR_RADIUS, 0));
-        pref.setOnPreferenceChangeListener((p, v) ->
-            Settings.System.putInt(getContext().getContentResolver(),
-                Settings.System.GESTURE_NAVBAR_RADIUS, (Integer) v));
+        final ContentResolver resolver = getContext().getContentResolver();
+        mGestureBarRadiusPreference = getPreferenceScreen().findPreference(GESTURE_NAVBAR_RADIUS_KEY);
+        mGestureBarRadiusPreference.setEnabled(Settings.System.getIntForUser(
+            resolver, Settings.System.FULLSCREEN_GESTURES,
+            0, UserHandle.USER_CURRENT) == 0);
+        mGestureBarRadiusPreference.setContinuousUpdates(true);
+        mGestureBarRadiusPreference.setProgress(Settings.Secure.getIntForUser(
+            resolver, Settings.System.GESTURE_NAVBAR_RADIUS,
+            0, UserHandle.USER_CURRENT));
+        mGestureBarRadiusPreference.setOnPreferenceChangeListener((p, v) ->
+            Settings.System.putIntForUser(resolver, Settings.System.GESTURE_NAVBAR_RADIUS,
+                (Integer) v, UserHandle.USER_CURRENT));
     }
 
     private static float[] getFloatArray(TypedArray array) {
