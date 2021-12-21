@@ -529,4 +529,8 @@
     <string name="notification_guts_kill_app_button_title">\"App beenden\" für Benachrichtigungen</string>
     <string name="notification_guts_kill_app_button_summary">Zeigt eine Taste zum Beenden der App, wenn deren Benachrichtigung lange gedrückt wird</string>
 
+    <!-- Toast app icon -->
+    <string name="toast_icon_title">Toast-App-Symbol</string>
+    <string name="toast_icon_summary">Zeigen Sie das Symbol der App an, das dem Toast entspricht</string>
+
 </resources>

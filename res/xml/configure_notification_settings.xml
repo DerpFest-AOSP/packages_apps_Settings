@@ -197,19 +197,23 @@
             android:summary="@string/notification_assistant_summary"
             settings:controller="com.android.settings.notification.NotificationAssistantPreferenceController"/>
 
-        <!-- Heads up -->
-        <org.derpfest.support.preferences.GlobalSettingSwitchPreference
-            android:key="heads_up_notifications_enabled"
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="toast_icon"
             android:order="26"
-            android:title="@string/heads_up_notifications_enabled_title"
-            android:summary="@string/heads_up_notifications_enabled_summary"
-            android:defaultValue="true" />
-
+            android:title="@string/toast_icon_title"
+            android:summary="@string/toast_icon_summary"
+            android:defaultValue="true"/>
     </PreferenceCategory>
 
     <PreferenceCategory
         android:key="headsup_notifications_category"
         android:title="@string/noti_cust_category">
+
+        <org.derpfest.support.preferences.GlobalSettingSwitchPreference
+            android:key="heads_up_notifications_enabled"
+            android:title="@string/heads_up_notifications_enabled_title"
+            android:summary="@string/heads_up_notifications_enabled_summary"
+            android:defaultValue="true" />
 
         <org.derpfest.support.preferences.SystemSettingSwitchPreference
             android:key="less_boring_heads_up"
