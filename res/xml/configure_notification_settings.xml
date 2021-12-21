@@ -168,6 +168,13 @@
             android:title="@string/notification_assistant_title"
             android:summary="@string/notification_assistant_summary"
             settings:controller="com.android.settings.notification.NotificationAssistantPreferenceController"/>
+
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="toast_icon"
+            android:order="24"
+            android:title="@string/toast_icon_title"
+            android:summary="@string/toast_icon_summary"
+            android:defaultValue="true"/>
     </PreferenceCategory>
 
     <PreferenceCategory
