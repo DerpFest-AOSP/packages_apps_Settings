@@ -40,9 +40,12 @@ open class SystemUpdatePreferenceController(context: Context, preferenceKey: Str
     private lateinit var preference: Preference
 
     override fun getAvailabilityStatus() =
+        /*
         if (mContext.resources.getBoolean(R.bool.config_show_system_update_settings) &&
             userManager.isAdminUser
         ) AVAILABLE else UNSUPPORTED_ON_DEVICE
+        */
+        UNSUPPORTED_ON_DEVICE
 
     override fun displayPreference(screen: PreferenceScreen) {
         super.displayPreference(screen)
