@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/misc_vibration_category_title" >
+
+    <org.derpfest.support.preferences.SystemSettingSwitchPreference
+        android:defaultValue="true"
+        android:key="haptic_on_qs"
+        android:title="@string/haptic_on_qs_title"
+        android:summary="@string/haptic_on_qs_summary" />
+
+    <org.derpfest.support.preferences.SystemSettingSwitchPreference
+        android:defaultValue="true"
+        android:key="haptic_on_statusbar"
+        android:title="@string/haptic_on_statusbar_title"
+        android:summary="@string/haptic_on_statusbar_summary" />
+
+    <org.derpfest.support.preferences.SystemSettingSwitchPreference
+        android:defaultValue="true"
+        android:key="haptic_on_switch"
+        android:title="@string/haptic_on_switch_title"
+        android:summary="@string/haptic_on_switch_summary" />
+
+</PreferenceScreen>
