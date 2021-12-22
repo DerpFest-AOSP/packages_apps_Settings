@@ -551,4 +551,14 @@
 
     <!-- Misc Haptics -->
     <string name="misc_vibration_category_title">Additional vibration options</string>
+
+    <!-- Haptic feedback -->
+    <string name="touch_haptic_title">Misc settings for haptic feedback</string>
+    <string name="touch_haptic_summary">Customize haptic feedback for system widgets</string>
+    <string name="haptic_on_qs_title">QS tiles</string>
+    <string name="haptic_on_qs_summary">Feel a vibration upon touching quick tiles</string>
+    <string name="haptic_on_switch_title">Settings switch</string>
+    <string name="haptic_on_switch_summary">Provide haptic feedback when touching switches in settings</string>
+    <string name="haptic_on_statusbar_title">Status bar</string>
+    <string name="haptic_on_statusbar_summary">Provide haptic feedback when touching status bar</string>
 </resources>
