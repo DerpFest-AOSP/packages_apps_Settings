@@ -446,8 +446,10 @@ public class AppInfoDashboardFragment extends DashboardFragment
         }
         // Utils.isSystemPackage doesn't include all aosp built apps, like Contacts etc. Add them
         // and grab the Google Play Store itself (com.android.vending) in the process
-        menu.findItem(PLAY_STORE).setVisible(!Utils.isSystemPackage(getContext().getResources(), mPm, mPackageInfo)
+        if (com.android.internal.util.derp.derpUtils.isPackageInstalled(getContext(),"com.android.vending")) {
+            menu.findItem(PLAY_STORE).setVisible(!Utils.isSystemPackage(getContext().getResources(), mPm, mPackageInfo)
                 && !isAospOrStore(mAppEntry.info.packageName));
+        }
     }
 
     /** Shows the lock screen if the keyguard is secured. */
