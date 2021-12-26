@@ -59,6 +59,7 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
     private static final String FONT_KEY = "android.theme.customization.font";
     private static final String ADAPTIVE_ICON_SHAPE_KEY = "android.theme.customization.adaptive_icon_shape";
     private static final String NAVBAR_KEY = "android.theme.customization.navbar";
+    private static final String ICON_PACK_KEY = "android.theme.customization.icon_pack";
 
     @VisibleForTesting
     static final String PACKAGE_DEVICE_DEFAULT = "package_device_default";
@@ -69,6 +70,7 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
     private final boolean mIsFonts;
     private final boolean mIsAdaptiveIconShape;
     private final boolean mIsNavbarLayout;
+    private final boolean mIsIconPack;
     private final String mCategory;
     private final PackageManager mPackageManager;
     private final String mDeviceDefaultLabel;
@@ -87,6 +89,7 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
         mIsFonts = FONT_KEY.equals(category);
         mIsAdaptiveIconShape = ADAPTIVE_ICON_SHAPE_KEY.equals(category);
         mIsNavbarLayout = NAVBAR_KEY.equals(category);
+        mIsIconPack = ICON_PACK_KEY.equals(category);
     }
 
     public OverlayCategoryPreferenceController(Context context, String category) {
@@ -143,7 +146,7 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
         Log.w(TAG, "setOverlay packageNames=" + packageNames.toString());
         Log.w(TAG, "setOverlay label=" + label);
 
-        if (mIsFonts || mIsAdaptiveIconShape || mIsNavbarLayout) {
+        if (mIsFonts || mIsAdaptiveIconShape || mIsNavbarLayout || mIsIconPack) {
             // For overlays we also need to set this setting
             String value = Settings.Secure.getStringForUser(mContext.getContentResolver(),
                     Settings.Secure.THEME_CUSTOMIZATION_OVERLAY_PACKAGES, UserHandle.USER_CURRENT);
