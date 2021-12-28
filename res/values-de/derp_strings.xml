@@ -886,4 +886,6 @@
     <string name="ambient_notification_color_mode_notification">Farbe des Benachrichtigungssymbols</string>
     <string name="ambient_notification_color_mode_custom">@string/ambient_notification_light_color_title</string>
     <string name="ambient_notification_light_color_title">Benutzerdefinierte Farben</string>
+    <string name="pulse_ambient_light_show_always_title">Immer anzeigen</string>
+    <string name="pulse_ambient_light_show_always_summary">Anzeigen von Lichtern für alle Schlummerereignisse und nicht nur für Benachrichtigungen</string>
 </resources>

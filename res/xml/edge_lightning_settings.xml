@@ -21,6 +21,12 @@
         android:title="@string/pulse_ambient_light_enable" />
 
     <org.derpfest.support.preferences.SystemSettingSwitchPreference
+        android:key="ambient_light_pulse_for_all"
+        android:title="@string/pulse_ambient_light_show_always_title"
+        android:summary="@string/pulse_ambient_light_show_always_summary"
+        android:defaultValue="false" />
+
+    <org.derpfest.support.preferences.SystemSettingSwitchPreference
         android:key="ambient_notification_light_enabled"
         android:title="@string/ambient_notification_light_enabled_title"
         android:summary="@string/ambient_notification_light_enabled_summary"
