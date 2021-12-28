@@ -939,4 +939,5 @@
     <string name="pulse_ambient_light_layout_title">Light view</string>
     <string name="pulse_ambient_light_layout_solid">Solid</string>
     <string name="pulse_ambient_light_layout_faded">Faded</string>
+    <string name="pulse_ambient_light_width_title">Light width</string>
 </resources>

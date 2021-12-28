@@ -894,4 +894,5 @@
     <string name="pulse_ambient_light_layout_title">Leichte Ansicht</string>
     <string name="pulse_ambient_light_layout_solid">Solide</string>
     <string name="pulse_ambient_light_layout_faded">Verblasst</string>
+    <string name="pulse_ambient_light_width_title">Lichtbreite</string>
 </resources>
