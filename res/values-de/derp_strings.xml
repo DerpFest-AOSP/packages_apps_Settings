@@ -895,4 +895,8 @@
     <string name="pulse_ambient_light_layout_solid">Solide</string>
     <string name="pulse_ambient_light_layout_faded">Verblasst</string>
     <string name="pulse_ambient_light_width_title">Lichtbreite</string>
+    <string name="pulse_light_layout_style_title">Leichter Layout-Stil</string>
+    <string name="pulse_light_both">Alle vier Seiten</string>
+    <string name="pulse_light_top_bottom">Nur Oben-Unten</string>
+    <string name="pulse_light_left_right">Nur Links-Rechts</string>
 </resources>
