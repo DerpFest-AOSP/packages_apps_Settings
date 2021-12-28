@@ -891,4 +891,7 @@
     <string name="pulse_ambient_light_repeat_direction_title">Leichter Wiederholungsmodus</string>
     <string name="pulse_ambient_light_repeat_direction_restart">Neustart</string>
     <string name="pulse_ambient_light_repeat_direction_reverse">Umkehren</string>
+    <string name="pulse_ambient_light_layout_title">Leichte Ansicht</string>
+    <string name="pulse_ambient_light_layout_solid">Solide</string>
+    <string name="pulse_ambient_light_layout_faded">Verblasst</string>
 </resources>
