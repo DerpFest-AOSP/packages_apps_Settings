@@ -39,7 +39,7 @@
         android:defaultValue="false"
         android:dependency="ambient_notification_light_enabled" />
 
-    <org.derpfest.support.preferences.CustomSeekBarPreference
+    <org.derpfest.support.preferences.SystemSettingSeekBarPreference
         android:key="ambient_notification_light_duration"
         android:title="@string/ambient_notification_light_duration_title"
         android:summary="@string/ambient_notification_light_duration_summary"
@@ -48,7 +48,7 @@
         settings:defaultValue="2"
         settings:units="@string/unit_second" />
 
-    <org.derpfest.support.preferences.CustomSeekBarPreference
+    <org.derpfest.support.preferences.SystemSettingSeekBarPreference
         android:key="ambient_notification_light_repeats"
         android:title="@string/ambient_notification_light_repeats_title"
         android:summary="@string/ambient_notification_light_repeats_summary"
@@ -91,7 +91,7 @@
         android:summary="%s"
         android:defaultValue="0" />
 
-    <org.derpfest.support.preferences.CustomSeekBarPreference
+    <org.derpfest.support.preferences.SystemSettingSeekBarPreference
         android:key="pulse_ambient_light_width"
         android:title="@string/pulse_ambient_light_width_title"
         android:max="150"
