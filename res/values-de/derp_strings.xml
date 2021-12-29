@@ -235,4 +235,8 @@
 
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Eine schwebende Schaltfläche zum Drehen einblenden</string>
+
+    <!-- Charging animation -->
+    <string name="charging_animation_title">Ladeanimation</string>
+    <string name="charging_animation_summary">Animation anzeigen, wenn das Gerät angeschlossen wird</string>
 </resources>
