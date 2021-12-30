@@ -123,6 +123,15 @@
             android:fragment="com.android.settings.network.telephony.CellularSecuritySettingsFragment"
             settings:controller="com.android.settings.network.CellularSecurityPreferenceController"
             settings:searchable="false"/>
+
+        <ListPreference
+            android:key="device_reboot_timeout"
+            android:entries="@array/device_reboot_timeout_entries"
+            android:entryValues="@array/device_reboot_timeout_values"
+            android:summary="@string/device_reboot_timeout_summary"
+            android:title="@string/device_reboot_timeout_title"
+            settings:controller="com.android.settings.security.DeviceRebootTimeoutPreferenceController" />
+
     </PreferenceCategory>
 
     <!-- Security section. -->
