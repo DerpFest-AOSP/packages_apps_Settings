@@ -66,6 +66,14 @@
             android:key="app_lock"
             android:title="@string/app_lock_title" />
 
+        <ListPreference
+            android:key="device_reboot_timeout"
+            android:entries="@array/device_reboot_timeout_entries"
+            android:entryValues="@array/device_reboot_timeout_values"
+            android:summary="@string/device_reboot_timeout_summary"
+            android:title="@string/device_reboot_timeout_title"
+            settings:controller="com.android.settings.security.DeviceRebootTimeoutPreferenceController" />
+
         <org.derpfest.support.preferences.GlobalSettingListPreference
             android:key="trust_restrict_usb"
             android:title="@string/trust_restrict_usb_title"
