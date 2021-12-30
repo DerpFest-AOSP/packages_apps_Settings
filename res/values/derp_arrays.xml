@@ -334,4 +334,41 @@
         <item>@string/pattern_custom</item>
     </string-array>
 
+    <!-- Auto reboot settings. The delay in activity before a locked device is rebooted. These are shown in a list dialog. -->
+    <string-array name="device_reboot_timeout_entries">
+        <item>@string/timeout_summary_never</item>
+        <item>@string/timeout_summary_1hour</item>
+        <item>@string/timeout_summary_2hours</item>
+        <item>@string/timeout_summary_4hours</item>
+        <item>@string/timeout_summary_8hours</item>
+        <item>@string/timeout_summary_12hours</item>
+        <item>@string/timeout_summary_24hours</item>
+        <item>@string/timeout_summary_36hours</item>
+        <item>@string/timeout_summary_48hours</item>
+        <item>@string/timeout_summary_72hours</item>
+    </string-array>
+
+    <!-- Do not translate. -->
+    <string-array name="device_reboot_timeout_values" translatable="false">
+        <!-- Do not translate. -->
+        <item>0</item>
+        <!-- Do not translate. -->
+        <item>3600000</item>
+        <!-- Do not translate. -->
+        <item>7200000</item>
+        <!-- Do not translate. -->
+        <item>14400000</item>
+        <!-- Do not translate. -->
+        <item>28800000</item>
+        <!-- Do not translate. -->
+        <item>43200000</item>
+        <!-- Do not translate. -->
+        <item>86400000</item>
+        <!-- Do not translate. -->
+        <item>129600000</item>
+        <!-- Do not translate. -->
+        <item>172800000</item>
+        <!-- Do not translate. -->
+        <item>259200000</item>
+    </string-array>
 </resources>

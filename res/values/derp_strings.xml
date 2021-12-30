@@ -603,4 +603,9 @@
     <string name="notification_custom_vibrate_summary">Replaces the default pattern only\nApp set pattern takes precedence</string>
     <string name="notification_custom_vibrate_slider1">Vibrate for</string>
     <string name="notification_custom_vibrate_slider2">Pause for</string>
+
+    <!-- Reboot timeout -->
+    <string name="device_reboot_timeout_title">Auto reboot</string>
+    <string name="device_reboot_timeout_summary">The device will automatically reboot if it hasn\'t been unlocked within the last <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_summary2">The device will not automatically reboot</string>
 </resources>
