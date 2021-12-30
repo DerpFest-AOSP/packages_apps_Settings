@@ -859,4 +859,21 @@
     <string name="trust_restrict_usb_keyguard">Allow USB connections when unlocked</string>
     <string name="trust_restrict_usb_disabled">Always allow USB connections</string>
 
+    <!-- Timeout entries -->
+    <string name="timeout_summary_never">Never</string>
+    <string name="timeout_summary_1hour">1 hour</string>
+    <string name="timeout_summary_2hours">2 hours</string>
+    <string name="timeout_summary_4hours">4 hours</string>
+    <string name="timeout_summary_8hours">8 hours</string>
+    <string name="timeout_summary_12hours">12 hours</string>
+    <string name="timeout_summary_24hours">24 hours</string>
+    <string name="timeout_summary_36hours">36 hours</string>
+    <string name="timeout_summary_48hours">48 hours</string>
+    <string name="timeout_summary_72hours">72 hours</string>
+
+    <!-- Reboot timeout -->
+    <string name="device_reboot_timeout_title">Auto reboot</string>
+    <string name="device_reboot_timeout_summary">The device will automatically reboot if it hasn\'t been unlocked within the last <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="device_reboot_timeout_summary2">The device will not automatically reboot</string>
+
 </resources>

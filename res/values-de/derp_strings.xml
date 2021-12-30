@@ -833,4 +833,9 @@
     <string name="trust_restrict_usb_keyguard">USB-Verbindungen zulassen, wenn entsperrt</string>
     <string name="trust_restrict_usb_disabled">USB-Verbindungen immer zulassen</string>
 
+    <!-- Reboot timeout -->
+    <string name="device_reboot_timeout_title">Automatischer Neustart</string>
+    <string name="device_reboot_timeout_summary">Das Gerät wird automatisch neu gestartet, wenn es nicht innerhalb der letzten <xliff:g id="timeout_description">%1$s</xliff:g> entsperrt wurde</string>
+    <string name="device_reboot_timeout_summary2">Das Gerät wird nicht automatisch neu gestartet</string>
+
 </resources>
