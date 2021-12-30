@@ -341,4 +341,18 @@
     <string name="auto_brightness_one_shot_title">One-Shot-Auto-Helligkeit</string>
     <string name="auto_brightness_one_shot_summary">Die Helligkeitsanpassung erfolgt nur in dem Moment, in dem der Bildschirm eingeschaltet wird</string>
 
+    <string name="auto_reboot_timeout_summary_72hours">72 Stunden</string>
+    <string name="auto_reboot_timeout_summary_48hours">48 Stunden</string>
+    <string name="auto_reboot_timeout_summary_36hours">36 Stunden</string>
+    <string name="auto_reboot_timeout_summary_24hours">24 Stunden</string>
+    <string name="auto_reboot_timeout_summary_12hours">12 Stunden</string>
+    <string name="auto_reboot_timeout_summary_8hours">8 Stunden</string>
+    <string name="auto_reboot_timeout_summary_4hours">4 Stunden</string>
+    <string name="auto_reboot_timeout_summary_2hours">2 Stunden</string>
+    <string name="auto_reboot_timeout_summary_1hour">1 Stunde</string>
+    <string name="auto_reboot_timeout_summary_never">Niemals</string>
+    <string name="auto_reboot_summary2">Das Gerät wird nicht automatisch neu gestartet</string>
+    <string name="auto_reboot_summary">Das Gerät wird automatisch neu gestartet, wenn es nicht innerhalb der letzten <xliff:g id="timeout_description">%1$s</xliff:g> entsperrt wurde.</string>
+    <string name="auto_reboot_title">Automatischer Neustart</string>
+
 </resources>
