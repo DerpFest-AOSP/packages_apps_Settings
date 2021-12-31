@@ -742,4 +742,8 @@
     <string name="sleep_mode_wakelock_blocker_toggle_summary">Aktiviert den Wakelock blocker, wenn der Schlafmodus eingeschaltet ist</string>
     <string name="sleep_mode_display_text">Im Schlafmodus können Sie bestimmte Dienste deaktivieren, um den Akku zu schonen und Ihr Telefon stumm zu schalten, während Sie schlafen.</string>
 
+    <!-- Idle Manager -->
+    <string name="idle_manager_title">Hintergrundprozesse beenden</string>
+    <string name="idle_manager_summary">Stoppt alle nicht wesentlichen Hintergrundprozesse, wenn das Gerät im Leerlauf ist</string>
+
 </resources>
