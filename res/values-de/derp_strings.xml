@@ -273,4 +273,8 @@
     <!-- Volume panel on left switch -->
     <string name="volume_panel_on_left_title">Lautstärkeregler auf der linken Seite anzeigen</string>
 
+    <!-- Arcane Idle Manager -->
+    <string name="arcane_idle_manager_title">Idle-Manager</string>
+    <string name="arcane_idle_manager_summary">Stoppt alle nicht wesentlichen Hintergrundprozesse, wenn das Gerät inaktiv ist</string>
+
 </resources>
