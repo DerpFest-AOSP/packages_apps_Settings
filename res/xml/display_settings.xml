@@ -76,6 +76,11 @@
             settings:keywords="@string/keywords_dark_ui_mode"/>
 
         <SwitchPreferenceCompat
+            android:key="hwui_force_dark"
+            android:title="@string/hwui_force_dark_title"
+            android:summary="@string/hwui_force_dark_summary" />
+
+        <SwitchPreferenceCompat
             android:key="enable_blurs_on_windows"
             android:title="@string/enable_blurs_on_windows_title"
             android:summary="@string/enable_blurs_on_windows_summary"
