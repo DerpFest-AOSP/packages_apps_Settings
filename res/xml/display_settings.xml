@@ -75,6 +75,11 @@
             settings:controller="com.android.settings.display.DarkUIPreferenceController"
             settings:keywords="@string/keywords_dark_ui_mode"/>
 
+        <SwitchPreference
+            android:key="hwui_force_dark"
+            android:title="@string/hwui_force_dark_title"
+            android:summary="@string/hwui_force_dark_summary" />
+
         <Preference
             android:fragment="com.android.settings.accessibility.TextReadingPreferenceFragment"
             android:key="text_reading_options"
