@@ -20,27 +20,25 @@
     android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_centerInParent="true"
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/option_grid_background"
             android:gravity="center"
-            android:orientation="vertical"
-            android:paddingHorizontal="5dp"
-            android:paddingVertical="5dp"
-            android:background="@drawable/option_border_custom">
+            android:orientation="vertical">
 
-            <LinearLayout
+            <GridLayout
+                android:id="@+id/icon_container"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
+                android:columnCount="2">
 
                 <ImageView
                     android:id="@+id/image1"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:background="@drawable/icon_background"
-                    android:backgroundTint="?android:attr/textColorSecondary"
+                    android:backgroundTint="@color/option_grid_icon_color"
                     android:tint="?android:attr/textColorPrimary" />
 
                 <ImageView
@@ -48,23 +46,15 @@
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:background="@drawable/icon_background"
-                    android:backgroundTint="?android:attr/textColorSecondary"
+                    android:backgroundTint="@color/option_grid_icon_color"
                     android:tint="?android:attr/textColorPrimary" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/image3"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:background="@drawable/icon_background"
-                    android:backgroundTint="?android:attr/textColorSecondary"
+                    android:backgroundTint="@color/option_grid_icon_color"
                     android:tint="?android:attr/textColorPrimary" />
 
                 <ImageView
@@ -72,10 +62,10 @@
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:background="@drawable/icon_background"
-                    android:backgroundTint="?android:attr/textColorSecondary"
-                    android:tint="?android:attr/textColorSecondary" />
+                    android:backgroundTint="@color/option_grid_icon_color"
+                    android:tint="?android:attr/textColorPrimary" />
 
-            </LinearLayout>
+            </GridLayout>
 
         </LinearLayout>
 
