@@ -288,4 +288,9 @@
     <string name="swap_volume_buttons_title">Lautstärketasten umkehren</string>
     <string name="swap_volume_buttons_summary">Belegung der Lautstärketasten der aktuellen Orientierung anpassen</string>
 
+    <!-- Gestures & Keys -->
+    <string name="derp_settings_gestures_keys_title">Gesten und Tasten</string>
+    <string name="derp_settings_gestures_category_title">Gesten</string>
+    <string name="derp_settings_keys_category_title">Tasten</string>
+
 </resources>

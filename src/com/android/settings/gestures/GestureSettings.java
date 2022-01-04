@@ -46,8 +46,9 @@ public class GestureSettings extends DashboardFragment {
     }
 
     @Override
+    // DerpFest changes, change for gestures & keys
     protected int getPreferenceScreenResId() {
-        return R.xml.gestures;
+        return R.xml.derp_settings_gestures_keys;
     }
 
     @Override
@@ -65,8 +66,9 @@ public class GestureSettings extends DashboardFragment {
         return mAmbientDisplayConfig;
     }
 
+    // DerpFest changes, change for gestures & keys
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.gestures) {
+            new BaseSearchIndexProvider(R.xml.derp_settings_gestures_keys) {
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
                     final List<String> keys = super.getNonIndexableKeys(context);

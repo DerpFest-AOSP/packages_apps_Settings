@@ -29,7 +29,7 @@
 
     <Preference
         android:key="gesture_settings"
-        android:title="@string/gesture_preference_title"
+        android:title="@string/derp_settings_gestures_keys_title"
         android:icon="@drawable/ic_settings_gestures"
         android:order="-250"
         android:fragment="com.android.settings.gestures.GestureSettings"
