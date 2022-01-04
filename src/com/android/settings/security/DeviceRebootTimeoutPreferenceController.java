@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.bluetooth;
+package com.android.settings.security;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -72,7 +72,7 @@ public class DeviceRebootTimeoutPreferenceController extends BasePreferenceContr
                     Settings.Global.DEVICE_REBOOT_TIMEOUT, value);
             updateTimeoutPreferenceDescription((ListPreference) preference, value);
         } catch (NumberFormatException e) {
-            Log.e(TAG, "could not persist bluetooth timeout setting", e);
+            Log.e(TAG, "could not persist reboot timeout setting", e);
         }
         return true;
     }
