@@ -154,4 +154,9 @@
     <string name="high_touch_sensitivity_title">High touch sensitivity</string>
     <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
 
+    <!-- Gestures & Keys -->
+    <string name="derp_settings_gestures_keys_title">Gestures &amp; Motions</string>
+    <string name="gesture_gestures_category_title">Gestures</string>
+    <string name="derp_settings_keys_category_title">Keys</string>
+
 </resources>
