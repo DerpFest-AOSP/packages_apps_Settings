@@ -150,4 +150,9 @@
     <string name="high_touch_sensitivity_title">Hohe Touch-Empfindlichkeit</string>
     <string name="high_touch_sensitivity_summary">Touch-Empfindlichkeit erhöhen, um den Touchscreen auch mit Handschuhen bedienen zu können</string>
 
+    <!-- Gestures & Keys -->
+    <string name="derp_settings_gestures_keys_title">Gesten und Bewegungen</string>
+    <string name="gesture_gestures_category_title">Gesten</string>
+    <string name="derp_settings_keys_category_title">Tasten</string>
+
 </resources>
