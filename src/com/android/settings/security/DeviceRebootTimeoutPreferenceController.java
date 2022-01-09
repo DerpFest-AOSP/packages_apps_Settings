@@ -67,8 +67,8 @@ public class DeviceRebootTimeoutPreferenceController extends BasePreferenceContr
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         try {
-            int value = Integer.parseInt((String) newValue);
-            Settings.Global.putInt(mContext.getContentResolver(),
+            long value = Long.parseLong((String) newValue);
+            Settings.Global.putLong(mContext.getContentResolver(),
                     Settings.Global.DEVICE_REBOOT_TIMEOUT, value);
             updateTimeoutPreferenceDescription((ListPreference) preference, value);
         } catch (NumberFormatException e) {
