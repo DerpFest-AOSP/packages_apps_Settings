@@ -327,4 +327,7 @@
     <string name="power_button_torch_title">Schneller Taschenlampenzugriff</string>
     <string name="power_button_torch_summary">Wenn der Bildschirm ausgeschaltet ist, wird die Taschenlampe durch langes Drücken der Ein-/Aus-Taste aktiviert</string>
 
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Verwenden Sie eine schwebende Schaltfläche zum Drehen</string>
+
 </resources>
