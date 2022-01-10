@@ -590,4 +590,7 @@
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Zwischenablage-Overlay anzeigen</string>
     <string name="show_clipboard_overlay_summary">Ein Overlay in der linken unteren Ecke des Bildschirms anzeigen, wenn etwas in die Zwischenablage kopiert wird</string>
+
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Eine schwebende Schaltfläche zum Drehen einblenden</string>
 </resources>
