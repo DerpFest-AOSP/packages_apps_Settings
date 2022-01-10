@@ -256,4 +256,7 @@
     <!-- Long press navbar to search -->
     <string name="navbar_long_press_gesture_title">Long press to search</string>
     <string name="navbar_long_press_gesture_summary">Long press the gesture bar to analyze the screen with lens</string>
+
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
 </resources>
