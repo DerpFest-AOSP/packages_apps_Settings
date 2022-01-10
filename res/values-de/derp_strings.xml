@@ -727,4 +727,7 @@
 
     <!-- Summary for the accessibility preference to adjust the display size, font size, bold text, and high contrast text features. [CHAR LIMIT=NONE] -->
     <string name="accessibility_text_reading_options_summary">Anzeigegröße, Schriftart und Text individuell anpassen</string>
+
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Eine schwebende Schaltfläche zum Drehen einblenden</string>
 </resources>
