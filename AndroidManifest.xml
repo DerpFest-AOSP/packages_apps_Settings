@@ -4366,6 +4366,14 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                        android:value="org.derpfest.derpspace.DerpSpace"/>
         </activity>
+
+        <activity android:name=".Settings$HeadsUpSettingsActivity"
+            android:label="@string/heads_up_notifications"
+            android:exported="true">
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="org.derpfest.derpspace.fragments.HeadsUpSettings"/>
+        </activity>
+
     </application>
 </manifest>
 
