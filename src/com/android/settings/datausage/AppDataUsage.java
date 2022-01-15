@@ -335,9 +335,9 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
             mRestrictBackground.setDisabledByAdmin(admin);
             mRestrictBackground.setEnabled(hasInternetPermission &&
                     !mRestrictBackground.isDisabledByAdmin() && !restrictAll &&
-                    !restrictCellular);
+                    (!restrictCellular || !restrictVpn || !restrictWifi));
             mRestrictBackground.setChecked(!restrictBackground && !restrictAll &&
-                    !restrictCellular);
+                    (!restrictCellular || !restrictVpn || !restrictWifi));
         }
         if (mRestrictCellular != null) {
             mRestrictCellular.setEnabled(hasInternetPermission && !restrictAll);
