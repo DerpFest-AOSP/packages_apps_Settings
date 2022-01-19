@@ -333,5 +333,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Vollbild Apps</string>
     <string name="display_cutout_force_fullscreen_summary">Zwinge die Applikationen die Einkerbung zu ignorieren</string>
+    <string name="search">Suche</string>
+    <string name="search_apps">Apps suchen</string>
+    <string name="application_icon">Anwendungssymbol</string>
 
 </resources>
