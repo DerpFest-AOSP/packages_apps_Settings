@@ -523,4 +523,50 @@
     <string name="navigation_bar_ime_space_title">Platz für die IME-Schaltfläche</string>
     <string name="navigation_bar_ime_space_summary">IME-Schaltflächenbereich unter der Tastatur anzeigen</string>
 
+    <!-- Columbus -->
+    <string name="columbus_title">@string/columbus_name</string>
+    <string name="columbus_gesture_detected">„Schnelltippen“ wurde erkannt</string>
+    <string name="columbus_gesture_enrollment_complete">Fertig</string>
+    <string name="columbus_gesture_enrollment_do_it_later">Später</string>
+    <string name="columbus_gesture_enrollment_settings">Zu den Einstellungen</string>
+    <string name="columbus_gesture_enrollment_try_it">Jetzt ausprobieren</string>
+    <string name="columbus_gesture_training_action_no_selection_error">Bitte wähle eine durchzuführende Aktion aus</string>
+    <string name="columbus_gesture_training_action_text">Lege fest, was passieren soll, wenn du die Funktion „Schnelltippen“ verwendest. Du kannst dies später in den Einstellungen ändern.</string>
+    <string name="columbus_gesture_training_action_title">Aktion auswählen, die durch „Schnelltippen“ ausgelöst wird</string>
+    <string name="columbus_gesture_training_enrolling_first_gesture">… Doppeltippen 1 von 2 erkannt</string>
+    <string name="columbus_gesture_training_enrolling_first_gesture_text">Versuchen wir das noch einmal. Tippe schnell doppelt auf die Rückseite deines Smartphones.</string>
+    <string name="columbus_gesture_training_enrolling_first_gesture_title">Sehr gut!</string>
+    <string name="columbus_gesture_training_enrolling_second_gesture">… Doppeltippen 2 von 2 erkannt</string>
+    <string name="columbus_gesture_training_enrolling_second_gesture_text">Du kannst „Schnelltippen“ jetzt verwenden</string>
+    <string name="columbus_gesture_training_enrolling_second_gesture_title">Volltreffer</string>
+    <string name="columbus_gesture_training_enrolling_text">Tippe schnell doppelt auf die Rückseite deines Smartphones.</string>
+    <string name="columbus_gesture_training_enrolling_title">„Schnelltippen“ ausprobieren</string>
+    <string name="columbus_gesture_training_finished_text">Du kannst die Empfindlichkeit für „Schnelltippen“ in den Einstellungen ändern.</string>
+    <string name="columbus_gesture_training_finished_title">Du hast „Schnelltippen“ eingerichtet</string>
+    <string name="columbus_gesture_training_intro_text_accidental">Du hast gerade zweimal auf die Rückseite deines Geräts getippt und kannst Assistant jetzt auch unterwegs verwenden. Diese Touch-Geste lässt sich in den Einstellungen anpassen.</string>
+    <string name="columbus_gesture_training_intro_text_suw">Screenshot aufnehmen, Benachrichtigungen anzeigen, andere Aktionen durch Doppeltippen starten.</string>
+    <string name="columbus_gesture_training_intro_title">„Schnelltippen“ für schnelle Aktionen</string>
+    <string name="columbus_gesture_training_launch_no_selection_error">Bitte wähle aus, welche App geöffnet werden soll</string>
+    <string name="columbus_gesture_training_launch_text">Lege fest, welche App mit der Funktion „Schnelltippen“ geöffnet werden soll.</string>
+    <string name="columbus_gesture_training_launch_title">Zu öffnende App auswählen</string>
+    <string name="columbus_launch_app_extra_widget_a11y_label">%1$s: Einstellungen für Verknüpfungen</string>
+    <string name="columbus_launch_settings_activity_title">Einstellungen für „Schnelltippen“</string>
+    <string name="columbus_name">Schnelltippen</string>
+    <string name="columbus_radio_button_extra_widget_a11y_label">%1$s: Einstellungen</string>
+    <string name="columbus_setting_action_assistant_title">Digitalen Assistenten aufrufen</string>
+    <string name="columbus_setting_action_launch_summary_no_selection">Keine App ausgewählt</string>
+    <string name="columbus_setting_action_launch_summary_not_installed">App ist nicht installiert</string>
+    <string name="columbus_setting_action_launch_title">App öffnen</string>
+    <string name="columbus_setting_action_notification_title">Benachrichtigungen anzeigen</string>
+    <string name="columbus_setting_action_open_app_title">App öffnen</string>
+    <string name="columbus_setting_action_overview_title">Kürzlich geöffnete Apps ansehen</string>
+    <string name="columbus_setting_action_play_pause_title">Medien wiedergeben oder pausieren</string>
+    <string name="columbus_setting_action_screenshot_title">Screenshot erstellen</string>
+    <string name="columbus_setting_actions_title">Aktion bei Doppeltippen auf der Rückseite des Geräts</string>
+    <string name="columbus_setting_additional_settings_title">Empfindlichkeit für Schnelltippen</string>
+    <string name="columbus_setting_app_selection_help_text">Wähle aus, welche App geöffnet werden soll, wenn du schnell doppelt auf die Rückseite deines Smartphones tippst. Wenn du die App deinstallierst, wird „Schnelltippen“ deaktiviert, bis du eine andere App auswählst.</string>
+    <string name="columbus_setting_app_shortcut_selection_help_text">Lege fest, was passiert, wenn du diese App mit der Funktion „Schnelltippen“ öffnest.</string>
+    <string name="columbus_setting_enable_switch_title">„Schnelltippen“ verwenden</string>
+    <string name="columbus_setting_sensitivity_title">Stärkeres Tippen erforderlich</string>
+
 </resources>

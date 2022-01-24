@@ -97,6 +97,7 @@ android_library {
         "powerusagefeaturegoogle",
         "accountfeatureprovidergoogle",
         "faceunlock_framework",
+        "columbus-settingsgoogle",
     ],
 
     libs: [
@@ -177,5 +178,11 @@ java_import {
 java_import {
     name: "accountfeatureprovidergoogle",
     jars: ["libs/accountfeatureprovidergoogle.jar"],
+    sdk_version: "current",
+}
+
+java_import {
+    name: "columbus-settingsgoogle",
+    jars: ["libs/columbus-settings.jar"],
     sdk_version: "current",
 }

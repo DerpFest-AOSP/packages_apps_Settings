@@ -73,4 +73,4 @@
 -dontwarn androidx.window.extensions.**
 
 # Custom rules
--keep class com.google.android.settings.** { *; }
+-keep class com.google.** { *; }
