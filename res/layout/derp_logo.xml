@@ -11,15 +11,17 @@
      limitations under the License.
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:gravity="center"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
- <ImageView
-        android:layout_width="625dp"
-        android:layout_height="100dp"
+        android:layout_height="70dp"
         android:src="@drawable/ic_derp_logo"
         android:adjustViewBounds="true"
-        android:scaleType="centerInside"
+        android:scaleType="fitCenter"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp" />
+
 </LinearLayout>
