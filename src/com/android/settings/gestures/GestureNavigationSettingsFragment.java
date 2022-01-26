@@ -142,7 +142,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
         float initScale = 0;
         if (settingsKey != "") {
             initScale = Settings.Secure.getFloat(
-                  getContext().getContentResolver(), settingsKey, 1.0f);
+                  getContext().getContentResolver(), settingsKey, key == KEY_BACK_HEIGHT ? 0.0f : 1.0f);
         }
 
         // needed if we just change the height
