@@ -481,4 +481,7 @@
     <string name="assisted_gps">Unterstütztes GPS verwenden</string>
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
     <string name="assisted_gps_summary">Satellitenhilfsdaten aus dem Internet herunterladen, die den Startvorgang von GPS erheblich verbessern können. Für Notrufe ist das unterstützte GPS immer erlaubt.</string>
+
+    <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_refresh_rate_controls">Aktualisierungsrate</string>
 </resources>
