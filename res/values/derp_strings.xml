@@ -249,4 +249,8 @@
     <string name="volume_panel_haptics_summary">Whether to enable volume panel haptic feedbacks</string>
     <string name="brightness_slider_haptics_title">Brightness slider</string>
     <string name="brightness_slider_haptics_summary">Whether to enable haptic feedbacks when changing the brightness</string>
+
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Unlock animation</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
 </resources>
