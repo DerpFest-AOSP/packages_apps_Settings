@@ -767,4 +767,8 @@
     <string name="touch_haptic_summary">Customize haptic feedback for system widgets</string>
     <string name="haptic_on_brightness_slider_title">Brightness slider</string>
     <string name="haptic_on_brightness_slider_summary">Provide haptic feedback on changing brightness using slider</string>
+
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Unlock animation</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
 </resources>
