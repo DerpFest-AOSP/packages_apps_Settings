@@ -50,10 +50,10 @@
             settings:controller="com.android.settings.gestures.DoubleTwistPreferenceController"
             settings:searchable="false" />
 
-        <Preference
-            android:fragment="com.android.settings.gestures.OneHandedSettings"
+        <com.android.settings.widget.PrimarySwitchPreference
             android:key="gesture_one_handed"
             android:title="@string/one_handed_title"
+            android:fragment="com.android.settings.gestures.OneHandedSettings"
             settings:controller="com.android.settings.gestures.OneHandedEnablePreferenceController" />
 
         <Preference
