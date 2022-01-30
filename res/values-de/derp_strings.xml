@@ -229,4 +229,8 @@
     <string name="volume_panel_haptics_summary">Haptisches Feedback bei Lautstärkeregelung mithilfe des Schiebereglers</string>
     <string name="brightness_slider_haptics_title">Helligkeitsregelung</string>
     <string name="brightness_slider_haptics_summary">Haptisches Feedback bei Helligkeitsregelung mithilfe des Schiebereglers</string>
+
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Welleneffekt</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Welleneffekt zeigen bei Entsperrung mit Fingerabdruck</string>
 </resources>
