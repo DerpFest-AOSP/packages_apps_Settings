@@ -407,4 +407,9 @@
     <string name="torch_long_press_power_gesture_title">Zum Aktivieren der Taschenlampe gedrückt halten</string>
     <string name="torch_long_press_power_gesture_desc">Gedrückt halten, um bei ausgeschaltetem Bildschirm die Taschenlampe einzuschalten</string>
 
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">Pillenradius</string>
+    <string name="thin_label">Schmal</string>
+    <string name="thick_label">Breit</string>
+
 </resources>
