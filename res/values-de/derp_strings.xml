@@ -628,4 +628,9 @@
     <string name="dialog_delete_message">Ausgewähltes Element entfernen?</string>
     <string name="dialog_delete_title">Entfernen</string>
 
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">Radius der Gestenleiste</string>
+    <string name="thin_label">Schmal</string>
+    <string name="thick_label">Breit</string>
+
 </resources>

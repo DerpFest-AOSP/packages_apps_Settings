@@ -648,4 +648,9 @@
     <string name="add_sensor_block_package_summary">Significant motion, accelerometer, linear acceleration sensors will be blocked for these apps</string>
     <string name="profile_choose_app">Choose app</string>
 
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">Gesture navbar radius</string>
+    <string name="thin_label">Thin</string>
+    <string name="thick_label">Thick</string>
+
 </resources>
