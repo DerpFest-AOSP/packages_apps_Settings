@@ -484,4 +484,9 @@
     <string name="battery_stats_message">Battery usage data will be lost\n(This has no effect on the pixel stats)</string>
     <string name="battery_stats_clear">@string/proxy_clear_text</string>
 
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Locate the fingerprint sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Locate the fingerprint sensor on the side of your phone.</string>
+
 </resources>

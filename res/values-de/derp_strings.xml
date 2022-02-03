@@ -438,4 +438,9 @@
     <string name="battery_stats_reset">Nutzungsdaten löschen?</string>
     <string name="battery_stats_message">Daten zur Akkunutzung gehen verloren\n(Dies hat kein Effekt auf die Pixel Statistiken)</string>
 
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front">Suchen Sie den Fingerabdrucksensor auf der Vorderseite Ihres Telefons.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Suchen Sie den Fingerabdrucksensor auf der Rückseite Ihres Telefons.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Suchen Sie den Fingerabdrucksensor an der Seite des Telefons.</string>
+
 </resources>
