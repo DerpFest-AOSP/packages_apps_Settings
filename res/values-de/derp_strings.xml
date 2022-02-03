@@ -42,6 +42,28 @@
     <string name="status_bar_double_tap_to_sleep_title">Tippen für Standby</string>
     <string name="status_bar_double_tap_to_sleep_summary">Doppeltippe auf Statusleiste oder Sperrbildschirm, um das Display auszuschalten</string>
 
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Suchen Sie den Fingerabdrucksensor auf der Vorderseite Ihres Tablets.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Suchen Sie den Fingerabdrucksensor auf der Vorderseite Ihres Geräts.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Suchen Sie den Fingerabdrucksensor auf der Vorderseite Ihres Telefons.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Suchen Sie den Fingerabdrucksensor auf der Rückseite Ihres Tablets.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Suchen Sie den Fingerabdrucksensor auf der Rückseite Ihres Geräts.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Suchen Sie den Fingerabdrucksensor auf der Rückseite Ihres Telefons.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Suchen Sie den Fingerabdrucksensor an der Seite des Tablets.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Suchen Sie den Fingerabdrucksensor an der Seite des Geräts.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Suchen Sie den Fingerabdrucksensor an der Seite des Telefons.</string>
+
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Berühren Sie den Sensor auf der Vorderseite Ihres Tablets.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Berühren Sie den Sensor an der Vorderseite Ihres Geräts.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Berühren Sie den Sensor an der Vorderseite des Telefons.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Berühren Sie den Sensor auf der Rückseite Ihres Tablets.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Berühren Sie den Sensor auf der Rückseite Ihres Geräts.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Berühren Sie den Sensor auf der Rückseite Ihres Telefons.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Berühren Sie den Sensor an der Seite Ihres Tablets.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Berühren Sie den Sensor an der Seite Ihres Geräts.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Berühren Sie den Sensor an der Seite Ihres Telefons.</string>
+
     <!-- Navigation bar hint -->
     <string name="navbar_category">Navigationsleiste</string>
     <string name="hide_navbar_gesture_bar_title">Gestenleiste ausblenden</string>
