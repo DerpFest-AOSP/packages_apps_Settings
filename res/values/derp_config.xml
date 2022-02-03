@@ -22,4 +22,7 @@
              relative to the natural orientation of the display
              (true for some tablets) -->
     <integer name="config_volumeRockerVsDisplayOrientation">1</integer>
+
+    <!-- Indicates whether device has a front facing fingerprint sensor (not udfps). -->
+    <bool name="config_is_front_facing_fps" translatable="false">false</bool>
 </resources>
