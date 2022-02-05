@@ -319,4 +319,9 @@
     <string name="adaptive_playback_timeout_10_min">10 Minuten</string>
     <string name="adaptive_playback_timeout_10_min_summary">Ein (10 Minuten)</string>
 
+    <!-- Per-app volume control -->
+    <string name="app_volume">App-Lautstärke</string>
+    <string name="app_volume_title">Lautstärkeregelung per App</string>
+    <string name="app_volume_summary">Lautstärke-Schaltfläche pro Anwendung im Lautstärke-Dialog anzeigen</string>
+
 </resources>
