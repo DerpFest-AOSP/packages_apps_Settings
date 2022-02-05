@@ -954,4 +954,7 @@
 
     <!-- Summary for the top level wallpapers settings [CHAR LIMIT=NONE]-->
     <string name="wallpaper_dashboard_custom_summary">Farben, Symboldesigns, App-Raster, Systemschriftart</string>
+
+    <!-- Refresh rate category name in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_display_refresh_rate">Aktualisierungsrate</string>
 </resources>

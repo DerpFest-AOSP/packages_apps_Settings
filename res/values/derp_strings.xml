@@ -1007,4 +1007,7 @@
 
     <!-- Summary for the top level wallpapers settings [CHAR LIMIT=NONE]-->
     <string name="wallpaper_dashboard_custom_summary">Colors, themed icons, app grid, system font</string>
+
+    <!-- Refresh rate category name in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_display_refresh_rate">Refresh rate</string>
 </resources>
