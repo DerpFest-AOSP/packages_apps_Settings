@@ -800,4 +800,7 @@
 
     <!-- Units -->
     <string name="unit_milliseconds">Millisekunden</string>
+
+    <!-- Refresh rate category name in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_display_refresh_rate">Aktualisierungsrate</string>
 </resources>
