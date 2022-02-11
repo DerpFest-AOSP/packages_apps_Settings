@@ -19,6 +19,7 @@ package com.android.settings.biometrics.face;
 import android.content.Context;
 import android.hardware.face.FaceManager;
 import android.os.UserHandle;
+import androidx.preference.Preference;
 
 import androidx.annotation.Nullable;
 import androidx.lifecycle.Lifecycle;
@@ -32,6 +33,8 @@ import com.android.settings.Utils;
 import com.android.settings.biometrics.BiometricStatusPreferenceController;
 import com.android.settingslib.RestrictedLockUtils;
 import com.android.settingslib.RestrictedPreference;
+
+import com.android.settings.custom.biometrics.FaceUtils;
 
 public class FaceStatusPreferenceController extends BiometricStatusPreferenceController
         implements LifecycleObserver {
@@ -97,6 +100,9 @@ public class FaceStatusPreferenceController extends BiometricStatusPreferenceCon
     public void updateState(Preference preference) {
         super.updateState(preference);
         updateStateInternal();
+        if (FaceUtils.isFaceUnlockSupported()) {
+            preference.setEnabled(!FaceUtils.isFaceDisabledByAdmin(mContext));
+        }
     }
 
     private void updateStateInternal() {
