@@ -464,4 +464,10 @@
     <string name="back_gesture_arrow_message">Back gesture animation</string>
     <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
 
+    <!-- Battery stats view -->
+    <string name="powerusage_provider_google">Use Pixel battery stats provider</string>
+    <string name="power_usage_provider_summary">Use battery stats graph and power scheme from Pixel</string>
+    <string name="powerusage_provider_google_dialog_title">Changing provider</string>
+    <string name="powerusage_provider_google_dialog_message">Settings app will be force closed for changing battery stats provider</string>
+
 </resources>

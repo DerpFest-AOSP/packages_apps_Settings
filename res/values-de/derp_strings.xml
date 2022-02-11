@@ -428,4 +428,10 @@
     <string name="back_gesture_arrow_message">Animation der Zurück-Geste</string>
     <string name="back_gesture_arrow_summary">Einen animierten Pfeil für die Zurück-Geste anzeigen</string>
 
+    <!-- Battery stats view -->
+    <string name="powerusage_provider_google">Verwendung der Pixel-Implementierung für Batteriestatistiken</string>
+    <string name="power_usage_provider_summary">Das Akkustatistikdiagramm und das Energieschema der Pixel-Geräte verwenden</string>
+    <string name="powerusage_provider_google_dialog_title">Implementierung wechseln</string>
+    <string name="powerusage_provider_google_dialog_message">Die Einstellungs-App wird zwangsweise geschlossen, wenn die Implementierung für Batteriestatistiken gewechselt wird</string>
+
 </resources>

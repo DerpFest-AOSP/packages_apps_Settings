@@ -65,6 +65,12 @@
         android:summary="@string/arcane_idle_manager_summary"
         android:defaultValue="false" />
 
+    <SwitchPreference
+        android:key="power_usage_provider_google"
+        android:title="@string/powerusage_provider_google"
+        android:summary="@string/power_usage_provider_summary"
+        settings:controller="com.android.settings.fuelgauge.GooglePowerUsageProviderPreferenceController" />
+
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="battery_temp"
         android:title="@string/battery_temp"
