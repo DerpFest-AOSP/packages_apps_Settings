@@ -98,6 +98,7 @@ android_library {
         "kotlin-stdlib",
         "powerusagefeaturegoogle",
         "vendor.lineage.fastcharge-V1.0-java",
+        "faceunlock_framework",
     ],
 
     libs: [
