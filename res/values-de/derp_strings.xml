@@ -442,4 +442,13 @@
     <string name="power_menu_panic_title">Panikauslöser</string>
     <!-- Text shown for the description of the panic option -->
     <string name="power_menu_panic_summary">Aktiviert einen Notfall-Panikauslöser.</string>
+
+    <!-- Face Unlock -->
+    <string name="security_settings_face_settings_footer_custom">Mit Face Unlock kannst du dein Gerät entsperren, indem du es ansiehst. Bedenke:\n\n● Das Gerät kann jederzeit entsperrt werden, wenn sie darauf schauen.\n● Das Gerät kann von einer anderen Person entsperrt werden, indem diese es vor ihr Gesicht mit geöffneten Augen hält.\n● Das Gerät kann von jemandem entsperrt werden der ihnen sehr ähnlich sieht, z. B. ein Kind oder ein identischer Zwilling.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">Per Face Unlock aufgezeichnete Daten werden dauerhaft und sicher gelöscht. Nach dem Entfernen benötigen Sie Ihre PIN, Ihr Muster oder Ihr Passwort, um Ihr Telefon zu entsperren.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Bestehenden Gesichtsscan entfernen und einen neuen Scan erstellen</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Gesichtsscan wiederholen</string>
+    <string name="face_redo_confirm_btn">Wiederholen</string>
+    <string name="face_redo_warning_msg">Möchten Sie den vorhandenen Gesichtsscan löschen und einen neuen Scan erstellen?</string>
+
 </resources>
