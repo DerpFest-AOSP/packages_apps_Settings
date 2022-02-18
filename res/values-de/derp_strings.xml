@@ -190,7 +190,6 @@
 
     <!-- Custom actions -->
     <string name="action_nothing">Keine Aktion</string>
-    <string name="action_search">Assistant öffnen</string>
     <string name="action_voice_search">Sprachsuche starten</string>
     <string name="action_launch_camera">Kamera öffnen</string>
     <string name="action_flashlight">Taschenlampe ein/aus</string>
