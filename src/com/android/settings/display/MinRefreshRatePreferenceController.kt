@@ -97,7 +97,12 @@ class MinRefreshRatePreferenceController(
             Settings.System.MIN_REFRESH_RATE,
             DEFAULT_REFRESH_RATE,
         )
-        updateStateInternal(currentValue)
+        updateStateInternal(
+            if (currentValue == NO_CONFIG)
+                DEFAULT_REFRESH_RATE
+            else
+                currentValue
+        )
     }
 
     private fun updateStateInternal(currentValue: Float) {
@@ -146,6 +151,7 @@ class MinRefreshRatePreferenceController(
         private val refreshRateRegex = Regex("[0-9]+")
 
         private const val INVALID_REFRESH_RATE = -1f
+        private const val NO_CONFIG = 0f
         private const val DEFAULT_REFRESH_RATE = 60f
     }
 }
