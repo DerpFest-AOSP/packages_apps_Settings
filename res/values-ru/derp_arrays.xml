@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 DerpFest
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <!-- Random summary -->
+    <string-array name="derpspace_summaries">
+        <item>Внимание: впереди безумно крутые вещи!</item>
+        <item>Достаточно интересный слоган.  Бла бла бла...</item>
+        <item>Приготовьтесь погрузиться в мир воображения</item>
+        <item>Склад костылей</item>
+        <item>DerpSpace. Будет хорошо туда зайти</item>
+        <item>Пространство сумасшедших вещей</item>
+        <item>Эти фичи хороши</item>
+        <item>Берегись! Сзади тебя!</item>
+        <item>Хоть вы и равны, но ты проиграешь</item>
+        <item>Все что мне нужно - ЭТО ПОТРАХАТЬСЯ С ДИСКЕТОЙ</item>
+        <item>Никогда не позволяй школе мешать твоему обучению</item>
+        <item>Ваша жизнь была бы очень пустой, если бы вам не о чем было сожалеть</item>
+        <item>Слава может быть мимолетной, но без известность навсегда</item>
+        <item>Эта запись УНИЧТОЖИТСЯ через 5 минут</item>
+        <item>Не суди книгу, по обложке</item>
+        <item>Надо немного подшаманить</item>
+        <item>Тот, кто смеется последним, не понял шутки</item>
+        <item>Если гора не идет к Магомету, то Магомет идет к горе</item>
+        <item>Если есть завещание, то есть и налог на него</item>
+        <item>Это несанкционированное кибернетическое объявление</item>
+        <item>Никогда не сдавайся</item>
+        <item>Ты еще не чувствовал настоящей боли</item>
+        <item>Когда все другие средства коммуникации не работают, попробуйте слова</item>
+        <item>Никогда не ешь ничего больше своей головы</item>
+        <item>Чрезмерное количество сообщений о входе или выходе из системы — верный признак старческого маразма.</item>
+        <item>Да пребудет с вами праздник</item>
+        <item>Пускай хейтер хейтит</item>
+        <item>Кастомизируй как хочешь</item>
+        <item>Не думай, кастомизируй</item>
+        <item>А ты знаешь что такое БЕЗУМИЕ?</item>
+        <item>Это выглядит достаточно круто</item>
+        <item>С большой властью, приходит большая ответственность</item>
+        <item>Твой дружелюбный сосед Тупая Сова</item>
+        <item>Не спи! Действуй!</item>
+        <item>Neobuddy не потерпит этого</item>
+        <item>Неприятности случаются, но иногда случаются и с тобой</item>
+    </string-array>
+
+</resources>
