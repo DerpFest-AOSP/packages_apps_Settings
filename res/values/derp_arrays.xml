@@ -292,7 +292,6 @@
 
     <!-- App lock timeout -->
     <string-array name="app_lock_timeout_entries">
-        <item>Immediately</item>
         <item>5 seconds</item>
         <item>10 seconds</item>
         <item>30 seconds</item>
@@ -303,7 +302,6 @@
     </string-array>
 
     <string-array name="app_lock_timeout_values" translatable="false">
-        <item>0</item>
         <item>5000</item>
         <item>10000</item>
         <item>30000</item>
