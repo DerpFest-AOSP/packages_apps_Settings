@@ -18,20 +18,16 @@ package com.android.settings.fuelgauge;
 
 import static com.android.settings.fuelgauge.BatteryBroadcastReceiver.BatteryUpdateType;
 
+import android.app.AlertDialog;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
-import android.database.ContentObserver;
-import android.net.Uri;
-import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.BatteryManager;
+import android.database.ContentObserver;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.provider.Settings.Global;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import androidx.preference.Preference;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.loader.app.LoaderManager;
@@ -68,14 +64,13 @@ public class PowerUsageSummary extends PowerUsageBase implements
     @VisibleForTesting
     static final String KEY_BATTERY_USAGE = "battery_usage_summary";
 
+    private static final String KEY_BATTERY_USAGE_RESET = "battery_stats_reset";
     private static final String KEY_BATTERY_TEMP = "battery_temp";
 
     @VisibleForTesting
     static final int BATTERY_INFO_LOADER = 1;
     @VisibleForTesting
     static final int BATTERY_TIP_LOADER = 2;
-
-    static final int MENU_STATS_RESET = Menu.FIRST + 1;
 
     @VisibleForTesting
     PowerUsageFeatureProvider mPowerFeatureProvider;
@@ -197,6 +192,9 @@ public class PowerUsageSummary extends PowerUsageBase implements
                         .setTitleRes(R.string.advanced_battery_title)
                         .launch();
             return true;
+        } else if (KEY_BATTERY_USAGE_RESET.equals(preference.getKey())) {
+            resetStats();
+            return true;
         }
         return super.onPreferenceTreeClick(preference);
     }
@@ -232,33 +230,6 @@ public class PowerUsageSummary extends PowerUsageBase implements
     }
 
     @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        MenuItem reset = menu.add(0, MENU_STATS_RESET, 0, R.string.battery_stats_reset)
-                .setIcon(R.drawable.ic_reset)
-                .setAlphabeticShortcut('r');
-        reset.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
-
-        super.onCreateOptionsMenu(menu, inflater);
-    }
-
-    private void resetStats() {
-        BatteryManager batteryManager = getContext().getSystemService(BatteryManager.class);
-        AlertDialog dialog = new AlertDialog.Builder(getActivity())
-            .setTitle(R.string.battery_stats_reset)
-            .setMessage(R.string.battery_stats_message)
-            .setPositiveButton(R.string.battery_stats_clear, new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    batteryManager.resetStatistics();
-                    refreshUi(BatteryUpdateType.MANUAL);
-                }
-            })
-            .setNegativeButton(R.string.cancel, null)
-            .create();
-        dialog.show();
-    }
-
-    @Override
     public int getHelpResource() {
         return R.string.help_url_battery;
     }
@@ -266,17 +237,6 @@ public class PowerUsageSummary extends PowerUsageBase implements
     @Override
     protected boolean isBatteryHistoryNeeded() {
         return false;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case MENU_STATS_RESET:
-                resetStats();
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
     }
 
     protected void refreshUi(@BatteryUpdateType int refreshType) {
@@ -367,6 +327,23 @@ public class PowerUsageSummary extends PowerUsageBase implements
     @Override
     public void onBatteryTipHandled(BatteryTip batteryTip) {
         restartBatteryTipLoader();
+    }
+
+    private void resetStats() {
+        BatteryManager batteryManager = getContext().getSystemService(BatteryManager.class);
+        AlertDialog dialog = new AlertDialog.Builder(getActivity())
+            .setTitle(R.string.battery_stats_reset)
+            .setMessage(R.string.battery_stats_message)
+            .setPositiveButton(R.string.battery_stats_clear, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    batteryManager.resetStatistics();
+                    refreshUi(BatteryUpdateType.MANUAL);
+                }
+            })
+            .setNegativeButton(R.string.cancel, null)
+            .create();
+        dialog.show();
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =

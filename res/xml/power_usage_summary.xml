@@ -45,6 +45,20 @@
         settings:keywords="@string/keywords_battery_usage" />
 
     <Preference
+        android:key="battery_stats_reset"
+        android:title="@string/battery_stats_reset_title"
+        android:dependency="power_usage_provider_google"
+        settings:keywords="@string/keywords_battery_usage" />
+
+    <SwitchPreference
+        android:key="power_usage_provider_google"
+        android:title="@string/powerusage_provider_google"
+        android:summary="@string/power_usage_provider_summary"
+        android:defaultValue="true"
+        android:disableDependentsState="true"
+        settings:controller="com.android.settings.fuelgauge.GooglePowerUsageProviderPreferenceController" />
+
+    <Preference
         android:fragment="com.android.settings.fuelgauge.batterysaver.BatterySaverSettings"
         android:key="battery_saver_summary"
         android:title="@string/battery_saver"
@@ -64,12 +78,6 @@
         settings:iconSpaceReserved="false"
         android:summary="@string/arcane_idle_manager_summary"
         android:defaultValue="false" />
-
-    <SwitchPreference
-        android:key="power_usage_provider_google"
-        android:title="@string/powerusage_provider_google"
-        android:summary="@string/power_usage_provider_summary"
-        settings:controller="com.android.settings.fuelgauge.GooglePowerUsageProviderPreferenceController" />
 
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="battery_temp"
