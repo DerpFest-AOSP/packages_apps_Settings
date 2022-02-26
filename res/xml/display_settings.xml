@@ -235,6 +235,12 @@
             android:defaultValue="false"
             settings:controller="com.android.settings.derp.touch.HighTouchSensitivitySettingsPreferenceController" />
 
+        <SwitchPreference
+            android:key="enable_blurs_on_windows"
+            android:title="@string/enable_blurs_on_windows_title"
+            android:summary="@string/enable_blurs_on_windows_summary"
+            settings:controller="com.android.settings.display.EnableBlursPreferenceController" />
+
         <ListPreference
             android:key="theme"
             android:title="@string/device_theme"
