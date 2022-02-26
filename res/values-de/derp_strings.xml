@@ -504,4 +504,8 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Ein-/Aus-Menü auf dem Sperrbildschirm</string>
     <string name="lockscreen_enable_power_menu_summary">Zugriff auf Ein-/Aus-Menü vom gesperrten Sperrbildschirm aus erlauben</string>
+
+    <!-- If blurs are supported on SurfaceFlinger. [CHAR LIMIT=60] -->
+    <string name="enable_blurs_on_windows_title">Weichzeichnen aktivieren</string>
+    <string name="enable_blurs_on_windows_summary">Aktiviert einen Weichzeichnen-Effekt in einigen Elementen der Benutzeroberfläche</string>
 </resources>
