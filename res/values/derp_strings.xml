@@ -572,4 +572,8 @@
     <string name="haptic_on_brightness_slider_summary">Provide haptic feedback on changing brightness using slider</string>
     <string name="haptic_on_power_menu_title">Power menu</string>
     <string name="haptic_on_power_menu_summary">Provide haptic feedback on power menu actions</string>
+
+    <!-- If blurs are supported on SurfaceFlinger. [CHAR LIMIT=60] -->
+    <string name="enable_blurs_on_windows_title">Enable blurs</string>
+    <string name="enable_blurs_on_windows_summary">Enables blur effect in some UI elements</string>
 </resources>

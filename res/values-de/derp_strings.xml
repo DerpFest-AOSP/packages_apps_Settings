@@ -547,4 +547,8 @@
     <string name="haptic_on_brightness_slider_summary">Haptisches Feedback bei Helligkeitsregelung mithilfe des Schiebereglers</string>
     <string name="haptic_on_power_menu_title">Ein-/Aus-Menü</string>
     <string name="haptic_on_power_menu_summary">Haptisches Feedback beim Berühren von Ein-/Aus-Menüelementen</string>
+
+    <!-- If blurs are supported on SurfaceFlinger. [CHAR LIMIT=60] -->
+    <string name="enable_blurs_on_windows_title">Weichzeichnen aktivieren</string>
+    <string name="enable_blurs_on_windows_summary">Aktiviert einen Weichzeichnen-Effekt in einigen Elementen der Benutzeroberfläche</string>
 </resources>
