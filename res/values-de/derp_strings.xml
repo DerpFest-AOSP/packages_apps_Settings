@@ -453,4 +453,7 @@
     <string name="face_unlock_method_swipe">Beim Wischen auf dem Sperrbildschirm</string>
     <string name="skip_biometric_auth_confirmation_title">Manuelle Bestätigung überspringen</string>
 
+    <!-- Blur -->
+    <string name="window_blur">Weichzeichnen aktivieren</string>
+
 </resources>

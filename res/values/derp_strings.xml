@@ -472,4 +472,7 @@
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
     <string name="skip_biometric_auth_confirmation_title">Skip manually confirmation</string>
 
+    <!-- Blur -->
+    <string name="window_blur">Enable blur</string>
+
 </resources>
