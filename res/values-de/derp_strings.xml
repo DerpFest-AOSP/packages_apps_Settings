@@ -38,4 +38,8 @@
     <string name="heads_up_title">Pop-up</string>
     <string name="heads_up_summary">Wichtige Benachrichtigungen in einem kleinen, schwebenden Fenster anzeigen</string>
     <string name="heads_up_off">Pop-ups sind global deaktiviert</string>
+
+    <!-- If blurs are supported on SurfaceFlinger. [CHAR LIMIT=60] -->
+    <string name="enable_blurs_on_windows_title">Weichzeichnen aktivieren</string>
+    <string name="enable_blurs_on_windows_summary">Aktiviert einen Weichzeichnen-Effekt in einigen Elementen der Benutzeroberfläche</string>
 </resources>
