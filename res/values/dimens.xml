@@ -90,7 +90,7 @@
 
     <!-- Avatar -->
     <dimen name="avatar_length">48dp</dimen>
-    <dimen name="avatar_margin_top">56dp</dimen>
+    <dimen name="avatar_margin_top">104dp</dimen>
     <dimen name="avatar_margin_end">24dp</dimen>
     <dimen name="multiple_users_avatar_size">20dp</dimen>
     <dimen name="multiple_users_user_icon_size">40dp</dimen>
