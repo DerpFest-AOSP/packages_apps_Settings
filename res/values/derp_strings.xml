@@ -913,4 +913,7 @@
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Show Ambient</string>
     <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
+
+    <!-- Skip biometric manual confirmation -->
+    <string name="skip_biometric_auth_confirmation_title">Skip manual confirmation</string>
 </resources>
