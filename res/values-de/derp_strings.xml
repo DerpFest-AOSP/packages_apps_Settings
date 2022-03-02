@@ -600,4 +600,8 @@
     <string name="high_touch_polling_rate_title">Hohe Touchscreen-Abtastrate</string>
     <string name="high_touch_polling_rate_summary">Touchscreen-Abtastrate erhöhen</string>
 
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Verstecktes Netzwerk</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Der Name des mobilen Hotspots erscheint nicht in der Liste der verfügbaren WLAN-Netzwerke.</string>
+
 </resources>

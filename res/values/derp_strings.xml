@@ -644,4 +644,8 @@
     <string name="high_touch_polling_rate_title">High touch polling rate</string>
     <string name="high_touch_polling_rate_summary">Increase touchscreen polling rate</string>
 
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
+
 </resources>
