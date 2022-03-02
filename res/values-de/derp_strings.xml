@@ -713,4 +713,8 @@
 
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone2_title">Klingelton - SIM 2</string>
+
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Verstecktes Netzwerk</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Der Name des mobilen Hotspots erscheint nicht in der Liste der verfügbaren WLAN-Netzwerke.</string>
 </resources>
