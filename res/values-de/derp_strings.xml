@@ -668,4 +668,8 @@
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Ton bei Screenshot</string>
 
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Verstecktes Netzwerk</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Der Name des mobilen Hotspots erscheint nicht in der Liste der verfügbaren WLAN-Netzwerke.</string>
+
 </resources>
