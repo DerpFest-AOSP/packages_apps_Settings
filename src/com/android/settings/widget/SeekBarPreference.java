@@ -24,6 +24,7 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.KeyEvent;
@@ -67,9 +68,13 @@ public class SeekBarPreference extends RestrictedPreference
     private CharSequence mSeekBarStateDescription;
     private OnSeekBarChangeListener mOnSeekBarChangeListener;
 
+    public Context mContext;
+
     public SeekBarPreference(
             Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
+
+        mContext = context;
 
         TypedArray a = context.obtainStyledAttributes(
                 attrs, com.android.internal.R.styleable.ProgressBar, defStyleAttr, defStyleRes);
@@ -293,11 +298,17 @@ public class SeekBarPreference extends RestrictedPreference
                 setProgress(progress, false);
                 switch (mHapticFeedbackMode) {
                     case HAPTIC_FEEDBACK_MODE_ON_TICKS:
-                        seekBar.performHapticFeedback(CLOCK_TICK);
+                        if (Settings.System.getInt(mContext.getContentResolver(),
+                                Settings.System.HAPTIC_ON_SLIDER, 1) == 1) {
+                            seekBar.performHapticFeedback(CLOCK_TICK);
+                        }
                         break;
                     case HAPTIC_FEEDBACK_MODE_ON_ENDS:
                         if (progress == mMax || progress == mMin) {
-                            seekBar.performHapticFeedback(CLOCK_TICK);
+                            if (Settings.System.getInt(mContext.getContentResolver(),
+                                    Settings.System.HAPTIC_ON_SLIDER, 1) == 1) {
+                                seekBar.performHapticFeedback(CLOCK_TICK);
+                            }
                         }
                         break;
                 }

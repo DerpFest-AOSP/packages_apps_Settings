@@ -537,4 +537,8 @@
     <string name="haptic_on_switch_summary">Haptisches Feedback beim Berühren von Einstellungen</string>
     <string name="haptic_on_statusbar_title">Statusleiste</string>
     <string name="haptic_on_statusbar_summary">Haptisches Feedback beim Berühren der Statusleiste</string>
+    <string name="haptic_on_slider_title">Schieberegler für Einstellungen</string>
+    <string name="haptic_on_slider_summary">Haptisches Feedback beim Ändern des Schiebereglerwertes</string>
+    <string name="haptic_on_volume_slider_title">Lautstärke-Schieberegler</string>
+    <string name="haptic_on_volume_slider_summary">Haptisches Feedback bei Lautstärkeregelung mithilfe des Schiebereglers</string>
 </resources>
