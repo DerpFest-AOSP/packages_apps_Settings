@@ -170,7 +170,7 @@ public class WifiTetherSettingsTest {
         assertThat(keys).doesNotContain(WifiTetherSettings.KEY_WIFI_TETHER_SECURITY);
         assertThat(keys).doesNotContain(WifiTetherSettings.KEY_WIFI_TETHER_NETWORK_PASSWORD);
         assertThat(keys).doesNotContain(WifiTetherSettings.KEY_WIFI_TETHER_AUTO_OFF);
-        assertThat(keys).doesNotContain(WifiTetherSettings.KEY_WIFI_TETHER_MAXIMIZE_COMPATIBILITY);
+        assertThat(keys).doesNotContain(WifiTetherSettings.KEY_WIFI_TETHER_AP_BAND);
         assertThat(keys).doesNotContain(WifiTetherSettings.KEY_WIFI_TETHER_HIDDEN_SSID);
     }
 
@@ -187,7 +187,7 @@ public class WifiTetherSettingsTest {
         assertThat(keys).contains(WifiTetherSettings.KEY_WIFI_TETHER_SECURITY);
         assertThat(keys).contains(WifiTetherSettings.KEY_WIFI_TETHER_NETWORK_PASSWORD);
         assertThat(keys).contains(WifiTetherSettings.KEY_WIFI_TETHER_AUTO_OFF);
-        assertThat(keys).contains(WifiTetherSettings.KEY_WIFI_TETHER_MAXIMIZE_COMPATIBILITY);
+        assertThat(keys).contains(WifiTetherSettings.KEY_WIFI_TETHER_AP_BAND);
         assertThat(keys).contains(WifiTetherSettings.KEY_WIFI_TETHER_HIDDEN_SSID);
     }
 
@@ -204,7 +204,7 @@ public class WifiTetherSettingsTest {
         assertThat(keys).contains(WifiTetherSettings.KEY_WIFI_TETHER_SECURITY);
         assertThat(keys).contains(WifiTetherSettings.KEY_WIFI_TETHER_NETWORK_PASSWORD);
         assertThat(keys).contains(WifiTetherSettings.KEY_WIFI_TETHER_AUTO_OFF);
-        assertThat(keys).contains(WifiTetherSettings.KEY_WIFI_TETHER_MAXIMIZE_COMPATIBILITY);
+        assertThat(keys).contains(WifiTetherSettings.KEY_WIFI_TETHER_AP_BAND);
         assertThat(keys).contains(WifiTetherSettings.KEY_WIFI_TETHER_HIDDEN_SSID);
     }
 
@@ -221,7 +221,7 @@ public class WifiTetherSettingsTest {
         assertThat(keys).contains(WifiTetherSettings.KEY_WIFI_TETHER_SECURITY);
         assertThat(keys).contains(WifiTetherSettings.KEY_WIFI_TETHER_NETWORK_PASSWORD);
         assertThat(keys).contains(WifiTetherSettings.KEY_WIFI_TETHER_AUTO_OFF);
-        assertThat(keys).contains(WifiTetherSettings.KEY_WIFI_TETHER_MAXIMIZE_COMPATIBILITY);
+        assertThat(keys).contains(WifiTetherSettings.KEY_WIFI_TETHER_AP_BAND);
         assertThat(keys).contains(WifiTetherSettings.KEY_WIFI_TETHER_HIDDEN_SSID);
     }
 
