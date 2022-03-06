@@ -362,12 +362,13 @@
     <string name="derp_settings_keys_category_title">Кнопки</string>
 
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Адаптивное воспроизведение</string>
-    <string name="adaptive_playback_enabled">Использовать адаптивное воспроизведение</string>
+    <string name="adaptive_playback_screen_title">Умная пауза</string>
+    <string name="adaptive_playback_enabled">Включить Умную паузу</string>
     <string name="adaptive_playback_disabled_summary">Выключено</string>
-    <string name="adaptive_playback_timeout_title">Используйте тайм-аут</string>
-    <string name="adaptive_playback_timeout_none">Нет тайм-аута</string>
-    <string name="adaptive_playback_timeout_none_summary">Включено (без тайм-аута)</string>
+    <string name="adaptive_playback_intro_text">Автоматически приостанавливает воспроизведение мультимедиа, когда звук отключен, и автоматически возобновляет воспроизведение, когда громкость восстанавливается в течение установленного времени.</string>
+    <string name="adaptive_playback_timeout_title">Задержка в </string>
+    <string name="adaptive_playback_timeout_none">Без задержки</string>
+    <string name="adaptive_playback_timeout_none_summary">Включено (без задержки)</string>
     <string name="adaptive_playback_timeout_30_secs">30 секунд</string>
     <string name="adaptive_playback_timeout_30_secs_summary">Включено (30 секунд)</string>
     <string name="adaptive_playback_timeout_1_min">1 минута</string>
@@ -377,8 +378,7 @@
     <string name="adaptive_playback_timeout_5_min">5 минут</string>
     <string name="adaptive_playback_timeout_5_min_summary">Включено (5 минут)</string>
     <string name="adaptive_playback_timeout_10_min">10 минут</string>
-    <string name="adaptive_playback_timeout_10_min_summary">Вклбчено (10 минут)</string>
-    <string name="adaptive_playback_explainer">Адаптивное воспроизведение автоматически приостанавливает воспроизведение мультимедиа при отключении звука и автоматически возобновляется, когда громкость восстанавливается в течение установленного времени.</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Включено (10 минут)</string>
 
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Отключить меню питания на экране блокировки</string>
