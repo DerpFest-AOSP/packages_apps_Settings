@@ -44,10 +44,9 @@
         android:persistent="false"
         android:title="@string/wifi_hotspot_password_title"/>
 
-    <SwitchPreferenceCompat
+    <com.android.settings.derpfest.tether.preference.WifiTetherAutoOffPreference
         android:key="wifi_tether_auto_turn_off"
-        android:title="@string/wifi_hotspot_auto_off_title"
-        android:summary="@string/wifi_hotspot_auto_off_summary"/>
+        android:title="@string/wifi_hotspot_auto_off_title"/>
 
     <ListPreference
         android:key="wifi_tether_network_ap_band"
