@@ -66,6 +66,8 @@ import com.android.settings.widget.SettingsMainSwitchBar;
 import com.android.settings.wifi.factory.WifiFeatureProvider;
 import com.android.settings.wifi.repository.WifiHotspotRepository;
 
+import com.android.settings.derp.tether.WifiTetherAutoOffPreferenceController;
+
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;

@@ -720,4 +720,9 @@
     <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
     <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
     <string name="wifi_band_60ghz">60 GHz</string>
+    <plurals name="wifi_hotspot_auto_off_timeout">
+        <item quantity="other">Ausschalten, wenn kein Gerät angeschlossen ist für <xliff:g id="DURATION">%1$d</xliff:g> Minuten</item>
+        <item quantity="one">Ausschalten, wenn kein Gerät angeschlossen ist für <xliff:g id="DURATION">%1$d</xliff:g> Minuten</item>
+    </plurals>
+    <string name="wifi_hotspot_auto_off_timeout_never">Hotspot niemals ausschalten</string>
 </resources>
