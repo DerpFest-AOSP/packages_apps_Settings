@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 DerpFest
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="wifi_hotspot_auto_off_timeout">
+        <item quantity="other">Ausschalten, wenn kein Gerät angeschlossen ist für <xliff:g id="DURATION">%1$d</xliff:g> Minuten</item>
+        <item quantity="one">Ausschalten, wenn kein Gerät angeschlossen ist für <xliff:g id="DURATION">%1$d</xliff:g> Minuten</item>
+    </plurals>
+</resources>
