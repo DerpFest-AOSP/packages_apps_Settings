@@ -462,5 +462,6 @@
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Verstecktes Netzwerk</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Der Name des mobilen Hotspots erscheint nicht in der Liste der verfügbaren WLAN-Netzwerke.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Hotspot niemals ausschalten</string>
 
 </resources>
