@@ -56,7 +56,8 @@
         android:icon="@drawable/ic_settings_derpspace"
         android:order="-130"
         android:fragment="org.derpfest.derpspace.DerpSpace"
-        settings:controller="org.derpfest.derpspace.TopLevelDerpSpaceEntryPreferenceController" />
+        settings:controller="org.derpfest.derpspace.TopLevelDerpSpaceEntryPreferenceController"
+        settings:highlightableMenuKey="@string/menu_key_derp" />
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.notification.ConfigureNotificationSettings"

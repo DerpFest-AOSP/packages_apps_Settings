@@ -141,4 +141,9 @@ public class AppVolumeSlice implements CustomSliceable {
     public Intent getIntent() {
         return null;
     }
+
+    @Override
+    public int getSliceHighlightMenuRes() {
+        return 0;
+    }
 }

@@ -27,6 +27,7 @@ import android.widget.Switch;
 
 import androidx.preference.PreferenceScreen;
 
+import com.android.settings.R;
 import com.android.settings.widget.SettingsMainSwitchPreferenceController;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnStart;
@@ -84,6 +85,11 @@ public class AdaptivePlaybackSwitchPreferenceController extends
         Settings.System.putIntForUser(mContext.getContentResolver(),
                 Settings.System.ADAPTIVE_PLAYBACK_ENABLED, isChecked ? 1 : 0,
                 UserHandle.USER_CURRENT);
+    }
+
+    @Override
+    public int getSliceHighlightMenuRes() {
+        return R.string.menu_key_sound;
     }
 
     private final class SettingsObserver extends ContentObserver {

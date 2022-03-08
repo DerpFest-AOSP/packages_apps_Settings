@@ -97,4 +97,9 @@ public class OneHandedEnablePreferenceController extends TogglePreferenceControl
     public void onStop() {
         mOneHandedUtils.unregisterToggleAwareObserver();
     }
+
+    @Override
+    public int getSliceHighlightMenuRes() {
+        return R.string.menu_key_system;
+    }
 }
