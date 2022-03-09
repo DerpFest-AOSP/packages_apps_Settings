@@ -21,6 +21,7 @@ import android.content.Intent;
 import android.os.Build;
 import android.os.SystemClock;
 import android.os.UserHandle;
+import android.os.SystemProperties;
 import android.os.UserManager;
 import android.text.TextUtils;
 import android.util.Log;
@@ -36,6 +37,9 @@ import com.android.settingslib.RestrictedLockUtils;
 import com.android.settingslib.RestrictedLockUtilsInternal;
 
 public class FirmwareVersionDetailPreferenceController extends BasePreferenceController {
+
+    @VisibleForTesting
+    private static final String XD_PLATFORM_RELEASE_OR_CODENAME = "ro.derp.settings.android_version";
 
     private static final String TAG = "firmwareDialogCtrl";
     private static final int DELAY_TIMER_MILLIS = 500;
@@ -75,7 +79,8 @@ public class FirmwareVersionDetailPreferenceController extends BasePreferenceCon
 
     @Override
     public CharSequence getSummary() {
-        return Build.VERSION.RELEASE_OR_CODENAME;
+        return SystemProperties.get(XD_PLATFORM_RELEASE_OR_CODENAME, 
+            Build.VERSION.RELEASE_OR_CODENAME);
     }
 
     @Override
