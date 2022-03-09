@@ -302,4 +302,9 @@
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">Fingerabdrucksensor lange drücken, um das Gerät zu entsperren</string>
     <string name="screen_off_fod_summary">Um Ihren Bildschirm aufzuwecken und zu entsperren, lange auf Ihren Fingerabdrucksensor unter dem Bildschirm drücken.</string>
+
+    <!-- Applications: Long screen -->
+    <string name="long_screen_settings_title">Vollbild-Apps</string>
+    <string name="long_screen_settings_summary">Ältere Anwendungen zu Vollbild zwingen</string>
+    <string name="long_screen_settings_no_apps">Keine Apps</string>
 </resources>

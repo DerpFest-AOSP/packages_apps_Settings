@@ -310,4 +310,9 @@
     <!-- Screen off FOD -->
     <string name="screen_off_fod_title">Screen off FOD</string>
     <string name="screen_off_fod_summary">Keep FOD enabled when the screen is off</string>
+
+    <!-- Applications: Long screen -->
+    <string name="long_screen_settings_title">Full screen apps</string>
+    <string name="long_screen_settings_summary">Force legacy apps to use full screen aspect ratio</string>
+    <string name="long_screen_settings_no_apps">No apps</string>
 </resources>
