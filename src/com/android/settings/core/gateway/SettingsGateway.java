@@ -174,6 +174,8 @@ import com.android.settings.livedisplay.LiveDisplaySettings;
 import org.derpfest.derpspace.DerpSpace;
 import org.derpfest.derpspace.fragments.HeadsUpSettings;
 
+import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
+
 public class SettingsGateway {
 
     /**
@@ -333,7 +335,8 @@ public class SettingsGateway {
             LiveDisplaySettings.class.getName(),
             DerpSpace.class.getName(),
             RunningServices.class.getName(),
-            HeadsUpSettings.class.getName()
+            HeadsUpSettings.class.getName(),
+            WifiTetherClientManager.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
