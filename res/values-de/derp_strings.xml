@@ -725,4 +725,20 @@
         <item quantity="one">Ausschalten, wenn kein Gerät angeschlossen ist für <xliff:g id="DURATION">%1$d</xliff:g> Minuten</item>
     </plurals>
     <string name="wifi_hotspot_auto_off_timeout_never">Hotspot niemals ausschalten</string>
+    <string name="wifi_hotspot_client_manager_title">Verbundene Geräte</string>
+    <string name="wifi_hotspot_client_manager_summary">Mit dem Hotspot verbundene Geräte auflisten und verwalten und die Anzahl der Clients begrenzen</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Mit dem Hotspot verbundene Geräte auflisten</string>
+    <string name="wifi_hotspot_client_limit_title">Begrenzung der verbundenen Geräte</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">Bis zu <xliff:g id="device_num">%1$d</xliff:g> Geräte können sich mit diesem Hotspot verbinden</item>
+        <item quantity="one">Bis zu <xliff:g id="device_num">%1$d</xliff:g> Gerät kann sich mit diesem Hotspot verbinden</item>
+    </plurals>
+
+    <string name="wifi_hotspot_blocked_clients_list_title">Blockierte Geräte</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Verbundene Geräte</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Gerät blockieren</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Diese Aktion wird die Verbindung zu dem Gerät \"<xliff:g id="device_name">%1$s</xliff:g>\" trennen und es der Sperrliste hinzufügen</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Gerät entsperren</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Das Gerät \"<xliff:g id="device_name">%1$s</xliff:g>\" kann sich mit diesem Hotspot verbinden</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Derzeit sind keine Clients verfügbar. Verbundene und blockierte Geräte werden hier aufgelistet, sofern verfügbar.</string>
 </resources>

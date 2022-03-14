@@ -50,6 +50,7 @@ import com.android.settingslib.wifi.WifiEnterpriseRestrictionUtils;
 
 import com.android.settings.derp.tether.WifiTetherHiddenSsidPreferenceController;
 import com.android.settings.derp.tether.WifiTetherAutoOffPreferenceController;
+import com.android.settings.derp.tether.WifiTetherClientManagerPreferenceController;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -80,6 +81,9 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
     static final String KEY_INSTANT_HOTSPOT = "wifi_hotspot_instant";
     static final String KEY_WIFI_TETHER_HIDDEN_SSID =
             WifiTetherHiddenSsidPreferenceController.PREF_KEY;
+    @VisibleForTesting
+    static final String KEY_WIFI_TETHER_CLIENT_MANAGER =
+            WifiTetherClientManagerPreferenceController.PREF_KEY;
 
     @VisibleForTesting
     SettingsMainSwitchBar mMainSwitchBar;
@@ -98,6 +102,8 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
     WifiTetherApBandPreferenceController mApBandPrefController;
     @VisibleForTesting
     WifiTetherAutoOffPreferenceController mAutoOffPrefController;
+    @VisibleForTesting
+    WifiTetherClientManagerPreferenceController mClientPrefController;
 
     @VisibleForTesting
     boolean mUnavailable;
@@ -208,6 +214,7 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
         mWifiTetherAutoOffPreferenceController = use(WifiTetherAutoOffPreferenceController.class);
         mHiddenSsidPrefController = use(WifiTetherHiddenSsidPreferenceController.class);
         mAutoOffPrefController = use(WifiTetherAutoOffPreferenceController.class);
+        mClientPrefController = use(WifiTetherClientManagerPreferenceController.class);
     }
 
     @Override
@@ -293,6 +300,7 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
                 new WifiTetherAutoOffPreferenceController(context, KEY_WIFI_TETHER_AUTO_OFF));
         controllers.add(new WifiTetherApBandPreferenceController(context, listener));
         controllers.add(new WifiTetherHiddenSsidPreferenceController(context, listener));
+        controllers.add(new WifiTetherClientManagerPreferenceController(context, listener));
         return controllers;
     }
 
@@ -339,6 +347,7 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
         }
         configBuilder.setHiddenSsid(mHiddenSsidPrefController.isHiddenSsidEnabled());
         mAutoOffPrefController.updateConfig(configBuilder);
+        mClientPrefController.updateConfig(configBuilder);
         return configBuilder.build();
     }
 
@@ -382,6 +391,7 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
                 keys.add(KEY_WIFI_TETHER_AUTO_OFF);
                 keys.add(KEY_WIFI_TETHER_AP_BAND);
                 keys.add(KEY_WIFI_TETHER_HIDDEN_SSID);
+                keys.add(KEY_WIFI_TETHER_CLIENT_MANAGER);
             }
 
             // Remove duplicate
