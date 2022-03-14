@@ -8,4 +8,9 @@
         <item quantity="other">Ausschalten, wenn kein Gerät angeschlossen ist für <xliff:g id="DURATION">%1$d</xliff:g> Minuten</item>
         <item quantity="one">Ausschalten, wenn kein Gerät angeschlossen ist für <xliff:g id="DURATION">%1$d</xliff:g> Minuten</item>
     </plurals>
+
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">Bis zu <xliff:g id="device_num">%1$d</xliff:g> Geräte können sich mit diesem Hotspot verbinden</item>
+        <item quantity="one">Bis zu <xliff:g id="device_num">%1$d</xliff:g> Gerät kann sich mit diesem Hotspot verbinden</item>
+    </plurals>
 </resources>
