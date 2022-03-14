@@ -184,6 +184,8 @@ import com.android.settings.livedisplay.LiveDisplaySettings;
 
 import org.derpfest.derpspace.DerpSpace;
 
+import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
+
 public class SettingsGateway {
 
     /**
@@ -354,6 +356,7 @@ public class SettingsGateway {
             TurnScreenOnDetails.class.getName(),
             LiveDisplaySettings.class.getName(),
             DerpSpace.class.getName(),
+            WifiTetherClientManager.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
