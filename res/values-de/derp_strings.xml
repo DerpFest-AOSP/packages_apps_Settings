@@ -207,6 +207,11 @@
     <string name="action_mediaplay_action">Track abspielen/pausieren</string>
     <string name="action_ringer_modes">Ruftonmodus</string>
     <string name="kill_app">Vordergrund-App beenden</string>
+    <string name="skip_song">Nächster Track</string>
+    <string name="prev_song">Vorheriger Track</string>
+    <string name="show_powermenu">Ein-/Aus-Menü anzeigen</string>
+    <string name="partial_screenshot">Screenshot eines Bildschirmausschnitts</string>
+    <string name="hush_mute">Benachrichtigungen stummschalten</string>
 
     <!-- Long back swipe options -->
     <string name="navbar_gesture_tweaks_pref_title">Erweiterte Gesten</string>
