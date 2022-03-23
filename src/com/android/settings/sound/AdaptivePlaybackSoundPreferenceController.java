@@ -228,4 +228,10 @@ public class AdaptivePlaybackSoundPreferenceController extends BasePreferenceCon
             }
         }
     }
+
+    @Override
+    public int getSliceHighlightMenuRes() {
+        return R.string.menu_key_sound;
+    }
+
 }

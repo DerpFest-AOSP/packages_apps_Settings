@@ -87,11 +87,6 @@ public class AdaptivePlaybackSwitchPreferenceController extends
                 UserHandle.USER_CURRENT);
     }
 
-    @Override
-    public int getSliceHighlightMenuRes() {
-        return R.string.menu_key_sound;
-    }
-
     private final class SettingsObserver extends ContentObserver {
         private final Uri ADAPTIVE_PLAYBACK = Settings.System.getUriFor(
                 Settings.System.ADAPTIVE_PLAYBACK_ENABLED);
@@ -112,5 +107,10 @@ public class AdaptivePlaybackSwitchPreferenceController extends
                 mPreference.setChecked(isChecked());
             }
         }
+    }
+
+    @Override
+    public int getSliceHighlightMenuRes() {
+        return R.string.menu_key_sound;
     }
 }

@@ -79,4 +79,10 @@ public class AdaptivePlaybackParentPreferenceController extends BasePreferenceCo
         }
         return mContext.getText(summary);
     }
+
+    @Override
+    public int getSliceHighlightMenuRes() {
+        return R.string.menu_key_sound;
+    }
+
 }
