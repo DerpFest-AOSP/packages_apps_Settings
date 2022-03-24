@@ -147,6 +147,9 @@
     <!-- LiveDisplay -->
     <uses-permission android:name="lineageos.permission.MANAGE_LIVEDISPLAY" />
 
+    <!-- App lock -->
+    <uses-permission android:name="com.android.permission.MANAGE_APP_LOCK" />
+
     <application
             android:name=".SettingsApplication"
             android:label="@string/settings_label"
@@ -5032,6 +5035,27 @@
                   android:theme="@*android:style/Theme.DeviceDefault.Settings.Dialog.NoActionBar"
                   android:exported="false"/>
         <activity android:name=".privatespace.PrivateProfileContextHelperActivity" android:exported="false"/>
+
+        <!-- App lock -->
+        <activity android:name=".security.applock.AppLockCredentialActivity"
+            android:exported="false"
+            android:permission="com.android.permission.MANAGE_APP_LOCK"
+            android:excludeFromRecents="true"
+            android:stateNotNeeded="true"
+            android:taskAffinity="com.android.settings.applock"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.app.action.UNLOCK_APP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".security.applock.AppLockSubSettings"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:taskAffinity="com.android.settings.applock"
+            android:launchMode="singleTask" />
 
         <activity-alias android:name="UsageStatsActivity"
                         android:exported="true"

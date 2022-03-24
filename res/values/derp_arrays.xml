@@ -371,4 +371,25 @@
         <!-- Do not translate. -->
         <item>259200000</item>
     </string-array>
+
+    <!-- App lock timeout -->
+    <string-array name="app_lock_timeout_entries">
+        <item>@string/app_lock_timeout_5sec</item>
+        <item>@string/app_lock_timeout_10sec</item>
+        <item>@string/app_lock_timeout_30sec</item>
+        <item>@string/app_lock_timeout_1min</item>
+        <item>@string/app_lock_timeout_5min</item>
+        <item>@string/app_lock_timeout_10min</item>
+        <item>@string/app_lock_timeout_30min</item>
+    </string-array>
+
+    <string-array name="app_lock_timeout_values" translatable="false">
+        <item>5000</item>
+        <item>10000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>1800000</item>
+    </string-array>
 </resources>
