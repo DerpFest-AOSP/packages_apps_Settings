@@ -238,6 +238,8 @@
     <string name="long_label">Lang</string>
     <string name="lower_label">Niedrig</string>
     <string name="highest_label">Hoch</string>
+    <string name="thin_label">Schmal</string>
+    <string name="thick_label">Breit</string>
 
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Größe des Musters auswählen</string>

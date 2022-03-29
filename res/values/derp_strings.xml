@@ -261,6 +261,8 @@
     <string name="long_label">Long</string>
     <string name="lower_label">Low</string>
     <string name="highest_label">Highest</string>
+    <string name="thin_label">Thin</string>
+    <string name="thick_label">Thick</string>
 
     <!-- Lock screen pattern size -->
     <string name="lock_pattern_size_3" translatable="false">3 \u00d7 3</string>
