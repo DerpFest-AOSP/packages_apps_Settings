@@ -232,9 +232,12 @@
 
     <string name="gesture_navbar_length_title">Länge der Navbar-Pille</string>
     <string name="gesture_navbar_radius_title">Radius der Navbar-Pille</string>
+    <string name="gesture_navbar_margin_bottom_title">Unterer Rand der Navbar-Pille</string>
     <string name="medium_label">Mittel</string>
     <string name="short_label">Kurz</string>
     <string name="long_label">Lang</string>
+    <string name="lower_label">Niedrig</string>
+    <string name="highest_label">Hoch</string>
 
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Größe des Musters auswählen</string>
