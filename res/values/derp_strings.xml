@@ -328,7 +328,10 @@
     <!-- Gestures & Keys -->
     <string name="derp_settings_gestures_keys_title">Gestures &amp; Keys</string>
     <string name="derp_settings_gestures_category_title">Gestures</string>
-    <string name="derp_settings_keys_category_title">Keys</string>
+    <string name="gesture_navigation_category_title">Navigation</string>
+    <string name="gesture_screen_category_title">Screen</string>
+    <string name="gesture_power_button_category_title">Power button</string>
+    <string name="gesture_volume_buttons_category_title">Volume buttons</string>
 
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Smart Pause</string>

@@ -20,8 +20,8 @@
     android:title="@string/derp_settings_gestures_keys_title">
 
     <PreferenceCategory
-        android:key="gestures_settings_category"
-        android:title="@string/derp_settings_gestures_category_title">
+        android:key="gesture_navigation_category"
+        android:title="@string/gesture_navigation_category_title">
 
         <Preference
             android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings"
@@ -29,6 +29,18 @@
             android:title="@string/system_navigation_title"
             settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController"
             settings:keywords="@string/keywords_system_navigation" />
+
+        <com.android.settings.widget.PrimarySwitchPreference
+            android:key="gesture_one_handed"
+            android:title="@string/one_handed_title"
+            android:fragment="com.android.settings.gestures.OneHandedSettings"
+            settings:controller="com.android.settings.gestures.OneHandedEnablePreferenceController" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="gestures_settings_category"
+        android:title="@string/derp_settings_gestures_category_title">
 
         <Preference
             android:fragment="com.android.settings.gestures.AssistGestureSettings"
@@ -50,11 +62,17 @@
             settings:controller="com.android.settings.gestures.DoubleTwistPreferenceController"
             settings:searchable="false" />
 
-        <com.android.settings.widget.PrimarySwitchPreference
-            android:key="gesture_one_handed"
-            android:title="@string/one_handed_title"
-            android:fragment="com.android.settings.gestures.OneHandedSettings"
-            settings:controller="com.android.settings.gestures.OneHandedEnablePreferenceController" />
+        <Preference
+            android:key="three_finger_gesture_summary"
+            android:title="@string/three_finger_gesture"
+            android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
+            settings:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="gesture_screen_category"
+        android:title="@string/gesture_screen_category_title">
 
         <Preference
             android:fragment="com.android.settings.gestures.TapScreenGestureSettings"
@@ -91,23 +109,17 @@
             settings:searchable="false" />
 
         <Preference
-            android:key="three_finger_gesture_summary"
-            android:title="@string/three_finger_gesture"
-            android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
-            settings:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="keys_settings_category"
-        android:title="@string/derp_settings_keys_category_title">
-
-        <Preference
             android:fragment="com.android.settings.gestures.DoubleTapPowerSettings"
             android:key="gesture_double_tap_power_input_summary"
             android:title="@string/double_tap_power_for_camera_title"
             settings:controller="com.android.settings.gestures.DoubleTapPowerPreferenceController"
             settings:searchable="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="gesture_volume_buttons_category"
+        android:title="@string/gesture_volume_buttons_category_title">
 
         <com.android.settings.widget.PrimarySwitchPreference
             android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
@@ -143,6 +155,12 @@
             android:entries="@array/volume_key_cursor_control_entries"
             android:entryValues="@array/volume_key_cursor_control_values"
             android:defaultValue="0" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="gesture_power_button_category"
+        android:title="@string/gesture_power_button_category_title">
 
         <com.derp.support.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_power_menu_disabled"
