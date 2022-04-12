@@ -710,4 +710,36 @@
     <string name="custom_timeout_summary_4hours">4 Stunden</string>
     <string name="custom_timeout_summary_8hours">8 Stunden</string>
 
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Schlaf Modus</string>
+    <string name="sleep_mode_summary_on">Auf / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Aus / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Klingelmodus</string>
+    <string name="sleep_mode_ringer_off_title">Nicht ändern</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibration</string>
+    <string name="sleep_mode_ringer_dnd_title">Bitte nicht stören</string>
+    <string name="sleep_mode_ringer_silent_title">Stumm</string>
+    <string name="sleep_mode_schedule_sunset">Sonnenuntergang</string>
+    <string name="sleep_mode_schedule_sunrise">Sonnenaufgang</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Schaltet sich von Sonnenuntergang bis zu einer benutzerdefinierten Zeit ein</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Schaltet sich von einer benutzerdefinierten Zeit bis zum Sonnenaufgang ein</string>
+    <string name="sleep_mode_toggles_title">Schaltet um</string>
+    <string name="sleep_mode_wifi_toggle_title">WLAN ausschalten</string>
+    <string name="sleep_mode_wifi_toggle_summary">Deaktiviert WLAN, wenn der Schlafmodus aktiviert ist</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Bluetooth ausschalten</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Deaktiviert Bluetooth, wenn der Schlafmodus aktiviert ist</string>
+    <string name="sleep_mode_cellular_toggle_title">Mobile Daten ausschalten</string>
+    <string name="sleep_mode_cellular_toggle_summary">Deaktiviert mobile Daten, wenn der Schlafmodus aktiviert ist</string>
+    <string name="sleep_mode_location_toggle_title">Standort ausschalten</string>
+    <string name="sleep_mode_location_toggle_summary">Deaktiviert die Standortabfragen, wenn der Schlafmodus aktiviert ist</string>
+    <string name="sleep_mode_sensors_toggle_title">Sensoren ausschalten</string>
+    <string name="sleep_mode_sensors_toggle_summary">Deaktiviert die Sensoren, wenn der Schlafmodus aktiviert ist</string>
+    <string name="sleep_mode_extra_dark_toggle_title">Extra Dunkel aktivieren</string>
+    <string name="sleep_mode_extra_dark_toggle_summary">Aktiviert Extra dunkel, wenn der Schlafmodus eingeschaltet ist</string>
+    <string name="sleep_mode_alarm_blocker_toggle_title">Alarmblocker aktivieren</string>
+    <string name="sleep_mode_alarm_blocker_toggle_summary">Aktiviert den Alarmblocker, wenn der Schlafmodus eingeschaltet ist</string>
+    <string name="sleep_mode_wakelock_blocker_toggle_title">Wakelockblocker aktivieren</string>
+    <string name="sleep_mode_wakelock_blocker_toggle_summary">Aktiviert den Wakelock blocker, wenn der Schlafmodus eingeschaltet ist</string>
+    <string name="sleep_mode_display_text">Im Schlafmodus können Sie bestimmte Dienste deaktivieren, um den Akku zu schonen und Ihr Telefon stumm zu schalten, während Sie schlafen.</string>
+
 </resources>
