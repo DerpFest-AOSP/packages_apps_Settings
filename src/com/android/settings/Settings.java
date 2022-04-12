@@ -441,4 +441,7 @@ public class Settings extends SettingsActivity {
 
     // DerpSpace
     public static class DerpSpaceSettingsActivity extends SettingsActivity {}
+
+    // SleepMode
+    public static class SleepModeActivity extends SettingsActivity {}
 }
