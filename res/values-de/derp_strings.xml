@@ -481,6 +481,13 @@
     <string name="app_lock_notifications_disabled_summary">Sperren Sie zuerst eine App</string>
     <string name="app_lock_biometrics_allowed_title">Biometrie zum Entsperren aktivieren</string>
     <string name="app_lock_footer_text">Bubbles werden nach dem Timeout automatisch geschlossen</string>
+    <string name="app_lock_5_seconds">5 Sekunden</string>
+    <string name="app_lock_10_seconds">10 Sekunden</string>
+    <string name="app_lock_30_seconds">30 Sekunden</string>
+    <string name="app_lock_1_minute">1 Minute</string>
+    <string name="app_lock_5_minutes">5 Minuten</string>
+    <string name="app_lock_10_minutes">10 Minuten</string>
+    <string name="app_lock_30_minutes">30 Minuten</string>
 
     <!-- Sensor block per-package -->
     <string name="sensor_block_title">Sensoren blockieren</string>

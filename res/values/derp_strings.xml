@@ -527,6 +527,13 @@
     <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
     <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
     <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="app_lock_5_seconds">5 seconds</string>
+    <string name="app_lock_10_seconds">10 seconds</string>
+    <string name="app_lock_30_seconds">30 seconds</string>
+    <string name="app_lock_1_minute">1 minute</string>
+    <string name="app_lock_5_minutes">5 minutes</string>
+    <string name="app_lock_10_minutes">10 minutes</string>
+    <string name="app_lock_30_minutes">30 minutes</string>
 
     <!-- Sensor block per-package -->
     <string name="sensor_block_title">Block sensors</string>
