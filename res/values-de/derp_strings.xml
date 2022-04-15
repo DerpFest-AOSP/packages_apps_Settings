@@ -569,4 +569,7 @@
     <string name="columbus_setting_enable_switch_title">„Schnelltippen“ verwenden</string>
     <string name="columbus_setting_sensitivity_title">Stärkeres Tippen erforderlich</string>
 
+    <!-- Advanced gestures -->
+    <string name="navbar_gesture_tweaks_category">Erweiterte Gesten</string>
+
 </resources>

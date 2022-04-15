@@ -622,4 +622,7 @@
     <string name="columbus_setting_sensitivity_title">Require stronger taps</string>
     <string name="columbus_summary">%1$s / %2$s</string>
 
+    <!-- Advanced gestures -->
+    <string name="navbar_gesture_tweaks_category">Advanced gestures</string>
+
 </resources>
