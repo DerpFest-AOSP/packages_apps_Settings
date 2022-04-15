@@ -55,4 +55,10 @@
     <string name="incall_vibrate_connect_title">Vibrieren beim Verbinden</string>
     <string name="incall_vibrate_call_wait_title">Vibrieren beim Anklopfen</string>
     <string name="incall_vibrate_disconnect_title">Vibrieren beim Beenden des Anrufs</string>
+
+    <!-- Package details -->
+    <string name="package_details_group_title">Paketdetails</string>
+    <string name="package_name">Paketname</string>
+    <string name="package_version">App-Version</string>
+    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
 </resources>
