@@ -24,6 +24,8 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.os.VibrationEffect;
+import android.os.Vibrator;
 import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.AttributeSet;
@@ -69,12 +71,14 @@ public class SeekBarPreference extends RestrictedPreference
     private OnSeekBarChangeListener mOnSeekBarChangeListener;
 
     public Context mContext;
+    private Vibrator mVibrator;
 
     public SeekBarPreference(
             Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
 
         mContext = context;
+        mVibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
 
         TypedArray a = context.obtainStyledAttributes(
                 attrs, com.android.internal.R.styleable.ProgressBar, defStyleAttr, defStyleRes);
@@ -299,8 +303,15 @@ public class SeekBarPreference extends RestrictedPreference
                 switch (mHapticFeedbackMode) {
                     case HAPTIC_FEEDBACK_MODE_ON_TICKS:
                         if (Settings.System.getInt(mContext.getContentResolver(),
+                                Settings.System.HAPTIC_FEEDBACK_ENABLED, 1) == 1 &&
+                            Settings.System.getInt(mContext.getContentResolver(),
                                 Settings.System.HAPTIC_ON_SLIDER, 1) == 1) {
-                            seekBar.performHapticFeedback(CLOCK_TICK);
+                            if (progress == mMin || progress == mMax) {
+                                mVibrator.vibrate(VibrationEffect.createOneShot(100, VibrationEffect.DEFAULT_AMPLITUDE));
+                            } else {
+                                int duration = (int) (1 + 79 * (progress - mMin) / (mMax - mMin));
+                                mVibrator.vibrate(VibrationEffect.createOneShot(duration, VibrationEffect.DEFAULT_AMPLITUDE));
+                            }
                         }
                         break;
                     case HAPTIC_FEEDBACK_MODE_ON_ENDS:
