@@ -350,4 +350,8 @@
     <string name="display_cutout_force_fullscreen_summary">Apps dazu zwingen, die Display-Aussparung zu ignorieren</string>
     <string name="display_cutout_force_fullscreen_search">Suche</string>
     <string name="display_cutout_force_fullscreen_search_apps">Apps suchen</string>
+
+    <!-- Application downgrade -->
+    <string name="app_downgrade_title">App-Downgrade erlauben</string>
+    <string name="app_downgrade_summary">Ermöglicht die Installation älterer Versionen vorhandener Apps, was jedoch zu Abstürzen und Datenverlust führen kann.</string>
 </resources>
