@@ -84,7 +84,6 @@ public class DashboardFeatureProviderImpl implements DashboardFeatureProvider {
 
     private static final String PACKAGENAME_GMS = "com.google.android.gms";
     private static final String PACKAGENAME_WELLBEING = "com.google.android.apps.wellbeing";
-    private static final String PACKAGENAME_DEVICE = "com.derp.device.DeviceSettings";
 
     protected final Context mContext;
 
@@ -371,8 +370,6 @@ public class DashboardFeatureProviderImpl implements DashboardFeatureProvider {
                 iconDrawable = preference.getContext().getDrawable(R.drawable.ic_homepage_google_settings);
             } else if (tile.getPackageName().equals(PACKAGENAME_WELLBEING)) {
                 iconDrawable = preference.getContext().getDrawable(R.drawable.ic_homepage_wellbeing_settings);
-            } else if (tile.getPackageName().equals(PACKAGENAME_DEVICE)) {
-                iconDrawable = preference.getContext().getDrawable(R.drawable.ic_homepage_device_settings);
             } else if (forceRoundedIcon
                     && !TextUtils.equals(mContext.getPackageName(), tile.getPackageName())) {
                 iconDrawable = new AdaptiveIcon(mContext, iconDrawable);
