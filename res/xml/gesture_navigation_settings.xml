@@ -24,6 +24,7 @@
     settings:keywords="@string/keywords_gesture_navigation_settings">
 
     <PreferenceCategory
+        android:key="navigation_bar_misc"
         android:title="@string/navbar_category">
 
         <org.derpfest.support.preferences.SecureSettingSwitchPreference
