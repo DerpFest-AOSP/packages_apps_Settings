@@ -33,6 +33,8 @@ import com.android.settings.widget.LabeledSeekBarPreference;
 import com.android.settings.widget.SeekBarPreference;
 import com.android.settingslib.search.SearchIndexable;
 
+import static com.android.systemui.shared.recents.utilities.Utilities.isLargeScreen;
+
 /**
  * A fragment to include all the settings related to Gesture Navigation mode.
  */
@@ -49,6 +51,8 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
     private static final String KEY_BACK_HEIGHT = "gesture_back_height";
     private static final String GESTURE_NAVBAR_LENGTH_KEY = "gesture_navbar_length_preference";
     private static final String GESTURE_NAVBAR_RADIUS_KEY = "gesture_navbar_radius_preference";
+    private static final String NAVIGATION_BAR_HINT_KEY = "navigation_bar_hint";
+    private static final String KEYBOARD_NO_NAVIGATION_BAR = "keyboard_no_navigation_bar";
 
     private WindowManager mWindowManager;
     private BackGestureIndicatorView mIndicatorView;
@@ -89,6 +93,19 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
 
         initGestureNavbarLengthPreference();
         initGestureBarRadiusPreference();
+
+        boolean isTaskbarEnabled = Settings.System.getInt(getContext().getContentResolver(),
+                Settings.System.ENABLE_TASKBAR, isLargeScreen(getContext()) ? 1 : 0) == 1;
+        if (isTaskbarEnabled) {
+            getPreferenceScreen().removePreference(
+                    getPreferenceScreen().findPreference(GESTURE_NAVBAR_LENGTH_KEY));
+            getPreferenceScreen().removePreference(
+                    getPreferenceScreen().findPreference(GESTURE_NAVBAR_RADIUS_KEY));
+            getPreferenceScreen().removePreference(
+                    getPreferenceScreen().findPreference(NAVIGATION_BAR_HINT_KEY));
+            getPreferenceScreen().removePreference(
+                    getPreferenceScreen().findPreference(KEYBOARD_NO_NAVIGATION_BAR));
+        }
     }
 
     @Override
