@@ -145,4 +145,17 @@
         <item>5000</item>
     </string-array>
 
+    <string-array name="carrier_label_position_entries">
+        <item>@string/carrier_label_position_hide</item>
+        <item>@string/carrier_label_position_lockscreen</item>
+        <item>@string/carrier_label_position_statusbar</item>
+        <item>@string/carrier_label_position_both</item>
+    </string-array>
+    <string-array name="carrier_label_position_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
 </resources>

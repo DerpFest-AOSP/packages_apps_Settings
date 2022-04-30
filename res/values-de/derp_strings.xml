@@ -387,4 +387,16 @@
     <!-- Swipe to screenshot -->
     <string name="swipe_to_screenshot_title">Wischen für Bildschirmfoto</string>
     <string name="swipe_to_screenshot_summary">Mit drei Fingern wischen, um ein Bildschirmfoto aufzunehmen</string>
+
+    <!-- Carrier label -->
+    <string name="carrier_label_category">Netzanbieter</string>
+    <string name="carrier_label_custom">Benutzerdefinierte Netzanbieterbezeichnung</string>
+    <string name="carrier_label_custom_unset">Zum Einstellen klicken</string>
+    <string name="carrier_label_custom_title">Benutzerdefinierte Netzanbieterbezeichnung</string>
+    <string name="carrier_label_custom_explain">Eingeben einer benutzerdefinierten Netzanbieterbezeichnung ein. Das Feld leer lassen, um die Standard-Netzanbieterbezeichnung zu verwenden</string>
+    <string name="carrier_label_position">Position der Netzanbieterbezeichnung</string>
+    <string name="carrier_label_position_hide">Ausblenden</string>
+    <string name="carrier_label_position_lockscreen">Sperrbildschirm</string>
+    <string name="carrier_label_position_statusbar">Statusbar</string>
+    <string name="carrier_label_position_both">Sperrbildschirm und Statusbar</string>
 </resources>
