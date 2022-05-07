@@ -42,4 +42,6 @@
     <string name="navbar_category">Navigationsleiste</string>
     <string name="hide_navbar_gesture_bar_title">Gestenleiste ausblenden</string>
     <string name="hide_navbar_gesture_bar_summary">Blendet die Gestenleiste am unteren Bildschirmrand aus</string>
+    <string name="keyboard_no_navigation_title">IME-Schaltflächenbereich ausblenden</string>
+    <string name="keyboard_no_navigation_summary">IME-Schaltflächenbereich unter der Tastatur ausblenden</string>
 </resources>

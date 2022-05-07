@@ -31,6 +31,13 @@
             android:title="@string/hide_navbar_gesture_bar_title"
             android:summary="@string/hide_navbar_gesture_bar_summary"
             android:defaultValue="false" />
+
+        <org.derpfest.support.preferences.SecureSettingSwitchPreference
+            android:key="keyboard_no_navigation_bar"
+            android:title="@string/keyboard_no_navigation_title"
+            android:summary="@string/keyboard_no_navigation_summary"
+            android:defaultValue="false"
+            android:dependency="navigation_bar_hint" />
     </PreferenceCategory>
 
     <PreferenceCategory
