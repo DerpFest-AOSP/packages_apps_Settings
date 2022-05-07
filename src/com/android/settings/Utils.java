@@ -150,6 +150,11 @@ public final class Utils extends com.android.settingslib.Utils {
     public static final String PROPERTY_LOCATION_INDICATORS_ENABLED = "location_indicators_enabled";
 
     /**
+     * Whether to show camera + mic indicators.
+     */
+    public static final String PROPERTY_MIC_CAMERA_ENABLED = "camera_mic_icons_enabled";
+
+    /**
      * Whether to show location indicator settings in developer options.
      */
     public static final String PROPERTY_LOCATION_INDICATOR_SETTINGS_ENABLED =

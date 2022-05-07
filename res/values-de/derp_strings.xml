@@ -724,4 +724,7 @@
     <string name="notification_battery_charge_level_ringtone">Klingelton</string>
     <string name="notification_battery_charge_level_silent">Stumm</string>
 
+    <!-- Mic + Camera indicator -->
+    <string name="mic_camera_indicator_settings_title">Mikrofon- und Kameraanzeige in der Statusleiste</string>
+    <string name="mic_camera_indicator_settings_description">In der Statusleiste anzeigen, wenn eine App auf Mikrofon oder Kamera zugreift</string>
 </resources>
