@@ -75,6 +75,14 @@
         android:summary="@string/mic_toggle_description"
         settings:controller="com.android.settings.privacy.MicToggleController"/>
 
+    <!-- Camera + Mic indicators -->
+    <SwitchPreference
+        android:key="mic_camera_indicator_settings"
+        android:title="@string/mic_camera_indicator_settings_title"
+        android:summary="@string/mic_camera_indicator_settings_description"
+        android:defaultValue="true"
+        settings:controller="com.android.settings.privacy.MicCameraIndicatorsPreferenceController"/>
+
     <!-- Location indicators -->
     <SwitchPreference
         android:key="location_indicator_settings"
