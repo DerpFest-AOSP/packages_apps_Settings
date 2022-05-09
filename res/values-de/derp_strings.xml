@@ -746,4 +746,8 @@
     <string name="idle_manager_title">Hintergrundprozesse beenden</string>
     <string name="idle_manager_summary">Stoppt alle nicht wesentlichen Hintergrundprozesse, wenn das Gerät im Leerlauf ist</string>
 
+    <!-- Ringer mode mute speaker media -->
+    <string name="ringer_mute_speaker_media_title">Stummschalten der Medienlautstärke bei lautlos oder Vibrieren</string>
+    <string name="ringer_mute_speaker_media_summary">Medienlautstärke stumm schalten, wenn der Klingelmodus auf lautlos oder vibriert eingestellt ist. Dies betrifft nur den Lautsprecher</string>
+
 </resources>
