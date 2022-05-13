@@ -24,6 +24,7 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.os.UserHandle;
 import android.os.VibrationEffect;
 import android.os.Vibrator;
 import android.provider.Settings;
@@ -302,16 +303,15 @@ public class SeekBarPreference extends RestrictedPreference
                 setProgress(progress, false);
                 switch (mHapticFeedbackMode) {
                     case HAPTIC_FEEDBACK_MODE_ON_TICKS:
-                        if (Settings.System.getInt(mContext.getContentResolver(),
-                                Settings.System.HAPTIC_FEEDBACK_ENABLED, 1) == 1 &&
-                            Settings.System.getInt(mContext.getContentResolver(),
-                                Settings.System.HAPTIC_ON_SLIDER, 1) == 1) {
-                            if (progress == mMin || progress == mMax) {
-                                mVibrator.vibrate(VibrationEffect.createOneShot(100, VibrationEffect.DEFAULT_AMPLITUDE));
-                            } else {
-                                int duration = (int) (1 + 79 * (progress - mMin) / (mMax - mMin));
-                                mVibrator.vibrate(VibrationEffect.createOneShot(duration, VibrationEffect.DEFAULT_AMPLITUDE));
+                        if (Settings.System.getIntForUser(mContext.getContentResolver(),
+                                Settings.System.HAPTIC_FEEDBACK_ENABLED, 1, UserHandle.USER_CURRENT) == 1 &&
+                            Settings.System.getIntForUser(mContext.getContentResolver(),
+                                Settings.System.HAPTIC_ON_SLIDER, 1, UserHandle.USER_CURRENT) == 1) {
+                            int duration = 100;
+                            if (progress != mMin && progress != mMax && mMin != mMax) {
+                                duration = (int) (1 + 79 * (progress - mMin) / (mMax - mMin));
                             }
+                            mVibrator.vibrate(VibrationEffect.createOneShot(duration, VibrationEffect.DEFAULT_AMPLITUDE));
                         }
                         break;
                     case HAPTIC_FEEDBACK_MODE_ON_ENDS:
