@@ -514,4 +514,8 @@
     <string name="always_on_display_schedule_mixed_sunset">Schaltet sich von Sonnenuntergang bis zu einer bestimmten Uhrzeit ein</string>
     <string name="always_on_display_schedule_mixed_sunrise">Schaltet sich ab einer bestimmten Uhrzeit bis zum Sonnenaufgang ein</string>
 
+    <!-- Long press to copy wifi password -->
+    <string name="copied_to_clipboard">In die Zwischenablage kopiert</string>
+    <string name="longpress_to_clipboard">Gedrückthalten zum Kopieren</string>
+
 </resources>
