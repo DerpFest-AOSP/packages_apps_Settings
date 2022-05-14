@@ -496,4 +496,8 @@
 
     <!-- Summary for list to control apps that ignore battery saving restrictions -->
     <string name="high_power_apps_summary">Verfügbarkeit der Batterieoptimierung</string>
+
+    <!-- Long press to copy wifi password -->
+    <string name="copied_to_clipboard">In die Zwischenablage kopiert</string>
+    <string name="longpress_to_clipboard">Gedrückthalten zum Kopieren</string>
 </resources>
