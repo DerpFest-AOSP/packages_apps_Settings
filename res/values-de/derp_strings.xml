@@ -85,4 +85,8 @@
 
     <!-- Radio Info -->
     <string name="radio_info_title">Radio-Info</string>
+
+    <!-- Long press to copy wifi password -->
+    <string name="copied_to_clipboard">In die Zwischenablage kopiert</string>
+    <string name="longpress_to_clipboard">Gedrückthalten zum Kopieren</string>
 </resources>
