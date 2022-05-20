@@ -718,4 +718,21 @@
     <string name="wifi_hotspot_unblock_client_dialog_text">This device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
     <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when avaialable.</string>
 
+    <!--  screen, setting option summary to change custom timeout -->
+    <string name="custom_timeout_summary_never">Never</string>
+    <string name="custom_timeout_summary_5secs">5 seconds</string>
+    <string name="custom_timeout_summary_10secs">10 seconds</string>
+    <string name="custom_timeout_summary_15secs">15 seconds</string>
+    <string name="custom_timeout_summary_30secs">30 seconds</string>
+    <string name="custom_timeout_summary_1min">1 minute</string>
+    <string name="custom_timeout_summary_2mins">2 minutes</string>
+    <string name="custom_timeout_summary_5mins">5 minutes</string>
+    <string name="custom_timeout_summary_10mins">10 minutes</string>
+    <string name="custom_timeout_summary_20mins">20 minutes</string>
+    <string name="custom_timeout_summary_30mins">30 minutes</string>
+    <string name="custom_timeout_summary_1hour">1 hour</string>
+    <string name="custom_timeout_summary_2hours">2 hours</string>
+    <string name="custom_timeout_summary_4hours">4 hours</string>
+    <string name="custom_timeout_summary_8hours">8 hours</string>
+
 </resources>
