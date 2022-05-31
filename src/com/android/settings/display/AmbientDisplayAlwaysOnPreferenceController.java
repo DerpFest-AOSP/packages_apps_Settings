@@ -29,6 +29,8 @@ import androidx.preference.Preference;
 import com.android.settings.R;
 import com.android.settings.core.TogglePreferenceController;
 
+import org.derpfest.settings.util.PackageManagerUtils;
+
 public class AmbientDisplayAlwaysOnPreferenceController extends TogglePreferenceController {
 
     private final int ON = 1;
@@ -47,7 +49,8 @@ public class AmbientDisplayAlwaysOnPreferenceController extends TogglePreference
     @Override
     public int getAvailabilityStatus() {
         return isAvailable(getConfig())
-                && !SystemProperties.getBoolean(PROP_AWARE_AVAILABLE, false) ?
+                && !SystemProperties.getBoolean(PROP_AWARE_AVAILABLE, false)
+                && !PackageManagerUtils.isCustomDozePresent(mContext.getPackageManager()) ?
                 AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 

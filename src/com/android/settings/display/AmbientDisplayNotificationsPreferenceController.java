@@ -30,6 +30,8 @@ import com.android.settings.core.TogglePreferenceController;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
 
+import org.derpfest.settings.util.PackageManagerUtils;
+
 public class AmbientDisplayNotificationsPreferenceController extends
         TogglePreferenceController implements Preference.OnPreferenceChangeListener {
 
@@ -81,6 +83,7 @@ public class AmbientDisplayNotificationsPreferenceController extends
     @Override
     public int getAvailabilityStatus() {
         return getAmbientConfig().pulseOnNotificationAvailable()
+                && !PackageManagerUtils.isCustomDozePresent(mContext.getPackageManager())
                 ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 
