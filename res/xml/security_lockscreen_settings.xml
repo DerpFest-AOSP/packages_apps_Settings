@@ -82,6 +82,12 @@
         settings:controller="com.android.settings.display.AmbientDisplayWhenToShowPreferenceController"
         android:order="1000">
 
+        <Preference
+            android:key="doze_device_settings"
+            android:title="@string/ambient_display_screen_title">
+            <intent android:action="org.lineageos.settings.device.DOZE_SETTINGS" />
+        </Preference>
+
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="ambient_display_always_on"
             android:title="@string/doze_always_on_title"
