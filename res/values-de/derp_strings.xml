@@ -146,4 +146,8 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Berühren Sie den Sensor an der Seite Ihres Geräts.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Berühren Sie den Sensor an der Seite Ihres Telefons.</string>
 
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Hohe Touch-Empfindlichkeit</string>
+    <string name="high_touch_sensitivity_summary">Touch-Empfindlichkeit erhöhen, um den Touchscreen auch mit Handschuhen bedienen zu können</string>
+
 </resources>
