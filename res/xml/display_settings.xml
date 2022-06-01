@@ -185,6 +185,13 @@
             android:summary="@string/proximity_wake_summary"
             android:defaultValue="@*android:bool/config_proximityCheckOnWakeEnabledByDefault" />
 
+        <SwitchPreference
+            android:key="high_touch_sensitivity_enable"
+            android:title="@string/high_touch_sensitivity_title"
+            android:summary="@string/high_touch_sensitivity_summary"
+            android:defaultValue="false"
+            settings:controller="org.derpfest.settings.display.HighTouchSensitivityPreferenceController"/>
+
         <ListPreference
             android:key="theme"
             android:title="@string/device_theme"
