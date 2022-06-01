@@ -78,6 +78,7 @@ android_library {
         "WifiTrackerLib",
         "SettingsLibActivityEmbedding",
         "VendorSupport-preference",
+        "vendor.lineage.touch-V1.0-java",
     ],
 
     libs: [
