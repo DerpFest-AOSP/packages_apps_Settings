@@ -491,7 +491,7 @@
     <string name="battery_stats_reset_title">Reset battery stats</string>
     <string name="battery_stats_reset">Clear usage data?</string>
     <string name="battery_stats_message">Battery usage data will be lost</string>
-    <string name="battery_stats_clear">@string/proxy_clear_text</string>
+    <string name="battery_stats_clear" translatable="false">@string/proxy_clear_text</string>
 
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
