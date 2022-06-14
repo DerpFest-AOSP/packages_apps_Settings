@@ -11,6 +11,9 @@
     <!-- Whether to show min/max refresh rate in display settings -->
     <bool name="config_show_refresh_rate_controls">false</bool>
 
+    <!-- Max network scan search time in seconds -->
+    <integer name="config_network_scan_helper_max_search_time_sec">300</integer>
+
     <!-- The position of the volume rocker, as opposed to the natural
          orientation of the display.
          Currently used for the volume button re-orient functionality.
