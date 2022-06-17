@@ -638,4 +638,8 @@
     <!-- Summary for list to control apps that ignore battery saving restrictions -->
     <string name="high_power_apps_summary">Verfügbarkeit der Batterieoptimierung</string>
 
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Flag für sicheres Fenster ignorieren</string>
+    <string name="ignore_window_secure_summary">Entfernt Screenshot- und Screenrecord-Limits für alle Apps. Dies kann in einigen Fällen bequem sein, kann aber zu Datenschutzlecks führen.</string>
+
 </resources>
