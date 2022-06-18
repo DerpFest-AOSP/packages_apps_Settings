@@ -625,4 +625,7 @@
     <string name="ringer_mute_speaker_media_title">Stummschalten der Medienlautstärke bei lautlos oder Vibrieren</string>
     <string name="ringer_mute_speaker_media_summary">Medienlautstärke stumm schalten, wenn der Klingelmodus auf lautlos oder vibriert eingestellt ist. Dies betrifft nur den Lautsprecher</string>
 
+    <!-- Summary for the top level wallpapers settings [CHAR LIMIT=NONE]-->
+    <string name="wallpaper_dashboard_custom_summary">Farben, Symboldesigns, App-Raster</string>
+
 </resources>

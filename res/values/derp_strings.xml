@@ -672,4 +672,7 @@
     <string name="ringer_mute_speaker_media_title">Mute media volume on silent or vibrate</string>
     <string name="ringer_mute_speaker_media_summary">Mute media volume when ringer mode is set to silent or vibrate. This affect speaker only</string>
 
+    <!-- Summary for the top level wallpapers settings [CHAR LIMIT=NONE]-->
+    <string name="wallpaper_dashboard_custom_summary">Colors, themed icons, app grid</string>
+
 </resources>
