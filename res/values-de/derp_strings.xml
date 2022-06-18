@@ -386,4 +386,7 @@
 
     <!-- Notification log -->
     <string name="notification_log_summary">Verlaufsprotokoll für Benachrichtigungen anzeigen</string>
+
+    <!-- Summary for the top level wallpapers settings [CHAR LIMIT=NONE]-->
+    <string name="wallpaper_dashboard_custom_summary">Farben, Symboldesigns, App-Raster</string>
 </resources>
