@@ -121,7 +121,7 @@
         android:key="top_level_wallpaper"
         android:order="-70"
         android:title="@string/wallpaper_settings_title"
-        android:summary="@string/wallpaper_dashboard_summary"
+        android:summary="@string/wallpaper_dashboard_custom_summary"
         settings:highlightableMenuKey="@string/menu_key_wallpaper"
         settings:controller="com.android.settings.display.TopLevelWallpaperPreferenceController"/>
 
