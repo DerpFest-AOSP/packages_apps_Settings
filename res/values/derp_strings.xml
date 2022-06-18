@@ -232,4 +232,7 @@
     <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
     <string name="ring_volume_unlinked_option_title">Ring volume</string>
 
+    <!-- Summary for the top level wallpapers settings [CHAR LIMIT=NONE]-->
+    <string name="wallpaper_dashboard_custom_summary">Colors, themed icons, app grid</string>
+
 </resources>
