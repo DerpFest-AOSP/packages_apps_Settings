@@ -382,4 +382,13 @@
 
     <!-- Summary for the top level wallpapers settings [CHAR LIMIT=NONE]-->
     <string name="wallpaper_dashboard_custom_summary">Farben, Symboldesigns, App-Raster</string>
+
+    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="default">Fingerabdrucksensor lange drücken, um das Telefon zu entsperren</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Fingerabdrucksensor lange drücken, um das Tablet zu entsperren</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="device">Fingerabdrucksensor lange drücken, um das Gerät zu entsperren</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Zum Anschalten und Entsperren des Geräts den Fingerabdrucksensor im Display gedrückt halten.</string>
 </resources>
