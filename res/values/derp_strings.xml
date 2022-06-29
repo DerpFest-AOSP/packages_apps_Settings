@@ -555,6 +555,7 @@
     <!-- Haptic feedback -->
     <string name="touch_haptic_title">Misc settings for haptic feedback</string>
     <string name="touch_haptic_summary">Customize haptic feedback for system widgets</string>
+    <string name="touch_haptic_footer">Settings may be unavailable on devices without a linear motor vibrator due to potential issues with certain haptic feedback functionalities on such devices.</string>
     <string name="haptic_on_qs_title">QS tiles</string>
     <string name="haptic_on_qs_summary">Feel a vibration upon touching quick tiles</string>
     <string name="haptic_on_switch_title">Settings switch</string>
