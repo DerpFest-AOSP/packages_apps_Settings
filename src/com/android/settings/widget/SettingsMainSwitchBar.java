@@ -19,8 +19,12 @@ package com.android.settings.widget;
 import static com.android.settingslib.RestrictedLockUtils.EnforcedAdmin;
 
 import android.content.Context;
+import android.os.VibrationEffect;
+import android.provider.Settings;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.android.internal.util.derp.VibratorHelper;
 
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.RestrictedLockUtils;
@@ -51,6 +55,8 @@ public class SettingsMainSwitchBar extends MainSwitchBar {
 
     private int mMetricsCategory;
 
+    private VibratorHelper mVibratorHelper;
+
     public SettingsMainSwitchBar(Context context) {
         this(context, null);
     }
@@ -69,6 +75,10 @@ public class SettingsMainSwitchBar extends MainSwitchBar {
         mMetricsFeatureProvider = FeatureFactory.getFeatureFactory().getMetricsFeatureProvider();
 
         addOnSwitchChangeListener((switchView, isChecked) -> logMetrics(isChecked));
+
+        mVibratorHelper = new VibratorHelper(context,
+                Settings.System.HAPTIC_FEEDBACK_ENABLED,
+                Settings.System.HAPTIC_ON_SWITCH);
     }
 
     /**
@@ -105,6 +115,7 @@ public class SettingsMainSwitchBar extends MainSwitchBar {
     @Override
     public boolean performClick() {
         if (mDisabledByAdmin) {
+            mVibratorHelper.vibrateForEffectId(VibrationEffect.EFFECT_CLICK);
             performRestrictedClick();
             return true;
         }
