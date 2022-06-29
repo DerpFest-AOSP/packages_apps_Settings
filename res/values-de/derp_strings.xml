@@ -29,6 +29,11 @@
     <string name="status_bar_double_tap_to_sleep_title">Tippen für Standby</string>
     <string name="status_bar_double_tap_to_sleep_summary">Doppeltippe auf Statusleiste oder Sperrbildschirm, um das Display auszuschalten</string>
 
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Zum Entsperren Fingerabdrucksensor berühren</string>
+    <string name="fingerprint_wake_unlock_touch">Fingerabdrucksensor bleibt aktiv, wenn der Bildschirm aus ist</string>
+    <string name="fingerprint_wake_unlock_press">Fingerabdrucksensor ist nur aktiv, wenn der Bildschirm an ist</string>
+
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Ansteigende Klingeltonlautstärke</string>
     <string name="increasing_ring_min_volume_title">Anfangslautstärke</string>
