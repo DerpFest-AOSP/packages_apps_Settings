@@ -415,4 +415,9 @@
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Kein Zertifikat angegeben. Ihre Verbindung wird nicht privat sein.</string>
 
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Zum Entsperren Fingerabdruck berühren</string>
+    <string name="fingerprint_wake_unlock_touch">Hört auf Ereignisse, während der Bildschirm aus ist</string>
+    <string name="fingerprint_wake_unlock_press">Hört nur auf Ereignisse, wenn der Bildschirm an ist</string>
+
 </resources>
