@@ -74,7 +74,6 @@
     <!-- Min / max refresh rate -->
     <string name="min_refresh_rate_title">Frequenza di aggiornamento minima</string>
     <string name="max_refresh_rate_title">Frequenza di aggiornamento massima</string>
-    <string name="refresh_rate_placeholder"><xliff:g id="refresh_rate" example="60">%1$s</xliff:g> Hz</string>
 
     <!-- Refresh rate category name in Display Settings [CHAR LIMIT=none] -->
     <string name="category_name_refresh_rate">Frequenza di aggiornamento</string>
