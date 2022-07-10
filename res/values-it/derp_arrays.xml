@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 DerpFest
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <!-- Random summary -->
+    <string-array name="derpspace_summaries">
+        <item>Non preoccuparti di fallire. Preoccupati di non averci provato</item>
+        <item>La gente è il più grande spettacolo del mondo. E non si paga il biglietto</item>
+        <item>Se giudichi le persone, non avrai tempo per amarle</item>
+        <item>Tutti pensano a cambiare il mondo, ma nessuno pensa a cambiar se stesso</item>
+        <item>Ama la vita più della sua logica, solo allora ne capirai il senso</item>
+        <item>Bisogna avere un caos dentro di sé per partorire una stella danzante</item>
+        <item>La vita non è un problema da risolvere ma un mistero da vivere</item>
+        <item>La logica ti porterà dalla A alla B. L\'immaginazione ti porterà ovunque</item>
+        <item>Tutto ciò che hai sempre desiderato è dall\'altra parte della paura</item>
+        <item>Il futuro appartiene a coloro che credono nella bellezza dei propri sogni</item>
+        <item>Cadi sette volte. Rialzati otto</item>
+        <item>Il mondo è un bel posto e vale la pena lottare per esso</item>
+        <item>Il sorriso permette all\'anima di respirare</item>
+        <item>Se dici sì, assicurati di non dire no a te stesso</item>
+        <item>Mira alla luna. Anche se sbagli, atterrerai tra le stelle</item>
+        <item>Anche un viaggio di mille miglia inizia con un singolo passo</item>
+        <item>Sii il cambiamento che vuoi vedere nel mondo</item>
+        <item>Questa è la tua vita, e sta finendo un minuto alla volta</item>
+        <item>Ricorda, oggi è il domani di cui ti preoccupavi ieri</item>
+        <item>La felicità è reale solo quand\'è condivisa</item>
+        <item>Morire non è nulla, non vivere è spaventoso</item>
+        <item>Se l\'opportunità non bussa, costruisci una porta</item>
+        <item>La vita senza musica sarebbe un errore</item>
+        <item>Non aspettare. Non sarà mai il momento giusto</item>
+        <item>È meglio essere soli, che in cattiva compagnia</item>
+        <item>Fa più rumore un albero che cade di una foresta che cresce</item>
+        <item>L\'unico vero errore è quello da cui non impariamo nulla</item>
+        <item>Creare è vivere due volte</item>
+        <item>Siamo fatti della stessa sostanza dei sogni</item>
+        <item>Se obbedisci alle regole, ti perdi tutto il divertimento</item>
+        <item>Fai ogni giorno una cosa che ti spaventa</item>
+        <item>È più facile spezzare un atomo che un pregiudizio</item>
+        <item>Se puoi sognarlo, puoi farlo</item>
+        <item>Niente è permanente eccetto il cambiamento</item>
+        <item>Posso resistere a tutto tranne che alle tentazioni</item>
+        <item>Ciò che non ti uccide ti rende più forte</item>
+    </string-array>
+
+</resources>
