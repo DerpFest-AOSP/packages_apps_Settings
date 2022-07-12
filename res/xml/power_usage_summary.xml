@@ -91,6 +91,12 @@
         android:summary="@string/arcane_idle_manager_summary"
         android:defaultValue="false" />
 
+    <Preference
+        android:key="high_power_apps"
+        android:title="@string/high_power_apps">
+        <intent android:action="android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS" />
+    </Preference>
+
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="battery_temp"
         android:title="@string/battery_temp"
