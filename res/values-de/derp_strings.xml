@@ -819,5 +819,7 @@
 
     <string name="hide">Ausblenden</string>
     <string name="unhide">Einblenden</string>
+    <!-- Label for showing hidden apps in list [CHAR LIMIT=40] -->
+    <string name="filter_hidden_apps">Versteckte Apps</string>
 
 </resources>
