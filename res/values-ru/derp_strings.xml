@@ -415,7 +415,6 @@
     <string name="power_usage_provider_summary">Использовать график статистики батареи и схему питания Pixel</string>
     <string name="powerusage_provider_google_dialog_title">Применить изменения</string>
     <string name="powerusage_provider_google_dialog_message">Настройки будут перезапущены для изменения схемы энергопотребления</string>
-    <string name="battery_temp">Температура батареи</string>
     <string name="columbus_gesture_detected">Короткое касание распознано.</string>
     <string name="columbus_gesture_enrollment_complete">ОК</string>
     <string name="columbus_gesture_enrollment_do_it_later">Не сейчас</string>
