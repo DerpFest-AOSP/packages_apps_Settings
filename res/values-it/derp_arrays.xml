@@ -56,4 +56,14 @@
         <item>Ciò che non ti uccide ti rende più forte</item>
     </string-array>
 
+    <string-array name="wifi_tether_auto_turn_off_entries">
+        <item>Mai</item>
+        <item>30 secondi</item>
+        <item>1 minuto</item>
+        <item>5 minuti</item>
+        <item>10 minuti</item>
+        <item>30 minuti</item>
+        <item>1 ora</item>
+    </string-array>
+     
 </resources>
