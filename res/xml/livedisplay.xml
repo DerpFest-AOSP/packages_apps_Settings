@@ -21,6 +21,7 @@
 
     <!-- Color mode preview -->
     <com.android.settingslib.widget.LayoutPreference
+        android:key="live_display_preview"
         android:layout="@layout/color_mode_preview"
         android:selectable="false" />
 
