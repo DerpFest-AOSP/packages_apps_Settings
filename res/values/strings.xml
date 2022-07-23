@@ -10564,7 +10564,6 @@
 
     <!-- Label for list to control apps that ignore battery saving restrictions [CHAR LIMIT=27]-->
     <string name="high_power_apps">Battery optimization</string>
-    <string name="high_power_apps_summary">Battery optimization availability</string>
 
     <!-- Label for menu to launch a screen showing usage alerts for battery [CHAR LIMIT=30] -->
     <string name="additional_battery_info">Usage alerts</string>
