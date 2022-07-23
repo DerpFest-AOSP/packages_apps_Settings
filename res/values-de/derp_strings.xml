@@ -446,6 +446,7 @@
 
     <!-- Battery stats reset -->
     <string name="battery_stats_reset_title">Batteriestatistik zurücksetzen</string>
+    <string name="battery_stats_reset_summary">Zurücksetzen der Batteriestatistikansicht</string>
     <string name="battery_stats_reset">Nutzungsdaten löschen?</string>
     <string name="battery_stats_message">Daten zur Akkunutzung gehen verloren</string>
 
@@ -633,5 +634,8 @@
 
     <!-- Battery temperature -->
     <string name="battery_temperature">Akkutemperatur</string>
+
+    <!-- Summary for list to control apps that ignore battery saving restrictions -->
+    <string name="high_power_apps_summary">Verfügbarkeit der Batterieoptimierung</string>
 
 </resources>
