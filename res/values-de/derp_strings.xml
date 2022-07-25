@@ -501,4 +501,8 @@
     <string name="reset_auto_brightness_adjustment_summary">Lässt das System die Helligkeitspräferenz vergessen und setzt sie auf die Standardeinstellung zurück</string>
     <string name="reset_auto_brightness_adjustment_done">Automatische Helligkeitseinstellung wurde zurückgesetzt</string>
 
+    <!-- Daily battery usage charge -->
+    <string name="daily_battery_usage_chart">Diagramm zur täglichen Batterienutzung</string>
+    <string name="daily_battery_usage_chart_summary">Nutzung der letzten 24 Stunden anzeigen</string>
+
 </resources>
