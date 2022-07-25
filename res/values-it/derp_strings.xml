@@ -670,10 +670,15 @@
     <!-- Summary for the top level wallpapers settings [CHAR LIMIT=NONE]-->
     <string name="wallpaper_dashboard_custom_summary">Colori, icone a tema, griglia dell\'app</string>
 
-<!-- Reset auto brightness adjustment -->
+    <!-- Reset auto brightness adjustment -->
     <string name="reset_auto_brightness_adjustment_title">Reimposta preferenze</string>
     <string name="reset_auto_brightness_adjustment_summary">Lascia che il sistema dimentichi la tua preferenza di luminosità e la reimposti su quella predefinita</string>
     <string name="reset_auto_brightness_adjustment_done">La preferenza di luminosità automatica è stata ripristinata</string>
 
-</resources>											 
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Temperatura della batteria</string>
+
+    <!-- Summary for list to control apps that ignore battery saving restrictions -->
+    <string name="high_power_apps_summary">Disponibilità dell\'ottimizzazione della batteria</string>
+
 </resources>
