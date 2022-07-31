@@ -53,6 +53,10 @@ public class UdfpsGesturePreferenceController extends BasePreferenceController {
 
     @Override
     public int getAvailabilityStatus() {
+        if (mFingerprintManager == null) {
+            return UNSUPPORTED_ON_DEVICE;
+        }
+
         if (!isUdfps()){
             return UNSUPPORTED_ON_DEVICE;
         }
