@@ -841,4 +841,9 @@
     </string>
     <string name="island_notification_now_playing_title">Aktuelle Wiedergabe</string>
     <string name="island_notification_now_playing_summary">Aktuell gespieltes Lied im Dynamic-Island-Stil anzeigen</string>
+
+    <!-- Statusbar lyric -->
+    <string name="status_bar_lyric_title">Statusleisten-Lyric</string>
+    <string name="status_bar_lyric_summary">Lyrik in der Statusleiste anzeigen (App-Unterstützung erforderlich)</string>
+    <string name="status_bar_show_lyric_title">Statusleisten-Lyric aktivieren</string>
 </resources>
