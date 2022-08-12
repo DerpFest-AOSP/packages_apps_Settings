@@ -98,7 +98,7 @@
     <string name="selinux_status">Stato SELinux</string>
     <string name="selinux_status_disabled">Disabilitato</string>
     <string name="selinux_status_permissive">Permissivo</string>
-    <string name="selinux_status_enforcing">Imposto</string>
+    <string name="selinux_status_enforcing">Forzato</string>
 
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] --> 
     <string name="duration_less_than_one_minute">Meno di 1 minuto</string> 
