@@ -485,7 +485,8 @@
 
     <!-- Battery stats reset -->
     <string name="battery_stats_reset_title">Ripristina le statistiche della batteria</string>
-    <string name="battery_stats_reset">Cancellare i dati di utilizzo?</string>
+    <string name="battery_stats_reset_summary">Ripristina la visualizzazione delle statistiche della batteria</string>
+	<string name="battery_stats_reset">Cancellare i dati di utilizzo?</string>
     <string name="battery_stats_message">I dati sull\'utilizzo della batteria andranno persi</string>
 
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
@@ -680,5 +681,10 @@
 
     <!-- Summary for list to control apps that ignore battery saving restrictions -->
     <string name="high_power_apps_summary">Disponibilità dell\'ottimizzazione della batteria</string>
+
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Tocca il sensore dell\'impronta per sbloccare</string>
+    <string name="fingerprint_wake_unlock_touch">Asconta gli eventi mentre lo schermo è spento</string>
+    <string name="fingerprint_wake_unlock_press">Ascolta gli eventi solo una volta acceso lo schermo</string>
 
 </resources>
