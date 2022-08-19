@@ -244,4 +244,8 @@
     <string name="prevent_ringing_option_cycle">Geste zum Durchlaufen der Klingeltonmodi</string>
     <string name="prevent_ringing_option_cycle_summary">Ein (Modi durchlaufen)</string>
 
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Layout der Navigationsleiste umkehren</string>
+    <string name="navbar_invert_info">Vertauscht die Schaltflächen \"Zurück\" und \"App-Übersicht\" in der Navigationsleiste</string>
+
 </resources>
