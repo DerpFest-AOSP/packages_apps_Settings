@@ -906,4 +906,11 @@
 
     <!-- In-call notifications -->
     <string name="in_call_notifications_title">In-call notifications</string>
+
+    <!-- LTE only [CHAR LIMIT=100] -->
+    <string name="preferred_network_mode_lte_only_summary">Preferred network mode: LTE only</string>
+    <!-- Text for Network lte only [CHAR LIMIT=NONE] -->
+    <string name="network_lte_only">LTE only</string>
+    <!-- Text for Network 4g only [CHAR LIMIT=NONE] -->
+    <string name="network_4G_only">4G only</string>
 </resources>
