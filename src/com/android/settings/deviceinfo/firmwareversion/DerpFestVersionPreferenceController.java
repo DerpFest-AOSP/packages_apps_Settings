@@ -126,9 +126,4 @@ public class DerpFestVersionPreferenceController extends BasePreferenceControlle
                 mContext, UserManager.DISALLOW_FUN, UserHandle.myUserId());
     }
 
-    @Override
-    public void copy() {
-        Sliceable.setCopyContent(mContext, getSummary(),
-                mContext.getText(R.string.derp_version));
-    }
 }
