@@ -76,6 +76,14 @@
     </Preference>
 
     <Preference
+        android:key="game_settings"
+        android:title="@string/game_space_title"
+        android:summary="@string/game_space_summary"
+        android:order="-994"
+        settings:controller="com.android.settings.applications.GameSpaceController">
+    </Preference>
+
+    <Preference
         android:key="platform_compat_dashboard"
         android:title="@string/platform_compat_dashboard_title"
         android:summary="@string/platform_compat_dashboard_summary"
