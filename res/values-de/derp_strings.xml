@@ -384,4 +384,8 @@
     <string name="navbar_gesture_handle_category">Gesten-Navigationsgriff</string>
     <string name="back_gesture_arrow_message">Animation der Zurück-Geste</string>
     <string name="back_gesture_arrow_summary">Einen animierten Pfeil für die Zurück-Geste anzeigen</string>
+
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Verbessere Dein Spielerlebnis</string>
 </resources>
