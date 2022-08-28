@@ -34,6 +34,10 @@
     <string name="status_bar_double_tap_to_sleep_title">Tippen für Standby</string>
     <string name="status_bar_double_tap_to_sleep_summary">Doppeltippe auf Statusleiste oder Sperrbildschirm, um das Display auszuschalten</string>
 
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Verbessere Dein Spielerlebnis</string>
+
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Ansteigende Klingeltonlautstärke</string>
     <string name="increasing_ring_min_volume_title">Anfangslautstärke</string>
