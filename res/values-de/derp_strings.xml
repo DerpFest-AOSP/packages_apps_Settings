@@ -34,6 +34,10 @@
     <string name="fingerprint_wake_unlock_touch">Fingerabdrucksensor bleibt aktiv, wenn der Bildschirm aus ist</string>
     <string name="fingerprint_wake_unlock_press">Fingerabdrucksensor ist nur aktiv, wenn der Bildschirm an ist</string>
 
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Verbessere Dein Spielerlebnis</string>
+
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Ansteigende Klingeltonlautstärke</string>
     <string name="increasing_ring_min_volume_title">Anfangslautstärke</string>
