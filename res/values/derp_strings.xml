@@ -157,6 +157,9 @@
     <!-- Gestures & Keys -->
     <string name="derp_settings_gestures_keys_title">Gestures &amp; Motions</string>
     <string name="gesture_gestures_category_title">Gestures</string>
-    <string name="derp_settings_keys_category_title">Keys</string>
+    <string name="gesture_navigation_category_title">Navigation</string>
+    <string name="gesture_screen_category_title">Screen</string>
+    <string name="gesture_power_button_category_title">Power button</string>
+    <string name="gesture_volume_buttons_category_title">Volume buttons</string>
 
 </resources>
