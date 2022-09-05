@@ -771,4 +771,9 @@
 
     <!-- Other sounds and vibrations preference category: Title for the Other sounds and vibrations preference categories. [CHAR LIMIT=none] -->
     <string name="other_sound_category_preference_title">Andere Töne und Vibrationen</string>
+
+    <!-- Per-app volume control -->
+    <string name="app_volume">App-Lautstärke</string>
+    <string name="app_volume_title">Lautstärkeregelung per App</string>
+    <string name="app_volume_summary">Ermöglicht die Einstellung unterschiedlicher Lautstärken für jede App</string>
 </resources>
