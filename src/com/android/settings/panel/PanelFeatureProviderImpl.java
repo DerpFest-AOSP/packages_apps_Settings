@@ -27,6 +27,8 @@ import androidx.annotation.Nullable;
 import com.android.settings.Utils;
 import com.android.settings.flags.Flags;
 
+import org.derpfest.providers.DerpFestSettings;
+
 @Deprecated(forRemoval = true)
 public class PanelFeatureProviderImpl implements PanelFeatureProvider {
 
@@ -87,6 +89,8 @@ public class PanelFeatureProviderImpl implements PanelFeatureProvider {
                         return VolumePanel.create(context);
                     }
                 }
+            case DerpFestSettings.Panel.ACTION_APP_VOLUME:
+                return AppVolumePanel.create(context);
         }
 
         throw new IllegalStateException("No matching panel for: " + panelType);
