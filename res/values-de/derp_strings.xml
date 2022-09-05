@@ -555,4 +555,9 @@
     <!-- If blurs are supported on SurfaceFlinger. [CHAR LIMIT=60] -->
     <string name="enable_blurs_on_windows_title">Weichzeichnen aktivieren</string>
     <string name="enable_blurs_on_windows_summary">Aktiviert einen Weichzeichnen-Effekt in einigen Elementen der Benutzeroberfläche</string>
+
+    <!-- Per-app volume control -->
+    <string name="app_volume">App-Lautstärke</string>
+    <string name="app_volume_title">Lautstärkeregelung per App</string>
+    <string name="app_volume_summary">Ermöglicht die Einstellung unterschiedlicher Lautstärken für jede App</string>
 </resources>
