@@ -722,4 +722,8 @@
     <string name="ambient_gesture_title">Gestures</string>
     <string name="ambient_swipe_title">Swipe to wake</string>
     <string name="ambient_swipe_summary">Allow waking the device by swiping up or down when the device is dozing</string>
+
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Brightness control</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
 </resources>

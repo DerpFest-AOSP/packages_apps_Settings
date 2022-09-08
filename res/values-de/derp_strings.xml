@@ -688,4 +688,8 @@
     <string name="ambient_gesture_title">Gesten</string>
     <string name="ambient_swipe_title">Wischen zum Wecken</string>
     <string name="ambient_swipe_summary">Ermöglicht das Aufwecken des Geräts durch Wischen nach oben oder unten, wenn das Gerät schläft</string>
+
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Helligkeitssteuerung</string>
+    <string name="status_bar_toggle_brightness_summary">Helligkeit durch Wischen über die Statusleiste anpassen</string>
 </resources>
