@@ -571,4 +571,8 @@
     <string name="flashlight_on_call_ignore_dnd_summary">Ob im Nicht-Stören-Modus geblinkt werden soll</string>
     <string name="flashlight_on_call_rate_title">Blinkfrequenz</string>
     <string name="flashlight_on_call_rate_summary">Blinkrate der Taschenlampe bei Anruf</string>
+
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Helligkeitssteuerung</string>
+    <string name="status_bar_toggle_brightness_summary">Helligkeit durch Wischen über die Statusleiste anpassen</string>
 </resources>
