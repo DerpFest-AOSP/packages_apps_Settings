@@ -67,6 +67,12 @@
             android:summary="@string/quick_settings_quick_pull_down_summary"
             android:defaultValue="true" />
 
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="status_bar_brightness_control"
+            android:title="@string/status_bar_toggle_brightness"
+            android:summary="@string/status_bar_toggle_brightness_summary"
+            android:defaultValue="false"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory
