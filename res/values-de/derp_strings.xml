@@ -644,4 +644,8 @@
     <string name="display_cutout_force_fullscreen_summary">Zwingen Sie Apps, den Notch zu ignorieren</string>
     <string name="search">Suche</string>
     <string name="search_apps">Appsuche</string>
+
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Helligkeitssteuerung</string>
+    <string name="status_bar_toggle_brightness_summary">Helligkeit durch Wischen über die Statusleiste anpassen</string>
 </resources>
