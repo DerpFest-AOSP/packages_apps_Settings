@@ -350,4 +350,10 @@
     <string name="flashlight_on_call_ignore_dnd_summary">Ob im Nicht-stören-Modus geblinkt werden soll</string>
     <string name="flashlight_on_call_rate_title">Blinkfrequenz</string>
     <string name="flashlight_on_call_rate_summary">Blinkrate der Taschenlampe bei Anruf</string>
+
+    <!-- Volume key cursor control -->
+    <string name="volbtn_cursor_control_title">Cursorsteuerung</string>
+    <string name="volbtn_cursor_control_off">Deaktiviert</string>
+    <string name="volbtn_cursor_control_on">Lauter-/Leiser-Taste bewegt den Cursor nach links/rechts</string>
+    <string name="volbtn_cursor_control_on_reverse">Lauter-/Leiser-Taste bewegt den Cursor nach rechts/links</string>
 </resources>
