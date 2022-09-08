@@ -656,4 +656,8 @@
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">Musikticker</string>
     <string name="pulse_on_new_tracks_summary">Bei Titelwechsel Musikticker im Ambient-Modus anzeigen</string>
+
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Helligkeitssteuerung</string>
+    <string name="status_bar_toggle_brightness_summary">Helligkeit durch Wischen über die Statusleiste anpassen</string>
 </resources>
