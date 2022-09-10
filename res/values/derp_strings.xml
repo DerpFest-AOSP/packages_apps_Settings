@@ -656,4 +656,9 @@
     <string name="back_options_dialog_title">Options</string>
     <string name="back_height_title">Back height</string>
     <string name="back_height_message">Amount of screen height used as a touchable region for back gesture</string>
+
+    <!-- Back gesture animation -->
+    <string name="navbar_gesture_handle_category">Gesture handle</string>
+    <string name="back_gesture_arrow_title">Back gesture animation</string>
+    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
 </resources>

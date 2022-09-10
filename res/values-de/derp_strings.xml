@@ -620,4 +620,9 @@
     <string name="back_options_dialog_title">Options</string>
     <string name="back_height_title">Erkennungsbereich</string>
     <string name="back_height_message">Wo die Zurück-Geste überall erkannt werden soll</string>
+
+    <!-- Back gesture animation -->
+    <string name="navbar_gesture_handle_category">Gesten-Navigationsgriff</string>
+    <string name="back_gesture_arrow_title">Animation der Zurück-Geste</string>
+    <string name="back_gesture_arrow_summary">Einen animierten Pfeil für die Zurück-Geste anzeigen</string>
 </resources>
