@@ -239,4 +239,8 @@
     <!-- Charging animation -->
     <string name="charging_animation_title">Ladeanimation</string>
     <string name="charging_animation_summary">Animation anzeigen, wenn das Gerät angeschlossen wird</string>
+
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_title">Animation der Zurück-Geste</string>
+    <string name="back_gesture_arrow_summary">Einen animierten Pfeil für die Zurück-Geste anzeigen</string>
 </resources>
