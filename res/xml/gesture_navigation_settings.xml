@@ -64,6 +64,16 @@
         settings:searchable="false"/>
 
     <PreferenceCategory
+        android:title="@string/navbar_gesture_handle_category">
+
+        <org.derpfest.support.preferences.SecureSettingSwitchPreference
+            android:key="show_back_arrow_gesture"
+            android:title="@string/back_gesture_arrow_message"
+            android:summary="@string/back_gesture_arrow_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/navbar_category">
 
         <org.derpfest.support.preferences.SecureSettingSwitchPreference
