@@ -608,4 +608,9 @@
     <!-- Black theme for dark mode -->
     <string name="black_bg_title">Reines Schwarz</string>
     <string name="black_bg_summary">Rein schwarzer Hintergrund für dunkles Design</string>
+
+    <!-- Back gesture animation -->
+    <string name="navbar_gesture_handle_category">Gesten-Navigationsgriff</string>
+    <string name="back_gesture_arrow_message">Animation der Zurück-Geste</string>
+    <string name="back_gesture_arrow_summary">Einen animierten Pfeil für die Zurück-Geste anzeigen</string>
 </resources>

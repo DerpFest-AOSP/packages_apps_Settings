@@ -630,4 +630,9 @@
     <!-- Black theme for dark mode -->
     <string name="black_bg_title">Pure black</string>
     <string name="black_bg_summary">Pure black background for dark theme</string>
+
+    <!-- Back gesture animation -->
+    <string name="navbar_gesture_handle_category">Gesture handle</string>
+    <string name="back_gesture_arrow_message">Back gesture animation</string>
+    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
 </resources>
