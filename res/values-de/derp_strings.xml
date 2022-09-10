@@ -890,4 +890,8 @@
     <string name="data_usage_app_restrict_background_all">Netzwerkzugriff im Hintergrund</string>
     <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
     <string name="data_usage_app_restrict_background_all_summary">Aktivieren der Netzwerknutzung im Hintergrund</string>
+
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Animation der Zurück-Geste</string>
+    <string name="back_gesture_arrow_summary">Einen animierten Pfeil für die Zurück-Geste anzeigen</string>
 </resources>

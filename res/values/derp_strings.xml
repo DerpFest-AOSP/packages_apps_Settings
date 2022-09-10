@@ -959,4 +959,7 @@
     <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
     <string name="data_usage_app_restrict_background_all_summary">Enable network usage in the background</string>
 
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Back gesture animation</string>
+    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
 </resources>
