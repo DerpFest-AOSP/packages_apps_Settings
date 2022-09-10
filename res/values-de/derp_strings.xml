@@ -575,4 +575,9 @@
     <string name="back_height_high_label">Unten</string>
     <string name="back_height_category">Erkennungsbereich der Zurück-Geste</string>
     <string name="back_height_summary">Wo die Zurück-Geste überall erkannt werden soll</string>
+
+    <!-- Back gesture animation -->
+    <string name="navbar_gesture_handle_category">Gesten-Navigationsgriff</string>
+    <string name="back_gesture_arrow_title">Animation der Zurück-Geste</string>
+    <string name="back_gesture_arrow_summary">Einen animierten Pfeil für die Zurück-Geste anzeigen</string>
 </resources>
