@@ -324,4 +324,8 @@
     <string name="app_volume_title">Lautstärkeregelung per App</string>
     <string name="app_volume_summary">Lautstärke-Schaltfläche pro Anwendung im Lautstärke-Dialog anzeigen</string>
 
+    <!-- Force to show settings in volume dialog -->
+    <string name="volume_dialog_force_show_settings_title">Mediensteuerung</string>
+    <string name="volume_dialog_force_show_settings_summary">Erzwingen der Anzeige der Mediensteuerung im Lautstärke-Dialog</string>
+
 </resources>
