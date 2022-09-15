@@ -105,6 +105,7 @@ android_library {
         "androidx.room_room-runtime",
         "SystemUIUnfoldLib",
         "VendorSupport-preference",
+        "vendor.lineage.trust-V1.0-java",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
