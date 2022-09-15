@@ -826,4 +826,11 @@
     <string name="unhide_app">App einblenden</string>
     <string name="hide_app_desc">Wenn du diese App versteckst, ist sie für Android und andere Apps nicht mehr sichtbar, und sie funktioniert möglicherweise nicht mehr wie vorgesehen. Denke daran, dass durch das Verstecken einer App deren Daten erhalten bleiben. Durch Verstecken schaltest du diese App aus und versteckst sie auf deinem Gerät.</string>
 
+    <!-- Restrict USB -->
+    <string name="trust_restrict_usb_title">USB beschränken</string>
+    <string name="trust_restrict_usb_summary">Unterstützung für USB-Anschlüsse wie Kopfhörer, Speichergeräte, Eingabegeräte (Mäuse, Tastaturen, Joysticks) und ADB regeln</string>
+    <string name="trust_restrict_usb_always">USB-Verbindungen ablehnen</string>
+    <string name="trust_restrict_usb_keyguard">USB-Verbindungen zulassen, wenn entsperrt</string>
+    <string name="trust_restrict_usb_disabled">USB-Verbindungen immer zulassen</string>
+
 </resources>

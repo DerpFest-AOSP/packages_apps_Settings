@@ -105,6 +105,7 @@ android_library {
         "Settings-change-ids",
         "VendorSupport-preference",
         "vendor.lineage.fastcharge-V1.0-java",
+        "vendor.lineage.trust-V1.0-java",
         "kotlin-stdlib",
         "kotlinx_coroutines_android",
         "kotlinx_coroutines",
