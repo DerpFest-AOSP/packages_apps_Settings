@@ -207,6 +207,15 @@
 
     </Preference>
 
+    <org.derpfest.support.preferences.GlobalSettingListPreference
+        android:key="trust_restrict_usb"
+        android:title="@string/trust_restrict_usb_title"
+        android:summary="@string/trust_restrict_usb_summary"
+        android:entries="@array/trust_restrict_usb_entries"
+        android:entryValues="@array/trust_restrict_usb_values"
+        android:defaultValue="0"
+        settings:controller="com.android.settings.security.TrustRestrictUsbPreferenceController" />
+
     <Preference
         android:order="260"
         android:key="encryption_and_credential"
