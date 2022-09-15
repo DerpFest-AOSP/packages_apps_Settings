@@ -427,4 +427,11 @@
     <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
     <string name="increasing_ring_min_volume_title">Start volume</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+
+    <!-- Restrict USB -->
+    <string name="trust_restrict_usb_title">Restrict USB</string>
+    <string name="trust_restrict_usb_summary">Control support for USB peripherals such as input (mice, keyboards, joysticks) and storage devices.</string>
+    <string name="trust_restrict_usb_always">Deny USB connections</string>
+    <string name="trust_restrict_usb_keyguard">Allow USB connections when unlocked</string>
+    <string name="trust_restrict_usb_disabled">Always allow USB connections</string>
 </resources>

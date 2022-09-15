@@ -403,4 +403,11 @@
     <string name="increasing_ring_volume_option_title">Ansteigende Klingeltonlautstärke</string>
     <string name="increasing_ring_min_volume_title">Anfangslautstärke</string>
     <string name="increasing_ring_ramp_up_time_title">Anstiegszeit</string>
+
+    <!-- Restrict USB -->
+    <string name="trust_restrict_usb_title">USB beschränken</string>
+    <string name="trust_restrict_usb_summary">Unterstützung für USB-Anschlüsse wie Kopfhörer, Speichergeräte, Eingabegeräte (Mäuse, Tastaturen, Joysticks) und ADB regeln</string>
+    <string name="trust_restrict_usb_always">USB-Verbindungen ablehnen</string>
+    <string name="trust_restrict_usb_keyguard">USB-Verbindungen zulassen, wenn entsperrt</string>
+    <string name="trust_restrict_usb_disabled">USB-Verbindungen immer zulassen</string>
 </resources>

@@ -128,6 +128,16 @@
         settings:keywords="@string/content_protection_preference_title"
         settings:controller="com.android.settings.security.ContentProtectionPreferenceController" />
 
+    <org.derpfest.support.preferences.GlobalSettingListPreference
+        android:order="235"
+        android:key="trust_restrict_usb"
+        android:title="@string/trust_restrict_usb_title"
+        android:summary="@string/trust_restrict_usb_summary"
+        android:entries="@array/trust_restrict_usb_entries"
+        android:entryValues="@array/trust_restrict_usb_values"
+        android:defaultValue="0"
+        settings:controller="com.android.settings.security.TrustRestrictUsbPreferenceController" />
+
     <PreferenceCategory
         android:order="240"
         android:key="security_settings_device_admin_category"
