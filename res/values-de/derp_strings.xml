@@ -471,4 +471,11 @@
 
     <!-- QS settings -->
     <string name="qs_title">Schnelleinstellungen</string>
+
+    <!-- Restrict USB -->
+    <string name="trust_restrict_usb_title">USB beschränken</string>
+    <string name="trust_restrict_usb_summary">Unterstützung für USB-Anschlüsse wie Kopfhörer, Speichergeräte, Eingabegeräte (Mäuse, Tastaturen, Joysticks) und ADB regeln</string>
+    <string name="trust_restrict_usb_always">USB-Verbindungen ablehnen</string>
+    <string name="trust_restrict_usb_keyguard">USB-Verbindungen zulassen, wenn entsperrt</string>
+    <string name="trust_restrict_usb_disabled">USB-Verbindungen immer zulassen</string>
 </resources>
