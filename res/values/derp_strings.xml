@@ -879,4 +879,8 @@
     <!-- Hardware info -->
     <string name="soc_model">SoC Model</string>
     <string name="total_ram">Total RAM</string>
+
+    <!-- Fingerprint lockout -->
+    <string name="fingerprint_lockout_title">Disable fingerprint lockout</string>
+    <string name="fingerprint_lockout_summary">Deactivates 30 second timeout as well as permanent lockout after multiple failed fingerprint unlock attempts</string>
 </resources>
