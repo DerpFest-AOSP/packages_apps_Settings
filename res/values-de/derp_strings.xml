@@ -836,4 +836,8 @@
     <!-- Hardware info -->
     <string name="soc_model">SoC-Modell</string>
     <string name="total_ram">RAM insgesamt</string>
+
+    <!-- Fingerprint lockout -->
+    <string name="fingerprint_lockout_title">Fingerabdrucksperre deaktivieren</string>
+    <string name="fingerprint_lockout_summary">Deaktiviert das 30-Sekunden-Timeout sowie die dauerhafte Sperrung nach mehreren fehlgeschlagenen Fingerabdruck-Entsperrversuchen</string>
 </resources>
