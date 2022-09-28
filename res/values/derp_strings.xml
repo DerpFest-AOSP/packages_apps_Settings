@@ -911,4 +911,8 @@
     <!-- Charging vibration -->
     <string name="charging_sounds_custom_title">Charging sound</string>
     <string name="charging_vibro_title">Charging vibration</string>
+
+    <!-- fingerprint lockout -->
+    <string name="fingerprint_lockout_title">Disable fingerprint lockout</string>
+    <string name="fingerprint_lockout_summary">Deactivates 30 second timeout as well as permanent lockout after multiple failed fingerprint unlock attempts</string>
 </resources>

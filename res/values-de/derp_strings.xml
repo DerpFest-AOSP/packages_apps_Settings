@@ -866,4 +866,8 @@
     <!-- Charging vibration -->
     <string name="charging_sounds_custom_title">Ton beim Laden</string>
     <string name="charging_vibro_title">Vibration beim Laden</string>
+
+    <!-- Fingerprint lockout -->
+    <string name="fingerprint_lockout_title">Fingerabdrucksperre deaktivieren</string>
+    <string name="fingerprint_lockout_summary">Deaktiviert das 30-Sekunden-Timeout sowie die dauerhafte Sperrung nach mehreren fehlgeschlagenen Fingerabdruck-Entsperrversuchen</string>
 </resources>
