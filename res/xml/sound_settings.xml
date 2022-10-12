@@ -303,10 +303,5 @@
             android:summary="@string/volume_dialog_force_show_settings_summary"
             android:defaultValue="false" />
 
-        <org.derpfest.support.preferences.SystemSettingSwitchPreference
-            android:key="app_volume"
-            android:title="@string/app_volume_title"
-            android:summary="@string/app_volume_summary"
-            android:defaultValue="true" />
     </PreferenceCategory>
 </PreferenceScreen>
