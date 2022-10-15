@@ -436,4 +436,9 @@
     <string name="app_lock_timeout_5min">5 Minuten</string>
     <string name="app_lock_timeout_10min">10 Minuten</string>
     <string name="app_lock_timeout_30min">30 Minuten</string>
+
+    <!-- Text shown for the title of the panic option -->
+    <string name="power_menu_panic_title">Panikauslöser</string>
+    <!-- Text shown for the description of the panic option -->
+    <string name="power_menu_panic_summary">Aktiviert einen Notfall-Panikauslöser.</string>
 </resources>
