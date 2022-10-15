@@ -423,4 +423,9 @@
     <string name="heads_up_title">Pop-up</string>
     <string name="heads_up_summary">Wichtige Benachrichtigungen in einem kleinen, schwebenden Fenster anzeigen</string>
     <string name="heads_up_off">Pop-ups sind global deaktiviert</string>
+
+    <!-- Text shown for the title of the panic option -->
+    <string name="power_menu_panic_title">Panikauslöser</string>
+    <!-- Text shown for the description of the panic option -->
+    <string name="power_menu_panic_summary">Aktiviert einen Notfall-Panikauslöser</string>
 </resources>

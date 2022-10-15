@@ -55,6 +55,12 @@
             android:defaultValue="false"
             android:enabled="false" />
 
+        <CheckBoxPreference
+            android:key="panic"
+            android:title="@string/power_menu_panic_title"
+            android:summary="@string/power_menu_panic_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
