@@ -55,7 +55,7 @@ public class BatteryInfo {
     public boolean discharging = true;
     public boolean isBatteryDefender;
     public boolean isFastCharging;
-    public static float batteryTemp;
+    public String batteryTemp;
     public long remainingTimeUs = 0;
     public long averageTimeToDischarge = EstimateKt.AVERAGE_TIME_TO_DISCHARGE_UNKNOWN;
     public String batteryPercentString;
@@ -312,7 +312,7 @@ public class BatteryInfo {
                                 BatteryManager.EXTRA_CHARGING_STATUS,
                                 BatteryManager.CHARGING_POLICY_DEFAULT)
                         == BatteryManager.CHARGING_POLICY_ADAPTIVE_LONGLIFE;
-        info.batteryTemp = (float) (batteryBroadcast.getIntExtra(BatteryManager.EXTRA_TEMPERATURE, 0) / 10);
+        info.batteryTemp = tenthsToFixedString(batteryBroadcast.getIntExtra(BatteryManager.EXTRA_TEMPERATURE, 0));
 
         info.statusLabel = Utils.getBatteryStatus(context, batteryBroadcast, isCompactStatus);
         info.batteryStatus =
@@ -340,6 +340,16 @@ public class BatteryInfo {
         }
         BatteryUtils.logRuntime(LOG_TAG, "time for getBatteryInfo", currentTimeMs);
         return info;
+    }
+
+    /**
+     * Format a number of tenths-units as a decimal string without using a
+     * conversion to float.  E.g. 347 -> "34.7", -99 -> "-9.9"
+     */
+    private static final String tenthsToFixedString(int x) {
+        int tens = x / 10;
+        // use Math.abs to avoid "-9.-9" about -99
+        return Integer.toString(tens) + "." + Math.abs(x - 10 * tens);
     }
 
     /** Returns a {@code BatteryInfo} with battery and charging relative information. */
