@@ -474,4 +474,9 @@
     <!-- USB configuration -->
     <string name="usb_default_config_title">USB configuration</string>
     <string name="usb_default_config_summary">Choose the default behavior when connected to a device via USB</string>
+
+    <!-- Text shown for the title of the panic option -->
+    <string name="power_menu_panic_title">Panic trigger</string>
+    <!-- Text shown for the description of the panic option -->
+    <string name="power_menu_panic_summary">Activates an emergency panic trigger</string>
 </resources>

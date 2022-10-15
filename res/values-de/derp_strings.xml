@@ -450,4 +450,9 @@
     <!-- USB configuration -->
     <string name="usb_default_config_title">USB-Konfiguration</string>
     <string name="usb_default_config_summary">Standardverhalten bei Verbindung mit einem Gerät über USB</string>
+
+    <!-- Text shown for the title of the panic option -->
+    <string name="power_menu_panic_title">Panikauslöser</string>
+    <!-- Text shown for the description of the panic option -->
+    <string name="power_menu_panic_summary">Aktiviert einen Notfall-Panikauslöser</string>
 </resources>
