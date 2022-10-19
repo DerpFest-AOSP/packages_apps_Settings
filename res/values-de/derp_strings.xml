@@ -766,4 +766,7 @@
     <!-- Access QS on lockscreen -->
     <string name="show_qs_on_secure_keyguard_title">Schnelleinstellungen</string>
     <string name="show_qs_on_secure_keyguard_summary">Umschalten der Schnelleinstellungen auf dem sicheren Sperrbildschirm zulassen</string>
+
+    <!-- Other Fragment -->
+    <string name="other_settings">Weitere Optionen</string>
 </resources>

@@ -147,4 +147,11 @@
         android:order="-30"
         android:fragment="com.android.settings.system.ResetDashboardFragment"
         settings:controller="com.android.settings.system.ResetPreferenceController"/>
+
+    <Preference
+        android:key="other_settings"
+        android:title="@string/other_settings"
+        android:icon="@drawable/ic_settings_other"
+        android:order="100"
+        android:fragment="com.android.settings.other.OtherFragment"/>
 </PreferenceScreen>
