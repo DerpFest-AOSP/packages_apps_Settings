@@ -742,4 +742,7 @@
     <string name="display_rotation_90_title">90 Grad</string>
     <string name="display_rotation_180_title">180 Grad</string>
     <string name="display_rotation_270_title">270 Grad</string>
+
+    <!-- Other Fragment -->
+    <string name="other_settings">Weitere Optionen</string>
 </resources>
