@@ -513,4 +513,8 @@
     <string name="daily_battery_usage_chart">Daily battery usage chart</string>
     <string name="daily_battery_usage_chart_summary">View usage for past 24 hours</string>
 
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Fast charging</string>
+    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string> 
+     
 </resources>
