@@ -96,6 +96,12 @@
         android:key="battery_temperature"
         android:title="@string/battery_temperature"
         android:selectable="false" />
+     
+    <SwitchPreference
+        android:key="fast_charging"
+        android:title="@string/fast_charging_title"
+        android:summary="@string/fast_charging_summary"
+        settings:controller="com.android.settings.fuelgauge.FastChargingPreferenceController"/>
 
     <com.android.settingslib.widget.FooterPreference
         android:key="power_usage_footer"
