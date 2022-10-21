@@ -535,4 +535,8 @@
     <string name="daily_battery_usage_chart">Diagramm zur täglichen Batterienutzung</string>
     <string name="daily_battery_usage_chart_summary">Nutzung der letzten 24 Stunden anzeigen</string>
 
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Schnelles Laden</string>
+    <string name="fast_charging_summary">Deaktivieren, um die vom Gerät beim Laden erzeugte Wärme zu reduzieren oder die Lebensdauer des Akkus zu verlängern</string>
+
 </resources>
