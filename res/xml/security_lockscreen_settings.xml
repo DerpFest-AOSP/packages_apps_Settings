@@ -132,7 +132,7 @@
             android:fragment="com.android.settings.display.AODSchedule"
             settings:controller="com.android.settings.display.AODSchedulePreferenceController" />
 
-        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+        <org.derpfest.support.preferences.SecureSettingSwitchPreference
             android:key="doze_on_charge"
             android:defaultValue="false"
             android:title="@string/doze_on_charge_title"
