@@ -587,4 +587,8 @@
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">\"App beenden\" für Benachrichtigungen</string>
     <string name="notification_guts_kill_app_button_summary">Zeigt eine Taste zum Beenden der App, wenn deren Benachrichtigung lange gedrückt wird</string>
+
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Zwischenablage-Overlay anzeigen</string>
+    <string name="show_clipboard_overlay_summary">Ein Overlay in der linken unteren Ecke des Bildschirms anzeigen, wenn etwas in die Zwischenablage kopiert wird</string>
 </resources>
