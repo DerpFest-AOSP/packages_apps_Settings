@@ -586,4 +586,8 @@
     <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">Haptisches Feedback bei Zurück-Geste</string>
     <string name="back_gesture_haptic_summary">Bei Zurück-Geste vibrieren</string>
+
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Zwischenablage-Overlay anzeigen</string>
+    <string name="show_clipboard_overlay_summary">Ein Overlay in der linken unteren Ecke des Bildschirms anzeigen, wenn etwas in die Zwischenablage kopiert wird</string>
 </resources>
