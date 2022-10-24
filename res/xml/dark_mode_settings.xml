@@ -62,4 +62,8 @@
         settings:searchable="false"
         settings:controller="com.android.settings.display.darkmode.DarkModeCustomBedtimePreferenceController" />
 
+    <org.derpfest.support.preferences.OverlaySwitchPreference
+        android:key="com.android.system.theme.black"
+        android:title="@string/black_theme_title"
+        android:summary="@string/black_theme_summary" />
 </PreferenceScreen>
