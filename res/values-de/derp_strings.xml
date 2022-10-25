@@ -894,4 +894,7 @@
 
     <!-- Skip biometric manual confirmation -->
     <string name="skip_biometric_auth_confirmation_title">Manuelle Bestätigung überspringen</string>
+
+    <!-- Advanced sound settings -->
+    <string name="sound_settings_advanced_title">Erweiterte Einstellungen</string>
 </resources>
