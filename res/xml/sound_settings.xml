@@ -143,51 +143,9 @@
         settings:allowDividerAbove="false"
         android:order="-119"/>
 
-    <!-- Adaptive Playback -->
-    <Preference
-        android:key="sound_adaptive_playback_summary"
-        android:title="@string/adaptive_playback_screen_title"
-        android:fragment="com.android.settings.sound.AdaptivePlaybackSoundSettings"
-        android:order="-114"
-        settings:controller="com.android.settings.sound.AdaptivePlaybackParentPreferenceController" />
-
-    <!-- Live Caption -110 and Now Playing -105-->
-
-    <!-- Spatial audio -->
-    <Preference
-        android:key="spatial_audio_summary"
-        android:title="@string/spatial_audio_title"
-        android:fragment="com.android.settings.notification.SpatialAudioSettings"
-        android:order="-107"
-        settings:controller="com.android.settings.notification.SpatialAudioParentPreferenceController"/>
-
-    <Preference
-        android:key="media_controls_summary"
-        android:title="@string/media_controls_title"
-        android:fragment="com.android.settings.sound.MediaControlsSettings"
-        android:order="-100"
-        settings:controller="com.android.settings.sound.MediaControlsParentPreferenceController"
-        settings:keywords="@string/keywords_media_controls"/>
-
-    <!-- Also vibration -->
-    <Preference
-        android:fragment="com.android.settings.accessibility.VibrationSettings"
-        android:key="vibration_and_haptics"
-        android:title="@string/accessibility_vibration_settings_title"
-        android:order="-90"
-        settings:controller="com.android.settings.accessibility.VibrationPreferenceController"
-        settings:keywords="@string/keywords_vibration"/>
-
-    <com.android.settingslib.PrimarySwitchPreference
-        android:key="gesture_prevent_ringing_sound"
-        android:title="@string/gesture_prevent_ringing_sound_title"
-        android:order="-80"
-        android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
-        settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController"/>
-
     <org.derpfest.support.preferences.SystemSettingSwitchPreference
         android:key="notification_sound_vib_screen_on"
-        android:order="-75"
+        android:order="-118"
         android:title="@string/notification_sound_vib_screen_on_title"
         android:summary="@string/notification_sound_vib_screen_on_summary"
         android:defaultValue="true" />
@@ -199,7 +157,7 @@
         android:dialogTitle="@string/notification_ringtone_title"
         android:summary="@string/summary_placeholder"
         android:ringtoneType="notification"
-        android:order="-70"/>
+        android:order="-117"/>
 
     <!-- Default alarm ringtone -->
     <com.android.settings.DefaultRingtonePreference
@@ -209,7 +167,7 @@
         android:summary="@string/summary_placeholder"
         android:persistent="false"
         android:ringtoneType="alarm"
-        android:order="-60"/>
+        android:order="-115"/>
 
     <org.derpfest.support.preferences.SystemSettingSwitchPreference
         android:key="show_app_volume"
@@ -218,47 +176,14 @@
         android:defaultValue="false"
         android:order="-5"/>
 
-    <!-- Dial pad tones -->
-    <SwitchPreference
-        android:key="dial_pad_tones"
-        android:title="@string/dial_pad_tones_title"
-        android:order="-50"/>
-
-    <!-- Screen locking sounds -->
-    <SwitchPreference
-        android:key="screen_locking_sounds"
-        android:title="@string/screen_locking_sounds_title"
-        android:order="-45"/>
-
-    <!-- Screenshot sound -->
-    <SwitchPreference
-        android:key="screenshot_shutter_sound"
-        android:title="@string/screenshot_shutter_sound_title"
-        android:order="-43"/>
-
-    <!-- Charging sounds -->
-    <SwitchPreference
-        android:key="charging_sounds"
-        android:title="@string/charging_sounds_title"
-        android:order="-40"/>
-
-    <!-- Docking sounds -->
-    <SwitchPreference
-        android:key="docking_sounds"
-        android:title="@string/docking_sounds_title"
-        android:order="-35"/>
-
-    <!-- Touch sounds -->
-    <SwitchPreference
-        android:key="touch_sounds"
-        android:title="@string/touch_sounds_title"
-        android:order="-30"/>
-
-    <!-- Show vibrate icon in status bar -->
-    <SwitchPreference
-        android:key="vibrate_icon"
-        android:title="@string/vibrate_icon_title"
-        android:order="-27"/>
+    <!-- Also vibration -->
+    <Preference
+        android:fragment="com.android.settings.accessibility.VibrationSettings"
+        android:key="vibration_and_haptics"
+        android:title="@string/accessibility_vibration_settings_title"
+        android:order="-112"
+        settings:controller="com.android.settings.accessibility.VibrationPreferenceController"
+        settings:keywords="@string/keywords_vibration"/>
 
     <!-- In-call feedback -->
     <org.derpfest.support.preferences.SystemSettingSwitchPreference
@@ -267,32 +192,51 @@
         android:defaultValue="false"
         settings:controller="com.android.settings.sound.IncallFeedbackPreferenceController" />
 
-    <!-- Dock speaker plays -->
-    <DropDownPreference
-        android:key="dock_audio_media"
-        android:title="@string/dock_audio_media_title"
-        android:summary="%s"
-        android:order="-20"/>
+    <!-- Live Caption -110 and Now Playing -105-->
 
-    <!-- Boot sounds -->
-    <SwitchPreference
-        android:key="boot_sounds"
-        android:title="@string/boot_sounds_title"
-        android:order="-15"/>
+    <!-- Spatial audio -->
+    <Preference
+        android:key="spatial_audio_summary"
+        android:title="@string/spatial_audio_title"
+        android:fragment="com.android.settings.notification.SpatialAudioSettings"
+        android:order="-100"
+        settings:controller="com.android.settings.notification.SpatialAudioParentPreferenceController"/>
 
-    <!-- Emergency tone -->
-    <DropDownPreference
-        android:key="emergency_tone"
-        android:title="@string/emergency_tone_title"
-        android:summary="%s"
-        android:order="-10"/>
+    <!-- Adaptive Playback -->
+    <Preference
+        android:key="sound_adaptive_playback_summary"
+        android:title="@string/adaptive_playback_screen_title"
+        android:fragment="com.android.settings.sound.AdaptivePlaybackSoundSettings"
+        android:order="-90"
+        settings:controller="com.android.settings.sound.AdaptivePlaybackParentPreferenceController" />
+
+    <com.android.settingslib.PrimarySwitchPreference
+        android:key="gesture_prevent_ringing_sound"
+        android:title="@string/gesture_prevent_ringing_sound_title"
+        android:order="-80"
+        android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
+        settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController"/>
 
     <org.derpfest.support.preferences.GlobalSettingSwitchPreference
         android:key="ringer_mute_speaker_media"
         android:title="@string/ringer_mute_speaker_media_title"
         android:summary="@string/ringer_mute_speaker_media_summary"
         android:defaultValue="false"
-        android:order="-5"/>
+        android:order="-70"/>
+
+    <Preference
+        android:key="media_controls_summary"
+        android:title="@string/media_controls_title"
+        android:fragment="com.android.settings.sound.MediaControlsSettings"
+        android:order="-60"
+        settings:controller="com.android.settings.sound.MediaControlsParentPreferenceController"
+        settings:keywords="@string/keywords_media_controls"/>
+
+    <Preference
+        android:key="sound_settings_advanced"
+        android:title="@string/sound_settings_advanced_title"
+        android:fragment="com.android.settings.notification.AdvancedSoundSettings"
+        android:order="-10" />
 
     <Preference
         android:key="sound_work_settings"
