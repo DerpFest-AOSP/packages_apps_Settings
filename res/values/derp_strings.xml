@@ -795,5 +795,8 @@
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
     <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+
+    <!-- Advanced sound settings -->
+    <string name="sound_settings_advanced_title">Additional settings</string>
      
 </resources>
