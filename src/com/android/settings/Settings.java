@@ -451,4 +451,9 @@ public class Settings extends SettingsActivity {
 
     // DerpSpace
     public static class DerpSpaceSettingsActivity extends SettingsActivity {}
+
+    /**
+     * Activity for PreviouslyConnectedDeviceDashboardFragment
+     */
+    public static class PreviouslyConnectedDevicesActivity extends SettingsActivity { /* empty */ }
 }
