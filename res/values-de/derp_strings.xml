@@ -950,4 +950,8 @@
     <!-- Navbar -->
     <string name="navbar_tuner_title">Navigationsleiste</string>
     <string name="navbar_tuner_summary">Anpassen des Navigationsleisten-Layouts</string>
+
+    <!-- Squiggle animation -->
+    <string name="show_squiggle_animation_title">Schnörkelanimation anzeigen</string>
+    <string name="show_squiggle_animation_summary">Schnörkelanimation im Mediaplayer anzeigen. Damit diese Einstellung sichtbar wird, muss entweder der Track gewechselt, die Wiedergabe angehalten oder der Fortschrittsbalken verschoben werden.</string>
 </resources>
