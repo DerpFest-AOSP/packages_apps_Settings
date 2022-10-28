@@ -243,4 +243,12 @@
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Animation der Zurück-Geste</string>
     <string name="back_gesture_arrow_summary">Einen animierten Pfeil für die Zurück-Geste anzeigen</string>
+
+    <!-- Ambient battery bar settings -->
+    <string name="ambient_battery_settings_title">Akkustandbalken</string>
+    <string name="ambient_battery_settings_summary">Akkustandbalken auf dem Ambient Display anzeigen</string>
+    <string name="keyguard_show_battery_title">Akkustandbalken beim Laden</string>
+    <string name="keyguard_show_battery_summary">Während des Ladevorgangs einen Akkustandbalken auf dem Ambient Display anzeigen</string>
+    <string name="keyguard_show_battery_always_title">Akkustandbalken immer anzeigen</string>
+    <string name="keyguard_show_battery_always_summary">Akkustandbalken immer auf dem Ambient Display anzeigen</string>
 </resources>
