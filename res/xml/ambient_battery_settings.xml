@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 The PixelDust Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:settings="http://schemas.android.com/apk/res-auto"
+        android:key="ambient_battery_settings"
+        android:title="@string/ambient_battery_settings_title">
+
+    <org.derpfest.support.preferences.SystemSettingSwitchPreference
+        android:key="sysui_keyguard_show_battery_bar"
+        android:title="@string/keyguard_show_battery_title"
+        android:summary="@string/keyguard_show_battery_summary"
+        android:defaultValue="false" />
+
+    <org.derpfest.support.preferences.SystemSettingSwitchPreference
+        android:key="sysui_keyguard_show_battery_bar_always"
+        android:title="@string/keyguard_show_battery_always_title"
+        android:summary="@string/keyguard_show_battery_always_summary"
+        android:dependency="sysui_keyguard_show_battery_bar"
+        android:defaultValue="false" />
+
+</PreferenceScreen>

@@ -87,6 +87,12 @@
             android:title="@string/enable_fingerprint_ripple_effect_title"
             android:summary="@string/enable_fingerprint_ripple_effect_summary"
             android:defaultValue="true" />
+
+        <Preference
+            android:key="ambient_battery"
+            android:title="@string/ambient_battery_settings_title"
+            android:summary="@string/ambient_battery_settings_summary"
+            android:fragment="org.derpfest.settings.ambient.AmbientBatterySettings" />
     </PreferenceCategory>
 
     <PreferenceCategory
