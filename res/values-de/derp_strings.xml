@@ -567,4 +567,8 @@
     <!-- Advanced sound settings -->
     <string name="sound_settings_advanced_title">Erweiterte Einstellungen</string>
 
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">IME-Schaltflächenbereich ausblenden</string>
+    <string name="navigation_bar_ime_space_summary">IME-Schaltflächenbereich unter der Tastatur ausblenden</string>
+
 </resources>
