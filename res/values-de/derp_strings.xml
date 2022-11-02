@@ -531,4 +531,10 @@
     <!-- Long press to copy wifi password -->
     <string name="copied_to_clipboard">In die Zwischenablage kopiert</string>
     <string name="longpress_to_clipboard">Gedrückthalten zum Kopieren</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Einst. für Vibration während Telefonaten</string>
+    <string name="incall_vibrate_connect_title">Bei hergestellter Verbindung vibrieren</string>
+    <string name="incall_vibrate_call_wait_title">Bei Anklopfen vibrieren</string>
+    <string name="incall_vibrate_disconnect_title">Beim Trennen der Verbindung vibrieren</string>
 </resources>
