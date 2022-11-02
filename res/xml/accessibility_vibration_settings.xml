@@ -44,6 +44,29 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="incall_vib_options"
+        android:title="@string/incall_vibration_category" >
+ 
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="vibrate_on_connect"
+            android:title="@string/incall_vibrate_connect_title"
+            android:defaultValue="false"
+            app:controller="com.android.settings.accessibility.InCallConnectVibrationTogglePreferenceController" />
+
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="vibrate_on_callwaiting"
+            android:title="@string/incall_vibrate_call_wait_title"
+            android:defaultValue="false"
+            app:controller="com.android.settings.accessibility.InCallWaitingVibrationTogglePreferenceController" />
+
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="vibrate_on_disconnect"
+            android:title="@string/incall_vibrate_disconnect_title"
+            android:defaultValue="false"
+            app:controller="com.android.settings.accessibility.InCallDisconnectVibrationTogglePreferenceController" />
+  </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="accessibility_notification_alarm_vibration_category"
         android:title="@string/accessibility_notification_alarm_vibration_category_title">
 
