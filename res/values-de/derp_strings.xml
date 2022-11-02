@@ -444,4 +444,10 @@
     <!-- Annoying Notifications -->
     <string name="notification_sound_vib_screen_on_title">Laute Benachrichtigungen</string>
     <string name="notification_sound_vib_screen_on_summary">Ton und Vibration bei Benachrichtigungen abspielen, wenn Bildschirm an ist</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Einst. für Vibration während Telefonaten</string>
+    <string name="incall_vibrate_connect_title">Bei hergestellter Verbindung vibrieren</string>
+    <string name="incall_vibrate_call_wait_title">Bei Anklopfen vibrieren</string>
+    <string name="incall_vibrate_disconnect_title">Beim Trennen der Verbindung vibrieren</string>
 </resources>
