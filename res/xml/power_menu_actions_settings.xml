@@ -67,6 +67,15 @@
             android:summary="@string/power_menu_advanced_restart_summary"
             android:defaultValue="false" />
 
+        <org.derpfest.support.preferences.SecureSettingListPreference
+            android:key="power_menu_type"
+            android:title="@string/power_menu_type_title"
+            android:summary="%s"
+            android:dialogTitle="@string/power_menu_type_title"
+            android:entries="@array/power_menu_type_entries"
+            android:entryValues="@array/power_menu_type_values"
+            android:defaultValue="0" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
