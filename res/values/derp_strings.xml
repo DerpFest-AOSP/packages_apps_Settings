@@ -242,7 +242,7 @@
     <string name="ring_volume_unlinked_option_title">Ring volume</string>
 
     <!-- Summary for the top level wallpapers settings [CHAR LIMIT=NONE]-->
-    <string name="wallpaper_dashboard_custom_summary">Colors, themed icons, app grid</string>
+    <string name="wallpaper_dashboard_custom_summary">Colors, themed icons, app grid, system font</string>
 
     <!-- Battery temperature -->
     <string name="battery_temperature">Battery temperature</string>
