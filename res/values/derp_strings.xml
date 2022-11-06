@@ -522,7 +522,7 @@
     <string name="radio_info_title">Radio info</string>
 
     <!-- Summary for the top level wallpapers settings [CHAR LIMIT=NONE]-->
-    <string name="wallpaper_dashboard_custom_summary">Colors, themed icons, app grid</string>
+    <string name="wallpaper_dashboard_custom_summary">Colors, themed icons, app grid, system font</string>
 
     <!-- Summary for list to control apps that ignore battery saving restrictions -->
     <string name="high_power_apps_summary">Battery optimization availability</string>

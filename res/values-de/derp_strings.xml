@@ -498,7 +498,7 @@
     <string name="radio_info_title">Radio-Info</string>
 
     <!-- Summary for the top level wallpapers settings [CHAR LIMIT=NONE]-->
-    <string name="wallpaper_dashboard_custom_summary">Farben, Symboldesigns, App-Raster</string>
+    <string name="wallpaper_dashboard_custom_summary">Farben, Symboldesigns, App-Raster, Systemschriftart</string>
 
     <!-- Summary for list to control apps that ignore battery saving restrictions -->
     <string name="high_power_apps_summary">Verfügbarkeit der Batterieoptimierung</string>
