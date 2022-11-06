@@ -371,6 +371,12 @@
     <string name="power_menu_bug_report_unavailable_for_user">Fehlerberichte sind für nicht-primäre Benutzer deaktiviert.</string>
     <string name="power_menu_emergency_title">Notfall</string>
     <string name="power_menu_devicecontrols_title">Gerätesteuerung</string>
+    <string name="power_menu_type_title">Stil des Ein-/Aus-Menüs</string>
+    <string name="power_menu_type_lite">Minimalistisch (Android 12)</string>
+    <string name="power_menu_type_full">Umfassend (Android 11)</string>
+    <string name="power_menu_type_classic">Klassisch (Android 8)</string>
+    <string name="power_menu_type_grid">Raster</string>
+    <string name="power_menu_type_legacy">Altmodisch (Android 7)</string>
     <string name="power_menu_advanced_restart_title">Erweiterter Neustart</string>
     <string name="power_menu_advanced_restart_summary">Bei entsperrtem Bildschirm dem Ein-/Aus-Menü Optionen für Neustart in Recovery oder in Bootloader hinzufügen</string>
     <string name="power_menu_emergency_affordance_enabled">Notfallelement ist aktiviert</string>
