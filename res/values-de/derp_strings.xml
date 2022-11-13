@@ -529,7 +529,7 @@
     <string name="wallpaper_dashboard_custom_summary">Farben, Symboldesigns, App-Raster, Systemschriftart</string>
 
     <!-- Summary for list to control apps that ignore battery saving restrictions -->
-    <string name="high_power_apps_summary">Verfügbarkeit der Batterieoptimierung</string>
+    <string name="high_power_apps_summary">Verfügbarkeit der Akkuoptimierung</string>
 
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Geste zum Durchlaufen der Klingeltonmodi</string>
@@ -783,10 +783,10 @@
     <string name="charging_vibro_title">Vibration beim Aufladen</string>
 
     <!-- Battery charge warning -->
-    <string name="notification_sound_battery_charge_title">Batterieladezustandswarnung aktivieren</string>
-    <string name="notification_battery_charge_level_title">Batterieladungswarnung</string>
+    <string name="notification_sound_battery_charge_title">Akkuladezustandswarnung aktivieren</string>
+    <string name="notification_battery_charge_level_title">Akkuladungswarnung</string>
     <string name="notification_battery_charge_level_summary">Einen Ton abspielen, wenn der Akku beim Laden einen Ladestand erreicht</string>
-    <string name="notification_battery_charge_level_seek_bar">Batterieladezustand</string>
+    <string name="notification_battery_charge_level_seek_bar">Akkuladezustand</string>
     <string name="notification_battery_charge_level_ringtone">Klingelton</string>
     <string name="notification_battery_charge_level_silent">Stumm</string>
 
