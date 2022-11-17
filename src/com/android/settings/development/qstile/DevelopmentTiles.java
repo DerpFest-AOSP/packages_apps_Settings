@@ -80,9 +80,13 @@ public abstract class DevelopmentTiles extends TileService {
         refresh();
     }
 
+    public boolean forceEnabled() {
+        return false;
+    }
+
     public void refresh() {
         final int state;
-        if (!DevelopmentSettingsEnabler.isDevelopmentSettingsEnabled(this)) {
+        if (!DevelopmentSettingsEnabler.isDevelopmentSettingsEnabled(this) && !forceEnabled()) {
             // Reset to disabled state if dev option is off.
             if (isEnabled()) {
                 setIsEnabled(false);
@@ -236,6 +240,11 @@ public abstract class DevelopmentTiles extends TileService {
                     isEnabled);
             mIsEnabled = isEnabled;
             mSensorPrivacyManager.setAllSensorPrivacy(isEnabled);
+        }
+
+        @Override
+        public boolean forceEnabled() {
+            return true;
         }
     }
 
