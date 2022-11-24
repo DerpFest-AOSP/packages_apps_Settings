@@ -903,4 +903,7 @@
     <!-- Separate ring & notification toggle -->
     <string name="volume_separate_notification_title">Separated Ring and Notification</string>
     <string name="volume_separate_notification_summary">Allow controlling each stream individually</string>
+
+    <!-- In-call notifications -->
+    <string name="in_call_notifications_title">In-call notifications</string>
 </resources>

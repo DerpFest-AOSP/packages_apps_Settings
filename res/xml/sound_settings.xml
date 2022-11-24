@@ -193,6 +193,11 @@
         settings:controller="com.android.settings.accessibility.VibrationPreferenceController"
         settings:keywords="@string/keywords_vibration"/>
 
+    <!-- In-call notifications -->
+    <SwitchPreference
+        android:key="in_call_notifications"
+        android:title="@string/in_call_notifications_title"/>
+
     <!-- In-call feedback -->
     <org.derpfest.support.preferences.SystemSettingSwitchPreference
         android:key="incall_feeedback_vibrate"
