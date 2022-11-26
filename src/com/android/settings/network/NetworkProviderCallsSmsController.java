@@ -190,7 +190,9 @@ public class NetworkProviderCallsSmsController extends AbstractPreferenceControl
 
     @Override
     public boolean isAvailable() {
-        return mUserManager.isAdminUser();
+        return mTelephonyManager.isVoiceCapable()
+                ? mUserManager.isAdminUser()
+                : false;
     }
 
     @Override
