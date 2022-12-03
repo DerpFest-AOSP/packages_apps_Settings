@@ -77,6 +77,12 @@
         android:title="@string/category_name_appearance"
         android:order="-180">
 
+        <Preference
+            android:key="monet_settings"
+            android:title="@string/monet_settings_title"
+            android:summary="@string/monet_settings_sammary"
+            android:fragment="com.android.settings.display.MonetSettings" />
+
         <com.android.settings.display.darkmode.DarkModePreference
             android:key="dark_ui_mode"
             android:title="@string/dark_ui_mode"
