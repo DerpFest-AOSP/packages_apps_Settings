@@ -829,4 +829,7 @@
     <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
     <string name="user_disallow_install_apps_unknown_sources">Disallow installing apps from third party sources</string>
 
+    <!-- Screen resolution -->
+    <string name="custom_screen_resolution_title">Custom screen resolution</string>
+
 </resources>

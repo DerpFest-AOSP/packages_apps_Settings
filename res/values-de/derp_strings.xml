@@ -786,4 +786,7 @@
     <string name="cleartext_network_policy_title">Klartext-Netzwerkverkehr einschränken</string>
     <string name="cleartext_network_policy_summary">Blockiert den gesamten Nicht-TLS-Netzwerkverkehr. Erfordert eine private DNS-Konfiguration. Hinweis: Ohne ausdrückliche Ausnahmen funktionieren Apps, die Klartextverkehr verwenden, möglicherweise nicht</string>
 
+    <!-- Screen resolution -->
+    <string name="custom_screen_resolution_title">Benutzerdefinierte Bildschirmauflösung</string>
+
 </resources>
