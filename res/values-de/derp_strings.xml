@@ -853,4 +853,7 @@
     <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
     <string name="data_usage_app_restrict_background_all_summary">Aktivieren der Netzwerknutzung im Hintergrund</string>
 
+    <!-- Screen resolution -->
+    <string name="custom_screen_resolution_title">Benutzerdefinierte Bildschirmauflösung</string>
+
 </resources>
