@@ -36,4 +36,31 @@
         android:key="accent_color"
         android:title="@string/accent_color_title"
         android:summary="@string/accent_color_summary" />
+
+    <org.derpfest.support.preferences.ProperSeekBarPreference
+        android:key="luminance_factor"
+        android:title="@string/luminance_factor_title"
+        android:summary="@string/luminance_factor_summary"
+        android:max="100"
+        settings:min="-95"
+        settings:interval="5"
+        settings:defaultValue="0"
+        settings:units="%" />
+
+    <org.derpfest.support.preferences.ProperSeekBarPreference
+        android:key="chroma_factor"
+        android:title="@string/chroma_factor_title"
+        android:summary="@string/chroma_factor_summary"
+        android:max="100"
+        settings:min="-95"
+        settings:interval="5"
+        settings:defaultValue="0"
+        settings:units="%" />
+
+    <org.derpfest.support.preferences.SwitchPreference
+        android:key="tint_background"
+        android:title="@string/tint_background_title"
+        android:summary="@string/tint_background_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
