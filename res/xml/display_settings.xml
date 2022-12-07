@@ -65,8 +65,8 @@
 
         <SwitchPreference
             android:key="pocket_judge"
-            android:title="@string/proximity_wake_title"
-            android:summary="@string/proximity_wake_summary" />
+            android:title="@string/pocket_judge_title"
+            android:summary="@string/pocket_judge_summary" />
     </PreferenceCategory>
 
     <PreferenceCategory
