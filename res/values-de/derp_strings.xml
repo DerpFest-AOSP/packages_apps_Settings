@@ -307,4 +307,7 @@
     <string name="long_screen_settings_title">Vollbild-Apps</string>
     <string name="long_screen_settings_summary">Ältere Anwendungen zu Vollbild zwingen</string>
     <string name="long_screen_settings_no_apps">Keine Apps</string>
+
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Warnung! Diese Option funktioniert möglicherweise nicht richtig oder führt zu Datenverlusten und wird daher nicht empfohlen!</string>
 </resources>
