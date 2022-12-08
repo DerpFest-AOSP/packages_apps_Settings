@@ -281,4 +281,7 @@
     <string name="heads_up_title">Heads-up</string>
     <string name="heads_up_summary">Display priority notifications in a small floating window</string>
     <string name="heads_up_off">Heads-up is disabled globally</string>
+
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
 </resources>
