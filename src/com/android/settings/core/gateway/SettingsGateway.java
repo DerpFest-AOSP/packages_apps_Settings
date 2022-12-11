@@ -183,6 +183,8 @@ import com.android.settings.derp.tether.WifiTetherClientManager;
 
 import org.derpfest.derpspace.DerpSpace;
 
+import com.google.android.settings.security.SecurityHubDashboard;
+
 public class SettingsGateway {
 
     /**
@@ -351,7 +353,8 @@ public class SettingsGateway {
             TurnScreenOnSettings.class.getName(),
             TurnScreenOnDetails.class.getName(),
             DerpSpace.class.getName(),
-            WifiTetherClientManager.class.getName()
+            WifiTetherClientManager.class.getName(),
+            SecurityHubDashboard.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
