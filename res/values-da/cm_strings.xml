@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2022 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fast_charging_title">Hurtig opladning</string>
+    <string name="fast_charging_summary">Deaktiver for at reducere den varme, der produceres af enheden, mens du oplader og forlæng batteriets levetid</string>
+    <string name="high_touch_sensitivity_title">Høj berøringsfølsomhed</string>
+    <string name="high_touch_sensitivity_summary">Forøg berøringsfølsom skærms følsomhed, så den kan bruges med handsker på</string>
+    <string name="power_menu_advanced_restart_title">Avanceret genstart</string>
+    <string name="power_menu_advanced_restart_summary">Når oplåst, vis muligheder i tænd-/slukmenuen for at genstarte til recovery eller bootloader</string>
+    <string name="torch_long_press_power_gesture_title">Langt tryk for lommelygte</string>
+    <string name="torch_long_press_power_gesture_desc">Aktivér lommelygten med et langt tryk på strømknappen, mens skærmen er slukket</string>
+    <string name="lock_settings_picker_pattern_size_message">Vælg en mønsterstørrelse</string>
+    <string name="lockpattern_settings_enable_error_path_title">Vis mønster-fejl</string>
+    <string name="lockpattern_settings_enable_dots_title">Vis mønster-prikker</string>
+    <string name="unlock_scramble_pin_layout_title">Omvælt opsætning</string>
+    <string name="unlock_scramble_pin_layout_summary">Omvælt PIN-opsætning, ved oplåsning af enhed</string>
+    <string name="tethering_allow_vpn_upstreams_title">Tillad klienter at bruge VPN\'er</string>
+    <string name="display_rotation_title">Rotationsindstillinger</string>
+    <string name="display_rotation_enabled">Auto-rotation er aktiveret</string>
+    <string name="display_rotation_disabled">Auto-rotation er deaktiveret</string>
+    <string name="display_rotation_unit">grader</string>
+    <string name="display_rotation_category_title">Rotationstilstande</string>
+    <string name="display_rotation_0_title">0 grader</string>
+    <string name="display_rotation_90_title">90 grader</string>
+    <string name="display_rotation_180_title">180 grader</string>
+    <string name="display_rotation_270_title">270 grader</string>
+</resources>
