@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2022 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fast_charging_title">الشحن السريع</string>
+    <string name="fast_charging_summary">قم بتعطيله لتقليل الحرارة التي ينتجها الجهاز أثناء الشحن أو لتمديد عمر البطارية</string>
+    <string name="high_touch_sensitivity_title">حساسية ذات لمس عالي</string>
+    <string name="high_touch_sensitivity_summary">زيادة حساسية شاشة اللمس حتى يمكن استخدامها أثناء ارتداء القفازات</string>
+    <string name="berry_black_theme_title">أسود خالص</string>
+    <string name="berry_black_theme_summary">خلفية سوداء خالصة للوضع المظلم</string>
+    <string name="torch_long_press_power_gesture_title">الضغط مطولاً للكشاف</string>
+    <string name="torch_long_press_power_gesture_desc">تشغيل المصباح بضغطة طويلة على زر الطاقة والشاشة مغلقة</string>
+    <string name="lock_settings_picker_pattern_size_message">اختر حجم النمط</string>
+    <string name="lockpattern_settings_enable_error_path_title">إظهار خطأ النمط</string>
+    <string name="lockpattern_settings_enable_dots_title">إظهار نقاط النمط</string>
+    <string name="unlock_scramble_pin_layout_title">تخطيط الترميز</string>
+    <string name="unlock_scramble_pin_layout_summary">تخطيط رقم PIN المرمز عند إلغاء تأمين الجهاز</string>
+    <string name="tethering_allow_vpn_upstreams_title">السماح للعملاء باستخدام الـ VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">السماح لعملاء نقطة الاتصال باستخدام اتصالات الـVPN لهذا الجهاز\u2019</string>
+    <string name="display_rotation_title">إعدادات التدوير</string>
+    <string name="display_rotation_enabled">التدوير التلقائي مُفعل</string>
+    <string name="display_rotation_disabled">التدوير التلقائي مُعطل</string>
+    <string name="display_rotation_unit">الدرجات</string>
+    <string name="display_rotation_category_title">أوضاع التدوير</string>
+    <string name="display_rotation_0_title">0 درجة</string>
+    <string name="display_rotation_90_title">90 درجة</string>
+    <string name="display_rotation_180_title">180 درجة</string>
+    <string name="display_rotation_270_title">270 درجة</string>
+</resources>
