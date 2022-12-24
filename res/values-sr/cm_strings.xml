@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2022 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="high_touch_sensitivity_title">Велика осетљивост на додир</string>
+    <string name="high_touch_sensitivity_summary">Повећава осетљивост екрана ради коришћења уређаја у рукавицама.</string>
+    <string name="torch_long_press_power_gesture_title">Дуги притисак за лампу</string>
+    <string name="torch_long_press_power_gesture_desc">Укључите лампу дугим притиском на дугме за напајање док је екран искључен.</string>
+    <string name="lock_settings_picker_pattern_size_message">Изаберите величину шаблона</string>
+    <string name="lockpattern_settings_enable_error_path_title">Прикажи неисправан унос</string>
+    <string name="lockpattern_settings_enable_dots_title">Прикажи тачке</string>
+    <string name="unlock_scramble_pin_layout_title">Насумични распоред</string>
+    <string name="unlock_scramble_pin_layout_summary">Приказује дугмад за унос PIN кода у насумичном реду.</string>
+    <string name="display_rotation_title">Подешавања ротације</string>
+    <string name="display_rotation_enabled">Аутоматска ротација је омогућена.</string>
+    <string name="display_rotation_disabled">Аутоматска ротација је онемогућена.</string>
+    <string name="display_rotation_unit">степени</string>
+    <string name="display_rotation_category_title">Режими ротације</string>
+    <string name="display_rotation_0_title">0 степени</string>
+    <string name="display_rotation_90_title">90 степени</string>
+    <string name="display_rotation_180_title">180 степени</string>
+    <string name="display_rotation_270_title">270 степени</string>
+</resources>

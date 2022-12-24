@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2022 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="high_touch_sensitivity_title">Hege gefoelichheid oanreitsjen</string>
+    <string name="high_touch_sensitivity_summary">Gefoelichheid fan it skerm ferheegje, sadat it betsjinne wurde kin mei wanten</string>
+    <string name="torch_long_press_power_gesture_title">Lang drukke foar bûslamp</string>
+    <string name="torch_long_press_power_gesture_desc">Bûslampe ynskeakelje troch lang op de oan/út-knop te drukken as it skerm út is</string>
+    <string name="lock_settings_picker_pattern_size_message">Grutte patroan kieze</string>
+    <string name="lockpattern_settings_enable_error_path_title">Patroanflater toane</string>
+    <string name="lockpattern_settings_enable_dots_title">Patroanknoppen toane</string>
+    <string name="unlock_scramble_pin_layout_title">Lay-out hutselje</string>
+    <string name="unlock_scramble_pin_layout_summary">Pin-lay-out troch inoar hutselje by apparaat ûntskoatteljen</string>
+    <string name="tethering_allow_vpn_upstreams_title">Clients tastean om VPN\'s te brûken</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Hotspot-brûkers tastean om de VPN-ferbiningen fan dit apparaat te brûken om te uploaden</string>
+    <string name="display_rotation_title">Rotaasje-ynstellingen</string>
+    <string name="display_rotation_enabled">Auto-rotaasje is ynskeakele</string>
+    <string name="display_rotation_disabled">Auto-rotaasje is útskeakele</string>
+    <string name="display_rotation_unit">graden</string>
+    <string name="display_rotation_category_title">Draaistannen</string>
+    <string name="display_rotation_0_title">0 graden</string>
+    <string name="display_rotation_90_title">90 graden</string>
+    <string name="display_rotation_180_title">180 graden</string>
+    <string name="display_rotation_270_title">270 graden</string>
+</resources>
