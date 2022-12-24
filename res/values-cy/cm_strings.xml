@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2022 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fast_charging_title">Gwefru cyflym</string>
+    <string name="fast_charging_summary">Analluoga i leihau\'r gwres sy\'n cael ei gynhyrchu gan y ddyfais wrth wefru neu i ymestyn oes y batri</string>
+    <string name="high_touch_sensitivity_title">Sensitifrwydd cyffwrdd uchel</string>
+    <string name="high_touch_sensitivity_summary">Cynyddu sensitifrwydd y sgrin gyffwrdd fel y gellir ei defnyddio wrth wisgo menig</string>
+    <string name="berry_black_theme_title">Du pur</string>
+    <string name="berry_black_theme_summary">Cefndir du pur i\'r thema dywyll</string>
+    <string name="power_menu_advanced_restart_title">Ailgychwyn arbennig</string>
+    <string name="power_menu_advanced_restart_summary">Pan wedi datgloi, cynnwys opsiynau yn y ddewislen pŵer i ailgychwyn y system neu ailgychwyn i\'r modd adfer</string>
+    <string name="torch_long_press_power_gesture_title">Dal yn hir i lansio\'r fflacholau</string>
+    <string name="torch_long_press_power_gesture_desc">Troi\'r fflacholau ymlaen wrth wasgu\'r botwm pŵer yn hir tra bod y sgrin i ffwrdd</string>
+    <string name="lock_settings_picker_pattern_size_message">Dewisa faint patrwm</string>
+    <string name="lockpattern_settings_enable_error_path_title">Dangos gwall patrwm</string>
+    <string name="lockpattern_settings_enable_dots_title">Dangos dotiau patrwm</string>
+    <string name="unlock_scramble_pin_layout_title">Cymysgu\'r cynllun</string>
+    <string name="unlock_scramble_pin_layout_summary">Cymysgu cynllun y PIN wrth ddatgloi\'r ddyfais</string>
+    <string name="tethering_allow_vpn_upstreams_title">Caniatáu cleientiaid i ddefnyddio VPNau</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Caniatáu cleientiaid llecynnau Wi-Fi i ddefnyddio cysylltiadau VPN y ddyfais hon</string>
+    <string name="display_rotation_title">Gosodiadau cylchdroi</string>
+    <string name="display_rotation_enabled">Mae cylchdroi yn awtomatig wedi\'i alluogi</string>
+    <string name="display_rotation_disabled">Mae cylchdroi yn awtomatig wedi\'i analluogi</string>
+    <string name="display_rotation_unit">graddau</string>
+    <string name="display_rotation_category_title">Moddau cylchdroi</string>
+    <string name="display_rotation_0_title">0 gradd</string>
+    <string name="display_rotation_90_title">90 gradd</string>
+    <string name="display_rotation_180_title">180 gradd</string>
+    <string name="display_rotation_270_title">270 gradd</string>
+    <string name="device_info_protected_single_press">Tapio i ddangos gwybodaeth</string>
+</resources>

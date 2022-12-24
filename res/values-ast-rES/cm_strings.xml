@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2022 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fast_charging_title">Carga rápida</string>
+    <string name="fast_charging_summary">Desactiva esta opción p\'amenorgar la calor producida pol preséu mentanto carga y aumentar la vida útil de la batería</string>
+    <string name="high_touch_sensitivity_title">Sensibilidá alta al tactu</string>
+    <string name="high_touch_sensitivity_summary">Aumenta la sensibilidá de la pantalla táctil pa que puedas usala mentanto lleves guantes</string>
+    <string name="berry_black_theme_title">Prietu puro</string>
+    <string name="berry_black_theme_summary">Un fondu en prieto puro pal estilu «Escuridá»</string>
+    <string name="power_menu_advanced_restart_title">Reaniciu avanzáu</string>
+    <string name="power_menu_advanced_restart_summary">Al desbloquiar, inclúi les opciones pa reaniciar al mou de recuperación o al cargador d\'arrinque nel menú d\'apagáu</string>
+    <string name="torch_long_press_power_gesture_title">Primíu llargu pa la llinterna</string>
+    <string name="torch_long_press_power_gesture_desc">Activa la llinterna teniendo primíu\'l botón d\'apagáu mentanto la pantalla ta apagada</string>
+    <string name="lockpattern_settings_enable_error_path_title">Amosar los patrones incorreutos</string>
+    <string name="lockpattern_settings_enable_dots_title">Amosar los puntos del patrón</string>
+    <string name="unlock_scramble_pin_layout_title">Distribución al debalu</string>
+    <string name="unlock_scramble_pin_layout_summary">Alteria la distribución del tecláu del PIN al desbloquiar el preséu</string>
+    <string name="tethering_allow_vpn_upstreams_title">Permitir que los veceros usen les VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permite que los veceros del puntu Wi-Fi usen les conexones VPN d\u2019esti preséu pa la conectividá</string>
+    <string name="display_rotation_unit">graos</string>
+    <string name="display_rotation_0_title">0 graos</string>
+    <string name="display_rotation_90_title">90 graos</string>
+    <string name="display_rotation_180_title">180 graos</string>
+    <string name="display_rotation_270_title">270 graos</string>
+    <string name="device_info_protected_single_press">Toca equí p\'amosar la información</string>
+</resources>

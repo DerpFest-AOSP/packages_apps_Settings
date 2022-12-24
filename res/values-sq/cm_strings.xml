@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2022 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fast_charging_title">Karikim i shpejtë</string>
+    <string name="fast_charging_summary">Çaktivizoni për të zvogëluar nxehtësinë e prodhuar nga pajisja gjatë karikimit ose për të zgjatur jetëgjatësinë e baterisë</string>
+    <string name="high_touch_sensitivity_title">Ndjesi e lartë e prekjes</string>
+    <string name="high_touch_sensitivity_summary">Rrit ndjeshmërinë e prekjes kështu që mund të përdoret kur keni dorashka</string>
+    <string name="berry_black_theme_title">E zezë e pastër</string>
+    <string name="berry_black_theme_summary">Sfond i zi i pastër për temë të errët</string>
+    <string name="power_menu_advanced_restart_title">Rindezje e përparuar</string>
+    <string name="power_menu_advanced_restart_summary">Kur telefoni është i zhbllokuar, përfshi në menunë e energjisë opsione për t\'u rindezur në Recovery ose Bootloader</string>
+    <string name="torch_long_press_power_gesture_title">Mbaj shtypur për të ndezur elektrikun e dorës</string>
+    <string name="torch_long_press_power_gesture_desc">Ndiz elektrikun e dorës duke mbajtur shtypur butonin e energjisë kur ekrani është i fikur</string>
+    <string name="lock_settings_picker_pattern_size_message">Zgjidh madhësinë e modelit</string>
+    <string name="lockpattern_settings_enable_error_path_title">Shfaq gabimet në vizatimin e modelit</string>
+    <string name="lockpattern_settings_enable_dots_title">Shfaq pikat e modelit</string>
+    <string name="unlock_scramble_pin_layout_title">Paraqitja e përplasjes</string>
+    <string name="unlock_scramble_pin_layout_summary">Përzieni paraqitjen e kodit PIN kur zhbllokoni pajisjen</string>
+    <string name="tethering_allow_vpn_upstreams_title">Lejo klientët të përdorin VPN -enet</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Lejo klientët e HotSpot të përdorin lidhjet VPN të kësaj paisje për lidhje në rrjedhën e ngarkimit</string>
+    <string name="display_rotation_title">Parametrat e rrotullimit</string>
+    <string name="display_rotation_enabled">Rrotullimi automatik është i aktivizuar</string>
+    <string name="display_rotation_disabled">Rrotullimi automatik është i çaktivizuar</string>
+    <string name="display_rotation_unit">gradë</string>
+    <string name="display_rotation_category_title">Mënyrat e rrotullimit</string>
+    <string name="display_rotation_0_title">0 gradë</string>
+    <string name="display_rotation_90_title">90 gradë</string>
+    <string name="display_rotation_180_title">180 gradë</string>
+    <string name="display_rotation_270_title">270 gradë</string>
+    <string name="device_info_protected_single_press">Trokit për të shfaqur informacionin</string>
+</resources>

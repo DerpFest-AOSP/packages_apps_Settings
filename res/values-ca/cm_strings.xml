@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2022 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fast_charging_title">Càrrega ràpida</string>
+    <string name="fast_charging_summary">Desactiveu-lo per reduir la calor produïda pel dispositiu mentre es carrega o per ampliar la vida útil de la bateria</string>
+    <string name="high_touch_sensitivity_title">Sensibilitat al tacte alta</string>
+    <string name="high_touch_sensitivity_summary">Incrementa la sensibilitat de la pantalla tàctil de manera que pugui utilitzar-se si es porten guants</string>
+    <string name="berry_black_theme_title">Negre pur</string>
+    <string name="berry_black_theme_summary">Fons negre pur per al tema fosc</string>
+    <string name="power_menu_advanced_restart_title">Reinici avançat</string>
+    <string name="power_menu_advanced_restart_summary">Quan està desbloquejat, inclou opcions en el menú d\'encesa per a reiniciar al recovery o bootloader</string>
+    <string name="torch_long_press_power_gesture_title">Pulsació llarga per la torxa</string>
+    <string name="torch_long_press_power_gesture_desc">Activa la torxa fent una pulsació llarga del botó d\'apagat mentre la pantalla està apagada</string>
+    <string name="lock_settings_picker_pattern_size_message">Tria una mida de patró</string>
+    <string name="lockpattern_settings_enable_error_path_title">Mostra el patró erroni</string>
+    <string name="lockpattern_settings_enable_dots_title">Mostra els punts del patró</string>
+    <string name="unlock_scramble_pin_layout_title">Disposició aleatòria</string>
+    <string name="unlock_scramble_pin_layout_summary">Disposa aleatòriament les tecles del PIN quan es desbloquegi el dispositiu</string>
+    <string name="tethering_allow_vpn_upstreams_title">Permet als clients utilitzar les VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permet que els clients de punts d\'accés utilitzin les connexions VPN d\'aquest dispositiu per a la connectivitat ascendent</string>
+    <string name="display_rotation_title">Configuració de rotació</string>
+    <string name="display_rotation_enabled">L\'auto-rotació està habilitada</string>
+    <string name="display_rotation_disabled">L\'auto-rotació està inhabilitada</string>
+    <string name="display_rotation_unit">graus</string>
+    <string name="display_rotation_category_title">Modes de rotació</string>
+    <string name="display_rotation_0_title">0 graus</string>
+    <string name="display_rotation_90_title">90 graus</string>
+    <string name="display_rotation_180_title">180 graus</string>
+    <string name="display_rotation_270_title">270 graus</string>
+    <string name="device_info_protected_single_press">Toqueu per mostrar la informació</string>
+</resources>
