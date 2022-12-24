@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2022 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fast_charging_title">Hitro polnjenje</string>
+    <string name="fast_charging_summary">Onemogočite za zmanjšanje vročine, povzročene iz naprave med polnjenjem ali za podaljšanje življenjske dobe baterije</string>
+    <string name="high_touch_sensitivity_title">Visoka občutljivost dotika</string>
+    <string name="high_touch_sensitivity_summary">Povečaj občutljivost dotika, tako da ga lahko uporabite, ko nosite rokavice</string>
+    <string name="berry_black_theme_title">Popolnoma črna</string>
+    <string name="berry_black_theme_summary">Popolnoma črno ozadje za temno temo</string>
+    <string name="power_menu_advanced_restart_title">Napredni vnovičen zagon</string>
+    <string name="power_menu_advanced_restart_summary">Ko je odklenjeno, v meni izklopa vključi možnosti za vnovično zaganjanje v obnovitev ali zagonski nalagalnik</string>
+    <string name="torch_long_press_power_gesture_title">Pridržanje za svetilko</string>
+    <string name="torch_long_press_power_gesture_desc">Aktivirajte svetilko s pridržanjem gumba za vklop med izključenim zaslonom</string>
+    <string name="lock_settings_picker_pattern_size_message">Izberite velikost vzorca</string>
+    <string name="lockpattern_settings_enable_error_path_title">Prikaži napako vzorca</string>
+    <string name="lockpattern_settings_enable_dots_title">Prikaži pike vzorca</string>
+    <string name="unlock_scramble_pin_layout_title">Premešaj razporeditev</string>
+    <string name="unlock_scramble_pin_layout_summary">Premešaj razporeditev PIN ob odklepanju naprave</string>
+    <string name="tethering_allow_vpn_upstreams_title">Dovoli odjemalcem uporabo VPN-jev</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Dovoli odjemalcem dostopne točke uporabo VPN povezav te naprave za povezovanje</string>
+    <string name="display_rotation_title">Nastavitve sukanja</string>
+    <string name="display_rotation_enabled">Samodejno sukanje je omogočeno</string>
+    <string name="display_rotation_disabled">Samodejno sukanje je onemogočeno</string>
+    <string name="display_rotation_unit">stopinj</string>
+    <string name="display_rotation_category_title">Načini sukanja</string>
+    <string name="display_rotation_0_title">0 stopinj</string>
+    <string name="display_rotation_90_title">90 stopinj</string>
+    <string name="display_rotation_180_title">180 stopinj</string>
+    <string name="display_rotation_270_title">270 stopinj</string>
+    <string name="device_info_protected_single_press">Tapnite za prikaz informacij</string>
+</resources>
