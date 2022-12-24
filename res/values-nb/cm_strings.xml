@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2022 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="high_touch_sensitivity_title">Høy touch sensitivitet</string>
+    <string name="high_touch_sensitivity_summary">Øk berøringsskjermens følsomhet slik at den kan brukes med hansker</string>
+    <string name="torch_long_press_power_gesture_title">Hold inne for lommelykt</string>
+    <string name="torch_long_press_power_gesture_desc">Aktiver lommelykten ved å holde inne strøm-knappen mens skjermen er av</string>
+    <string name="lock_settings_picker_pattern_size_message">Velg størrelse på mønster</string>
+    <string name="lockpattern_settings_enable_error_path_title">Vis feil</string>
+    <string name="lockpattern_settings_enable_dots_title">Vis mønster prikker</string>
+    <string name="unlock_scramble_pin_layout_title">Endre layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Endre PIN layout når enheten låses opp</string>
+    <string name="display_rotation_title">Rotasjonsinnstillinger</string>
+    <string name="display_rotation_enabled">Auto-rotasjon er aktivert</string>
+    <string name="display_rotation_disabled">Auto-rotasjon er deaktivert</string>
+    <string name="display_rotation_unit">grader</string>
+    <string name="display_rotation_category_title">Rotasjonsmoduser</string>
+    <string name="display_rotation_0_title">0 grader</string>
+    <string name="display_rotation_90_title">90 grader</string>
+    <string name="display_rotation_180_title">180 grader</string>
+    <string name="display_rotation_270_title">270 grader</string>
+</resources>

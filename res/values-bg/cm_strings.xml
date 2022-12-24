@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2022 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fast_charging_title">Бързо зареждане</string>
+    <string name="fast_charging_summary">Деактивирайте, за да намалите топлината, произведена от устройството по време на зареждане или да удължите живота на батерията</string>
+    <string name="high_touch_sensitivity_title">Висока чувствителност на допир</string>
+    <string name="high_touch_sensitivity_summary">Увеличи сензорната чувствителност, така че може да се използва докато носите ръкавици</string>
+    <string name="berry_black_theme_title">Натурално черно</string>
+    <string name="berry_black_theme_summary">Натурален черен фон за тъмна тема</string>
+    <string name="torch_long_press_power_gesture_title">Активиране на фенерчето</string>
+    <string name="torch_long_press_power_gesture_desc">Активиране на фенерчето чрез зъдържане бутона за захранване, когато дисплеят е изключен</string>
+    <string name="lock_settings_picker_pattern_size_message">Изберете размера на шаблона</string>
+    <string name="lockpattern_settings_enable_error_path_title">Покажи модела на грешката</string>
+    <string name="lockpattern_settings_enable_dots_title">Покажи точките на модела</string>
+    <string name="unlock_scramble_pin_layout_title">Разбъркано оформление</string>
+    <string name="unlock_scramble_pin_layout_summary">Разбъркано PIN оформление при отключване на устройството</string>
+    <string name="tethering_allow_vpn_upstreams_title">Разрешете на клиентите да използват VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Разрешете на клиентите на точка за достъп да използват VPN връзките на това устройство, за да се свържат с мрежата</string>
+    <string name="display_rotation_title">Настройки на завъртане</string>
+    <string name="display_rotation_enabled">Автоматичното завъртене е активирано</string>
+    <string name="display_rotation_disabled">Автоматичното завъртене е деактивирано</string>
+    <string name="display_rotation_unit">градуса</string>
+    <string name="display_rotation_category_title">Режими на завъртане</string>
+    <string name="display_rotation_0_title">0 градуса</string>
+    <string name="display_rotation_90_title">90 градуса</string>
+    <string name="display_rotation_180_title">180 градуса</string>
+    <string name="display_rotation_270_title">270 градуса</string>
+</resources>
