@@ -971,4 +971,8 @@
     <string name="brightness_slider_style_roundedclip">Rounded Clip</string>
     <string name="brightness_slider_style_bang">Bang</string>
     <string name="brightness_slider_style_acun">Acun</string>
+
+    <!-- Category for theme overlays -->
+    <string name="theme_customization_lock_clock_title">Clock font style</string>
+    <string name="theme_customization_lock_clock_summary">Set lockscreen clock font style</string>
 </resources>
