@@ -899,4 +899,7 @@
     <!-- Screen resolution -->
     <string name="custom_screen_resolution_title">Custom screen resolution</string>
 
+    <!-- Text shown for the title of the restart systemui option -->
+    <string name="power_menu_restart_systemui_title">Restart SystemUI</string>
+
 </resources>
