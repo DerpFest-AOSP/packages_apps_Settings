@@ -61,6 +61,11 @@
             android:summary="@string/power_menu_panic_summary"
             android:defaultValue="false" />
 
+        <CheckBoxPreference
+            android:key="restart_systemui"
+            android:title="@string/power_menu_restart_systemui_title"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
