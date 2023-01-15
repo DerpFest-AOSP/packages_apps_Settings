@@ -48,6 +48,7 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
     private CheckBoxPreference mEmergencyPref;
     private CheckBoxPreference mDeviceControlsPref;
     private CheckBoxPreference mPanicPref;
+    private CheckBoxPreference mRestartSystemUIPref;
 
     private LineageGlobalActions mLineageGlobalActions;
 
@@ -85,6 +86,8 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
                 mDeviceControlsPref = findPreference(GLOBAL_ACTION_KEY_DEVICECONTROLS);
             } else if (action.equals(GLOBAL_ACTION_KEY_PANIC)) {
                 mPanicPref = findPreference(GLOBAL_ACTION_KEY_PANIC);
+            } else if (action.equals(GLOBAL_ACTION_KEY_RESTART_SYSTEMUI)) {
+                mRestartSystemUIPref = findPreference(GLOBAL_ACTION_KEY_RESTART_SYSTEMUI);
             }
         }
 
@@ -156,6 +159,11 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
             mPanicPref.setEnabled(PowerMenuUtils.isPanicAvailable(mContext));
         }
 
+        if (mRestartSystemUIPref != null) {
+            mRestartSystemUIPref.setChecked(mLineageGlobalActions.userConfigContains(
+                    GLOBAL_ACTION_KEY_RESTART_SYSTEMUI));
+        }
+
         updatePreferences();
     }
 
@@ -198,6 +206,10 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
         } else if (preference == mPanicPref) {
             value = mPanicPref.isChecked();
             mLineageGlobalActions.updateUserConfig(value, GLOBAL_ACTION_KEY_PANIC);
+
+        } else if (preference == mRestartSystemUIPref) {
+            value = mRestartSystemUIPref.isChecked();
+            mLineageGlobalActions.updateUserConfig(value, GLOBAL_ACTION_KEY_RESTART_SYSTEMUI);
 
         } else {
             return super.onPreferenceTreeClick(preference);

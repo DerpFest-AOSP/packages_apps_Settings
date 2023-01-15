@@ -479,4 +479,7 @@
     <string name="power_menu_panic_title">Panic trigger</string>
     <!-- Text shown for the description of the panic option -->
     <string name="power_menu_panic_summary">Activates an emergency panic trigger</string>
+
+    <!-- Text shown for the title of the restart systemui option -->
+    <string name="power_menu_restart_systemui_title">Restart SystemUI</string>
 </resources>
