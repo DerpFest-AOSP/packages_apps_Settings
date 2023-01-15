@@ -514,4 +514,7 @@
     <string name="power_menu_panic_title">Panikauslöser</string>
     <!-- Text shown for the description of the panic option -->
     <string name="power_menu_panic_summary">Aktiviert einen Notfall-Panikauslöser</string>
+
+    <!-- Text shown for the title of the restart systemui option -->
+    <string name="power_menu_restart_systemui_title">System-UI-Neustart</string>
 </resources>
