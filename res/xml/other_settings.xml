@@ -51,4 +51,9 @@
 
     </PreferenceCategory>
 
+    <!-- Keep empty category at the bottom for injected settings -->
+    <PreferenceCategory
+        android:title="@string/miscellaneous_settings">
+    </PreferenceCategory>
+
 </PreferenceScreen>

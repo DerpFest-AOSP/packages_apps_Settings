@@ -769,6 +769,7 @@
     <string name="display_rotation_270_title">270 Grad</string>
 
     <!-- Other Fragment -->
+    <string name="miscellaneous_settings">Verschiedenes</string>
     <string name="other_settings">Weitere Optionen</string>
     <string name="quick_settings">Schnelleinstellungen</string>
 </resources>
