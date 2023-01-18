@@ -801,6 +801,7 @@
     <string name="show_qs_on_secure_keyguard_summary">Allow toggling quick settings on secure lockscreen</string>
 
     <!-- Other Fragment -->
+    <string name="miscellaneous_settings">Miscellaneous</string>
     <string name="other_settings">Other options</string>
     <string name="quick_settings">Quick Settings</string>
 </resources>

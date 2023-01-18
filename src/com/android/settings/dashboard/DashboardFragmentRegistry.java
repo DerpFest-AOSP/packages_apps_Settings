@@ -43,6 +43,7 @@ import com.android.settings.network.NetworkDashboardFragment;
 import com.android.settings.notification.ConfigureNotificationSettings;
 import com.android.settings.notification.SoundSettings;
 import com.android.settings.notification.zen.ZenModeSettings;
+import com.android.settings.other.OtherFragment;
 import com.android.settings.privacy.PrivacyDashboardFragment;
 import com.android.settings.safetycenter.MoreSecurityPrivacyFragment;
 import com.android.settings.security.LockscreenDashboardFragment;
@@ -137,6 +138,8 @@ public class DashboardFragmentRegistry {
                 CategoryKey.CATEGORY_SPECIAL_APP_ACCESS);
         PARENT_TO_CATEGORY_KEY_MAP.put(MoreSecurityPrivacyFragment.class.getName(),
                 CategoryKey.CATEGORY_MORE_SECURITY_PRIVACY_SETTINGS);
+        PARENT_TO_CATEGORY_KEY_MAP.put(OtherFragment.class.getName(),
+                CategoryKey.CATEGORY_OTHER);
         PARENT_TO_CATEGORY_KEY_MAP.put(DerpSpace.class.getName(),
                 CategoryKey.CATEGORY_DERP);
 

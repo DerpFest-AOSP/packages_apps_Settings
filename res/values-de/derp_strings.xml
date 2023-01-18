@@ -768,6 +768,7 @@
     <string name="show_qs_on_secure_keyguard_summary">Umschalten der Schnelleinstellungen auf dem sicheren Sperrbildschirm zulassen</string>
 
     <!-- Other Fragment -->
+    <string name="miscellaneous_settings">Verschiedenes</string>
     <string name="other_settings">Weitere Optionen</string>
     <string name="quick_settings">Schnelleinstellungen</string>
 </resources>
