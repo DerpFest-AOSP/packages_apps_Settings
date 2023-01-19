@@ -39,4 +39,10 @@
         android:summary="@string/media_controls_recommendations_description"
         app:controller="com.android.settings.sound.MediaControlsRecommendationController" />
 
+    <org.derpfest.support.preferences.SecureSettingSwitchPreference
+        android:key="media_controls_always_show_time"
+        android:title="@string/media_controls_always_show_time_title"
+        android:summary="@string/media_controls_always_show_time_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
