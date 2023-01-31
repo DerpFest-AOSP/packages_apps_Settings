@@ -1331,7 +1331,7 @@
     <string name="baseband_version" msgid="2600182227599835857">"Версия на базовия диапазон"</string>
     <string name="kernel_version" msgid="3513538109381366881">"Версия на ядрото"</string>
     <string name="build_number" msgid="9009733242117579826">"Номер на версията"</string>
-    <string name="module_version" msgid="1787518340082046658">"Системна актуализация на Google Play"</string>
+    <string name="module_version" msgid="1787518340082046658">"Системна актуализация на Mainline"</string>
     <string name="battery_info" msgid="7873528123969546728">"Информация за батерията"</string>
     <string name="device_info_not_available" msgid="4804474466616712326">"Не е налично"</string>
     <string name="storage_settings" msgid="7472188817781592677">"Хранилище"</string>
@@ -1602,7 +1602,7 @@
     <string name="safety_and_regulatory_info" msgid="8285048080439298528">"Наръчник за безопасността и норм. изисквания"</string>
     <string name="copyright_title" msgid="83245306827757857">"Авторски права"</string>
     <string name="license_title" msgid="8745742085916617540">"Лиценз"</string>
-    <string name="module_license_title" msgid="8705484239826702828">"Лицензи за системните актуализации на Google Play"</string>
+    <string name="module_license_title" msgid="8705484239826702828">"Лицензи за системните актуализации на Mainline"</string>
     <string name="terms_title" msgid="2071742973672326073">"Общи условия"</string>
     <string name="webview_license_title" msgid="5832692241345780517">"Системен лиценз за WebView"</string>
     <string name="wallpaper_attributions" msgid="4323659759250650736">"Признания за тапета"</string>
@@ -4362,7 +4362,7 @@
     <string name="enterprise_privacy_security_logs" msgid="8494681624247959075">"Най-скорошният регистрационен файл за сигурността"</string>
     <string name="enterprise_privacy_none" msgid="6026527690979756431">"Нищо"</string>
     <string name="enterprise_privacy_enterprise_installed_packages" msgid="9114143640515900082">"Инсталирани са приложения"</string>
-    <string name="enterprise_privacy_apps_count_estimation_info" msgid="7959907857710107792">"Броят на приложенията е приблизителен и може да не включва тези, които не са инсталирани от Google Play Магазин."</string>
+    <string name="enterprise_privacy_apps_count_estimation_info" msgid="7959907857710107792">"Броят на приложенията е приблизителен и може да не включва тези, които не са инсталирани от Mainline Магазин."</string>
     <string name="enterprise_privacy_number_packages_lower_bound" msgid="5317634640873658149">"{count,plural, =1{Поне # приложение}other{Поне # приложения}}"</string>
     <string name="enterprise_privacy_location_access" msgid="8023838718108456971">"Разрешения за местоположението"</string>
     <string name="enterprise_privacy_microphone_access" msgid="7242958026470143653">"Разрешения за микрофона"</string>
@@ -4394,7 +4394,7 @@
     <string name="financed_privacy_settings" msgid="2575114436197204145">"Информация за финансираното устройство"</string>
     <string name="financed_privacy_intro" msgid="7836497475568741579">"Кредитодателят ви може да променя настройките на това устройство и да инсталира софтуер на него по време на настройването.\n\nАко пропуснете плащане, кредитодателят може да заключи устройството ви и да промени настройките му.\n\nЗа да научите повече, свържете се с кредитодателя си."</string>
     <string name="financed_privacy_restrictions_category" msgid="2472659467919651602">"Ако устройството ви е финансирано, не можете да правите следното:"</string>
-    <string name="financed_privacy_install_apps" msgid="7381718005710210851">"Инсталиране на приложения извън Google Play Магазин"</string>
+    <string name="financed_privacy_install_apps" msgid="7381718005710210851">"Инсталиране на приложения извън Mainline Магазин"</string>
     <string name="financed_privacy_safe_mode" msgid="5362149445732602578">"Рестартиране на устройството ви в безопасен режим"</string>
     <string name="financed_privacy_multi_users" msgid="1727194928477613081">"Добавяне на няколко потребители на устройството ви"</string>
     <string name="financed_privacy_config_date_time" msgid="8567370445374984365">"Промяна на датата, часа и часовите зони"</string>

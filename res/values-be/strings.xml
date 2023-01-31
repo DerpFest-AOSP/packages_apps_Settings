@@ -1331,7 +1331,7 @@
     <string name="baseband_version" msgid="2600182227599835857">"Версія модуля сувязі"</string>
     <string name="kernel_version" msgid="3513538109381366881">"Версія ядра"</string>
     <string name="build_number" msgid="9009733242117579826">"Нумар зборкі"</string>
-    <string name="module_version" msgid="1787518340082046658">"Абнаўленне сістэмы Google Play"</string>
+    <string name="module_version" msgid="1787518340082046658">"Абнаўленне сістэмы Mainline"</string>
     <string name="battery_info" msgid="7873528123969546728">"Інфармацыя пра акумулятар"</string>
     <string name="device_info_not_available" msgid="4804474466616712326">"Недаступна"</string>
     <string name="storage_settings" msgid="7472188817781592677">"Сховішча"</string>
@@ -1602,7 +1602,7 @@
     <string name="safety_and_regulatory_info" msgid="8285048080439298528">"Інфармацыя па эксплуатацыі і бяспецы"</string>
     <string name="copyright_title" msgid="83245306827757857">"Аўтарскія правы"</string>
     <string name="license_title" msgid="8745742085916617540">"Ліцэнзія"</string>
-    <string name="module_license_title" msgid="8705484239826702828">"Ліцэнзіі абнаўлення сістэмы Google Play"</string>
+    <string name="module_license_title" msgid="8705484239826702828">"Ліцэнзіі абнаўлення сістэмы Mainline"</string>
     <string name="terms_title" msgid="2071742973672326073">"Умовы выкарыстання"</string>
     <string name="webview_license_title" msgid="5832692241345780517">"Сістэмная ліцэнзія WebView"</string>
     <string name="wallpaper_attributions" msgid="4323659759250650736">"Звесткі пра шпалеры"</string>

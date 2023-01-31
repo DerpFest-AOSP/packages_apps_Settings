@@ -1331,7 +1331,7 @@
     <string name="baseband_version" msgid="2600182227599835857">"Versión de banda base"</string>
     <string name="kernel_version" msgid="3513538109381366881">"Versión de kernel"</string>
     <string name="build_number" msgid="9009733242117579826">"Número de compilación"</string>
-    <string name="module_version" msgid="1787518340082046658">"Actualización do sistema de Google Play"</string>
+    <string name="module_version" msgid="1787518340082046658">"Actualización do sistema de Mainline"</string>
     <string name="battery_info" msgid="7873528123969546728">"Información sobre a batería"</string>
     <string name="device_info_not_available" msgid="4804474466616712326">"Non dispoñible"</string>
     <string name="storage_settings" msgid="7472188817781592677">"Almacenamento"</string>

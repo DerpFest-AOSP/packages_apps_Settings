@@ -1331,7 +1331,7 @@
     <string name="baseband_version" msgid="2600182227599835857">"Toleo la Baseband"</string>
     <string name="kernel_version" msgid="3513538109381366881">"Toleo la kiini"</string>
     <string name="build_number" msgid="9009733242117579826">"Nambari ya muundo"</string>
-    <string name="module_version" msgid="1787518340082046658">"Sasisho la mfumo wa Google Play"</string>
+    <string name="module_version" msgid="1787518340082046658">"Sasisho la mfumo wa Mainline"</string>
     <string name="battery_info" msgid="7873528123969546728">"Maelezo kuhusu betri"</string>
     <string name="device_info_not_available" msgid="4804474466616712326">"Haipatikani"</string>
     <string name="storage_settings" msgid="7472188817781592677">"Hifadhi"</string>
@@ -1602,7 +1602,7 @@
     <string name="safety_and_regulatory_info" msgid="8285048080439298528">"Mwongozo wa usalama na udhibiti"</string>
     <string name="copyright_title" msgid="83245306827757857">"Hakimiliki"</string>
     <string name="license_title" msgid="8745742085916617540">"Leseni"</string>
-    <string name="module_license_title" msgid="8705484239826702828">"Leseni za sasisho la mfumo wa Google Play"</string>
+    <string name="module_license_title" msgid="8705484239826702828">"Leseni za sasisho la mfumo wa Mainline"</string>
     <string name="terms_title" msgid="2071742973672326073">"Sheria na Masharti"</string>
     <string name="webview_license_title" msgid="5832692241345780517">"Leseni ya WebView ya Mfumo"</string>
     <string name="wallpaper_attributions" msgid="4323659759250650736">"Waliohusika na mandhari"</string>
@@ -4362,7 +4362,7 @@
     <string name="enterprise_privacy_security_logs" msgid="8494681624247959075">"Kumbukumbu ya hivi majuzi ya usalama"</string>
     <string name="enterprise_privacy_none" msgid="6026527690979756431">"Hamna"</string>
     <string name="enterprise_privacy_enterprise_installed_packages" msgid="9114143640515900082">"Programu zilizosakinishwa"</string>
-    <string name="enterprise_privacy_apps_count_estimation_info" msgid="7959907857710107792">"Tumekadiria idadi ya programu. Huenda haijajumuisha programu ulizosakinisha kutoka nje ya Duka la Google Play."</string>
+    <string name="enterprise_privacy_apps_count_estimation_info" msgid="7959907857710107792">"Tumekadiria idadi ya programu. Huenda haijajumuisha programu ulizosakinisha kutoka nje ya Duka la Mainline."</string>
     <string name="enterprise_privacy_number_packages_lower_bound" msgid="5317634640873658149">"{count,plural, =1{Angalau programu #}other{Angalau programu #}}"</string>
     <string name="enterprise_privacy_location_access" msgid="8023838718108456971">"Ruhusa za mahali"</string>
     <string name="enterprise_privacy_microphone_access" msgid="7242958026470143653">"Ruhusa za maikrofoni"</string>
@@ -4394,7 +4394,7 @@
     <string name="financed_privacy_settings" msgid="2575114436197204145">"Maelezo kuhusu kifaa kilichonunuliwa kwa mkopo"</string>
     <string name="financed_privacy_intro" msgid="7836497475568741579">"Muuzaji wako wa vifaa kwa mkopo anaweza kubadilisha mipangilio na kusakinisha programu kwenye kifaa hiki wakati wa kuweka mipangilio.\n\nIwapo utashindwa kufanya malipo, muuzaji wako wa vifaa kwa mkopo anaweza kufunga kifaa chako na kubadilisha mipangilio ya kifaa.\n\nIli upate maelezo zaidi, wasiliana na muuzaji wako wa vifaa kwa mkopo."</string>
     <string name="financed_privacy_restrictions_category" msgid="2472659467919651602">"Ikiwa kifaa chako kimenunuliwa kwa mkopo, hutaweza:"</string>
-    <string name="financed_privacy_install_apps" msgid="7381718005710210851">"Sakinisha programu kutoka nje ya Duka la Google Play"</string>
+    <string name="financed_privacy_install_apps" msgid="7381718005710210851">"Sakinisha programu kutoka nje ya Duka la Mainline"</string>
     <string name="financed_privacy_safe_mode" msgid="5362149445732602578">"Kuwasha kifaa chako tena katika hali salama"</string>
     <string name="financed_privacy_multi_users" msgid="1727194928477613081">"Kuongeza watumiaji wengi kwenye kifaa chako"</string>
     <string name="financed_privacy_config_date_time" msgid="8567370445374984365">"Badilisha tarehe, saa na saa za eneo"</string>
