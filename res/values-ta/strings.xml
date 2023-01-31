@@ -1331,7 +1331,7 @@
     <string name="baseband_version" msgid="2600182227599835857">"பேஸ்பேண்ட் பதிப்பு"</string>
     <string name="kernel_version" msgid="3513538109381366881">"கர்னல் பதிப்பு"</string>
     <string name="build_number" msgid="9009733242117579826">"பதிப்பு எண்"</string>
-    <string name="module_version" msgid="1787518340082046658">"Google Play சிஸ்டம் புதுப்பிப்பு"</string>
+    <string name="module_version" msgid="1787518340082046658">"Mainline சிஸ்டம் புதுப்பிப்பு"</string>
     <string name="battery_info" msgid="7873528123969546728">"பேட்டரி தொடர்பான தகவல்கள்"</string>
     <string name="device_info_not_available" msgid="4804474466616712326">"கிடைக்கவில்லை"</string>
     <string name="storage_settings" msgid="7472188817781592677">"சேமிப்பிடம்"</string>
@@ -1602,7 +1602,7 @@
     <string name="safety_and_regulatory_info" msgid="8285048080439298528">"பாதுகாப்பு &amp; ஒழுங்குமுறைக் கையேடு"</string>
     <string name="copyright_title" msgid="83245306827757857">"பதிப்புரிமை"</string>
     <string name="license_title" msgid="8745742085916617540">"உரிமம்"</string>
-    <string name="module_license_title" msgid="8705484239826702828">"Google Play சிஸ்டம் புதுப்பிப்பு உரிமங்கள்"</string>
+    <string name="module_license_title" msgid="8705484239826702828">"Mainline சிஸ்டம் புதுப்பிப்பு உரிமங்கள்"</string>
     <string name="terms_title" msgid="2071742973672326073">"விதிமுறைகளும் நிபந்தனைகளும்"</string>
     <string name="webview_license_title" msgid="5832692241345780517">"சிஸ்டம் WebView உரிமம்"</string>
     <string name="wallpaper_attributions" msgid="4323659759250650736">"வால்பேப்பருக்குப் பங்களித்தவர்கள்"</string>

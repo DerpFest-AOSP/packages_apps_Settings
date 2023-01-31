@@ -1331,7 +1331,7 @@
     <string name="baseband_version" msgid="2600182227599835857">"Версія модуля зв’язку"</string>
     <string name="kernel_version" msgid="3513538109381366881">"Версія ядра"</string>
     <string name="build_number" msgid="9009733242117579826">"Номер складання"</string>
-    <string name="module_version" msgid="1787518340082046658">"Оновлення системи Google Play"</string>
+    <string name="module_version" msgid="1787518340082046658">"Оновлення системи Mainline"</string>
     <string name="battery_info" msgid="7873528123969546728">"Інформація про акумулятор"</string>
     <string name="device_info_not_available" msgid="4804474466616712326">"Невідомо"</string>
     <string name="storage_settings" msgid="7472188817781592677">"Пам\'ять"</string>
@@ -1602,7 +1602,7 @@
     <string name="safety_and_regulatory_info" msgid="8285048080439298528">"Посібник із безпеки й нормативних вимог"</string>
     <string name="copyright_title" msgid="83245306827757857">"Автор. право"</string>
     <string name="license_title" msgid="8745742085916617540">"Ліцензія"</string>
-    <string name="module_license_title" msgid="8705484239826702828">"Ліцензії оновлень системи Google Play"</string>
+    <string name="module_license_title" msgid="8705484239826702828">"Ліцензії оновлень системи Mainline"</string>
     <string name="terms_title" msgid="2071742973672326073">"Заг. положення й умови"</string>
     <string name="webview_license_title" msgid="5832692241345780517">"Ліцензії системи WebView"</string>
     <string name="wallpaper_attributions" msgid="4323659759250650736">"Авторство фонових малюнків"</string>
@@ -4362,7 +4362,7 @@
     <string name="enterprise_privacy_security_logs" msgid="8494681624247959075">"Останній журнал безпеки"</string>
     <string name="enterprise_privacy_none" msgid="6026527690979756431">"Немає"</string>
     <string name="enterprise_privacy_enterprise_installed_packages" msgid="9114143640515900082">"Установлені додатки"</string>
-    <string name="enterprise_privacy_apps_count_estimation_info" msgid="7959907857710107792">"Це приблизна кількість додатків. Сюди можуть не входити додатки, установлені не з Google Play."</string>
+    <string name="enterprise_privacy_apps_count_estimation_info" msgid="7959907857710107792">"Це приблизна кількість додатків. Сюди можуть не входити додатки, установлені не з Mainline."</string>
     <string name="enterprise_privacy_number_packages_lower_bound" msgid="5317634640873658149">"{count,plural, =1{Принаймні # додаток}one{Принаймні # додаток}few{Принаймні # додатки}many{Принаймні # додатків}other{Принаймні # додатка}}"</string>
     <string name="enterprise_privacy_location_access" msgid="8023838718108456971">"Дозвіл на доступ до геоданих"</string>
     <string name="enterprise_privacy_microphone_access" msgid="7242958026470143653">"Дозвіл на доступ до мікрофона"</string>
@@ -4394,7 +4394,7 @@
     <string name="financed_privacy_settings" msgid="2575114436197204145">"Інформація про пристрій, куплений у кредит"</string>
     <string name="financed_privacy_intro" msgid="7836497475568741579">"Ваш кредитор може змінювати налаштування та встановлювати програмне забезпечення на цьому пристрої під час його налаштування.\n\nЯкщо ви пропустите платіж, кредитор може заблокувати ваш пристрій і змінити його налаштування.\n\nЩоб дізнатися більше, зв\'яжіться з кредитором."</string>
     <string name="financed_privacy_restrictions_category" msgid="2472659467919651602">"Якщо за пристрій ще не виплачено кредит, ви не можете:"</string>
-    <string name="financed_privacy_install_apps" msgid="7381718005710210851">"встановлювати додатки не з Google Play"</string>
+    <string name="financed_privacy_install_apps" msgid="7381718005710210851">"встановлювати додатки не з Mainline"</string>
     <string name="financed_privacy_safe_mode" msgid="5362149445732602578">"перезапускати пристрій у безпечному режимі"</string>
     <string name="financed_privacy_multi_users" msgid="1727194928477613081">"додавати інших користувачів"</string>
     <string name="financed_privacy_config_date_time" msgid="8567370445374984365">"змінювати дату, час і часові пояси"</string>

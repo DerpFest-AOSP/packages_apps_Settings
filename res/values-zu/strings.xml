@@ -1331,7 +1331,7 @@
     <string name="baseband_version" msgid="2600182227599835857">"Inguqulo ye-Baseband"</string>
     <string name="kernel_version" msgid="3513538109381366881">"Inguqulo ye-Kernel"</string>
     <string name="build_number" msgid="9009733242117579826">"Inombolo yesakhi"</string>
-    <string name="module_version" msgid="1787518340082046658">"Isibuyekezo sesistimu se-Google Play"</string>
+    <string name="module_version" msgid="1787518340082046658">"Isibuyekezo sesistimu se-Mainline"</string>
     <string name="battery_info" msgid="7873528123969546728">"Ulwazi lebhetri"</string>
     <string name="device_info_not_available" msgid="4804474466616712326">"Akutholakali"</string>
     <string name="storage_settings" msgid="7472188817781592677">"Isitoreji"</string>
@@ -1603,7 +1603,7 @@
     <string name="safety_and_regulatory_info" msgid="8285048080439298528">"Imanuwali yokuphepha nokulawula"</string>
     <string name="copyright_title" msgid="83245306827757857">"I-copyright"</string>
     <string name="license_title" msgid="8745742085916617540">"Ilayisensi"</string>
-    <string name="module_license_title" msgid="8705484239826702828">"Amalayisense esibuyekezo sesistimu ye-Google Play"</string>
+    <string name="module_license_title" msgid="8705484239826702828">"Amalayisense esibuyekezo sesistimu ye-Mainline"</string>
     <string name="terms_title" msgid="2071742973672326073">"Imigomo nemibandela"</string>
     <string name="webview_license_title" msgid="5832692241345780517">"Ilayisense yesistimu ye-WebView"</string>
     <string name="wallpaper_attributions" msgid="4323659759250650736">"Amakhredithi wesithombe sangemuva"</string>
@@ -4363,7 +4363,7 @@
     <string name="enterprise_privacy_security_logs" msgid="8494681624247959075">"Ilogi lokuvikela lakamuva kakhulu"</string>
     <string name="enterprise_privacy_none" msgid="6026527690979756431">"Lutho"</string>
     <string name="enterprise_privacy_enterprise_installed_packages" msgid="9114143640515900082">"Izinhlelo zokusebenza ezifakiwe"</string>
-    <string name="enterprise_privacy_apps_count_estimation_info" msgid="7959907857710107792">"Inombolo yezinhlelo zokusebenza iyalinganiselwa. Ingahle ingabandakanyi izinhlelo zokusebenza ezingaphandle kwe-Google Play Isitolo."</string>
+    <string name="enterprise_privacy_apps_count_estimation_info" msgid="7959907857710107792">"Inombolo yezinhlelo zokusebenza iyalinganiselwa. Ingahle ingabandakanyi izinhlelo zokusebenza ezingaphandle kwe-Mainline Isitolo."</string>
     <string name="enterprise_privacy_number_packages_lower_bound" msgid="5317634640873658149">"{count,plural, =1{Ubuncane obu-# be-app}one{Ubuncane obungu-# bama-app}other{Ubuncane obungu-# bama-app}}"</string>
     <string name="enterprise_privacy_location_access" msgid="8023838718108456971">"Izimvume zendawo"</string>
     <string name="enterprise_privacy_microphone_access" msgid="7242958026470143653">"Izimvume zemakrofoni"</string>
@@ -4395,7 +4395,7 @@
     <string name="financed_privacy_settings" msgid="2575114436197204145">"Ulwazi lwedivayisi oluhlinzekwe ngemali"</string>
     <string name="financed_privacy_intro" msgid="7836497475568741579">"Umhlinzeki wakho wekhredithi angashintsha amasethingi futhi afake isofthiwe kule divayisi phakathi nokusetha.\n\nUma uphuthelwa yinkokhelo, umhlinzeki wakho wekhredithi angakhiya idivayisi yakho futhi ashintshe amasethingi wedivayisi.\n\nUkuze ufunde kabanzi, xhumana nomhlinzeki wakho wekhredithi."</string>
     <string name="financed_privacy_restrictions_category" msgid="2472659467919651602">"Uma idivayisi yakho ixhaswe ngezimali, awukwazi:"</string>
-    <string name="financed_privacy_install_apps" msgid="7381718005710210851">"Faka ama-app avela ngaphandle kwe-Google Play"</string>
+    <string name="financed_privacy_install_apps" msgid="7381718005710210851">"Faka ama-app avela ngaphandle kwe-Mainline"</string>
     <string name="financed_privacy_safe_mode" msgid="5362149445732602578">"Qalisa idivayisi yakho kumodi ephephile"</string>
     <string name="financed_privacy_multi_users" msgid="1727194928477613081">"Engeza abasebenzisi abaning kudivayisi yakho"</string>
     <string name="financed_privacy_config_date_time" msgid="8567370445374984365">"Shintsha ilanga, isikhathi, nezoni yesikhathi"</string>

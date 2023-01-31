@@ -566,26 +566,9 @@ public class BatteryUtils {
         return -1L;
     }
 
-    /** Whether the package is installed from Google Play Store or not */
-    public static boolean isAppInstalledFromGooglePlayStore(Context context, String packageName) {
-        if (TextUtils.isEmpty(packageName)) {
-            return false;
-        }
-        InstallSourceInfo installSourceInfo;
-        try {
-            installSourceInfo = context.getPackageManager().getInstallSourceInfo(packageName);
-        } catch (PackageManager.NameNotFoundException e) {
-            return false;
-        }
-        return installSourceInfo != null
-                && GOOGLE_PLAY_STORE_PACKAGE.equals(installSourceInfo.getInitiatingPackageName());
-    }
-
     /** Gets the logging package name. */
     public static String getLoggingPackageName(Context context, String originalPackingName) {
-        return BatteryUtils.isAppInstalledFromGooglePlayStore(context, originalPackingName)
-                ? originalPackingName
-                : PACKAGE_NAME_NONE;
+        return PACKAGE_NAME_NONE;
     }
 
     /** Gets the latest sticky battery intent from the Android system. */

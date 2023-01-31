@@ -1331,7 +1331,7 @@
     <string name="baseband_version" msgid="2600182227599835857">"ਬੇਸਬੈਂਡ ਵਰਜਨ"</string>
     <string name="kernel_version" msgid="3513538109381366881">"ਕਰਨਲ ਵਰਜਨ"</string>
     <string name="build_number" msgid="9009733242117579826">"ਬਿਲਡ ਨੰਬਰ"</string>
-    <string name="module_version" msgid="1787518340082046658">"Google Play ਸਿਸਟਮ ਅੱਪਡੇਟ"</string>
+    <string name="module_version" msgid="1787518340082046658">"Mainline ਸਿਸਟਮ ਅੱਪਡੇਟ"</string>
     <string name="battery_info" msgid="7873528123969546728">"ਬੈਟਰੀ ਸੰਬੰਧੀ ਜਾਣਕਾਰੀ"</string>
     <string name="device_info_not_available" msgid="4804474466616712326">"ਉਪਲਬਧ ਨਹੀਂ ਹੈ"</string>
     <string name="storage_settings" msgid="7472188817781592677">"ਸਟੋਰੇਜ"</string>
@@ -1602,7 +1602,7 @@
     <string name="safety_and_regulatory_info" msgid="8285048080439298528">"ਸੁਰੱਖਿਆ ਅਤੇ ਰੈਗੂਲੇਟਰੀ ਮੈਨੂਅਲ"</string>
     <string name="copyright_title" msgid="83245306827757857">"ਕਾਪੀਰਾਈਟ"</string>
     <string name="license_title" msgid="8745742085916617540">"ਲਾਇਸੰਸ"</string>
-    <string name="module_license_title" msgid="8705484239826702828">"Google Play ਸਿਸਟਮ ਅੱਪਡੇਟ ਲਾਇਸੰਸ"</string>
+    <string name="module_license_title" msgid="8705484239826702828">"Mainline ਸਿਸਟਮ ਅੱਪਡੇਟ ਲਾਇਸੰਸ"</string>
     <string name="terms_title" msgid="2071742973672326073">"ਨਿਯਮ ਅਤੇ ਸ਼ਰਤਾਂ"</string>
     <string name="webview_license_title" msgid="5832692241345780517">"ਸਿਸਟਮ WebView ਲਾਇਸੰਸ"</string>
     <string name="wallpaper_attributions" msgid="4323659759250650736">"ਵਾਲਪੇਪਰ ਕ੍ਰੈਡਿਟ"</string>

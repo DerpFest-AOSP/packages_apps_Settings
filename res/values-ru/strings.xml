@@ -1331,7 +1331,7 @@
     <string name="baseband_version" msgid="2600182227599835857">"Прошивка модуля связи"</string>
     <string name="kernel_version" msgid="3513538109381366881">"Версия ядра"</string>
     <string name="build_number" msgid="9009733242117579826">"Номер сборки"</string>
-    <string name="module_version" msgid="1787518340082046658">"Обновление системы через Google Play"</string>
+    <string name="module_version" msgid="1787518340082046658">"Обновление системы через Mainline"</string>
     <string name="battery_info" msgid="7873528123969546728">"Информация о батарее"</string>
     <string name="device_info_not_available" msgid="4804474466616712326">"Недоступно"</string>
     <string name="storage_settings" msgid="7472188817781592677">"Хранилище"</string>
@@ -1602,7 +1602,7 @@
     <string name="safety_and_regulatory_info" msgid="8285048080439298528">"Безопасность и соответствие стандартам"</string>
     <string name="copyright_title" msgid="83245306827757857">"Авторские права"</string>
     <string name="license_title" msgid="8745742085916617540">"Лицензия"</string>
-    <string name="module_license_title" msgid="8705484239826702828">"Лицензии обновления системы через Google Play"</string>
+    <string name="module_license_title" msgid="8705484239826702828">"Лицензии обновления системы через Mainline"</string>
     <string name="terms_title" msgid="2071742973672326073">"Условия использования"</string>
     <string name="webview_license_title" msgid="5832692241345780517">"Системная лицензия WebView"</string>
     <string name="wallpaper_attributions" msgid="4323659759250650736">"Авторские права на обои"</string>
@@ -4394,7 +4394,7 @@
     <string name="financed_privacy_settings" msgid="2575114436197204145">"Информация о купленном в кредит устройстве"</string>
     <string name="financed_privacy_intro" msgid="7836497475568741579">"Ваша кредитная организация может изменить параметры и установить программное обеспечение на устройство во время настройки.\n\nЕсли вы пропустите платеж, кредитная организация может заблокировать устройство и изменить его настройки.\n\nЗа дополнительной информацией обращайтесь в кредитную организацию."</string>
     <string name="financed_privacy_restrictions_category" msgid="2472659467919651602">"Если устройство приобретено в кредит, вы не можете:"</string>
-    <string name="financed_privacy_install_apps" msgid="7381718005710210851">"Устанавливать сторонние приложения (не из Google Play)"</string>
+    <string name="financed_privacy_install_apps" msgid="7381718005710210851">"Устанавливать сторонние приложения (не из Mainline)"</string>
     <string name="financed_privacy_safe_mode" msgid="5362149445732602578">"Переводить устройство в безопасный режим"</string>
     <string name="financed_privacy_multi_users" msgid="1727194928477613081">"Добавлять несколько пользователей на устройство"</string>
     <string name="financed_privacy_config_date_time" msgid="8567370445374984365">"Изменять время, дату и часовой пояс на устройстве"</string>

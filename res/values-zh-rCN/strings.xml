@@ -1331,7 +1331,7 @@
     <string name="baseband_version" msgid="2600182227599835857">"基带版本"</string>
     <string name="kernel_version" msgid="3513538109381366881">"内核版本"</string>
     <string name="build_number" msgid="9009733242117579826">"Build 号"</string>
-    <string name="module_version" msgid="1787518340082046658">"Google Play 系统更新"</string>
+    <string name="module_version" msgid="1787518340082046658">"Mainline 系统更新"</string>
     <string name="battery_info" msgid="7873528123969546728">"电池信息"</string>
     <string name="device_info_not_available" msgid="4804474466616712326">"无法获取"</string>
     <string name="storage_settings" msgid="7472188817781592677">"存储空间"</string>
@@ -1602,7 +1602,7 @@
     <string name="safety_and_regulatory_info" msgid="8285048080439298528">"安全和监管手册"</string>
     <string name="copyright_title" msgid="83245306827757857">"版权"</string>
     <string name="license_title" msgid="8745742085916617540">"许可"</string>
-    <string name="module_license_title" msgid="8705484239826702828">"Google Play 系统更新许可"</string>
+    <string name="module_license_title" msgid="8705484239826702828">"Mainline 系统更新许可"</string>
     <string name="terms_title" msgid="2071742973672326073">"条款"</string>
     <string name="webview_license_title" msgid="5832692241345780517">"系统 WebView 许可"</string>
     <string name="wallpaper_attributions" msgid="4323659759250650736">"壁纸出处"</string>

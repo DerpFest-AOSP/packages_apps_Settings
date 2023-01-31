@@ -1331,7 +1331,7 @@
     <string name="baseband_version" msgid="2600182227599835857">"बेसबँड आवृत्ती"</string>
     <string name="kernel_version" msgid="3513538109381366881">"कर्नेल आवृत्ती"</string>
     <string name="build_number" msgid="9009733242117579826">"बिल्ड नंबर"</string>
-    <string name="module_version" msgid="1787518340082046658">"Google Play सिस्टीम अपडेट"</string>
+    <string name="module_version" msgid="1787518340082046658">"Mainline सिस्टीम अपडेट"</string>
     <string name="battery_info" msgid="7873528123969546728">"बॅटरी संबंधित माहिती"</string>
     <string name="device_info_not_available" msgid="4804474466616712326">"उपलब्ध नाही"</string>
     <string name="storage_settings" msgid="7472188817781592677">"स्टोरेज"</string>
@@ -1602,7 +1602,7 @@
     <string name="safety_and_regulatory_info" msgid="8285048080439298528">"सुरक्षितता आणि नियमन विषयक पुस्तिका"</string>
     <string name="copyright_title" msgid="83245306827757857">"कॉपीराइट"</string>
     <string name="license_title" msgid="8745742085916617540">"परवाना"</string>
-    <string name="module_license_title" msgid="8705484239826702828">"Google Play सिस्टीम अपडेट परवाने"</string>
+    <string name="module_license_title" msgid="8705484239826702828">"Mainline सिस्टीम अपडेट परवाने"</string>
     <string name="terms_title" msgid="2071742973672326073">"अटी आणि नियम"</string>
     <string name="webview_license_title" msgid="5832692241345780517">"सिस्टम WebView परवाना"</string>
     <string name="wallpaper_attributions" msgid="4323659759250650736">"वॉलपेपर श्रेय"</string>

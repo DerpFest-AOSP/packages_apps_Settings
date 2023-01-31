@@ -1331,7 +1331,7 @@
     <string name="baseband_version" msgid="2600182227599835857">"基頻版本"</string>
     <string name="kernel_version" msgid="3513538109381366881">"核心版本"</string>
     <string name="build_number" msgid="9009733242117579826">"版本號碼"</string>
-    <string name="module_version" msgid="1787518340082046658">"Google Play 系統更新"</string>
+    <string name="module_version" msgid="1787518340082046658">"Mainline 系統更新"</string>
     <string name="battery_info" msgid="7873528123969546728">"電池資訊"</string>
     <string name="device_info_not_available" msgid="4804474466616712326">"無法取得"</string>
     <string name="storage_settings" msgid="7472188817781592677">"儲存空間"</string>
@@ -1602,7 +1602,7 @@
     <string name="safety_and_regulatory_info" msgid="8285048080439298528">"安全性和法規手冊"</string>
     <string name="copyright_title" msgid="83245306827757857">"著作權"</string>
     <string name="license_title" msgid="8745742085916617540">"授權"</string>
-    <string name="module_license_title" msgid="8705484239826702828">"Google Play 系統更新授權"</string>
+    <string name="module_license_title" msgid="8705484239826702828">"Mainline 系統更新授權"</string>
     <string name="terms_title" msgid="2071742973672326073">"條款及細則"</string>
     <string name="webview_license_title" msgid="5832692241345780517">"System WebView 授權"</string>
     <string name="wallpaper_attributions" msgid="4323659759250650736">"桌布出處"</string>
@@ -4362,7 +4362,7 @@
     <string name="enterprise_privacy_security_logs" msgid="8494681624247959075">"最新安全性記錄"</string>
     <string name="enterprise_privacy_none" msgid="6026527690979756431">"無"</string>
     <string name="enterprise_privacy_enterprise_installed_packages" msgid="9114143640515900082">"已安裝的應用程式"</string>
-    <string name="enterprise_privacy_apps_count_estimation_info" msgid="7959907857710107792">"已估算應用程式數量，其中可能不包括從 Google Play 商店以外來源安裝的應用程式。"</string>
+    <string name="enterprise_privacy_apps_count_estimation_info" msgid="7959907857710107792">"已估算應用程式數量，其中可能不包括從 Mainline 商店以外來源安裝的應用程式。"</string>
     <string name="enterprise_privacy_number_packages_lower_bound" msgid="5317634640873658149">"{count,plural, =1{至少有 # 個應用程式}other{至少有 # 個應用程式}}"</string>
     <string name="enterprise_privacy_location_access" msgid="8023838718108456971">"位置資訊權限"</string>
     <string name="enterprise_privacy_microphone_access" msgid="7242958026470143653">"麥克風權限"</string>
