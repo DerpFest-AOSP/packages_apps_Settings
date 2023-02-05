@@ -85,36 +85,44 @@
         android:selectable="false"
         android:title="@string/my_device_info_device_details_category_title">
 
-        <Preference
-            android:title="@string/radio_info_title"
-            android:key="radio_info_settings"
-            android:order="6"
-            settings:controller="com.android.settings.deviceinfo.RadioInfoPreferenceController">
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.android.phone"
-                    android:targetClass="com.android.phone.settings.RadioInfo" />
-        </Preference>
-
-        <!-- SIM status -->
-        <Preference
-            android:key="sim_status"
-            android:order="18"
-            android:title="@string/sim_status_title"
-            settings:keywords="@string/keywords_sim_status"
-            android:summary="@string/summary_placeholder"
-            settings:isPreferenceVisible="@bool/config_show_sim_info"
-            settings:controller="com.android.settings.deviceinfo.simstatus.SimStatusPreferenceController"/>
-
         <!-- Model & hardware -->
         <Preference
             android:key="device_model"
-            android:order="30"
+            android:order="18"
             android:title="@string/model_info"
             android:summary="@string/summary_placeholder"
             android:fragment="com.android.settings.deviceinfo.hardwareinfo.HardwareInfoFragment"
             settings:enableCopying="true"
             settings:keywords="@string/keywords_model_and_hardware"
             settings:controller="com.android.settings.deviceinfo.HardwareInfoPreferenceController"/>
+
+        <!-- Android version -->
+        <Preference
+            android:key="firmware_version"
+            android:order="19"
+            android:title="@string/firmware_version"
+            android:summary="@string/summary_placeholder"
+            android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
+            settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
+
+        <!-- Battery information -->
+        <Preference
+            android:key="battery_info"
+            android:order="20"
+            android:title="@string/battery_info"
+            android:fragment="com.android.settings.deviceinfo.batteryinfo.BatteryInfoFragment"
+            settings:keywords="@string/keywords_battery_info"
+            settings:controller="com.android.settings.deviceinfo.batteryinfo.BatteryInfoPreferenceController"/>
+
+        <!-- SIM status -->
+        <Preference
+            android:key="sim_status"
+            android:order="21"
+            android:title="@string/sim_status_title"
+            settings:keywords="@string/keywords_sim_status"
+            android:summary="@string/summary_placeholder"
+            settings:isPreferenceVisible="@bool/config_show_sim_info"
+            settings:controller="com.android.settings.deviceinfo.simstatus.SimStatusPreferenceController"/>
 
         <!-- EID -->
         <com.android.settingslib.CustomDialogPreferenceCompat
@@ -139,23 +147,17 @@
             settings:isPreferenceVisible="@bool/config_show_sim_info"
             settings:controller="com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController"/>
 
-        <!-- Android version -->
+        <!-- Radio Info -->
         <Preference
-            android:key="firmware_version"
-            android:order="42"
-            android:title="@string/firmware_version"
-            android:summary="@string/summary_placeholder"
-            android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
-            settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
+            android:title="@string/radio_info_title"
+            android:key="radio_info_settings"
+            android:order="33"
+            settings:controller="com.android.settings.deviceinfo.RadioInfoPreferenceController">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.android.phone"
+                    android:targetClass="com.android.phone.settings.RadioInfo" />
+        </Preference>
 
-        <!-- Battery information -->
-        <Preference
-            android:key="battery_info"
-            android:order="43"
-            android:title="@string/battery_info"
-            android:fragment="com.android.settings.deviceinfo.batteryinfo.BatteryInfoFragment"
-            settings:keywords="@string/keywords_battery_info"
-            settings:controller="com.android.settings.deviceinfo.batteryinfo.BatteryInfoPreferenceController"/>
     </PreferenceCategory>
 
     <PreferenceCategory
