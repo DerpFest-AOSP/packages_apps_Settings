@@ -675,6 +675,6 @@
     <string name="prevent_ringing_option_normal">Standardverhalten</string>
 
     <!-- Hardware info -->
-    <string name="platform_revision">Plattform</string>
+    <string name="soc_model">SoC-Modell</string>
     <string name="total_ram">RAM insgesamt</string>
 </resources>
