@@ -901,6 +901,6 @@
     <string name="pulse_light_left_right">Nur Links-Rechts</string>
 
     <!-- Hardware info -->
-    <string name="platform_revision">Plattform</string>
+    <string name="soc_model">SoC-Modell</string>
     <string name="total_ram">RAM insgesamt</string>
 </resources>
