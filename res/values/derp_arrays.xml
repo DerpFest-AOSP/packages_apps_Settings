@@ -51,7 +51,6 @@
         <item>@string/hardware_keys_action_launch_camera</item>
         <item>@string/hardware_keys_action_sleep</item>
         <item>@string/hardware_keys_action_last_app</item>
-        <item>@string/hardware_keys_action_split_screen</item>
         <item>@string/hardware_keys_action_kill_app</item>
     </string-array>
 
@@ -66,10 +65,6 @@
         <item>@string/hardware_keys_action_launch_camera</item>
         <item>@string/hardware_keys_action_sleep</item>
         <item>@string/hardware_keys_action_last_app</item>
-        <!--
-        split-screen is not supported on Android Go devices
-        <item>@string/hardware_keys_action_split_screen</item>
-        -->
         <item>@string/hardware_keys_action_kill_app</item>
     </string-array>
 
@@ -84,7 +79,6 @@
         <item>7</item>
         <item>8</item>
         <item>9</item>
-        <item>10</item>
     </string-array>
 
     <string-array name="hardware_keys_action_values_go" translatable="false">
@@ -97,11 +91,7 @@
         <item>6</item>
         <item>7</item>
         <item>8</item>
-        <!--
-        split-screen is not supported on Android Go devices
         <item>9</item>
-        -->
-        <item>10</item>
     </string-array>
 
     <!-- Volume key cursor control -->
