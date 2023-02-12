@@ -31,7 +31,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
 import org.derpfest.support.colorpicker.ColorPickerPreference;
-import org.derpfest.support.preferences.CustomSeekBarPreference;
+import org.derpfest.support.preferences.SystemSettingSeekBarPreference;
 import org.derpfest.support.preferences.SystemSettingListPreference;
 import org.derpfest.support.preferences.SystemSettingSwitchPreference;
 
@@ -45,8 +45,8 @@ public class EdgeLightningSettings extends SettingsPreferenceFragment implements
     private static String KEY_COLOR = "ambient_notification_light_color";
 
     private SystemSettingSwitchPreference mAmbientPref;
-    private CustomSeekBarPreference mDurationPref;
-    private CustomSeekBarPreference mRepeatsPref;
+    private SystemSettingSeekBarPreference mDurationPref;
+    private SystemSettingSeekBarPreference mRepeatsPref;
     private SystemSettingListPreference mColorModePref;
     private ColorPickerPreference mColorPref;
 
@@ -65,13 +65,13 @@ public class EdgeLightningSettings extends SettingsPreferenceFragment implements
             mAmbientPref.setSummary(R.string.aod_disabled);
         }
 
-        mDurationPref = (CustomSeekBarPreference) findPreference(KEY_DURATION);
+        mDurationPref = (SystemSettingSeekBarPreference) findPreference(KEY_DURATION);
         int value = Settings.System.getIntForUser(resolver,
                 KEY_DURATION, 2, UserHandle.USER_CURRENT);
         mDurationPref.setValue(value);
         mDurationPref.setOnPreferenceChangeListener(this);
 
-        mRepeatsPref = (CustomSeekBarPreference) findPreference(KEY_REPEATS);
+        mRepeatsPref = (SystemSettingSeekBarPreference) findPreference(KEY_REPEATS);
         int repeats = Settings.System.getIntForUser(resolver,
                 KEY_REPEATS, 0, UserHandle.USER_CURRENT);
         mRepeatsPref.setValue(repeats);
