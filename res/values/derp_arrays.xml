@@ -51,7 +51,6 @@
         <item>@string/hardware_keys_action_launch_camera</item>
         <item>@string/hardware_keys_action_sleep</item>
         <item>@string/hardware_keys_action_last_app</item>
-        <item>@string/hardware_keys_action_kill_app</item>
     </string-array>
 
     <!-- Hardware key rebinding for Go enabled devices -->
@@ -65,7 +64,6 @@
         <item>@string/hardware_keys_action_launch_camera</item>
         <item>@string/hardware_keys_action_sleep</item>
         <item>@string/hardware_keys_action_last_app</item>
-        <item>@string/hardware_keys_action_kill_app</item>
     </string-array>
 
     <string-array name="hardware_keys_action_values" translatable="false">
@@ -78,7 +76,6 @@
         <item>6</item>
         <item>7</item>
         <item>8</item>
-        <item>9</item>
     </string-array>
 
     <string-array name="hardware_keys_action_values_go" translatable="false">
@@ -91,7 +88,6 @@
         <item>6</item>
         <item>7</item>
         <item>8</item>
-        <item>9</item>
     </string-array>
 
     <!-- Volume key cursor control -->
