@@ -713,7 +713,7 @@
     <string name="custom_timeout_summary_8hours">8 Stunden</string>
 
     <!-- Sleep Mode -->
-    <string name="sleep_mode_title">Schlaf Modus</string>
+    <string name="sleep_mode_title">Schlafmodus</string>
     <string name="sleep_mode_summary_on">Auf / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
     <string name="sleep_mode_summary_off">Aus / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
     <string name="sleep_mode_ringer_title">Klingelmodus</string>
@@ -742,7 +742,7 @@
     <string name="sleep_mode_alarm_blocker_toggle_summary">Aktiviert den Alarmblocker, wenn der Schlafmodus eingeschaltet ist</string>
     <string name="sleep_mode_wakelock_blocker_toggle_title">Wakelockblocker aktivieren</string>
     <string name="sleep_mode_wakelock_blocker_toggle_summary">Aktiviert den Wakelock blocker, wenn der Schlafmodus eingeschaltet ist</string>
-    <string name="sleep_mode_display_text">Im Schlafmodus können Sie bestimmte Dienste deaktivieren, um den Akku zu schonen und Ihr Telefon stumm zu schalten, während Sie schlafen.</string>
+    <string name="sleep_mode_display_text">Im Schlafmodus können bestimmte Dienste deaktiviert werden, um den Akku zu schonen und das Telefon stumm zu schalten, während des Schlafs.</string>
 
     <!-- Idle Manager -->
     <string name="idle_manager_title">Hintergrundprozesse beenden</string>
@@ -871,11 +871,11 @@
     <string name="pulse_ambient_light_title">Umgebungskantenbeleuchtung</string>
     <string name="pulse_ambient_light_summary">Helle Umgebungskanten für pulsierende Benachrichtigungen</string>
     <string name="pulse_ambient_light_enable">Kantenblitz anzeigen</string>
-    <string name="ambient_notification_light_enabled_title">Auf AOD anzeigen</string>
-    <string name="aod_disabled">AOD ist deaktiviert</string>
-    <string name="ambient_notification_light_enabled_summary">Zeigen Sie weiterhin Randblitze auf AOD</string>
-    <string name="ambient_notification_light_hide_aod_title">AOD-Inhalte ausblenden</string>
-    <string name="ambient_notification_light_hide_aod_summary">Blenden Sie AOD-Inhalte aus, wenn Kanten beleuchtet sind</string>
+    <string name="ambient_notification_light_enabled_title">Auf Inaktivitätsdisplay anzeigen</string>
+    <string name="aod_disabled">Inaktivitätsdisplay ist deaktiviert</string>
+    <string name="ambient_notification_light_enabled_summary">Zeigen Sie weiterhin Kantenbeleuchtung auf Inaktivitätsdisplay</string>
+    <string name="ambient_notification_light_hide_aod_title">Inaktivitätsdisplay-Inhalte ausblenden</string>
+    <string name="ambient_notification_light_hide_aod_summary">Blenden Sie Inaktivitätsdisplay-Inhalte aus, wenn Kanten beleuchtet sind</string>
     <string name="ambient_notification_light_duration_title">Dauer</string>
     <string name="ambient_notification_light_duration_summary">Dauer, bis jede Animation abgeschlossen ist</string>
     <string name="ambient_notification_light_repeats_title">Wiederholungen</string>
@@ -888,14 +888,14 @@
     <string name="ambient_notification_light_color_title">Benutzerdefinierte Farben</string>
     <string name="pulse_ambient_light_show_always_title">Immer anzeigen</string>
     <string name="pulse_ambient_light_show_always_summary">Anzeigen von Lichtern für alle Schlummerereignisse und nicht nur für Benachrichtigungen</string>
-    <string name="pulse_ambient_light_repeat_direction_title">Leichter Wiederholungsmodus</string>
+    <string name="pulse_ambient_light_repeat_direction_title">Wiederholungsmodus</string>
     <string name="pulse_ambient_light_repeat_direction_restart">Neustart</string>
     <string name="pulse_ambient_light_repeat_direction_reverse">Umkehren</string>
-    <string name="pulse_ambient_light_layout_title">Leichte Ansicht</string>
+    <string name="pulse_ambient_light_layout_title">Ansicht</string>
     <string name="pulse_ambient_light_layout_solid">Solide</string>
     <string name="pulse_ambient_light_layout_faded">Verblasst</string>
     <string name="pulse_ambient_light_width_title">Lichtbreite</string>
-    <string name="pulse_light_layout_style_title">Leichter Layout-Stil</string>
+    <string name="pulse_light_layout_style_title">Layout-Stil</string>
     <string name="pulse_light_both">Alle vier Seiten</string>
     <string name="pulse_light_top_bottom">Nur Oben-Unten</string>
     <string name="pulse_light_left_right">Nur Links-Rechts</string>
