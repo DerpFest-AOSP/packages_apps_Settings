@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/derp_official_banner_bg">
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_derp_official_banner"
+            android:tint="@color/ic_derp_official_banner"/>
+
+        <TextView
+            android:id="@android:id/title"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gsans_medium"
+            android:textColor="@color/ic_derp_official_banner"
+            android:textSize="20sp"
+            android:text="Did you know?"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@android:id/summary"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gsans_regular"
+        android:textColor="@color/ic_derp_official_banner"
+        android:textSize="14sp"
+        android:text="That you're currently running an official build of derpfest?"/>
+</LinearLayout>

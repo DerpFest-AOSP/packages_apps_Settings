@@ -948,4 +948,8 @@
     <!-- Hardware info -->
     <string name="soc_model">SoC Model</string>
     <string name="total_ram">Total RAM</string>
+
+    <!-- DerpFest official banner -->
+    <string name="derp_official_title">Did you know?</string>
+    <string name="derp_official_summary">You\'re currently running an official build of DerpFest.</string>
 </resources>

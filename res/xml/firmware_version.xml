@@ -28,6 +28,15 @@
         android:clickable="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.DerpFestLogoPreferenceController"/>
 
+    <!-- DerpFest official banner -->
+    <Preference
+        android:key="derp_official_banner"
+        android:title="@string/derp_official_title"
+        android:summary="@string/derp_official_summary"
+        settings:layout="@layout/derp_official_banner"
+        settings:enableCopying="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.DerpFestOfficialBannerController"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
