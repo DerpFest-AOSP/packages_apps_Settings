@@ -198,7 +198,8 @@
         <org.derpfest.support.preferences.GlobalSettingSwitchPreference
             android:key="heads_up_notifications_enabled"
             android:title="@string/heads_up_notifications_enabled_title"
-            android:summary="@string/heads_up_notifications_enabled_summary" />
+            android:summary="@string/heads_up_notifications_enabled_summary"
+            android:defaultValue="true" />
 
         <org.derpfest.support.preferences.SystemSettingSwitchPreference
             android:key="less_boring_heads_up"
