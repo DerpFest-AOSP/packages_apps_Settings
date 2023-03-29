@@ -16,7 +16,6 @@
 
 package com.android.settings;
 
-import android.content.DialogInterface;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -45,8 +44,7 @@ import java.util.Locale;
  * or add a string resource named "regulatory_info_text" with an HTML version of the required
  * information (text will be centered in the dialog).
  */
-public class RegulatoryInfoDisplayActivity extends CollapsingToolbarBaseActivity implements
-        DialogInterface.OnDismissListener {
+public class RegulatoryInfoDisplayActivity extends CollapsingToolbarBaseActivity {
 
     private final String REGULATORY_INFO_RESOURCE = "regulatory_info";
     private static final String DEFAULT_REGULATORY_INFO_FILEPATH =
@@ -132,11 +130,6 @@ public class RegulatoryInfoDisplayActivity extends CollapsingToolbarBaseActivity
             }
         }
         return resId;
-    }
-
-    @Override
-    public void onDismiss(DialogInterface dialog) {
-        finish();   // close the activity
     }
 
     private String getCoo() {
