@@ -41,4 +41,5 @@
     <string name="display_rotation_90_title">90 de grade</string>
     <string name="display_rotation_180_title">180 de grade</string>
     <string name="display_rotation_270_title">270 de grade</string>
+    <string name="device_info_protected_single_press">Atingeți pentru a afișa informații</string>
 </resources>

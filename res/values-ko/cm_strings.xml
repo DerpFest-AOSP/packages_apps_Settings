@@ -41,4 +41,5 @@
     <string name="display_rotation_90_title">90도</string>
     <string name="display_rotation_180_title">180도</string>
     <string name="display_rotation_270_title">270도</string>
+    <string name="device_info_protected_single_press">눌러서 정보 보기</string>
 </resources>

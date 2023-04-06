@@ -21,6 +21,8 @@
     <string name="high_touch_sensitivity_summary">Augmenter la sensibilité de l\'écran permettant ainsi le port de gants</string>
     <string name="berry_black_theme_title">Noir pur</string>
     <string name="berry_black_theme_summary">Fond noir pur pour le thème sombre</string>
+    <string name="power_menu_advanced_restart_title">Redémarrage avancé</string>
+    <string name="power_menu_advanced_restart_summary">Inclure les options de redémarrage en modes \"récupération\" et \"chargeur de démarrage\" dans le menu marche/arrêt lorsque l\'appareil est déverrouillé</string>
     <string name="torch_long_press_power_gesture_title">Pression longue pour la lampe de poche</string>
     <string name="torch_long_press_power_gesture_desc">Activer la lampe de poche par un appui long sur le bouton Marche/Arrêt lorsque l\'écran est éteint</string>
     <string name="lock_settings_picker_pattern_size_message">Choisissez une taille de modèle</string>
@@ -39,4 +41,5 @@
     <string name="display_rotation_90_title">90 degrés</string>
     <string name="display_rotation_180_title">180 degrés</string>
     <string name="display_rotation_270_title">270 degrés</string>
+    <string name="device_info_protected_single_press">Appuyez pour afficher les informations</string>
 </resources>

@@ -41,4 +41,5 @@
     <string name="display_rotation_90_title">90 stopinj</string>
     <string name="display_rotation_180_title">180 stopinj</string>
     <string name="display_rotation_270_title">270 stopinj</string>
+    <string name="device_info_protected_single_press">Tapnite za prikaz informacij</string>
 </resources>

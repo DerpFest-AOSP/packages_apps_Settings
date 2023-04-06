@@ -41,4 +41,5 @@
     <string name="display_rotation_90_title">90 μοίρες</string>
     <string name="display_rotation_180_title">180 μοίρες</string>
     <string name="display_rotation_270_title">270 μοίρες</string>
+    <string name="device_info_protected_single_press">Πατήστε για εμφάνιση πληροφοριών</string>
 </resources>

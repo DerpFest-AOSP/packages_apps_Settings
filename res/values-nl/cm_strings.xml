@@ -41,4 +41,5 @@
     <string name="display_rotation_90_title">90 graden</string>
     <string name="display_rotation_180_title">180 graden</string>
     <string name="display_rotation_270_title">270 graden</string>
+    <string name="device_info_protected_single_press">Tik om info te tonen</string>
 </resources>

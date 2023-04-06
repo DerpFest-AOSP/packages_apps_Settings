@@ -41,4 +41,5 @@
     <string name="display_rotation_90_title">90 gradë</string>
     <string name="display_rotation_180_title">180 gradë</string>
     <string name="display_rotation_270_title">270 gradë</string>
+    <string name="device_info_protected_single_press">Trokit për të shfaqur informacionin</string>
 </resources>

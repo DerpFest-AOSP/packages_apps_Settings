@@ -24,7 +24,7 @@
     <string name="power_menu_advanced_restart_title">Riavvio avanzato</string>
     <string name="power_menu_advanced_restart_summary">Quando il dispositivo è sbloccato, mostra nel menù di accensione le opzioni per il riavvio in recovery o nel bootloader</string>
     <string name="torch_long_press_power_gesture_title">Premi a lungo per la torcia</string>
-    <string name="torch_long_press_power_gesture_desc">Attiva la torcia tenendo premuto a lungo il pulsante d\'accensione quando lo schermo é spento</string>
+    <string name="torch_long_press_power_gesture_desc">Attiva la torcia tenendo premuto a lungo il pulsante d\'accensione quando lo schermo è spento</string>
     <string name="lock_settings_picker_pattern_size_message">Scegli la dimensione della sequenza</string>
     <string name="lockpattern_settings_enable_error_path_title">Mostra sequenza errata</string>
     <string name="lockpattern_settings_enable_dots_title">Mostra punti sequenza</string>
@@ -41,4 +41,5 @@
     <string name="display_rotation_90_title">90 gradi</string>
     <string name="display_rotation_180_title">180 gradi</string>
     <string name="display_rotation_270_title">270 gradi</string>
+    <string name="device_info_protected_single_press">Tocca per mostrare l\'informazione</string>
 </resources>

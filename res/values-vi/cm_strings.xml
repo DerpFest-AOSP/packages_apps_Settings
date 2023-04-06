@@ -21,6 +21,8 @@
     <string name="high_touch_sensitivity_summary">Tăng độ nhạy màn hình cảm ứng để nó có thể được sử dụng trong khi đeo găng tay</string>
     <string name="berry_black_theme_title">Đen tuyền</string>
     <string name="berry_black_theme_summary">Nền đen tuyền cho chủ đề tối</string>
+    <string name="power_menu_advanced_restart_title">Khởi động lại nâng cao</string>
+    <string name="power_menu_advanced_restart_summary">Khi mở khóa, bao gồm các tùy chọn trong trình đơn nguồn để khởi động lại vào chế độ phục hồi hoặc trình nạp khởi động</string>
     <string name="torch_long_press_power_gesture_title">Nhấn giữ bật đèn pin</string>
     <string name="torch_long_press_power_gesture_desc">Bật đèn pin bằng cách nhấn giữ phím nguồn khi màn hình đang tắt</string>
     <string name="lock_settings_picker_pattern_size_message">Chọn một kích cỡ mẫu hình</string>

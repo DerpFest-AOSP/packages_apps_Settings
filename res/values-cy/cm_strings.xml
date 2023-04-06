@@ -21,6 +21,8 @@
     <string name="high_touch_sensitivity_summary">Cynyddu sensitifrwydd y sgrin gyffwrdd fel y gellir ei defnyddio wrth wisgo menig</string>
     <string name="berry_black_theme_title">Du pur</string>
     <string name="berry_black_theme_summary">Cefndir du pur i\'r thema dywyll</string>
+    <string name="power_menu_advanced_restart_title">Ailgychwyn arbennig</string>
+    <string name="power_menu_advanced_restart_summary">Pan wedi datgloi, cynnwys opsiynau yn y ddewislen pŵer i ailgychwyn y system neu ailgychwyn i\'r modd adfer</string>
     <string name="torch_long_press_power_gesture_title">Dal yn hir i lansio\'r fflacholau</string>
     <string name="torch_long_press_power_gesture_desc">Troi\'r fflacholau ymlaen wrth wasgu\'r botwm pŵer yn hir tra bod y sgrin i ffwrdd</string>
     <string name="lock_settings_picker_pattern_size_message">Dewisa faint patrwm</string>
@@ -39,4 +41,5 @@
     <string name="display_rotation_90_title">90 gradd</string>
     <string name="display_rotation_180_title">180 gradd</string>
     <string name="display_rotation_270_title">270 gradd</string>
+    <string name="device_info_protected_single_press">Tapio i ddangos gwybodaeth</string>
 </resources>
