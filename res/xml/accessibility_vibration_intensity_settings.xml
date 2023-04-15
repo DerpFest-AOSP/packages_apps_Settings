@@ -104,16 +104,19 @@
         <org.derpfest.support.preferences.SystemSettingSwitchPreference
             android:key="vibrate_on_connect"
             android:title="@string/incall_vibrate_connect_title"
+            android:dependency="touch_vibration_preference_screen"
             android:defaultValue="true" />
 
         <org.derpfest.support.preferences.SystemSettingSwitchPreference
             android:key="vibrate_on_callwaiting"
             android:title="@string/incall_vibrate_call_wait_title"
+            android:dependency="touch_vibration_preference_screen"
             android:defaultValue="true" />
 
         <org.derpfest.support.preferences.SystemSettingSwitchPreference
             android:key="vibrate_on_disconnect"
             android:title="@string/incall_vibrate_disconnect_title"
+            android:dependency="touch_vibration_preference_screen"
             android:defaultValue="true" />
 
     </PreferenceCategory>
