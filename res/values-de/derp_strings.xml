@@ -846,4 +846,9 @@
 
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
     <string name="assisted_gps_summary">Lädt Satellitenunterstützungsdaten aus dem Internet herunter, die die GPS-Startleistung erheblich verbessern können. Für Notrufe ist Unterstütztes GPS immer erlaubt.</string>
+
+    <!-- Navbar -->
+    <string name="navbar_tuner_title">Navigationsleiste</string>
+    <string name="navbar_tuner_summary">Anpassen des Navigationsleisten-Layouts</string>
+
 </resources>
