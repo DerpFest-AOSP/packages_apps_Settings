@@ -946,4 +946,8 @@
     <string name="wifi_do_not_validate_eap_server">Nicht validieren</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Kein Zertifikat angegeben. Ihre Verbindung wird nicht privat sein.</string>
+
+    <!-- Navbar -->
+    <string name="navbar_tuner_title">Navigationsleiste</string>
+    <string name="navbar_tuner_summary">Anpassen des Navigationsleisten-Layouts</string>
 </resources>

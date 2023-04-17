@@ -336,6 +336,14 @@
             android:summary="@string/click_partial_screenshot_summary"
             android:defaultValue="false" />
 
+        <Preference
+            android:title="@string/navbar_tuner_title"
+            android:summary="@string/navbar_tuner_summary" >
+            <intent android:action="com.android.settings.action.NAV_BAR_TUNER"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.NavbarActivity" />
+        </Preference>
+
     </PreferenceCategory>
 
 </PreferenceScreen>
