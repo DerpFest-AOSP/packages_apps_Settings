@@ -16,15 +16,19 @@
 
 package com.android.settings.notification;
 
+import android.annotation.Nullable;
 import android.app.INotificationManager;
 import android.app.NotificationManager;
 import android.content.ComponentName;
 import android.content.Context;
+import android.database.ContentObserver;
 import android.media.AudioManager;
+import android.net.Uri;
 import android.os.Binder;
 import android.os.ServiceManager;
 import android.os.Vibrator;
 import android.provider.DeviceConfig;
+import android.provider.Settings;
 import android.util.Log;
 
 import com.android.internal.annotations.VisibleForTesting;
@@ -60,6 +64,8 @@ public abstract class RingerModeAffectedVolumePreferenceController extends
         if (mVibrator != null && !mVibrator.hasVibrator()) {
             mVibrator = null;
         }
+        SettingsObserver settingsObserver = new SettingsObserver();
+        settingsObserver.observe();
     }
 
     protected void updateEffectsSuppressor() {
@@ -118,11 +124,23 @@ public abstract class RingerModeAffectedVolumePreferenceController extends
         return mMuteIcon;
     }
 
+    protected void updateVisibility() {
+        if (mPreference == null) return;
+        int status = getAvailabilityStatus();
+        mPreference.setVisible(status == AVAILABLE
+                || status == DISABLED_DEPENDENT_SETTING);
+        if (status == DISABLED_DEPENDENT_SETTING) {
+            mPreference.setEnabled(false);
+        }
+    }
+
     protected boolean isSeparateNotificationConfigEnabled() {
-        return Binder.withCleanCallingIdentity(()
+        boolean isSeparateVolumeEnabled = Binder.withCleanCallingIdentity(()
                 -> DeviceConfig.getBoolean(DeviceConfig.NAMESPACE_SYSTEMUI,
                 SystemUiDeviceConfigFlags.VOLUME_SEPARATE_NOTIFICATION,
                 CONFIG_SEPARATE_NOTIFICATION_DEFAULT_VAL));
+        return Settings.Secure.getInt(mContext.getContentResolver(),
+                Settings.Secure.VOLUME_SEPARATE_NOTIFICATION, isSeparateVolumeEnabled ? 1 : 0) == 1;
     }
 
     /**
@@ -173,5 +191,28 @@ public abstract class RingerModeAffectedVolumePreferenceController extends
     }
 
     protected abstract boolean hintsMatch(int hints);
+
+    final class SettingsObserver extends ContentObserver {
+        private final Uri VOLUME_SEPARATE_NOTIFICATION_URI =
+                Settings.Secure.getUriFor(Settings.Secure.VOLUME_SEPARATE_NOTIFICATION);
+
+        public SettingsObserver() {
+            super(null);
+        }
+
+        private void observe() {
+            mContext.getContentResolver().registerContentObserver(VOLUME_SEPARATE_NOTIFICATION_URI,
+                    false, this);
+        }
+
+        @Override
+        public void onChange(boolean selfChange, @Nullable Uri uri) {
+            if (VOLUME_SEPARATE_NOTIFICATION_URI.equals(uri)) {
+                updateVisibility();
+                updateEffectsSuppressor();
+                selectPreferenceIconState();
+            }
+        }
+    }
 
 }

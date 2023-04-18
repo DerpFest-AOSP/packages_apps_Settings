@@ -97,6 +97,14 @@
         android:order="-140"
         settings:controller="com.android.settings.notification.AlarmVolumePreferenceController"/>
 
+    <!-- Separate ring & notification toggle -->
+    <org.derpfest.support.preferences.SecureSettingSwitchPreference
+        android:key="volume_separate_notification"
+        android:title="@string/volume_separate_notification_title"
+        android:summary="@string/volume_separate_notification_summary"
+        android:order="-138"
+        settings:controller="com.android.settings.notification.SeparateNotificationPreferenceController"/>
+
     <!-- Increasing ring -->
     <org.derpfest.support.preferences.SystemSettingSwitchPreference
         android:key="increasing_ring"

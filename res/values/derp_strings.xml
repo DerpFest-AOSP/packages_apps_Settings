@@ -899,4 +899,8 @@
 
     <!-- Android Beam -->
     <string name="android_beam_main_switch_title">Use Android Beam</string>
+
+    <!-- Separate ring & notification toggle -->
+    <string name="volume_separate_notification_title">Separated Ring and Notification</string>
+    <string name="volume_separate_notification_summary">Allow controlling each stream individually</string>
 </resources>

@@ -26,12 +26,10 @@ import android.media.AudioManager;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
-import android.provider.DeviceConfig;
 import android.service.notification.NotificationListenerService;
 
 import androidx.lifecycle.OnLifecycleEvent;
 
-import com.android.internal.config.sysui.SystemUiDeviceConfigFlags;
 import com.android.settings.R;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 
@@ -62,20 +60,7 @@ public class SeparateRingVolumePreferenceController extends
 
         mSeparateNotification = isSeparateNotificationConfigEnabled();
         updateRingerMode();
-    }
-
-    /**
-     * Show/hide settings
-     */
-    private void onDeviceConfigChange(DeviceConfig.Properties properties) {
-        Set<String> changeSet = properties.getKeyset();
-        if (changeSet.contains(SystemUiDeviceConfigFlags.VOLUME_SEPARATE_NOTIFICATION)) {
-            boolean valueUpdated = readSeparateNotificationVolumeConfig();
-            if (valueUpdated) {
-                updateEffectsSuppressor();
-                selectPreferenceIconState();
-            }
-        }
+        updateVisibility();
     }
 
     @OnLifecycleEvent(Lifecycle.Event.ON_RESUME)
@@ -84,14 +69,9 @@ public class SeparateRingVolumePreferenceController extends
         super.onResume();
         mReceiver.register(true);
         readSeparateNotificationVolumeConfig();
-        DeviceConfig.addOnPropertiesChangedListener(DeviceConfig.NAMESPACE_SYSTEMUI,
-                ActivityThread.currentApplication().getMainExecutor(), this::onDeviceConfigChange);
         updateEffectsSuppressor();
         selectPreferenceIconState();
-
-        if (mPreference != null) {
-            mPreference.setVisible(getAvailabilityStatus() == AVAILABLE);
-        }
+        updateVisibility();
     }
 
     @OnLifecycleEvent(Lifecycle.Event.ON_PAUSE)
@@ -99,7 +79,6 @@ public class SeparateRingVolumePreferenceController extends
     public void onPause() {
         super.onPause();
         mReceiver.register(false);
-        DeviceConfig.removeOnPropertiesChangedListener(this::onDeviceConfigChange);
     }
 
     @Override
@@ -111,7 +90,7 @@ public class SeparateRingVolumePreferenceController extends
     public int getAvailabilityStatus() {
         boolean separateNotification = isSeparateNotificationConfigEnabled();
         return separateNotification && !mHelper.isSingleVolume()
-                ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+                ? AVAILABLE : CONDITIONALLY_UNAVAILABLE;
     }
 
     @Override
