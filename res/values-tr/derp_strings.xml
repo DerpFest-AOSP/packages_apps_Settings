@@ -733,12 +733,12 @@
 
     <!-- Ringer mode mute speaker media -->
     <string name="ringer_mute_speaker_media_title">Sessiz modda sessiz medya kullan</string>
-    <string name="ringer_mute_speaker_media_summary">Cihaz sessiz moddayken medya sesini de kıs. Sadece hoparlrleri etkiler</string>
+    <string name="ringer_mute_speaker_media_summary">Cihaz sessiz moddayken medya sesini de kıs. Sadece hoparlörleri etkiler</string>
 
     <!-- Reset auto brightness adjustment -->
     <string name="reset_auto_brightness_adjustment_title">Sıfırlama tercihi</string>
     <string name="reset_auto_brightness_adjustment_summary">Sistemin cihazınızın parlaklık tercihini unutmasına izin verin ve varsayılana sıfırlayın</string>
-    <string name="reset_auto_brightness_adjustment_done">Auto brightness preference has been reset</string>
+    <string name="reset_auto_brightness_adjustment_done">Otomatik parlaklık tercihi sıfırlandı</string>
 
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Titreşim deseni</string>
@@ -907,5 +907,5 @@
     <string name="fingerprint_lockout_summary">Çok kez hatalı parmak izi kilit açma girişiminden sonra olan 30 saniyelik ve kalıcı kilitlenmeyi devre dışı bırakır.</string>
 
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
-    <string name="assisted_gps_summary">GPS başlatma performansını büyük ölçüde artırabilecek uydu yardım verilerini internetten indirin. Acil aramalar için destekli GPS'e her zaman izin verilir.</string>
+    <string name="assisted_gps_summary">GPS başlatma performansını büyük ölçüde artırabilecek uydu yardım verilerini internetten indirin. Acil aramalar için destekli GPS\'e her zaman izin verilir.</string>
 </resources>
