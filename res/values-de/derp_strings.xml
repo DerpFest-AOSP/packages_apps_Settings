@@ -821,4 +821,12 @@
     <string name="apm_enhancement_title">Verbesserung des Flugmodus (APM)</string>
     <string name="apm_enhancement_summary_on">Den Bluetooth- und WLAN-Status erhalten</string>
     <string name="apm_enhancement_summary_off">Den Bluetooth- und WLAN-Status ignorieren</string>
+
+    <!-- Transient task mode (Tadi mode) -->
+    <string name="transient_task_mode_title">Transient Task-Modus</string>
+    <string name="transient_task_mode_dialog_title">Transient Task-Modus (Starte dein Gerät neu, um Änderungen anzuwenden)</string>
+    <string name="transient_task_mode_summary">Apps aus dem Anwendungsverlauf entfernen, wenn die letzte Aktivität mit der Zurück-Taste geschlossen wird.</string>
+    <string name="transient_task_mode_default">Deaktiviert (Standard)</string>
+    <string name="transient_task_mode_allow">Aktivieren (einige Apps bleiben erhalten)</string>
+    <string name="transient_task_mode_force">Erzwingen (App-Verhalten überschreiben)</string>
 </resources>

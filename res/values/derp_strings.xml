@@ -861,4 +861,12 @@
     <string name="apm_enhancement_title">Airplane mode enhancement</string>
     <string name="apm_enhancement_summary_on">Remember Bluetooth and WiFi state</string>
     <string name="apm_enhancement_summary_off">Ignore Bluetooth and WiFi state</string>
+
+    <!-- Transient task mode (Tadi mode) -->
+    <string name="transient_task_mode_title">Transient task mode</string>
+    <string name="transient_task_mode_dialog_title">Transient task mode (Reboot your device to apply changes)</string>
+    <string name="transient_task_mode_summary">Dismiss apps from recents when last activity gets closed using back button.</string>
+    <string name="transient_task_mode_default">Disable (Default)</string>
+    <string name="transient_task_mode_allow">Enable (Some apps will stay)</string>
+    <string name="transient_task_mode_force">Force (Override app behaviour)</string>
 </resources>
