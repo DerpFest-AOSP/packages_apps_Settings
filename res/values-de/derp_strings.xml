@@ -852,4 +852,12 @@
     <string name="gesture_nav_tweaks_footer_info">Um eine bestimmte App-Aktivität für die Aktion auszuwählen, drücke lange auf eine App in der Apps-Auswahl.\n\nWenn der Launcher angezeigt wird, wische ganz unten auf dem Bildschirmrand, um die Aktion auszulösen.</string>
     <string name="back_swipe_extended_title">Erweiterte Wischgeste</string>
     <string name="back_swipe_extended_summary">Aktion auslösen bei langem Wischen (mehr als die Hälfte des Bildschirms) oder einem L-Wischen (lange vertikal)</string>
+
+    <!-- Transient task mode (Tadi mode) -->
+    <string name="transient_task_mode_title">Transient Task-Modus</string>
+    <string name="transient_task_mode_dialog_title">Transient Task-Modus (Starte dein Gerät neu, um Änderungen anzuwenden)</string>
+    <string name="transient_task_mode_summary">Apps aus dem Anwendungsverlauf entfernen, wenn die letzte Aktivität mit der Zurück-Taste geschlossen wird.</string>
+    <string name="transient_task_mode_default">Deaktiviert (Standard)</string>
+    <string name="transient_task_mode_allow">Aktivieren (einige Apps bleiben erhalten)</string>
+    <string name="transient_task_mode_force">Erzwingen (App-Verhalten überschreiben)</string>
 </resources>
