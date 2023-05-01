@@ -41,6 +41,7 @@ public class LocationIndicatorsPreferenceControllers extends TogglePreferenceCon
     public boolean setChecked(boolean isChecked) {
         DeviceConfig.setProperty(DeviceConfig.NAMESPACE_PRIVACY,
                 Utils.PROPERTY_LOCATION_INDICATORS_ENABLED, Boolean.toString(isChecked), true);
+        Utils.restartSystemUi(mContext);
         return true;
     }
 
