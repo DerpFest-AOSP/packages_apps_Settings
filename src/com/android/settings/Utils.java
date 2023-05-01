@@ -102,6 +102,7 @@ import androidx.core.graphics.drawable.RoundedBitmapDrawable;
 import androidx.core.graphics.drawable.RoundedBitmapDrawableFactory;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Lifecycle;
+import android.net.Uri;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceGroup;
 
@@ -166,6 +167,9 @@ public final class Utils extends com.android.settingslib.Utils {
     /** Whether or not app hibernation targets apps that target a pre-S SDK **/
     public static final String PROPERTY_HIBERNATION_TARGETS_PRE_S_APPS =
             "app_hibernation_targets_pre_s_apps";
+
+    private static final String SYSTEMUI_ACTION_RESTART = "com.android.systemui.action.RESTART";
+    private static final String SYSTEMUI_RECEIVER_RESTART = "com.android.systemui/.SysuiRestartReceiver";
 
     /**
      * Finds a matching activity for a preference's intent. If a matching
@@ -1233,6 +1237,17 @@ public final class Utils extends com.android.settingslib.Utils {
     @ColorInt
     public static int getHomepageIconColorHighlight(Context context) {
         return context.getColor(R.color.accent_select_primary_text);
+    }
+
+    /**
+     * Restart SystemUI
+     */
+    public static void restartSystemUi(@NonNull Context context) {
+        String pkgName = context.getPackageName();
+        Intent intent = new Intent(SYSTEMUI_ACTION_RESTART);
+        intent.setData(Uri.parse("package://" + pkgName));
+        intent.setComponent(ComponentName.unflattenFromString(SYSTEMUI_RECEIVER_RESTART));
+        context.sendBroadcast(intent);
     }
 
     /**
