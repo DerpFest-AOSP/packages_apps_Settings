@@ -337,6 +337,7 @@
             android:defaultValue="false" />
 
         <Preference
+            android:key="navbar_tuner"
             android:title="@string/navbar_tuner_title"
             android:summary="@string/navbar_tuner_summary" >
             <intent android:action="com.android.settings.action.NAV_BAR_TUNER"
