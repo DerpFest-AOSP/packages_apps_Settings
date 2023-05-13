@@ -18,9 +18,9 @@
 package com.android.settings.derp.buttons;
 
 import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_2BUTTON;
-import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_GESTURAL_OVERLAY;
-
+import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_GESTURAL;
 import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_3BUTTON_OVERLAY;
+import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_GESTURAL_OVERLAY;
 
 import android.app.ActivityManager;
 import android.content.ComponentName;
@@ -121,6 +121,7 @@ public class ButtonSettings extends SettingsPreferenceFragment
     private static final String KEY_SWAP_CAPACITIVE_KEYS = "swap_capacitive_keys";
     private static final String KEY_NAV_BAR_INVERSE = "sysui_nav_bar_inverse";
     private static final String KEY_ENABLE_TASKBAR = "enable_taskbar";
+    private static final String KEY_NAVBAR_TUNER = "navbar_tuner";
 
     private static final String CATEGORY_POWER = "power_key";
     private static final String CATEGORY_HOME = "home_key";
@@ -165,6 +166,7 @@ public class ButtonSettings extends SettingsPreferenceFragment
     private SwitchPreference mSwapCapacitiveKeys;
     private SwitchPreference mNavBarInverse;
     private SwitchPreference mEnableTaskbar;
+    private Preference mNavbarTuner;
 
     private PreferenceCategory mNavigationPreferencesCat;
 
@@ -502,6 +504,11 @@ public class ButtonSettings extends SettingsPreferenceFragment
             }
         }
 
+        mNavbarTuner = findPreference(KEY_NAVBAR_TUNER);
+        if (isGestureNavigationEnabled(getActivity())) {
+            extrasCategory.removePreference(mNavbarTuner);
+        }
+
         // Override key actions on Go devices in order to hide any unsupported features
         if (ActivityManager.isLowRamDeviceStatic()) {
             String[] actionEntriesGo = res.getStringArray(R.array.hardware_keys_action_entries_go);
@@ -686,6 +693,11 @@ public class ButtonSettings extends SettingsPreferenceFragment
 
     private static boolean is2ButtonNavigationEnabled(Context context) {
         return NAV_BAR_MODE_2BUTTON == context.getResources().getInteger(
+                com.android.internal.R.integer.config_navBarInteractionMode);
+    }
+
+    private static boolean isGestureNavigationEnabled(Context context) {
+        return NAV_BAR_MODE_GESTURAL == context.getResources().getInteger(
                 com.android.internal.R.integer.config_navBarInteractionMode);
     }
 
