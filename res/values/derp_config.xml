@@ -32,4 +32,7 @@
              relative to the natural orientation of the display
              (true for some tablets) -->
     <integer name="config_volumeRockerVsDisplayOrientation">1</integer>
+
+    <!-- Turn on Wi-Fi automatically -->
+    <bool name="config_wifi_wakeup" translatable="false">false</bool>
 </resources>
