@@ -26,9 +26,6 @@ import com.android.settings.core.TogglePreferenceController;
 
 public class CleartextNetworkPolicyPreferenceController extends TogglePreferenceController {
 
-    // Must match ConnectivitySettingsUtils
-    private static final int PRIVATE_DNS_MODE_CLOUDFLARE = 4;
-
     public CleartextNetworkPolicyPreferenceController(Context context, String key) {
         super(context, key);
     }
@@ -39,7 +36,6 @@ public class CleartextNetworkPolicyPreferenceController extends TogglePreference
             return AVAILABLE;
         } else {
             switch (ConnectivitySettingsManager.getPrivateDnsMode(mContext)) {
-                case PRIVATE_DNS_MODE_CLOUDFLARE:
                 case ConnectivitySettingsManager.PRIVATE_DNS_MODE_PROVIDER_HOSTNAME:
                     return AVAILABLE;
                 default:
