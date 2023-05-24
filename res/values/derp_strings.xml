@@ -869,4 +869,8 @@
     <string name="transient_task_mode_default">Disable (Default)</string>
     <string name="transient_task_mode_allow">Enable (Some apps will stay)</string>
     <string name="transient_task_mode_force">Force (Override app behaviour)</string>
+
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Show Ambient</string>
+    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
 </resources>

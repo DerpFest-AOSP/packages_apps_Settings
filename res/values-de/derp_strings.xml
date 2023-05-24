@@ -829,4 +829,8 @@
     <string name="transient_task_mode_default">Deaktiviert (Standard)</string>
     <string name="transient_task_mode_allow">Aktivieren (einige Apps bleiben erhalten)</string>
     <string name="transient_task_mode_force">Erzwingen (App-Verhalten überschreiben)</string>
+
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Ambient anzeigen</string>
+    <string name="doze_gesture_ambient_summary">Inaktivitätsdisplay anzeigen, anstatt den Bildschirm voll aufzuwecken</string>
 </resources>
