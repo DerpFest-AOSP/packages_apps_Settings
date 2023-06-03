@@ -117,6 +117,7 @@ android_library {
         "vendor.lineage.fastcharge-V1.0-java",
         "vendor.lineage.trust-V1.0-java",
         "glide",
+        "colorpickerview",
         "androidx.navigation_navigation-common-ktx",
         "androidx.navigation_navigation-fragment-ktx",
         "androidx.navigation_navigation-runtime-ktx",
@@ -188,4 +189,9 @@ filegroup {
 android_library_import {
     name: "glide",
     aars: ["libs/glide-4.16.0.aar"],
+}
+
+android_library_import {
+    name: "colorpickerview",
+    aars: ["libs/colorpickerview-release.aar"],
 }
