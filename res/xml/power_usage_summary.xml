@@ -58,6 +58,13 @@
         settings:controller="com.android.settings.fuelgauge.batterytip.BatteryManagerPreferenceController"
         settings:keywords="@string/keywords_battery_adaptive_preferences" />
 
+   <!-- Charging control -->
+    <org.derpfest.support.preferences.SelfRemovingPreference
+        android:key="charging_control"
+        android:title="@string/charging_control_title"
+        android:fragment="com.android.settings.derpfest.health.ChargingControlSettings"
+        settings:requiresService="lineagehealth" />
+
     <!-- Battery light -->
     <org.derpfest.support.preferences.SelfRemovingPreference
         android:key="battery_lights"
