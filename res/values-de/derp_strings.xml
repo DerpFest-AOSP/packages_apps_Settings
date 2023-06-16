@@ -778,4 +778,8 @@
     <string name="face_unlock_method_title">Gesichtsentsperrung auf dem Sperrbildschirm zulassen</string>
     <string name="face_unlock_method_default">Wenn der Bildschirm eingeschaltet ist</string>
     <string name="face_unlock_method_swipe">Beim Wischen auf dem Sperrbildschirm</string>
+
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Automatisch zwischen 5G und 4G wechseln, um den Batterieverbrauch zu reduzieren</string>
 </resources>
