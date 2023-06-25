@@ -236,4 +236,8 @@
 
     <!-- Misc Haptics -->
     <string name="misc_vibration_category_title">Additional vibration options</string>
+    <string name="touch_haptic_title">Misc settings for haptic feedback</string>
+    <string name="touch_haptic_summary">Customize haptic feedback for system widgets</string>
+    <string name="haptic_on_brightness_slider_title">Brightness slider</string>
+    <string name="haptic_on_brightness_slider_summary">Provide haptic feedback on changing brightness using slider</string>
 </resources>
