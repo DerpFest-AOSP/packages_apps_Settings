@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/misc_vibration_category_title" >
+
+    <org.derpfest.support.preferences.SystemSettingSwitchPreference
+        android:defaultValue="true"
+        android:key="haptic_on_brightness_slider"
+        android:title="@string/haptic_on_brightness_slider_title"
+        android:summary="@string/haptic_on_brightness_slider_summary" />
+
+</PreferenceScreen>

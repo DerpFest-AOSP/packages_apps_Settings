@@ -107,6 +107,14 @@
         android:key="misc_vibration_category"
         android:title="@string/misc_vibration_category_title" >
 
+        <Preference
+            android:key="misc_haptic_feedback_enabled"
+            android:fragment="com.android.settings.sound.HapticSettings"
+            android:title="@string/touch_haptic_title"
+            android:summary="@string/touch_haptic_summary"
+            android:dependency="vibration_intensity_switch_main"
+            app:controller="com.android.settings.sound.TouchHapticPreferenceController" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
