@@ -543,6 +543,8 @@
     <string name="haptic_on_volume_slider_summary">Haptisches Feedback bei Lautstärkeregelung mithilfe des Schiebereglers</string>
     <string name="haptic_on_volume_keys_title">Lautstärke-Tasten</string>
     <string name="haptic_on_volume_keys_summary">Haptisches Feedback bei ungültiger Lautstärkeänderung</string>
+    <string name="haptic_on_brightness_slider_title">Helligkeitsregelung</string>
+    <string name="haptic_on_brightness_slider_summary">Haptisches Feedback bei Helligkeitsregelung mithilfe des Schiebereglers</string>
     <string name="haptic_on_power_menu_title">Ein-/Aus-Menü</string>
     <string name="haptic_on_power_menu_summary">Haptisches Feedback beim Berühren von Ein-/Aus-Menüelementen</string>
 </resources>
