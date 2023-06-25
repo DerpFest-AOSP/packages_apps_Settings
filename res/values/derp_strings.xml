@@ -424,18 +424,6 @@
     <string name="swipe_to_screenshot_title">Swipe to screenshot</string>
     <string name="swipe_to_screenshot_summary">Swipe 3 fingers down the screen to take a screenshot</string>
 
-    <!-- Carrier label -->
-    <string name="carrier_label_category">Carrier label</string>
-    <string name="carrier_label_custom">Custom carrier label</string>
-    <string name="carrier_label_custom_unset">Click to set</string>
-    <string name="carrier_label_custom_title">Custom carrier label</string>
-    <string name="carrier_label_custom_explain">Enter a custom label. Leave blank to use your network name</string>
-    <string name="carrier_label_position">Carrier label position</string>
-    <string name="carrier_label_position_hide">Hide</string>
-    <string name="carrier_label_position_lockscreen">Lockscreen</string>
-    <string name="carrier_label_position_statusbar">Status Bar</string>
-    <string name="carrier_label_position_both">Lockscreen &amp; Status Bar</string>
-
     <!-- App lock -->
     <string name="app_lock_title">App lock</string>
     <plurals name="app_lock_summary">

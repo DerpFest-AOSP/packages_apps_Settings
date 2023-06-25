@@ -39,22 +39,6 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="@string/carrier_label_category">
-
-        <com.android.settings.preference.SystemSettingPrimarySwitchPreference
-            android:key="enable_custom_carrier_label"
-            android:title="@string/carrier_label_custom"
-            settings:controller="com.android.settings.display.CustomCarrierLabelController"/>
-
-        <org.derpfest.support.preferences.SystemSettingListPreference
-            android:key="status_bar_show_carrier"
-            android:title="@string/carrier_label_position"
-            android:entries="@array/carrier_label_position_entries"
-            android:entryValues="@array/carrier_label_position_values"
-            android:defaultValue="1"/>
-    </PreferenceCategory>
-
-    <PreferenceCategory
         android:title="@string/category_name_lock_display">
 
         <Preference
