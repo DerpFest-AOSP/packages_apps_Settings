@@ -462,21 +462,11 @@
 
     <!-- Status bar - Network Traffic -->
     <string name="network_traffic_settings_title">Datenverkehr-Anzeige</string>
+    <string name="network_traffic_toggle_title">Datenverkehr-Anzeige einblenden</string>
     <string name="network_traffic_settings_summary">Aktuellen Datenverkehr in der Statusleiste anzeigen</string>
-    <string name="network_traffic_mode_title">Anzeigemodus</string>
-    <string name="network_traffic_mode_disable">Deaktiviert</string>
-    <string name="network_traffic_mode_up">Nur Upload</string>
-    <string name="network_traffic_mode_down">Nur Download</string>
-    <string name="network_traffic_mode_all">Upload und Download</string>
     <string name="network_traffic_autohide">Automatisch ausblenden</string>
     <string name="network_traffic_autohide_summary">Datenverkehr-Anzeige bei Inaktivität ausblenden</string>
     <string name="network_traffic_units_title">Einheiten der Datenübertragungsraten</string>
-    <string name="network_traffic_units_kilobits">Kilobits pro Sekunde (kbit/s)</string>
-    <string name="network_traffic_units_megabits">Megabits pro Sekunde (Mbit/s)</string>
-    <string name="network_traffic_units_kilobytes">Kilobyte pro Sekunde (kB/s)</string>
-    <string name="network_traffic_units_megabytes">Megabyte pro Sekunde (MB/s)</string>
-    <string name="network_traffic_show_units">Einheiten anzeigen</string>
-    <string name="network_traffic_show_units_summary">Zeigt die Einheiten der Datenübertragungsraten in der Statusleiste an</string>
     <string name="network_traffic_disabled_clock">Datenverkehr-Anzeige aufgrund der Uhrzeitposition deaktiviert</string>
 
     <!-- QS settings -->

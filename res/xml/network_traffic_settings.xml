@@ -16,23 +16,21 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/network_traffic_settings_title">
 
-    <DropDownPreference
+    <org.derpfest.support.preferences.SecureSettingMainSwitchPreference
         android:key="network_traffic_mode"
-        android:title="@string/network_traffic_mode_title"
-        android:entries="@array/network_traffic_mode_entries"
-        android:entryValues="@array/network_traffic_mode_values"
-        android:summary="%s"
-        android:persistent="false" />
+        android:title="@string/network_traffic_toggle_title"
+        android:defaultValue="false" />
 
     <org.derpfest.support.preferences.SecureSettingSwitchPreference
         android:key="network_traffic_autohide"
         android:title="@string/network_traffic_autohide"
         android:summary="@string/network_traffic_autohide_summary"
-        android:defaultValue="false" />
+        android:defaultValue="true" />
 
-    <DropDownPreference
+    <org.derpfest.support.preferences.SystemSettingDropDownPreference
         android:key="network_traffic_units"
         android:title="@string/network_traffic_units_title"
         android:entries="@array/network_traffic_units_entries"
@@ -40,10 +38,8 @@
         android:summary="%s"
         android:persistent="false" />
 
-    <org.derpfest.support.preferences.SecureSettingSwitchPreference
-        android:key="network_traffic_show_units"
-        android:title="@string/network_traffic_show_units"
-        android:summary="@string/network_traffic_show_units_summary"
-        android:defaultValue="true" />
-
+    <com.android.settingslib.widget.FooterPreference
+        android:key="network_traffic_footer"
+        android:title="@string/network_traffic_settings_summary"
+        android:selectable="false" />
 </PreferenceScreen>
