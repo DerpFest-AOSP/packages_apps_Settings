@@ -415,6 +415,7 @@
         <item>@string/theme_style_fruit_salad</item>
         <item>@string/theme_style_muted</item>
         <item>@string/theme_style_content</item>
+        <item>@string/theme_style_monochromatic</item>
     </string-array>
 
     <string-array name="theme_style_values" translatable="false">
@@ -426,6 +427,7 @@
         <item>FRUIT_SALAD</item>
         <item>MUTED</item>
         <item>CONTENT</item>
+        <item>MONOCHROMATIC</item>
     </string-array>
 
     <!-- Monet color sources  -->
