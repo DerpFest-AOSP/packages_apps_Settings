@@ -67,11 +67,6 @@
             android:summary="@string/fingerprint_lockout_summary"
             android:defaultValue="false" />
 
-        <!-- App lock -->
-        <com.android.settingslib.RestrictedPreference
-            android:key="app_lock"
-            android:title="@string/app_lock_title" />
-
         <ListPreference
             android:key="device_reboot_timeout"
             android:entries="@array/device_reboot_timeout_entries"
@@ -79,15 +74,6 @@
             android:summary="@string/device_reboot_timeout_summary"
             android:title="@string/device_reboot_timeout_title"
             settings:controller="com.android.settings.security.DeviceRebootTimeoutPreferenceController" />
-
-        <org.derpfest.support.preferences.GlobalSettingListPreference
-            android:key="trust_restrict_usb"
-            android:title="@string/trust_restrict_usb_title"
-            android:summary="@string/trust_restrict_usb_summary"
-            android:entries="@array/trust_restrict_usb_entries"
-            android:entryValues="@array/trust_restrict_usb_values"
-            android:defaultValue="0"
-            settings:controller="com.android.settings.security.TrustRestrictUsbPreferenceController" />
 
     </PreferenceCategory>
 
