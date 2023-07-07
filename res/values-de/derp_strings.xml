@@ -838,4 +838,7 @@
     <!-- Navbar -->
     <string name="navbar_tuner_title">Navigationsleiste</string>
     <string name="navbar_tuner_summary">Anpassen des Navigationsleisten-Layouts</string>
+
+    <!-- Android Beam -->
+    <string name="android_beam_main_switch_title">Android Beam verwenden</string>
 </resources>
