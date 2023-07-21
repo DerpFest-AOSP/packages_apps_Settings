@@ -54,17 +54,12 @@ public abstract class BiometricStatusPreferenceController extends BasePreference
     protected abstract String getSettingsClassName();
 
     public BiometricStatusPreferenceController(Context context, String key) {
-        this(context, key, UserHandle.USER_NULL /* profileChallengeUserId */);
-    }
-
-    public BiometricStatusPreferenceController(
-            Context context, String key, int profileChallengeUserId) {
         super(context, key);
         mUm = (UserManager) context.getSystemService(Context.USER_SERVICE);
         mLockPatternUtils = FeatureFactory.getFactory(context)
                 .getSecurityFeatureProvider()
                 .getLockPatternUtils(context);
-        mProfileChallengeUserId = profileChallengeUserId;
+        mProfileChallengeUserId = Utils.getManagedProfileId(mUm, mUserId);
         mBiometricNavigationUtils = new BiometricNavigationUtils(getUserId());
     }
 

@@ -18,7 +18,6 @@ package com.android.settings.biometrics.face;
 
 import android.content.Context;
 import android.hardware.face.FaceManager;
-import android.os.UserHandle;
 import androidx.preference.Preference;
 
 import androidx.annotation.Nullable;
@@ -60,14 +59,8 @@ public class FaceStatusPreferenceController extends BiometricStatusPreferenceCon
         this(context, KEY_FACE_SETTINGS, lifecycle);
     }
 
-    public FaceStatusPreferenceController(
-            Context context, String key, Lifecycle lifecycle) {
-        this(context, key, lifecycle, UserHandle.USER_NULL /* profileChallengeUserId */);
-    }
-
-    public FaceStatusPreferenceController(
-            Context context, String key, Lifecycle lifecycle, int profileChallengeUserId) {
-        super(context, key, profileChallengeUserId);
+    public FaceStatusPreferenceController(Context context, String key, Lifecycle lifecycle) {
+        super(context, key);
         mFaceManager = Utils.getFaceManagerOrNull(context);
         mFaceStatusUtils = new FaceStatusUtils(context, mFaceManager, getUserId());
 

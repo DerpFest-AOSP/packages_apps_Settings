@@ -467,6 +467,9 @@ public final class Utils extends com.android.settingslib.Utils {
      * @return the managed profile id or UserHandle.USER_NULL if there is none.
      */
     public static int getManagedProfileId(UserManager um, int parentUserId) {
+        if (um.isManagedProfile(parentUserId)) {
+            return parentUserId;
+        }
         final int[] profileIds = um.getProfileIdsWithDisabled(parentUserId);
         for (int profileId : profileIds) {
             if (profileId != parentUserId) {

@@ -70,8 +70,7 @@ public class LockUnificationPreferenceControllerTest {
     }
 
     private void init() {
-        mController = new LockUnificationPreferenceController(
-                mContext, mHost, FAKE_PROFILE_USER_ID);
+        mController = new LockUnificationPreferenceController(mContext, mHost);
         when(mScreen.findPreference(mController.getPreferenceKey())).thenReturn(mPreference);
         mPreference = new Preference(mContext);
     }
@@ -93,8 +92,7 @@ public class LockUnificationPreferenceControllerTest {
 
     @Test
     public void getPreferenceKey_whenGivenValue_returnsGivenValue() {
-        mController = new LockUnificationPreferenceController(
-                mContext, mHost, "key", FAKE_PROFILE_USER_ID);
+        mController = new LockUnificationPreferenceController(mContext, mHost, "key");
 
         assertThat(mController.getPreferenceKey()).isEqualTo("key");
     }

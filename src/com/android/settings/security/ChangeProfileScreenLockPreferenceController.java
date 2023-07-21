@@ -40,13 +40,13 @@ public class ChangeProfileScreenLockPreferenceController extends
     private final String mPreferenceKey;
 
     public ChangeProfileScreenLockPreferenceController(Context context,
-            SettingsPreferenceFragment host, int profileChallengeUserId) {
-        this(context, host, KEY_UNLOCK_SET_OR_CHANGE_PROFILE, profileChallengeUserId);
+            SettingsPreferenceFragment host) {
+        this(context, host, KEY_UNLOCK_SET_OR_CHANGE_PROFILE);
     }
 
     public ChangeProfileScreenLockPreferenceController(Context context,
-            SettingsPreferenceFragment host, String key, int profileChallengeUserId) {
-        super(context, host, profileChallengeUserId);
+            SettingsPreferenceFragment host, String key) {
+        super(context, host);
         this.mPreferenceKey = key;
     }
 

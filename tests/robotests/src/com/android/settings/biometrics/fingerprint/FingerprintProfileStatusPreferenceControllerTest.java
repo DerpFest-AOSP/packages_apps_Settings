@@ -72,8 +72,7 @@ public class FingerprintProfileStatusPreferenceControllerTest {
         when(mFeatureFactory.securityFeatureProvider.getLockPatternUtils(mContext))
                 .thenReturn(mLockPatternUtils);
         when(mUm.getProfileIdsWithDisabled(anyInt())).thenReturn(new int[] {1234});
-        mController = new FingerprintProfileStatusPreferenceController(
-                mContext, TEST_PREF_KEY, FAKE_PROFILE_USER_ID);
+        mController = new FingerprintProfileStatusPreferenceController(mContext, TEST_PREF_KEY);
     }
 
     @Test
@@ -83,16 +82,14 @@ public class FingerprintProfileStatusPreferenceControllerTest {
 
     @Test
     public void getPreferenceKey_byDefault_returnsDefaultValue() {
-        mController = new FingerprintProfileStatusPreferenceController(
-                mContext, FAKE_PROFILE_USER_ID);
+        mController = new FingerprintProfileStatusPreferenceController(mContext);
 
         assertThat(mController.getPreferenceKey()).isEqualTo("fingerprint_settings_profile");
     }
 
     @Test
     public void getPreferenceKey_whenGivenValue_returnsGivenValue() {
-        mController = new FingerprintProfileStatusPreferenceController(
-                mContext, "key", FAKE_PROFILE_USER_ID);
+        mController = new FingerprintProfileStatusPreferenceController(mContext, "key");
 
         assertThat(mController.getPreferenceKey()).isEqualTo("key");
     }
