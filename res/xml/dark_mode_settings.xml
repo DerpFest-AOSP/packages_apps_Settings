@@ -69,6 +69,7 @@
     <org.derpfest.support.preferences.OverlaySwitchPreference
         android:key="com.android.system.theme.black"
         settings:dkey="android:neutral"
+        settings:dkeyNightOnly="true"
         android:title="@string/black_theme_title"
         android:summary="@string/black_theme_summary" />
 </PreferenceScreen>
