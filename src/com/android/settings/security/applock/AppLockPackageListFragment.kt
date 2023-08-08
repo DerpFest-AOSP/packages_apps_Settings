@@ -64,23 +64,29 @@ class AppLockPackageListFragment : DashboardFragment() {
         super.onCreatePreferences(savedInstanceState, rootKey)
         lifecycleScope.launch {
             val selectedPackages = getSelectedPackages()
+            val whiteListedPackagesSet = whiteListedPackages.toSet()
+            val launchablePackagesSet = launchablePackages.toSet()
+
             val preferences = withContext(Dispatchers.Default) {
                 pm.getInstalledPackages(
                     PackageInfoFlags.of(PackageManager.MATCH_ALL.toLong())
-                ).filter {
-                    !it.applicationInfo.isSystemApp() ||
-                        launchablePackages.contains(it.packageName) ||
-                        whiteListedPackages.contains(it.packageName)
-                }.sortedWith { first, second ->
-                    getLabel(first).compareTo(getLabel(second))
-                }
-            }.map { packageInfo ->
-                createPreference(packageInfo, selectedPackages.contains(packageInfo.packageName))
+                ).asSequence().filter { packageInfo ->
+                    val isSystemApp = packageInfo.applicationInfo.isSystemApp()
+                    val packageName = packageInfo.packageName
+                    val isLaunchable = launchablePackagesSet.contains(packageName)
+
+                    when {
+                        isLaunchable -> true
+                        isSystemApp && whiteListedPackagesSet.contains(packageName) -> true
+                        else -> false
+                    }
+                }.sortedBy { getLabel(it) }
+                .map { packageInfo ->
+                    createPreference(packageInfo, selectedPackages.contains(packageInfo.packageName))
+                }.toList()
             }
             preferenceScreen?.let {
-                preferences.forEach { pref ->
-                    it.addPreference(pref)
-                }
+                preferences.forEach(it::addPreference)
             }
         }
     }
