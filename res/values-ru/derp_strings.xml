@@ -158,7 +158,6 @@
     <string name="hardware_keys_action_nothing">Нет действия</string>
     <string name="hardware_keys_action_menu">Открыть/закрыть меню</string>
     <string name="hardware_keys_action_app_switch">Недавние приложения</string>
-    <string name="hardware_keys_action_search">Search assistant</string>
     <string name="hardware_keys_action_search">Поисковый помощник</string>
     <string name="hardware_keys_action_voice_search">Голосовой поиск</string>
     <string name="hardware_keys_action_launch_camera">Включить камеру</string>
@@ -744,7 +743,6 @@
 
     <!-- Alarm blocker -->
     <string name="alarm_blocker_title">Блокировщик будильника</string>
-    <string name="alarm_blocker_title">Включить</string>
     <string name="alarm_blocker_summary">Блокировать будильник при выключенном экране</string>
     <string name="alarm_blocker_save">Сохранить</string>
     <string name="alarm_list_header">Доступные будильники</string>
@@ -797,7 +795,7 @@
 
     <!-- Developer Options -->
     <string name="cleartext_network_policy_title">Ограничить сетевой трафик в чистом виде</string>
-    <string name="cleartext_network_policy_summary">Блокирует весь non-TLS сетевой трафик. Требуется личная настройка DNS. Примечание: без явных исключений Tor и большинство VPN не будут работать</string>>
+    <string name="cleartext_network_policy_summary">Блокирует весь non-TLS сетевой трафик. Требуется личная настройка DNS. Примечание: без явных исключений Tor и большинство VPN не будут работать</string>
 
     <!-- Title of preference to disallow installing apps [CHAR LIMIT=45] -->
     <string name="user_disallow_install_apps">Запретить установку приложений</string>
