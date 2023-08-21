@@ -77,6 +77,7 @@ public class BatteryHeaderPreferenceController extends BasePreferenceController
     }
 
     private CharSequence generateLabel(BatteryInfo info) {
+        String temperature = info.batteryTemp + "\u2103";
         if (Utils.containsIncompatibleChargers(mContext, TAG)) {
             return mContext.getString(
                     com.android.settingslib.R.string.battery_info_status_not_charging);
@@ -91,7 +92,7 @@ public class BatteryHeaderPreferenceController extends BasePreferenceController
         }
         if (info.remainingLabel == null
                 || info.batteryStatus == BatteryManager.BATTERY_STATUS_NOT_CHARGING) {
-            return info.statusLabel;
+            return info.statusLabel + " \u2022 " + temperature;
         }
         if (info.pluggedStatus == BatteryManager.BATTERY_PLUGGED_WIRELESS) {
             final CharSequence wirelessChargingLabel =
@@ -110,25 +111,25 @@ public class BatteryHeaderPreferenceController extends BasePreferenceController
                         ? mContext.getString(
                                 R.string.battery_state_and_duration,
                                 info.statusLabel,
-                                info.remainingLabel)
+                                info.remainingLabel, temperature)
                         : info.remainingLabel;
             }
             return mContext.getString(
-                    R.string.battery_state_and_duration, info.statusLabel, info.remainingLabel);
+                    R.string.battery_state_and_duration, info.statusLabel, info.remainingLabel, temperature);
         } else if (mPowerManager.isPowerSaveMode()) {
             // Power save mode is on
             final String powerSaverOn =
                     mContext.getString(R.string.battery_tip_early_heads_up_done_title);
             return mContext.getString(
-                    R.string.battery_state_and_duration, powerSaverOn, info.remainingLabel);
+                    R.string.battery_state_and_duration, powerSaverOn, info.remainingLabel, temperature);
         } else if (mBatteryTip != null && mBatteryTip.getType() == BatteryTip.TipType.LOW_BATTERY) {
             // Low battery state
             final String lowBattery = mContext.getString(R.string.low_battery_summary);
             return mContext.getString(
-                    R.string.battery_state_and_duration, lowBattery, info.remainingLabel);
+                    R.string.battery_state_and_duration, lowBattery, info.remainingLabel, temperature);
         } else {
             // Discharging state
-            return info.remainingLabel;
+            return info.remainingLabel + " \u2022 " + temperature;
         }
     }
 
