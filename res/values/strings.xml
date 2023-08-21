@@ -5175,7 +5175,7 @@
     <string name="power_charge_remaining"><xliff:g id="until_charged">%1$s</xliff:g> to charge</string>
 
     <!-- Description of battery state and remaining time (e.g. Charging rapidly • 1hr 23 min left until full)-->
-    <string name="battery_state_and_duration" translatable="false"><xliff:g id="state">%1$s</xliff:g> • <xliff:g id="time">%2$s</xliff:g></string>
+    <string name="battery_state_and_duration" translatable="false"><xliff:g id="state">%1$s</xliff:g> • <xliff:g id="time">%2$s</xliff:g> • <xliff:g id="temperature">%3$s</xliff:g></string>
     <!-- Summary for the low battery state [CHAR LIMIT=NONE] -->
     <string name="low_battery_summary">Low battery</string>
 
