@@ -796,6 +796,7 @@
 
     <!-- Incall options -->
     <string name="incall_category">Anrufoptionen</string>
+    <string name="flashlight_notifications_title">Benachrichtigungen mit der Taschenlampe</string>
     <string name="flashlight_on_call_title">Blinkende Taschenlampe für eingehende Anrufe</string>
     <string name="flashlight_on_call_disabled">Deaktiviert</string>
     <string name="flashlight_on_call_ringer">Beim Klingeln</string>
@@ -805,5 +806,7 @@
     <string name="flashlight_on_call_ignore_dnd_title">DND ignorieren</string>
     <string name="flashlight_on_call_ignore_dnd_summary">Ob im Nicht-Stören-Modus geblinkt werden soll</string>
     <string name="flashlight_on_call_rate_title">Blinkfrequenz</string>
-    <string name="flashlight_on_call_rate_summary">Blinkrate der Taschenlampe bei Anruf</string>
+
+    <!-- Units -->
+    <string name="unit_milliseconds">Millisekunden</string>
 </resources>

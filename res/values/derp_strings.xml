@@ -833,14 +833,19 @@
 
     <!-- Incall options -->
     <string name="incall_category">In-call options</string>
-    <string name="flashlight_on_call_title">Blink Flashlight for incoming call</string>
+    <string name="flashlight_notifications_title">Flash Alerts</string>
+    <string name="flashlight_on_call_title">Blink flashlight for incoming call</string>
     <string name="flashlight_on_call_disabled">Disabled</string>
     <string name="flashlight_on_call_ringer">When ringing</string>
     <string name="flashlight_on_call_no_ringer">When ringer is silent</string>
     <string name="flashlight_on_call_silent">When entirely silent (no ringer or vibrator)</string>
     <string name="flashlight_on_call_always">Always</string>
     <string name="flashlight_on_call_ignore_dnd_title">Ignore DND</string>
-    <string name="flashlight_on_call_ignore_dnd_summary">Whether to flash when in Do Not Disturb mode</string>
-    <string name="flashlight_on_call_rate_title">Rate</string>
-    <string name="flashlight_on_call_rate_summary">Flashlight on call blink rate</string>
+    <string name="flashlight_on_call_ignore_dnd_summary">Whether to flash when Do Not Disturb mode is active</string>
+    <string name="flashlight_on_call_rate_title">Blink rate</string>
+
+    <!-- Units -->
+    <string name="unit_milliseconds">milliseconds</string>
+    <string name="unit_pixels">dp</string>
+    <string name="unit_hz">hz</string>
 </resources>
