@@ -843,8 +843,8 @@
     <string name="android_beam_main_switch_title">Android Beam verwenden</string>
 
     <!-- Separate ring & notification toggle -->
-    <string name="volume_separate_notification_title">Separated Ring and Notification</string>
-    <string name="volume_separate_notification_summary">Allow controlling each stream individually</string>
+    <string name="volume_separate_notification_title">Getrennter Klingelton und Benachrichtigung</string>
+    <string name="volume_separate_notification_summary">Ermöglicht die individuelle Steuerung jedes Streams</string>
 
     <!-- LTE only [CHAR LIMIT=100] -->
     <string name="preferred_network_mode_lte_only_summary">Bevorzugter Netzmodus: nur LTE</string>
