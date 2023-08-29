@@ -944,6 +944,8 @@
     <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
     <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_bluetooth_ethernet">Bluetooth \u0026 Ethernet data</string>
+    <string name="data_usage_app_restrict_bluetooth_ethernet_summary">Enable usage of Bluetooth Internet and Ethernet data</string>
 
     <!-- Checkbox label that restricts network internet access of a specific application. [CHAR LIMIT=40] -->
     <string name="data_usage_app_restrict_background_all">Background network access</string>

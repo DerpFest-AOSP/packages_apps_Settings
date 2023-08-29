@@ -19,6 +19,7 @@ import static android.net.NetworkPolicyManager.POLICY_REJECT_ALL;
 import static android.net.NetworkPolicyManager.POLICY_REJECT_CELLULAR;
 import static android.net.NetworkPolicyManager.POLICY_REJECT_VPN;
 import static android.net.NetworkPolicyManager.POLICY_REJECT_WIFI;
+import static android.net.NetworkPolicyManager.POLICY_REJECT_BLUETOOTH_AND_ETHERNET;
 
 import android.Manifest;
 import android.app.Activity;
@@ -85,6 +86,7 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
     private static final String KEY_RESTRICT_CELLULAR = "restrict_cellular";
     private static final String KEY_RESTRICT_VPN = "restrict_vpn";
     private static final String KEY_RESTRICT_WIFI = "restrict_wifi";
+    private static final String KEY_RESTRICT_BLUETOOTH_AND_ETHERNET = "restrict_bluetooth_and_ethernet";
     private static final String KEY_APP_LIST = "app_list";
     private static final String KEY_CYCLE = "cycle";
     private static final String KEY_UNRESTRICTED_DATA = "unrestricted_data_saver";
@@ -103,6 +105,7 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
     private RestrictedSwitchPreference mRestrictCellular;
     private RestrictedSwitchPreference mRestrictVpn;
     private RestrictedSwitchPreference mRestrictWifi;
+    private RestrictedSwitchPreference mRestrictBluetoothAndEthernet;
     private PreferenceCategory mAppList;
 
     private Drawable mIcon;
@@ -191,6 +194,7 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
                 removePreference(KEY_RESTRICT_CELLULAR);
                 removePreference(KEY_RESTRICT_VPN);
                 removePreference(KEY_RESTRICT_WIFI);
+                removePreference(KEY_RESTRICT_BLUETOOTH_AND_ETHERNET);
             } else {
                 if (mPackages.size() != 0) {
                     try {
@@ -212,6 +216,8 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
                 mRestrictVpn.setOnPreferenceChangeListener(this);
                 mRestrictWifi = findPreference(KEY_RESTRICT_WIFI);
                 mRestrictWifi.setOnPreferenceChangeListener(this);
+                mRestrictBluetoothAndEthernet = findPreference(KEY_RESTRICT_BLUETOOTH_AND_ETHERNET);
+                mRestrictBluetoothAndEthernet.setOnPreferenceChangeListener(this);
                 mUnrestrictedData = findPreference(KEY_UNRESTRICTED_DATA);
                 mUnrestrictedData.setOnPreferenceChangeListener(this);
             }
@@ -256,6 +262,7 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
             removePreference(KEY_RESTRICT_CELLULAR);
             removePreference(KEY_RESTRICT_VPN);
             removePreference(KEY_RESTRICT_WIFI);
+            removePreference(KEY_RESTRICT_BLUETOOTH_AND_ETHERNET);
             removePreference(KEY_APP_LIST);
         }
 
@@ -313,6 +320,10 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
             setAppRestrictWifi(!(Boolean) newValue);
             updatePrefs();
             return true;
+        } else if (preference == mRestrictBluetoothAndEthernet) {
+            setAppRestrictBluetoothAndEthernet(!(Boolean) newValue);
+            updatePrefs();
+            return true;
         } else if (preference == mUnrestrictedData) {
             mDataSaverBackend.setIsAllowlisted(mAppItem.key, mPackageName, (Boolean) newValue);
             return true;
@@ -345,7 +356,7 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
     void updatePrefs() {
         updatePrefs(getAppRestrictBackground(), getUnrestrictData(), getAppRestrictAll(),
                 getAppRestrictCellular(), getAppRestrictVpn(), getAppRestrictWifi(),
-                hasInternetPermission());
+                getAppRestrictBluetoothAndEthernet(), hasInternetPermission());
     }
 
     @VisibleForTesting
@@ -383,7 +394,7 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
 
     private void updatePrefs(boolean restrictBackground, boolean unrestrictData,
             boolean restrictAll, boolean restrictCellular, boolean restrictVpn,
-            boolean restrictWifi, boolean hasInternetPermission) {
+            boolean restrictWifi, boolean restrictBluetoothAndEthernet, boolean hasInternetPermission) {
         if (!isSimHardwareVisible(mContext)) {
             return;
         }
@@ -398,9 +409,9 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
             mRestrictBackground.setDisabledByAdmin(admin);
             mRestrictBackground.setEnabled(hasInternetPermission &&
                     !mRestrictBackground.isDisabledByAdmin() && !restrictAll &&
-                    (!restrictCellular || !restrictVpn || !restrictWifi));
+                    (!restrictCellular || !restrictVpn || !restrictWifi || !restrictBluetoothAndEthernet));
             mRestrictBackground.setChecked(!restrictBackground && !restrictAll &&
-                    (!restrictCellular || !restrictVpn || !restrictWifi));
+                    (!restrictCellular || !restrictVpn || !restrictWifi || !restrictBluetoothAndEthernet));
         }
         if (mRestrictCellular != null) {
             mRestrictCellular.setEnabled(hasInternetPermission && !restrictAll);
@@ -413,6 +424,10 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
         if (mRestrictWifi != null) {
             mRestrictWifi.setEnabled(hasInternetPermission && !restrictAll);
             mRestrictWifi.setChecked(!restrictAll && !restrictWifi);
+        }
+        if (mRestrictBluetoothAndEthernet != null) {
+            mRestrictBluetoothAndEthernet.setEnabled(hasInternetPermission && !restrictAll);
+            mRestrictBluetoothAndEthernet.setChecked(!restrictAll && !restrictBluetoothAndEthernet);
         }
         if (mUnrestrictedData != null) {
             mUnrestrictedData.setDisabledByAdmin(admin);
@@ -472,6 +487,10 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
         return getAppRestriction(POLICY_REJECT_WIFI);
     }
 
+    private boolean getAppRestrictBluetoothAndEthernet() {
+        return getAppRestriction(POLICY_REJECT_BLUETOOTH_AND_ETHERNET);
+    }
+
     private boolean getAppRestrictAll() {
         return getAppRestriction(POLICY_REJECT_ALL);
     }
@@ -508,6 +527,10 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
 
     private void setAppRestrictWifi(boolean restrict) {
         setAppRestriction(POLICY_REJECT_WIFI, restrict);
+    }
+
+    private void setAppRestrictBluetoothAndEthernet(boolean restrict) {
+        setAppRestriction(POLICY_REJECT_BLUETOOTH_AND_ETHERNET, restrict);
     }
 
     private void setAppRestriction(int policy, boolean restrict) {
@@ -647,7 +670,7 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
         if (mAppItem.uids.get(uid, false)) {
             updatePrefs(getAppRestrictBackground(), isAllowlisted, getAppRestrictAll(),
                     getAppRestrictCellular(), getAppRestrictVpn(), getAppRestrictWifi(),
-                    hasInternetPermission());
+                    getAppRestrictBluetoothAndEthernet(), hasInternetPermission());
         }
     }
 
@@ -656,7 +679,7 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
         if (mAppItem.uids.get(uid, false)) {
             updatePrefs(isDenylisted, getUnrestrictData(), getAppRestrictAll(),
                     getAppRestrictCellular(), getAppRestrictVpn(), getAppRestrictWifi(),
-                    hasInternetPermission());
+                    getAppRestrictBluetoothAndEthernet(), hasInternetPermission());
         }
     }
 }

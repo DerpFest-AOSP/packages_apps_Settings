@@ -81,6 +81,11 @@
             android:summary="@string/data_usage_app_restrict_mobile_summary" />
 
         <com.android.settingslib.RestrictedSwitchPreference
+            android:key="restrict_bluetooth_and_ethernet"
+            android:title="@string/data_usage_app_restrict_bluetooth_ethernet"
+            android:summary="@string/data_usage_app_restrict_bluetooth_ethernet_summary" />
+
+        <com.android.settingslib.RestrictedSwitchPreference
             android:key="restrict_vpn"
             android:title="@string/data_usage_app_restrict_vpn"
             android:summary="@string/data_usage_app_restrict_vpn_summary" />
