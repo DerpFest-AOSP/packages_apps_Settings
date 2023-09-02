@@ -361,6 +361,7 @@
 
     <!-- Charging control settings -->
     <string name="charging_control_title">Ladekontrolle</string>
+    <string name="charging_control_summary">Anpassen von Ladeplan und -grenzen</string>
     <string name="charging_control_enable_title">Ladekontrolle aktivieren</string>
     <string name="charging_control_mode_title">Lademodus</string>
     <string name="charging_control_mode_auto_title">Automatischer Zeitplan</string>
