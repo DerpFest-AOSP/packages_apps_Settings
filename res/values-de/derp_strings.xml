@@ -873,4 +873,21 @@
     <string name="network_lte_only">nur LTE</string>
     <!-- Text for Network 4g only [CHAR LIMIT=NONE] -->
     <string name="network_4G_only">nur 4G</string>
+
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Netzwerkzugriff erlauben</string>
+    <string name="data_usage_app_restrict_all_summary">Netzwerknutzung aktivieren</string>
+    <string name="data_usage_app_restrict_mobile">Mobile Daten</string>
+    <string name="data_usage_app_restrict_mobile_summary">Nutzung mobiler Daten erlauben</string>
+    <string name="data_usage_app_restrict_vpn">VPN-Daten</string>
+    <string name="data_usage_app_restrict_vpn_summary">VPN-Datennutzung erlauben</string>
+    <string name="data_usage_app_restrict_wifi">WLAN-Daten</string>
+    <string name="data_usage_app_restrict_wifi_summary">WLAN-Datenzugriff erlauben</string>
+    <string name="data_usage_app_restrict_bluetooth_ethernet">Bluetooth \u0026 Ethernet data</string>
+    <string name="data_usage_app_restrict_bluetooth_ethernet_summary">Enable usage of Bluetooth Internet and Ethernet data</string>
+
+    <!-- Checkbox label that restricts network internet access of a specific application. [CHAR LIMIT=40] -->
+    <string name="data_usage_app_restrict_background_all">Netzwerkzugriff im Hintergrund</string>
+    <!-- Summary message for checkbox that restricts background network access of a specific application. [CHAR LIMIT=NONE] -->
+    <string name="data_usage_app_restrict_background_all_summary">Aktivieren der Netzwerknutzung im Hintergrund</string>
 </resources>
