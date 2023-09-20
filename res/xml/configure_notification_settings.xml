@@ -210,5 +210,12 @@
             android:summary="@string/heads_up_summary"
             android:defaultValue="true" />
 
+        <!-- Edge Light -->
+        <org.derpfest.support.preferences.SelfRemovingPreference
+            android:key="ambient_edge_light"
+            android:title="@string/ambient_edge_light_title"
+            android:summary="@string/ambient_edge_light_summary"
+            android:fragment="com.android.settings.derpfest.edgelight.AmbientEdgeLightSettings"
+            settings:requiresConfig="@bool/config_show_ambient_edge_light" />
     </PreferenceCategory>
 </PreferenceScreen>
