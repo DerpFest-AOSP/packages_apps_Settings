@@ -80,8 +80,12 @@ public class PreferredRefreshRatePreferenceController extends BasePreferenceCont
 
     @Override
     public void updateState(Preference preference) {
-        final float defaultRefreshRate = (float) mContext.getResources().getInteger(
-                        com.android.internal.R.integer.config_defaultRefreshRate);
+        float defaultRefreshRate = (float) mContext.getResources().getInteger(
+                com.android.internal.R.integer.config_defaultRefreshRate);
+        if (defaultRefreshRate == 0f) {
+            defaultRefreshRate = (float) mContext.getResources().getInteger(
+                    com.android.internal.R.integer.config_defaultPeakRefreshRate);
+        }
         final float currentValue = Settings.System.getFloat(mContext.getContentResolver(),
                 PREFERRED_REFRESH_RATE, defaultRefreshRate);
         int index = mListPreference.findIndexOfValue(
