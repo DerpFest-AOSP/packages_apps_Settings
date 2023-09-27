@@ -38,4 +38,7 @@
 
     <!-- Does the device support color inversion -->
     <bool name="config_displayInversionAvailable">true</bool>
+
+    <!-- Whether to show Assisted GPS switch in Locations settings -->
+    <bool name="config_show_assisted_gps_switch">true</bool>
 </resources>

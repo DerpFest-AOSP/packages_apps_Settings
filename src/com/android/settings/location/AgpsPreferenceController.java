@@ -24,6 +24,8 @@ import androidx.preference.SwitchPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
+import com.android.settings.R;
+
 public class AgpsPreferenceController extends LocationBasePreferenceController {
     private static final String KEY_ASSISTED_GPS = "assisted_gps";
 
@@ -40,7 +42,9 @@ public class AgpsPreferenceController extends LocationBasePreferenceController {
 
     @AvailabilityStatus
     public int getAvailabilityStatus() {
-        return AVAILABLE;
+        boolean showAgps = mContext.getResources()
+                .getBoolean(R.bool.config_show_assisted_gps_switch);
+        return (showAgps ? AVAILABLE : UNSUPPORTED_ON_DEVICE);
     }
 
     @Override
