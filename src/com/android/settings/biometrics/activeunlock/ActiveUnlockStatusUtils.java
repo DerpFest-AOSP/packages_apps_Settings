@@ -181,7 +181,8 @@ public class ActiveUnlockStatusUtils {
             return R.string.security_settings_fingerprint_preference_title;
         } else {
             // Default to original summary, but this case should never happen.
-            return R.string.security_settings_biometric_preference_title;
+            // ...except it will, since we allow combined biometrics settings without both!
+            return R.string.security_settings_biometric_preference_title_custom;
         }
     }
 
