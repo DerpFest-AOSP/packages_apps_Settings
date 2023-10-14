@@ -370,7 +370,8 @@ public abstract class BiometricsSettingsBase extends DashboardFragment {
         final ChooseLockSettingsHelper.Builder builder =
                 new ChooseLockSettingsHelper.Builder(getActivity(), this)
                         .setRequestCode(CONFIRM_REQUEST)
-                        .setTitle(getString(R.string.security_settings_biometric_preference_title))
+                        .setTitle(getString(
+                                R.string.security_settings_biometric_preference_title_custom))
                         .setRequestGatekeeperPasswordHandle(true)
                         .setForegroundOnly(true)
                         .setReturnCredentials(true);
