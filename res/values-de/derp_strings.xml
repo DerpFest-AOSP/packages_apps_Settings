@@ -368,4 +368,10 @@
     <string name="led_notification_title">LED-Einstellungen</string>
     <string name="led_notification_text">Benachrichtigungs-LED durch Einstellungen aktiviert</string>
     <string name="notification_light_add_apps_empty_summary">Um App-spezifische Einstellungen hinzuzufügen, „%1$s“ aktivieren und „Hinzufügen“ antippen</string>
+
+    <!-- Biometric settings -->
+    <!-- Title shown for menu item that launches biometric settings. [CHAR LIMIT=66] -->
+    <string name="security_settings_biometric_preference_title_custom">Entsperrung per Fingerabdruck</string>
+    <!-- Title shown for work menu item that launches biometric settings. [CHAR LIMIT=66] -->
+    <string name="security_settings_work_biometric_preference_title_custom">Fingerabdruckentsperrung für die Arbeit</string>
 </resources>
