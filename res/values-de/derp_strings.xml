@@ -418,4 +418,9 @@
     <!-- Black theme for dark mode -->
     <string name="berry_black_theme_title">Reines Schwarz</string>
     <string name="berry_black_theme_summary">Rein schwarzer Hintergrund für dunkles Design</string>
+
+    <!-- Heads up -->
+    <string name="heads_up_title">Pop-up</string>
+    <string name="heads_up_summary">Wichtige Benachrichtigungen in einem kleinen, schwebenden Fenster anzeigen</string>
+    <string name="heads_up_off">Pop-ups sind global deaktiviert</string>
 </resources>
