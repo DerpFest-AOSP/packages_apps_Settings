@@ -432,4 +432,9 @@
     <!-- Black theme for dark mode -->
     <string name="berry_black_theme_title">Pure black</string>
     <string name="berry_black_theme_summary">Pure black background for dark theme</string>
+
+    <!-- Heads up -->
+    <string name="heads_up_title">Heads-up</string>
+    <string name="heads_up_summary">Display priority notifications in a small floating window</string>
+    <string name="heads_up_off">Heads-up is disabled globally</string>
 </resources>
