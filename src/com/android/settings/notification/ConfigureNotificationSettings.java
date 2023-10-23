@@ -23,15 +23,23 @@ import android.app.Activity;
 import android.app.Application;
 import android.app.settings.SettingsEnums;
 import android.content.ComponentName;
+import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
+import android.database.ContentObserver;
 import android.os.Bundle;
+import android.os.Looper;
+import android.os.Handler;
 import android.os.UserHandle;
+import android.provider.Settings;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.fragment.app.Fragment;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.SwitchPreferenceCompat;
 
 import com.android.settings.R;
 import com.android.settings.RingtonePreference;
@@ -46,7 +54,7 @@ import java.util.List;
 
 @SearchIndexable
 public class ConfigureNotificationSettings extends DashboardFragment implements
-        OnActivityResultListener {
+        OnActivityResultListener, OnPreferenceChangeListener {
     private static final String TAG = "ConfigNotiSettings";
 
     @VisibleForTesting
@@ -57,10 +65,16 @@ public class ConfigureNotificationSettings extends DashboardFragment implements
     private static final int REQUEST_CODE = 200;
     private static final String SELECTED_PREFERENCE_KEY = "selected_preference";
     private static final String KEY_ADVANCED_CATEGORY = "configure_notifications_advanced";
+    private static final String KEY_HEADS_UP = "heads_up_notifications_enabled";
 
     private RingtonePreference mRequestPreference;
 
     private NotificationAssistantPreferenceController mNotificationAssistantPreferenceController;
+
+    private SwitchPreferenceCompat mHeadsUp;
+
+    private final HeadsUpObserver mHeadsUpObserver = new HeadsUpObserver();
+    private boolean mHeadsUpSelfChange = false;
 
     @Override
     public int getMetricsCategory() {
@@ -81,6 +95,21 @@ public class ConfigureNotificationSettings extends DashboardFragment implements
         replaceEnterpriseStringSummary("lock_screen_work_redact",
                 WORK_PROFILE_LOCK_SCREEN_REDACT_NOTIFICATION_SUMMARY,
                 R.string.lock_screen_notifs_redact_work_summary);
+
+        PreferenceScreen prefScreen = getPreferenceScreen();
+        final ContentResolver resolver = getActivity().getContentResolver();
+
+        mHeadsUp = (SwitchPreferenceCompat) findPreference(KEY_HEADS_UP);
+        boolean enabled = Settings.Global.getInt(resolver, KEY_HEADS_UP, 1) == 1;
+        mHeadsUp.setChecked(enabled);
+        mHeadsUp.setOnPreferenceChangeListener(this);
+        mHeadsUpObserver.observe();
+    }
+
+    @Override
+    public void onDestroy() {
+        mHeadsUpObserver.stop();
+        super.onDestroy();
     }
 
     @Override
@@ -156,6 +185,46 @@ public class ConfigureNotificationSettings extends DashboardFragment implements
         super.onSaveInstanceState(outState);
         if (mRequestPreference != null) {
             outState.putString(SELECTED_PREFERENCE_KEY, mRequestPreference.getKey());
+        }
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mHeadsUp) {
+            boolean enabled = (Boolean) newValue;
+            mHeadsUpSelfChange = true;
+            Settings.Global.putInt(resolver, KEY_HEADS_UP, enabled ? 1 : 0);
+            return true;
+        }
+        return false;
+    }
+
+    private class HeadsUpObserver extends ContentObserver {
+        HeadsUpObserver() {
+            super(new Handler(Looper.getMainLooper()));
+        }
+
+        void observe() {
+            getActivity().getContentResolver().registerContentObserver(
+                    Settings.Global.getUriFor(KEY_HEADS_UP),
+                    false, this, UserHandle.USER_ALL);
+        }
+
+        void stop() {
+            getActivity().getContentResolver().unregisterContentObserver(this);
+        }
+
+        @Override
+        public void onChange(boolean selfChange) {
+            if (mHeadsUp == null || selfChange) return; 
+            if (mHeadsUpSelfChange) {
+                mHeadsUpSelfChange = false;
+                return;
+            }
+            final boolean enabled = Settings.Global.getInt(
+                    getActivity().getContentResolver(), KEY_HEADS_UP, 1) == 1;
+            mHeadsUp.setChecked(enabled);
         }
     }
 
