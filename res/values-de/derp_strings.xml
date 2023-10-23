@@ -33,4 +33,9 @@
     <string name="hide_navbar_gesture_bar_summary">Blendet die Gestenleiste am unteren Bildschirmrand aus</string>
     <string name="keyboard_no_navigation_title">IME-Schaltflächenbereich ausblenden</string>
     <string name="keyboard_no_navigation_summary">IME-Schaltflächenbereich unter der Tastatur ausblenden</string>
+
+    <!-- Heads up -->
+    <string name="heads_up_title">Pop-up</string>
+    <string name="heads_up_summary">Wichtige Benachrichtigungen in einem kleinen, schwebenden Fenster anzeigen</string>
+    <string name="heads_up_off">Pop-ups sind global deaktiviert</string>
 </resources>
