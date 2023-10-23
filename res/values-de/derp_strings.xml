@@ -262,4 +262,9 @@
     <string name="led_notification_title">LED-Einstellungen</string>
     <string name="led_notification_text">Benachrichtigungs-LED durch Einstellungen aktiviert</string>
     <string name="notification_light_add_apps_empty_summary">Um App-spezifische Einstellungen hinzuzufügen, „%1$s“ aktivieren und „Hinzufügen“ antippen</string>
+
+    <!-- Heads up -->
+    <string name="heads_up_title">Pop-up</string>
+    <string name="heads_up_summary">Wichtige Benachrichtigungen in einem kleinen, schwebenden Fenster anzeigen</string>
+    <string name="heads_up_off">Pop-ups sind global deaktiviert</string>
 </resources>

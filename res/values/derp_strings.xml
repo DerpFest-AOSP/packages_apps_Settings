@@ -276,4 +276,9 @@
     <string name="led_notification_title">Light settings</string>
     <string name="led_notification_text">LED light enabled by settings</string>
     <string name="notification_light_add_apps_empty_summary">To add per app control, activate \'%1$s\' and press \'Add\'</string>
+
+    <!-- Heads up -->
+    <string name="heads_up_title">Heads-up</string>
+    <string name="heads_up_summary">Display priority notifications in a small floating window</string>
+    <string name="heads_up_off">Heads-up is disabled globally</string>
 </resources>
