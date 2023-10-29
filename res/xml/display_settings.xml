@@ -82,9 +82,16 @@
             android:title="@string/accessibility_text_reading_options_title"
             settings:controller="com.android.settings.accessibility.TextReadingFragmentForDisplaySettingsController"/>
 
+        <Preference 
+	        android:title="@string/system_navigation_title" 
+	        android:key="gesture_system_navigation_input_summary" 
+	        android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings" 
+	        settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController"/>
+
         <com.android.settings.display.DensityPreference
             android:key="density"
             android:title="@string/developer_smallest_width" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
