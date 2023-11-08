@@ -129,6 +129,7 @@ android_library {
         "kotlinx_coroutines_android",
         "kotlinx_coroutines",
         "SystemUISharedLib",
+        "SettingsGoogle-lib",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
