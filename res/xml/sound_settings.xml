@@ -234,6 +234,14 @@
         android:ringtoneType="alarm"
         android:order="-60"/>
 
+    <Preference
+        android:key="clear_calling"
+        android:title="@string/clear_calling_title"
+        android:summary="@string/clear_calling_topintro"
+        android:fragment="com.google.android.settings.notification.ClearCallingSettings"
+        settings:controller="com.google.android.settings.notification.ClearCallingPreferenceController"
+        android:order="-55"/>
+
     <!-- Other sounds -->
     <PreferenceCategory
           android:key="other_sounds_category"
