@@ -833,4 +833,10 @@
     <string name="visualizer_center_mirrored_summary">Den mittig gespiegelten Modus aktivieren</string>
     <string name="pulse_vertical_mirror_title">Vertikal gespiegelt</string>
     <string name="pulse_vertical_mirror_summary">Erzeugt einen weiteren Pulse, der vertikal gedreht ist</string>
+
+    <!-- Island Notification -->
+    <string name="island_notification_title">Island-Benachrichtigungen</string>
+    <string name="island_notification_summary">Pop-up-Benachrichtigungen im „Dynamic Island“-Stil anzeigen</string>
+    <string name="island_notification_footer_text">Mit der von iOS’ Dynamic Island inspirierten Funktion der Island-Benachrichtigungen werden Androids Pop-up-Benachrichtigungen zu einem Schnellzugriff und einem kompakten Benachrichtigungstool umgestaltet.\n\nDie Schnellaktionen der Island haben u. a. die folgenden Funktionen:\n1. Tippen auf die Island-Benachrichtigung: Anruf entgegennehmen.\n2. Gedrückthalten der Island-Benachrichtigung: Anruf abweisen.\n3. Gedrückthalten der Island-Benachrichtigung: Aufklappen der Island-Benachrichtigungs-Vorschau.
+    </string>
 </resources>
