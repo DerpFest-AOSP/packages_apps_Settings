@@ -94,12 +94,20 @@
         android:fragment="com.android.settings.datetime.DateTimeSettings"
         settings:controller="com.android.settings.datetime.DateTimePreferenceController"/>
 
+    <com.google.android.settings.aware.AwareSettingsDialogPreference
+        android:icon="@drawable/ic_aware"
+        android:key="aware_settings"
+        android:order="-230"
+        android:title="@string/aware_settings_title"
+        settings:controller="com.google.android.settings.aware.AwareSettingsPreferenceController"
+        settings:searchable="false" />
+
     <Preference
         android:key="update_settings"
         android:title="@string/update_settings_title"
         android:summary="@string/update_settings_summary"
         android:icon="@drawable/ic_system_update"
-        android:order="-230">
+        android:order="-220">
         <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="@string/update_package"
                 android:targetClass="@string/update_activity" />
