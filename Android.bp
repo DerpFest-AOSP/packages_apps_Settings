@@ -75,6 +75,7 @@ android_library {
 
         // Android internal dependencies
         "BiometricsSharedLib",
+        "SystemUISharedLib",
         "SystemUIUnfoldLib",
         "WifiTrackerLib",
         "android.hardware.dumpstate-V1-java",

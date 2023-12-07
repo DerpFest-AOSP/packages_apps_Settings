@@ -35,7 +35,7 @@ import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
@@ -117,11 +117,11 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements
 
     private ListPreference mLiveDisplay;
 
-    private SwitchPreference mAntiFlicker;
-    private SwitchPreference mColorEnhancement;
-    private SwitchPreference mLowPower;
-    private SwitchPreference mOutdoorMode;
-    private SwitchPreference mReadingMode;
+    private SwitchPreferenceCompat mAntiFlicker;
+    private SwitchPreferenceCompat mColorEnhancement;
+    private SwitchPreferenceCompat mLowPower;
+    private SwitchPreferenceCompat mOutdoorMode;
+    private SwitchPreferenceCompat mReadingMode;
 
     private PictureAdjustment mPictureAdjustment;
     private DisplayTemperature mDisplayTemperature;
