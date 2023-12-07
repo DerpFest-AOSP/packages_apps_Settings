@@ -471,7 +471,7 @@ public class FingerprintSettings extends SubSettings {
                 column2.mTitle = getText(
                         R.string.security_fingerprint_disclaimer_lockscreen_disabled_2
                 );
-                if (isSfps()) {
+                if (isSfps() && mFingerprintWakeAndUnlock) {
                     column2.mLearnMoreOverrideText = getText(
                             R.string.security_settings_fingerprint_settings_footer_learn_more);
                 }
