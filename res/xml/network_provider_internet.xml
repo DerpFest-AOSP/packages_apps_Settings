@@ -64,6 +64,15 @@
         settings:controller="com.android.settings.network.AirplaneModePreferenceController"
         settings:userRestriction="no_airplane_mode"/>
 
+    <org.derpfest.support.preferences.GlobalSettingSwitchPreference
+        android:key="apm_enhancement_enabled"
+        android:title="@string/apm_enhancement_title"
+        android:summaryOn="@string/apm_enhancement_summary_on"
+        android:summaryOff="@string/apm_enhancement_summary_off"
+        android:icon="@drawable/ic_airplanemode_active"
+        android:order="0"
+        android:defaultValue="true" />
+
     <com.android.settingslib.RestrictedPreference
         android:fragment="com.android.settings.network.tether.TetherSettings"
         android:key="tether_settings"

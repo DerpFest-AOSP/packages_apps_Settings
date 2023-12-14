@@ -816,4 +816,9 @@
     <string name="always_on_display_schedule_sunrise">Sonnenaufgang</string>
     <string name="always_on_display_schedule_mixed_sunset">Schaltet sich von Sonnenuntergang bis zu einer bestimmten Uhrzeit ein</string>
     <string name="always_on_display_schedule_mixed_sunrise">Schaltet sich ab einer bestimmten Uhrzeit bis zum Sonnenaufgang ein</string>
+
+    <!-- APM Enhancement -->
+    <string name="apm_enhancement_title">Verbesserung des Flugmodus (APM)</string>
+    <string name="apm_enhancement_summary_on">Den Bluetooth- und WLAN-Status erhalten</string>
+    <string name="apm_enhancement_summary_off">Den Bluetooth- und WLAN-Status ignorieren</string>
 </resources>

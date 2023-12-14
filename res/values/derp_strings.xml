@@ -856,4 +856,9 @@
     <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
     <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
     <string name="disabled">Disabled</string>
+
+    <!-- APM Enhancement -->
+    <string name="apm_enhancement_title">Airplane mode enhancement</string>
+    <string name="apm_enhancement_summary_on">Remember Bluetooth and WiFi state</string>
+    <string name="apm_enhancement_summary_off">Ignore Bluetooth and WiFi state</string>
 </resources>
