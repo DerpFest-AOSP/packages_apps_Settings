@@ -860,4 +860,9 @@
     <string name="alarm_blocker_reload">Reload</string>
     <string name="alarm_blocker_warning_title">Proceed with caution</string>
     <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
+
+    <!-- APM Enhancement -->
+    <string name="apm_enhancement_title">Airplane mode enhancement</string>
+    <string name="apm_enhancement_summary_on">Remember Bluetooth and WiFi state</string>
+    <string name="apm_enhancement_summary_off">Ignore Bluetooth and WiFi state</string>
 </resources>

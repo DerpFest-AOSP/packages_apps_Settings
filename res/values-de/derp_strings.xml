@@ -827,4 +827,9 @@
     <string name="alarm_blocker_reload">Aktualisieren</string>
     <string name="alarm_blocker_warning_title">Fortfahren auf eigene Gefahr</string>
     <string name="alarm_blocker_warning">Das Blockieren von Alarmen kann Instabilität, Abstürze und Datenverlust verursachen.</string>
+
+    <!-- APM Enhancement -->
+    <string name="apm_enhancement_title">Verbesserung des Flugmodus (APM)</string>
+    <string name="apm_enhancement_summary_on">Den Bluetooth- und WLAN-Status erhalten</string>
+    <string name="apm_enhancement_summary_off">Den Bluetooth- und WLAN-Status ignorieren</string>
 </resources>
