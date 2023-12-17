@@ -269,7 +269,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
         }
     }
 
-    static void migrateOverlaySensitivityToSettings(Context context,
+    void migrateOverlaySensitivityToSettings(Context context,
             IOverlayManager overlayManager) {
         if (!SystemNavigationPreferenceController.isGestureNavigationEnabled(context)) {
             return;
@@ -302,17 +302,21 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
     }
 
     @VisibleForTesting
-    static void setCurrentSystemNavigationMode(IOverlayManager overlayManager, String key) {
+    void setCurrentSystemNavigationMode(IOverlayManager overlayManager, String key) {
         String overlayPackage = NAV_BAR_MODE_GESTURAL_OVERLAY;
         switch (key) {
             case KEY_SYSTEM_NAV_GESTURAL:
                 overlayPackage = NAV_BAR_MODE_GESTURAL_OVERLAY;
                 break;
             case KEY_SYSTEM_NAV_2BUTTONS:
+                disableTaskbar();
                 overlayPackage = NAV_BAR_MODE_2BUTTON_OVERLAY;
                 break;
             case KEY_SYSTEM_NAV_3BUTTONS:
                 overlayPackage = NAV_BAR_MODE_3BUTTON_OVERLAY;
+                if (shouldDisableTaskbar()) {
+                    disableTaskbar();
+                }
                 break;
         }
 
@@ -371,6 +375,15 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
         return Settings.Secure.getInt(getContext().getContentResolver(),
                 Settings.Secure.ACCESSIBILITY_BUTTON_MODE, /* def= */ -1)
                 == ACCESSIBILITY_BUTTON_MODE_FLOATING_MENU;
+    }
+
+    private boolean disableTaskbar() {
+        return Settings.System.putInt(getContext().getContentResolver(),
+                Settings.System.ENABLE_TASKBAR, 0);
+    }
+
+    private boolean shouldDisableTaskbar() {
+        return !isLargeScreen(getContext());
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
