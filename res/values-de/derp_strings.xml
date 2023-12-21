@@ -340,4 +340,8 @@
 
     <!-- Summary for the private space setup education screen. [CHAR LIMIT=NONE] -->
     <string name="private_space_hide_apps_summary_calyx">Verstecke oder sperre private Apps in einem separaten Bereich.</string>
+
+    <!-- Enforce DNS for VPN -->
+    <string name="vpn_enforce_dns_title">Deaktivieren für VPN</string>
+    <string name="vpn_enforce_dns_summary">Den privaten DNS deaktivieren, wenn mit einem VPN verbunden. Er wird beim Trennen der Verbindung wiederhergestellt.</string>
 </resources>
