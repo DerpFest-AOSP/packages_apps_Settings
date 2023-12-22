@@ -233,4 +233,9 @@
 
     <!-- Other sounds and vibrations preference category: Title for the Other sounds and vibrations preference categories. [CHAR LIMIT=none] -->
     <string name="other_sound_category_preference_title">Other sounds and vibrations</string>
+
+    <!-- Misc Haptics -->
+    <string name="misc_vibration_category_title">Additional vibration options</string>
+    <string name="touch_haptic_title">Misc settings for haptic feedback</string>
+    <string name="touch_haptic_summary">Customize haptic feedback for system widgets</string>
 </resources>
