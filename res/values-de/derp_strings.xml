@@ -213,4 +213,7 @@
 
     <!-- Other sounds and vibrations preference category: Title for the Other sounds and vibrations preference categories. [CHAR LIMIT=none] -->
     <string name="other_sound_category_preference_title">Andere Töne und Vibrationen</string>
+
+    <!-- Misc Haptics -->
+    <string name="misc_vibration_category_title">Weitere Einstellungen</string>
 </resources>
