@@ -697,4 +697,7 @@
     <!-- Charging vibration -->
     <string name="charging_sounds_custom_title">Ton beim Laden</string>
     <string name="charging_vibro_title">Vibration beim Laden</string>
+
+    <!-- Misc Haptics -->
+    <string name="misc_vibration_category_title">Weitere Einstellungen</string>
 </resources>

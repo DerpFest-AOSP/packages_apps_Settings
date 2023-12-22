@@ -760,4 +760,7 @@
     <!-- Charging vibration -->
     <string name="charging_sounds_custom_title">Charging sound</string>
     <string name="charging_vibro_title">Charging vibration</string>
+
+    <!-- Misc Haptics -->
+    <string name="misc_vibration_category_title">Additional vibration options</string>
 </resources>
