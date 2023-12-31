@@ -50,6 +50,7 @@ android_library {
         "SettingsLib-search-defaults",
         "SettingsLintDefaults",
         "SpaPrivilegedLib-defaults",
+        "DerpFestSettings-defaults",
     ],
 
     srcs: [
