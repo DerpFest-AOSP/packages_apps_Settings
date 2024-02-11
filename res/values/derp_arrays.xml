@@ -501,24 +501,6 @@
         <item>15</item>
     </string-array>
 
-    <string-array name="long_back_swipe_timeout_entries">
-       <item>250 ms</item>
-       <item>300 ms</item>
-       <item>500 ms</item>
-       <item>1000 ms</item>
-       <item>1500 ms</item>
-       <item>2000 ms</item>
-    </string-array>
-
-    <string-array name="long_back_swipe_timeout_values" translatable="false">
-       <item>250</item>
-       <item>300</item>
-       <item>500</item>
-       <item>1000</item>
-       <item>1500</item>
-       <item>2000</item>
-    </string-array>
-
     <!-- Font size -->
     <string-array name="entries_font_size_percent">
         <item>80%</item>
