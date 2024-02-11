@@ -909,7 +909,6 @@
     <!-- Long back swipe options -->
     <string name="navbar_gesture_tweaks_pref_title">Benutzerdefinierte Gesten</string>
     <string name="navbar_gesture_tweaks_pref_summary">Gesten anpassen und benutzerdefinierte Aktionen festlegen</string>
-    <string name="long_back_swipe_timeout_title">Timeout für lange Wischgeste</string>
     <string name="left_swipe_actions_title">Lange Wischgeste von links</string>
     <string name="left_swipe_app_action_title">App wählen für lange Wischgeste von links</string>
     <string name="right_swipe_actions_title">Lange Wischgeste von rechts</string>
