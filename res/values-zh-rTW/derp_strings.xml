@@ -58,10 +58,10 @@
     <string name="trust_restrict_usb_disabled">總是允許 USB 連接</string>
 
     <!-- Max refresh rate -->
-    <string name="max_refresh_rate_title">最高重新整理頻率</string>
+    <string name="max_refresh_rate_title">最高更新率</string>
 
     <!-- Min refresh rate -->
-    <string name="min_refresh_rate_title">最低重新整理頻率</string>
+    <string name="min_refresh_rate_title">最低更新率</string>
 
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
@@ -276,8 +276,8 @@
     <!-- LiveDisplay -->
     <string name="advanced">進階</string>
     <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
-    <string name="live_display_color_temperature_title">Color temperature</string>
+    <string name="live_display_mode">顯示模式</string>
+    <string name="live_display_color_temperature_title">色溫</string>
     <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
     <string name="live_display_day">Day</string>
@@ -313,13 +313,13 @@
     <string name="live_display_color_profile_srgb_summary">Colors accurate to the sRGB color space</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
     <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
-    <string name="live_display_reading_mode_title">Reading mode</string>
-    <string name="live_display_reading_mode_summary">Grayscale mode for long-term reading</string>
-    <string name="color_calibration_title">Color calibration</string>
-    <string name="color_calibration_summary">Calibrate on-screen colors</string>
-    <string name="color_red_title">Red</string>
-    <string name="color_green_title">Green</string>
-    <string name="color_blue_title">Blue</string>
+    <string name="live_display_reading_mode_title">閱讀模式</string>
+    <string name="live_display_reading_mode_summary">適合長時間閱讀的灰階模式</string>
+    <string name="color_calibration_title">色彩校準</string>
+    <string name="color_calibration_summary">校準螢幕顏色</string>
+    <string name="color_red_title">紅</string>
+    <string name="color_green_title">綠</string>
+    <string name="color_blue_title">藍</string>
 
     <!-- LiveDisplay : Picture Adjustment -->
     <string name="picture_adjustment_title">Picture adjustment</string>
@@ -361,10 +361,10 @@
     <string name="light_brightness_zen">Do Not Disturb</string>
 
     <!-- Charging control settings -->
-    <string name="charging_control_title">Charging control</string>
+    <string name="charging_control_title">充電控制</string>
     <string name="charging_control_summary">Customize charging schedule and limits for your device</string>
     <string name="charging_control_enable_title">Enable charging control</string>
-    <string name="charging_control_mode_title">Charging mode</string>
+    <string name="charging_control_mode_title">充電模式</string>
     <string name="charging_control_mode_auto_title">Automatic schedule</string>
     <string name="charging_control_mode_auto_summary">Automatically determine when to start charging based on alarms set</string>
     <string name="charging_control_mode_custom_title">Custom schedule</string>
@@ -423,10 +423,10 @@
     <string name="screen_time_summary_usage_today">%1$s today</string>
 
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">顯示通知歷史記錄</string>
 
     <!-- Summary for the top level wallpapers settings [CHAR LIMIT=NONE]-->
-    <string name="wallpaper_dashboard_custom_summary">Colors, themed icons, app grid</string>
+    <string name="wallpaper_dashboard_custom_summary">顏色、主題圖示、應用程式網格佈局</string>
 
     <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title" product="default">Long press on fingerprint sensor to unlock phone</string>
@@ -452,11 +452,11 @@
     <string name="power_menu_panic_summary">Activates an emergency panic trigger</string>
 
     <!-- USB configuration -->
-    <string name="usb_default_config_title">USB configuration</string>
+    <string name="usb_default_config_title">USB 設定</string>
     <string name="usb_default_config_summary">Choose the default behavior when connected to a device via USB</string>
 
     <!-- Text shown for the title of the restart systemui option -->
-    <string name="power_menu_restart_systemui_title">Restart SystemUI</string>
+    <string name="power_menu_restart_systemui_title">重新啟動 SystemUI</string>
 
     <!-- Less boring heads up -->
     <string name="less_boring_heads_up_title">Less boring</string>
@@ -473,23 +473,23 @@
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
 
     <!-- Timeout entries -->
-    <string name="timeout_summary_never">Never</string>
-    <string name="timeout_summary_15secs">15 seconds</string>
-    <string name="timeout_summary_30secs">30 seconds</string>
-    <string name="timeout_summary_1min">1 minute</string>
-    <string name="timeout_summary_2mins">2 minutes</string>
-    <string name="timeout_summary_5mins">5 minutes</string>
-    <string name="timeout_summary_10mins">10 minutes</string>
-    <string name="timeout_summary_30mins">30 minutes</string>
-    <string name="timeout_summary_1hour">1 hour</string>
-    <string name="timeout_summary_2hours">2 hours</string>
-    <string name="timeout_summary_4hours">4 hours</string>
-    <string name="timeout_summary_8hours">8 hours</string>
-    <string name="timeout_summary_12hours">12 hours</string>
-    <string name="timeout_summary_24hours">24 hours</string>
-    <string name="timeout_summary_36hours">36 hours</string>
-    <string name="timeout_summary_48hours">48 hours</string>
-    <string name="timeout_summary_72hours">72 hours</string>
+    <string name="timeout_summary_never">從不</string>
+    <string name="timeout_summary_15secs">15 秒</string>
+    <string name="timeout_summary_30secs">30 秒</string>
+    <string name="timeout_summary_1min">1 分鐘</string>
+    <string name="timeout_summary_2mins">2 分鐘</string>
+    <string name="timeout_summary_5mins">5 分鐘</string>
+    <string name="timeout_summary_10mins">10 分鐘</string>
+    <string name="timeout_summary_30mins">30 分鐘</string>
+    <string name="timeout_summary_1hour">1 小時</string>
+    <string name="timeout_summary_2hours">2 小時</string>
+    <string name="timeout_summary_4hours">4 小時</string>
+    <string name="timeout_summary_8hours">8 小時</string>
+    <string name="timeout_summary_12hours">12 小時</string>
+    <string name="timeout_summary_24hours">24 小時</string>
+    <string name="timeout_summary_36hours">36 小時</string>
+    <string name="timeout_summary_48hours">48 小時</string>
+    <string name="timeout_summary_72hours">72 小時</string>
 
     <!-- Network preferences screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
@@ -499,7 +499,7 @@
     <string name="wifi_timeout_summary2">Disabled</string>
 
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
-    <string name="bluetooth_timeout">Bluetooth timeout</string>
+    <string name="bluetooth_timeout">藍牙逾時</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
     <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
@@ -587,13 +587,13 @@
     <string name="hide_from_launcher_summary">
         Prevent this application from showing up in launcher. Requires a launcher restart for changes to take effect.
     </string>
-    <string name="app_lock_timeout_5sec">5 seconds</string>
-    <string name="app_lock_timeout_10sec">10 seconds</string>
-    <string name="app_lock_timeout_30sec">30 seconds</string>
-    <string name="app_lock_timeout_1min">1 minute</string>
-    <string name="app_lock_timeout_5min">5 minutes</string>
-    <string name="app_lock_timeout_10min">10 minutes</string>
-    <string name="app_lock_timeout_30min">30 minutes</string>
+    <string name="app_lock_timeout_5sec">5 秒</string>
+    <string name="app_lock_timeout_10sec">10 秒</string>
+    <string name="app_lock_timeout_30sec">30 秒</string>
+    <string name="app_lock_timeout_1min">1 分鐘</string>
+    <string name="app_lock_timeout_5min">5 分鐘</string>
+    <string name="app_lock_timeout_10min">10 分鐘</string>
+    <string name="app_lock_timeout_30min">30 分鐘</string>
 
     <!-- Back gesture height -->
     <string name="back_height_low_label">Full</string>
@@ -655,14 +655,14 @@
     <string name="prevent_ringing_option_normal">Normal</string>
 
     <!-- Hardware info -->
-    <string name="soc_model">SoC Model</string>
-    <string name="total_ram">Total RAM</string>
+    <string name="soc_model">SoC 型號</string>
+    <string name="total_ram">總記憶體</string>
 
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
-    <string name="display_cutout_force_fullscreen_search">Search</string>
-    <string name="display_cutout_force_fullscreen_search_apps">Search apps</string>
+    <string name="display_cutout_force_fullscreen_title">全螢幕應用程式</string>
+    <string name="display_cutout_force_fullscreen_summary">強制應用程式忽略開孔空間</string>
+    <string name="display_cutout_force_fullscreen_search">搜尋</string>
+    <string name="display_cutout_force_fullscreen_search_apps">搜尋應用程式</string>
 
     <!-- Ambient Display Swipe Gesture -->
     <string name="ambient_gesture_title">Gestures</string>
@@ -682,18 +682,18 @@
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
 
     <!-- Changelog -->
-    <string name="changelog_title">Changelog</string>
-    <string name="changelog_summary">Since the last update</string>
-    <string name="changelog_error">Unable to load changelog</string>
+    <string name="changelog_title">變更日誌</string>
+    <string name="changelog_summary">自上次更新以來</string>
+    <string name="changelog_error">無法載入變更日誌</string>
 
     <!-- Summary for the accessibility preference to adjust the display size, font size, bold text, and high contrast text features. [CHAR LIMIT=NONE] -->
-    <string name="accessibility_text_reading_options_summary">Customize display size, font &amp; text</string>
+    <string name="accessibility_text_reading_options_summary">自訂顯示大小、字體 &amp; 文字</string>
 
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
+    <string name="ringtone1_title">手機鈴聲 - SIM 1</string>
 
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+    <string name="ringtone2_title">手機鈴聲 - SIM 2</string>
 
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
@@ -723,13 +723,13 @@
     <string name="wifi_hotspot_unblock_client_dialog_text">This device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
     <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when avaialable.</string>
 
-    <string name="custom_timeout_summary_never">Never</string>
-    <string name="custom_timeout_summary_30secs">30 seconds</string>
-    <string name="custom_timeout_summary_1min">1 minute</string>
-    <string name="custom_timeout_summary_5mins">5 minutes</string>
-    <string name="custom_timeout_summary_10mins">10 minutes</string>
-    <string name="custom_timeout_summary_30mins">30 minutes</string>
-    <string name="custom_timeout_summary_1hour">1 hour</string>
+    <string name="custom_timeout_summary_never">從不</string>
+    <string name="custom_timeout_summary_30secs">30 秒</string>
+    <string name="custom_timeout_summary_1min">1 分鐘</string>
+    <string name="custom_timeout_summary_5mins">5 分鐘</string>
+    <string name="custom_timeout_summary_10mins">10 分鐘</string>
+    <string name="custom_timeout_summary_30mins">30 分鐘</string>
+    <string name="custom_timeout_summary_1hour">1 小時</string>
 
     <!-- Developer Options -->
     <string name="cleartext_network_policy_title">Restrict cleartext network traffic</string>
@@ -751,9 +751,9 @@
     <string name="lock_screen_auto_pin_confirm_summary_custom">Unlock automatically if you input a correct PIN. This is slightly less secure than tapping Enter to confirm.</string>
 
     <!-- Other Fragment -->
-    <string name="miscellaneous_settings">Miscellaneous</string>
-    <string name="other_settings">Other options</string>
-    <string name="quick_settings">Quick Settings</string>
+    <string name="miscellaneous_settings">雜項</string>
+    <string name="other_settings">其他選項</string>
+    <string name="quick_settings">快速設定</string>
 
     <!-- Face Unlock -->
     <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
@@ -790,12 +790,12 @@
     <string name="flashlight_on_call_rate_title">Blink rate</string>
 
     <!-- Units -->
-    <string name="unit_milliseconds">milliseconds</string>
+    <string name="unit_milliseconds">毫秒</string>
     <string name="unit_pixels">dp</string>
     <string name="unit_hz">hz</string>
 
     <!-- Refresh rate category name in Display Settings [CHAR LIMIT=none] -->
-    <string name="category_name_display_refresh_rate">Refresh rate</string>
+    <string name="category_name_display_refresh_rate">更新率</string>
 
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">Always on display schedule</string>
@@ -873,4 +873,7 @@
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Show Ambient</string>
     <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
+
+    <!-- Skip biometric manual confirmation -->
+    <string name="skip_biometric_auth_confirmation_title">Skip manual confirmation</string>
 </resources>
