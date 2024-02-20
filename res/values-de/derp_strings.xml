@@ -863,4 +863,7 @@
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Ambient anzeigen</string>
     <string name="doze_gesture_ambient_summary">Inaktivitätsdisplay anzeigen, anstatt den Bildschirm voll aufzuwecken</string>
+
+    <!-- Skip biometric manual confirmation -->
+    <string name="skip_biometric_auth_confirmation_title">Manuelle Bestätigung überspringen</string>
 </resources>
