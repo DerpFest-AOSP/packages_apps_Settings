@@ -30,6 +30,7 @@ import com.android.settingslib.utils.ThreadUtils;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class DataSaverBackend {
 
@@ -82,8 +83,7 @@ public class DataSaverBackend {
     }
 
     public void setIsAllowlisted(int uid, String packageName, boolean allowlisted) {
-        final int policy = allowlisted ? POLICY_ALLOW_METERED_BACKGROUND : POLICY_NONE;
-        mUidPolicies.put(uid, policy);
+        setUidPolicyFlag(uid, POLICY_ALLOW_METERED_BACKGROUND, allowlisted);
         if (allowlisted) {
             mPolicyManager.addUidPolicy(uid, POLICY_ALLOW_METERED_BACKGROUND);
             mMetricsFeatureProvider.action(
@@ -96,17 +96,14 @@ public class DataSaverBackend {
 
     public boolean isAllowlisted(int uid) {
         loadAllowlist();
-        return mUidPolicies.get(uid, POLICY_NONE) == POLICY_ALLOW_METERED_BACKGROUND;
+        return isUidPolicyFlagSet(uid, POLICY_ALLOW_METERED_BACKGROUND);
     }
 
     private void loadAllowlist() {
         if (mAllowlistInitialized) {
             return;
         }
-
-        for (int uid : mPolicyManager.getUidsWithPolicy(POLICY_ALLOW_METERED_BACKGROUND)) {
-            mUidPolicies.put(uid, POLICY_ALLOW_METERED_BACKGROUND);
-        }
+        loadUidPolicies(POLICY_ALLOW_METERED_BACKGROUND);
         mAllowlistInitialized = true;
     }
 
@@ -115,8 +112,7 @@ public class DataSaverBackend {
     }
 
     public void setIsDenylisted(int uid, String packageName, boolean denylisted) {
-        final int policy = denylisted ? POLICY_REJECT_METERED_BACKGROUND : POLICY_NONE;
-        mUidPolicies.put(uid, policy);
+        setUidPolicyFlag(uid, POLICY_REJECT_METERED_BACKGROUND, denylisted);
         if (denylisted) {
             mPolicyManager.addUidPolicy(uid, POLICY_REJECT_METERED_BACKGROUND);
             mMetricsFeatureProvider.action(
@@ -127,18 +123,49 @@ public class DataSaverBackend {
         mPolicyManager.removeUidPolicy(uid, POLICY_ALLOW_METERED_BACKGROUND);
     }
 
+    private void loadUidPolicies(int policy) {
+        final int[] uidsWithPolicy = mPolicyManager.getUidsWithPolicy(policy);
+        for (int uid : uidsWithPolicy) {
+            setCachedUidPolicyFlag(uid, policy, true);
+        }
+        for (int i = 0; i < mUidPolicies.size(); i++) {
+            final int uid = mUidPolicies.keyAt(i);
+            if (!Arrays.asList(uidsWithPolicy).contains(uid)) {
+                setCachedUidPolicyFlag(uid, policy, false);
+            }
+        }
+    }
+
+    private int setCachedUidPolicyFlag(int uid, int policy, boolean add) {
+        final int currentPolicy = mUidPolicies.get(uid, POLICY_NONE);
+        final int newPolicy = add ? (currentPolicy | policy) : (currentPolicy & ~policy);
+        mUidPolicies.put(uid, newPolicy);
+        return newPolicy;
+    }
+
+    private int setUidPolicyFlag(int uid, int policy, boolean add) {
+        if (add) {
+            mPolicyManager.addUidPolicy(uid, policy);
+        } else {
+            mPolicyManager.removeUidPolicy(uid, policy);
+        }
+        return setCachedUidPolicyFlag(uid, policy, add);
+    }
+
+    private boolean isUidPolicyFlagSet(int uid, int policy) {
+        return (mUidPolicies.get(uid, POLICY_NONE) & policy) == policy;
+    }
+
     public boolean isDenylisted(int uid) {
         loadDenylist();
-        return mUidPolicies.get(uid, POLICY_NONE) == POLICY_REJECT_METERED_BACKGROUND;
+        return isUidPolicyFlagSet(uid, POLICY_REJECT_METERED_BACKGROUND);
     }
 
     private void loadDenylist() {
         if (mDenylistInitialized) {
             return;
         }
-        for (int uid : mPolicyManager.getUidsWithPolicy(POLICY_REJECT_METERED_BACKGROUND)) {
-            mUidPolicies.put(uid, POLICY_REJECT_METERED_BACKGROUND);
-        }
+        loadUidPolicies(POLICY_REJECT_METERED_BACKGROUND);
         mDenylistInitialized = true;
     }
 
