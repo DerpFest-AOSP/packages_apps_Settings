@@ -587,4 +587,30 @@
     <string name="pattern_custom">Benutzerdefiniert</string>
     <string name="custom_vibration_pattern_title">Benutzerdefiniertes Vibrationsmuster</string>
     <string name="custom_vibration_pattern_summary">Ein benutzerdefiniertes Vibrationsmuster festlegen</string>
+
+    <!-- Battery Info -->
+    <string name="battery_info_summary">Detaillierte Batterieinformationen anzeigen</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Technologie</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Zustand</string>
+    <string name="battery_health_good">Gut</string>
+    <string name="battery_health_overheat">Überhitzt</string>
+    <string name="battery_health_dead">Unbrauchbar</string>
+    <string name="battery_health_over_voltage">Überspannung</string>
+    <string name="battery_health_unspecified_failure">Unbestimmter Fehler</string>
+    <string name="battery_health_cold">Kalt</string>
+    <string name="battery_health_unknown">Unbekannt</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Temperatur</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Spannung</string>
+    <!-- Battery Info: Charge Counter -->
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Nennkapazität</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Maximale Kapazität</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
 </resources>
