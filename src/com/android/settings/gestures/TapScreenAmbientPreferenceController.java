@@ -50,7 +50,7 @@ public class TapScreenAmbientPreferenceController extends GesturePreferenceContr
             return UNSUPPORTED_ON_DEVICE;
         }
         if (!getAmbientConfig().pulseOnNotificationEnabled(mUserId)) {
-            return DISABLED_DEPENDENT_SETTING;
+            return CONDITIONALLY_UNAVAILABLE;
         }
         return AVAILABLE;
     }
