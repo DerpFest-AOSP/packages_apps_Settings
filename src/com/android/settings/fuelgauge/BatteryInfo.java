@@ -366,6 +366,7 @@ public class BatteryInfo {
             info.chargeLabel = context.getString(chargingLimitedResId, info.batteryPercentString);
         } else if ((chargeTimeMs > 0
                         && status != BatteryManager.BATTERY_STATUS_FULL
+                        && context.getResources().getBoolean(com.android.internal.R.bool.config_show_charging_remaining_time)
                         && dockDefenderMode == BatteryUtils.DockDefenderMode.DISABLED)
                 || dockDefenderMode == BatteryUtils.DockDefenderMode.TEMPORARILY_BYPASSED) {
             // Battery is charging to full
