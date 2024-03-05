@@ -22,6 +22,7 @@ import static com.android.settings.datausage.lib.AppDataUsageRepository.getAppUi
 import android.app.Activity;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
