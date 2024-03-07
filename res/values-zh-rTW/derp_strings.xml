@@ -39,7 +39,7 @@
 
     <!-- Double tap to sleep on status bar or lockscreen -->
     <string name="status_bar_double_tap_to_sleep_title">輕觸休眠</string>
-    <string name="status_bar_double_tap_to_sleep_summary">輕觸兩下狀態列或鎖定畫面以關閉螢幕</string>
+    <string name="status_bar_double_tap_to_sleep_summary">輕觸兩下狀態列或鎖定畫面即可關閉螢幕</string>
 
     <!-- Game Space -->
     <string name="game_space_title">遊戲空間</string>
@@ -64,26 +64,30 @@
     <string name="min_refresh_rate_title">最低更新率</string>
 
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Locate the fingerprint sensor on the back of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Locate the fingerprint sensor on the back of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Locate the fingerprint sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Locate the fingerprint sensor on the side of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">找到位於平板電腦前面的指紋感應器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">指紋感應器位於裝置正面。</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">指紋感應器位於手機正面。</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">指紋感應器位於平板正面。</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">指紋感應器位於裝置正面。</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">指紋感應器位於手機背面。</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">指紋感應器位於平板正面。</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">指紋感應器位於裝置正面。</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">指紋感應器位於手機側面。</string>
 
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Touch the sensor on the front of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Touch the sensor on the front of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Touch the sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Touch the sensor on the back of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Touch the sensor on the back of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Touch the sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Touch the sensor on the side of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Touch the sensor on the side of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touch the sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">輕觸位於平板正面的感應器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">輕觸位於手機正面的感應器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">輕觸位於手機正面的感應器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">輕觸位於平板背面的感應器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">輕觸位於裝置背面的感應器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">輕觸位於手機背面的感應器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">輕觸位於平板側面的感應器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">輕觸位於裝置側面的感應器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">輕觸位於手機側面的感應器。</string>
+
+    <!-- Description for require screen on to auth toggle shown in fingerprint enrollment dialog once enrollment is completed.
+         Only for devices that support checking proximity prior to allowing fingerprint unlock. -->
+    <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Touch the sensor to unlock, even when the screen is off. Proximity sensor prevents accidental unlocking.</string>
 
     <!-- Navigation bar hint -->
     <string name="navbar_category">導覽列</string>
@@ -150,7 +154,7 @@
 
     <!-- FastCharge feature -->
     <string name="fast_charging_title">快速充電</string>
-    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
+    <string name="fast_charging_summary">停用以減少充電時裝置產生的熱量或延長電池的使用壽命</string>
 
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
@@ -202,7 +206,7 @@
     <string name="home_answer_call_summary">按主畫面鍵接聽來電</string>
     <string name="extras_title">附加</string>
     <string name="click_partial_screenshot_title">短按截圖</string>
-    <string name="click_partial_screenshot_summary">短按音量下鍵和電源鍵以擷取部分螢幕畫面</string>
+    <string name="click_partial_screenshot_summary">短按音量下鍵和電源鍵即可擷取部分螢幕畫面</string>
 
     <!-- Navigation Bar -->
     <string name="navigation_bar_category">導覽列</string>
@@ -212,10 +216,10 @@
     <string name="navigation_bar_left_summary">Place the navigation bar on the left side of the screen in landscape mode</string>
     <string name="navigation_bar_arrow_keys_title">Show arrow keys while typing</string>
     <string name="navigation_bar_arrow_keys_summary">Display left and right cursor buttons while typing. Overrides IME switcher.</string>
-    <string name="navigation_bar_back_long_press_title">Back long press action</string>
-    <string name="navigation_bar_home_long_press_title">Home long press action</string>
-    <string name="navigation_bar_home_double_tap_title">Home double tap action</string>
-    <string name="navigation_bar_app_switch_long_press_title">Recents long press action</string>
+    <string name="navigation_bar_back_long_press_title">長按返回鍵時的動作</string>
+    <string name="navigation_bar_home_long_press_title">長按主畫面鍵時的動作</string>
+    <string name="navigation_bar_home_double_tap_title">雙擊主畫面鍵時的動作</string>
+    <string name="navigation_bar_app_switch_long_press_title">長按最近應用程式鍵的動作</string>
     <string name="navigation_bar_edge_long_swipe_title">Edge long swipe action</string>
 
     <!-- Power menu -->
@@ -224,7 +228,7 @@
     <string name="power_menu_items_title">電源選單項目</string>
     <string name="power_menu_screenshot_title">螢幕截圖</string>
     <string name="power_menu_screenshot_summary">Long-press for partial screenshot</string>
-    <string name="power_menu_airplane_title">Airplane mode</string>
+    <string name="power_menu_airplane_title">飛航模式</string>
     <string name="power_menu_users_title">使用者切換</string>
     <string name="power_menu_bug_report_title">Bug 報告</string>
     <string name="power_menu_bug_report_devoptions_unavailable">Bug reporting is disabled as development settings aren\'t enabled</string>
@@ -232,7 +236,7 @@
     <string name="power_menu_emergency_title">緊急情況</string>
     <string name="power_menu_devicecontrols_title">裝置控制</string>
     <string name="power_menu_advanced_restart_title">進階重新啟動</string>
-    <string name="power_menu_advanced_restart_summary">解鎖後，電源選單中會顯示重新啟動至 Recovery 或 bootloader 的選項</string>
+    <string name="power_menu_advanced_restart_summary">解鎖後，電源選單中會顯示重新啟動至 Recovery 或 Bootloader 的選項</string>
     <string name="power_menu_emergency_affordance_enabled">緊急情況已啟用</string>
 
     <!-- Description of setting that controls gesture to open camera by double tapping the power button [CHAR LIMIT=NONE] -->
@@ -343,39 +347,39 @@
     <string name="choose_app">Choose app</string>
 
     <!-- Values for the notification light pulse spinners -->
-    <string name="pulse_length_always_on">Always on</string>
-    <string name="pulse_length_very_short">Very short</string>
-    <string name="pulse_length_short">Short</string>
-    <string name="pulse_length_normal">Normal</string>
-    <string name="pulse_length_long">Long</string>
-    <string name="pulse_length_very_long">Very long</string>
-    <string name="pulse_speed_very_fast">Very fast</string>
-    <string name="pulse_speed_fast">Fast</string>
-    <string name="pulse_speed_normal">Normal</string>
-    <string name="pulse_speed_slow">Slow</string>
-    <string name="pulse_speed_very_slow">Very slow</string>
+    <string name="pulse_length_always_on">始終開啟</string>
+    <string name="pulse_length_very_short">非常短</string>
+    <string name="pulse_length_short">較短</string>
+    <string name="pulse_length_normal">正常</string>
+    <string name="pulse_length_long">較長</string>
+    <string name="pulse_length_very_long">非常長</string>
+    <string name="pulse_speed_very_fast">非常快</string>
+    <string name="pulse_speed_fast">較快</string>
+    <string name="pulse_speed_normal">正常</string>
+    <string name="pulse_speed_slow">較慢</string>
+    <string name="pulse_speed_very_slow">非常慢</string>
 
     <!-- Common light settings strings -->
-    <string name="light_brightness_title">Brightness levels</string>
-    <string name="light_brightness_normal">Normal</string>
-    <string name="light_brightness_zen">Do Not Disturb</string>
+    <string name="light_brightness_title">亮度等級</string>
+    <string name="light_brightness_normal">正常</string>
+    <string name="light_brightness_zen">請勿打擾</string>
 
     <!-- Charging control settings -->
     <string name="charging_control_title">充電控制</string>
-    <string name="charging_control_summary">Customize charging schedule and limits for your device</string>
-    <string name="charging_control_enable_title">Enable charging control</string>
+    <string name="charging_control_summary">為你的裝置自訂充電時間表和限制</string>
+    <string name="charging_control_enable_title">啟用充電控制</string>
     <string name="charging_control_mode_title">充電模式</string>
-    <string name="charging_control_mode_auto_title">Automatic schedule</string>
-    <string name="charging_control_mode_auto_summary">Automatically determine when to start charging based on alarms set</string>
-    <string name="charging_control_mode_custom_title">Custom schedule</string>
-    <string name="charging_control_mode_custom_summary">Set a target time to full charge</string>
-    <string name="charging_control_mode_limit_title">Limit charging</string>
-    <string name="charging_control_mode_limit_summary">Limit charging to a certain percentage</string>
-    <string name="charging_control_start_time_title">Start time</string>
-    <string name="charging_control_start_time_summary">Charging control activates when you start charging after %s</string>
-    <string name="charging_control_target_time_title">Target time to full charge</string>
-    <string name="charging_control_target_time_summary">Battery will be fully charged by %s</string>
-    <string name="charging_control_limit_title">Limit</string>
+    <string name="charging_control_mode_auto_title">自動排程</string>
+    <string name="charging_control_mode_auto_summary">根據設定的鬧鐘自動判斷何時開始充電</string>
+    <string name="charging_control_mode_custom_title">自訂時間表</string>
+    <string name="charging_control_mode_custom_summary">設定一個充滿電的目標時間</string>
+    <string name="charging_control_mode_limit_title">限制充電</string>
+    <string name="charging_control_mode_limit_summary">將充電限制在一定的百分比</string>
+    <string name="charging_control_start_time_title">開始時間</string>
+    <string name="charging_control_start_time_summary">當你在 %s 之後開始充電時，充電控制將會啟動</string>
+    <string name="charging_control_target_time_title">充滿電的目標時間</string>
+    <string name="charging_control_target_time_summary">電池將在 %s 之前充滿</string>
+    <string name="charging_control_limit_title">限制</string>
 
     <!-- Battery light settings -->
     <string name="battery_light_title">Battery light</string>
@@ -551,25 +555,25 @@
     <string name="notification_custom_vibrate_slider2">Pause for</string>
 
     <!-- Reboot timeout -->
-    <string name="device_reboot_timeout_title">Auto reboot</string>
-    <string name="device_reboot_timeout_summary">The device will automatically reboot if it hasn\'t been unlocked within the last <xliff:g id="timeout_description">%1$s</xliff:g></string>
-    <string name="device_reboot_timeout_summary2">The device will not automatically reboot</string>
+    <string name="device_reboot_timeout_title">自動重新啟動</string>
+    <string name="device_reboot_timeout_summary">如果裝置尚未在 <xliff:g id="timeout_description">%1$s</xliff:g> 內解鎖的話，將會自動重新啟動</string>
+    <string name="device_reboot_timeout_summary2">裝置不會自動重新啟動</string>
 
     <!-- VPN app management screen, global VPN -->
-    <string name="global_vpn_title">Global VPN</string>
+    <string name="global_vpn_title">全域 VPN</string>
     <string name="global_vpn_summary">Force all traffic on the device through this VPN, including work profile and other users.</string>
     <string name="global_vpn_summary_on">Force all traffic on the device through this VPN, including work profile and other users. Note: When enabled, you will not be able to use a separate VPN in a work profile or other users</string>
     <string name="global_vpn_summary_any_vpn_active">You need to disable all active VPN connections first to enable this</string>
 
     <!-- App lock -->
-    <string name="app_lock_title">App lock</string>
+    <string name="app_lock_title">應用程式鎖</string>
     <plurals name="app_lock_summary">
         <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
         <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
     </plurals>
-    <string name="app_lock_authentication_dialog_title">Unlock</string>
-    <string name="enable_debugging">Enable debugging</string>
-    <string name="disable_debugging">Disable debugging</string>
+    <string name="app_lock_authentication_dialog_title">解鎖</string>
+    <string name="enable_debugging">啟用偵錯</string>
+    <string name="disable_debugging">停用偵錯</string>
     <string name="app_lock_packages_title">Protected apps</string>
     <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
     <string name="app_lock_timeout_title">Auto lock timeout</string>
@@ -607,8 +611,8 @@
     <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
 
     <!-- Haptic feedback -->
-    <string name="back_gesture_haptic_title">Haptic feedback</string>
-    <string name="back_gesture_haptic_summary">Vibrate when performing a back gesture</string>
+    <string name="back_gesture_haptic_title">觸覺回饋</string>
+    <string name="back_gesture_haptic_summary">執行返回手勢時提供震動回饋</string>
 
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
@@ -618,9 +622,9 @@
     <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
 
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Smart Pause</string>
-    <string name="adaptive_playback_enabled">Use Smart Pause</string>
-    <string name="adaptive_playback_disabled_summary">Off</string>
+    <string name="adaptive_playback_screen_title">智慧暫停</string>
+    <string name="adaptive_playback_enabled">使用智慧暫停</string>
+    <string name="adaptive_playback_disabled_summary">關閉</string>
     <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
     <string name="adaptive_playback_timeout_title">Use a timeout of</string>
     <string name="adaptive_playback_timeout_none">No timeout</string>
@@ -665,17 +669,17 @@
     <string name="display_cutout_force_fullscreen_search_apps">搜尋應用程式</string>
 
     <!-- Ambient Display Swipe Gesture -->
-    <string name="ambient_gesture_title">Gestures</string>
-    <string name="ambient_swipe_title">Swipe to wake</string>
-    <string name="ambient_swipe_summary">Allow waking the device by swiping up or down when the device is dozing</string>
+    <string name="ambient_gesture_title">手勢</string>
+    <string name="ambient_swipe_title">滑動即可喚醒</string>
+    <string name="ambient_swipe_summary">允許在隨顯螢幕上通過向上或向下滑動來喚醒裝置</string>
 
     <!-- Wake up from fod -->
     <string name="wake_on_fod_pressed_title">Wake up from FOD</string>
     <string name="wake_on_fod_pressed_summary">Jump to lockscreen when FOD is pressed in ambient display</string>
 
     <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Music ticker</string>
-    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
+    <string name="pulse_on_new_tracks_title">音樂顯示器</string>
+    <string name="pulse_on_new_tracks_summary">播放新的音樂時顯示隨顯螢幕</string>
 
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Brightness control</string>
@@ -683,7 +687,7 @@
 
     <!-- Changelog -->
     <string name="changelog_title">變更日誌</string>
-    <string name="changelog_summary">自上次更新以來</string>
+    <string name="changelog_summary">自上次更新以來的變化</string>
     <string name="changelog_error">無法載入變更日誌</string>
 
     <!-- Summary for the accessibility preference to adjust the display size, font size, bold text, and high contrast text features. [CHAR LIMIT=NONE] -->
@@ -756,17 +760,17 @@
     <string name="quick_settings">快速設定</string>
 
     <!-- Face Unlock -->
-    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
-    <string name="face_unlock_method_default">When the screen is turned on</string>
-    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <string name="face_unlock_method_title">允許在鎖定畫面上使用人臉解鎖</string>
+    <string name="face_unlock_method_default">當螢幕開啟時</string>
+    <string name="face_unlock_method_swipe">當在鎖定畫面上滑動時</string>
 
     <!-- Smart 5G -->
-    <string name="smart_5g_title">Smart 5G</string>
-    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+    <string name="smart_5g_title">智慧 5G</string>
+    <string name="smart_5g_summary">自動在 5G 與 4G 之間切換以減少電池消耗</string>
 
     <!-- Battery saver refresh rate -->
-    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
-    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
+    <string name="battery_saver_refresh_rate_title">降低更新率</string>
+    <string name="battery_saver_refresh_rate_summary">當省電模式開啟時使用 60 Hz 螢幕更新率以節省電量</string>
 
     <!-- Doze on double tap -->
     <string name="double_tap_title">Double tap</string>
@@ -847,7 +851,7 @@
     <string name="partial_screenshot">Partial screenshot</string>
 
     <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">Custom gestures</string>
+    <string name="navbar_gesture_tweaks_pref_title">自訂手勢</string>
     <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
     <string name="swipe_app_select_summary">Select an app to launch with the squeeze action</string>
     <string name="left_swipe_actions_title">Long left swipe action</string>
@@ -875,5 +879,48 @@
     <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
 
     <!-- Skip biometric manual confirmation -->
-    <string name="skip_biometric_auth_confirmation_title">Skip manual confirmation</string>
+    <string name="skip_biometric_auth_confirmation_title">跳過手動確認</string>
+
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">技術</string>
+    <string name="battery_technology_not_available">@string/battery_cycle_count_not_available</string>
+
+    <!-- Battery Info: Health -->
+    <string name="battery_health">健康狀態</string>
+    <string name="battery_health_good">良好</string>
+    <string name="battery_health_overheat">過熱</string>
+    <string name="battery_health_dead">幾乎無法使用</string>
+    <string name="battery_health_over_voltage">過電壓</string>
+    <string name="battery_health_unspecified_failure">不明的故障</string>
+    <string name="battery_health_cold">較冷</string>
+    <string name="battery_health_unknown">未知</string>
+
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">溫度</string>
+    <string name="battery_temperature_not_available">@string/battery_cycle_count_not_available</string>
+
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">電壓</string>
+    <string name="battery_voltage_not_available">@string/battery_cycle_count_not_available</string>
+
+    <!-- Battery Info: Charge Counter -->
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
+
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">設計容量</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
+    <string name="battery_design_capacity_not_available">@string/battery_cycle_count_not_available</string>
+
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">最大容量</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    <string name="battery_maximum_capacity_not_available">@string/battery_cycle_count_not_available</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_sounds_custom_title">充電音效</string>
+    <string name="charging_vibro_title">充電震動</string>
+
+    <!-- fingerprint lockout -->
+    <string name="fingerprint_lockout_title">Disable fingerprint lockout</string>
+    <string name="fingerprint_lockout_summary">Deactivates 30 second timeout as well as permanent lockout after multiple failed fingerprint unlock attempts</string>
 </resources>
