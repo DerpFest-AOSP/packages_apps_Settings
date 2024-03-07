@@ -951,6 +951,7 @@
     <string name="wifi_calling_mode_title" msgid="5145896168360825619">"Приоритет сети"</string>
     <string name="wifi_calling_mode_dialog_title" msgid="944146521898592440">"Приоритет сети"</string>
     <string name="wifi_calling_roaming_mode_title" msgid="7703305991991520773">"Настройки роуминга"</string>
+    <string name="wifi_calling_roaming_mode_title">Предпочтение роуминга</string>
     <!-- no translation found for wifi_calling_roaming_mode_summary (6061631305384464179) -->
     <skip />
     <string name="wifi_calling_roaming_mode_dialog_title" msgid="5382466713784067077">"Настройки роуминга"</string>
@@ -1625,6 +1626,8 @@
     <string name="cached" msgid="5379485147573438201">"Кешированный фоновый процесс"</string>
     <string name="no_running_services" msgid="9079738069349859373">"Ничего не запущено."</string>
     <string name="service_started_by_app" msgid="6845028506417670179">"Запущено приложением."</string>
+    <!-- Running services, description for a service in the started state -->
+    <string name="service_client_name"><xliff:g id="client_name">%1$s</xliff:g></string>
     <!-- no translation found for service_client_name (2210898622981598861) -->
     <skip />
     <string name="service_background_processes" msgid="2800539421534521948">"<xliff:g id="MEMORY">%1$s</xliff:g> свободно"</string>
@@ -1776,6 +1779,7 @@
     <string name="user_dict_settings_all_languages" msgid="8563387437755363526">"Для всех языков"</string>
     <string name="user_dict_settings_more_languages" msgid="5378870726809672319">"Другой язык"</string>
     <string name="testing" msgid="6294172343766732037">"Проверка"</string>
+
     <string name="keyboard_settings_summary" msgid="9188442758316476986">"Экранная клавиатура, инструменты"</string>
     <string name="keyboard_settings_with_physical_keyboard_summary" msgid="2240779804018260938">"Экранная клавиатура, физическая клавиатура, инструменты"</string>
     <string name="builtin_keyboard_settings_title" msgid="5096171620714179661">"Физическая клавиатура"</string>
@@ -4190,6 +4194,8 @@
     <string name="platform_compat_dashboard_summary" msgid="4036546607938791337">"Показывать изменение настроек совместимости приложений"</string>
     <string name="platform_compat_default_enabled_title" msgid="8973137337738388024">"Изменения, включенные по умолчанию"</string>
     <string name="platform_compat_default_disabled_title" msgid="3975847180953793602">"Изменения, отключенные по умолчанию"</string>
+    <!-- Title for target SDK gated app compat changes category (do not translate 'targetSdkVersion') [CHAR LIMIT=50] -->
+    <string name="platform_compat_target_sdk_title">Включено для targetSdkVersion &gt;= <xliff:g id="number" example="29">%d</xliff:g></string>
     <string name="platform_compat_dialog_text_no_apps" msgid="5715226015751055812">"Настраивать изменение параметров совместимости можно только для приложений, доступных для отладки. Установите такое приложение и повторите попытку."</string>
     <string name="disabled_dependent_setting_summary" msgid="4508635725315852504">"Эту настройку нельзя изменить, так как она зависит от других параметров."</string>
     <string name="my_device_info_account_preference_title" msgid="9197139254007133175">"Аккаунт"</string>
