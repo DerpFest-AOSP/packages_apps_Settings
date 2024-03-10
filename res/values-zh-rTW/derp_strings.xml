@@ -38,7 +38,7 @@
     <string name="tethering_allow_vpn_upstreams_summary">允許無線基地台用戶端使用此裝置的 VPN 連線進行上游連線</string>
 
     <!-- Double tap to sleep on status bar or lockscreen -->
-    <string name="status_bar_double_tap_to_sleep_title">輕觸休眠</string>
+    <string name="status_bar_double_tap_to_sleep_title">輕觸即可休眠</string>
     <string name="status_bar_double_tap_to_sleep_summary">輕觸兩下狀態列或鎖定畫面即可關閉螢幕</string>
 
     <!-- Game Space -->
@@ -528,11 +528,11 @@
     <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
 
     <!-- If blurs are supported on SurfaceFlinger. [CHAR LIMIT=60] -->
-    <string name="enable_blurs_on_windows_title">Enable blurs</string>
-    <string name="enable_blurs_on_windows_summary">Enables blur effect in some UI elements</string>
+    <string name="enable_blurs_on_windows_title">啟用模糊</string>
+    <string name="enable_blurs_on_windows_summary">在一些 UI 元素中啟用模糊效果</string>
 
     <!-- Per-app volume control -->
-    <string name="app_volume">App volume</string>
+    <string name="app_volume">應用程式音量</string>
     <string name="app_volume_title">Per-app volume control</string>
     <string name="app_volume_summary">Allow to set different volume levels for each app.\nNOTE: This will enable multi audio focus</string>
 
