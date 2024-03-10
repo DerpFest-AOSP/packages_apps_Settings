@@ -261,9 +261,9 @@
     <string name="keyboard_backlight_seekbar_title">Keyboard brightness</string>
     <string name="backlight_timeout_title">Illumination timeout</string>
     <string name="backlight_timeout_unlimited">Don\'t turn off</string>
-    <string name="backlight_summary_disabled">Disabled</string>
+    <string name="backlight_summary_disabled">停用</string>
     <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Enabled</string>
+    <string name="backlight_summary_enabled">啟用</string>
 
     <!-- Buttons - Enable navbar -->
     <string name="disable_navkeys_title">Enable on-screen nav bar</string>
@@ -274,8 +274,8 @@
     <string name="swap_capacitive_keys_summary">Swap the order of recents and back buttons</string>
 
     <!-- Others settings -->
-    <string name="others_settings_title">Others settings</string>
-    <string name="additional_buttons_title">Additional buttons</string>
+    <string name="others_settings_title">其他設定</string>
+    <string name="additional_buttons_title">額外的按鍵</string>
 
     <!-- LiveDisplay -->
     <string name="advanced">進階</string>
@@ -623,22 +623,22 @@
 
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">智慧暫停</string>
-    <string name="adaptive_playback_enabled">使用智慧暫停</string>
+    <string name="adaptive_playback_enabled">使用 智慧暫停</string>
     <string name="adaptive_playback_disabled_summary">關閉</string>
-    <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
-    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
-    <string name="adaptive_playback_timeout_none">No timeout</string>
-    <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
-    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
-    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
-    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
-    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
-    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+    <string name="adaptive_playback_intro_text">當音量靜音時自動暫停媒體，當在設定的時間內恢復音量時將自動繼續播放媒體</string>
+    <string name="adaptive_playback_timeout_title">設定逾時時間</string>
+    <string name="adaptive_playback_timeout_none">沒有逾時</string>
+    <string name="adaptive_playback_timeout_none_summary">開啟（沒有逾時）</string>
+    <string name="adaptive_playback_timeout_30_secs">30 秒</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">開啟（30 秒）</string>
+    <string name="adaptive_playback_timeout_1_min">1 分鐘</string>
+    <string name="adaptive_playback_timeout_1_min_summary">開啟（1 分鐘）</string>
+    <string name="adaptive_playback_timeout_2_min">2 分鐘</string>
+    <string name="adaptive_playback_timeout_2_min_summary">開啟（2 分鐘）</string>
+    <string name="adaptive_playback_timeout_5_min">5 分鐘</string>
+    <string name="adaptive_playback_timeout_5_min_summary">開啟（5 分鐘）</string>
+    <string name="adaptive_playback_timeout_10_min">10 分鐘</string>
+    <string name="adaptive_playback_timeout_10_min_summary">開啟（10 分鐘）</string>
 
     <!-- Sensor block per-package -->
     <string name="sensor_block_title">Block sensors</string>
