@@ -8,4 +8,7 @@
     <dimen name="fingerprint_find_sensor_padding_top">16dp</dimen>
 
     <dimen name="package_list_padding_top">16dp</dimen>
+
+    <!-- Notification light -->
+    <dimen name="oval_notification_size">26dp</dimen>
 </resources>
