@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2022 FlamingoOS Project
+ * Copyright (C) 2024 The LibreMobileOS Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -52,8 +53,7 @@ class AppLockPackageConfigFragment : DashboardFragment() {
             requireActivity(),
             this,
             header?.findViewById(R.id.entity_header)
-        ).setRecyclerView(listView, settingsLifecycle)
-            .setPackageName(packageInfo.packageName)
+        ).setPackageName(packageInfo.packageName)
             .setButtonActions(
                 EntityHeaderController.ActionType.ACTION_NONE,
                 EntityHeaderController.ActionType.ACTION_NONE
@@ -61,7 +61,7 @@ class AppLockPackageConfigFragment : DashboardFragment() {
             .bindHeaderButtons()
             .setLabel(appEntry)
             .setIcon(appEntry)
-            .done(requireActivity(), false /* rebindActions */)
+            .done(false /* rebindActions */)
     }
 
     override protected fun createPreferenceControllers(

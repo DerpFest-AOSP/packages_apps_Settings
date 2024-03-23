@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2022 FlamingoOS Project
+ * Copyright (C) 2024 The LibreMobileOS Foundation
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -65,7 +66,8 @@ class AppLockPackageListFragment : DashboardFragment() {
                 pm.getInstalledPackages(
                     PackageInfoFlags.of(PackageManager.MATCH_ALL.toLong())
                 ).filter {
-                    !it.applicationInfo.isSystemApp() || whiteListedPackages.contains(it.packageName)
+                    !(it.applicationInfo?.isSystemApp() == true)
+                        || whiteListedPackages.contains(it.packageName)
                 }.sortedWith { first, second ->
                     getLabel(first).compareTo(getLabel(second))
                 }
@@ -99,14 +101,14 @@ class AppLockPackageListFragment : DashboardFragment() {
     }
 
     private fun getLabel(packageInfo: PackageInfo) =
-        packageInfo.applicationInfo.loadLabel(pm).toString()
+        packageInfo.applicationInfo?.loadLabel(pm).toString()
 
     private fun createPreference(packageInfo: PackageInfo, isProtected: Boolean): Preference {
         val label = getLabel(packageInfo)
         return PrimarySwitchPreference(requireContext()).apply {
             key = packageInfo.packageName
             title = label
-            icon = packageInfo.applicationInfo.loadIcon(pm)
+            icon = packageInfo.applicationInfo?.loadIcon(pm)
             setIconSize(ICON_SIZE_SMALL)
             isChecked = isProtected
             setOnPreferenceChangeListener { _, newValue ->
