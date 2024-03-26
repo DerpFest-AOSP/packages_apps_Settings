@@ -31,7 +31,7 @@
     <SwitchPreference
         android:key="auto_pin_confirm"
         android:title="@string/lock_screen_auto_pin_confirm_title"
-        android:summary="@string/lock_screen_auto_pin_confirm_summary" />
+        android:summary="@string/lock_screen_auto_pin_confirm_summary_custom" />
 
     <SwitchPreference
         android:key="enhancedPinPrivacy"
@@ -51,5 +51,11 @@
     <SwitchPreference
         android:key="power_button_instantly_locks"
         android:title="@string/lockpattern_settings_enable_power_button_instantly_locks" />
+
+    <!-- DerpFest additions, available in pin/pattern/password/slide -->
+    <SwitchPreference
+        android:key="lockscreen_scramble_pin_layout"
+        android:title="@string/unlock_scramble_pin_layout_title"
+        android:summary="@string/unlock_scramble_pin_layout_summary" />
 
 </PreferenceScreen>

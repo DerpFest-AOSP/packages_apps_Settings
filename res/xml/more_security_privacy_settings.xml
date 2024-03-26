@@ -118,10 +118,34 @@
         android:key="security_category"
         android:title="@string/security_header" />
 
+    <ListPreference
+        android:order="220"
+        android:key="device_reboot_timeout"
+        android:entries="@array/device_reboot_timeout_entries"
+        android:entryValues="@array/device_reboot_timeout_values"
+        android:summary="@string/device_reboot_timeout_summary"
+        android:title="@string/device_reboot_timeout_title"
+        settings:controller="com.android.settings.security.DeviceRebootTimeoutPreferenceController" />
+
+    <org.derpfest.support.preferences.GlobalSettingListPreference
+        android:order="230"
+        android:key="trust_restrict_usb"
+        android:title="@string/trust_restrict_usb_title"
+        android:summary="@string/trust_restrict_usb_summary"
+        android:entries="@array/trust_restrict_usb_entries"
+        android:entryValues="@array/trust_restrict_usb_values"
+        android:defaultValue="0"
+        settings:controller="com.android.settings.security.TrustRestrictUsbPreferenceController" />
+
     <PreferenceCategory
         android:order="240"
         android:key="security_settings_device_admin_category"
         android:layout="@layout/preference_category_no_label">
+
+     <!-- App lock -->
+    <com.android.settingslib.RestrictedPreference
+        android:key="app_lock"
+        android:title="@string/app_lock_title" />
 
         <Preference
             android:key="manage_device_admin"

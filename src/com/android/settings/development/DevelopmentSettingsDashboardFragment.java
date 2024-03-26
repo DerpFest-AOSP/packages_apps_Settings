@@ -32,6 +32,7 @@ import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.pm.PackageManager;
 import android.database.ContentObserver;
 import android.net.Uri;
 import android.os.Bundle;
@@ -615,8 +616,8 @@ public class DevelopmentSettingsDashboardFragment extends RestrictedDashboardFra
             BluetoothA2dpConfigStore bluetoothA2dpConfigStore) {
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
         controllers.add(new MemoryUsagePreferenceController(context));
-        controllers.add(new BugReportPreferenceController(context));
-        controllers.add(new BugReportHandlerPreferenceController(context));
+        //controllers.add(new BugReportPreferenceController(context));
+        //controllers.add(new BugReportHandlerPreferenceController(context));
         controllers.add(new SystemServerHeapDumpPreferenceController(context));
         controllers.add(new DevelopmentMemtagPagePreferenceController(context, fragment));
         controllers.add(new LocalBackupPasswordPreferenceController(context));
@@ -631,14 +632,15 @@ public class DevelopmentSettingsDashboardFragment extends RestrictedDashboardFra
         controllers.add(new PictureColorModePreferenceController(context, lifecycle));
         controllers.add(new WebViewAppPreferenceController(context));
         controllers.add(new CoolColorTemperaturePreferenceController(context));
-        controllers.add(new DisableAutomaticUpdatesPreferenceController(context));
+     // controllers.add(new DisableAutomaticUpdatesPreferenceController(context));
         controllers.add(new SelectDSUPreferenceController(context));
         controllers.add(new AdbPreferenceController(context, fragment));
+        controllers.add(new AdbRootPreferenceController(context, fragment));
         controllers.add(new ClearAdbKeysPreferenceController(context, fragment));
         controllers.add(new WirelessDebuggingPreferenceController(context, lifecycle));
         controllers.add(new AdbAuthorizationTimeoutPreferenceController(context));
         controllers.add(new LocalTerminalPreferenceController(context));
-        controllers.add(new BugReportInPowerPreferenceController(context));
+        //controllers.add(new BugReportInPowerPreferenceController(context));
         controllers.add(new AutomaticSystemServerHeapDumpPreferenceController(context));
         controllers.add(new MockLocationAppPreferenceController(context, fragment));
         controllers.add(new MockModemPreferenceController(context));
@@ -654,10 +656,12 @@ public class DevelopmentSettingsDashboardFragment extends RestrictedDashboardFra
         controllers.add(new LogdSizePreferenceController(context));
         controllers.add(new LogPersistPreferenceController(context, fragment, lifecycle));
         controllers.add(new CameraLaserSensorPreferenceController(context));
-        controllers.add(new WifiDisplayCertificationPreferenceController(context));
-        controllers.add(new WifiVerboseLoggingPreferenceController(context));
-        controllers.add(new WifiScanThrottlingPreferenceController(context));
-        controllers.add(new WifiNonPersistentMacRandomizationPreferenceController(context));
+        if (context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_WIFI)) {
+            controllers.add(new WifiDisplayCertificationPreferenceController(context));
+            controllers.add(new WifiVerboseLoggingPreferenceController(context));
+            controllers.add(new WifiScanThrottlingPreferenceController(context));
+            controllers.add(new WifiNonPersistentMacRandomizationPreferenceController(context));
+        }
         controllers.add(new MobileDataAlwaysOnPreferenceController(context));
         controllers.add(new TetheringHardwareAccelPreferenceController(context));
         controllers.add(new BluetoothDeviceNoNamePreferenceController(context));
@@ -690,8 +694,6 @@ public class DevelopmentSettingsDashboardFragment extends RestrictedDashboardFra
         controllers.add(new HardwareLayersUpdatesPreferenceController(context));
         controllers.add(new DebugGpuOverdrawPreferenceController(context));
         controllers.add(new DebugNonRectClipOperationsPreferenceController(context));
-        controllers.add(new ForceDarkPreferenceController(context));
-        controllers.add(new EnableBlursPreferenceController(context));
         controllers.add(new ForceMSAAPreferenceController(context));
         controllers.add(new HardwareOverlaysPreferenceController(context));
         controllers.add(new SimulateColorSpacePreferenceController(context));

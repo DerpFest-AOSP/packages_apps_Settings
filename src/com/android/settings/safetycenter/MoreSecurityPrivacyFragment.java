@@ -70,6 +70,8 @@ public class MoreSecurityPrivacyFragment extends DashboardFragment {
         return TAG;
     }
 
+    private static final String APP_LOCK_PREF_KEY = "app_lock";
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);

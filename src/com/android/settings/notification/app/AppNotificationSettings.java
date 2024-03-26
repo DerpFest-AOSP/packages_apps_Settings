@@ -76,6 +76,7 @@ public class AppNotificationSettings extends NotificationSettings {
         mControllers.add(new BlockPreferenceController(context, mDependentFieldListener, mBackend));
         mControllers.add(new FullScreenIntentPermissionPreferenceController(context, mBackend));
         mControllers.add(new BadgePreferenceController(context, mBackend));
+        mControllers.add(new SoundTimeoutPreferenceController(context, mBackend));
         mControllers.add(new AllowSoundPreferenceController(
                 context, mDependentFieldListener, mBackend));
         mControllers.add(new ImportancePreferenceController(
@@ -87,7 +88,7 @@ public class AppNotificationSettings extends NotificationSettings {
         mControllers.add(new SoundPreferenceController(context, this,
                 mDependentFieldListener, mBackend));
         mControllers.add(new LightsPreferenceController(context, mBackend));
-        mControllers.add(new VibrationPreferenceController(context, mBackend));
+        mControllers.add(new VibrationPreferenceController(context, mBackend, mDependentFieldListener));
         mControllers.add(new VisibilityPreferenceController(context, new LockPatternUtils(context),
                 mBackend));
         mControllers.add(new DndPreferenceController(context, mBackend));

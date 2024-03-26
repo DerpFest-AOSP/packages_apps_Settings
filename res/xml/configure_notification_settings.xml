@@ -98,9 +98,21 @@
             android:summary="@string/lock_screen_notifs_redact_work_summary"
             settings:controller="com.android.settings.notification.RedactNotificationPreferenceController" />
 
+        <org.derpfest.support.preferences.SecureSettingListPreference
+            android:key="face_unlock_method"
+            android:order="16"
+            android:title="@string/face_unlock_method_title"
+            android:summary="%s"
+            android:dialogTitle="@string/face_unlock_method_title"
+            android:entries="@array/face_unlock_method_entries"
+            android:entryValues="@array/face_unlock_method_values"
+            android:defaultValue="0"
+            settings:searchable="false"
+            settings:controller="com.android.settings.biometrics.face.FaceSettingsLockscreenUnlockMethodPreferenceController" />
+
         <SwitchPreference
             android:key="notification_lockscreen_bypass"
-            android:order="16"
+            android:order="17"
             android:title="@string/lockscreen_bypass_title"
             android:summary="@string/lockscreen_bypass_summary"
             settings:searchable="false"
@@ -148,6 +160,11 @@
                 android:targetClass="com.android.cellbroadcastreceiver.CellBroadcastSettings"/>
         </com.android.settingslib.RestrictedPreference>
 
+        <Preference
+            android:title="@string/notification_log_title"
+            android:summary="@string/notification_log_summary"
+            android:fragment="com.android.settings.notification.history.NotificationStation" />
+
         <SwitchPreference
              android:key="silent_icons"
              android:order="21"
@@ -167,12 +184,14 @@
             android:title="@string/notification_badging_title"
             settings:controller="com.android.settings.notification.BadgingNotificationPreferenceController"/>
 
-        <!-- Pulse notification light, on devices that support it -->
-        <SwitchPreference
-            android:key="notification_pulse"
+        <!-- Notification light, on devices that support it -->
+        <Preference
+            android:key="notification_lights"
             android:order="24"
-            android:title="@string/notification_pulse_title"
-            settings:controller="com.android.settings.notification.PulseNotificationPreferenceController"/>
+            android:title="@string/notification_light_title"
+            android:summary="@string/notification_light_summary"
+            android:fragment="com.android.settings.derp.notificationlight.NotificationLightSettings"
+            settings:controller="com.android.settings.derp.notificationlight.NotificationLightPreferenceController" />
 
         <com.android.settingslib.PrimarySwitchPreference
             android:key="notification_assistant"
@@ -180,5 +199,40 @@
             android:title="@string/notification_assistant_title"
             android:summary="@string/notification_assistant_summary"
             settings:controller="com.android.settings.notification.NotificationAssistantPreferenceController"/>
+
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="notification_sound_vib_screen_on"
+            android:order="26"
+            android:title="@string/notification_sound_vib_screen_on_title"
+            android:summary="@string/notification_sound_vib_screen_on_summary"
+            android:defaultValue="true" />
+
+        <!-- Heads up -->
+        <org.derpfest.support.preferences.GlobalSettingSwitchPreference
+            android:key="heads_up_notifications_enabled"
+            android:order="27"
+            android:title="@string/heads_up_title"
+            android:summary="@string/heads_up_summary"
+            android:defaultValue="false" />
+
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="less_boring_heads_up"
+            android:dependency="heads_up_notifications_enabled"
+            android:order="28"
+            android:title="@string/less_boring_heads_up_title"
+            android:summary="@string/less_boring_heads_up_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/incall_category" >
+
+        <Preference
+            android:key="flash_alerts"
+            android:title="@string/flashlight_notifications_title" 
+            android:summary="@string/flashlight_on_call_title" 
+            android:fragment="com.android.settings.notification.FlashAlertSettings"
+            settings:controller="com.android.settings.notification.FlashAlertPreferenceController" />
     </PreferenceCategory>
 </PreferenceScreen>

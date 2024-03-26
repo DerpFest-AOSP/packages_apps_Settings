@@ -110,6 +110,7 @@ public class BatteryHeaderPreferenceController extends BasePreferenceController
     }
 
     private CharSequence generateLabel(BatteryInfo info) {
+        String temperature = info.batteryTemp + "\u2103";
         if (Utils.containsIncompatibleChargers(mContext, TAG)) {
             return mContext.getString(R.string.battery_info_status_not_charging);
         } else if (BatteryUtils.isBatteryDefenderOn(info)) {
@@ -117,26 +118,26 @@ public class BatteryHeaderPreferenceController extends BasePreferenceController
         } else if (info.remainingLabel == null
                 || info.batteryStatus == BatteryManager.BATTERY_STATUS_NOT_CHARGING) {
             // Present status only if no remaining time or status anomalous
-            return info.statusLabel;
+            return info.statusLabel + " \u2022 " + temperature;
         } else if (info.statusLabel != null && !info.discharging) {
             // Charging state
             return mContext.getString(
-                    R.string.battery_state_and_duration, info.statusLabel, info.remainingLabel);
+                    R.string.battery_state_and_duration, info.statusLabel, info.remainingLabel, temperature);
         } else if (mPowerManager.isPowerSaveMode()) {
             // Power save mode is on
             final String powerSaverOn = mContext.getString(
                     R.string.battery_tip_early_heads_up_done_title);
             return mContext.getString(
-                    R.string.battery_state_and_duration, powerSaverOn, info.remainingLabel);
+                    R.string.battery_state_and_duration, powerSaverOn, info.remainingLabel, temperature);
         } else if (mBatteryTip != null
                 && mBatteryTip.getType() == BatteryTip.TipType.LOW_BATTERY) {
             // Low battery state
             final String lowBattery = mContext.getString(R.string.low_battery_summary);
             return mContext.getString(
-                    R.string.battery_state_and_duration, lowBattery, info.remainingLabel);
+                    R.string.battery_state_and_duration, lowBattery, info.remainingLabel, temperature);
         } else {
             // Discharging state
-            return info.remainingLabel;
+            return info.remainingLabel + " \u2022 " + temperature;
         }
     }
 
@@ -165,9 +166,17 @@ public class BatteryHeaderPreferenceController extends BasePreferenceController
         final int batteryLevel = Utils.getBatteryLevel(batteryBroadcast);
         final boolean discharging =
                 batteryBroadcast.getIntExtra(BatteryManager.EXTRA_PLUGGED, -1) == 0;
+        final int chargeCounterUah =
+                batteryBroadcast.getIntExtra(BatteryManager.EXTRA_CHARGE_COUNTER, -1);
 
         mBatteryUsageProgressBarPref.setUsageSummary(formatBatteryPercentageText(batteryLevel));
         mBatteryUsageProgressBarPref.setPercent(batteryLevel, BATTERY_MAX_LEVEL);
+
+        if (chargeCounterUah != -1) {
+            int chargeCounter = chargeCounterUah / 1_000;
+            mBatteryUsageProgressBarPref.setTotalSummary(
+                    formatBatteryChargeCounterText(chargeCounter));
+        }
     }
 
     /**
@@ -184,5 +193,9 @@ public class BatteryHeaderPreferenceController extends BasePreferenceController
     private CharSequence formatBatteryPercentageText(int batteryLevel) {
         return TextUtils.expandTemplate(mContext.getText(R.string.battery_header_title_alternate),
                 NumberFormat.getIntegerInstance().format(batteryLevel));
+    }
+
+    private CharSequence formatBatteryChargeCounterText(int chargeCounter) {
+        return mContext.getString(R.string.battery_charge_counter_summary, chargeCounter);
     }
 }

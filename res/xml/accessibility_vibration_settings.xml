@@ -44,6 +44,26 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="incall_vib_options"
+        android:title="@string/incall_vibration_category" >
+ 
+        <SwitchPreference
+            android:key="vibrate_on_connect"
+            android:title="@string/incall_vibrate_connect_title"
+            app:controller="com.android.settings.accessibility.InCallConnectVibrationTogglePreferenceController" />
+
+        <SwitchPreference
+            android:key="vibrate_on_callwaiting"
+            android:title="@string/incall_vibrate_call_wait_title"
+            app:controller="com.android.settings.accessibility.InCallWaitingVibrationTogglePreferenceController" />
+
+        <SwitchPreference
+            android:key="vibrate_on_disconnect"
+            android:title="@string/incall_vibrate_disconnect_title"
+            app:controller="com.android.settings.accessibility.InCallDisconnectVibrationTogglePreferenceController" />
+  </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="accessibility_notification_alarm_vibration_category"
         android:title="@string/accessibility_notification_alarm_vibration_category_title">
 
@@ -76,6 +96,21 @@
             android:title="@string/accessibility_media_vibration_title"
             app:keywords="@string/keywords_media_vibration"
             app:controller="com.android.settings.accessibility.MediaVibrationTogglePreferenceController" />
+
+    </PreferenceCategory>
+
+    <!-- Misc vibration options -->
+    <PreferenceCategory
+        android:key="misc_vibration_category"
+        android:title="@string/misc_vibration_category_title" >
+
+        <Preference
+            android:key="misc_haptic_feedback_enabled"
+            android:fragment="com.android.settings.sound.HapticSettings"
+            android:title="@string/touch_haptic_title"
+            android:summary="@string/touch_haptic_summary"
+            android:dependency="vibration_main_switch"
+            app:controller="com.android.settings.sound.TouchHapticPreferenceController" />
 
     </PreferenceCategory>
 

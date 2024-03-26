@@ -54,11 +54,21 @@ android_library {
         "SpaPrivilegedLib-defaults",
     ],
 
-    srcs: ["src/**/*.java", "src/**/*.kt"],
+    srcs: [
+        "src/**/*.java",
+        "src/**/*.kt",
+        "DerpSpace/src/**/*.java",
+    ],
+
+    aaptflags: ["--extra-packages org.derpfest.derpspace",],
+
     resource_dirs: [
         "res",
         "res-export", // for external usage
         "res-product",
+        "DerpSpace/res",
+        "SettingsGoogle/res",
+        "TouchGestures/res"
     ],
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
@@ -70,7 +80,10 @@ android_library {
         "androidx.cardview_cardview",
         "androidx.compose.runtime_runtime-livedata",
         "androidx.activity_activity-ktx",
+        "androidx.fragment_fragment",
+        "androidx.fragment_fragment-ktx",
         "androidx.preference_preference",
+        "androidx.preference_preference-ktx",
         "androidx.recyclerview_recyclerview",
         "androidx.window_window",
         "com.google.android.material_material",
@@ -104,6 +117,20 @@ android_library {
         "Settings-change-ids",
         "androidx.room_room-runtime",
         "SystemUIUnfoldLib",
+        "VendorSupport-preference",
+        "vendor.lineage.fastcharge-V1.0-java",
+        "vendor.lineage.trust-V1.0-java",
+        "glide",
+        "colorpickerview",
+        "androidx.navigation_navigation-common-ktx",
+        "androidx.navigation_navigation-fragment-ktx",
+        "androidx.navigation_navigation-runtime-ktx",
+        "androidx.navigation_navigation-ui-ktx",
+        "kotlin-stdlib",
+        "kotlinx_coroutines_android",
+        "kotlinx_coroutines",
+        "SystemUISharedLib",
+        "SettingsGoogle-lib",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
@@ -166,4 +193,14 @@ filegroup {
 filegroup {
     name: "Settings_manifest",
     srcs: ["AndroidManifest.xml"],
+}
+
+android_library_import {
+    name: "glide",
+    aars: ["libs/glide-4.16.0.aar"],
+}
+
+android_library_import {
+    name: "colorpickerview",
+    aars: ["libs/colorpickerview-release.aar"],
 }

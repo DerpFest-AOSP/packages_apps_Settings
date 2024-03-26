@@ -27,6 +27,12 @@
         settings:controller="com.android.settings.gestures.AssistGestureSettingsPreferenceController" />
 
     <Preference
+        android:key="gesture_columbus"
+        android:title="@string/columbus_title"
+        android:fragment="com.google.android.settings.gestures.columbus.ColumbusSettings"
+        settings:controller="com.google.android.settings.gestures.columbus.ColumbusPreferenceController" />
+
+    <Preference
         android:key="gesture_swipe_down_fingerprint_input_summary"
         android:title="@string/fingerprint_swipe_for_notifications_title"
         android:fragment="com.android.settings.gestures.SwipeToNotificationSettings"
@@ -47,12 +53,12 @@
         settings:searchable="false"
         settings:controller="com.android.settings.gestures.DoubleTwistPreferenceController" />
 
-    <Preference
+    <!--Preference
         android:key="gesture_system_navigation_input_summary"
         android:title="@string/system_navigation_title"
         android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings"
         settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController"
-        settings:keywords="@string/keywords_system_navigation" />
+        settings:keywords="@string/keywords_system_navigation" />-->
 
     <Preference
         android:key="gesture_one_handed"
@@ -82,14 +88,60 @@
         settings:controller="com.android.settings.gestures.PickupGesturePreferenceController" />
 
     <Preference
+        android:key="gesture_screen_off_udfps_input_summary"
+        android:title="@string/ambient_display_screen_off_udfps_title"
+        android:fragment="com.android.settings.gestures.ScreenOffUdfpsSettings"
+        settings:searchable="false"
+        settings:controller="com.android.settings.gestures.ScreenOffUdfpsPreferenceController" />
+
+    <Preference
         android:key="gesture_power_menu_summary"
         android:title="@string/power_menu_setting_name"
         android:fragment="com.android.settings.gestures.PowerMenuSettings"
         settings:controller="com.android.settings.gestures.PowerMenuPreferenceController" />
+
+    <Preference
+        android:key="three_finger_gesture_summary"
+        android:title="@string/three_finger_gesture"
+        android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
+        settings:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
+
+    <org.derpfest.support.preferences.SystemSettingSwitchPreference
+        android:key="status_bar_brightness_control"
+        android:title="@string/status_bar_toggle_brightness"
+        android:summary="@string/status_bar_toggle_brightness_summary"
+        android:defaultValue="false"/>
+
+     <Preference
+        android:key="double_tap"
+        android:fragment="com.android.settings.gestures.DoubleTapAmbientSettings"
+        android:title="@string/doze_double_tap_title"
+        android:summary="@string/doze_double_tap_summary"
+        settings:userRestriction="no_ambient_display" />
 
     <com.android.settingslib.PrimarySwitchPreference
         android:key="gesture_prevent_ringing_summary"
         android:title="@string/gesture_prevent_ringing_screen_title"
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
         settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController" />
+
+    <org.derpfest.support.preferences.RemotePreference
+            android:key="touchscreen_gesture_settings"
+            android:title="@string/touchscreen_gesture_settings_title"
+            android:summary="@string/touchscreen_gesture_settings_summary"
+            settings:requiresFeature="lineagehardware:FEATURE_TOUCHSCREEN_GESTURES">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.touch.gestures"
+            android:targetClass="com.android.touch.gestures.TouchscreenGestureSettings" />
+    </org.derpfest.support.preferences.RemotePreference>
+
+    <org.derpfest.support.preferences.RemotePreference
+            android:key="device_touchscreen_gesture_settings"
+            android:title="@string/touchscreen_gesture_settings_title"
+            android:summary="@string/touchscreen_gesture_settings_summary"
+            settings:replacesKey="touchscreen_gesture_settings"
+            settings:requiresAction="org.lineageos.settings.device.GESTURE_SETTINGS">
+        <intent android:action="org.lineageos.settings.device.GESTURE_SETTINGS" />
+    </org.derpfest.support.preferences.RemotePreference>
 </PreferenceScreen>

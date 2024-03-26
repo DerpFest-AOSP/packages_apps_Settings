@@ -17,8 +17,10 @@
 package com.android.settings.gestures;
 
 import static android.provider.Settings.Secure.VOLUME_HUSH_GESTURE;
-import static android.provider.Settings.Secure.VOLUME_HUSH_MUTE;
-import static android.provider.Settings.Secure.VOLUME_HUSH_VIBRATE;
+import static android.provider.Settings.Secure.DERP_VOLUME_HUSH_MUTE;
+import static android.provider.Settings.Secure.DERP_VOLUME_HUSH_NORMAL;
+import static android.provider.Settings.Secure.DERP_VOLUME_HUSH_OFF;
+import static android.provider.Settings.Secure.DERP_VOLUME_HUSH_VIBRATE;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -38,6 +40,10 @@ import com.android.settingslib.core.lifecycle.events.OnStart;
 import com.android.settingslib.core.lifecycle.events.OnStop;
 
 import com.google.common.annotations.VisibleForTesting;
+
+import java.lang.StringBuilder;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 /** The controller manages the behaviour of the Prevent Ringing gesture setting. */
 public class PreventRingingParentPreferenceController extends TogglePreferenceController
@@ -68,53 +74,58 @@ public class PreventRingingParentPreferenceController extends TogglePreferenceCo
             return false;
         }
 
-        final int preventRinging = Settings.Secure.getInt(mContext.getContentResolver(),
-                Settings.Secure.VOLUME_HUSH_GESTURE,
-                Settings.Secure.VOLUME_HUSH_VIBRATE);
-        return preventRinging != Settings.Secure.VOLUME_HUSH_OFF;
+        String preventRinging = Settings.Secure.getString(
+                mContext.getContentResolver(), VOLUME_HUSH_GESTURE);
+        if (preventRinging == null) preventRinging = DERP_VOLUME_HUSH_OFF;
+        return !preventRinging.equals(DERP_VOLUME_HUSH_OFF);
     }
 
     @Override
     public boolean setChecked(boolean isChecked) {
-        final int preventRingingSetting = Settings.Secure.getInt(mContext.getContentResolver(),
-                Settings.Secure.VOLUME_HUSH_GESTURE, Settings.Secure.VOLUME_HUSH_VIBRATE);
-        final int newRingingSetting = preventRingingSetting == Settings.Secure.VOLUME_HUSH_OFF
-                ? Settings.Secure.VOLUME_HUSH_VIBRATE
-                : preventRingingSetting;
+        String preventRingingSetting = Settings.Secure.getString(
+                mContext.getContentResolver(), VOLUME_HUSH_GESTURE);
+        if (preventRingingSetting == null) preventRingingSetting = DERP_VOLUME_HUSH_OFF;
 
-        return Settings.Secure.putInt(mContext.getContentResolver(),
-                Settings.Secure.VOLUME_HUSH_GESTURE, isChecked
+        final String newRingingSetting = preventRingingSetting.equals(DERP_VOLUME_HUSH_OFF)
+                ? DERP_VOLUME_HUSH_VIBRATE : preventRingingSetting;
+
+        return Settings.Secure.putString(mContext.getContentResolver(),
+                VOLUME_HUSH_GESTURE, isChecked
                         ? newRingingSetting
-                        : Settings.Secure.VOLUME_HUSH_OFF);
+                        : DERP_VOLUME_HUSH_OFF);
     }
 
     @Override
     public void updateState(Preference preference) {
         super.updateState(preference);
-        final int value = Settings.Secure.getInt(
-                mContext.getContentResolver(), SECURE_KEY, VOLUME_HUSH_VIBRATE);
-        CharSequence summary;
+        String value = Settings.Secure.getString(
+                mContext.getContentResolver(), SECURE_KEY);
+        if (value == null) value = DERP_VOLUME_HUSH_OFF;
+        StringBuilder summary = new StringBuilder(
+                mContext.getString(R.string.switch_off_text));
         if (isVolumePowerKeyChordSetToHush()) {
-            switch (value) {
-                case VOLUME_HUSH_VIBRATE:
-                    summary = mContext.getText(R.string.prevent_ringing_option_vibrate_summary);
-                    break;
-                case VOLUME_HUSH_MUTE:
-                    summary = mContext.getText(R.string.prevent_ringing_option_mute_summary);
-                    break;
-                // VOLUME_HUSH_OFF
-                default:
-                    summary = mContext.getText(R.string.switch_off_text);
+            if (!value.equals(DERP_VOLUME_HUSH_OFF)) {
+                ArrayList<String> values =
+                        new ArrayList<>(Arrays.asList(value.split(",", 0)));
+                if (!values.isEmpty()) {
+                    summary = new StringBuilder(
+                            mContext.getString(R.string.switch_on_text)
+                            + " (" + getStringForMode(values.remove(0)));
+                    for (String str : values)
+                        summary.append(", ").append(getStringForMode(str));
+                    summary.append(")");
+                }
             }
             preference.setEnabled(true);
             mPreference.setSwitchEnabled(true);
         } else {
-            summary = mContext.getText(R.string.prevent_ringing_option_unavailable_lpp_summary);
+            summary = new StringBuilder(mContext.getString(
+                    R.string.prevent_ringing_option_unavailable_lpp_summary));
             preference.setEnabled(false);
             mPreference.setSwitchEnabled(false);
         }
 
-        preference.setSummary(summary);
+        preference.setSummary(summary.toString());
     }
 
     @Override
@@ -202,5 +213,16 @@ public class PreventRingingParentPreferenceController extends TogglePreferenceCo
                 updateState(mPreference);
             }
         }
+    }
+
+    private String getStringForMode(String mode) {
+        switch (mode) {
+            case DERP_VOLUME_HUSH_VIBRATE:
+                return mContext.getText(R.string.prevent_ringing_option_vibrate).toString();
+            case DERP_VOLUME_HUSH_MUTE:
+                return mContext.getText(R.string.prevent_ringing_option_mute).toString();
+        }
+        // DERP_VOLUME_HUSH_NORMAL
+        return mContext.getText(R.string.prevent_ringing_option_normal).toString();
     }
 }

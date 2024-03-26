@@ -33,6 +33,11 @@
         android:title="@string/auto_rotate_settings_primary_switch_title"
         settings:controller="com.android.settings.display.AutoRotatePreferenceController"/>
 
+    <org.derpfest.support.preferences.SystemSettingSwitchPreference
+        android:key="enable_floating_rotation_button"
+        android:title="@string/enable_floating_rotation_button_title"
+        android:defaultValue="true" />
+
     <com.android.settingslib.widget.BannerMessagePreference
         android:key="face_rotate_permission"
         android:title="@string/adaptive_sleep_title_no_permission"
@@ -54,6 +59,36 @@
         android:key="face_based_rotate"
         android:title="@string/auto_rotate_switch_face_based"
         settings:controller="com.android.settings.display.SmartAutoRotateController" />
+
+    <SwitchPreference
+        android:key="lockscreen_rotation"
+        android:title="@string/display_lockscreen_rotation_title"
+        android:dependency="auto_rotate_switch" />
+
+    <PreferenceCategory
+        android:key="display_rotation_category"
+        android:title="@string/display_rotation_category_title">
+
+        <SwitchPreference
+            android:key="display_rotation_0"
+            android:title="@string/display_rotation_0_title"
+            android:dependency="auto_rotate_switch" />
+
+        <SwitchPreference
+            android:key="display_rotation_90"
+            android:title="@string/display_rotation_90_title"
+            android:dependency="auto_rotate_switch" />
+
+        <SwitchPreference
+            android:key="display_rotation_180"
+            android:title="@string/display_rotation_180_title"
+            android:dependency="auto_rotate_switch" />
+
+        <SwitchPreference
+            android:key="display_rotation_270"
+            android:title="@string/display_rotation_270_title"
+            android:dependency="auto_rotate_switch" />
+    </PreferenceCategory>
 
     <com.android.settingslib.widget.FooterPreference
         android:key="auto_rotate_footer_preference"

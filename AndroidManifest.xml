@@ -71,6 +71,7 @@
     <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
     <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
     <uses-permission android:name="android.permission.READ_DEVICE_CONFIG" />
+    <uses-permission android:name="android.permission.WRITE_DEVICE_CONFIG" />
     <uses-permission android:name="android.permission.STATUS_BAR" />
     <uses-permission android:name="android.permission.MANAGE_USB" />
     <uses-permission android:name="android.permission.MANAGE_DEBUGGING" />
@@ -134,6 +135,15 @@
     <uses-permission android:name="android.permission.REMAP_MODIFIER_KEYS" />
     <uses-permission android:name="android.permission.ACCESS_GPU_SERVICE" />
 
+    <!-- LineageHardware -->
+    <uses-permission android:name="lineageos.permission.HARDWARE_ABSTRACTION_ACCESS" />
+
+    <!-- LiveDisplay -->
+    <uses-permission android:name="lineageos.permission.MANAGE_LIVEDISPLAY" />
+
+    <!-- App lock -->
+    <uses-permission android:name="com.android.permission.MANAGE_APP_LOCK" />
+
     <application
             android:name=".SettingsApplication"
             android:label="@string/settings_label"
@@ -147,6 +157,7 @@
             android:defaultToDeviceProtectedStorage="true"
             android:directBootAware="true"
             android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+            tools:replace="android:appComponentFactory,android:name"
             android:gwpAsanMode="always"
             android:enableOnBackInvokedCallback="true">
 
@@ -317,6 +328,22 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.connecteddevice.ConnectedDeviceDashboardFragment"/>
+            <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
+                android:value="@string/menu_key_connected_devices"/>
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+
+        <activity
+            android:name=".Settings$PreviouslyConnectedDevicesActivity"
+            android:label="@string/connected_device_saved_title"
+            android:exported="true">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.SAVED_DEVICES" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.connecteddevice.PreviouslyConnectedDeviceDashboardFragment"/>
             <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
                 android:value="@string/menu_key_connected_devices"/>
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
@@ -720,7 +747,8 @@
                 android:label="@string/device_picker"
                 android:configChanges="orientation|keyboardHidden|screenSize"
                 android:exported="true"
-                android:clearTaskOnLaunch="true">
+                android:clearTaskOnLaunch="true"
+                android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>
                 <action android:name="android.bluetooth.devicepicker.action.LAUNCH" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -2062,6 +2090,7 @@
 
         <activity android:name="SetFullBackupPassword"
                   android:label="@string/local_backup_password_title"
+                  android:parentActivityName="Settings$DevelopmentSettingsDashboardActivity"
                   android:exported="false" />
 
         <activity android:name=".security.CredentialStorage"
@@ -2526,7 +2555,7 @@
             android:screenOrientation="portrait"/>
 
         <activity android:name=".biometrics.face.FaceEnrollFinish"
-            android:exported="false"
+            android:exported="true"
             android:screenOrientation="portrait"/>
 
         <activity android:name=".biometrics.BiometricHandoffActivity"
@@ -3790,7 +3819,7 @@
         <!-- Show regulatory info (from settings item or dialing "*#07#") -->
         <activity
             android:name="RegulatoryInfoDisplayActivity"
-            android:theme="@style/Theme.AlertDialog"
+            android:theme="@style/Theme.SubSettingsBase"
             android:label="@string/regulatory_labels"
             android:exported="true"
             android:enabled="@bool/config_show_regulatory_info">
@@ -3812,6 +3841,13 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.bluetooth.intent.DISCOVERABLE_TIMEOUT" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.android.settingslib.bluetooth.BluetoothTimeoutReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.bluetooth.intent.TIMEOUT" />
             </intent-filter>
         </receiver>
 
@@ -4472,6 +4508,20 @@
                        android:value="persist.wm.debug.desktop_mode" />
         </service>
 
+        <service
+            android:name=".development.qstile.DevelopmentTiles$ShowRefreshRate"
+            android:label="@string/show_refresh_rate"
+            android:icon="@drawable/tile_icon_refresh_rate"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+            android:exported="true"
+            android:enabled="false">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+            <meta-data android:name="android.service.quicksettings.TOGGLEABLE_TILE"
+                       android:value="true"/>
+        </service>
+
         <activity
             android:name=".HelpTrampoline"
             android:exported="true"
@@ -4614,6 +4664,14 @@
                 </intent-filter>
                 <intent-filter>
                     <action android:name="android.settings.panel.action.VOLUME" />
+                    <category android:name="android.intent.category.DEFAULT" />
+                </intent-filter>
+                <intent-filter>
+                    <action android:name="android.settings.panel.action.MOBILE_DATA" />
+                    <category android:name="android.intent.category.DEFAULT" />
+                </intent-filter>
+                <intent-filter>
+                    <action android:name="android.settings.panel.action.APP_VOLUME" />
                     <category android:name="android.intent.category.DEFAULT" />
                 </intent-filter>
         </activity>
@@ -4949,6 +5007,27 @@
                 android:value="@string/menu_key_security"/>
         </activity>
 
+        <!-- App lock -->
+        <activity android:name=".security.applock.AppLockCredentialActivity"
+            android:exported="false"
+            android:permission="com.android.permission.MANAGE_APP_LOCK"
+            android:excludeFromRecents="true"
+            android:stateNotNeeded="true"
+            android:taskAffinity="com.android.settings.applock"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.app.action.UNLOCK_APP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".security.applock.AppLockSubSettings"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:taskAffinity="com.android.settings.applock"
+            android:launchMode="singleTask" />
+
         <activity-alias android:name="UsageStatsActivity"
                         android:exported="true"
                         android:label="@string/testing_usage_stats"
@@ -4968,5 +5047,56 @@
             tools:node="remove" />
 
         <!-- This is the longest AndroidManifest.xml ever. -->
+
+        <!-- DerpSpace -->
+        <activity android:name=".Settings$DerpSpaceSettingsActivity"
+                  android:label="@string/derpspace_title"
+                  android:icon="@drawable/ic_homepage_derpspace"
+                  android:exported="true"
+                  android:parentActivityName="com.android.settings">
+            <intent-filter>
+                <action android:name="com.android.settings.action.SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="org.derpfest.derpspace.DerpSpace"/>
+            <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
+                android:value="@string/menu_key_derp"/>
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                       android:value="true" />
+        </activity>
+
+        <!-- Changelog Activity -->
+        <activity android:name=".derp.ChangelogActivity"
+            android:label="@string/changelog_title"
+            android:parentActivityName="com.android.settings"
+            android:theme="@style/Theme.SubSettingsBase"
+            android:exported="true">
+            <intent-filter android:priority="70">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Provide direct entry into Dev settings - Running Services -->
+        <activity android:name="Settings$DevRunningServicesActivity"
+                android:label="@string/runningservices_settings_title"
+                android:theme="@style/Theme.SubSettingsBase"
+                android:enabled="true"
+                android:exported="true"
+                android:excludeFromRecents="true"
+                android:taskAffinity="com.android.settings"
+                android:parentActivityName="Settings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MONKEY" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.applications.RunningServices" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
     </application>
 </manifest>

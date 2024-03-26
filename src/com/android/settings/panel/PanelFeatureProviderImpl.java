@@ -61,6 +61,10 @@ public class PanelFeatureProviderImpl implements PanelFeatureProvider {
                 } else {
                     return VolumePanel.create(context);
                 }
+            case Settings.Panel.ACTION_MOBILE_DATA:
+                return MobileDataPanel.create(context);
+            case Settings.Panel.ACTION_APP_VOLUME:
+                return AppVolumePanel.create(context);
         }
 
         throw new IllegalStateException("No matching panel for: " + panelType);

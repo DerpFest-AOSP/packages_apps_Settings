@@ -17,13 +17,8 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
-    android:title="@string/usb_preference"
+    android:title="@string/usb_pref"
     android:key="usb_details_fragment">
-
-    <com.android.settingslib.widget.LayoutPreference
-        android:key="usb_device_header"
-        android:layout="@layout/settings_entity_header"
-        android:selectable="false"/>
 
     <PreferenceCategory
         android:key="usb_details_data_role"

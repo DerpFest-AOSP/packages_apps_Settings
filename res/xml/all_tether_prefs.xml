@@ -36,10 +36,17 @@
             android:persistent="false"
             android:title="@string/wifi_hotspot_password_title"/>
 
-        <SwitchPreference
+        <ListPreference
             android:key="wifi_tether_auto_turn_off_2"
             android:title="@string/wifi_hotspot_auto_off_title"
-            android:summary="@string/wifi_hotspot_auto_off_summary"/>
+            android:summary="%s"
+            android:entries="@array/wifi_tether_auto_turn_off_entries"
+            android:entryValues="@array/wifi_tether_auto_turn_off_values" />
+
+        <SwitchPreference
+            android:key="wifi_tether_hidden_ssid_2"
+            android:title="@string/wifi_hotspot_hidden_ssid_title"
+            android:summary="@string/wifi_hotspot_hidden_ssid_summary" />
 
         <ListPreference
             android:key="wifi_tether_network_ap_band_2"
@@ -51,6 +58,11 @@
             android:summary="@string/summary_placeholder"
             android:entries="@array/wifi_tether_security"
             android:entryValues="@array/wifi_tether_security_values"/>
+
+        <Preference
+            android:key="wifi_tether_client_manager_2"
+            android:title="@string/wifi_hotspot_client_manager_title"
+            android:fragment="com.android.settings.derp.tether.WifiTetherClientManager" />
     </PreferenceCategory>
 
     <PreferenceCategory

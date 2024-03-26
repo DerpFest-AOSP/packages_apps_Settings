@@ -21,13 +21,6 @@
     android:key="my_device_info_pref_screen"
     android:title="@string/about_settings">
 
-    <com.android.settingslib.widget.LayoutPreference
-        android:key="my_device_info_header"
-        android:order="0"
-        android:layout="@layout/settings_entity_header"
-        android:selectable="false"
-        settings:isPreferenceVisible="false"/>
-
     <PreferenceCategory
         android:key="basic_info_category"
         android:selectable="false"
@@ -51,7 +44,7 @@
             settings:enableCopying="true"
             settings:controller="com.android.settings.deviceinfo.BrandedAccountPreferenceController"/>
 
-        <!-- Phone number -->
+        <!-- Phone number
         <com.android.settings.deviceinfo.PhoneNumberSummaryPreference
             android:key="phone_number"
             android:order="3"
@@ -59,59 +52,68 @@
             android:summary="@string/summary_placeholder"
             settings:isPreferenceVisible="@bool/config_show_sim_info"
             settings:controller="com.android.settings.deviceinfo.PhoneNumberPreferenceController"
-            settings:enableCopying="true"/>
+            settings:enableCopying="true"/ -->
     </PreferenceCategory>
 
-    <PreferenceCategory
-        android:title="@string/my_device_info_legal_category_title">
+    <!--PreferenceCategory
+        android:title="@string/my_device_info_legal_category_title"-->
 
         <!-- Legal information -->
-        <Preference
+        <!--<Preference
             android:key="legal_container"
             android:order="15"
             android:title="@string/legal_information"
-            android:fragment="com.android.settings.LegalSettings"/>
+            android:fragment="com.android.settings.LegalSettings"/>-->
 
         <!-- Regulatory labels -->
-        <Preference
+        <!--Preference
             android:key="regulatory_info"
             android:order="16"
             android:title="@string/regulatory_labels">
             <intent android:action="android.settings.SHOW_REGULATORY_INFO"/>
-        </Preference>
+        </Preference-->
 
         <!-- Safety & regulatory manual -->
-        <Preference
+        <!--Preference
             android:key="safety_info"
             android:order="17"
             android:title="@string/safety_and_regulatory_info"/>
-    </PreferenceCategory>
+    </PreferenceCategory-->
 
     <PreferenceCategory
         android:key="device_detail_category"
         android:selectable="false"
         android:title="@string/my_device_info_device_details_category_title">
 
-        <!-- SIM status -->
-        <Preference
-            android:key="sim_status"
-            android:order="18"
-            android:title="@string/sim_status_title"
-            settings:keywords="@string/keywords_sim_status"
-            android:summary="@string/summary_placeholder"
-            settings:isPreferenceVisible="@bool/config_show_sim_info"
-            settings:controller="com.android.settings.deviceinfo.simstatus.SimStatusPreferenceController"/>
-
         <!-- Model & hardware -->
         <Preference
             android:key="device_model"
-            android:order="30"
+            android:order="18"
             android:title="@string/model_info"
             android:summary="@string/summary_placeholder"
             android:fragment="com.android.settings.deviceinfo.hardwareinfo.HardwareInfoFragment"
             settings:enableCopying="true"
             settings:keywords="@string/keywords_model_and_hardware"
             settings:controller="com.android.settings.deviceinfo.HardwareInfoPreferenceController"/>
+
+        <!-- Android version -->
+        <Preference
+            android:key="firmware_version"
+            android:order="19"
+            android:title="@string/firmware_version"
+            android:summary="@string/summary_placeholder"
+            android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
+            settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
+
+        <!-- SIM status -->
+        <Preference
+            android:key="sim_status"
+            android:order="21"
+            android:title="@string/sim_status_title"
+            settings:keywords="@string/keywords_sim_status"
+            android:summary="@string/summary_placeholder"
+            settings:isPreferenceVisible="@bool/config_show_sim_info"
+            settings:controller="com.android.settings.deviceinfo.simstatus.SimStatusPreferenceController"/>
 
         <!-- EID -->
         <com.android.settings.network.telephony.TelephonyPreferenceDialog
@@ -136,22 +138,17 @@
             settings:isPreferenceVisible="@bool/config_show_sim_info"
             settings:controller="com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController"/>
 
-        <!-- Android version -->
+        <!-- Radio Info -->
         <Preference
-            android:key="firmware_version"
-            android:order="42"
-            android:title="@string/firmware_version"
-            android:summary="@string/summary_placeholder"
-            android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
-            settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
+            android:title="@string/radio_info_title"
+            android:key="radio_info_settings"
+            android:order="33"
+            settings:controller="com.android.settings.deviceinfo.RadioInfoPreferenceController">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.android.phone"
+                    android:targetClass="com.android.phone.settings.RadioInfo" />
+        </Preference>
 
-        <!-- Battery information -->
-        <Preference
-            android:key="battery_info"
-            android:order="43"
-            android:title="@string/battery_info"
-            android:fragment="com.android.settings.deviceinfo.batteryinfo.BatteryInfoFragment"
-            settings:keywords="@string/keywords_battery_info"/>
     </PreferenceCategory>
 
     <PreferenceCategory

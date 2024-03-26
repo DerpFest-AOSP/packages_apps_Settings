@@ -39,6 +39,7 @@ import com.android.settings.core.OnActivityResultListener;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.sound.HandsFreeProfileOutputPreferenceController;
+import com.android.settings.sound.VolumeDialogTimeoutPreferenceController;
 import com.android.settings.widget.PreferenceCategoryController;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.instrumentation.Instrumentable;
@@ -66,6 +67,8 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
 
     @VisibleForTesting
     final VolumePreferenceCallback mVolumeCallback = new VolumePreferenceCallback();
+    private final IncreasingRingVolumePreferenceCallback mIncreasingRingVolumeCallback =
+            new IncreasingRingVolumePreferenceCallback();
     @VisibleForTesting
     final Handler mHandler = new Handler(Looper.getMainLooper()) {
         @Override
@@ -73,6 +76,7 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
             switch (msg.what) {
                 case STOP_SAMPLE:
                     mVolumeCallback.stopSample();
+                    mIncreasingRingVolumeCallback.stopSample();
                     break;
             }
         }
@@ -122,6 +126,7 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
     public void onPause() {
         super.onPause();
         mVolumeCallback.stopSample();
+        mIncreasingRingVolumeCallback.stopSample();
     }
 
     @Override
@@ -209,6 +214,11 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
             controller.setCallback(mVolumeCallback);
             getSettingsLifecycle().addObserver(controller);
         }
+
+        IncreasingRingVolumePreferenceController irvpc =
+                use(IncreasingRingVolumePreferenceController.class);
+        irvpc.setCallback(mIncreasingRingVolumeCallback);
+        getLifecycle().addObserver(irvpc);
     }
 
     // === Volumes ===
@@ -218,6 +228,7 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
 
         @Override
         public void onSampleStarting(SeekBarVolumizer sbv) {
+            mIncreasingRingVolumeCallback.stopSample();
             if (mCurrent != null) {
                 mHandler.removeMessages(STOP_SAMPLE);
                 mHandler.sendEmptyMessageDelayed(STOP_SAMPLE, SAMPLE_CUTOFF);
@@ -248,6 +259,26 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
         }
     }
 
+    final class IncreasingRingVolumePreferenceCallback implements
+            IncreasingRingVolumePreference.Callback {
+        private IncreasingRingVolumePreference mPlayingPref;
+
+        @Override
+        public void onSampleStarting(IncreasingRingVolumePreference pref) {
+            mPlayingPref = pref;
+            mVolumeCallback.stopSample();
+            mHandler.removeMessages(STOP_SAMPLE);
+            mHandler.sendEmptyMessageDelayed(STOP_SAMPLE, SAMPLE_CUTOFF);
+        }
+
+        public void stopSample() {
+            if (mPlayingPref != null) {
+                mPlayingPref.stopSample();
+                mPlayingPref = null;
+            }
+        }
+    };
+
     private static List<AbstractPreferenceController> buildPreferenceControllers(Context context,
             SoundSettings fragment, Lifecycle lifecycle) {
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
@@ -256,49 +287,13 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
 
         // === Phone & notification ringtone ===
         controllers.add(new PhoneRingtonePreferenceController(context));
+        controllers.add(new PhoneRingtone2PreferenceController(context));
         controllers.add(new AlarmRingtonePreferenceController(context));
         controllers.add(new NotificationRingtonePreferenceController(context));
-
-        // === Other Sound Settings ===
-        final DialPadTonePreferenceController dialPadTonePreferenceController =
-                new DialPadTonePreferenceController(context, fragment, lifecycle);
-        final ScreenLockSoundPreferenceController screenLockSoundPreferenceController =
-                new ScreenLockSoundPreferenceController(context, fragment, lifecycle);
-        final ChargingSoundPreferenceController chargingSoundPreferenceController =
-                new ChargingSoundPreferenceController(context, fragment, lifecycle);
-        final DockingSoundPreferenceController dockingSoundPreferenceController =
-                new DockingSoundPreferenceController(context, fragment, lifecycle);
-        final TouchSoundPreferenceController touchSoundPreferenceController =
-                new TouchSoundPreferenceController(context, fragment, lifecycle);
-        final DockAudioMediaPreferenceController dockAudioMediaPreferenceController =
-                new DockAudioMediaPreferenceController(context, fragment, lifecycle);
-        final BootSoundPreferenceController bootSoundPreferenceController =
-                new BootSoundPreferenceController(context);
-        final EmergencyTonePreferenceController emergencyTonePreferenceController =
-                new EmergencyTonePreferenceController(context, fragment, lifecycle);
-        final VibrateIconPreferenceController vibrateIconPreferenceController =
-                new VibrateIconPreferenceController(context, fragment, lifecycle);
-
-        controllers.add(dialPadTonePreferenceController);
-        controllers.add(screenLockSoundPreferenceController);
-        controllers.add(chargingSoundPreferenceController);
-        controllers.add(dockingSoundPreferenceController);
-        controllers.add(touchSoundPreferenceController);
-        controllers.add(vibrateIconPreferenceController);
-        controllers.add(dockAudioMediaPreferenceController);
-        controllers.add(bootSoundPreferenceController);
-        controllers.add(emergencyTonePreferenceController);
-        controllers.add(new PreferenceCategoryController(context,
-                "other_sounds_and_vibrations_category").setChildren(
-                Arrays.asList(dialPadTonePreferenceController,
-                        screenLockSoundPreferenceController,
-                        chargingSoundPreferenceController,
-                        dockingSoundPreferenceController,
-                        touchSoundPreferenceController,
-                        vibrateIconPreferenceController,
-                        dockAudioMediaPreferenceController,
-                        bootSoundPreferenceController,
-                        emergencyTonePreferenceController)));
+        controllers.add(new IncreasingRingPreferenceController(context));
+        controllers.add(new IncreasingRingVolumePreferenceController(context));
+        controllers.add(new VibrationPatternPreferenceController(context));
+        controllers.add(new NotificationVibrationPatternPreferenceController(context));
 
         return controllers;
     }

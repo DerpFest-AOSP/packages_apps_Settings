@@ -20,8 +20,32 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="gesture_navigation_settings_page"
-    android:title="@string/gesture_settings_activity_title"
+    android:title="@string/edge_to_edge_navigation_title"
     settings:keywords="@string/keywords_gesture_navigation_settings">
+
+    <Preference
+        android:key="gesture_nav_custom_options"
+        android:title="@string/navbar_gesture_tweaks_pref_title"
+        android:summary="@string/navbar_gesture_tweaks_pref_summary"
+        android:fragment="com.android.settings.gestures.GestureTweaksSettings" />
+
+    <PreferenceCategory
+        android:key="navigation_bar_misc"
+        android:title="@string/navbar_category">
+
+        <org.derpfest.support.preferences.SecureSettingSwitchPreference
+            android:key="navigation_bar_hint"
+            android:title="@string/hide_navbar_gesture_bar_title"
+            android:summary="@string/hide_navbar_gesture_bar_summary"
+            android:defaultValue="false" />
+
+        <org.derpfest.support.preferences.SecureSettingSwitchPreference
+            android:key="keyboard_no_navigation_bar"
+            android:title="@string/keyboard_no_navigation_title"
+            android:summary="@string/keyboard_no_navigation_summary"
+            android:defaultValue="false"
+            android:dependency="navigation_bar_hint" />
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="assistant_gesture_category"
@@ -35,6 +59,48 @@
             settings:controller="com.android.settings.gestures.GestureNavigationSettingsAssistController"
         />
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/navbar_gesture_handle_category">
+
+        <org.derpfest.support.preferences.SecureSettingSwitchPreference
+            android:key="back_gesture_arrow"
+            android:title="@string/back_gesture_arrow_title"
+            android:summary="@string/back_gesture_arrow_summary"
+            android:defaultValue="true" />
+
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="back_gesture_haptic"
+            android:title="@string/back_gesture_haptic_title"
+            android:summary="@string/back_gesture_haptic_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/back_height_category">
+
+        <com.android.settings.widget.LabeledSeekBarPreference
+            android:key="gesture_back_height"
+            android:title="@string/back_height_title"
+            android:summary="@string/back_height_message"
+            android:max="5"
+            android:selectable="true"
+            settings:textStart="@string/back_height_low_label"
+            settings:textEnd="@string/back_height_high_label"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="search_gesture_category"
+        android:persistent="false"
+        android:title="@string/search_gesture_category_title"
+        settings:controller="com.google.android.settings.gestures.GestureNavigationSettingsGoogleSearchController">
+        <SwitchPreference
+            android:key="search_gesture_press_hold"
+            android:summary="@string/search_press_hold_gesture_summary"
+            android:title="@string/search_press_hold_gesture_title"
+            settings:controller="com.google.android.settings.gestures.GestureNavigationSettingsGoogleSearchController"
+            settings:highlightableMenuKey="@string/menu_key_system" />
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -55,12 +121,11 @@
             android:max="2"
             settings:textStart="@string/low_label"
             settings:textEnd="@string/high_label"/>
+
+        <com.android.settingslib.widget.FooterPreference
+            android:key="gesture_navigation_settings_footer"
+            android:title="@string/back_sensitivity_dialog_message"
+            android:selectable="false"
+            settings:searchable="false"/>
     </PreferenceCategory>
-
-    <com.android.settingslib.widget.FooterPreference
-        android:key="gesture_navigation_settings_footer"
-        android:title="@string/back_sensitivity_dialog_message"
-        android:selectable="false"
-        settings:searchable="false"/>
 </PreferenceScreen>
-
