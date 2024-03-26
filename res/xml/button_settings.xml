@@ -10,13 +10,13 @@
         android:key="button_settings"
         android:title="@string/button_pref_title">
 
-    <SwitchPreference
+    <SwitchPreferenceCompat
         android:key="disable_nav_keys"
         android:title="@string/disable_navkeys_title"
         android:summary="@string/disable_navkeys_summary"
         android:defaultValue="false" />
 
-    <SwitchPreference
+    <SwitchPreferenceCompat
         android:key="swap_capacitive_keys"
         android:title="@string/swap_capacitive_keys_title"
         android:summary="@string/swap_capacitive_keys_summary"
@@ -32,7 +32,7 @@
         android:key="navigation_bar_category"
         android:title="@string/navigation_bar_category" >
 
-        <SwitchPreference
+        <SwitchPreferenceCompat
                 android:key="enable_taskbar"
                 android:title="@string/navigation_bar_enable_taskbar_title" />
 
@@ -106,7 +106,7 @@
             android:summary="@string/lockscreen_enable_power_menu_summary"
             android:defaultValue="true" />
 
-        <SwitchPreference
+        <SwitchPreferenceCompat
             android:key="power_end_call"
             android:title="@string/power_end_call_title"
             android:summary="@string/power_end_call_summary"
@@ -139,7 +139,7 @@
             android:title="@string/button_wake_title"
             android:defaultValue="true" />
 
-        <SwitchPreference
+        <SwitchPreferenceCompat
             android:key="home_answer_call"
             android:title="@string/home_answer_call_title"
             android:summary="@string/home_answer_call_summary"
@@ -315,12 +315,12 @@
             android:entryValues="@array/volbtn_cursor_control_values"
             android:persistent="false" />
 
-        <SwitchPreference
+        <SwitchPreferenceCompat
             android:key="swap_volume_buttons"
             android:title="@string/swap_volume_buttons_title"
             android:summary="@string/swap_volume_buttons_summary" />
 
-        <SwitchPreference
+        <SwitchPreferenceCompat
             android:key="volume_panel_on_left"
             android:title="@string/volume_panel_on_left_title"
             android:summary="@string/volume_panel_on_left_summary" />

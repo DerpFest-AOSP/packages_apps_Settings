@@ -35,7 +35,7 @@
         settings:searchable="false"
         settings:controller="com.android.settings.security.applock.AppLockTimeoutPreferenceController" />
 
-    <SwitchPreference
+    <SwitchPreferenceCompat
         android:key="app_lock_biometrics_allowed"
         android:title="@string/app_lock_biometrics_allowed_title"
         settings:searchable="false"
