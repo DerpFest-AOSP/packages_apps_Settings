@@ -51,10 +51,6 @@
         android:entries="@array/wifi_tether_auto_turn_off_entries"
         android:entryValues="@array/wifi_tether_auto_turn_off_values" />
 
-    <ListPreference
-        android:key="wifi_tether_network_ap_band"
-        android:title="@string/wifi_hotspot_ap_band_title"/>
-
     <Preference
         android:key="wifi_hotspot_speed"
         android:title="@string/wifi_hotspot_speed_title"
