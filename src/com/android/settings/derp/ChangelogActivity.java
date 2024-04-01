@@ -1,5 +1,6 @@
 /*
 * Copyright (C) 2016 The NitrogenOS Project
+* Copyright (C) 2024 DerpFest
 *
 * This program is free software: you can redistribute it and/or modify
 * it under the terms of the GNU General Public License as published by
@@ -20,14 +21,13 @@ package com.android.settings.derp;
 
 import android.os.Bundle;
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
-import com.android.settingslib.widget.R;
 
 public class ChangelogActivity extends CollapsingToolbarBaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getFragmentManager().beginTransaction()
-                .replace(R.id.content_frame, new ChangelogFragment())
-                .commit();
+        getFragmentManager().beginTransaction().replace(
+                com.android.settingslib.collapsingtoolbar.R.id.content_frame,
+                new ChangelogFragment()).commit();
     }
 }
