@@ -72,6 +72,14 @@ public class AdbRootPreferenceController extends DeveloperOptionsPreferenceContr
     }
 
     @Override
+    protected void onDeveloperOptionsSwitchDisabled() {
+        super.onDeveloperOptionsSwitchDisabled();
+
+        mADBRootService.setEnabled(false);
+        ((SwitchPreferenceCompat) mPreference).setChecked(false);
+    }
+
+    @Override
     protected void onDeveloperOptionsSwitchEnabled() {
         if (isAdminUser()) {
             mPreference.setEnabled(true);
