@@ -52,7 +52,7 @@ class AppLockPackageListFragment : DashboardFragment() {
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
-        appLockManager = context.getSystemService(AppLockManager::class.java)
+        appLockManager = context.getSystemService(AppLockManager::class.java)!!
         pm = context.packageManager
         whiteListedPackages = resources.getStringArray(
             com.android.internal.R.array.config_appLockAllowedSystemApps)
@@ -66,8 +66,8 @@ class AppLockPackageListFragment : DashboardFragment() {
                 pm.getInstalledPackages(
                     PackageInfoFlags.of(PackageManager.MATCH_ALL.toLong())
                 ).filter {
-                    !(it.applicationInfo?.isSystemApp() == true)
-                        || whiteListedPackages.contains(it.packageName)
+                    !((it.applicationInfo?.isSystemApp ?: false)
+                        || whiteListedPackages.contains(it.packageName))
                 }.sortedWith { first, second ->
                     getLabel(first).compareTo(getLabel(second))
                 }
@@ -101,7 +101,7 @@ class AppLockPackageListFragment : DashboardFragment() {
     }
 
     private fun getLabel(packageInfo: PackageInfo) =
-        packageInfo.applicationInfo?.loadLabel(pm).toString()
+        packageInfo.applicationInfo?.loadLabel(pm)?.toString() ?: ""
 
     private fun createPreference(packageInfo: PackageInfo, isProtected: Boolean): Preference {
         val label = getLabel(packageInfo)

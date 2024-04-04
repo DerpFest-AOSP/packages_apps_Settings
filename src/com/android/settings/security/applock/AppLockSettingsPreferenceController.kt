@@ -55,7 +55,7 @@ class AppLockSettingsPreferenceController(
     LifecycleEventObserver {
 
     private val lockPatternUtils = LockPatternUtils(context)
-    private val appLockManager = context.getSystemService(AppLockManager::class.java)
+    private val appLockManager = context.getSystemService(AppLockManager::class.java)!!
     private var preference: Preference? = null
     private val securityPromptLauncher: ActivityResultLauncher<Intent>?
 

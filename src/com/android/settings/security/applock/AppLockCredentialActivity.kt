@@ -100,7 +100,7 @@ class AppLockCredentialActivity : FragmentActivity() {
             statusBarColor = Color.TRANSPARENT
         }
 
-        appLockManager = getSystemService(AppLockManager::class.java)
+        appLockManager = getSystemService(AppLockManager::class.java)!!
         userManager = UserManager.get(this)
         lockPatternUtils = LockPatternUtils(this)
 
