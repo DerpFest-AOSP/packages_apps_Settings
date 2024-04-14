@@ -100,6 +100,15 @@
         android:summary="@string/status_bar_toggle_brightness_summary"
         android:defaultValue="false"/>
 
+    <org.derpfest.support.preferences.SystemSettingListPreference
+        android:key="qs_quick_pulldown"
+        android:title="@string/status_bar_quick_qs_pulldown_title"
+        android:dialogTitle="@string/status_bar_quick_qs_pulldown_title"
+        android:summary="%s"
+        android:entries="@array/status_bar_quick_qs_pulldown_entries"
+        android:entryValues="@array/status_bar_quick_qs_pulldown_values"
+        android:defaultValue="0" />
+
      <Preference
         android:key="double_tap"
         android:fragment="com.android.settings.gestures.DoubleTapAmbientSettings"

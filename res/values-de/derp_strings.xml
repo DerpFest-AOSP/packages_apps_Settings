@@ -874,4 +874,13 @@
     <!-- Media player settings -->
     <string name="media_controls_always_show_time_title">Zeit immer anzeigen</string>
     <string name="media_controls_always_show_time_summary">Immer die vergangene Zeit und die Gesamtzeit auf dem Mediaplayer anzeigen</string>
+
+    <!-- Quick Settings quick pulldown -->
+    <string name="status_bar_quick_qs_pulldown_title">Schnelles Öffnen</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Herunterziehen der Benachrichtigungsleiste am %1$s Rand öffnet die Schnelleinstellungen</string>
+    <string name="status_bar_quick_qs_pulldown_summary_left">linken</string>
+    <string name="status_bar_quick_qs_pulldown_summary_right">rechten</string>
+    <string name="status_bar_quick_qs_pulldown_off">Aus</string>
+    <string name="status_bar_quick_qs_pulldown_left">Links</string>
+    <string name="status_bar_quick_qs_pulldown_right">Rechts</string>
 </resources>
