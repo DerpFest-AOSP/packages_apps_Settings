@@ -920,4 +920,11 @@
     <string name="gesture_nav_tweaks_footer_info">Um eine bestimmte App-Aktivität für die Aktion auszuwählen, drücke lange auf eine App in der Apps-Auswahl.\n\nWenn der Launcher angezeigt wird, wische ganz unten auf dem Bildschirmrand, um die Aktion auszulösen.</string>
     <string name="back_swipe_extended_title">Erweiterte Wischgeste</string>
     <string name="back_swipe_extended_summary">Aktion auslösen bei langem Wischen (mehr als die Hälfte des Bildschirms) oder einem L-Wischen (lange vertikal)</string>
+
+    <!-- How device should react to lid events -->
+    <string name="lid_behavior_title">Smart-Cover-Modus</string>
+    <string name="lid_behavior_summary">Verhalten des Geräts beim Öffnen/Schließen der Abdeckung</string>
+    <string name="lid_behavior_none">Nichts tun</string>
+    <string name="lid_behavior_lock">Sperren/Entsperren</string>
+    <string name="lid_behavior_sleep">Schlafen/Aufwecken</string>
 </resources>

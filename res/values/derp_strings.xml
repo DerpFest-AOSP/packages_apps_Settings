@@ -966,4 +966,11 @@
     <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the app picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
     <string name="back_swipe_extended_title">Extended swipe action</string>
     <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
+
+    <!-- How device should react to lid events -->
+    <string name="lid_behavior_title">Smart cover</string>
+    <string name="lid_behavior_summary">Control device behavior when cover is opened/closed</string>
+    <string name="lid_behavior_none">None</string>
+    <string name="lid_behavior_lock">Lock/Unlock</string>
+    <string name="lid_behavior_sleep">Sleep/Wake</string>
 </resources>
