@@ -712,4 +712,11 @@
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Flag für sichere Fenster ignorieren</string>
     <string name="ignore_window_secure_summary">Entfernt Screenshot- und Screenrecord-Limits für alle Apps. Dies kann in einigen Fällen bequem sein, kann aber zu Datenschutzlecks führen.</string>
+
+    <!-- How device should react to lid events -->
+    <string name="lid_behavior_title">Smart-Cover-Modus</string>
+    <string name="lid_behavior_summary">Verhalten des Geräts beim Öffnen/Schließen der Abdeckung</string>
+    <string name="lid_behavior_none">Nichts tun</string>
+    <string name="lid_behavior_lock">Sperren/Entsperren</string>
+    <string name="lid_behavior_sleep">Schlafen/Aufwecken</string>
 </resources>

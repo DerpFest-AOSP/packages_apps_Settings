@@ -775,4 +775,11 @@
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignore window secure flags</string>
     <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
+
+    <!-- How device should react to lid events -->
+    <string name="lid_behavior_title">Smart cover</string>
+    <string name="lid_behavior_summary">Control device behavior when cover is opened/closed</string>
+    <string name="lid_behavior_none">None</string>
+    <string name="lid_behavior_lock">Lock/Unlock</string>
+    <string name="lid_behavior_sleep">Sleep/Wake</string>
 </resources>
