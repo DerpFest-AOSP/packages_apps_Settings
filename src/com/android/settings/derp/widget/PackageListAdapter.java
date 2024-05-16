@@ -1,18 +1,7 @@
 /*
- * Copyright (C) 2012-2014 The CyanogenMod Project
- *               2022 The LineageOS Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * SPDX-FileCopyrightText: 2012-2014 The CyanogenMod Project
+ * SPDX-FileCopyrightText: 2022-2023 The LineageOS Project
+ * SPDX-License-Identifier: Apache-2.0
  */
 
 package com.android.settings.derp.widget;
@@ -123,7 +112,7 @@ public class PackageListAdapter extends BaseAdapter implements Runnable {
         if (convertView != null) {
             holder = (ViewHolder) convertView.getTag();
         } else {
-            convertView = mInflater.inflate(R.layout.preference_icon_derp, null, false);
+            convertView = mInflater.inflate(R.layout.preference_icon, null, false);
             holder = new ViewHolder();
             convertView.setTag(holder);
             holder.title = convertView.findViewById(com.android.internal.R.id.title);
@@ -161,7 +150,8 @@ public class PackageListAdapter extends BaseAdapter implements Runnable {
     public void run() {
         final Intent mainIntent = new Intent(Intent.ACTION_MAIN, null);
         mainIntent.addCategory(Intent.CATEGORY_LAUNCHER);
-        List<ResolveInfo> installedAppsInfo = mPm.queryIntentActivities(mainIntent, 0);
+        List<ResolveInfo> installedAppsInfo = mPm.queryIntentActivities(mainIntent,
+                PackageManager.ResolveInfoFlags.of(0));
 
         for (ResolveInfo info : installedAppsInfo) {
             ApplicationInfo appInfo = info.activityInfo.applicationInfo;
@@ -180,7 +170,8 @@ public class PackageListAdapter extends BaseAdapter implements Runnable {
                 continue;
             }
             try {
-                ApplicationInfo appInfo = mPm.getApplicationInfo(packageName, 0);
+                ApplicationInfo appInfo = mPm.getApplicationInfo(packageName,
+                        PackageManager.ApplicationInfoFlags.of(0));
                 final PackageItem item = new PackageItem(appInfo.packageName,
                         appInfo.loadLabel(mPm), appInfo.loadIcon(mPm));
                 mHandler.obtainMessage(0, item).sendToTarget();
