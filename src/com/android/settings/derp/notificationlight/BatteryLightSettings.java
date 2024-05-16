@@ -1,18 +1,7 @@
 /*
- * Copyright (C) 2012 The CyanogenMod Project
- *               2017-2022 The LineageOS Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * SPDX-FileCopyrightText: 2012 The CyanogenMod Project
+ * SPDX-FileCopyrightText: 2017-2023 The LineageOS Project
+ * SPDX-License-Identifier: Apache-2.0
  */
 
 package com.android.settings.derp.notificationlight;
@@ -22,30 +11,36 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.provider.Settings;
+import android.util.ArraySet;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import androidx.fragment.app.DialogFragment;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceScreen;
 
-import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.internal.derp.notification.LightsCapabilities;
+import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
+
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.derp.preference.CustomDialogPreference;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.SearchIndexable;
 
 import org.derpfest.support.preferences.SystemSettingMainSwitchPreference;
 import org.derpfest.support.preferences.SystemSettingSwitchPreference;
 
-import java.util.UUID;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
 
+@SearchIndexable
 public class BatteryLightSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
     private static final String TAG = "BatteryLightSettings";
 
+    private static final String KEY_BATTERY_LIGHTS = "battery_lights";
     private static final String GENERAL_SECTION = "general_section";
     private static final String COLORS_SECTION = "colors_list";
     private static final String BRIGHTNESS_SECTION = "brightness_section";
@@ -79,7 +74,7 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        final Context context = getContext();
+        final Context context = requireContext();
         final Resources res = getResources();
 
         // Collect battery led capabilities.
@@ -94,7 +89,7 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
                 LightsCapabilities.LIGHTS_SEGMENTED_BATTERY_LED);
 
         addPreferencesFromResource(R.xml.battery_light_settings);
-        getActivity().getActionBar().setTitle(R.string.battery_light_title);
+        requireActivity().getActionBar().setTitle(R.string.battery_light_title);
 
         PreferenceScreen prefSet = getPreferenceScreen();
 
@@ -164,8 +159,7 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
     }
 
     private void refreshColors() {
-        ContentResolver resolver = getActivity().getContentResolver();
-        Resources res = getResources();
+        ContentResolver resolver = requireActivity().getContentResolver();
 
         if (mLowColorPref != null) {
             int lowColor = Settings.System.getInt(resolver,
@@ -203,18 +197,21 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
      * @param key of the specific setting to update
      */
     protected void updateValues(String key, Integer color) {
-        ContentResolver resolver = getActivity().getContentResolver();
-
-        if (key.equals(LOW_COLOR_PREF)) {
-            Settings.System.putInt(resolver,
-                    Settings.System.BATTERY_LIGHT_LOW_COLOR, color);
-        } else if (key.equals(MEDIUM_COLOR_PREF)) {
-            Settings.System.putInt(resolver,
-                    Settings.System.BATTERY_LIGHT_MEDIUM_COLOR, color);
-        } else if (key.equals(FULL_COLOR_PREF)) {
-            Settings.System.putInt(resolver,
-                    Settings.System.BATTERY_LIGHT_FULL_COLOR, color);
-            updateBrightnessPrefColor(color);
+        ContentResolver resolver = requireActivity().getContentResolver();
+        switch (key) {
+            case LOW_COLOR_PREF:
+                Settings.System.putInt(resolver,
+                        Settings.System.BATTERY_LIGHT_LOW_COLOR, color);
+                break;
+            case MEDIUM_COLOR_PREF:
+                Settings.System.putInt(resolver,
+                        Settings.System.BATTERY_LIGHT_MEDIUM_COLOR, color);
+                break;
+            case FULL_COLOR_PREF:
+                Settings.System.putInt(resolver,
+                        Settings.System.BATTERY_LIGHT_FULL_COLOR, color);
+                updateBrightnessPrefColor(color);
+                break;
         }
     }
 
@@ -240,7 +237,7 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
     }
 
     protected void resetColors() {
-        ContentResolver resolver = getActivity().getContentResolver();
+        ContentResolver resolver = requireActivity().getContentResolver();
 
         // Reset to the framework default colors
         Settings.System.putInt(resolver, Settings.System.BATTERY_LIGHT_LOW_COLOR,
@@ -280,22 +277,43 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
         return MetricsEvent.DERP;
     }
 
-    @Override
-    public void onDisplayPreferenceDialog(Preference preference) {
-        if (preference.getKey() == null) {
-            // Auto-key preferences that don't have a key, so the dialog can find them.
-            preference.setKey(UUID.randomUUID().toString());
+    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider(R.xml.battery_light_settings) {
+
+        @Override
+        public List<String> getNonIndexableKeys(Context context) {
+            final List<String> result = new ArrayList<>();
+
+            if (!LightsCapabilities.supports(context, LightsCapabilities.LIGHTS_BATTERY_LED)) {
+                result.add(KEY_BATTERY_LIGHTS);
+                result.add(LIGHT_ENABLED_PREF);
+                result.add(GENERAL_SECTION);
+                result.add(LIGHT_FULL_CHARGE_DISABLED_PREF);
+                result.add(COLORS_SECTION);
+                result.add(LOW_COLOR_PREF);
+                result.add(MEDIUM_COLOR_PREF);
+                result.add(FULL_COLOR_PREF);
+            } else if (LightsCapabilities.supports(context,
+                    LightsCapabilities.LIGHTS_RGB_BATTERY_LED)) {
+                result.add(LIGHT_FULL_CHARGE_DISABLED_PREF);
+            } else {
+                result.add(COLORS_SECTION);
+                result.add(LOW_COLOR_PREF);
+                result.add(MEDIUM_COLOR_PREF);
+                result.add(FULL_COLOR_PREF);
+            }
+            if (!LightsCapabilities.supports(context,
+                    LightsCapabilities.LIGHTS_ADJUSTABLE_BATTERY_LED_BRIGHTNESS)) {
+                result.add(BRIGHTNESS_SECTION);
+                result.add(BRIGHTNESS_PREFERENCE);
+                result.add(BRIGHTNESS_ZEN_PREFERENCE);
+            }
+            if (!LightsCapabilities.supports(context, LightsCapabilities.LIGHTS_PULSATING_LED) ||
+                    LightsCapabilities.supports(context,
+                            LightsCapabilities.LIGHTS_SEGMENTED_BATTERY_LED)) {
+                result.add(PULSE_ENABLED_PREF);
+            }
+            return result;
         }
-        DialogFragment f = null;
-        if (preference instanceof CustomDialogPreference) {
-            f = CustomDialogPreference.CustomPreferenceDialogFragment
-                    .newInstance(preference.getKey());
-        } else {
-            super.onDisplayPreferenceDialog(preference);
-            return;
-        }
-        f.setTargetFragment(this, 0);
-        f.show(getFragmentManager(), "dialog_preference");
-        onDialogShowing();
-    }
+    };
 }
