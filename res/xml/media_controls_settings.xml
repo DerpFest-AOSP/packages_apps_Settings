@@ -45,6 +45,14 @@
         android:summary="@string/media_controls_always_show_time_summary"
         android:defaultValue="false" />
 
+    <org.derpfest.support.preferences.SecureSettingSeekBarPreference
+        android:key="media_controls_actions"
+        android:title="@string/media_controls_actions_title"
+        android:summary="@string/media_controls_actions_summary"
+        android:max="5"
+        android:min="0"
+        android:defaultValue="5" />
+
     <org.derpfest.support.preferences.SecureSettingSwitchPreference
         android:key="media_controls_squiggle"
         android:title="@string/media_controls_squiggle_title"
