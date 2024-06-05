@@ -915,6 +915,8 @@
     <!-- Media player settings -->
     <string name="media_controls_always_show_time_title">Always show time</string>
     <string name="media_controls_always_show_time_summary">Always show passed and total time on media player</string>
+    <string name="media_controls_time_as_next_title">Time as next / previous</string>
+    <string name="media_controls_time_as_next_summary">Hide the next / previous buttons and use the always shown time for that instead</string>
     <string name="media_controls_squiggle_title">Show squiggle animation</string>
     <string name="media_controls_squiggle_summary">Show squiggle animation in media player</string>
     <string name="media_controls_actions_title">Custom actions limit</string>
