@@ -871,6 +871,8 @@
     <!-- Media player settings -->
     <string name="media_controls_always_show_time_title">Zeit immer anzeigen</string>
     <string name="media_controls_always_show_time_summary">Immer die vergangene Zeit und die Gesamtzeit auf dem Mediaplayer anzeigen</string>
+    <string name="media_controls_time_as_next_title">Zeit anstelle Weiter / Zurück</string>
+    <string name="media_controls_time_as_next_summary">Die Schaltflächen Weiter / Zurück ausblenden und stattdessen die immer angezeigte Zeit verwenden</string>
     <string name="media_controls_squiggle_title">Schnörkelanimation anzeigen</string>
     <string name="media_controls_squiggle_summary">Schnörkelanimation im Mediaplayer anzeigen</string>
     <string name="media_controls_actions_title">Limit für benutzerdefinierte Aktionen</string>
