@@ -15,9 +15,9 @@
      limitations under the License.
 -->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+	    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
     <RelativeLayout
             android:layout_width="match_parent"
@@ -38,7 +38,7 @@
                 android:layout_alignParentRight="true"
                 android:paddingTop="10dip" />
         <com.android.settings.derp.widget.IntervalSeekBar
-            android:id="@+id/color_red_seekbar"
+                android:id="@+id/color_red_seekbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/color_red_text"
@@ -61,7 +61,7 @@
                 android:layout_alignParentRight="true"
                 android:paddingTop="10dip" />
         <com.android.settings.derp.widget.IntervalSeekBar
-            android:id="@+id/color_green_seekbar"
+                android:id="@+id/color_green_seekbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/color_green_text"
@@ -84,7 +84,7 @@
                 android:layout_alignParentRight="true"
                 android:paddingTop="10dip" />
         <com.android.settings.derp.widget.IntervalSeekBar
-            android:id="@+id/color_blue_seekbar"
+                android:id="@+id/color_blue_seekbar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/color_blue_text"

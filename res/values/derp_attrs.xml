@@ -4,6 +4,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
+    <!-- Interval seekbar -->
     <declare-styleable name="IntervalSeekBar">
         <attr name="minValue" format="float" />
         <attr name="maxValue" format="float" />

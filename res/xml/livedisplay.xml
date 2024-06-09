@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2015 The CyanogenMod Project
-                   2018-2019 The LineageOS Project
+                   2018 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@
 
     <!-- Color mode preview -->
     <com.android.settingslib.widget.LayoutPreference
-        android:key="live_display_preview"
+        android:key="color_mode_preview"
         android:layout="@layout/color_mode_preview"
         android:selectable="false" />
 
@@ -67,7 +67,7 @@
 
     <PreferenceCategory
             android:key="advanced"
-            android:title="@string/advanced">
+            android:title="@string/advanced_settings">
 
         <!-- RGB display color adjustments -->
         <com.android.settings.derp.livedisplay.DisplayColor

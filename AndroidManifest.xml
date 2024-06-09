@@ -4809,6 +4809,21 @@
             </intent-filter>
         </activity>
 
+       <!-- LiveDisplay -->
+        <activity
+            android:name="Settings$LiveDisplaySettingsActivity"
+            android:label="@*android:string/live_display_title"
+            android:parentActivityName="Settings"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true">
+            <intent-filter android:priority="1">
+                <action android:name="com.android.settings.LIVEDISPLAY_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.derp.livedisplay.LiveDisplaySettings" />
+        </activity>
+
         <provider android:name=".slices.SettingsSliceProvider"
                   android:authorities="${applicationId}.slices;android.settings.slices"
                   android:exported="true"
