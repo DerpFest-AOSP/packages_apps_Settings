@@ -1,6 +1,5 @@
 /*
  * Copyright (C) 2013-2015 The CyanogenMod Project
- *               2021-2022 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,6 +16,7 @@
 
 package com.android.settings.derp.livedisplay;
 
+import androidx.appcompat.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Parcel;
@@ -25,8 +25,6 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.SeekBar;
 import android.widget.TextView;
-
-import androidx.appcompat.app.AlertDialog;
 
 import com.android.settings.derp.preference.CustomDialogPreference;
 import com.android.settings.derp.widget.IntervalSeekBar;
@@ -65,19 +63,18 @@ public class DisplayColor extends CustomDialogPreference<AlertDialog> {
         super(context, attrs);
 
         mContext = context;
-        mLiveDisplay = mContext.getSystemService(LiveDisplayManager.class);
+        mLiveDisplay = LiveDisplayManager.getInstance(mContext);
 
         setDialogLayoutResource(R.layout.display_color_calibration);
     }
 
     @Override
-    protected void onPrepareDialogBuilder(AlertDialog.Builder builder,
-            DialogInterface.OnClickListener listener) {
+    protected void onPrepareDialogBuilder(AlertDialog.Builder builder, DialogInterface.OnClickListener listener) {
         super.onPrepareDialogBuilder(builder, listener);
 
-        builder.setNeutralButton(R.string.reset, null);
-        builder.setNegativeButton(R.string.cancel, null);
-        builder.setPositiveButton(R.string.dlg_ok, null);
+        builder.setNeutralButton(com.android.internal.R.string.reset, null);
+        builder.setPositiveButton(com.android.internal.R.string.ok, null);
+        builder.setNegativeButton(com.android.internal.R.string.cancel, null);
     }
 
     @Override

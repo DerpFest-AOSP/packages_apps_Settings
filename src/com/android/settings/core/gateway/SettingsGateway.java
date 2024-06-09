@@ -205,6 +205,8 @@ import com.android.settings.derp.tether.WifiTetherClientManager;
 
 import org.derpfest.derpspace.DerpSpace;
 
+import com.android.settings.derp.livedisplay.LiveDisplaySettings;
+
 public class SettingsGateway {
 
     /**
@@ -395,7 +397,8 @@ public class SettingsGateway {
             VibrationIntensitySettingsFragment.class.getName(),
             DerpSpace.class.getName(),
             RunningServices.class.getName(),
-            WifiTetherClientManager.class.getName()
+            WifiTetherClientManager.class.getName(),
+            LiveDisplaySettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

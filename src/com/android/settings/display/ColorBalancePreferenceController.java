@@ -40,15 +40,9 @@ public class ColorBalancePreferenceController extends SliderPreferenceController
 
     @Override
     public int getAvailabilityStatus() {
-        boolean isColorTransformAccelerated = ColorDisplayManager.isColorTransformAccelerated(mContext);
-        boolean isLiveDisplayEnabled = mContext.getResources().getBoolean(com.android.internal.R.bool.config_enableLiveDisplay);
-    
-        if (isColorTransformAccelerated && !isLiveDisplayEnabled) {
-            return AVAILABLE;
-        } else {
-            return UNSUPPORTED_ON_DEVICE;
-        }
-    }  
+        return ColorDisplayManager.isColorTransformAccelerated(mContext) ?
+                AVAILABLE : UNSUPPORTED_ON_DEVICE;
+    }
 
     @Override
     public boolean isSliceable() {
