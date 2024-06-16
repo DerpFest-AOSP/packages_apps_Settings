@@ -716,10 +716,6 @@
     <string name="color_mode_balance_blue">Stärke des Blautons</string>
     <string name="keywords_color_balance">Farbe, Farbbalance, Farbkorrektur, Rot, Grün, Blau, LiveDisplay</string>
 
-    <!-- Smart 5G -->
-    <string name="smart_5g_title">Smart 5G</string>
-    <string name="smart_5g_summary">Automatisch zwischen 5G und 4G wechseln, um den Batterieverbrauch zu reduzieren</string>
-
     <!-- Doze on double tap -->
     <string name="double_tap_title">Doppelt Tippen</string>
     <string name="doze_double_tap_title">Doppelt tippen, um einen schnellen Blick auf das Smartphone-Display zu werfen</string>
