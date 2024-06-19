@@ -238,4 +238,10 @@
     <string name="misc_vibration_category_title">Additional vibration options</string>
     <string name="touch_haptic_title">Misc settings for haptic feedback</string>
     <string name="touch_haptic_summary">Customize haptic feedback for system widgets</string>
+
+    <!-- Slider haptics -->
+    <string name="volume_panel_haptics_title">Volume panel</string>
+    <string name="volume_panel_haptics_summary">Whether to enable volume panel haptic feedbacks</string>
+    <string name="brightness_slider_haptics_title">Brightness slider</string>
+    <string name="brightness_slider_haptics_summary">Whether to enable haptic feedbacks when changing the brightness</string>
 </resources>

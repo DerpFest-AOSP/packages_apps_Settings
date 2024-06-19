@@ -218,4 +218,10 @@
     <string name="misc_vibration_category_title">Weitere Einstellungen</string>
     <string name="touch_haptic_title">Weitere Einstellungen für Haptisches Feedback</string>
     <string name="touch_haptic_summary">Anpassen der haptischen Rückmeldung für System-Widgets</string>
+
+    <!-- Slider haptics -->
+    <string name="volume_panel_haptics_title">Lautstärke-Schieberegler</string>
+    <string name="volume_panel_haptics_summary">Haptisches Feedback bei Lautstärkeregelung mithilfe des Schiebereglers</string>
+    <string name="brightness_slider_haptics_title">Helligkeitsregelung</string>
+    <string name="brightness_slider_haptics_summary">Haptisches Feedback bei Helligkeitsregelung mithilfe des Schiebereglers</string>
 </resources>
