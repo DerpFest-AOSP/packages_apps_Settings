@@ -4,4 +4,16 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/misc_vibration_category_title" >
 
+    <org.derpfest.support.preferences.SystemSettingSwitchPreference
+        android:key="brightness_slider_haptics"
+        android:title="@string/brightness_slider_haptics_title"
+        android:summary="@string/brightness_slider_haptics_summary"
+        android:defaultValue="true" />
+
+    <org.derpfest.support.preferences.SystemSettingSwitchPreference
+        android:key="volume_panel_haptics"
+        android:title="@string/volume_panel_haptics_title"
+        android:summary="@string/volume_panel_haptics_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
