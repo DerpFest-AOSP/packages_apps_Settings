@@ -1006,4 +1006,10 @@
     <!-- App data usage Datura Firewall link -->
     <string name="data_usage_app_datura_firewall">Datura Firewall</string>
     <string name="data_usage_app_datura_firewall_summary">Firewall settings have been moved to the new Firewall app. Tap to open.</string>
+
+    <!-- Slider haptics -->
+    <string name="volume_panel_haptics_title">Volume panel</string>
+    <string name="volume_panel_haptics_summary">Whether to enable volume panel haptic feedbacks</string>
+    <string name="brightness_slider_haptics_title">Brightness slider</string>
+    <string name="brightness_slider_haptics_summary">Whether to enable haptic feedbacks when changing the brightness</string>
 </resources>

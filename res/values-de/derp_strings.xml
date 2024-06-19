@@ -956,4 +956,10 @@
     <!-- App data usage Datura Firewall link -->
     <string name="data_usage_app_datura_firewall">Datura Firewall</string>
     <string name="data_usage_app_datura_firewall_summary">Firewall-Einstellungen wurden in die neue Firewall-App verschoben. Zum Öffnen antippen.</string>
+
+    <!-- Slider haptics -->
+    <string name="volume_panel_haptics_title">Lautstärke-Schieberegler</string>
+    <string name="volume_panel_haptics_summary">Haptisches Feedback bei Lautstärkeregelung mithilfe des Schiebereglers</string>
+    <string name="brightness_slider_haptics_title">Helligkeitsregelung</string>
+    <string name="brightness_slider_haptics_summary">Haptisches Feedback bei Helligkeitsregelung mithilfe des Schiebereglers</string>
 </resources>
