@@ -29,6 +29,18 @@
         android:summary="@string/haptic_on_slider_summary" />
 
     <org.derpfest.support.preferences.SystemSettingSwitchPreference
+        android:key="brightness_slider_haptics"
+        android:title="@string/brightness_slider_haptics_title"
+        android:summary="@string/brightness_slider_haptics_summary"
+        android:defaultValue="true" />
+
+    <org.derpfest.support.preferences.SystemSettingSwitchPreference
+        android:key="volume_panel_haptics"
+        android:title="@string/volume_panel_haptics_title"
+        android:summary="@string/volume_panel_haptics_summary"
+        android:defaultValue="true" />
+
+    <org.derpfest.support.preferences.SystemSettingSwitchPreference
         android:defaultValue="true"
         android:key="haptic_on_volume_keys"
         android:title="@string/haptic_on_volume_keys_title"

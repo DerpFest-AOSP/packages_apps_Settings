@@ -949,4 +949,10 @@
     <string name="adj_saturation_title">Sättigung</string>
     <string name="adj_intensity_title">Leuchtdichte</string>
     <string name="adj_contrast_title">Kontrast</string>
+
+    <!-- Slider haptics -->
+    <string name="volume_panel_haptics_title">Lautstärke-Schieberegler</string>
+    <string name="volume_panel_haptics_summary">Haptisches Feedback bei Lautstärkeregelung mithilfe des Schiebereglers</string>
+    <string name="brightness_slider_haptics_title">Helligkeitsregelung</string>
+    <string name="brightness_slider_haptics_summary">Haptisches Feedback bei Helligkeitsregelung mithilfe des Schiebereglers</string>
 </resources>

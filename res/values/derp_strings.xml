@@ -1002,4 +1002,10 @@
     <!-- Long press navbar to search -->
     <string name="navbar_long_press_gesture_title">Long press to search</string>
     <string name="navbar_long_press_gesture_summary">Long press the gesture bar to analyze the screen with lens</string>
+
+    <!-- Slider haptics -->
+    <string name="volume_panel_haptics_title">Volume panel</string>
+    <string name="volume_panel_haptics_summary">Whether to enable volume panel haptic feedbacks</string>
+    <string name="brightness_slider_haptics_title">Brightness slider</string>
+    <string name="brightness_slider_haptics_summary">Whether to enable haptic feedbacks when changing the brightness</string>
 </resources>
