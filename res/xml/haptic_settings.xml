@@ -52,9 +52,4 @@
         android:title="@string/haptic_on_power_menu_title"
         android:summary="@string/haptic_on_power_menu_summary" />
 
-    <com.android.settingslib.widget.FooterPreference
-        android:key="footer_preference"
-        android:title="@string/touch_haptic_footer"
-        android:selectable="false" />
-
 </PreferenceScreen>
