@@ -308,7 +308,7 @@ public class SeekBarPreference extends RestrictedPreference
                     case HAPTIC_FEEDBACK_MODE_ON_TICKS:
                         int duration = 100;
                         if (progress != mMin && progress != mMax && mMin != mMax) {
-                            duration = (int) (1 + 48 * (progress - mMin) / (mMax - mMin));
+                            duration = (int) (1 + 79 * (progress - mMin) / (mMax - mMin));
                         }
                         mVibratorHelper.vibrateForDuration(duration);
                         break;
