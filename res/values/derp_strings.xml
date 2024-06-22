@@ -915,6 +915,8 @@
     <!-- Media player settings -->
     <string name="media_controls_always_show_time_title">Always show time</string>
     <string name="media_controls_always_show_time_summary">Always show passed and total time on media player</string>
+    <string name="media_controls_squiggle_title">Show squiggle animation</string>
+    <string name="media_controls_squiggle_summary">Show squiggle animation in media player</string>
 
     <!-- Quick Settings quick pulldown -->
     <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
@@ -998,10 +1000,6 @@
     <!-- Navbar -->
     <string name="navbar_tuner_title">Navbar tuner</string>
     <string name="navbar_tuner_summary">Customize your navbar layout</string>
-
-    <!-- Squiggle animation -->
-    <string name="show_squiggle_animation_title">Show squiggle animation</string>
-    <string name="show_squiggle_animation_summary">Show squiggle animation in media player. You must either change the track, pause playback, or move the progress bar for this setting to take effect.</string>
 
     <!-- App data usage Datura Firewall link -->
     <string name="data_usage_app_datura_firewall">Datura Firewall</string>

@@ -1,4 +1,5 @@
 package {
+    default_team: "trendy_team_android_settings_app",
     default_applicable_licenses: ["packages_apps_Settings_license"],
 }
 
@@ -23,8 +24,8 @@ java_library {
 genrule {
     name: "statslog-settings-java-gen",
     tools: ["stats-log-api-gen"],
-    cmd: "$(location stats-log-api-gen) --java $(out) --module settings"
-        + " --javaPackage com.android.settings.core.instrumentation --javaClass SettingsStatsLog",
+    cmd: "$(location stats-log-api-gen) --java $(out) --module settings" +
+        " --javaPackage com.android.settings.core.instrumentation --javaClass SettingsStatsLog",
     out: ["com/android/settings/core/instrumentation/SettingsStatsLog.java"],
 }
 
@@ -45,9 +46,9 @@ java_library {
 
 android_library {
     name: "Settings-core",
-    platform_apis: true,
     defaults: [
         "SettingsLib-search-defaults",
+        "SettingsLintDefaults",
         "SpaPrivilegedLib-defaults",
     ],
 
@@ -56,9 +57,8 @@ android_library {
         "src/**/*.kt",
         "DerpSpace/src/**/*.java",
     ],
-
     exclude_srcs: [
-        "src/com/android/settings/biometrics/fingerprint2/shared/**/*.kt",
+        "src/com/android/settings/biometrics/fingerprint2/lib/**/*.kt",
     ],
     use_resource_processor: true,
 
@@ -101,6 +101,7 @@ android_library {
         "MediaDrmSettingsFlagsLib",
         "Settings-change-ids",
         "SettingsLib",
+        "SettingsLibDataStore",
         "SettingsLibActivityEmbedding",
         "aconfig_settings_flags_lib",
         "accessibility_settings_flags_lib",
@@ -118,17 +119,9 @@ android_library {
         "settings-logtags",
         "settings-telephony-protos-lite",
         "statslog-settings",
-        "zxing-core-1.7",
-        "android.hardware.dumpstate-V1.0-java",
-        "android.hardware.dumpstate-V1.1-java",
-        "android.hardware.dumpstate-V1-java",
-        "lottie",
-        "WifiTrackerLib",
-        "SettingsLibActivityEmbedding",
-        "Settings-change-ids",
-        "androidx.room_room-runtime",
-        "SystemUISharedLib",
-        "SystemUIUnfoldLib",
+        "androidx.test.rules",
+        "telephony_flags_core_java_lib",
+        "setupdesign-lottie-loading-layout",
         "vendor.lineage.fastcharge-V1.0-java",
         "VendorSupport-preference",
         "glide",
