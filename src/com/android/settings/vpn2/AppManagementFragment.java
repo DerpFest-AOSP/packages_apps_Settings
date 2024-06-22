@@ -18,7 +18,6 @@ package com.android.settings.vpn2;
 import static android.app.AppOpsManager.OP_ACTIVATE_PLATFORM_VPN;
 import static android.app.AppOpsManager.OP_ACTIVATE_VPN;
 
-import android.annotation.NonNull;
 import android.app.AppOpsManager;
 import android.app.Dialog;
 import android.app.admin.DevicePolicyManager;
@@ -37,6 +36,7 @@ import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.Log;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.DialogFragment;

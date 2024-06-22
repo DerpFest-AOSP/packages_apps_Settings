@@ -27,12 +27,6 @@
         app:keywords="@string/keywords_media_controls"
         app:controller="com.android.settings.sound.MediaControlsPreferenceController" />
 
-    <org.derpfest.support.preferences.SecureSettingSwitchPreference
-        android:key="show_media_squiggle_animation"
-        android:title="@string/show_squiggle_animation_title"
-        android:summary="@string/show_squiggle_animation_summary"
-        android:defaultValue="true" />
-
     <SwitchPreferenceCompat
         android:key="media_controls_lockscreen"
         android:title="@string/media_controls_lockscreen_title"
@@ -49,6 +43,12 @@
         android:key="media_controls_always_show_time"
         android:title="@string/media_controls_always_show_time_title"
         android:summary="@string/media_controls_always_show_time_summary"
+        android:defaultValue="false" />
+
+    <org.derpfest.support.preferences.SecureSettingSwitchPreference
+        android:key="media_controls_squiggle"
+        android:title="@string/media_controls_squiggle_title"
+        android:summary="@string/media_controls_squiggle_summary"
         android:defaultValue="false" />
 
 </PreferenceScreen>

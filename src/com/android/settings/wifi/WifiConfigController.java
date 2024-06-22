@@ -60,6 +60,7 @@ import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -75,6 +76,8 @@ import com.android.settings.wifi.dpp.WifiDppUtils;
 import com.android.settingslib.Utils;
 import com.android.settingslib.utils.ThreadUtils;
 import com.android.settingslib.wifi.AccessPoint;
+import com.android.wifi.flags.Flags;
+import com.android.wifitrackerlib.WifiEntry;
 
 import java.net.Inet4Address;
 import java.net.InetAddress;
@@ -275,6 +278,12 @@ public class WifiConfigController implements TextWatcher,
             mContext.getString(R.string.wifi_do_not_provide_eap_user_cert);
         mDoNotValidateEapServerString =
             mContext.getString(R.string.wifi_do_not_validate_eap_server);
+
+        if (Flags.androidVWifiApi() && mAccessPointSecurity == WifiEntry.SECURITY_WEP) {
+            LinearLayout wepWarningLayout =
+                    (LinearLayout) mView.findViewById(R.id.wep_warning_layout);
+            wepWarningLayout.setVisibility(View.VISIBLE);
+        }
 
         mSsidScanButton = (ImageButton) mView.findViewById(R.id.ssid_scanner_button);
         mIpSettingsSpinner = (Spinner) mView.findViewById(R.id.ip_settings);
