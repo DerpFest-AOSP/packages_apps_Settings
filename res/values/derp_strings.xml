@@ -577,8 +577,6 @@
     <string name="haptic_on_slider_summary">Provide haptic feedback when touching slider in settings</string>
     <string name="haptic_on_volume_keys_title">Volume keys</string>
     <string name="haptic_on_volume_keys_summary">Provide haptic feedback on invalid volume change</string>
-    <string name="haptic_on_brightness_slider_title">Brightness slider</string>
-    <string name="haptic_on_brightness_slider_summary">Provide haptic feedback on changing brightness using slider</string>
     <string name="haptic_on_power_menu_title">Power menu</string>
     <string name="haptic_on_power_menu_summary">Provide haptic feedback on power menu actions</string>
 
