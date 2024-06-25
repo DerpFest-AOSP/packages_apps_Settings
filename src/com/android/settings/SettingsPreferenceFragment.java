@@ -53,6 +53,7 @@ import com.android.settingslib.CustomEditTextPreferenceCompat;
 import com.android.settingslib.core.instrumentation.Instrumentable;
 import com.android.settingslib.search.Indexable;
 import com.android.settingslib.widget.LayoutPreference;
+import com.android.settings.derp.notificationlight.ApplicationLightPreference;
 
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.setupcompat.util.WizardManagerHelper;
@@ -561,6 +562,9 @@ public abstract class SettingsPreferenceFragment extends InstrumentedPreferenceF
                     .newInstance(preference.getKey());
         } else if (preference instanceof CustomEditTextPreferenceCompat) {
             f = CustomEditTextPreferenceCompat.CustomPreferenceDialogFragment
+                    .newInstance(preference.getKey());
+        } else if (preference instanceof ApplicationLightPreference) {
+            f = ApplicationLightPreference.CustomPreferenceDialogFragment
                     .newInstance(preference.getKey());
         } else {
             super.onDisplayPreferenceDialog(preference);
