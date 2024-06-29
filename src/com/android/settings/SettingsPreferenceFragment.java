@@ -54,6 +54,8 @@ import com.android.settingslib.core.instrumentation.Instrumentable;
 import com.android.settingslib.search.Indexable;
 import com.android.settingslib.widget.LayoutPreference;
 import com.android.settings.derp.notificationlight.ApplicationLightPreference;
+import com.android.settings.derp.notificationlight.BrightnessPreference;
+import com.android.settings.derp.buttons.preference.ButtonBacklightBrightness;
 
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.setupcompat.util.WizardManagerHelper;
@@ -565,6 +567,12 @@ public abstract class SettingsPreferenceFragment extends InstrumentedPreferenceF
                     .newInstance(preference.getKey());
         } else if (preference instanceof ApplicationLightPreference) {
             f = ApplicationLightPreference.CustomPreferenceDialogFragment
+                    .newInstance(preference.getKey());
+        } else if (preference instanceof BrightnessPreference) {
+            f = BrightnessPreference.CustomPreferenceDialogFragment
+                    .newInstance(preference.getKey());
+        } else if (preference instanceof ButtonBacklightBrightness) {
+            f = ButtonBacklightBrightness.CustomPreferenceDialogFragment
                     .newInstance(preference.getKey());
         } else {
             super.onDisplayPreferenceDialog(preference);
