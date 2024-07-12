@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 DerpFest
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Advanced keyboard settings -->
+    <string name="keyboard_extras_title">Extras</string>
+    <string name="advanced_keyboard_settings_title">Configurações avançadas</string>
+
+    <!-- Advanced sound settings -->
+    <string name="sound_settings_advanced_title">Configurações avançadas</string>
+
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Depuração enraizada</string>
+    <string name="adb_enable_summary_root">Permitir a execução da depuração do Android como root</string>
+
+    <!-- Applications: Long screen -->
+    <string name="long_screen_settings_title">Aplicativos em tela cheia</string>
+    <string name="long_screen_settings_summary">Forçar aplicativos legados a usar proporção de tela inteira</string>
+    <string name="long_screen_settings_no_apps">Nenhum aplicativo</string>
+
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">Ativar aviso de nível de carga da bateria</string>
+    <string name="notification_battery_charge_level_title">Aviso de carga da bateria</string>
+    <string name="notification_battery_charge_level_summary">Reproduzir um som quando a bateria atingir um nível durante o carregamento</string>
+    <string name="notification_battery_charge_level_seek_bar">Nível de bateria</string>
+    <string name="notification_battery_charge_level_ringtone">Toque</string>
+    <string name="notification_battery_charge_level_silent">Silencioso</string>
+
+    <!-- Battery light settings -->
+    <string name="battery_light_title">Luz da bateria</string>
+    <string name="battery_light_summary">Personalize o comportamento da luz de carregamento da bateria</string>
+    <string name="battery_light_enable_title">Ativar luz da bateria</string>
+    <string name="battery_low_pulse_title">Pulsar se a bateria estiver fraca</string>
+    <string name="battery_light_full_charge_disabled_title">Desligue quando estiver totalmente carregado</string>
+    <string name="battery_light_list_title">Cores</string>
+    <string name="battery_light_low_color_title">Bateria fraca</string>
+    <string name="battery_light_medium_color_title">Carregando</string>
+    <string name="battery_light_full_color_title">Completamente carregado</string>
+
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Temperatura da bateria</string>
+
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Controle de brilho</string>
+    <string name="status_bar_toggle_brightness_summary">Ajuste o brilho deslizando pela barra de status</string>
+
+    <!-- Charging control settings -->
+    <string name="charging_control_title">Controle de carregamento</string>
+    <string name="charging_control_summary">Personalize a programação e os limites de carregamento do seu dispositivo</string>
+    <string name="charging_control_enable_title">Ativar controle de carregamento</string>
+    <string name="charging_control_mode_title">Modo de carregamento</string>
+    <string name="charging_control_mode_auto_title">Controle automático</string>
+    <string name="charging_control_mode_auto_summary">Determine automaticamente quando iniciar o carregamento com base nos alarmes definidos</string>
+    <string name="charging_control_mode_custom_title">Controle personalizado</string>
+    <string name="charging_control_mode_custom_summary">Defina um tempo alvo para carga total</string>
+    <string name="charging_control_mode_limit_title">Limitar carga</string>
+    <string name="charging_control_mode_limit_summary">Limite a carga a uma determinada porcentagem</string>
+    <string name="charging_control_start_time_title">Hora de início</string>
+    <string name="charging_control_start_time_summary">O controle de carregamento é ativado quando você começa a carregar após %s</string>
+    <string name="charging_control_target_time_title">Tempo alvo para carga completa</string>
+    <string name="charging_control_target_time_summary">A bateria estará totalmente carregada em %s</string>
+    <string name="charging_control_limit_title">Limite</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_sounds_custom_title">Som de carregamento</string>
+    <string name="charging_vibro_title">Vibração de carregamento</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Registro de alterações</string>
+    <string name="changelog_summary">Desde a última atualização</string>
+    <string name="changelog_error">Não foi possível carregar o changelog</string>
+
+    <!-- DerpFest maintainer -->
+    <string name="maintainer">Mantenedor</string>
+    <string name="maintainer_name" translatable="false">Desconhecido</string>
+
+    <!-- DerpFest version -->
+    <string name="derp_version">Versão DerpFest</string>
+    <string name="derp_version_default">Desconhecido</string>
+
+    <!-- DerpFest Updater -->
+    <string name="update_settings_title">Atualizador DerpFest</string>
+    <string name="update_settings_summary">Verifique a versão mais recente do DerpFest</string>
+
+    <!-- Double tap to sleep on status bar or lockscreen -->
+    <string name="status_bar_double_tap_to_sleep_title">Toque para dormir</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Toque duas vezes na barra de status ou na tela de bloqueio para desligar a tela</string>
+
+    <!-- Fingerprint lockout -->
+    <string name="fingerprint_lockout_title">Desativar bloqueio de impressão digital</string>
+    <string name="fingerprint_lockout_summary">Desativa o tempo limite de 30 segundos, bem como o bloqueio permanente após várias tentativas fracassadas de desbloqueio de impressão digital</string>
+
+    <!-- Game Space -->
+    <string name="game_space_title">Espaço de jogo</string>
+    <string name="game_space_summary">Melhore sua experiência de jogo</string>
+
+    <!-- Hardware info -->
+    <string name="platform_revision">Modelo SoC</string>
+    <string name="total_ram">RAM Total</string>
+
+    <!-- Heads-up -->
+    <string name="heads_up_notifications_enabled_title">Atenção (Heads-up)</string>
+    <string name="heads_up_notifications_enabled_summary">Exibir notificações prioritárias em uma pequena janela flutuante</string>
+
+    <!-- Hide apps -->
+    <string name="hide">Esconder</string>
+    <string name="unhide">Mostrar</string>
+    <string name="filter_hidden_apps">Aplicativos ocultos</string>
+    <string name="hide_app">Ocultar aplicativo</string>
+    <string name="unhide_app">Mostrar aplicativo</string>
+    <string name="unhide_app_desc">Se você exibir este aplicativo, ele ficará visível para Android e outros aplicativos novamente.</string>
+    <string name="hide_app_desc">Se você ocultar este aplicativo, ele não ficará visível para o Android e outros aplicativos, e eles poderão não funcionar mais conforme esperado. Lembre-se de que ocultar um aplicativo preserva seus dados. Ao ocultar, você desativa este aplicativo e o oculta no seu dispositivo.</string>
+
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">Vibrar para indicar o status da chamada</string>
+
+    <!-- In-call notifications -->
+    <string name="in_call_notifications_title">Notificações durante a chamada</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Aumentando o volume do toque</string>
+    <string name="increasing_ring_min_volume_title">Volume inicial</string>
+    <string name="increasing_ring_ramp_up_time_title">Tempo de aceleração</string>
+
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Remover restrições de tela</string>
+    <string name="ignore_window_secure_summary">Remova os limites de captura de tela e gravação de tela para todos os aplicativos. Isso pode ser conveniente em alguns casos, mas pode levar a vazamentos de privacidade.</string>
+
+    <!-- Mic + Camera indicator -->
+    <string name="mic_camera_indicator_settings_title">Barra de status, microfone e indicador de câmera</string>
+    <string name="mic_camera_indicator_settings_description">Mostrar indicador quando qualquer aplicativo usa microfone ou câmera</string>
+
+    <!-- Network preferences screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Desligue o Wi-Fi automaticamente</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplicativos em tela cheia</string>
+    <string name="display_cutout_force_fullscreen_summary">Forçar os aplicativos a ignorar o espaço de entalhe</string>
+    <string name="search">Pesquisa</string>
+    <string name="search_apps">Pesquisar aplicativos</string>
+    <string name="application_icon">Ícone do aplicativo</string>
+
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">Notificações barulhentas</string>
+    <string name="notification_sound_vib_screen_on_summary">Reproduza som e vibração para notificações quando a tela estiver ligada</string>
+
+    <!-- Platform version -->
+    <string name="platform_version">Versão da Plataforma</string>
+
+    <!-- Per-app volume control -->
+    <string name="app_volume">Volume do aplicativo</string>
+    <string name="app_volume_title">Controle de volume por aplicativo</string>
+    <string name="app_volume_summary">Permite definir níveis de volume diferentes para cada app.\nNOTA: Isso ativará o foco em vários áudios</string>
+
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Evite despertar acidental</string>
+    <string name="proximity_wake_summary">Verifique o sensor de proximidade antes de ativar a tela</string>
+
+    <!-- Text shown for the title of the panic option -->
+    <string name="power_menu_panic_title">Gatilho de pânico</string>
+    <string name="power_menu_panic_summary">Ativa um gatilho de pânico de emergência.</string>
+
+    <!-- Text shown for the title of the restart systemui option -->
+    <string name="power_menu_restart_systemui_title">Reinicie SystemUI</string>
+
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Toque para mostrar informações</string>
+
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Som da captura de tela</string>
+
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Bloquear sensores</string>
+    <string name="sensor_block_summary">Bloqueie seletivamente o acesso de aplicativos a determinados sensores de drenagem de bateria</string>
+    <string name="sensor_block_app_picker_title">Bloquear sensores para esses aplicativos</string>
+    <string name="add_sensor_block_package_title">Adicionar aplicativos para block de sensor</string>
+    <string name="add_sensor_block_package_summary">Sensores significativos de movimento, acelerômetro e aceleração linear serão bloqueados para esses aplicativos</string>
+    <string name="profile_choose_app">Escolha o aplicativo</string>
+
+    <!-- Separate ring & notification toggle -->
+    <string name="volume_separate_notification_title">Toque e notificação separados</string>
+    <string name="volume_separate_notification_summary">Permitir controlar cada fluxo individualmente</string>
+
+    <!-- Summary for list to control apps that ignore battery saving restrictions -->
+    <string name="high_power_apps_summary">Disponibilidade de otimização da bateria</string>
+
+    <!-- Summary for the top level wallpapers settings [CHAR LIMIT=NONE]-->
+    <string name="wallpaper_dashboard_custom_summary">Cores, ícones temáticos, grade de aplicativos, fonte do sistema</string>
+
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <string name="system_dashboard_custom_summary">Idiomas, gestos, atualizador, hora, backup</string>
+
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">Configuração USB</string>
+    <string name="usb_default_config_summary">Escolha o comportamento padrão quando conectado a um dispositivo via USB</string>
+
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Padrão de vibração do toque</string>
+    <string name="custom_vibration_pattern_title">Padrão personalizado</string>
+    <string name="custom_vibration_pattern_summary">Defina um padrão de vibração personalizado</string>
+
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Acorde ao conectar</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Ligue a tela ao conectar ou desconectar uma fonte de alimentação</string>
+</resources>
