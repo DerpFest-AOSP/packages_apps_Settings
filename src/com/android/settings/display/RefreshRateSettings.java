@@ -75,7 +75,7 @@ public class RefreshRateSettings extends RadioButtonPickerFragment {
         final FooterPreference footerPreference = new FooterPreference(screen.getContext());
         footerPreference.setTitle(R.string.refresh_rate_footer);
         footerPreference.setSelectable(false);
-        footerPreference.setLayoutResource(R.layout.preference_footer);
+        footerPreference.setLayoutResource(com.android.settingslib.widget.preference.footer.R.layout.preference_footer);
         screen.addPreference(footerPreference);
     }
 
