@@ -449,10 +449,6 @@
     <string name="less_boring_heads_up_title">Less boring</string>
     <string name="less_boring_heads_up_summary">Show heads up only for calls, messages, alarms, reminders and priority conversations</string>
 
-    <!-- Annoying Notifications -->
-    <string name="notification_sound_vib_screen_on_title">Notification sound when screen is on</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when the screen is on</string>
-
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">In-call vibration options</string>
     <string name="incall_vibrate_connect_title">Vibrate on connect</string>
