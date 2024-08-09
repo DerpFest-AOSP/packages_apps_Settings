@@ -96,8 +96,7 @@ public class WifiWakeupPreferenceController extends TogglePreferenceController i
         if (mFragment == null && (!getLocationEnabled() || !getWifiScanningEnabled())) {
             return DISABLED_DEPENDENT_SETTING;
         }
-        return mContext.getResources().getBoolean(R.bool.config_wifi_wakeup)
-                ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        return AVAILABLE;
     }
 
     @Override
