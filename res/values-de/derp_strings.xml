@@ -770,6 +770,7 @@
 
     <!-- Battery Info -->
     <string name="battery_info_summary">Detaillierte Batterieinformationen anzeigen</string>
+    <string name="battery_info_footer">Die Werte in diesem Abschnitt werden vom OEM zur Verfügung gestellt und können, müssen aber nicht der Realität entsprechen und/oder können, müssen aber nicht nur nach einer Neukalibrierung der Batterie oder einem vollständigen Zurücksetzen auf die Werkseinstellungen aktualisiert werden.\nBetrachte diese Angaben nur als Schätzungen.</string>
     <!-- Battery Info: Technology -->
     <string name="battery_technology">Technologie</string>
     <!-- Battery Info: Health -->
