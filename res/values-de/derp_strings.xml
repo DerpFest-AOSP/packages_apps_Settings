@@ -116,7 +116,7 @@
     <string name="app_notification_sound_timeout_value_30_seconds">30 Sekunden</string>
     <string name="app_notification_sound_timeout_value_1_minute">1 Minute</string>
     <string name="app_notification_sound_timeout_value_5_minutes">5 Minuten</string>
-    <string name="app_notification_sound_timeout_value_15_minutes">10 Minuten</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">15 Minuten</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 Minuten</string>
 
     <!-- Proximity wake -->
