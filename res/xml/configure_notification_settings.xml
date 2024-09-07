@@ -217,5 +217,11 @@
             android:summary="@string/ambient_edge_light_summary"
             android:fragment="com.android.settings.derpfest.edgelight.AmbientEdgeLightSettings"
             settings:requiresConfig="@bool/config_show_ambient_edge_light" />
+
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="notification_force_non_dismissible"
+            android:order="27"
+            android:title="@string/notification_force_non_dismissible_title"
+            android:summary="@string/notification_force_non_dismissible_summary" />
     </PreferenceCategory>
 </PreferenceScreen>
