@@ -314,7 +314,7 @@
 
     <!-- Game Space -->
     <string name="game_space_title">Espaço de jogo</string>
-    <string name="game_space_summary">Melhore sua experiência de jogo</string>
+    <string name="game_space_summary">Configure seus jogos com ferramentas úteis para melhorar a jogatina</string>
 
     <!-- Generic stuff used everywhere -->
     <string name="reset">Redefinir</string>
@@ -338,8 +338,8 @@
     <string name="total_ram">RAM Total</string>
 
     <!-- Heads-up -->
-    <string name="heads_up_notifications_enabled_title">Atenção (Heads-up)</string>
-    <string name="heads_up_notifications_enabled_summary">Exibir notificações prioritárias em uma pequena janela flutuante</string>
+    <string name="heads_up_notifications_enabled_title">Notificações pop-up</string>
+    <string name="heads_up_notifications_enabled_summary">Mostrar notificações prioritárias em uma pequena janela flutuante</string>
     <string name="noti_cust_category">Barra de notificações</string>
 
     <!-- Hide apps -->
@@ -432,7 +432,7 @@
     <string name="backlight_summary_enabled">Habilitado</string>
 
     <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">Menos chato</string>
+    <string name="less_boring_heads_up_title">Notificações prioritárias</string>
     <string name="less_boring_heads_up_summary">Mostrar notificações pop-up apenas para alarmes, discador e aplicativos de mensagem</string>
 
     <!-- Lights settings screen, notification light settings -->
@@ -591,8 +591,8 @@
     <string name="channel_light_settings_name">Pré-visualização das configurações de luz</string>
 
     <!-- Notification guts kill app button -->
-    <string name="notification_guts_kill_app_button_title">Botão de parar força</string>
-    <string name="notification_guts_kill_app_button_summary">Mostrar botão de parar força no menu de pressão longa da notificação</string>
+    <string name="notification_guts_kill_app_button_title">Botão de forçar parada</string>
+    <string name="notification_guts_kill_app_button_summary">Mostrar botão de forçar parada no menu de pressão longa da notificação</string>
 
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Editar configurações de luz</string>
