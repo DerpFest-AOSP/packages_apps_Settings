@@ -988,4 +988,62 @@
     <!-- App data usage Datura Firewall link -->
     <string name="data_usage_app_datura_firewall">Datura 防火墙</string>
     <string name="data_usage_app_datura_firewall_summary">防火墙设置已移动到新的防火墙应用。点击以打开。</string>
+
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">基于当前时间和环境条件来优化您的屏幕以改善可读性和减少视疲劳</string>
+    <string name="live_display_mode">显示模式</string>
+    <string name="live_display_color_temperature_title">色温</string>
+    <string name="live_display_day">日间</string>
+    <string name="live_display_night">夜间</string>
+    <string name="live_display_outdoor_mode_title">自动启用户外模式</string>
+    <string name="live_display_outdoor_mode_summary">在强光下自动增强亮度和饱和度</string>
+    <string name="live_display_anti_flicker_title">防闪烁</string>
+    <string name="live_display_anti_flicker_summary">在低亮度条件下，可大幅降低屏闪并减少眼睛疲劳。 此模式可能降低色彩精度，并影响部分内容的显示效果。</string>
+    <string name="live_display_low_power_title">降低功耗</string>
+    <string name="live_display_low_power_summary">调整显示屏以降低功耗，但不削弱显示效果</string>
+    <string name="live_display_enhance_color_title">色彩增强</string>
+    <string name="live_display_enhance_color_summary">优化肤色、风景和其他图像的色彩饱和度</string>
+    <string name="live_display_color_profile_title">色彩配置</string>
+    <string name="live_display_color_profile_standard_title">标准</string>
+    <string name="live_display_color_profile_standard_summary">精准的色彩和明亮的白色</string>
+    <string name="live_display_color_profile_natural_title">自然</string>
+    <string name="live_display_color_profile_natural_summary">真实的色彩和肤色</string>
+    <string name="live_display_color_profile_dynamic_title">动态</string>
+    <string name="live_display_color_profile_dynamic_summary">增强的色彩和明亮的白色</string>
+    <string name="live_display_color_profile_cinema_title">电影</string>
+    <string name="live_display_color_profile_cinema_summary">针对视频的完美色彩重现</string>
+    <string name="live_display_color_profile_astronomy_title">夜间</string>
+    <string name="live_display_color_profile_astronomy_summary">夜间模式下显示为深红色以保护视力</string>
+    <string name="live_display_color_profile_photography_title">图像</string>
+    <string name="live_display_color_profile_photography_summary">针对照片的完美色彩重现</string>
+    <string name="live_display_color_profile_basic_title">基本</string>
+    <string name="live_display_color_profile_basic_summary">使用未调校的显示配置</string>
+    <string name="live_display_color_profile_adaptive_title">自适应</string>
+    <string name="live_display_color_profile_adaptive_summary">颜色根据环境条件自适应</string>
+    <string name="live_display_color_profile_reading_title">阅读</string>
+    <string name="live_display_color_profile_reading_summary">使用暖色调以缓解眼睛疲劳</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">使用 sRGB 色彩空间校准屏幕颜色</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">使用 DCI-P3 色彩空间校准屏幕颜色</string>
+    <string name="live_display_reading_mode_title">阅读模式</string>
+    <string name="live_display_reading_mode_summary">适合长时间阅读的灰度模式</string>
+    <string name="color_calibration_title">颜色校准</string>
+    <string name="color_calibration_summary">校准屏幕颜色</string>
+    <string name="color_red_title">红</string>
+    <string name="color_green_title">绿</string>
+    <string name="color_blue_title">蓝</string>
+
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">图像校正</string>
+    <string name="picture_adjustment_summary">调整色调，饱和度，亮度和对比度</string>
+    <string name="adj_hue_title">色调</string>
+    <string name="adj_saturation_title">饱和度</string>
+    <string name="adj_intensity_title">亮度</string>
+    <string name="adj_contrast_title">对比度</string>
+
+    <!-- Long press navbar to search -->
+    <string name="navbar_long_press_gesture_title">长按搜索</string>
+    <string name="navbar_long_press_gesture_summary">长按导航栏，使用 Lens 来搜索屏幕</string>
+
 </resources>
