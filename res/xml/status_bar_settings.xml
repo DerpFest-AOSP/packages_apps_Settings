@@ -93,7 +93,7 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory
+    <!-- <PreferenceCategory
         android:title="@string/status_bar_brightness_category">
 
         <org.derpfest.support.preferences.SystemSettingSwitchPreference
@@ -101,7 +101,7 @@
             android:title="@string/status_bar_toggle_brightness"
             android:summary="@string/status_bar_toggle_brightness_summary"
             android:defaultValue="false" />
-    </PreferenceCategory>
+    </PreferenceCategory> -->
 
     <PreferenceCategory
         android:title="@string/qs_panel_options_title">
