@@ -141,6 +141,14 @@
         settings:keywords="@string/content_protection_preference_title"
         settings:controller="com.android.settings.security.ContentProtectionPreferenceController" />
 
+    <!-- Ignore secure window feature  -->
+    <org.derpfest.support.preferences.SecureSettingSwitchPreference
+        android:order="232"
+        android:key="window_ignore_secure"
+        android:title="@string/ignore_window_secure_title"
+        android:summary="@string/ignore_window_secure_summary"
+        android:defaultValue="false"/>
+
     <org.derpfest.support.preferences.GlobalSettingListPreference
         android:order="235"
         android:key="trust_restrict_usb"
