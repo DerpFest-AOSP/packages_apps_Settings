@@ -37,7 +37,7 @@
         android:title="@string/accent_color_title"
         android:summary="@string/accent_color_summary" />
         
-    <org.derpfest.support.preferences.SwitchPreference
+    <org.derpfest.support.preferences.SwitchPreferenceCompat
         android:key="accent_background"
         android:title="@string/accent_background_title"
         android:summary="@string/accent_background_summary"
@@ -68,7 +68,7 @@
         settings:defaultValue="0"
         settings:units="%" />
 
-    <org.derpfest.support.preferences.SwitchPreference
+    <org.derpfest.support.preferences.SwitchPreferenceCompat
         android:key="tint_background"
         android:title="@string/tint_background_title"
         android:summary="@string/tint_background_summary"

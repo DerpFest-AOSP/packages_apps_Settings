@@ -33,7 +33,7 @@ import com.android.settingslib.search.SearchIndexable;
 
 import org.derpfest.support.colorpicker.ColorPickerPreference;
 import org.derpfest.support.preferences.ProperSeekBarPreference;
-import org.derpfest.support.preferences.SwitchPreference;
+import org.derpfest.support.preferences.SwitchPreferenceCompat;
 
 import java.lang.CharSequence;
 
@@ -81,8 +81,8 @@ public class MonetSettings extends SettingsPreferenceFragment implements
     private ColorPickerPreference mBgColorPref;
     private ProperSeekBarPreference mLuminancePref;
     private ProperSeekBarPreference mChromaPref;
-    private SwitchPreference mAccentBackgroundPref;
-    private SwitchPreference mTintBackgroundPref;
+    private SwitchPreferenceCompat mAccentBackgroundPref;
+    private SwitchPreferenceCompat mTintBackgroundPref;
 
     @Override
     public void onCreate(Bundle icicle) {
