@@ -17,6 +17,7 @@
 package com.android.settings.security.applock
 
 import android.content.Context
+import android.os.Build;
 import android.os.SystemProperties
 import android.view.Menu
 import android.view.MenuInflater
@@ -52,6 +53,9 @@ class AppLockSettingsFragment : DashboardFragment(),
             0 /* order */,
             getDebugMenuItemTitle(),
         ).setOnMenuItemClickListener(this)
+        if (Build.IS_USER) {
+            menu.removeItem(MENU_ITEM_DEBUG_ID)
+        }
     }
 
     private fun getDebugMenuItemTitle(): Int =
