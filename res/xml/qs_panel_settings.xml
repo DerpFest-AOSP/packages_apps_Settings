@@ -47,4 +47,14 @@
             android:summary="@string/qs_auto_brightness_summary"
             android:defaultValue="true" />
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/category_name_qs_footer">
+
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_data_usage"
+            android:title="@string/qs_footer_datausage_title"
+            android:summary="@string/qs_footer_datausage_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
 </PreferenceScreen>

@@ -734,4 +734,9 @@
     <!-- Charging animation -->
     <string name="charging_animation_title">Ladeanimation</string>
     <string name="charging_animation_summary">Animation anzeigen, wenn das Gerät angeschlossen wird</string>
+
+    <!-- Data usage info in QS footer -->
+    <string name="category_name_qs_footer">Fußzeile</string>
+    <string name="qs_footer_datausage_title">Datennutzung</string>
+    <string name="qs_footer_datausage_summary">In der Fußzeile der Schnelleinstellungen die Datennutzung anzeigen</string>
 </resources>
