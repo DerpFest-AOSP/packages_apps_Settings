@@ -26,14 +26,22 @@ import android.util.Log;
 
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
+import androidx.appcompat.app.AlertDialog;
 import androidx.preference.Preference;
 
 import com.android.internal.annotations.VisibleForTesting;
+import com.android.settings.R;
 import com.android.settings.Settings;
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.factory_reset.Flags;
+import com.android.settings.fuelgauge.BatteryBroadcastReceiver;
+import com.android.settings.fuelgauge.BatteryInfo;
+import com.android.settingslib.core.lifecycle.LifecycleObserver;
+import com.android.settingslib.core.lifecycle.events.OnStart;
+import com.android.settingslib.core.lifecycle.events.OnStop;
 
-public class FactoryResetPreferenceController extends BasePreferenceController {
+public class FactoryResetPreferenceController extends BasePreferenceController implements
+        LifecycleObserver, OnStart, OnStop {
 
     private static final String TAG = "FactoryResetPreference";
 
@@ -46,9 +54,22 @@ public class FactoryResetPreferenceController extends BasePreferenceController {
     @VisibleForTesting
     ActivityResultLauncher<Intent> mFactoryResetPreparationLauncher;
 
+    private final BatteryBroadcastReceiver mBatteryBroadcastReceiver;
+    private boolean mIsBatteryPresent = true;
+    private BatteryInfo mBatteryInfo;
+
     public FactoryResetPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
         mUm = (UserManager) context.getSystemService(Context.USER_SERVICE);
+        mBatteryBroadcastReceiver = new BatteryBroadcastReceiver(mContext);
+        mBatteryBroadcastReceiver.setBatteryChangedListener(type -> {
+            if (type == BatteryBroadcastReceiver.BatteryUpdateType.BATTERY_NOT_PRESENT) {
+                mIsBatteryPresent = false;
+            }
+            BatteryInfo.getBatteryInfo(mContext, info -> {
+                mBatteryInfo = info;
+            }, true /* shortString */);
+        });
     }
 
     /** Hide "Factory reset" settings for secondary users. */
@@ -60,6 +81,13 @@ public class FactoryResetPreferenceController extends BasePreferenceController {
     @Override
     public boolean handlePreferenceTreeClick(Preference preference) {
         if (mPreferenceKey.equals(preference.getKey())) {
+            // If battery level is less than 15% and not charger plugged in.
+            // then don't proceed to factory reset.
+            if (mIsBatteryPresent && mBatteryInfo.batteryLevel < 15
+                    && mBatteryInfo.pluggedStatus == 0) {
+                showBatteryLowDialog();
+                return true;
+            }
             if (Flags.enableFactoryResetWizard()) {
                 startFactoryResetPreparationActivity();
             } else {
@@ -129,5 +157,27 @@ public class FactoryResetPreferenceController extends BasePreferenceController {
     private void startFactoryResetActivity() {
         final Intent intent = new Intent(mContext, Settings.FactoryResetActivity.class);
         mContext.startActivity(intent);
+    }
+
+    @Override
+    public void onStart() {
+        mBatteryBroadcastReceiver.register();
+    }
+
+    @Override
+    public void onStop() {
+        mBatteryBroadcastReceiver.unRegister();
+    }
+
+    private void showBatteryLowDialog() {
+        new AlertDialog.Builder(mContext)
+            .setTitle(R.string.factory_reset_battery_low_dialog_title)
+            .setMessage(R.string.factory_reset_battery_low_dialog_message)
+            .setPositiveButton(R.string.factory_reset_battery_low_dialog_button_text,
+                (dialog, which) -> {
+                    dialog.dismiss();
+                }
+            )
+            .show();
     }
 }
