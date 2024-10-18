@@ -210,4 +210,7 @@
     <!-- Charging vibration -->
     <string name="charging_sounds_custom_title">Ton beim Laden</string>
     <string name="charging_vibro_title">Vibration beim Laden</string>
+
+    <!-- Other sounds and vibrations preference category: Title for the Other sounds and vibrations preference categories. [CHAR LIMIT=none] -->
+    <string name="other_sound_category_preference_title">Andere Töne und Vibrationen</string>
 </resources>
