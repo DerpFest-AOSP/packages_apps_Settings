@@ -234,67 +234,62 @@
         android:ringtoneType="alarm"
         android:order="-60"/>
 
-    <!-- Dial pad tones -->
-    <SwitchPreferenceCompat
-        android:key="dial_pad_tones"
-        android:title="@string/dial_pad_tones_title"
-        android:order="-50"/>
+    <!-- Other sounds -->
+    <PreferenceCategory
+          android:key="other_sounds_category"
+          android:title="@string/other_sound_category_preference_title"
+          android:order="-50">
 
-    <!-- Screen locking sounds -->
-    <SwitchPreferenceCompat
-        android:key="screen_locking_sounds"
-        android:title="@string/screen_locking_sounds_title"
-        android:order="-45"/>
+        <!-- Dial pad tones -->
+        <SwitchPreferenceCompat
+            android:key="dial_pad_tones"
+            android:title="@string/dial_pad_tones_title"/>
 
-    <!-- Charging sounds -->
-    <SwitchPreferenceCompat
-        android:key="charging_sounds"
-        android:title="@string/charging_sounds_custom_title"
-        android:order="-40"/>
+        <!-- Screen locking sounds -->
+        <SwitchPreferenceCompat
+            android:key="screen_locking_sounds"
+            android:title="@string/screen_locking_sounds_title"/>
 
-    <!-- Charging vibro -->
-    <SwitchPreferenceCompat
-        android:key="charging_vibro"
-        android:title="@string/charging_vibro_title"
-        android:order="-37"/>
+        <!-- Charging sounds -->
+        <SwitchPreferenceCompat
+            android:key="charging_sounds"
+            android:title="@string/charging_sounds_custom_title"/>
 
-    <!-- Docking sounds -->
-    <SwitchPreferenceCompat
-        android:key="docking_sounds"
-        android:title="@string/docking_sounds_title"
-        android:order="-35"/>
+        <!-- Charging vibro -->
+        <SwitchPreferenceCompat
+            android:key="charging_vibro"
+            android:title="@string/charging_vibro_title"/>
 
-    <!-- Touch sounds -->
-    <SwitchPreferenceCompat
-        android:key="touch_sounds"
-        android:title="@string/touch_sounds_title"
-        android:order="-30"/>
+        <!-- Docking sounds -->
+        <SwitchPreferenceCompat
+            android:key="docking_sounds"
+            android:title="@string/docking_sounds_title"/>
 
-    <!-- Show vibrate icon in status bar -->
-    <SwitchPreferenceCompat
-        android:key="vibrate_icon"
-        android:title="@string/vibrate_icon_title"
-        android:order="-27"/>
+        <!-- Touch sounds -->
+        <SwitchPreferenceCompat
+            android:key="touch_sounds"
+            android:title="@string/touch_sounds_title"/>
 
-    <!-- Dock speaker plays -->
-    <DropDownPreference
-        android:key="dock_audio_media"
-        android:title="@string/dock_audio_media_title"
-        android:summary="%s"
-        android:order="-20"/>
+        <!-- Show vibrate icon in status bar -->
+        <SwitchPreferenceCompat
+            android:key="vibrate_icon"
+            android:title="@string/vibrate_icon_title"/>
 
-    <!-- Boot sounds -->
-    <SwitchPreferenceCompat
-        android:key="boot_sounds"
-        android:title="@string/boot_sounds_title"
-        android:order="-15"/>
+        <!-- Dock speaker plays -->
+        <DropDownPreference
+            android:key="dock_audio_media"
+            android:title="@string/dock_audio_media_title"/>
 
-    <!-- Emergency tone -->
-    <DropDownPreference
-        android:key="emergency_tone"
-        android:title="@string/emergency_tone_title"
-        android:summary="%s"
-        android:order="-10"/>
+        <!-- Boot sounds -->
+        <SwitchPreferenceCompat
+            android:key="boot_sounds"
+            android:title="@string/boot_sounds_title"/>
+
+        <!-- Emergency tone -->
+        <DropDownPreference
+            android:key="emergency_tone"
+            android:title="@string/emergency_tone_title"/>
+    </PreferenceCategory>
 
     <Preference
         android:key="sound_work_settings"
