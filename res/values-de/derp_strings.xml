@@ -768,4 +768,7 @@
 
     <!-- Running services - Background processes tab -->
     <string name="background_processes_settings_title">Hintergrundprozesse</string>
+
+    <!-- Other sounds and vibrations preference category: Title for the Other sounds and vibrations preference categories. [CHAR LIMIT=none] -->
+    <string name="other_sound_category_preference_title">Andere Töne und Vibrationen</string>
 </resources>
