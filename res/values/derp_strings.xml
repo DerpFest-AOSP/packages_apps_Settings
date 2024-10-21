@@ -823,6 +823,8 @@
     <string name="luminance_factor_summary">Higher values produce brighter colors</string>
     <string name="chroma_factor_title">Chroma</string>
     <string name="chroma_factor_summary">Higher values produce stronger colors</string>
+    <string name="whole_palette_title">Whole Palette</string>
+    <string name="whole_palette_summary">Make Luminance and Chroma selection affect secondary colors as well</string>
     <string name="tint_background_title">Tint Background</string>
     <string name="tint_background_summary">Make Luminance and Chroma selection affect background colors as well</string>
 

@@ -69,6 +69,12 @@
         settings:units="%" />
 
     <org.derpfest.support.preferences.SwitchPreferenceCompat
+        android:key="whole_palette"
+        android:title="@string/whole_palette_title"
+        android:summary="@string/whole_palette_summary"
+        android:defaultValue="false" />
+
+    <org.derpfest.support.preferences.SwitchPreferenceCompat
         android:key="tint_background"
         android:title="@string/tint_background_title"
         android:summary="@string/tint_background_summary"
