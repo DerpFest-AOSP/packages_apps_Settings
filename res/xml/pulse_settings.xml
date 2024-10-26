@@ -165,15 +165,15 @@
             android:title="@string/pulse_solid_units_count"
             android:defaultValue="32"
             android:max="128"
-            settings:min="16"
-            settings:interval="16"
+            settings:min="8"
+            settings:interval="8"
             android:dependency="pulse_2"/>
 
         <org.derpfest.support.preferences.SecureSettingSeekBarPreference
             android:key="pulse_solid_fudge_factor"
             android:title="@string/pulse_custom_fudge_factor"
             android:defaultValue="5"
-            android:max="7"
+            android:max="8"
             settings:min="2"
             android:dependency="pulse_2"/>
     </PreferenceCategory>
