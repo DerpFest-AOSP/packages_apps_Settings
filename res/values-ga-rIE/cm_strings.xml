@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2023 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyboard_extras_title">Breiseanna</string>
+    <string name="show_dev_countdown_cm">{count, plural,
+=1 {}
+ two {Tá tú # chéim ó shocruithe forbartha a chumasú anois.}
+ few {Tá tú # chéim ó shocruithe forbartha a chumasú anois.}
+ many {Tá tú # chéim ar shiúl ó shocruithe forbartha a chumasú.}=1 {Tá tú # céim ar shiúl ó shocruithe forbartha a chumasú anois.}
+ other {Tá tú # chéim ó shocruithe forbartha a chumasú anois.}
+ }</string>
+    <string name="heads_up_notifications_enabled_title">Cinnirí suas</string>
+    <string name="heads_up_notifications_enabled_summary">Taispeáin fógraí tosaíochta i bhfuinneog bheag ar snámh</string>
+    <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Dteagmháil leis an braiteoir a dhíghlasáil, fiú nuair a bhíonn an scáileán múchta. Cuireann braiteoir cóngarachta cosc ​​ar dhíghlasáil thaisme.</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">15 nóiméad</string>
+    <string name="assisted_gps">Úsáid GPS cuidithe</string>
+    <string name="assisted_gps_summary">Íoslódáil sonraí cúnaimh satailíte ón idirlíon ar féidir leo feidhmíocht tosaithe GPS a fheabhsú go mór. I gcás glaonna éigeandála, ceadaítear GPS cuidithe i gcónaí.</string>
+    <string name="battery_technology">Teicneolaíocht</string>
+    <string name="battery_health">Sláinte</string>
+    <string name="battery_health_good">Maith</string>
+    <string name="battery_health_overheat">Róthéite</string>
+    <string name="battery_health_dead">Marbh</string>
+    <string name="battery_health_over_voltage">Thar voltas</string>
+    <string name="battery_health_unspecified_failure">Teip neamhshonraithe</string>
+    <string name="battery_health_cold">Fuar</string>
+    <string name="battery_health_unknown">Anaithnid</string>
+    <string name="battery_temperature">Teocht</string>
+    <string name="battery_voltage">Voltas</string>
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
+    <string name="battery_design_capacity">Cumas dearaidh</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
+    <string name="battery_maximum_capacity">Cumas uasta</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+</resources>
