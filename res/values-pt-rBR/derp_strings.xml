@@ -38,7 +38,7 @@
     <string name="update_settings_title">Atualizador do DerpFest</string>
     <string name="update_settings_summary">Verificar a versão mais recente do DerpFest</string>
 
-    <!-- Texto resumido para o bloco de preferência do sistema, mostrando itens importantes de configuração sob a configuração do sistema [LIMITE DE CARACTERES=NENHUM]-->
+    <!-- Texto resumido para o bloco de preferência do sistema, mostrando itens importantes de configuração sob a configuração do sistema -->
     <string name="system_dashboard_custom_summary">Idiomas, gestos, atualizador, hora, backup</string>
 
     <!-- Tamanho do padrão de bloqueio -->
@@ -147,13 +147,13 @@
     <string name="fast_charging_title">Recarga rápida</string>
     <string name="fast_charging_summary">Desativar para reduzir o calor produzido pelo dispositivo durante a recarga ou para prolongar a vida útil da bateria</string>
 
-    <!-- Texto de título da sugestão de preferência e configurações para UDFPS com tela desligada (telefone) [LIMITE DE CARACTERES=60]-->
+    <!-- Texto de título da sugestão de preferência e configurações para UDFPS com tela desligada (telefone)-->
     <string name="ambient_display_screen_off_udfps_title" product="default">Pressione longamente no sensor de impressão digital para desbloquear o telefone</string>
-    <!-- Texto de título da sugestão de preferência e configurações para UDFPS com tela desligada (tablet) [LIMITE DE CARACTERES=60]-->
+    <!-- Texto de título da sugestão de preferência e configurações para UDFPS com tela desligada (tablet) -->
     <string name="ambient_display_screen_off_udfps_title" product="tablet">Pressione longamente no sensor de impressão digital para desbloquear o tablet</string>
-    <!-- Texto de título da sugestão de preferência e configurações para UDFPS com tela desligada (dispositivo) [LIMITE DE CARACTERES=60]-->
+    <!-- Texto de título da sugestão de preferência e configurações para UDFPS com tela desligada (dispositivo)-->
     <string name="ambient_display_screen_off_udfps_title" product="device">Pressione longamente no sensor de impressão digital para desbloquear o dispositivo</string>
-    <!-- Texto resumido para UDFPS com tela desligada [LIMITE DE CARACTERES=NENHUM]-->
+    <!-- Texto resumido para UDFPS com tela desligada -->
     <string name="ambient_display_screen_off_udfps_summary">Para acordar sua tela e desbloquear, pressione longamente seu sensor de impressão digital sob a tela.</string>
 
     <!-- Tema preto para modo escuro -->
@@ -393,7 +393,7 @@
     <string name="power_menu_advanced_restart_summary">Quando desbloqueado, incluir opções no menu de energia para reiniciar em recuperação ou bootloader</string>
     <string name="power_menu_emergency_affordance_enabled">Acessibilidade de emergência está ativada</string>
 
-    <!-- Descrição da configuração que controla o gesto para abrir a câmera com um toque duplo no botão de energia [LIMITE DE CARACTERES=NENHUM] -->
+    <!-- Descrição da configuração que controla o gesto para abrir a câmera com um toque duplo no botão de energia -->
     <string name="camera_double_tap_power_gesture_desc">Abrir rapidamente a câmera sem desbloquear a tela</string>
 
     <string name="torch_long_press_power_gesture_title">Pressionar longamente para lanterna</string>
@@ -530,7 +530,7 @@
     <string name="selinux_status">Status do SELinux</string>
     <string name="selinux_status_disabled">Desativado</string>
     <string name="selinux_status_permissive">Permissivo</string>
-    <string name="selinux_status_enforcing">Aplicando</string>
+    <string name="selinux_status_enforcing">Impondo</string>
 
     <!-- Configuração USB padrão -->
     <string name="usb_default_config_title">Configuração USB padrão</string>
@@ -600,9 +600,9 @@
     <string name="lockscreen_enable_power_menu_title">Permitir menu de energia na tela de bloqueio</string>
     <string name="lockscreen_enable_power_menu_summary">Permitir o acesso ao menu de energia na tela de bloqueio segura</string>
 
-    <!-- Se os borrões são suportados no SurfaceFlinger. [LIMITE DE CARACTERES=60] -->
-    <string name="enable_blurs_on_windows_title">Ativar borrões</string>
-    <string name="enable_blurs_on_windows_summary">Ativa o efeito de borrão em alguns elementos da interface do usuário</string>
+    <!-- Se os borrões são suportados no SurfaceFlinger. -->
+    <string name="enable_blurs_on_windows_title">Ativar desfoque de fundo</string>
+    <string name="enable_blurs_on_windows_summary">Ativa o efeito de desfoque em alguns elementos da interface do usuário</string>
 
     <!-- Unidades -->
     <string name="unit_milliseconds">milissegundos</string>
@@ -635,13 +635,13 @@
 
     <!-- Informações da bateria: Saúde -->
     <string name="battery_health">Saúde</string>
-    <string name="battery_health_good">Bom</string>
-    <string name="battery_health_overheat">Superaquecimento</string>
-    <string name="battery_health_dead">Morta</string>
+    <string name="battery_health_good">Boa</string>
+    <string name="battery_health_overheat">Superaquecida</string>
+    <string name="battery_health_dead">Sem saúde</string>
     <string name="battery_health_over_voltage">Sobretensão</string>
     <string name="battery_health_unspecified_failure">Falha não especificada</string>
-    <string name="battery_health_cold">Frio</string>
-    <string name="battery_health_unknown">Desconhecido</string>
+    <string name="battery_health_cold">Fria</string>
+    <string name="battery_health_unknown">Desconhecida</string>
 
     <!-- Informações da bateria: Temperatura -->
     <string name="battery_temperature">Temperatura</string>
@@ -660,9 +660,9 @@
     <string name="battery_maximum_capacity">Capacidade máxima</string>
     <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
 
-    <!-- String padrão getTimeSpentInApp para Wellbeing para exibir. [LIMITE DE CARACTERES=NENHUM] --> 
+    <!-- String padrão getTimeSpentInApp para Wellbeing para exibir. --> 
     <string name="duration_less_than_one_minute">Menos de 1 Minuto</string> 
-    <!-- Resumo para a tela de uso de tempo do Wellbeing. [LIMITE DE CARACTERES=NENHUM] -->
+    <!-- Resumo para a tela de uso de tempo do Wellbeing. -->
     <string name="screen_time_summary_usage_today">%1$s hoje</string>
 
     <!-- Log de notificações -->
@@ -678,9 +678,9 @@
     <!-- Mensagem de aviso exibida se o usuário optar por não validar o servidor EAP -->
     <string name="wifi_do_not_validate_eap_server_warning">Nenhum certificado especificado. Sua conexão não será privada.</string>
 
-    <!-- Som: Título da opção definindo o toque do telefone para o slot1 em dispositivo Multi SIM. [LIMITE DE CARACTERES=50] -->
+    <!-- Som: Título da opção definindo o toque do telefone para o slot1 em dispositivo Multi SIM. -->
     <string name="ringtone1_title">Toque do telefone - SIM 1</string>
-    <!-- Som: Título da opção definindo o toque do telefone para o slot2 em dispositivo Multi SIM. [LIMITE DE CARACTERES=50] -->
+    <!-- Som: Título da opção definindo o toque do telefone para o slot2 em dispositivo Multi SIM. -->
     <string name="ringtone2_title">Toque do telefone - SIM 2</string>
 
     <!-- Altura do gesto de voltar -->
@@ -767,7 +767,7 @@
     <string name="changelog_summary">Desde a última atualização</string>
     <string name="changelog_error">Não foi possível carregar o registro de alterações</string>
 
-    <!-- Resumo para a preferência de acessibilidade para ajustar o tamanho da tela, tamanho da fonte, texto em negrito e texto de alto contraste. [LIMITE DE CARACTERES=NENHUM] -->
+    <!-- Resumo para a preferência de acessibilidade para ajustar o tamanho da tela, tamanho da fonte, texto em negrito e texto de alto contraste. -->
     <string name="accessibility_text_reading_options_summary">Personalizar tamanho da tela, fonte &amp; texto</string>
 
     <!-- Configurações do Monet -->
@@ -844,7 +844,7 @@
     <!-- Serviços em execução - Processos em segundo plano -->
     <string name="background_processes_settings_title">Processos em segundo plano</string>
 
-    <!-- Outras categorias de sons e vibrações: Título para as categorias de preferências de sons e vibrações. [LIMITE DE CARACTERES=NENHUM] -->
+    <!-- Outras categorias de sons e vibrações: Título para as categorias de preferências de sons e vibrações. -->
     <string name="other_sound_category_preference_title">Outros sons e vibrações</string>
 
     <!-- Controle de volume por aplicativo -->
