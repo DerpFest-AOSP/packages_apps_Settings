@@ -26,7 +26,7 @@
         android:order="-123"
         android:max="1000"
         settings:min="0"
-        settings:interval="100"
+        settings:interval="10"
         settings:units="@string/unit_milliseconds"/>
 
     <!-- Custom ringtone vibration pattern 2 -->
@@ -35,7 +35,7 @@
         android:order="-122"
         android:max="1000"
         settings:min="0"
-        settings:interval="100"
+        settings:interval="10"
         settings:units="@string/unit_milliseconds"/>
 
     <!-- Custom ringtone vibration pattern 3 -->
@@ -44,7 +44,7 @@
         android:order="-121"
         android:max="1000"
         settings:min="0"
-        settings:interval="100"
+        settings:interval="10"
         settings:units="@string/unit_milliseconds"/>
 
 </PreferenceScreen>
