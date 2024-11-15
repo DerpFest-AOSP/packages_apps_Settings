@@ -927,4 +927,7 @@
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">Bluetooth schaltet sich nach <xliff:g id="timeout_description">%1$s</xliff:g> aus, wenn keine Geräte verbunden sind</string>
     <string name="bluetooth_timeout_summary2">Bluetooth nicht automatisch ausschalten</string>
+
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Hintergrundprozesse</string>
 </resources>
