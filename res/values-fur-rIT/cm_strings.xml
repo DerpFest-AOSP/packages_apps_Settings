@@ -21,6 +21,8 @@
     <string name="adb_enable_summary_root">Permet la esecuzion dal debug di Android come root</string>
     <string name="backup_transport_setting_label">Cambie gjestôr dai backups</string>
     <string name="backup_transport_title">Selezione un gjestôr dai backups</string>
+    <string name="berry_black_theme_title">Neri pûr</string>
+    <string name="berry_black_theme_summary">Fonts neri pûr pal teme scûr</string>
     <string name="lineagelicense_title">Notis legâls di LineageOS</string>
     <string name="show_dev_countdown_cm">{count, plural,
       one {}=1      {Cumò ti mancje # passaç par ativâ lis impostazions di svilupadôr.}

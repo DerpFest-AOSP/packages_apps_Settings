@@ -21,6 +21,8 @@
     <string name="adb_enable_summary_root">Permitir a execução da depuração Android como root</string>
     <string name="backup_transport_setting_label">Alterar provedor de cópia de segurança</string>
     <string name="backup_transport_title">Selecionar provedor de cópia de segurança</string>
+    <string name="berry_black_theme_title">Preto puro</string>
+    <string name="berry_black_theme_summary">Fundo em preto puro para tema escuro</string>
     <string name="lineagelicense_title">Licença LineageOS</string>
     <string name="show_dev_on_cm">Ativou as opções de programador!</string>
     <string name="show_dev_already_cm">Não é necessário, já ativou as opções de programador.</string>

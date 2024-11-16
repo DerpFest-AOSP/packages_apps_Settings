@@ -21,6 +21,8 @@
     <string name="adb_enable_summary_root">Povoliť spustenie ladenia Androidu s\u00a0právami root</string>
     <string name="backup_transport_setting_label">Zmeniť poskytovateľa zálohovania</string>
     <string name="backup_transport_title">Vybrať poskytovateľa zálohovania</string>
+    <string name="berry_black_theme_title">Čistá čierna</string>
+    <string name="berry_black_theme_summary">Čisto čierne pozadie pre tmavú tému vzhľadu</string>
     <string name="lineagelicense_title">Právne informácie LineageOS</string>
     <string name="show_dev_on_cm">Povolili ste možnosti pre vývojárov!</string>
     <string name="show_dev_already_cm">Netreba, už ste povolili možnosti pre vývojárov.</string>

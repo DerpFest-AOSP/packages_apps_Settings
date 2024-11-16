@@ -21,6 +21,8 @@
     <string name="adb_enable_summary_root">Android sazlamanın rootlu olaraq işləməsinə icazə ver</string>
     <string name="backup_transport_setting_label">Nüsxələmə provayderini dəyişdir</string>
     <string name="backup_transport_title">Nüsxələmə provayderini seç</string>
+    <string name="berry_black_theme_title">Təmiz qara</string>
+    <string name="berry_black_theme_summary">Qaranlıq tema üçün təmiz qara arxaplan</string>
     <string name="lineagelicense_title">LineageOS qanuni</string>
     <string name="show_dev_countdown_cm">{count, plural,
       one {}=1      {Tərtibatçı ayarlarını fəallaşdırmaq üçün # addım qalıb.}

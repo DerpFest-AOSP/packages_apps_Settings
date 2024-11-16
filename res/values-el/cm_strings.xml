@@ -21,6 +21,8 @@
     <string name="adb_enable_summary_root">Επιτρέψτε την εκτέλεση του εντοπισμού σφαλμάτων Android ως root</string>
     <string name="backup_transport_setting_label">Αλλαγή παρόχου αντιγράφων ασφαλείας</string>
     <string name="backup_transport_title">Επιλέξτε πάροχο αντιγράφων ασφαλείας</string>
+    <string name="berry_black_theme_title">Αμιγές μαύρο</string>
+    <string name="berry_black_theme_summary">Αμιγές μαύρο παρασκήνιο για το σκοτεινό θέμα</string>
     <string name="lineagelicense_title">Νομικές πληροφορίες LineageOS</string>
     <string name="show_dev_countdown_cm">{count, plural,
       =1      {Βρίσκεστε πλέον # βήμα μακριά από την ενεργοποίηση των ρυθμίσεων προγραμματιστή.}

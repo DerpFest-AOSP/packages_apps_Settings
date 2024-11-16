@@ -21,6 +21,8 @@
     <string name="adb_enable_summary_root">Caniatáu rhedeg dadfygio Android fel gwraidd</string>
     <string name="backup_transport_setting_label">Newid darparwr wrth gefn</string>
     <string name="backup_transport_title">Dewis darparwr wrth gefn</string>
+    <string name="berry_black_theme_title">Du pur</string>
+    <string name="berry_black_theme_summary">Cefndir du pur i\'r thema dywyll</string>
     <string name="lineagelicense_title">Cyfreithiol LineageOS</string>
     <string name="show_dev_on_cm">Rwyt wedi galluogi gosodiadau datblygu!</string>
     <string name="show_dev_already_cm">Dim angen; rwyt eisoes wedi galluogi gosodiadau datblygu.</string>

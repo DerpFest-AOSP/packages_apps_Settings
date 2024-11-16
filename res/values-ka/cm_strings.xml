@@ -21,6 +21,8 @@
     <string name="adb_enable_summary_root">ნებართვა, ძირეული უფლებით Android-გამართვისთვის</string>
     <string name="backup_transport_setting_label">შეცვალეთ მარქაფის მომსახურება</string>
     <string name="backup_transport_title">აირჩიეთ მარქაფის მომსახურება</string>
+    <string name="berry_black_theme_title">სადა შავი</string>
+    <string name="berry_black_theme_summary">სადა შავი ფონი მუქი იერსახისთვის</string>
     <string name="lineagelicense_title">LineageOS – სამართლებრივი</string>
     <string name="show_dev_countdown_cm">{count, plural,
       one {}=1      {# ნაბიჯი შემმუშავებლის პარამეტრების ამოქმედებამდე.}

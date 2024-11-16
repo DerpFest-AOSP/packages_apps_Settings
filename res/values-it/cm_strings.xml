@@ -21,6 +21,8 @@
     <string name="adb_enable_summary_root">Consenti l\'utilizzo di funzioni di debug con permessi root</string>
     <string name="backup_transport_setting_label">Cambia gestore di backup</string>
     <string name="backup_transport_title">Seleziona un gestore di backup</string>
+    <string name="berry_black_theme_title">Nero puro</string>
+    <string name="berry_black_theme_summary">Tema scuro con sfondo nero</string>
     <string name="lineagelicense_title">Note legali LineageOS</string>
     <string name="show_dev_countdown_cm">{count, plural,
       one {}=1      {Sei a # passo dall\'attivare le impostazioni di sviluppo.}

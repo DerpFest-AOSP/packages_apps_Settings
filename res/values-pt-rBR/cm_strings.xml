@@ -21,6 +21,8 @@
     <string name="adb_enable_summary_root">Permitir a depuração do Android como superusuário</string>
     <string name="backup_transport_setting_label">Alterar provedor de backup</string>
     <string name="backup_transport_title">Selecione o provedor de backup</string>
+    <string name="berry_black_theme_title">Preto puro</string>
+    <string name="berry_black_theme_summary">Preto puro como cor de fundo para tema escuro</string>
     <string name="lineagelicense_title">Licença LineageOS</string>
     <string name="show_dev_countdown_cm">{count, plural,
       =1      {Agora você está a # passo de ativar as configurações de desenvolvimento.}

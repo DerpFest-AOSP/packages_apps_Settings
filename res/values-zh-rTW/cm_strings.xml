@@ -21,6 +21,8 @@
     <string name="adb_enable_summary_root">允許以 root 身份進行 Android 偵錯</string>
     <string name="backup_transport_setting_label">變更備份服務提供者</string>
     <string name="backup_transport_title">選擇備份服務提供者</string>
+    <string name="berry_black_theme_title">純黑色</string>
+    <string name="berry_black_theme_summary">深色主題使用純黑色的背景</string>
     <string name="lineagelicense_title">LineageOS 法律條款</string>
     <string name="show_dev_countdown_cm">{count, plural,
       =1      {再 # 個步驟即可啟用開發人員設定。}
