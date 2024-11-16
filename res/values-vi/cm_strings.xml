@@ -21,6 +21,8 @@
     <string name="adb_enable_summary_root">Cho phép chạy gỡ lỗi Android với quyền root</string>
     <string name="backup_transport_setting_label">Thay đổi nơi lưu trữ dữ liệu sao lưu của bạn</string>
     <string name="backup_transport_title">Chọn nơi lưu trữ dữ liệu sao lưu</string>
+    <string name="berry_black_theme_title">Đen tuyền</string>
+    <string name="berry_black_theme_summary">Nền đen tuyền cho chủ đề tối</string>
     <string name="lineagelicense_title">Bộ phận pháp chế của LineageOS</string>
     <string name="show_dev_countdown_cm">{count, plural,
       =1      {Hiện tại bạn đang cách # bước nữa để bật cài đặt nhà phát triển.}

@@ -21,6 +21,8 @@
     <string name="adb_enable_summary_root">Разрешить запуск отладки Android с правами суперпользователя</string>
     <string name="backup_transport_setting_label">Сменить поставщика резервного копирования</string>
     <string name="backup_transport_title">Выберите поставщика резервного копирования</string>
+    <string name="berry_black_theme_title">Натурально черный</string>
+    <string name="berry_black_theme_summary">Натурально черный фон для темной темы</string>
     <string name="lineagelicense_title">Политика конфиденциальности LineageOS</string>
     <string name="show_dev_countdown_cm">{count, plural,
       =1      {Вы в # шаге от включения настроек разработчика.}

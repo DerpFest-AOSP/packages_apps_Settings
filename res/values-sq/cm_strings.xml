@@ -21,6 +21,8 @@
     <string name="adb_enable_summary_root">Lejoni ekzekutimin e korrigjimit të gabimeve të Android si root</string>
     <string name="backup_transport_setting_label">Ndryshoni ofruesin e rezervës</string>
     <string name="backup_transport_title">Zgjidhni siguruesin e rezervës</string>
+    <string name="berry_black_theme_title">E zezë e pastër</string>
+    <string name="berry_black_theme_summary">Sfond i zi i pastër për temë të errët</string>
     <string name="lineagelicense_title">Liçensa e LineageOS</string>
     <string name="show_dev_countdown_cm">{count, plural,
       =1      {Tani jeni # hap larg nga aktivizimi i cilësimeve të zhvillimit.}
