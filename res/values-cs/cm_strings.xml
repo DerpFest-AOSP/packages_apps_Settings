@@ -21,6 +21,8 @@
     <string name="adb_enable_summary_root">Povolit spuštění ladění Androidu s\u00a0právy root</string>
     <string name="backup_transport_setting_label">Změnit poskytovatele zálohování</string>
     <string name="backup_transport_title">Vyberte poskytovatele zálohování</string>
+    <string name="berry_black_theme_title">Čistě černý</string>
+    <string name="berry_black_theme_summary">Čistě černé pozadí při tmavém motivu</string>
     <string name="lineagelicense_title">Právní ujednání LineageOS</string>
     <string name="show_dev_countdown_cm">{count, plural,
       =1 {Už schází jen # krok od povolení vývojářského nastavení.}

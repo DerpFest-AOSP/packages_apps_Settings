@@ -21,6 +21,8 @@
     <string name="adb_enable_summary_root">Autoriser le débogage Android en tant que root</string>
     <string name="backup_transport_setting_label">Modifier le fournisseur de sauvegarde</string>
     <string name="backup_transport_title">Sélectionner un fournisseur de sauvegarde</string>
+    <string name="berry_black_theme_title">Noir pur</string>
+    <string name="berry_black_theme_summary">Fond noir pur pour le thème sombre</string>
     <string name="lineagelicense_title">Infos légales LineageOS</string>
     <string name="show_dev_countdown_cm">{count, plural,
       =1      {Vous êtes maintenant à # étape de l\'activation des paramètres de développement.}

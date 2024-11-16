@@ -21,6 +21,8 @@
     <string name="adb_enable_summary_root">Leyfa að villuleit í Android sé keyrð sem kerfisstjóri/root</string>
     <string name="backup_transport_setting_label">Breyta öryggisafritunarveitu</string>
     <string name="backup_transport_title">Veldu öryggisafritunarveitu</string>
+    <string name="berry_black_theme_title">Hreint svart</string>
+    <string name="berry_black_theme_summary">Hreinn svartur bakgrunnur í dökku þema</string>
     <string name="lineagelicense_title">Lagalegir fyrirvarar LineageOS</string>
     <string name="show_dev_countdown_cm">{count, plural,
       =1      {Þú ert núna # skref frá því að virkja þróunarstillingar.}

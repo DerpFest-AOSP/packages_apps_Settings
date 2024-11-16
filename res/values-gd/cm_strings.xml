@@ -21,6 +21,8 @@
     <string name="adb_enable_summary_root">Ceadaich gun dèid dì-bhugachadh Android a ruith ’na root</string>
     <string name="backup_transport_setting_label">Atharraich solaraiche nan lethbhreacan-glèidhidh</string>
     <string name="backup_transport_title">Tagh solaraiche nan lethbhreacan-glèidhidh</string>
+    <string name="berry_black_theme_title">Dubh</string>
+    <string name="berry_black_theme_summary">Cleachd cùlaibh dubh leis an ùrlar dhorcha</string>
     <string name="lineagelicense_title">Sgrìobhainnean laghail LineageOS</string>
     <string name="show_dev_on_cm">Chuir thu roghainnean an luchd-leasachaidh an comas!</string>
     <string name="show_dev_already_cm">Cha leig thu leas, chuir thu roghainnean an luchd-leasachaidh an comas mu thràth.</string>

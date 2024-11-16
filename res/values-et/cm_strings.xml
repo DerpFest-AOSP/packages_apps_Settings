@@ -21,6 +21,8 @@
     <string name="adb_enable_summary_root">Luba Androidi silumist juurkasutajaga</string>
     <string name="backup_transport_setting_label">Muuda varunduste pakkujat</string>
     <string name="backup_transport_title">Vali varunduste pakkuja</string>
+    <string name="berry_black_theme_title">Täiesti must</string>
+    <string name="berry_black_theme_summary">Täiesti must taust tumeda teema jaoks</string>
     <string name="lineagelicense_title">LineageOS juriidiline info</string>
     <string name="show_dev_on_cm">Arendussätted aktiveeritud!</string>
     <string name="show_dev_already_cm">Ei ole vaja, arendussätted juba aktiveeritud.</string>

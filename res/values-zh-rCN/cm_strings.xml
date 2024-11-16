@@ -21,6 +21,8 @@
     <string name="adb_enable_summary_root">允许以 root 身份运行 Android 调试</string>
     <string name="backup_transport_setting_label">更改备份提供商</string>
     <string name="backup_transport_title">选择备份提供商</string>
+    <string name="berry_black_theme_title">纯黑色</string>
+    <string name="berry_black_theme_summary">暗色主题使用纯黑色背景</string>
     <string name="lineagelicense_title">LineageOS 法律信息</string>
     <string name="show_dev_countdown_cm">{count, plural,
       =1      {您距离启用开发模式还有 # 步距离。}

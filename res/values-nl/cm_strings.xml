@@ -21,6 +21,8 @@
     <string name="adb_enable_summary_root">Uitvoeren van Android foutopsporing als root toestaan</string>
     <string name="backup_transport_setting_label">Wijzig back-up provider</string>
     <string name="backup_transport_title">Kies back-up provider</string>
+    <string name="berry_black_theme_title">Puur zwart</string>
+    <string name="berry_black_theme_summary">Puur zwarte achtergrond voor donker thema</string>
     <string name="lineagelicense_title">Juridische informatie van LineageOS</string>
     <string name="show_dev_countdown_cm">{count, plural,
       one {}=1      {U bent nu # stap verwijderd van het inschakelen van de opties voor ontwikkeling}

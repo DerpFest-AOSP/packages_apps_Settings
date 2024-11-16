@@ -21,6 +21,8 @@
     <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
     <string name="backup_transport_setting_label">Change backup provider</string>
     <string name="backup_transport_title">Select backup provider</string>
+    <string name="berry_black_theme_title">Pure black</string>
+    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
     <string name="lineagelicense_title">LineageOS legal</string>
     <string name="show_dev_countdown_cm">{count, plural,
       one {}=1      {You are now # step away from enabling development settings.}
