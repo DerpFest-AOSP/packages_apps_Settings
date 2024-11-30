@@ -329,4 +329,8 @@
     <!-- Category for theme overlays -->
     <string name="theme_customization_lock_clock_title">Schriftstil der Uhr</string>
     <string name="theme_customization_lock_clock_summary">Schrift der Sperrbildschirmuhr festlegen</string>
+
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Pixel-Animation</string>
+    <string name="pixel_navbar_anim_summary">Animation im Pixel-Stil aktivieren</string>
 </resources>
