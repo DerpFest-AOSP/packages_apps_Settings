@@ -333,22 +333,4 @@
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Pixel-Animation</string>
     <string name="pixel_navbar_anim_summary">Animation im Pixel-Stil aktivieren</string>
-
-    <!-- Weather -->
-    <string name="weather_settings_title">Wetter-Einstellungen</string>
-    <string name="weather_settings_summary">Symbolpaket und Wetterdienst einrichten</string>
-    <string name="lockscreen_weather_category">Wetter</string>
-    <string name="lockscreen_weather_title">Wetterinfo</string>
-    <string name="lockscreen_weather_summary">Aktuelle Wetterinfo anzeigen</string>
-    <string name="lockscreen_weather_enabled_info">Erfordert, dass ein benutzerdefinierter Wetterdienst konfiguriert und Smartspace deaktiviert ist</string>
-    <string name="lockscreen_weather_location_title">Aktueller Standort</string>
-    <string name="lockscreen_weather_location_summary">Aktuellen Standort des Wetters anzeigen</string>
-    <string name="lockscreen_weather_text_title">Wetterlage in Worten</string>
-    <string name="lockscreen_weather_text_summary">Kurze schriftliche Übersicht der aktuellen Wetterlage anzeigen</string>
-    <string name="lockscreen_weather_style_title">Pixel-Stil</string>
-    <string name="lockscreen_weather_style_summary">Wetter in separater Zeile anzeigen</string>
-
-    <!-- Smartspace -->
-    <string name="lockscreen_smartspace_title">Smartspace</string>
-    <string name="lockscreen_smartspace_summary">Google Smartspace anzeigen, wenn verfügbar</string>
 </resources>
