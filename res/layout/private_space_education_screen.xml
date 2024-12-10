@@ -97,6 +97,20 @@
                 android:layout_toEndOf="@+id/eduIcon"
                 android:text="@string/private_space_apps_stopped_text"/>
         </RelativeLayout>
+        <RelativeLayout
+            style="@style/PrivateSpaceSetupBulletPointLayoutStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/eduIcon"
+                style="@style/PrivateSpaceBulletPointIconStyle"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_private_space_edu_icon" />
+            <TextView
+                style="@style/PrivateSpaceBulletPointTextFontStyle"
+                android:layout_toEndOf="@+id/eduIcon"
+                android:text="@string/private_space_separate_vpn_text"/>
+        </RelativeLayout>
         <Space
             android:layout_width="wrap_content"
             android:layout_height="16dp"/>

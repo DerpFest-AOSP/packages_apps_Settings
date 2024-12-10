@@ -353,4 +353,7 @@
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Pixel animation</string>
     <string name="pixel_navbar_anim_summary">Toggle home button animation</string>
+
+    <!-- Text shown in private space setup screen which explains that apps in private space use their own VPN unless Global VPN is in effect. [CHAR LIMIT=NONE] -->
+    <string name="private_space_separate_vpn_text"><b>Apps don\u2019t use your existing VPN</b>\nFor your private apps to use a VPN, you need to set one up in your space, too. Alternatively, you can turn on Global VPN</string>
 </resources>
