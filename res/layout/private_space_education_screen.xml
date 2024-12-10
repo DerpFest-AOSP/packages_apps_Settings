@@ -22,7 +22,7 @@
     android:layout_height="match_parent"
     android:filterTouchesWhenObscured="true"
     app:sucHeaderText="@string/private_space_setup_title"
-    app:sudDescriptionText="@string/private_space_hide_apps_summary"
+    app:sudDescriptionText="@string/private_space_hide_apps_summary_calyx"
     android:icon="@drawable/ic_private_space_icon">
     <ScrollView
         android:id="@+id/main_clear_scrollview"
@@ -48,20 +48,9 @@
         <RelativeLayout
             style="@style/PrivateSpaceSetupBulletPointLayoutStyle">
             <ImageView
-                android:id="@+id/lockIcon"
-                style="@style/PrivateSpaceBulletPointIconStyle"
-                android:src="@drawable/counter_1_24dp" />
-            <TextView
-                style="@style/PrivateSpaceBulletPointTextFontStyle"
-                android:layout_toEndOf="@+id/lockIcon"
-                android:text="@string/private_space_separate_account_text"/>
-        </RelativeLayout>
-        <RelativeLayout
-            style="@style/PrivateSpaceSetupBulletPointLayoutStyle">
-            <ImageView
                 android:id="@+id/bellIcon"
                 style="@style/PrivateSpaceBulletPointIconStyle"
-                android:src="@drawable/counter_2_24dp" />
+                android:src="@drawable/counter_1_24dp" />
             <TextView
                 style="@style/PrivateSpaceBulletPointTextFontStyle"
                 android:layout_toEndOf="@+id/bellIcon"
@@ -74,7 +63,7 @@
             <ImageView
                 android:id="@+id/appsIcon"
                 style="@style/PrivateSpaceBulletPointIconStyle"
-                android:src="@drawable/counter_3_24dp" />
+                android:src="@drawable/counter_2_24dp" />
             <TextView
                 style="@style/PrivateSpaceBulletPointTextFontStyle"
                 android:layout_toEndOf="@+id/appsIcon"
