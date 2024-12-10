@@ -328,4 +328,7 @@
 
     <!-- Text shown in private space setup screen which explains that apps in private space use their own VPN unless Global VPN is in effect. [CHAR LIMIT=NONE] -->
     <string name="private_space_separate_vpn_text"><b>Apps verwenden nicht Ihr vorhandenes VPN</b>\nDamit Ihre privaten Apps ein VPN nutzen können, müssen Sie auch in Ihrem Bereich eines einrichten. Alternativ können Sie Global VPN aktivieren</string>
+
+    <!-- Summary for the private space setup education screen. [CHAR LIMIT=NONE] -->
+    <string name="private_space_hide_apps_summary_calyx">Verstecke oder sperre private Apps in einem separaten Bereich.</string>
 </resources>
