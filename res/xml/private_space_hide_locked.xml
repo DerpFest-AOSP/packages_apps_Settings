@@ -48,15 +48,8 @@
         settings:searchable="false" />
 
         <Preference
-            android:key="tap_tile_footer"
-            android:icon="@drawable/counter_2_24dp"
-            android:title="@string/private_space_tap_tile_description"
-            android:selectable="false"
-            settings:searchable="false" />
-
-        <Preference
             android:key="unlock_profile_footer"
-            android:icon="@drawable/counter_3_24dp"
+            android:icon="@drawable/counter_2_24dp"
             android:title="@string/private_space_unlock_description"
             android:selectable="false"
             settings:searchable="false" />
