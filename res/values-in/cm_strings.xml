@@ -22,6 +22,10 @@
     <string name="berry_black_theme_title">Hitam</string>
     <string name="berry_black_theme_summary">Latar belakang hitam untuk tema gelap</string>
     <string name="lineagelicense_title">Hukum LineageOS</string>
+    <string name="show_dev_countdown_cm">{count, plural,
+      =1      {Sekarang Anda # langkah lagi untuk mengaktifkan opsi pengembang}
+      other   {Sekarang anda # langkah lagi untuk mengaktifkan opsi pengembang}
+    }</string>
     <string name="show_dev_on_cm">Anda adalah seorang pengembang!</string>
     <string name="show_dev_already_cm">Tidak perlu, Anda telah mengaktifkan opsi pengembang.</string>
     <string name="status_bar_double_tap_to_sleep_title">Ketuk untuk tidur</string>
@@ -89,7 +93,9 @@
     <string name="ambient_display_screen_off_udfps_summary">Untuk mengaktifkan layar dan membuka kunci, tekan lama sensor sidik jari di bawah layar.</string>
     <string name="battery_technology">Teknologi</string>
     <string name="battery_health">Kesehatan</string>
+    <string name="battery_health_good">Baik</string>
     <string name="battery_health_dead">Mati</string>
+    <string name="battery_health_cold">Dingin</string>
     <string name="battery_temperature">Suhu</string>
     <string name="battery_voltage">Tegangan</string>
     <string name="battery_charge_counter_summary">%1$d mAh</string>
