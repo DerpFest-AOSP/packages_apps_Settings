@@ -108,8 +108,10 @@
     <string name="battery_health">상태</string>
     <string name="battery_health_good">좋음</string>
     <string name="battery_health_overheat">과열</string>
+    <string name="battery_health_dead">방전됨</string>
     <string name="battery_health_over_voltage">과전압</string>
     <string name="battery_health_unspecified_failure">알 수 없는 오류</string>
+    <string name="battery_health_cold">차가움</string>
     <string name="battery_health_unknown">알 수 없음</string>
     <string name="battery_temperature">온도</string>
     <string name="battery_voltage">전압</string>
