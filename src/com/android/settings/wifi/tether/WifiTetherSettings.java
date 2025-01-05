@@ -385,14 +385,22 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
                     || !mWifiRestriction.isHotspotAvailable(context)) {
                 keys.add(KEY_WIFI_TETHER_NETWORK_NAME);
                 keys.add(KEY_WIFI_TETHER_SECURITY);
+                keys.add(KEY_WIFI_HOTSPOT_SECURITY);
                 keys.add(KEY_WIFI_TETHER_NETWORK_PASSWORD);
                 keys.add(KEY_WIFI_TETHER_AUTO_OFF);
                 keys.add(KEY_WIFI_TETHER_AP_BAND);
+                keys.add(KEY_WIFI_HOTSPOT_SPEED);
                 keys.add(KEY_INSTANT_HOTSPOT);
                 keys.add(KEY_WIFI_TETHER_HIDDEN_SSID);
                 keys.add(KEY_WIFI_TETHER_CLIENT_MANAGER);
-            } else if (!mIsInstantHotspotEnabled) {
-                keys.add(KEY_INSTANT_HOTSPOT);
+            } else {
+                if (!isSpeedFeatureAvailable()) {
+                    keys.add(KEY_WIFI_HOTSPOT_SECURITY);
+                    keys.add(KEY_WIFI_HOTSPOT_SPEED);
+                }
+                if (!mIsInstantHotspotEnabled) {
+                    keys.add(KEY_INSTANT_HOTSPOT);
+                }
             }
 
             // Remove duplicate
@@ -415,6 +423,12 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
         @Override
         public List<AbstractPreferenceController> createPreferenceControllers(Context context) {
             return buildPreferenceControllers(context, null /* listener */);
+        }
+
+        @VisibleForTesting
+        boolean isSpeedFeatureAvailable() {
+            return FeatureFactory.getFeatureFactory().getWifiFeatureProvider()
+                    .getWifiHotspotRepository().isSpeedFeatureAvailable();
         }
     }
 

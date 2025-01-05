@@ -26,6 +26,7 @@ import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.core.BasePreferenceController;
 
+// LINT.IfChange
 public class BasebandVersionPreferenceController extends BasePreferenceController {
 
     @VisibleForTesting
@@ -52,3 +53,4 @@ public class BasebandVersionPreferenceController extends BasePreferenceControlle
         return baseband;
     }
 }
+// LINT.ThenChange(BasebandVersionPreference.kt)
