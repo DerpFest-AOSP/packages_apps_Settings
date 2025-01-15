@@ -24,6 +24,10 @@
     <string name="berry_black_theme_title">Preto puro</string>
     <string name="berry_black_theme_summary">Fundo em preto puro para tema escuro</string>
     <string name="lineagelicense_title">Licença LineageOS</string>
+    <string name="show_dev_countdown_cm">{count, plural,
+      =1      {Está agora a # passo de ativar as opções de programador.}
+      other   {Está agora a # passos de ativar as opções de programador.}
+    }</string>
     <string name="show_dev_on_cm">Ativou as opções de programador!</string>
     <string name="show_dev_already_cm">Não é necessário, já ativou as opções de programador.</string>
     <string name="status_bar_double_tap_to_sleep_title">Toque duplo para desligar o ecrã</string>
@@ -59,6 +63,7 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Toque no sensor na lateral do seu tablet.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Toque no sensor na lateral do seu dispositivo.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Toque no sensor na lateral do seu telefone.</string>
+    <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Toque no sensor para desbloquear, mesmo com o ecrã desligado. O sensor de proximidade impedirá desbloqueios acidentais.</string>
     <string name="show_navbar_hint_title">Dica de navegação</string>
     <string name="show_navbar_hint_summary">Mostrar a barra de dicas de navegação na parte inferior do ecrã</string>
     <string name="app_notification_sound_timeout_title">Tempo mínimo entre sons de notificação</string>
@@ -68,6 +73,7 @@
     <string name="app_notification_sound_timeout_value_30_seconds">30 segundos</string>
     <string name="app_notification_sound_timeout_value_1_minute">1 minuto</string>
     <string name="app_notification_sound_timeout_value_5_minutes">5 minutos</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">15 minutos</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutos</string>
     <string name="auto_brightness_one_shot_title">Brilho automático ao ligar o ecrã</string>
     <string name="auto_brightness_one_shot_summary">O ajuste do brilho ocorrerá apenas no momento em que o ecrã for ligado</string>
@@ -96,4 +102,22 @@
     <string name="ambient_display_screen_off_udfps_title" product="device">Mantenha premido o sensor de impressão digital para desbloquear o dispositivo</string>
     <string name="ambient_display_screen_off_udfps_summary">Para ligar o ecrã e desbloquear, mantenha premido o sensor de impressão digital.</string>
     <string name="storage_warning_internal">Aviso: Esta opção pode não funcionar corretamente ou levar à perda de dados, não sendo, portanto, recomendada!</string>
+    <string name="assisted_gps">Utilizar GPS assistido</string>
+    <string name="assisted_gps_summary">Descarregar da internet dados de assistência por satélite, o que pode melhorar bastante o desempenho de arranque do GPS. Para chamadas de emergência, o GPS assistido é sempre permitido.</string>
+    <string name="battery_technology">Tecnologia</string>
+    <string name="battery_health">Saúde</string>
+    <string name="battery_health_good">Boa</string>
+    <string name="battery_health_overheat">Sobreaquecida</string>
+    <string name="battery_health_dead">Gasta</string>
+    <string name="battery_health_over_voltage">Sobretensão</string>
+    <string name="battery_health_unspecified_failure">Falha não especificada</string>
+    <string name="battery_health_cold">Fria</string>
+    <string name="battery_health_unknown">Desconhecida</string>
+    <string name="battery_temperature">Temperatura</string>
+    <string name="battery_voltage">Tensão</string>
+    <string name="battery_charge_counter_summary">%1$d mAh</string>
+    <string name="battery_design_capacity">Capacidade original</string>
+    <string name="battery_design_capacity_summary">%1$d mAh</string>
+    <string name="battery_maximum_capacity">Capacidade máxima</string>
+    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
 </resources>
