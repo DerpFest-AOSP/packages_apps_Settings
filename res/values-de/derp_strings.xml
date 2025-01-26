@@ -322,11 +322,6 @@
     <string name="pulse_vertical_mirror_title">Vertikal gespiegelt</string>
     <string name="pulse_vertical_mirror_summary">Erzeugt einen weiteren Pulse, der vertikal gedreht ist</string>
 
-    <!-- Doze on double tap -->
-    <string name="double_tap_title">Doppelt Tippen</string>
-    <string name="doze_double_tap_title">Doppelt tippen, um einen schnellen Blick auf das Smartphone-Display zu werfen</string>
-    <string name="doze_double_tap_summary">Benachrichtigungen durch doppeltes Tippen anzeigen</string>
-
     <!-- Category for theme overlays -->
     <string name="theme_customization_lock_clock_title">Schriftstil der Uhr</string>
     <string name="theme_customization_lock_clock_summary">Schrift der Sperrbildschirmuhr festlegen</string>
