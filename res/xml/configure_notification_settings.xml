@@ -207,13 +207,27 @@
             settings:requiresConfig="@*android:bool/config_intrusiveNotificationLed"
             settings:replacesKey="notification_pulse" />
 
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="notification_force_non_dismissible"
+            android:order="27"
+            android:title="@string/notification_force_non_dismissible_title"
+            android:summary="@string/notification_force_non_dismissible_summary" />
+
         <!-- Heads up -->
         <SwitchPreferenceCompat
             android:key="heads_up_notifications_enabled"
-            android:order="27"
+            android:order="28"
             android:title="@string/heads_up_title"
             android:summary="@string/heads_up_summary"
             android:defaultValue="true" />
+
+        <org.derpfest.support.preferences.SystemPropertySwitchPreference
+            android:key="persist.sys.compact_heads_up_notification.always_show"
+            android:order="29"
+            android:title="@string/compact_heads_up_notifications_enabled_title"
+            android:summary="@string/compact_heads_up_notifications_enabled_summary"
+            android:defaultValue="false"
+            android:dependency="heads_up_notifications_enabled" />
 
         <!-- Edge Light -->
         <org.derpfest.support.preferences.SelfRemovingPreference
@@ -222,11 +236,5 @@
             android:summary="@string/ambient_edge_light_summary"
             android:fragment="com.android.settings.derpfest.edgelight.AmbientEdgeLightSettings"
             settings:requiresConfig="@bool/config_show_ambient_edge_light" />
-
-        <org.derpfest.support.preferences.SystemSettingSwitchPreference
-            android:key="notification_force_non_dismissible"
-            android:order="27"
-            android:title="@string/notification_force_non_dismissible_title"
-            android:summary="@string/notification_force_non_dismissible_summary" />
     </PreferenceCategory>
 </PreferenceScreen>
