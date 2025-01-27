@@ -204,8 +204,10 @@
         <!-- Notification lights -->
         <org.derpfest.support.preferences.SelfRemovingPreference
             android:key="notification_lights"
+            android:title="@string/notification_light_title"
             settings:requiresConfig="@*android:bool/config_intrusiveNotificationLed"
-            settings:replacesKey="notification_pulse" />
+            settings:replacesKey="notification_pulse"
+            android:fragment="com.android.settings.derpfest.notificationlight.NotificationLightSettings" />
 
         <org.derpfest.support.preferences.SystemSettingSwitchPreference
             android:key="notification_force_non_dismissible"
