@@ -31,7 +31,7 @@ import android.provider.Settings;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 
 import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
@@ -64,9 +64,9 @@ public class PreventRingingGesturePreferenceController extends AbstractPreferenc
 
     PreferenceCategory mPreferenceCategory;
     MainSwitchPreference mMasterSwitch;
-    SwitchPreference mNormalPref;
-    SwitchPreference mVibratePref;
-    SwitchPreference mMutePref;
+    SwitchPreferenceCompat mNormalPref;
+    SwitchPreferenceCompat mVibratePref;
+    SwitchPreferenceCompat mMutePref;
 
     private SettingObserver mSettingObserver;
 
@@ -202,8 +202,8 @@ public class PreventRingingGesturePreferenceController extends AbstractPreferenc
         }
     }
 
-    private SwitchPreference makeSwitchPreference(String key, int titleId) {
-        SwitchPreference pref = new SwitchPreference(mPreferenceCategory.getContext());
+    private SwitchPreferenceCompat makeSwitchPreference(String key, int titleId) {
+        SwitchPreferenceCompat pref = new SwitchPreferenceCompat(mPreferenceCategory.getContext());
         pref.setKey(key);
         pref.setTitle(titleId);
         pref.setOnPreferenceChangeListener(this);
