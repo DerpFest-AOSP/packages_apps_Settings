@@ -15,6 +15,12 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyboard_extras_title">Tillval</string>
+    <string name="advanced_keyboard_settings_title">Avancerade inställningar</string>
+    <string name="adb_enable_root">Rootad felsökning</string>
+    <string name="adb_enable_summary_root">Tillåt att Android-felsökning körs som root</string>
+    <string name="backup_transport_setting_label">Ändra säkerhetskopieringsleverantör</string>
+    <string name="backup_transport_title">Välj säkerhetskopieringsleverantör</string>
     <string name="berry_black_theme_title">Helsvart</string>
     <string name="berry_black_theme_summary">Helsvart bakgrund för mörkt tema</string>
     <string name="lineagelicense_title">LineageOS Juridik</string>
@@ -23,6 +29,7 @@
     <string name="status_bar_double_tap_to_sleep_title">Dubbeltryck för att släcka skärmen</string>
     <string name="high_touch_sensitivity_title">Hög fingerkänslighet</string>
     <string name="high_touch_sensitivity_summary">Öka tryckskärmens känslighet så att den kan användas samtidigt som du bär handskar</string>
+    <string name="lock_settings_picker_pattern_size_message">Välj en mönsterstorlek</string>
     <string name="lockpattern_settings_enable_error_path_title">Visa mönster vid fel</string>
     <string name="lockpattern_settings_enable_dots_title">Visa mönsterpunkter</string>
     <string name="app_notification_sound_timeout_title">Minsta tid mellan aviseringsljud</string>
@@ -48,5 +55,7 @@
     <string name="touchscreen_hovering_summary">Låter dig hovra över skärmen som en mus i webbläsare, fjärrskrivbord, etc</string>
     <string name="wake_when_plugged_or_unplugged_title">Vakna vid koppling</string>
     <string name="wake_when_plugged_or_unplugged_summary">Starta skärmen vid anslutning till eller frånkoppling från strömkälla</string>
+    <string name="fast_charging_title">Snabbladdning</string>
+    <string name="fast_charging_summary">Inaktivera för att minska värmen som produceras av enheten under laddning eller för att förlänga batteriets livslängd</string>
     <string name="assisted_gps_summary">Ladda ner satellitdata från internet som avsevärt kan förbättra GPS:ens startprestanda. För nödsamtal är assisterad GPS alltid tillåten.</string>
 </resources>

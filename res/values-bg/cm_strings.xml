@@ -28,6 +28,8 @@
     <string name="show_dev_already_cm">Няма нужда, вече сте включили менюто Опции на програмиста.</string>
     <string name="status_bar_double_tap_to_sleep_title">Натиснете, за заспиване</string>
     <string name="status_bar_double_tap_to_sleep_summary">Докоснете двукратно лентата на състоянието или заключващия екран, за да изключите дисплея</string>
+    <string name="high_touch_polling_rate_title">Висока опреснителна честота на докосване</string>
+    <string name="high_touch_polling_rate_summary">Увеличаване честотата на опресняване</string>
     <string name="heads_up_notifications_enabled_title">Изскачащи известия</string>
     <string name="heads_up_notifications_enabled_summary">Покажи приоритетни известия в малък плаващ прозорец</string>
     <string name="high_touch_sensitivity_title">Висока чувствителност на допир</string>
@@ -39,6 +41,24 @@
     <string name="lockpattern_settings_enable_dots_title">Покажи точките на модела</string>
     <string name="max_refresh_rate_title">Пикова честота на опресняване</string>
     <string name="min_refresh_rate_title">Минимална честота на опресняване</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Намерете сензора за пръстови отпечатъци отпред на таблета ви.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Намерете сензора за пръстови отпечатъци отпред на устройството ви.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Открийте сензора за пръстови отпечатъци отпред на телефона ви.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Намерете сензора за пръстови отпечатъци на гърба на таблета ви.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Намерете сензора за пръстови отпечатъци на гърба на устройството ви.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Намерете сензора за пръстови отпечатъци на гърба на телефона ви.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Намерете сензора за пръстови отпечатъци от отсрани на таблета ви.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Намерете сензора за пръстови отпечатъци отсрани на устройството ви.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Намерете сензора за пръстови отпечатъци отстрани на телефона ви.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Докснете сензора отпред на таблета ви.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Докоснете сензора отпред на устройството ви.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Докоснете сензора отпред на телефона ви.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Докоснете сензора на гърба на таблета ви.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Докоснете сензора на гърба на устройството ви.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Докоснете сензора на гърба на телефона ви.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Докоснете сензора отстрани на таблета ви.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Докоснете сензора отсрани на устройството ви.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Докоснета сензора отстрани на телефона ви.</string>
     <string name="show_navbar_hint_title">Подсказки за навигация</string>
     <string name="show_navbar_hint_summary">Показване на подсказки за навигация в долната част на екрана</string>
     <string name="app_notification_sound_timeout_title">Минимално време между напомняния</string>
@@ -71,4 +91,9 @@
     <string name="wake_when_plugged_or_unplugged_summary">Включване на екрана, когато включвате или изключвате източник на захранване</string>
     <string name="fast_charging_title">Бързо зареждане</string>
     <string name="fast_charging_summary">Деактивирайте, за да намалите топлината, произведена от устройството по време на зареждане или да удължите живота на батерията</string>
+    <string name="ambient_display_screen_off_udfps_title" product="default">Задръжте върху сензора за пръстови отпечатъци, за да отключите телефона</string>
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Задръжте върху сензора за пръстови отпечатъци, за да отключите таблета.</string>
+    <string name="ambient_display_screen_off_udfps_title" product="device">Задръжте върху сензора за пръстови отпечатъци, за да отключите устройството</string>
+    <string name="ambient_display_screen_off_udfps_summary">За да включите екрана и да го отключите, задръжте върху сензора за пръстови отпечатъци в екрана.</string>
+    <string name="storage_warning_internal">Предупреждение: Тази опция може да не работи правилно или доведе до загуба на данни и затова не се препоръчва!</string>
 </resources>

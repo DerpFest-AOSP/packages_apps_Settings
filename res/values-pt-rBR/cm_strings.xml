@@ -39,7 +39,7 @@
     <string name="high_touch_sensitivity_title">Toque de alta sensibilidade</string>
     <string name="high_touch_sensitivity_summary">Aumenta a sensibilidade da tela para poder ser usada com luvas</string>
     <string name="tethering_allow_vpn_upstreams_title">Permitir que dispositivos conectados usem VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permitir que dispositivos conectados no ponto de acesso usem conexões de VPN deste dispositivo</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permitir que dispositivos conectados no ponto de acesso usem as conexões de VPN deste dispositivo</string>
     <string name="lock_settings_picker_pattern_size_message">Escolha um tamanho para o padrão</string>
     <string name="lockpattern_settings_enable_error_path_title">Exibir erro de padrão</string>
     <string name="lockpattern_settings_enable_dots_title">Exibir pontos no padrão</string>

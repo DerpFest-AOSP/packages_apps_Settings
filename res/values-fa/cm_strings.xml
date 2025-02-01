@@ -15,6 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyboard_extras_title">موارد اضافی</string>
     <string name="lineagelicense_title">موارد حقوقی سایانوژن‌مود</string>
     <string name="show_dev_on_cm">شما ابزارهای توسعه را فعال کرده‌اید!</string>
     <string name="show_dev_already_cm">نیازی نیست، ابزارهای توسعه قبلا فعال شده‌اند.</string>
@@ -22,11 +23,33 @@
     <string name="high_touch_sensitivity_summary">افزایش حساسیت صفحه به لمس تا هنگام پوشیدن دستکش نیز قابل استفاده باشد</string>
     <string name="lockpattern_settings_enable_error_path_title">نمایش الگوی نادرست</string>
     <string name="lockpattern_settings_enable_dots_title">نمایش نقطه‌های الگو</string>
+    <string name="max_refresh_rate_title">اوج نرخ تازه سازی</string>
+    <string name="min_refresh_rate_title">حداقل میزان نرخ تازه سازی صفحه</string>
+    <string name="show_navbar_hint_title">نوار پیمایش</string>
+    <string name="show_navbar_hint_summary">نوار پیمایش را در پایین صفحه نمایش دهید</string>
+    <string name="app_notification_sound_timeout_title">فاصله حداقل زمان برای صدای اعلان</string>
+    <string name="app_notification_sound_timeout_summary_template">اجازه لرزش و صدا بیشتر از یک بار در هر <xliff:g id="duration">%1$s</xliff:g> ثانیه را نده</string>
+    <string name="app_notification_sound_timeout_value_none">عدم محدودیت</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">۱۰ ثانیه</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">۳۰ ثانیه</string>
+    <string name="app_notification_sound_timeout_value_1_minute">۱ دقیقه</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">۵ دقیقه</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">۳۰ دقیقه</string>
     <string name="unlock_scramble_pin_layout_title">چینش درهم</string>
     <string name="unlock_scramble_pin_layout_summary">چینش درهم پین هنگام باز کردن قفل دستگاه</string>
     <string name="proximity_wake_title">جلوگیری از بیدار شدن تصادفی</string>
+    <string name="proximity_wake_summary">بررسی سنسور مجاورت قبل از بیداری صفحه نمایش</string>
+    <string name="touchscreen_gesture_settings_title">حرکات لمس صفحه</string>
+    <string name="touchscreen_gesture_settings_summary">اجرا کردن حرکات لمس صفحه متعدد برای عملیات سریع</string>
     <string name="touchscreen_hovering_title">لمس شناور صفحه</string>
     <string name="touchscreen_hovering_summary">به شما اجازه می‌دهد مانند عملکرد ماوس در مرورگرهای وب، ریموت دسکتاپ و غیره، صفحه نمایش را به صورت شناور کنترل کنید</string>
     <string name="wake_when_plugged_or_unplugged_title">بیدار شدن هنگام اتصال به برق</string>
     <string name="wake_when_plugged_or_unplugged_summary">روشن شدن صفحه هنگام اتصال یا قطع اتصال منبع برق</string>
+    <string name="fast_charging_title">شارژ سریع</string>
+    <string name="fast_charging_summary">برای کاهش حرارت تولید شده توسط دستگاه در هنگام شارژ یا افزایش طول عمر باتری، این قابلیت را غیرفعال کنید</string>
+    <string name="ambient_display_screen_off_udfps_title" product="default">برای باز کردن قفل گوشی،حسگر اثراگشت را طولانی فشار دهید</string>
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">برای باز کردن قفل رایانه‌لوحی،حسگر اثراگشت را طولانی فشار دهید</string>
+    <string name="ambient_display_screen_off_udfps_title" product="device">برای باز کردن قفل دستگاه،حسگر اثراگشت را طولانی فشار دهید</string>
+    <string name="ambient_display_screen_off_udfps_summary">برای روشن کردن صفحه و بازکردن قفل،حسگر اثرانگشت زیر صفحه را به مدت طولانی فشار دهید</string>
+    <string name="storage_warning_internal">هشدار: این گزینه ممکن است به درستی کار نکند یا منجر به از دست رفتن اطلاعات شود و بنابراین توصیه نمی شود!</string>
 </resources>
