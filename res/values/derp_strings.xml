@@ -396,4 +396,11 @@
     <string name="hide_developer_status_summary">Hide developer status from apps</string>
     <string name="search">Search</string>
     <string name="search_apps">Search apps</string>
+
+    <!-- Custom Wi-Fi bar icons -->
+    <string name="theme_customization_wifi_icon_title">Wifi icon</string>
+    <string name="theme_customization_wifi_icon_summary">Set Wifi icon style</string>
+    <!-- Custom Signal bar icons -->
+    <string name="theme_customization_signal_icon_title">Signal icons</string>
+    <string name="theme_customization_signal_icon_summary">Set signal icons style</string>
 </resources>
