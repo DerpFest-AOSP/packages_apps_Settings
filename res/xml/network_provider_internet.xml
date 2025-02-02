@@ -115,4 +115,20 @@
         android:summary="@string/cellular_security_summary"
         android:order="30"
         settings:controller="com.android.settings.network.CellularSecurityPreferenceController"/>
+
+    <Preference
+        android:key="android.theme.customization.wifi_icon"
+        android:icon="@drawable/ic_wifi"
+        android:title="@string/theme_customization_wifi_icon_title"
+        android:summary="@string/theme_customization_wifi_icon_summary"
+        android:order="35"
+        android:fragment="org.derpfest.settings.themes.WifiIcon"/>
+
+    <Preference
+        android:key="android.theme.customization.signal_icon"
+        android:icon="@drawable/ic_signal"
+        android:title="@string/theme_customization_signal_icon_title"
+        android:summary="@string/theme_customization_signal_icon_summary"
+        android:order="40"
+        android:fragment="org.derpfest.settings.themes.SignalIcons"/>
 </PreferenceScreen>

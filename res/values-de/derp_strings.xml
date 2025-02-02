@@ -362,4 +362,11 @@
     <!-- Heads-up -->
     <string name="compact_heads_up_notifications_enabled_title">Kompakte Pop-ups</string>
     <string name="compact_heads_up_notifications_enabled_summary">Kompakte Benachrichtigungsanzeige</string>
+
+    <!-- Custom Wi-Fi bar icons -->
+    <string name="theme_customization_wifi_icon_title">WLAN-Symbol</string>
+    <string name="theme_customization_wifi_icon_summary">Stil für WLAN-Symbol festlegen</string>
+    <!-- Custom Signal bar icons -->
+    <string name="theme_customization_signal_icon_title">Mobilfunksymbole</string>
+    <string name="theme_customization_signal_icon_summary">Stil für Mobilfunksymbole festlegen</string>
 </resources>
