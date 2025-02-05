@@ -397,4 +397,8 @@
     <!-- Custom Signal bar icons -->
     <string name="theme_customization_signal_icon_title">Signal icons</string>
     <string name="theme_customization_signal_icon_summary">Set signal icons style</string>
+
+     <!-- Ambient Ticker -->
+     <string name="pulse_on_new_tracks_title">Music ticker</string>
+     <string name="pulse_on_new_tracks_summary">Show music ticker on Ambient Display during track change or now playing song detection</string>
 </resources>

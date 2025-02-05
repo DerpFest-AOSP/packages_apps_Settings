@@ -369,4 +369,8 @@
     <!-- Custom Signal bar icons -->
     <string name="theme_customization_signal_icon_title">Mobilfunksymbole</string>
     <string name="theme_customization_signal_icon_summary">Stil für Mobilfunksymbole festlegen</string>
+
+    <!-- Ambient Ticker -->
+    <string name="pulse_on_new_tracks_title">Musikticker</string>
+    <string name="pulse_on_new_tracks_summary">Bei Titelwechsel Musikticker im Ambient-Modus anzeigen</string>
 </resources>
