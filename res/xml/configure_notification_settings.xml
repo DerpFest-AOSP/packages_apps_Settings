@@ -237,6 +237,13 @@
             android:defaultValue="false"
             android:dependency="heads_up_notifications_enabled" />
 
+        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+            android:key="ongoing_action_chip"
+            android:order="30"
+            android:title="@string/ongoing_action_chip_title"
+            android:summary="@string/ongoing_action_chip_summary"
+            android:defaultValue="true" /> 
+
         <!-- Edge Light -->
         <org.derpfest.support.preferences.SelfRemovingPreference
             android:key="ambient_edge_light"

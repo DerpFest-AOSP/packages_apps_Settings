@@ -410,4 +410,8 @@
     </string>
     <string name="island_notification_now_playing_title">Now playing</string>
     <string name="island_notification_now_playing_summary">Show currently playing media as island notification</string>
+
+    <!-- Ongoing action chip -->
+    <string name="ongoing_action_chip_title">Ongoing action chip</string>
+    <string name="ongoing_action_chip_summary">Show progress indicator in status bar for ongoing actions like downloads</string> 
 </resources>
