@@ -179,6 +179,9 @@
     <!-- List of packages that should be allowlisted for slice uri access. Do not translate -->
     <string-array name="slice_allowlist_package_names" translatable="false"/>
 
+    <!-- List of packages that should be allowlisted for slice uri access for debugging purpose. Do not translate -->
+    <string-array name="slice_allowlist_package_names_for_dev" translatable="false"/>
+
     <!-- Whether or not App & Notification screen should display recently used apps -->
     <bool name="config_display_recent_apps">true</bool>
 
