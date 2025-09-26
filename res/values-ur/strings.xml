@@ -938,6 +938,8 @@
     <string name="bluetooth_incoming_pairing_msg" msgid="1068123527866596779">"‏منجانب:‎&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;‎اس آلہ کے ساتھ جوڑا بنائیں؟"</string>
     <string name="bluetooth_display_passkey_pin_msg" msgid="8672803845151786521">"اس کے ساتھ جوڑا بنانے کیلئے:<xliff:g id="BOLD1_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD1">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g>اس پر ٹائپ کریں:<xliff:g id="BOLD2_1">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="PASSKEY">%2$s</xliff:g><xliff:g id="END_BOLD2">&lt;/b&gt;</xliff:g>, پھر واپس جائیں یا انٹر کریں کو دبائیں۔"</string>
     <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">"اپنے رابطوں اور کال کی سرگزشت تک رسائی کی اجازت دیں"</string>
+    <string name="bluetooth_pairing_confirmation_title" msgid="3359642089708714808">"جوڑا بنانے کے کوڈز چیک کریں"</string>
+    <string name="bluetooth_pairing_confirmation_msg" msgid="8204761740738350792">"چیک کریں کہ آیا یہ کوڈ <xliff:g id="DEVICE_NAME">%1$s</xliff:g> پر موجود کوڈ سے مماثل ہے۔\n\nاپنی سیکیورٹی کیلئے، یہ کوڈ کسی بھی جگہ درج نہ کریں۔"</string>
     <string name="bluetooth_error_title" msgid="2284738188253690278"></string>
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> سے مربوط نہیں ہو سکا۔"</string>
     <string name="bluetooth_preference_scan_title" msgid="3460316252463771851">"آلات کیلئے اسکین کریں"</string>

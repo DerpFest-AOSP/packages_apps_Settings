@@ -938,6 +938,8 @@
     <string name="bluetooth_incoming_pairing_msg" msgid="1068123527866596779">"Kusuka ku:&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;Beka eceleni namanye amadivayisi?"</string>
     <string name="bluetooth_display_passkey_pin_msg" msgid="8672803845151786521">"Ukubhangqa ne:<xliff:g id="BOLD1_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD1">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g>Thayipha kuyona:<xliff:g id="BOLD2_1">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="PASSKEY">%2$s</xliff:g><xliff:g id="END_BOLD2">&lt;/b&gt;</xliff:g>, bese ucindezela inkinobho uBuyisela noma uNgena."</string>
     <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">"Vumela ukufinyelela koxhumana nabo nomlando wekholi"</string>
+    <string name="bluetooth_pairing_confirmation_title" msgid="3359642089708714808">"Hlola amakhodi okubhangqa"</string>
+    <string name="bluetooth_pairing_confirmation_msg" msgid="8204761740738350792">"Maka uma le khodi iqondana naleyo eku-<xliff:g id="DEVICE_NAME">%1$s</xliff:g>.\n\nUkuze uphephe, ungayifaki noma kuphi le khodi."</string>
     <string name="bluetooth_error_title" msgid="2284738188253690278"></string>
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"Ayikwazanga ukuxhuma ku-<xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
     <string name="bluetooth_preference_scan_title" msgid="3460316252463771851">"Skena amadivaysi"</string>

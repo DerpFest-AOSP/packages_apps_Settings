@@ -938,6 +938,8 @@
     <string name="bluetooth_incoming_pairing_msg" msgid="1068123527866596779">"De: &lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt; Sincronizar com este aparelho?"</string>
     <string name="bluetooth_display_passkey_pin_msg" msgid="8672803845151786521">"Para sincronizar com:<xliff:g id="BOLD1_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD1">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g>Introduza no mesmo:<xliff:g id="BOLD2_1">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="PASSKEY">%2$s</xliff:g><xliff:g id="END_BOLD2">&lt;/b&gt;</xliff:g> e, em seguida, prima Enter."</string>
     <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">"Permitir o acesso aos contactos e ao histórico de chamadas"</string>
+    <string name="bluetooth_pairing_confirmation_title" msgid="3359642089708714808">"Verifique os códigos de sincronização"</string>
+    <string name="bluetooth_pairing_confirmation_msg" msgid="8204761740738350792">"Verifique se este código corresponde ao que está no dispositivo <xliff:g id="DEVICE_NAME">%1$s</xliff:g>.\n\nPara sua segurança, não introduza este código em lado algum."</string>
     <string name="bluetooth_error_title" msgid="2284738188253690278"></string>
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"Não foi possível ligar a <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
     <string name="bluetooth_preference_scan_title" msgid="3460316252463771851">"Procurar dispositivos"</string>

@@ -938,6 +938,8 @@
     <string name="bluetooth_incoming_pairing_msg" msgid="1068123527866596779">"වෙතින්:&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;මෙම උපාංගය සමඟ යුගල කරන්නද?"</string>
     <string name="bluetooth_display_passkey_pin_msg" msgid="8672803845151786521">"<xliff:g id="BOLD1_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD1">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g>: සමඟ යුගල කිරීමට එය මත <xliff:g id="BOLD2_1">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="PASSKEY">%2$s</xliff:g><xliff:g id="END_BOLD2">&lt;/b&gt;</xliff:g>: ටයිප් කරන්න, ඉන්පසු Return හෝ Enter ඔබන්න."</string>
     <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">"ඔබගේ සම්බන්ධතා සහ ඇමතුම් ඉතිහාසය වෙත ප්‍රවේශ විමට ඉඩ දෙන්න"</string>
+    <string name="bluetooth_pairing_confirmation_title" msgid="3359642089708714808">"යුගල කිරීමේ කේත පරීක්ෂා කරන්න"</string>
+    <string name="bluetooth_pairing_confirmation_msg" msgid="8204761740738350792">"මෙම කේතය <xliff:g id="DEVICE_NAME">%1$s</xliff:g> හි ඇති එකට ගැළපෙනවා දැයි පරීක්ෂා කරන්න.\n\nඔබේ ආරක්ෂාව සඳහා, මෙම කේතය කොතැනකවත් ඇතුළු නොකරන්න."</string>
     <string name="bluetooth_error_title" msgid="2284738188253690278"></string>
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> වෙත සම්බන්ධ වීමට නොහැකි විය."</string>
     <string name="bluetooth_preference_scan_title" msgid="3460316252463771851">"උපාංග සඳහා පරිලෝකනය කරන්න"</string>

@@ -938,6 +938,8 @@
     <string name="bluetooth_incoming_pairing_msg" msgid="1068123527866596779">"Từ:&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;Ghép nối với thiết bị này?"</string>
     <string name="bluetooth_display_passkey_pin_msg" msgid="8672803845151786521">"Để ghép nối với:<xliff:g id="BOLD1_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD1">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g>Hãy nhập trên thiết bị:<xliff:g id="BOLD2_1">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="PASSKEY">%2$s</xliff:g><xliff:g id="END_BOLD2">&lt;/b&gt;</xliff:g> rồi nhấn Quay lại hoặc Enter."</string>
     <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">"Cho phép truy cập vào danh bạ và nhật ký cuộc gọi của bạn"</string>
+    <string name="bluetooth_pairing_confirmation_title" msgid="3359642089708714808">"Kiểm tra mã ghép nối"</string>
+    <string name="bluetooth_pairing_confirmation_msg" msgid="8204761740738350792">"Kiểm tra xem mã này có khớp với mã trên <xliff:g id="DEVICE_NAME">%1$s</xliff:g> hay không.\n\nĐể bảo mật, bạn không nên nhập mã này ở bất cứ đâu."</string>
     <string name="bluetooth_error_title" msgid="2284738188253690278"></string>
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"Không thể kết nối với <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
     <string name="bluetooth_preference_scan_title" msgid="3460316252463771851">"Dò tìm thiết bị"</string>

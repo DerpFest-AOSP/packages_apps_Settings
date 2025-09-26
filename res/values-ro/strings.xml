@@ -948,13 +948,15 @@
     <string name="bluetooth_enable_alphanumeric_pin" msgid="7256286571636950635">"Codul PIN conține litere sau simboluri"</string>
     <string name="bluetooth_pin_values_hint" msgid="2753202519050044670">"De obicei, 0000 sau 1234"</string>
     <string name="bluetooth_pin_values_hint_16_digits" msgid="5603928271430883558">"Trebuie să aibă 16 cifre"</string>
-    <string name="bluetooth_enter_pin_other_device" msgid="6737778699899780717">"Ar putea fi necesar, de asemenea, să introduci acest cod PIN pe celălalt dispozitiv."</string>
-    <string name="bluetooth_enter_passkey_other_device" msgid="8270426446247344709">"Ar putea fi necesar, de asemenea, să introduci această parolă pe celălalt dispozitiv."</string>
-    <string name="bluetooth_confirm_passkey_msg" msgid="327192310468680072">"Pentru asocierea cu:&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;asigură-te că se afișează această cheie de acces:&lt;br&gt;&lt;b&gt;<xliff:g id="PASSKEY">%2$s</xliff:g>&lt;/b&gt;"</string>
-    <string name="bluetooth_paring_group_msg" msgid="4609515924670823316">"Confirmă pentru a asocia cu setul coordonat"</string>
-    <string name="bluetooth_incoming_pairing_msg" msgid="1068123527866596779">"De la:&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;Asociezi cu acest dispozitiv?"</string>
-    <string name="bluetooth_display_passkey_pin_msg" msgid="8672803845151786521">"Pentru împerecherea cu:<xliff:g id="BOLD1_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD1">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g>Introdu pe acesta:<xliff:g id="BOLD2_1">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="PASSKEY">%2$s</xliff:g><xliff:g id="END_BOLD2">&lt;/b&gt;</xliff:g>, apoi apasă tasta Return sau Enter."</string>
-    <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">"Permite accesul la agendă și la istoricul apelurilor"</string>
+    <string name="bluetooth_enter_pin_other_device" msgid="6737778699899780717">"Ar putea fi necesar, de asemenea, să introduceți acest cod PIN pe celălalt dispozitiv."</string>
+    <string name="bluetooth_enter_passkey_other_device" msgid="8270426446247344709">"Ar putea fi necesar, de asemenea, să introduceți această parolă pe celălalt dispozitiv."</string>
+    <string name="bluetooth_confirm_passkey_msg" msgid="327192310468680072">"Pentru asocierea cu:&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;asigurați-vă că se afișează această cheie de acces:&lt;br&gt;&lt;b&gt;<xliff:g id="PASSKEY">%2$s</xliff:g>&lt;/b&gt;"</string>
+    <string name="bluetooth_paring_group_msg" msgid="4609515924670823316">"Confirmați pentru a asocia cu setul coordonat"</string>
+    <string name="bluetooth_incoming_pairing_msg" msgid="1068123527866596779">"De la:&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;Asociați cu acest dispozitiv?"</string>
+    <string name="bluetooth_display_passkey_pin_msg" msgid="8672803845151786521">"Pentru împerecherea cu:<xliff:g id="BOLD1_0">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD1">&lt;/b&gt;&lt;br&gt;&lt;br&gt;</xliff:g>Introduceți pe acesta:<xliff:g id="BOLD2_1">&lt;br&gt;&lt;b&gt;</xliff:g><xliff:g id="PASSKEY">%2$s</xliff:g><xliff:g id="END_BOLD2">&lt;/b&gt;</xliff:g>, apoi apăsați tasta Return sau Enter."</string>
+    <string name="bluetooth_pairing_shares_phonebook" msgid="4329325125260724843">"Permiteți accesul la agendă și la istoricul apelurilor"</string>
+    <string name="bluetooth_pairing_confirmation_title" msgid="3359642089708714808">"Verifică codurile de conectare"</string>
+    <string name="bluetooth_pairing_confirmation_msg" msgid="8204761740738350792">"Verifică dacă acest cod corespunde cu cel de pe <xliff:g id="DEVICE_NAME">%1$s</xliff:g>.\n\nPentru siguranța ta, nu introduce acest cod nicăieri."</string>
     <string name="bluetooth_error_title" msgid="2284738188253690278"></string>
     <string name="bluetooth_connecting_error_message" msgid="3941893154784152112">"Nu s-a putut conecta la <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
     <string name="bluetooth_preference_scan_title" msgid="3460316252463771851">"Scanează pentru a detecta dispozitive"</string>
