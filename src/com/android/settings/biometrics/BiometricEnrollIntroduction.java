@@ -47,6 +47,8 @@ import com.google.android.setupdesign.span.LinkSpan;
 import com.google.android.setupdesign.template.RequireScrollMixin;
 import com.google.android.setupdesign.util.DynamicColorPalette;
 
+import java.util.List;
+
 /**
  * Abstract base class for the intro onboarding activity for biometric enrollment.
  */
@@ -226,6 +228,18 @@ public abstract class BiometricEnrollIntroduction extends BiometricEnrollBase
                         mHasScrolledToBottom = true;
                     }
                 });
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        if (!getPackageName().equals(getCallingPackage())) {
+            for (String key : List.of(MultiBiometricEnrollHelper.EXTRA_SKIP_PENDING_ENROLL,
+                    MultiBiometricEnrollHelper.EXTRA_ENROLL_AFTER_FACE)) {
+                getIntent().removeExtra(key);
+            }
+        }
     }
 
     @Override
